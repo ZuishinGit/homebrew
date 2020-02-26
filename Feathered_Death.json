@@ -1,0 +1,31 @@
+{
+	"meta": {
+	"sources": [
+		{
+			"json": "Zuishin",
+			"abbreviation": "ZWD",
+			"full": "Zuishin's Waterdeep",
+			"authors": [
+				"Zuishin"
+				],
+			"version": "1.0.0",
+			"url": "https://github.com/ZuishinGit/ZuishinHomebrew",
+			"color": "ffcc99"
+		}
+	]
+	},
+	"disease": [
+	{
+	"name": "Feathered Death",
+	"entries": [
+	"This disease targets mainly humans. The disease is typically transmitted by birds infected with minor lycanthropy. Should the infected creature succumb to this magical disease, they would find themselves turned into a {@creature Dire Corby Alpha|MME2}.",
+	"When a human is bitten or scratched by a diseased bird, the human must succeed on a DC 12 Constitution saving throw or become infected.",
+	"It takes {@dice 1d4 + 2} days for the infected creature to fully transform. Throughout these few days, the creature suffers a number of effects, becoming gradually more bird-like in nature.",
+	"Upon fully transforming, the human is no longer recognizable as their former self, and retains no knowledge of their prior life of a human. This usually results in the creature indiscriminately attacking former allies and strangers.",
+	"Curing a creature infected with this disease entails the usage of a {@spell remove curse} or {@spell greater restoration}; however, a creature's full transformation can only be undone by a {@spell wish} spell."
+	],
+	"source": "Zuishin"
+	}
+	]
+}
+	
