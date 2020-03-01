@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1582688624,
-		"dateLastModified": 1582688624
+		"dateAdded": 1583062620,
+		"dateLastModified": 1583062620
 	},
 	"monster": [
 		{
@@ -127,6 +127,11 @@
 			"environment": [
 				"urban"
 			],
+			"fluff": {
+				"entries": [
+					"Claw is a half-meenlock, half-human interrogator who works for the Zhentarim. He has a mysterious past, though what is known is that he was at one point a high-ranking member of the Xanathar, before they tried some fucky shit. Through magical protection, he was able to retain some of his humanity from the meenlock conversion ritual."
+				]
+			},
 			"tokenUrl": "https://5e.tools/img/MTF/Diabolical%20Cultist.png?v=1.96.3",
 			"traitTags": [
 				"Light Sensitivity"
@@ -153,7 +158,7 @@
 				"frightened",
 				"paralyzed"
 			],
-			"uniqueId": "d51bc924bd0e900ffbf37fb2b5dbe882"
+			"uniqueId": "5d9bc51c8093d77fb6b507e0dd69c1bd"
 		},
 		{
 			"name": "Sproutchild",
@@ -252,9 +257,9 @@
 					]
 				},
 				{
-					"name": "Last Resort",
+					"name": "Last Resort (Coven Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage. All of the sprouts in a single coven combine their remaining druidic magic to grow into a single Treant. After growing into a treant, the sprouts must immediately make a Last Resort attack before withering away."
 					]
 				}
 			],
@@ -263,14 +268,14 @@
 				{
 					"name": "Last Resort (Coven Only)",
 					"entries": [
-						"All of the sprouts in a single coven combine their remaining druidic magic to grow into a single Treant. After growing into a treant, the sprouts must immediately make a Last Resort attack before withering away."
+						"The sprouts take the Last Resort action."
 					]
 				}
 			],
 			"environment": [
 				"urban"
 			],
-			"tokenUrl": "https://5e.tools/img/MTF/Diabolical%20Cultist.png?v=1.96.3",
+			"tokenUrl": "https://5e.tools/img/DIP/Twig%20Blight.png?v=1.99.1",
 			"senseTags": [
 				"D"
 			],
@@ -291,7 +296,7 @@
 				"RCH",
 				"RW"
 			],
-			"uniqueId": "ae9bb754a0369c06cc3fd55029a3799d"
+			"uniqueId": "33cf326cb8b33f248e315f3a0cfea9b4"
 		},
 		{
 			"name": "Delhoor, the Decapitator",
@@ -356,7 +361,7 @@
 				{
 					"name": "Vengeful Rage",
 					"entries": [
-						"If Delhoor sees Callin slain, Delhoor goes into a blind rage, targeting only the foe that dealt the final blow to Callin. During this rage, Delhoor gains resistance to bludgeoning, piercing, and slashing damage, has advantage on strength saving throws and ability checks."
+						"If Delhoor sees Sen'Gar slain, Delhoor goes into a blind rage, targeting only the foe that dealt the final blow to Sen'Gar. During this rage, Delhoor gains resistance to bludgeoning, piercing, and slashing damage, has advantage on strength saving throws and ability checks."
 					]
 				},
 				{
@@ -370,19 +375,25 @@
 					"entries": [
 						"At the start of its turn, Delhoor can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
 					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Delhoor fails a saving throw, it can choose to succeed instead."
+					]
 				}
 			],
 			"action": [
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Delhoor can make 2 Halberd attacks per turn. If Callin has died in this combat he can make 3."
+						"Delhoor can make 2 Halberd attacks per turn. If Sen'Gar has died in this combat he can make 3."
 					]
 				},
 				{
 					"name": "Halberd",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 8}) slashing damage."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
 					]
 				}
 			],
@@ -390,13 +401,22 @@
 				{
 					"name": "Geminate Shield",
 					"entries": [
-						"If Delhoor sees or hears an attack that hits Callin, Delhoor can swap places with Callin, provided they are within 5 feet of eachother, taking the damage that Callin would have taken instead."
+						"If Delhoor sees or hears an attack that hits Sen'Gar, Delhoor can swap places with Sen'Gar, provided they are within 5 feet of eachother, taking the damage that Sen'Gar would have taken instead."
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Sen'Gar and Delhoor are orc twins born deep in undermountain, and residents of Skullport. Their rough upbringing turned them to a life of crime, and eventually they became skilled assassins, who venture across Faerun to complete their contracts. Long ago, a clone of Manshoon helped them escape undermountain, and as such they owe him a great favor. While not members of Zhentarim, they consider themselves servants of Bane, and as such have alligned goals.",
+					"Delhoor, the Decapitator",
+					"Delhoor, the brother of Sen'Gar has a less magical upbringing than his brother; however, he loves him dearly and would do everything in his power to protect him. Rather than turn towards the magical, Delhoor has always been strong, and as such embraces his brutish nature to protect Sen. While Delhoor believes his life has been completely mundane, his blood is magically cursed, which gives him supernatural strength.",
+					"Delhoor wears the top half of a golden skull, along with a wicked black and crude halberd, which stands at about 9 feet tall. He wears spiked plate armor."
+				]
+			},
 			"tokenUrl": "https://5e.tools/img/ERLW/Bone Knight.png?v=1.97.1",
 			"traitTags": [
 				"Aggressive",
+				"Legendary Resistances",
 				"Reckless"
 			],
 			"senseTags": [
@@ -417,7 +437,7 @@
 				"MW",
 				"RCH"
 			],
-			"uniqueId": "b66a7ecae58653e8e44dd188713b7d7e"
+			"uniqueId": "4b590a021a6b4c3b1ca31a1846225781"
 		},
 		{
 			"name": "Villainous Shadow",
@@ -595,7 +615,7 @@
 			"conditionInflicted": [
 				"frightened"
 			],
-			"uniqueId": "ed3c1aabd7b6640a10939c0a37589342"
+			"uniqueId": "3771f795c5c798c4f5e9eed77ee4b4c8"
 		},
 		{
 			"name": "Sen'Gar, the Skulking Singer",
@@ -611,7 +631,7 @@
 				]
 			},
 			"alignment": [
-				"N",
+				"C",
 				"E"
 			],
 			"ac": [
@@ -623,8 +643,8 @@
 				}
 			],
 			"hp": {
-				"formula": "16d8 + 0",
-				"average": 72
+				"formula": "20d8 + 0",
+				"average": 90
 			},
 			"speed": {
 				"walk": 30
@@ -660,7 +680,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Sen'Gar is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, +6 to hit with spell attacks). Sen'Gar has the following warlock spells known:"
+						"Sen'Gar is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Sen'Gar has the following warlock spells known:"
 					],
 					"spells": {
 						"0": {
@@ -695,13 +715,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sen'Gar can make two spell attacks (of the three listed below)."
+						"Sen'Gar can make two spell attacks (of the three listed below), or one Vampiric Touch spell attack and one of the three eldritch spells."
 					]
 				},
 				{
 					"name": "Eldritch Push",
 					"entries": [
-						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 3}) force damage, and the target has to make a {@dc 14} Strength saving throw or be pushed 10 feet away."
+						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) force damage, and the target has to make a {@dc 14} Strength saving throw or be pushed 10 feet away."
 					]
 				},
 				{
@@ -713,13 +733,19 @@
 				{
 					"name": "Eldritch Whip",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, reach 30 ft., three targets. {@h}8 ({@damage 1d10 + 3}) force damage."
+						"{@atk rs} {@hit 6} to hit, reach 15 ft., three targets. {@h}8 ({@damage 1d10 + 3}) force damage."
 					]
 				},
 				{
-					"name": "Vulture Talon",
+					"name": "Vulture Cane",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage and the target must succeed a {@dc 15} Constitution saving throw against disease or be infected with {@disease feathered death}."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage and the target must succeed a {@dc 15} Constitution saving throw against disease or be infected with {@disease feathered death|Zuishin|}."
+					]
+				},
+				{
+					"name": "Maddening Gas {@recharge 4}",
+					"entries": [
+						"Sen'Gar uses one of the canisters of magical gas that he has at his disposal. All creatures within a 30-foot-radius sphere centered on Sen'Gar must succeed a {@dc 14} Constitution saving throw against poison or be afflicted with short-term madness (roll on the Short-Term Madness table in the DMG). This saving throw can be repeated at the end of a creature's turn, ending itself on a success."
 					]
 				}
 			],
@@ -733,18 +759,34 @@
 			],
 			"legendary": [
 				{
-					"name": "Vulture Swarm (costs 2 actions)",
+					"name": "Maddening Gas",
 					"entries": [
-						"Sen'Gar commands the nearby vultures to swarm the battlefield, making it difficult terrain for everyone except Sen'Gar and Delhoor, and lightly obscuring the area."
+						"Sen'Gar takes the Maddening Gas action."
 					]
 				},
 				{
-					"name": "Vulture Harry",
+					"name": "Vulture Talon",
 					"entries": [
-						"Sen'Gar commands the swarm of vultures to attack a single enemy, who must make a {@dc 14} Dexterity saving throw or be {@condition blinded} until the end of their next turn."
+						"Sen'Gar uses his Vulture Cane attack."
+					]
+				},
+				{
+					"name": "Lair Actions",
+					"entries": [
+						"On initiative count 20 (losing initiative ties), Sen'Gar takes a lair action to cause one of the following effects; Sen'Gar can't use the same effect two rounds in a row:",
+						"1. Sen'Gar commands the nearby vultures to swarm the battlefield, making it difficult terrain for everyone except Sen'Gar and Delhoor, and lightly obscuring the area.",
+						"2. Sen'Gar commands the vultures to harrass a single creature, the creature must succeed a {@dc} 14 Dexterity saving throw or be {@condition blinded} for the whole round. While {@condition blinded}, the creature has half-cover from the vultures.",
+						"3. Sen'Gar commands the vultures to fly around in a 30-foot-radius ring centered on an area he can see. Creatures (aside from Sen'Gar and Delhoor) can only leave this ring with a {@dc 10} Athletics check, taking their action. This ring provides total cover from the inside and out."
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Sen'Gar and Delhoor are orc twins born deep in undermountain, and residents of Skullport. Their rough upbringing turned them to a life of crime, and eventually they became skilled assassins, who venture across Faerun to complete their contracts. Long ago, a clone of Manshoon helped them escape undermountain, and as such they owe him a great favor. While not members of Zhentarim, they consider themselves servants of Bane, and as such have alligned goals.",
+					"Sen'Gar, the Skulking Singer",
+					"Sen'Gar one day found a gross cyst growing from his neck, which eventually grew to the size of a fist. This is when it began to speak to him. The cyst offered great power in exchange for the spreading of their disease, to which Sen'Gar obliged. He uses vultures to spread quite horrifying magic diseases, the likes of which have never before been encountered in Faerun. Sen'Gar dons the skull of a giant vulture, and uses magical gases to manipulate wild animals. However, there is a particular flock of vultures that follows Sen'Gar, eating the trail of bodies he leaves in his wake."
+				]
+			},
 			"tokenUrl": "https://5e.tools/img/VGM/Darkling Elder.png?v=1.99.1",
 			"senseTags": [
 				"SD"
@@ -766,16 +808,18 @@
 				"CL"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
 			"conditionInflicted": [
+				"blinded",
 				"poisoned"
 			],
-			"uniqueId": "3236f0227d0d609f639f8464824996b2"
+			"uniqueId": "1372a44b51f656a2f026176dd1c6a6bc"
 		},
 		{
-			"name": "Blood Soldier",
+			"name": "Blood Elemental",
 			"source": "ZuishinsWaterdeep",
 			"srd": true,
 			"size": "L",
@@ -961,7 +1005,182 @@
 				"grappled",
 				"restrained"
 			],
-			"uniqueId": "cf8e088a62526706913f7b14b91c63e4"
+			"uniqueId": "ef771e16a3e305ba7717e7b88d57bf04"
+		},
+		{
+			"name": "Villainous Doppelganger",
+			"source": "ZuishinsWaterdeep",
+			"srd": true,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "18d8 + 36",
+				"average": 117
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 20,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"deception": "+8",
+				"insight": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"telepathy"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Greater Shapechanger",
+					"entries": [
+						"The villainous doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, either physically or through reading a creature's thoughts, or back into its true form. Its statistics, other than its size, are the same in each form; however, the villainous doppelganger can use one of the features of a creature it transforms into. For example, transforming into a great lightning-using spellcaster may grant the villainous doppelganger a single lightning bolt spell. Or transforming into a barbarian may give them the option to use their Rage feature. In general, the features granted by this should not push the villainous doppelganger's CR by more than 1 (see DMG Monster Statistics by CR table). Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"In the first round of a combat, the villainous doppelganger has advantage on attack rolls against any creature it surprised."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the villainous doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The villainous doppelganger makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Greater Read Thoughts",
+					"entries": [
+						"The villainous doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target. The Villainous Doppelganger can share this connection through its telepathy, granting the benefits of it to each creature of its choice that its telepathy can reach."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Greater Shapechanger",
+					"entries": [
+						"The villainous doppelganger takes the action described by its Greater Shapechanger trait."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The villainous doppelganger uses the Greater Read Thoughts action."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Doppelganger",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Doppelgangers are devious shapeshifters that take on the appearance of other humanoids, throwing off pursuit or luring victims to their doom with misdirection and disguise. Few creatures spread fear, suspicion, and deceit better than doppelgangers. Found in every land and culture, they can take on the guise of any individual of any race.",
+									{
+										"name": "Stealing Secrets",
+										"type": "entries",
+										"entries": [
+											"A doppelganger's adopted form allows it to blend into almost any group or community, but its transformation doesn't impart languages, mannerisms, memory, or personality. Doppelgangers often follow or capture creatures they intend to impersonate, studying them and probing their minds for secrets. A doppelganger can read a creature's surface thoughts, allowing it to glean that creature's name, desires, and fears, along with a few scattered memories. A doppelganger impersonating a specific creature as part of a long-term plot might keep its double alive and close at hand for weeks, probing the victim's mind daily to learn how to behave and speak authentically."
+										]
+									},
+									{
+										"name": "Hedonistic Swindlers",
+										"type": "entries",
+										"entries": [
+											"Doppelgangers work alone or in small groups, with group roles shifting from con to con. While one doppelganger takes the place of a murdered merchant or noble, the others take on a number of identities as circumstances warrant, playing the parts of family or servants while they live off the victim's riches."
+										]
+									},
+									{
+										"name": "Changelings",
+										"type": "entries",
+										"entries": [
+											"Doppelgangers are too lazy or self-interested to raise their young. They assume attractive male forms and seduce women, leaving them to raise their progeny. A doppelganger child appears to be a normal member of its mother's species until it reaches adolescence, at which point it discovers its true nature and is driven to seek out its kind to join them."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Doppelganger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Doppelganger.png?v=1.99.1",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/131/doppelganger.mp3",
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "08e050b1469bedad2bf3ad1dafed3e67"
 		}
 	]
 }
