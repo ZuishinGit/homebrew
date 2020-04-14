@@ -1,0 +1,132 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TutorialSource",
+				"abbreviation": "TSource",
+				"full": "TutorialSource",
+				"url": "",
+				"authors": [
+					"Zuishin"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1586832894,
+		"dateLastModified": 1586832894
+	},
+	"monster": [
+		{
+			"name": "Big Bad Evil Guy",
+			"source": "TutorialSource",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				20
+			],
+			"hp": {
+				"special": "half the hit point maximum of its summoner"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"all languages known to its summoner"
+			],
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The avatar is immune to features that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Reaping Scythe",
+					"entries": [
+						"The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) necrotic damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Avatar of Death",
+				"source": "DMG",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Summoned by the \"Skull\" card from the {@item Deck of Many Things}."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/DMG/Avatar of Death.png?v=1.102.7",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"S"
+			],
+			"uniqueId": "e0d54cb17720ee7052dae703f013f4dd"
+		}
+	]
+}
