@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1587154990,
-		"dateLastModified": 1587154990
+		"dateAdded": 1587273264,
+		"dateLastModified": 1587273264
 	},
 	"monster": [
 		{
@@ -35,8 +35,8 @@
 				15
 			],
 			"hp": {
-				"formula": "16d6 + 32",
-				"average": 88
+				"formula": "20d6 + 40",
+				"average": 110
 			},
 			"speed": {
 				"walk": 40
@@ -60,16 +60,6 @@
 				"darkvision 120 ft."
 			],
 			"passive": 9,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from non-magical attacks"
-				}
-			],
 			"conditionImmune": [
 				"charmed",
 				"poisoned"
@@ -155,12 +145,6 @@
 					"entries": [
 						"The nilbog can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
 					]
-				},
-				{
-					"name": "Spider Climb",
-					"entries": [
-						"The nilbog can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-					]
 				}
 			],
 			"action": [
@@ -192,7 +176,7 @@
 					]
 				}
 			],
-			"legendaryActions": 5,
+			"legendaryActions": 3,
 			"legendary": [
 				{
 					"name": "Fool's Scepter",
@@ -289,8 +273,7 @@
 			"tokenUrl": "https://5e.tools/img/VGM/Nilbog.png?v=1.102.7",
 			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/359/nilbog.mp3",
 			"traitTags": [
-				"Legendary Resistances",
-				"Spider Climb"
+				"Legendary Resistances"
 			],
 			"senseTags": [
 				"SD"
@@ -318,7 +301,7 @@
 				"incapacitated",
 				"prone"
 			],
-			"uniqueId": "82811e45fbe399850f2fe4d968260675"
+			"uniqueId": "fff2a3a69d1b6a8e1e1692a9f19d334d"
 		},
 		{
 			"name": "Halaster's Nilbog Prime",
@@ -339,8 +322,8 @@
 				}
 			],
 			"hp": {
-				"formula": "6d20 + 36",
-				"average": 99
+				"formula": "13d20 + 78",
+				"average": 214
 			},
 			"speed": {
 				"walk": 30,
@@ -351,7 +334,7 @@
 			"con": 23,
 			"int": 10,
 			"wis": 10,
-			"cha": 10,
+			"cha": 8,
 			"save": {
 				"con": "+11"
 			},
@@ -388,7 +371,7 @@
 				{
 					"name": "Bloodied",
 					"entries": [
-						"When the carrion crawler is first reduced to below half its maximum hit points, its tentacle flurry action recharges and it can immediately use it as a reaction."
+						"When the carrion crawler is first reduced to below half its maximum hit points, its tentacle flurry action recharges and it can immediately use it."
 					]
 				},
 				{
@@ -412,7 +395,7 @@
 				{
 					"name": "Tentacle Maneuverability",
 					"entries": [
-						"As a bonus action, the carrion crawler can move a creature that is {@condition grappled} by its tentacles up to 15 feet straight towards it or away from it. This movement can not exceed the tentacle's reach."
+						"As a bonus action, the carrion crawler can move any number of creatures that are {@condition grappled} by its tentacles up to 15 feet straight towards it or away from it. This movement can not exceed the tentacle's reach."
 					]
 				}
 			],
@@ -432,21 +415,21 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 20 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage, and the target must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
-						"Additionally, if 2 of the tentacles hit the same creature in one turn, that creature is {@condition grappled} (escape {@dc 16})."
+						"{@atk mw} {@hit 2} to hit, reach 20 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage, and the target must succeed on a {@dc 17} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
+						"Additionally, if 2 of the tentacles hit the same creature in one turn, that creature is {@condition grappled} (escape {@dc 17})."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The carrion crawler makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the carrion crawler, and it takes 14 ({@damage 4d6}) acid damage at the start of each of the carrion crawler's turns.",
-						"If the carrion crawler takes 20 damage or more on a single turn from the creatures inside it, the carrion crawler must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the carrion crawler. If the carrion crawler dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+						"The carrion crawler makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the carrion crawler, and it takes 28 ({@damage 8d6}) acid damage at the start of each of the carrion crawler's turns.",
+						"If the carrion crawler takes 30 damage or more on a single turn from the creatures inside it, the carrion crawler must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the carrion crawler. If the carrion crawler dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
 					]
 				},
 				{
 					"name": "Tentacle Flurry {@recharge}",
 					"entries": [
-						"The carrion crawler wildly flails its tentacles in a 20-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 36 ({@damage 8d8}) bludgeoning damage on a failed save, or half as much on a successful one."
+						"The carrion crawler wildly flails its tentacles in a 20-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 36 ({@damage 8d8}) bludgeoning damage on a failed save, or half as much on a successful one."
 					]
 				}
 			],
@@ -473,7 +456,7 @@
 					"name": "Lair Actions",
 					"entries": [
 						"On initiative count 20 (losing initiative ties), the carrion crawler takes a lair action to cause one of the effects described below:",
-						"-Causes one wall of the lair to move up to 5 feet outwards or inwards. Anyone caught by the shift must make a {@dc 15} Strength saving throw or fall {@condition prone}.",
+						"-Causes one wall of the lair to move up to 5 feet outwards or inwards. Anyone caught by the shift must make a {@dc 16} Strength saving throw or fall {@condition prone}.",
 						"-The laugh of the nilbog can be heard throughout the lair. Each creature that can hear must make a {@dc 16} Wisdom saving throw or it can not take the dash or disengage actions."
 					]
 				}
@@ -554,7 +537,7 @@
 				"poisoned",
 				"restrained"
 			],
-			"uniqueId": "620d6fcfea33ba1239432ad6326b30c2"
+			"uniqueId": "9f547d9c1ac4d8996d058cdbcef05b95"
 		}
 	]
 }
