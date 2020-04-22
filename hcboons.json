@@ -1,0 +1,51 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HC",
+				"abbreviation": "HC",
+				"full": "HalastersChallenge",
+				"authors": [
+					"Zuishin"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/ZuishinGit/ZuishinHomebrew/",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"reward": [
+		{
+			"name": "Reversal of Fortune",
+			"entries": [
+				"In response to another creature dealing damage to you, you can use your reaction to reduce the damage to 0 and regain {@dice 1d6} hit points. Once used, you can not regain hit points, including through magical healing, until the end of your next turn. 
+				
+				This ability may not be used again until finishing a long rest."
+			],
+			"source": "HC",
+			"type": "Boon"
+		},
+		{
+			"name": "Reversal of Fortune 2",
+			"entries": [
+				"In response to another creature dealing damage to you, you can use your reaction to reduce the damage to 0 and regain {@dice 4d6} hit points. Once used, you can not regain hit points, including through magical healing, until the end of your next turn.
+				
+				This ability may not be used again until finishing a long rest."
+			],
+			"source": "HC",
+			"type": "Boon"
+		}
+		{
+			"name": "Reversal of Fortune 3",
+			"entries": [
+				"In response to another creature dealing damage to you, you can use your reaction to reduce the damage to 0 and regain {@dice 4d6} hit points. Once used, you can not regain hit points, including through magical healing, until the end of your next turn.
+				
+				This ability may be used twice before finishing a long rest, upon which it recharges."
+			],
+			"source": "HC",
+			"type": "Boon"
+		}
+	]
+}
