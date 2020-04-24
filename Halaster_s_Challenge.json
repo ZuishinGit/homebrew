@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1587273264,
-		"dateLastModified": 1587273264
+		"dateAdded": 1587519620,
+		"dateLastModified": 1587519620
 	},
 	"monster": [
 		{
@@ -35,8 +35,8 @@
 				15
 			],
 			"hp": {
-				"formula": "20d6 + 40",
-				"average": 110
+				"formula": "18d6 + 36",
+				"average": 99
 			},
 			"speed": {
 				"walk": 40
@@ -80,27 +80,20 @@
 					"will": [
 						"{@spell dissonant whispers|PHB}",
 						"{@spell feather fall|PHB}",
-						"{@spell fog cloud|PHB}",
 						"{@spell mage hand}",
 						"{@spell reverse gravity|PHB} (self only)",
-						"{@spell seeming|PHB}",
-						"{@spell Tasha's hideous laughter}",
 						"{@spell vicious mockery}"
 					],
 					"daily": {
-						"1": [
-							"{@spell etherealness|PHB}",
-							"{@spell feeblemind|PHB}"
-						],
-						"2": [
-							"{@spell synaptic static|XGE}",
-							"{@spell wall of force|PHB}"
+						"1e": [
+							"{@spell feeblemind|PHB}",
+							"{@spell synaptic static|XGE}"
 						],
 						"3e": [
 							"{@spell confusion}",
 							"{@spell counterspell|PHB}",
-							"{@spell dimension door|PHB}",
-							"{@spell fly|PHB}",
+							"{@spell dimension door|PHB} (self only)",
+							"{@spell fly|PHB} (self only)",
 							"{@spell greater invisibility|PHB}",
 							"{@spell hypnotic pattern|PHB}",
 							"{@spell misty step|PHB}"
@@ -301,7 +294,7 @@
 				"incapacitated",
 				"prone"
 			],
-			"uniqueId": "fff2a3a69d1b6a8e1e1692a9f19d334d"
+			"uniqueId": "754d0b1a9bcd89beec9e9c9520f0f2a8"
 		},
 		{
 			"name": "Halaster's Nilbog Prime",
@@ -315,7 +308,7 @@
 			],
 			"ac": [
 				{
-					"ac": 18,
+					"ac": 16,
 					"from": [
 						"natural armor"
 					]
@@ -537,7 +530,7 @@
 				"poisoned",
 				"restrained"
 			],
-			"uniqueId": "9f547d9c1ac4d8996d058cdbcef05b95"
+			"uniqueId": "b0792eeffb3cdee72791f852b678a77c"
 		}
 	]
 }
