@@ -1,0 +1,737 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HalastersChallenge",
+				"abbreviation": "HC",
+				"full": "Halaster's Challenge",
+				"url": "",
+				"authors": [
+					"Zuishin"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1592003518,
+		"dateLastModified": 1592003518
+	},
+	"monster": [
+		{
+			"name": "L1: Halaster's Nilbog",
+			"shortName": "Nilbog",
+			"source": "HalastersChallenge",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "14d6 + 28",
+				"average": 77
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 8,
+			"dex": 20,
+			"con": 14,
+			"int": 10,
+			"wis": 8,
+			"cha": 23,
+			"save": {
+				"cha": "+11",
+				"dex": "+10",
+				"con": "+7"
+			},
+			"skill": {
+				"stealth": "+15",
+				"acrobatics": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Goblin",
+				"Infernal",
+				"Undercommon"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The nilbog's innate spellcasting ability is Charisma (spell save {@dc 19}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dissonant whispers|PHB}",
+						"{@spell feather fall|PHB}",
+						"{@spell mage hand}",
+						"{@spell reverse gravity|PHB} (self only)",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind|PHB}",
+							"{@spell synaptic static|XGE}"
+						],
+						"3e": [
+							"{@spell confusion}",
+							"{@spell counterspell|PHB}",
+							"{@spell dimension door|PHB} (self only)",
+							"{@spell fly|PHB} (self only)",
+							"{@spell greater invisibility|PHB}",
+							"{@spell hypnotic pattern|PHB}",
+							"{@spell misty step|PHB}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Nilbogism",
+					"entries": [
+						"Any creature that attempts to damage the nilbog must first succeed on a {@dc 15} Charisma saving throw or be {@condition charmed} until the end of the creature's next turn. A creature {@condition charmed} in this way must use its action praising the nilbog. The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.",
+						"Additionally, if the Nilbog is magically healed through means outside of its Reversal of Fortune reaction then it takes damage equal to four times the amount healed."
+					]
+				},
+				{
+					"name": "Tumble",
+					"entries": [
+						"The nilbog can tumble as a bonus action, imposing the following effects for the rest of its turn:",
+						"It gains a the benefits of Dash and Disengage actions. ",
+						"It gains a climbing speed equal to its current speed.",
+						"It takes half damage from falling."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the nilbog fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"The nilbog has 3 luck points. Whenever it makes an attack roll, ability check, or saving throw, it can spend one luck point to roll an additional {@dice d20} (this can occur after seeing the roll, but before the outcome is determined). ",
+						"The nilbog can also spend one luck point to when an attack is made against it. Roll a {@dice d20} and it can choose which roll is used."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The nilbog can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Invoke Duplicity (1/Day)",
+					"entries": [
+						"The nilbog creates four perfect illusions of itself that last 1 minute. The illusions appear in unoccupied spaces that it can see within 30 feet. As a bonus action the nilbog can move any number of the duplicates 40 feet, to a max range of 120 feet.",
+						"The nilbog can cast from the duplicate's space, and if a duplicate and the nilbog are within 5 feet of the same creature, it gains advantage on any attack rolls against the creature."
+					]
+				},
+				{
+					"name": "Fool's Scepter",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage, plus 27 ({@damage 8d6}) psychic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Reversal of Fortune",
+					"entries": [
+						"In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains {@dice 4d6} hit points."
+					]
+				},
+				{
+					"name": "Spell Reflection",
+					"entries": [
+						"If the nilbog makes a successful saving throw against a spell, or a spell attack misses it, the nilbog can choose another creature (including the spellcaster) it can see within 60 feet of it. The spell targets the chosen creature instead of the nilbog. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+					]
+				}
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Fool's Scepter",
+					"entries": [
+						"The nilbog makes an attack with his Fool's Scepter."
+					]
+				},
+				{
+					"name": "Illusory Swap",
+					"entries": [
+						"The nilbog swaps places with one of his illusory duplicates, if any are available. It need not hear or see the duplicate. He can also swap places with a creature that is affected by the {@spell seeming} spell caused by his lair action."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 2 actions)",
+					"entries": [
+						"The nilbog casts one of his at will spells."
+					]
+				},
+				{
+					"name": "Teleport (Costs 3 actions)",
+					"entries": [
+						"The nilbog magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Lair actions (on init 20)",
+					"entries": [
+						"On Initiative count 20 (losing initiative ties), the nilbog can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+						"-Fog magically fills the lair, the fog (can't be dissipated by wind) causes the lair to be heavily obscured for 1 round.",
+						"-Every creature in the lair assumes the form of the nilbog for 1 round. The changes fail to hold up to physical inspection, as if affected by the {@spell seeming} spell. Damaging a creature also removes the form.",
+						"-The nilbog's laugh can be heard throughout the entirety of the lair, all creatures in the lair that can hear must make a {@dc 15} Wisdom saving throw or they can't dash or disengage for 1 round."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"underdark"
+			],
+			"fluff": {
+				"name": "Nilbog",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"When Maglubiyet conquered the goblin gods, he intended to leave only Khurgorbaeyag alive as a harsh overseer who would keep the goblins under heel. But the goblins' pantheon included a trickster deity who was determined to get the last laugh. Although its essence was shattered by Maglubiyet, this trickster god survives in splintered form as a possessing spirit that arises when goblinoids form a host, causing disorder in the ranks unless it is appeased. Goblins have no name for this deity and dare not give it one, lest Maglubiyet use its name to ensnare and crush it as he did their other deities. They call the possessing spirit, and the goblin possessed by it, a nilbog (\"goblin\" spelled backward), and they revel in the fear that a nilbog sows among the ranks of the bugbears and hobgoblins in the host.",
+											{
+												"name": "Goblins' Revenge",
+												"entries": [
+													" When goblinoids form a host, there is a chance that a goblin will become possessed by a nilbog, particularly if the goblin has been mistreated by its betters. This possession turns the goblin into a wisecracking, impish creature fearless of reprisal. It gives the goblin strange powers that drive others to do the opposite of what they desire. Attacking a goblin possessed by a nilbog is foolhardy, and killing the creature just prompts the spirit to possess another goblin. The only way to keep a nilbog from wreaking havoc is to treat it well and give it respect and praise."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "No Joking Matter",
+												"entries": [
+													" The possible presence of a nilbog in a host has given rise to a practice among goblinoids that each host include at least one goblin jester. This jester is allowed to go anywhere and do whatever it pleases. The position of jester is a much sought-after one among the goblins, because even if the jester is obviously not a nilbog, hobgoblins and bugbears indulge its manic behavior."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Nilbogism",
+										"entries": [
+											"A nilbog is an invisible spirit that possesses only goblins. Bereft of a host, the spirit has a flying speed of 30 feet and can't speak or be attacked. The only action it can take is to attempt to possess a goblin within 5 feet of it.",
+											"A goblin targeted by the spirit must succeed on a DC 15 Charisma saving throw or become possessed. While possessed by the spirit, the goblin's alignment becomes chaotic evil, its Charisma becomes 15 (unless it was already higher), and it gains the nilbog's Innate Spellcasting and Nilbogism traits, as well as its Reversal of Fortune reaction. If the save succeeds, the spirit can't possess that goblin for 24 hours. If its host is killed or the possession is ended by a spell such as hallow, magic circle, or protection from evil and good, the spirit searches for another goblin to possess. The spirit can leave its host at any time, but it won't do so willingly unless it knows there's another potential host nearby. A goblin stripped of its nilbog spirit reverts to its normal statistics and loses the traits it gained while possessed."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Nilbog.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Nilbog.png?v=1.102.7",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/359/nilbog.mp3",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"GO",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"prone"
+			]
+		},
+		{
+			"name": "L1: Halaster's Nilbog Prime",
+			"shortName": "Carrion Crawler",
+			"source": "HalastersChallenge",
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d20 + 78",
+				"average": 214
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 23,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"skill": {
+				"perception": "+4",
+				"athletics": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The carrion crawler has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The carrion crawler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the carrion crawler is first reduced to below half its maximum hit points, its tentacle flurry action recharges and it can immediately use it."
+					]
+				},
+				{
+					"name": "Reactive Tentacles",
+					"entries": [
+						"For each tentacle the carrier crawler has beyond one, it gets an extra reaction that can be used only for opportunity attacks with its tentacles."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The carrion crawler deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Tentacle Maneuverability",
+					"entries": [
+						"As a bonus action, the carrion crawler can move any number of creatures that are {@condition grappled} by its tentacles up to 15 feet straight towards it or away from it. This movement can not exceed the tentacle's reach."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"The carrion crawler has eight tentacles. Whenever the carrion crawler takes 30 or more damage in a single turn, one of its tentacles are severed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The carrion crawler makes a bite attack and up to four tentacle attacks, or it makes up to eight tentacle attacks. The number of tentacle attacks the carrion crawler makes in a turn can not exceed the number of tentacles it has."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 20 ft., one target. {@h}7 ({@damage 1d4 + 4}) bludgeoning damage, and the target must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
+						"Additionally, if 2 of the tentacles hit the same creature in one turn, that creature is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the carrion crawler can't use this tentacle against other targets."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The carrion crawler makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the carrion crawler, and it takes 17 ({@damage 5d6}) acid damage at the start of each of the carrion crawler's turns.",
+						"If the carrion crawler takes 20 damage or more on a single turn from the creatures inside it, the carrion crawler must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the carrion crawler. If the carrion crawler dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tentacle Flurry {@recharge}",
+					"entries": [
+						"The carrion crawler wildly flails its tentacles in a 15-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 27 ({@damage 6d8}) bludgeoning damage on a failed save, or half as much on a successful one. Additionally, a failure requires the creature to succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bite/Swallow",
+					"entries": [
+						"The carrion crawler makes one bite attack or take the swallow action."
+					]
+				},
+				{
+					"name": "Detect",
+					"entries": [
+						"The carrion crawler makes a perception check."
+					]
+				},
+				{
+					"name": "Tentacle Flurry (Costs 2 actions)",
+					"entries": [
+						"The carrion crawler takes the tentacle flurry action, provided it is recharged."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Carrion Crawler",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Carrion crawlers scour putrid flesh from carcasses and gobble the slimy bones that remain. They aggressively attack any creature that trespasses on their territory or disturbs their feasting.",
+									{
+										"name": "Carrion Eaters",
+										"type": "entries",
+										"entries": [
+											"A carrion crawler follows the scent of death to its food, but it prefers not to compete with other scavengers. These foul creatures thus hunker down in territories where death is plentiful and other carrion eaters have limited mobility. Caves, sewers, dungeons, and forested marshes are their favored lairs, but carrion crawlers are also drawn to battlefields and cemeteries. A carrion crawler roams on the hunt, its tentacles probing the air for the scent of blood or decay. In tunnels or ruins, carrion crawlers scurry across the ceiling as they move toward food. In this way, they avoid contact with oozes, otyughs, and other dangerous inhabitants of the darkness, even as they surprise potential meals that don't think to look up."
+										]
+									},
+									{
+										"name": "Patient Predators",
+										"type": "entries",
+										"entries": [
+											"Whether in subterranean darkness or while hunting at night, light signals a potential meal. A carrion crawler might follow a light source from a distance for hours, hoping to pick up the scent of blood. Despite their great size, carrion crawlers can also easily set up ambushes by waiting around blind corners for prey to come to them. When facing potential prey or intruders, a carrion crawler lets its poison do the work. Once a victim goes rigid with paralysis, the carrion crawler wraps it with its tentacles and drags it away to a high ledge or isolated passageway, where it can be killed safely. The monster then resumes patrolling its territory while waiting for its meal to ripen."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Carrion Crawler.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Carrion Crawler.png?v=1.102.7",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/79/carrior-crawler.mp3",
+			"traitTags": [
+				"Keen Senses",
+				"Siege Monster",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow",
+				"Tentacles"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Moridna Nashen",
+			"shortName": "Nothic",
+			"isNpc": true,
+			"source": "HalastersChallenge",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "34d8 + 136",
+				"average": 289
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 18,
+			"con": 19,
+			"int": 18,
+			"wis": 16,
+			"cha": 10,
+			"save": {
+				"con": "+10"
+			},
+			"skill": {
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Undercommon",
+				"telepathy 120 ft."
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The nothic has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the nothic fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The nothic has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Panoptic Metamorphosis (Mythic Trait; Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the nothic is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, it regains 289 hit points. This healing can not be reduced in any way."
+					]
+				},
+				{
+					"name": "Dominating Sight",
+					"entries": [
+						"As a bonus action, the nothic can channel its necrotic gaze through a creature it has {@condition poisoned}, forcing the creature to use its reaction, if available, to move up to 10 feet and make a melee weapon attack against a creature of the nothic's choice."
+					]
+				},
+				{
+					"name": "Lair Actions",
+					"entries": [
+						"On initiative count 20 (losing initiative ties), the nothic can take a lair action to cause one of the following effects. It can't use the same effect two rounds in a row.",
+						"• The nothic targets one creature within 300 feet of it. The target must succeed on a {@dc 19} Wisdom saving throw or the nothic becomes {@condition invisible} to that creature for 1 minute. This effect ends if the nothic attacks the target.",
+						"• 4 {@creature Gibbering Mouther|mm|gibbering mouthers} each with only 1 hit point appear from the walls of the nothic's lair. Only 4 of these may be summoned at one time. If the nothic takes this lair action while one or more are already present in the lair, subtract that many from the amount summoned via this lair action.",
+						"• The nothic taps into the eyesight of creatures in its lair and alters their perception. Each creature of the nothic's choice in the lair must make a {@dc 19} Wisdom saving throw. On a failure, the affected creature perceives objects and creatures a short distance from their actual locations, imposing disadvantage on the creature's attack rolls against those targets. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this lair action for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The nothic can make up to three claw attacks, or it can use its necrotic eye once and make one claw attack."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d10 + 7}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. The nothic regains hit points equal to the amount of necrotic damage dealt."
+					]
+				},
+				{
+					"name": "Necrotic Eye",
+					"entries": [
+						"The nothic targets up to three creatures it can see within 60 feet of it. Each target is forced to make a {@dc 19} Constitution saving throw or be {@condition poisoned}. While {@condition poisoned} this way, a creature takes 20 ({@damage 8d4}) necrotic damage at the start of each of their turns. A creature may only attempt the save once per turn."
+					]
+				},
+				{
+					"name": "Mind Rot {@recharge 5}",
+					"entries": [
+						"The nothic targets up to three creatures it can see within 120 feet of it. Each target is forced to make a {@dc 19} Intelligence saving throw. On a failed save, the target takes 56 ({@damage 16d6}) psychic damage and is afflicted by {@table short-term madness} until the end of their next turn. On a success, a character takes only half of the psychic damage and is not afflicted by madness."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The nothic moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The nothic makes a weapon attack."
+					]
+				},
+				{
+					"name": "Necrotize (Costs 2 Actions)",
+					"entries": [
+						"Each creature {@condition poisoned} by the nothic's Necrotic Eye takes 18 ({@damage 4d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Swipe (Mythic)",
+					"entries": [
+						"The nothic makes two claw attacks. On a hit, a creature must succeed a {@dc 19} Constitution saving throw or be subjected to the poison described by the Necrotic Eye action."
+					]
+				},
+				{
+					"name": "Mind Rot (Mythic; Costs 2 Actions)",
+					"entries": [
+						"The nothic recharges Mind Rot and uses it."
+					]
+				},
+				{
+					"name": "Rending Gaze (Mythic; Costs 2 Actions)",
+					"entries": [
+						"Each creature {@condition poisoned} by the nothic must succeed on a {@dc 19} Constitution saving throw, or the creature takes 26 ({@damage 4d12}) necrotic damage and any spell of 5th level or lower on it ends."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"Moridna Nashen was once a promising necromancer who was apprentice to Shradin Mulophor, the Lord of Bones. As Moridna's powers grew, Mulophor grew worried about his position in Undermountain and eventually asked Halaster to devise an artifact that he would later use to transfigure Moridna permanently. Thus, a spellbook containing sacred lore was created through one of Halaster's wishes. Mulophor presented the spellbook as a gift to his apprentice, to which Moridna graciously accepted, as truthfully he looked up to Mulophor. Upon opening the spellbook, Moridna's body was horribly disfigured and was locked away in a ruined chamber somewhere lost to time. He was left eternally resentful towards his master, and did everything he could to somehow obtain his previous form once more, to no avail."
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/HC/Nothic.png?v=1.106.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/nothic.mp3?v=1.106.1"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"N",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"invisible",
+				"poisoned"
+			]
+		}
+	]
+}

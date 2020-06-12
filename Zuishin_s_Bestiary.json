@@ -1,0 +1,1489 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ZuishinsBestiary",
+				"abbreviation": "ZB",
+				"full": "Zuishin's Bestiary",
+				"url": "",
+				"authors": [
+					"Zuishin"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1592003496,
+		"dateLastModified": 1592003496
+	},
+	"monster": [
+		{
+			"name": "Gibbering Beast",
+			"shortName": "Gibbering Beast",
+			"source": "ZuishinsBestiary",
+			"size": "L",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"roaming floor boss"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d10 + 90",
+				"average": 189
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 21,
+			"int": 9,
+			"wis": 11,
+			"cha": 5,
+			"save": {
+				"wis": "+4",
+				"cha": "+1"
+			},
+			"skill": {
+				"athletics": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Aberrant Ground",
+					"entries": [
+						"The ground in a 15-foot radius around the gibbering beast is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a {@dc 12} Strength saving throw or have its speed reduced to 0 until the start of its next turn."
+					]
+				},
+				{
+					"name": "Bloodied Flash",
+					"entries": [
+						"When the gibbering beast is brought to half its max hit points (94 average, 135 maxed), it instantly recharges its Blinding Blood action and can use it."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the gibbering beast fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gibbering mouther makes four bite attacks and, if it can, uses its Blinding Spittle."
+					]
+				},
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}27 ({@damage 5d8 + 5}) bludgeoning damage. If the target is Medium or smaller, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is killed by this damage, it is absorbed into the mouther."
+					]
+				},
+				{
+					"name": "Blinding Blood {@recharge 5}",
+					"entries": [
+						"The gibbering beast bites into its own flesh, secreting a highly flammable liquid that ignites when exposed to air. The liquid explodes in a blinding flash of light in a 30-foot radius sphere centered on the gibbering beast. Each creature in the sphere that can see must make a {@dc 17} Dexterity saving throw or be {@condition blinded} until the end of the beast's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Enhanced Opportunity Attack",
+					"entries": [
+						"When a creature provokes an attack of opportunity, the gibbering beast can attach a part of its body to the target. The gibbering beast uses its reaction to make a bites attack. If the attack hits, a {@creature gibbering mouther} appears within 5 feet of the target creature and is attached to it. While attached in this way, the mouther doesn't attack. Instead, at the start of each of the mouther's turns, the target takes 17 ({@damage 5d6}) piercing damage.",
+						" The mouther can detach itself by spending 5 feet of its movement."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The gibbering beast makes one attack."
+					]
+				},
+				{
+					"name": "Bites (Costs 2 Actions)",
+					"entries": [
+						"The gibbering beast uses its bites attack at any number of creatures within 5 feet of it. Make a separate attack roll for each creature."
+					]
+				},
+				{
+					"name": "Gibbering",
+					"entries": [
+						"The gibbering beast begins babbling incoherently. Any creature within 60 feet that can hear the gibbering beast must succeed on a {@dc 12} Wisdom saving throw. On a failure, the creature is {@condition stunned} until the end of its next turn."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Gibbering Mouther",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Of all the terrors created by foul sorcery, gibbering mouthers are among the most wicked and depraved. This creature is the composite eyes, mouths, and liquefied matter of its former victims. Driven to insanity by the destruction of their bodies and absorption into the mouther, those victims gibber incoherent madness, forced to consume everything in reach.",
+									{
+										"name": "Amoeboid Form",
+										"type": "entries",
+										"entries": [
+											"The gibbering mouther's body is an amorphous mass of mouths and eyes that propels itself by oozing forward, fastening several mouths to the ground and pulling its bulk behind. Though it moves slowly, it swims through water, mud, and quicksand with ease."
+										]
+									},
+									{
+										"name": "Mouths of Madness",
+										"type": "entries",
+										"entries": [
+											"When a gibbering mouther senses prey, its mouths begin to murmur and chatter, each with a different voice: deep or shrill, wailing or ululating, crying out in agony or ecstasy. This cacophonous gibbering overcomes the senses of any creature that hears it, causing most to flee in terror. Others are overcome with madness or stand paralyzed, fixated on the horrific creature as it oozes forward to consume them.",
+											{
+												"name": "All-Consuming",
+												"entries": [
+													" Driven to devour any creature it can reach, a gibbering mouther flows over victims transfixed by its mad ranting, its multitudinous voices temporarily silenced as it gnaws and swallows living flesh. The monster liquefies stone with which it comes into contact, hindering creatures that overcome its gibbering and attempt to flee.",
+													"A gibbering mouther leaves nothing of its prey behind. However, even as the last of a victim's body is consumed, its eyes and mouth boil to the surface, ready to join the chorus of tormented gibbering that welcomes the monster's next meal."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Gibbering Mouther.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gibbering Mouther.png?v=1.105.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/gibbering-mouther.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"prone",
+				"stunned"
+			]
+		},
+		{
+			"name": "Feral Girallon",
+			"shortName": "Girallon",
+			"source": "ZuishinsBestiary",
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"roaming floor boss"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "32d12 + 128",
+				"average": 336
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 18,
+			"int": 5,
+			"wis": 14,
+			"cha": 7,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the girallon can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the girallon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The girallon makes five attacks: one with its bite and four with its claws. If the girallon is frenzied, it can make these attacks at each enemy within reach."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit. reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage, and the target must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Frenzy",
+					"entries": [
+						"The girallon goes into a frenzied rage until the end of its next turn, granting it the abilities outlined by the multiattack action. In addition, any melee attack rolls made at the girallon are made at advantage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The girallon makes an attack."
+					]
+				},
+				{
+					"name": "Down B (Costs 2 Actions)",
+					"entries": [
+						"The girallon slams its fist into the ground. Any creatures standing on the ground within 30 feet of the girallon take 15 ({@damage 2d8 + 6}) bludgeoning damage and must succeed a {@dc 15} Strength saving throw or fall {@condition prone}. As part of this action, the girallon can first leap up to 20 feet in a straight line. This movement does not provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Mad Monkey Battle Cry (Frenzied Only)",
+					"entries": [
+						"While frenzied, the girallon makes a battle cry that can be heard from up to 300 feet away. Any creature that can hear this must succeed on a {@dc 15} Constitution saving throw or suffer from some form of short-term madness (roll on the {@table Short-Term Madness|DMG} table in chapter 8 of the Dungeon Master's Guide), unless that creature is a beast. In addition, {@dice 1d6 + 1} {@creature ape|mm|apes} join the battle in {@dice 1d4} rounds."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"name": "Girallon",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"A girallon looks like an oversized, four-armed ape with gray skin and white fur. Its fangs and claws set it apart from a normal ape, revealing it to be a monstrous predator.",
+											{
+												"name": "Forest Hunters",
+												"entries": [
+													" Girallons are most common in temperate or warm forest environments abundant with life. They share the ape's adeptness at climbing, although these half-ton creatures shy away from scaling trees that can't support their bulk. Instead, they stalk the forest floor, lurk in narrow ravines or shallow caves, or hide in ruined sites while waiting for prey to come near. A girallon is surprisingly stealthy, considering its size and its lack of camouflage.",
+													"Girallons form loose bands of several individuals and their offspring, usually led by a dominant adult that also tends to be the oldest member of the group. When on the hunt away from their lair, girallons use roars and body language to communicate with one another over distance. Each individual typically hunts alone and widely separated from the others, to ensure that everyone gets adequate fodder. The leader might organize members to work together to make a big kill. If they succeed, everyone in the group shares the spoils, with the best parts going to mothers caring for their young.",
+													"In the time since then, numerous creatures have tried to tame, subjugate, or cooperate with the monsters. For instance, yuan-ti enslave girallons, turning them into border sentinels for their serpent kingdoms. Because girallons are known to be peaceful among their own kind, some humanoids have learned how to approach a group's leader, offering food and other gifts in hopes of establishing an alliance with the creatures.",
+													"Girallons that are well treated might be willing to serve as guards, though they lack the intelligence to take on tasks more complicated than attacking strangers that enter their domain. If one is taken young and properly trained, a girallon could end up in a seemingly unlikely place, such as guarding the entrance to a city's thieves' guild. Those who would keep a girallon as a pet must always be wary, because the creature could revert to its predatory nature at any time."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Wall Climbers",
+												"entries": [
+													" The ruins of humanoid habitations, especially those found in deep forests and jungles, seem to attract girallons. They move effortlessly along stairs and balconies, as well as on the sloped rooftops and buttresses of such formations. To a girallon, a city's buildings are just another sort of forest-and better yet, one whose uppermost \"branches\" can easily support the creatures. In such a setting, the girallons take full advantage of their skill in climbing. The creatures can easily scale walls and battlements, and they perch on tower tops and other high vantages to keep an eye on the surrounding area."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Magical Origin",
+												"entries": [
+													" The social habits of wild girallons are unusual for apes, as is their instinctive attraction to humanoid structures. These facts, together with the girallon's appearance, lead sages to believe that girallons were created through magic to serve as guardians for some lost empire. When that empire fell ages ago, girallons turned feral and spread out across the world."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Girallon.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Girallon.png?v=1.105.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/girallon.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Aggressive",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Choldrith Matriarch",
+			"shortName": "Choldrith",
+			"source": "ZuishinsBestiary",
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"roaming floor boss"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb|spider silk armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "34d10 + 68",
+				"average": 255
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 14,
+			"int": 11,
+			"wis": 20,
+			"cha": 10,
+			"save": {
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+10",
+				"religion": "+4",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The choldrith is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The choldrith has the following cleric spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bane}",
+								"{@spell healing word}",
+								"{@spell sanctuary}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon} (dagger)"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell mass healing word}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell freedom of movement}",
+								"{@spell giant insect}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell holy weapon|XGE}",
+								"{@spell insect plague}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The choldrith has advantage on saving throws against being {@condition charmed}, and magic can't put the choldrith to sleep."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The choldrith can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the choldrith has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the choldrith knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The choldrith ignores movement restrictions caused by webbing."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the choldrith fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Arachnid Army",
+					"entries": [
+						"While they can see the choldrith, any allies gain a bonus of +3 to attack rolls and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The choldrith makes up to three dagger attacks, one bite attack and, if it can, uses the web action."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, and the target must make a {@dc 14} Constitution saving throw. On a failure, the target takes 22 ({@damage 4d10}) poison damage and is {@condition poisoned}. While {@condition poisoned} in this way, the target is {@condition paralyzed}. On a success the target takes half of the poison damage and isn't {@condition poisoned}. The target can repeat the saving throw at the end of each of its turns."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 5}) piercing damage plus 22 ({@damage 4d10}) poison damage."
+					]
+				},
+				{
+					"name": "Web {@recharge 4}",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 30/60 ft., one Large or smaller creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 15; 15 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Silken Shroud (1/day)",
+					"entries": [
+						"As a reaction when the choldrith takes damage, it can entomb itself in spider webs. The choldrith gains 60 temporary hit points, which take as much of the triggering damage as possible. Immediately afterwards, the choldrith gains vulnerability to fire damage, immunity to bludgeoning, poison, and psychic damage, its speed is reduced to 0 and it can only take the spider swarm legendary action. These effects last until the temporary hit points are depleted, or if the choldrith uses its action to end it."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The choldrith makes an attack."
+					]
+				},
+				{
+					"name": "Spider Swarm (Costs 2 Actions)",
+					"entries": [
+						"The choldrith summons 3 ({@dice 1d4 + 1}) {@creature swarm of spiders|mm|swarms of spiders} in any spaces within 30 feet of it that it can see. These spiders obey the choldrith's commands to the best of their ability."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 Actions)",
+					"entries": [
+						"The choldrith casts a spell from its list of prepared spells."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Choldrith",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Chitines are multiarmed humanoids with arachnid qualities that serve Lolth. They operate in well-organized colonies that prove to be effective fighters in the war against the enemies of the Demon Queen of Spiders. On occasion, Lolth pits chitines against dark elves-even though both groups worship her-as a way of punishing the drow, who created the chitines but displeased their goddess by doing so.",
+											{
+												"name": "Unnatural Origin",
+												"entries": [
+													" Long ago, the drow first subjected elf prisoners to horrible rituals that transformed the captives into creatures with both humanoid and spider traits, which their creators dubbed chitines. The dark elves' intention was to create slaves dedicated first of all to the drow and, by association with them, to Lolth. As the drow ultimately discovered, the goddess found this arrangement unacceptable.",
+													"The creation process required cooperation between magical disciplines. Drow wizards and warlocks used arcane magic and demonic powers, and drow priestesses invoked Lolth's aid for the divine spark needed to ensure the subject's survival. Lolth watched, expecting at some part of the process to see these new abominations dedicated to her, but no such ritual was performed. In retribution for this lack of respect, the Spider Queen twisted the drow's creation rituals to serve her own purposes.",
+													"At first, the drow were unaware that the new creatures were signs of Lolth's displeasure with them. Instead, they were pleased, because choldriths could lay eggs that birthed more chitines (and the rare choldrith) and could direct the chitines in their work. But the dark elves came to realize their mistake-choldriths belonged to Lolth, body and soul. They whispered to the chitines of their adoration of the Spider Queen and their enmity of the drow, and the seeds of a rebellion took root and grew. The chitines and choldriths rose up against their would-be masters; soon afterward most of the creatures were free, and a number of the drow who helped breed and tend them were dead.",
+													"Nowadays, drow still create chitines when they have need to. Outside the presence of a choldrith, chitines make good workers for the drow, and they can be useful if the drow find an independent chitine colony and want to infiltrate it. If the creation process yields a choldrith, though, the drow destroy the creature immediately.",
+													"As servants of Lolth, choldriths and chitines love spiders and spider-like creatures. They rear spiders and similar arachnids, such as cave fishers. Chitine colonies erect shrines to Lolth that serve as beacons, attracting spiders and other evil, brutish beings that serve her. Anywhere chitines set up a colony quickly becomes a web-shrouded, gloomy, and treacherous place.",
+													"A colony can support numerous choldriths, which serve as commanders, priests, and supervisors. The choldriths continually jockey for position, although they rarely confront one another in a way that puts the colony at risk. The colony is ruled by a singular sovereign that determines which colony members perform which tasks, including whether she or any other choldrith is permitted to lay eggs. If this supreme ruler receives a vision from Lolth, she might change her colony's entire course of action. At such times, chitines have emerged from the Underdark to settle in remote, gloomy places on the surface, from where they can wage war on other species, especially drow and elves."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Lolth's Revenge",
+												"entries": [
+													" As the drow continued to perform the rituals, the process usually transformed the subject into the spindly, stunted creature they expected. Occasionally, though, the elf changed into a monstrosity that was more spider than elf, resembling Lolth in her spider form, and more cunning than a chitine, that the drow dubbed a choldrith."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Lolth's Chosen",
+												"entries": [
+													" Choldriths are born with a fanatical devotion to Lolth, which leads them to develop some skill in divine magic. They preach that chitines are Lolth's favored people, and that choldriths are the Spider Queen's rightful worldly representatives sent to free the chitines from slavery. Although choldriths and chitines lack sexual characteristics, and choldriths need no mate to lay eggs, these creatures choose the gender identity of their goddess. Choldriths also believe and teach that Lolth's spider form, much like that of a choldrith, is her truest shape. Any idol to Lolth in a chitine colony depicts Lolth in this way."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Communal Spiders",
+												"entries": [
+													" Chitines and choldriths resemble spiders, but they behave more like social insects such as ants. Chitines are divided into worker and warrior castes, and choldriths occupy the top levels of a colony's hierarchy. Each chitine has a social position that comes with duties related to that rank, and all chitines are expected to willingly sacrifice themselves to protect the choldriths. Every chitine has spinnerets and slowly produces webbing that is used to build floors, walls, structures, objects, and traps that benefit and protect the colony. A warrior might be responsible for crafting web armor (which is as tough as hide or leather), while a group of workers might be tasked to dig a pit trap and cover it with fragile webbing disguised with loose dirt to appear as a solid surface."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Choldrith.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Choldrith.png?v=1.105.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/choldrith.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Fey Ancestry",
+				"Legendary Resistances",
+				"Spider Climb",
+				"Sunlight Sensitivity",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Skeleton Gladiator",
+			"shortName": "Skeleton",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"skeleton"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}, {@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"save": {
+				"str": "+6",
+				"dex": "+4",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+6",
+				"intimidation": "-1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands all languages it spoke in life but can't speak"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The skeleton has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the skeleton hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skeleton makes three melee attacks."
+					]
+				},
+				{
+					"name": "Flail",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The skeleton adds 3 to its AC against one melee attack that would hit it. To do so, the skeleton must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Skeleton",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.",
+									{
+										"name": "Animated Dead",
+										"type": "entries",
+										"entries": [
+											"Whatever sinister force awakens a skeleton infuses its bones with a dark vitality, adhering joint to joint and reassembling dismantled limbs. This energy motivates a skeleton to move and think in a rudimentary fashion, though only as a pale imitation of the way it behaved in life. An animated skeleton retains no connection to its past, although resurrecting a skeleton restores it body and soul, banishing the hateful undead spirit that empowers it.",
+											"While most skeletons are the animated remains of dead humans and other humanoids, skeletal undead can be created from the bones of other creatures besides humanoids, giving rise to a host of terrifying and unique forms."
+										]
+									},
+									{
+										"name": "Obedient Servants",
+										"type": "entries",
+										"entries": [
+											"Skeletons raised by spell are bound to the will of their creator. They follow orders to the letter, never questioning the tasks their masters give them, regardless of the consequences. Because of their literal interpretation of commands and unwavering obedience, skeletons adapt poorly to changing circumstances. They can't read, speak, emote, or communicate in any way except to nod, shake their heads, or point. Still, skeletons are able to accomplish a variety of relatively complex tasks.",
+											"A skeleton can fight with weapons and wear armor, can load and fire a catapult or trebuchet, scale a siege ladder, form a shield wall, or dump boiling oil. However, it must receive careful instructions explaining how such tasks are accomplished.",
+											"Although they lack the intellect they possessed in life, skeletons aren't mindless. Rather than break its limbs attempting to batter its way through an iron door, a skeleton tries the handle first. If that doesn't work, it searches for another way through or around the obstacle."
+										]
+									},
+									{
+										"name": "Habitual Behaviors",
+										"type": "entries",
+										"entries": [
+											"Independent skeletons temporarily or permanently free of a master's control sometimes pantomime actions from their past lives, their bones echoing the rote behaviors of their former living selves. The skeleton of a miner might lift a pick and start chipping away at stone walls. The skeleton of a guard might strike up a post at a random doorway. The skeleton of a dragon might lie down on a pile of treasure, while the skeleton of a horse crops grass it can't eat. Left alone in a ballroom, the skeletons of nobles might continue an eternally unfinished dance.",
+											"When skeletons encounter living creatures, the necromantic energy that drives them compels them to kill unless they are commanded by their masters to refrain from doing so. They attack without mercy and fight until destroyed, for skeletons possess little sense of self and even less sense of self-preservation."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A skeleton doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Skeleton.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Skeleton.png?v=1.105.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/skeleton.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Greater Shadow",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 6,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The shadow can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+					]
+				},
+				{
+					"name": "Sunlight Weakness",
+					"entries": [
+						"While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Strength Drain",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+						"If a non-evil humanoid dies from this attack, a shadow rises from the corpse {@dice 1d4} hours later."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Remain in Dark",
+					"entries": [
+						"If an active source of light within 60 feet of the shadow moves towards it, it can move up to 15 feet. This movement does not provoke attacks of opportunity."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Hide",
+					"entries": [
+						"The shadow takes the Hide action."
+					]
+				},
+				{
+					"name": "Consume Light (Costs 2 Actions)",
+					"entries": [
+						"The shadow extinguishes any non-magical sources of light (torches, flames, lanterns) within 60 feet of it."
+					]
+				},
+				{
+					"name": "Inhabit Shadow",
+					"entries": [
+						"The shadow teleports to a creature it can see within 30 feet, provided that the shadow and the target creature are not in bright light. The target must make a {@dc 10} Wisdom saving throw or become {@condition frightened} until the end of the targets next turn."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Shadow",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Shadow.jpg"
+						}
+					}
+				],
+				"entries": [
+					"Shadows are undead that resemble dark exaggerations of humanoid shadows.",
+					{
+						"name": "Dark Disposition",
+						"type": "entries",
+						"entries": [
+							"From the darkness, the shadow reaches out to feed on living creatures' vitality. They can consume any living creature, but they are especially drawn to creatures untainted by evil. A creature that lives a life of goodness and piety consigns its basest impulses and strongest temptations to the darkness where the shadows hunger. As a shadow drains its victim's strength and physical form, the victim's shadow darkens and begins to move of its own volition. In death, the creature's shadow breaks free, becoming a new undead shadow hungry for more life to consume.",
+							"If a creature from which a shadow has been created somehow returns to life, its undead shadow senses the return. The shadow might seek its \"parent\" to vex or slay. Whether the shadow pursues its living counterpart, the creature that birthed the shadow no longer casts one until the monster is destroyed."
+						]
+					},
+					{
+						"name": "Undead Nature",
+						"type": "entries",
+						"entries": [
+							"A shadow doesn't require air, food, drink, or sleep"
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Shadow.png?v=1.94.13",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/442/shadow.mp3",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflicted": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Doppelganger Psion",
+			"shortName": "Doppelganger",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"condition": "(17 with {@spell mage armor})"
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 34",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 10,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 19,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"int": "+7"
+			},
+			"skill": {
+				"deception": "+8",
+				"insight": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"telepathy 120 ft."
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The doppelganger is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save {@dc 15}; {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell mage armor}",
+						"{@spell mage hand}"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell catapult|XGE}",
+								"{@spell cause fear|XGE}",
+								"{@spell command}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell hold person}",
+								"{@spell mind spike|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fear}",
+								"{@spell nondetection}",
+								"{@spell vampiric touch}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell phantasmal killer}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell scrying}",
+								"{@spell telekinesis}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+					]
+				},
+				{
+					"name": "Thoughtread Hub",
+					"entries": [
+						"When the doppelganger reads the surface thoughts of a creature, it can telepathically share those thoughts with up to seven other creatures within 120 feet of it that it can see."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The doppelganger has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The doppelganger makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Doppelganger",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Doppelgangers are devious shapeshifters that take on the appearance of other humanoids, throwing off pursuit or luring victims to their doom with misdirection and disguise. Few creatures spread fear, suspicion, and deceit better than doppelgangers. Found in every land and culture, they can take on the guise of any individual of any race.",
+									{
+										"name": "Stealing Secrets",
+										"type": "entries",
+										"entries": [
+											"A doppelganger's adopted form allows it to blend into almost any group or community, but its transformation doesn't impart languages, mannerisms, memory, or personality. Doppelgangers often follow or capture creatures they intend to impersonate, studying them and probing their minds for secrets. A doppelganger can read a creature's surface thoughts, allowing it to glean that creature's name, desires, and fears, along with a few scattered memories. A doppelganger impersonating a specific creature as part of a long-term plot might keep its double alive and close at hand for weeks, probing the victim's mind daily to learn how to behave and speak authentically."
+										]
+									},
+									{
+										"name": "Hedonistic Swindlers",
+										"type": "entries",
+										"entries": [
+											"Doppelgangers work alone or in small groups, with group roles shifting from con to con. While one doppelganger takes the place of a murdered merchant or noble, the others take on a number of identities as circumstances warrant, playing the parts of family or servants while they live off the victim's riches."
+										]
+									},
+									{
+										"name": "Changelings",
+										"type": "entries",
+										"entries": [
+											"Doppelgangers are too lazy or self-interested to raise their young. They assume attractive male forms and seduce women, leaving them to raise their progeny. A doppelganger child appears to be a normal member of its mother's species until it reaches adolescence, at which point it discovers its true nature and is driven to seek out its kind to join them."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Doppelganger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Doppelganger.png?v=1.105.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/doppelganger.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Ambusher",
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Dire Blink Dog",
+			"source": "ZuishinsBestiary",
+			"page": 318,
+			"size": "L",
+			"type": "fey",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 17,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 10,
+			"languages": [
+				"Blink Dog",
+				"understands Sylvan but can't speak it"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The dog has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The blink dog has advantage on an attack roll against a creature if at least one of the blink dog's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The blink dog makes up to two bite attacks and can teleport once, in any order."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d6 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 13})."
+					]
+				},
+				{
+					"name": "Teleport {@recharge 4}",
+					"entries": [
+						"The dog magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see. A creature that is {@condition grappled} by the Blink Dog's bite is also teleported."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"name": "Blink Dog",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A blink dog takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbor a long-standing hatred for displacer beasts and attack them on sight."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Blink Dog.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Blink Dog.png?v=1.105.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/blink-dog.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"OTH",
+				"S"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		}
+	]
+}
