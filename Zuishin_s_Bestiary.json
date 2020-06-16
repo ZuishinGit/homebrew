@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592003496,
-		"dateLastModified": 1592003496
+		"dateAdded": 1592345160,
+		"dateLastModified": 1592345160
 	},
 	"monster": [
 		{
@@ -1483,6 +1483,256 @@
 			],
 			"conditionInflict": [
 				"grappled"
+			]
+		},
+		{
+			"name": "Greater Smoke Mephit",
+			"source": "ZuishinsBestiary",
+			"size": "S",
+			"type": "elemental",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "8d6 + 8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 14,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Auran",
+				"Ignan"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (3/Day each)",
+					"headerEntries": [
+						"The mephit can innately cast {@spell dancing lights} and {@spell invisibility}, requiring no material components. Its innate spellcasting ability is Charisma."
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell invisibility}"
+					],
+					"ability": "cha",
+					"hidden": [
+						"will"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 3d4 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Cinder Breath {@recharge 5}",
+					"entries": [
+						"The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a {@dc 12} Dexterity saving throw or be {@condition blinded} until the end of the mephit's next turn."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Summon Mephits (1/Day)",
+					"entries": [
+						"The mephit has a {@chance 25|25 percent|25% summoning chance} chance of summoning {@dice 1d4} mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/ZB/Smoke Mephit.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/smoke-mephit.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Death Burst"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AU",
+				"IG"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Greater Fire Mephit",
+			"source": "ZuishinsBestiary",
+			"size": "S",
+			"type": "elemental",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "9d6 + 9",
+				"average": 40
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 11,
+			"con": 12,
+			"int": 11,
+			"wis": 10,
+			"cha": 12,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Ignan"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (3/Day each)",
+					"headerEntries": [
+						"The mephit can innately cast {@spell heat metal} and {@spell pyrotechnics|XGE}, requiring no material components. Its innate spellcasting ability is Charisma."
+					],
+					"will": [
+						"{@spell heat metal}",
+						"{@spell pyrotechnics|XGE}"
+					],
+					"ability": "cha",
+					"hidden": [
+						"will"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the mephit dies, it explodes in a burst of fire. Each creature within 5 feet of the mephit must succeed on a {@dc 12} Dexterity saving throw or take 13 ({@damage 3d8}) fire damage."
+					]
+				},
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that touches the mephit or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 2d4}) fire damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}5 ({@damage 2d4}) slashing damage plus 5 ({@damage 2d4}) fire damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The mephit exhales a 15-foot cone of fire. Each creature in that area must succeed on a {@dc 12} Dexterity saving throw, taking 13 ({@damage 3d8}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Summon Mephits (1/Day)",
+					"entries": [
+						"The mephit has a {@chance 25|25 percent|25% summoning chance} chance of summoning {@dice 1d4} mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"tokenUrl": "https://5e.tools/img/ZB/Steam Mephit.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/steam-mephit.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Death Burst"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"IG"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
 			]
 		}
 	]
