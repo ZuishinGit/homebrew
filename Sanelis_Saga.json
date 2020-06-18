@@ -1,0 +1,1150 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SanelisSaga",
+				"abbreviation": "SanSa",
+				"full": "Sanelis Saga",
+				"url": "",
+				"authors": [
+					"Zuishin"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1592514309,
+		"dateLastModified": 1592514309
+	},
+	"monster": [
+		{
+			"name": "Hassic Warrior",
+			"shortName": "Warrior",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item ring mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"intimidation": "+3"
+			},
+			"passive": 10,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Fighting Spirit (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the warrior can give itself advantage on all weapon attack rolls and gain resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the warrior's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warrior makes two attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or  7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Thug.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/thug.mp3?v=1.106.7"
+			},
+			"altArt": [
+				{
+					"name": "Vistana Thug",
+					"source": "CoS"
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Hassic Veteran",
+			"shortName": "veteran",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item splint armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 14,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The veteran's spell casting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell compelled duel}",
+							"{@spell searing smite}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fighting Spirit (3/Day)",
+					"entries": [
+						"As a bonus action, the veteran can give itself advantage on all weapon attack rolls and gain resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the warrior's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The veteran makes two attacks, or three shortsword attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Veteran.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/veteran.mp3?v=1.106.7"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Hassic Knight",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"con": "+4",
+				"wis": "+2"
+			},
+			"passive": 10,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The knight's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bless}",
+							"{@spell divine favor}"
+						],
+						"2e": [
+							"{@spell aid}",
+							"{@spell magic weapon}"
+						],
+						"1e": [
+							"{@spell aura of vitality}",
+							"{@spell crusader's mantle}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Knight.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/knight.mp3?v=1.106.7"
+			},
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Hassic Cavalryman",
+			"shortName": "Cavalryman",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"animal handling": "+4",
+				"athletics": "+5",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Mounted Combatant",
+					"entries": [
+						"While mounted, the cavalryman has advantage on melee weapon attack rolls against creatures that are smaller than its mount. Additionally, the cavalryman only uses 5 feet of movement to mount and dismount a creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalryman makes one lance attack, or two longbow attacks."
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage, or 12 ({@damage 1d12 + 6}) piercing damage while mounted."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Retaliating Strike",
+					"entries": [
+						"When a melee attack misses the cavalryman, it can use its reaction to make an attack at the creature that missed."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Knight.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/knight.mp3?v=1.106.7"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Bogling",
+			"source": "SanelisSaga",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Blowgun",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 25/100 ft., one target. {@h} {@damage 3} piercing damage, plus 3 ({@damage 1d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Goblin.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/goblin.mp3?v=1.106.7"
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Bog Hound",
+			"source": "SanelisSaga",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 36",
+				"average": 102
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 17,
+			"con": 16,
+			"int": 5,
+			"wis": 12,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"frightened"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The bog hound has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, plus 14 ({@damage 4d6}) acid damage."
+					]
+				},
+				{
+					"name": "Baleful Baying",
+					"entries": [
+						"The bog hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} until the end of the hound's next turn or until the hound is {@condition incapacitated}. A {@condition frightened} target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all bog hounds for the next 24 hours."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Yeth Hound.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/yeth-hound.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Bog Troll",
+			"source": "SanelisSaga",
+			"size": "L",
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 20,
+			"int": 7,
+			"wis": 9,
+			"cha": 7,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Acid Absorption",
+					"entries": [
+						"Whenever the troll is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt. The troll dies only if it starts its turn with 0 hit points and doesn't regain any hit points this way. If the troll takes damage from a silvered weapon then it can't regain hit points from this trait until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The troll makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Loathsome Limbs",
+					"entries": [
+						"Whenever the troll takes at least 15 slashing damage at one time, roll a {@dice d20} to determine what else happens to it:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1–10:",
+									"entry": "Nothing else happens."
+								},
+								{
+									"type": "item",
+									"name": "11–14:",
+									"entry": "One leg is severed from the troll if it has any legs left."
+								},
+								{
+									"type": "item",
+									"name": "15–18:",
+									"entry": "One arm is severed from the troll if it has any arms left."
+								},
+								{
+									"type": "item",
+									"name": "19–20:",
+									"entry": "The troll is decapitated, but the troll dies only if it can't regenerate. If it dies, so does the severed head."
+								}
+							]
+						},
+						"If the troll finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on the troll's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and the troll's Regeneration trait.",
+						"A severed leg is unable to attack and has a speed of 5 feet.",
+						"A severed arm has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the troll can see the arm and its target. Each time the troll loses an arm, it loses a claw attack.",
+						"If its head is severed, the troll loses its bite attack and its body is {@condition blinded} unless the head can see it. The severed head has a speed of 0 feet and the troll's Keen Smell trait. It can make a bite attack but only against a target in its space.",
+						"The troll's speed is halved if it's missing a leg. If it loses both legs, it falls {@condition prone}. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Troll.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/troll.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Damage Absorption",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"A",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Bog Walker",
+			"source": "SanelisSaga",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d10 + 3"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 13,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"senses": [
+				"blindsight 60 ft. ({@condition blinded|phb|blind} beyond this radius)"
+			],
+			"passive": 11,
+			"immune": [
+				"acid"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The bog walker's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Warhorse.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/war-horse.mp3?v=1.106.7"
+			},
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			]
+		},
+		{
+			"name": "Bog Yeti",
+			"source": "SanelisSaga",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 51,
+				"formula": "6d10 + 18"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Yeti"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The yeti has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Bog Camouflage",
+					"entries": [
+						"The yeti has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the bog yeti has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The yeti can use its Chilling Gaze and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Frightening Gaze",
+					"entries": [
+						"The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a {@dc 13} Constitution saving throw against this magic or take 10 ({@damage 3d6}) necrotic damage and then be {@condition frightened} for 1 minute, the target is also {@condition paralyzed} while {@condition frightened} in this manner. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Vile Gaze of all yetis (but not abominable yetis) for 1 hour."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Yeti.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/yeti.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Abominable Bog Yeti",
+			"source": "SanelisSaga",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 137,
+				"formula": "11d12 + 66"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 24,
+			"dex": 10,
+			"con": 22,
+			"int": 9,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Yeti"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The yeti has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Bog Camouflage",
+					"entries": [
+						"The yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the abominable bog yeti has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The yeti can use its Vile Gaze and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Frightening Gaze",
+					"entries": [
+						"The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a {@dc 18} Constitution saving throw against this magic or take 21 ({@damage 6d6}) necrotic damage and then be {@condition frightened} for 1 minute, the target is also {@condition paralyzed} while {@condition frightened} in this manner. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge}",
+					"entries": [
+						"The yeti exhales a 30-foot cone of poisonous air. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Abominable Yeti.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/abominable-yeti.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
+		}
+	]
+}
