@@ -12,12 +12,21 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592514309,
-		"dateLastModified": 1592514309
+		"dateAdded": 1592947206,
+		"dateLastModified": 1592947206
 	},
+	"makebrewCreatureTrait": [
+        {
+            "name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+            "source": "SanelisSaga",
+            "entries": [
+                "As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
+            ]
+        }
+    ],
 	"monster": [
 		{
-			"name": "Hassic Warrior",
+			"name": "Ani Warrior",
 			"shortName": "Warrior",
 			"source": "SanelisSaga",
 			"size": "M",
@@ -66,9 +75,9 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Fighting Spirit (Recharges after a Short or Long Rest)",
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the warrior can give itself advantage on all weapon attack rolls and gain resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the warrior's next turn."
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
 					]
 				}
 			],
@@ -91,6 +100,10 @@
 						"{@atk rw} {@hit 2} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
 					]
 				}
+			],
+			"environment": [
+				"mountain",
+				"urban"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Thug.png?v=1.106.7",
 			"soundClip": {
@@ -121,7 +134,7 @@
 			]
 		},
 		{
-			"name": "Hassic Veteran",
+			"name": "Ani Veteran",
 			"shortName": "veteran",
 			"source": "SanelisSaga",
 			"size": "M",
@@ -169,27 +182,11 @@
 				"Ignan"
 			],
 			"cr": "3",
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The veteran's spell casting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
-					],
-					"daily": {
-						"3e": [
-							"{@spell compelled duel}",
-							"{@spell searing smite}"
-						]
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
 			"trait": [
 				{
-					"name": "Fighting Spirit (3/Day)",
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the veteran can give itself advantage on all weapon attack rolls and gain resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the warrior's next turn."
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
 					]
 				}
 			],
@@ -219,6 +216,10 @@
 					]
 				}
 			],
+			"environment": [
+				"mountain",
+				"urban"
+			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Veteran.png?v=1.106.7",
 			"soundClip": {
 				"type": "external",
@@ -235,9 +236,6 @@
 				"P",
 				"S"
 			],
-			"spellcastingTags": [
-				"I"
-			],
 			"miscTags": [
 				"MW",
 				"RNG",
@@ -245,7 +243,7 @@
 			]
 		},
 		{
-			"name": "Hassic Knight",
+			"name": "Ani Knight",
 			"source": "SanelisSaga",
 			"size": "M",
 			"type": {
@@ -292,35 +290,17 @@
 				"Ignan"
 			],
 			"cr": "3",
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The knight's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
-					],
-					"daily": {
-						"3e": [
-							"{@spell bless}",
-							"{@spell divine favor}"
-						],
-						"2e": [
-							"{@spell aid}",
-							"{@spell magic weapon}"
-						],
-						"1e": [
-							"{@spell aura of vitality}",
-							"{@spell crusader's mantle}"
-						]
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
 			"trait": [
 				{
 					"name": "Brave",
 					"entries": [
 						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
 					]
 				}
 			],
@@ -358,6 +338,10 @@
 					]
 				}
 			],
+			"environment": [
+				"mountain",
+				"urban"
+			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Knight.png?v=1.106.7",
 			"soundClip": {
 				"type": "external",
@@ -375,9 +359,6 @@
 				"P",
 				"S"
 			],
-			"spellcastingTags": [
-				"I"
-			],
 			"miscTags": [
 				"MW",
 				"RNG",
@@ -385,7 +366,7 @@
 			]
 		},
 		{
-			"name": "Hassic Cavalryman",
+			"name": "Ani Cavalryman",
 			"shortName": "Cavalryman",
 			"source": "SanelisSaga",
 			"size": "M",
@@ -440,6 +421,12 @@
 					"entries": [
 						"While mounted, the cavalryman has advantage on melee weapon attack rolls against creatures that are smaller than its mount. Additionally, the cavalryman only uses 5 feet of movement to mount and dismount a creature."
 					]
+				},
+				{
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
+					]
 				}
 			],
 			"action": [
@@ -469,6 +456,10 @@
 						"When a melee attack misses the cavalryman, it can use its reaction to make an attack at the creature that missed."
 					]
 				}
+			],
+			"environment": [
+				"mountain",
+				"urban"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Knight.png?v=1.106.7",
 			"soundClip": {
@@ -535,7 +526,6 @@
 			],
 			"passive": 9,
 			"languages": [
-				"Common",
 				"Goblin"
 			],
 			"cr": "1/4",
@@ -562,10 +552,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"grassland",
-				"hill",
-				"underdark"
+				"swamp",
+				"urban"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Goblin.png?v=1.106.7",
 			"soundClip": {
@@ -582,7 +570,6 @@
 				"D"
 			],
 			"languageTags": [
-				"C",
 				"GO"
 			],
 			"damageTags": [
@@ -596,7 +583,7 @@
 			]
 		},
 		{
-			"name": "Bog Hound",
+			"name": "Swamp Hound",
 			"source": "SanelisSaga",
 			"size": "L",
 			"type": "monstrosity",
@@ -655,9 +642,7 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"grassland",
-				"hill"
+				"swamp"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Yeth Hound.png?v=1.106.7",
 			"soundClip": {
@@ -682,7 +667,7 @@
 			]
 		},
 		{
-			"name": "Bog Troll",
+			"name": "Swamp Troll",
 			"source": "SanelisSaga",
 			"size": "L",
 			"type": "giant",
@@ -804,12 +789,7 @@
 				}
 			],
 			"environment": [
-				"arctic",
-				"forest",
-				"hill",
-				"mountain",
-				"swamp",
-				"underdark"
+				"swamp"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Troll.png?v=1.106.7",
 			"soundClip": {
@@ -847,14 +827,19 @@
 				"U"
 			],
 			"ac": [
-				11
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
 			],
 			"hp": {
 				"average": 19,
 				"formula": "3d10 + 3"
 			},
 			"speed": {
-				"walk": 40
+				"walk": 60
 			},
 			"str": 18,
 			"dex": 12,
@@ -863,7 +848,7 @@
 			"wis": 12,
 			"cha": 7,
 			"senses": [
-				"blindsight 60 ft. ({@condition blinded|phb|blind} beyond this radius)"
+				"darkvision 60 ft."
 			],
 			"passive": 11,
 			"immune": [
@@ -874,23 +859,60 @@
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"The bog walker's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+						"The bog walker's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Swampland Wayfarer",
+					"entries": [
+						"The bog walker ignores natural difficult terrain in swamps and marshland."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the bog walker has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Deadly Leap",
+					"entries": [
+						"If the bog walker jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a {@dc 14} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone} and take 11 ({@damage 2d6 + 4}) bludgeoning damage plus 11 ({@damage 2d6 + 4}) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked {@condition prone}, and is pushed 5 feet out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls {@condition prone} in the bog walker's space."
 					]
 				}
 			],
 			"environment": [
-				"urban"
+				"swamp"
 			],
 			"tokenUrl": "https://5e.tools/img/SanSa/Warhorse.png?v=1.106.7",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/war-horse.mp3?v=1.106.7"
 			},
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
 			"senseTags": [
-				"B"
+				"D"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
 			]
 		},
 		{
@@ -950,15 +972,15 @@
 					]
 				},
 				{
-					"name": "Bog Camouflage",
-					"entries": [
-						"The yeti has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
-					]
-				},
-				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
 						"While in sunlight, the bog yeti has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Swamp Camouflage",
+					"entries": [
+						"The bog yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
 					]
 				}
 			],
@@ -983,8 +1005,19 @@
 				}
 			],
 			"environment": [
-				"arctic"
+				"swamp"
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/VTFDLHw.jpg"
+						}
+					}
+				]
+			},
 			"tokenUrl": "https://5e.tools/img/SanSa/Yeti.png?v=1.106.7",
 			"soundClip": {
 				"type": "external",
@@ -1073,15 +1106,15 @@
 					]
 				},
 				{
-					"name": "Bog Camouflage",
-					"entries": [
-						"The yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
-					]
-				},
-				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
 						"While in sunlight, the abominable bog yeti has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Swamp Camouflage",
+					"entries": [
+						"The abominable bog yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
 					]
 				}
 			],
@@ -1112,8 +1145,19 @@
 				}
 			],
 			"environment": [
-				"arctic"
+				"swamp"
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/VTFDLHw.jpg"
+						}
+					}
+				]
+			},
 			"tokenUrl": "https://5e.tools/img/SanSa/Abominable Yeti.png?v=1.106.7",
 			"soundClip": {
 				"type": "external",
@@ -1144,6 +1188,1012 @@
 			"conditionInflict": [
 				"frightened",
 				"paralyzed"
+			]
+		},
+		{
+			"name": "Ani Warlord",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d8 + 72"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"deception": "+6",
+				"intimidation": "+6"
+			},
+			"passive": 12,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The warlord is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 5} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell protection from evil and good}",
+								"{@spell searing smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell dispel magic}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
+					]
+				},
+				{
+					"name": "Champion Challenge (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the warlord issues a challenge to his combatants. Each creature of the warlord's choice that it can see within 30 feet of it is forced to make a Wisdom saving throw. On a failure, the creature can't willingly move more than 30 feet away from the warlord. This effect ends if the warlord is {@condition incapacitated} or if the creature is more than 30 feet away from the warlord."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warlord makes three attacks with its halberd or its longbow."
+					]
+				},
+				{
+					"name": "Halberd",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Blackguard.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/blackguard.mp3?v=1.106.7"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
+			]
+		},
+		{
+			"name": "Swaashai Goblin",
+			"source": "SanelisSaga",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the swaashai goblins has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Goblin.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/goblin.mp3?v=1.106.7"
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Swaashai Ghoul",
+			"shortName": "Ghoul",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item ring mail|phb|umber hulk carapace}"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 10,
+			"int": 9,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"blindsight 30 ft. ({@condition blinded|phb|blind} beyond this radius)"
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Undercommon"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The ghoul has advantage on an attack roll against a creature if at least one of the ghoul's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The ghoul has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Blind Senses",
+					"entries": [
+						"The ghoul can't use its blindsight while unable to smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage. The target must succeed on a {@dc 10} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Ghoul.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/ghoul.mp3?v=1.106.7"
+			},
+			"altArt": [
+				{
+					"name": "Ghoul",
+					"source": "DIP"
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Ani Warpriest",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 117,
+				"formula": "18d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"con": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"intimidation": "+5",
+				"religion": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+					],
+					"will": [
+						"{@spell lingering agony}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell divine favor}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell magic weapon}",
+								"{@spell prayer of healing}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell crusader's mantle}",
+								"{@spell dispel magic}",
+								"{@spell revivify}",
+								"{@spell spirit guardians}",
+								"{@spell water walk}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell hold monster}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The priest makes two melee attacks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Guided Strike (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/War Priest.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/war-priest.mp3?v=1.106.7"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Fen Hydra",
+			"shortName": "Hydra",
+			"source": "SanelisSaga",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Multiple Heads (Fen Hydra)",
+					"entries": [
+						"The hydra has four heads. While it has more than one head, the hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken radiant damage since its last turn, or if it is in sunlight. The hydra regains 10 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While the hydra sleeps, at least one of its heads is awake."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hydra can breathe air and water."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the hydra's darkvision."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hydra makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underwater"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Hydra.png?v=1.106.7",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/hydra.mp3?v=1.106.7"
+			},
+			"traitTags": [
+				"Amphibious",
+				"Devil's Sight"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Swamp Stomper",
+			"source": "SanelisSaga",
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 21,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the swamp stomper moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the swamp stomper can make one stomp attack against it as a bonus action."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The swamp stomper can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Swamp Camouflage",
+					"entries": [
+						"The swamp stomper has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one {@condition prone} creature. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the swamp stomper can't use its tentacles on another target."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					"The swamp stomper is equal in size to an elephant, with blue-green scales, huge fin-like ears that fan out to either side of its tentacled head, allowing it to tread beneath the murky waters. Where an elephant may have a trunk, the swamp stomper has a singular long tentacle that it uses to grab unsuspecting prey while it hides under the dingy waters of swampland."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fGPdo1l.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/SanSa/Mammoth.png?v=1.106.9",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/mammoth.mp3?v=1.106.9"
+			},
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Bogbear",
+			"source": "SanelisSaga",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item hide armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"stealth": "+6",
+				"survival": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@dice 2d6}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage, or 13 ({@damage 2d10 + 2}) damage if used with both hands."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage in melee, or 5 ({@damage 1d6 + 2}) piercing damage at range."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Bugbear.png?v=1.106.9",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bugbear.mp3?v=1.106.9"
+			},
+			"traitTags": [
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Giant Heron",
+			"source": "SanelisSaga",
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "16d20 + 32",
+				"average": 200
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 120
+			},
+			"str": 14,
+			"dex": 26,
+			"con": 14,
+			"int": 3,
+			"wis": 14,
+			"cha": 9,
+			"save": {
+				"con": "+6",
+				"wis": "+6",
+				"cha": "+3",
+				"str": "+6"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 16,
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The roc has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The giant heron doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The heron makes three attacks with its beak."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}27 ({@damage 3d12 + 8}) damage and the target is {@condition grappled}. The heron can't make another beak attack while a creature is {@condition grappled} with this action."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The heron makes a beak attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the beak damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside of the heron's turns, and it takes {@damage 8d8} acid damage at the start of each of the heron's turns.",
+						"If the heron takes 30 damage or more on a single turn from a creature inside it, the heron must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the heron. If the heron dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"grassland",
+				"swamp"
+			],
+			"tokenUrl": "https://5e.tools/img/SanSa/Roc.png?v=1.106.9",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/roc.mp3?v=1.106.9"
+			},
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
 			]
 		}
 	]
