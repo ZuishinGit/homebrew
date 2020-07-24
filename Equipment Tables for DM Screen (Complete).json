@@ -1,0 +1,1703 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"equipmentTables",
+				"abbreviation":"DMET",
+				"full":"Equipment Tables for DM Screen Integration",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"book":[
+		{
+			"name":"Equipment",
+			"id":"DMET",
+			"source":"equipmentTables",
+			"contents":[
+				{
+					"name":"Equipment",
+					"headers":[
+						"Weapons",
+						"Armor & Shields",
+						"Adventuring Gear",
+						"Tools"
+					]
+				}
+			]
+		}
+	],
+	"bookData":[
+		{
+			"id":"DMET",
+			"source":"equipmentTables",
+			"data":[
+				{
+					"type":"section",
+					"name":"Equipment",
+					"entries":[
+						{
+							"type":"section",
+							"name":"Weapons",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Weapons",
+									"colLabels": [
+										"Name",
+										"Cost",
+										"Damage",
+										"Weight",
+										"Properties"
+									],
+									"colStyles": [
+										"col-4",
+										"col-1 text-center",
+										"col-2",
+										"col-1 -text-right",
+										"col-4"
+									],
+									"rows": [
+										[
+											"{@i Simple Melee Weapons}",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Club|phb}",
+												"1 sp",
+												"1d4 bludgeoning",
+												"2 lb.",
+												"Light"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Dagger|phb}",
+												"2 gp",
+												"1d4 piercing",
+												"1 lb.",
+												"Finesse, light, thrown (range 20/60)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Greatclub|phb}",
+												"2 sp",
+												"1d8 bludgeoning",
+												"10 lb.",
+												"Two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Handaxe|phb}",
+												"5 gp",
+												"1d6 slashing",
+												"2 lb.",
+												"Light, thrown (range 20/60)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Javelin|phb}",
+												"5 sp",
+												"1d6 piercing",
+												"2 lb.",
+												"Thrown (range 30/120)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Light hammer|phb}",
+												"2 gp",
+												"1d4 bludgeoning",
+												"2 lb.",
+												"Light, thrown (range 20/60)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Mace|phb}",
+												"5 gp",
+												"1d6 bludgeoning",
+												"4 lb.",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Quarterstaff|phb}",
+												"2 sp",
+												"1d6 bludgeoning",
+												"4 lb.",
+												"Versatile (1d8)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Sickle|phb}",
+												"1 gp",
+												"1d4 slashing",
+												"2 lb.",
+												"Light"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Spear|phb}",
+												"1 gp",
+												"1d6 piercing",
+												"3 lb.",
+												"Thrown (range 20/60), versatile (1d8)"
+											]
+										},
+										[
+											"{@i Simple Ranged Weapons}",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item light crossbow|phb|Crossbow, light}",
+												"25 gp",
+												"1d8 piercing",
+												"5 lb.",
+												"Ammunition (range 80/320), loading, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Dart|phb}",
+												"5 cp",
+												"1d4 piercing",
+												"1/4 lb.",
+												"Finesse, thrown (range 20/60)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Shortbow|phb}",
+												"25 gp",
+												"1d6 piercing",
+												"2 lb.",
+												"Ammunition (range 80/320), two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Sling|phb}",
+												"1 sp",
+												"1d4 bludgeoning",
+												"—",
+												"Ammunition (range 30/120)"
+											]
+										},
+										[
+											"{@i Martial Melee Weapons}",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Battleaxe|phb}",
+												"10 gp",
+												"1d8 slashing",
+												"4 lb.",
+												"Versatile (1d10)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Flail|phb}",
+												"10 gp",
+												"1d8 bludgeoning",
+												"2 lb.",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Glaive|phb}",
+												"20 gp",
+												"1d10 slashing",
+												"6 lb.",
+												"Heavy, reach, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Greataxe|phb}",
+												"30 gp",
+												"1d12 slashing",
+												"7 lb.",
+												"Heavy, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Greatsword|phb}",
+												"50 gp",
+												"2d6 slashing",
+												"6 lb.",
+												"Heavy, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Halberd|phb}",
+												"20 gp",
+												"1d10 slashing",
+												"6 lb.",
+												"Heavy, reach, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Lance|phb}",
+												"10 gp",
+												"1d12 piercing",
+												"6 lb.",
+												"Reach, special"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Longsword|phb}",
+												"15 gp",
+												"1d8 slashing",
+												"3 lb.",
+												"Versatile (1d10)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Maul|phb}",
+												"10 gp",
+												"2d6 bludgeoning",
+												"10 lb.",
+												"Heavy, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Morningstar|phb}",
+												"15 gp",
+												"1d8 piercing",
+												"4 lb.",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Pike|phb}",
+												"5 gp",
+												"1d10 piercing",
+												"18 lb.",
+												"Heavy, reach, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Rapier|phb}",
+												"25 gp",
+												"1d8 piercing",
+												"2 lb.",
+												"Finesse"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Scimitar|phb}",
+												"25 gp",
+												"1d6 slashing",
+												"3 lb.",
+												"Finesse, light"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Shortsword|phb}",
+												"10 gp",
+												"1d6 piercing",
+												"2 lb.",
+												"Finesse, light"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Trident|phb}",
+												"5 gp",
+												"1d6 piercing",
+												"4 lb.",
+												"Thrown (range 20/60), versatile (1d8)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item War pick|phb}",
+												"5 gp",
+												"1d8 piercing",
+												"2 lb.",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Warhammer|phb}",
+												"15 gp",
+												"1d8 bludgeoning",
+												"2 lb.",
+												"Versatile (1d10)"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Whip|phb}",
+												"2 gp",
+												"1d4 slashing",
+												"3 lb.",
+												"Finesse, reach"
+											]
+										},
+										[
+											"{@i Martial Ranged Weapons}",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Blowgun|phb}",
+												"10 gp",
+												"1 piercing",
+												"1 lb.",
+												"Ammunition (range 25/100), loading"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item hand crossbow|phb|Crossbow, hand}",
+												"75 gp",
+												"1d6 piercing",
+												"3 lb.",
+												"Ammunition (range 30/120), light, loading"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item heavy crossbow|phb|Crossbow, heavy}",
+												"50 gp",
+												"1d10 piercing",
+												"18 lb.",
+												"Ammunition (range 100/400), heavy, loading, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Longbow|phb}",
+												"50 gp",
+												"1d8 piercing",
+												"2 lb.",
+												"Ammunition (range 150/600), heavy, two-handed"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Net|phb}",
+												"1 gp",
+												"—",
+												"3 lb.",
+												"Special, thrown (range 5/15)"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Armor & Shields",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Armor",
+									"colLabels": [
+										"Armor",
+										"Cost",
+										"Armor Class (AC)",
+										"Strength",
+										"Stealth",
+										"Weight"
+									],
+									"colStyles": [
+										"col-3",
+										"col-1 text-right",
+										"col-3 text-center",
+										"col-1",
+										"col-3",
+										"col-1 text-center"
+									],
+									"rows": [
+										[
+											"{@i Light Armor}",
+											"",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item padded armor|phb|Padded}",
+												"5 gp",
+												"11 + Dex modifier",
+												"—",
+												"Disadvantage",
+												"8 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item leather armor|phb|Leather}",
+												"10 gp",
+												"11 + Dex modifier",
+												"—",
+												"—",
+												"10 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item studded leather armor|phb|Studded leather}",
+												"45 gp",
+												"12 + Dex modifier",
+												"—",
+												"—",
+												"13 lb."
+											]
+										},
+										[
+											"{@i Medium Armor}",
+											"",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item hide armor|phb|Hide}",
+												"10 gp",
+												"12 + Dex modifier (max 2)",
+												"—",
+												"—",
+												"12 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Chain shirt|phb}",
+												"50 gp",
+												"13 + Dex modifier (max 2)",
+												"—",
+												"—",
+												"20 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Scale mail|phb}",
+												"50 gp",
+												"14 + Dex modifier (max 2)",
+												"—",
+												"Disadvantage",
+												"45 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Breastplate|phb}",
+												"400 gp",
+												"14 + Dex modifier (max 2)",
+												"—",
+												"—",
+												"20 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item half plate armor|phb|Half plate}",
+												"750 gp",
+												"15 + Dex modifier (max 2)",
+												"—",
+												"Disadvantage",
+												"40 lb."
+											]
+										},
+										[
+											"{@i Heavy Armor}",
+											"",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Ring mail|phb}",
+												"30 gp",
+												"14",
+												"—",
+												"Disadvantage",
+												"40 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Chain mail|phb}",
+												"75 gp",
+												"16",
+												"Str 13",
+												"Disadvantage",
+												"55 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item splint armor|phb|Splint}",
+												"200 gp",
+												"17",
+												"Str 15",
+												"Disadvantage",
+												"60 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item plate armor|phb|Plate}",
+												"1,500 gp",
+												"18",
+												"Str 15",
+												"Disadvantage",
+												"65 lb."
+											]
+										},
+										[
+											"{@i Shield}",
+											"",
+											"",
+											"",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Shield|phb}",
+												"10 gp",
+												"+2",
+												"—",
+												"—",
+												"6 lb."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Adventuring Gear",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Adventuring Gear",
+									"colLabels": [
+										"Item",
+										"Cost",
+										"Weight"
+									],
+									"colStyles": [
+										"col-4",
+										"col-4 text-right",
+										"col-4 text-center"
+									],
+									"rows": [
+										[
+											"{@item Abacus|PHB}",
+											"2 gp",
+											"2 lb."
+										],
+										[
+											"{@item Acid (vial)|PHB}",
+											"25 gp",
+											"1 lb."
+										],
+										[
+											"{@item Alchemist's fire (flask)|PHB}",
+											"50 gp",
+											"1 lb."
+										],
+										[
+											"{@i Ammunition}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Arrows (20)|PHB}",
+												"1 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Blowgun needles (50)|PHB}",
+												"1 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Crossbow bolts (20)|PHB}",
+												"1 gp",
+												"1½ lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Sling bullets (20)|PHB}",
+												"4 cp",
+												"1½ lb."
+											]
+										},
+										[
+											"{@item Antitoxin (vial)|PHB}",
+											"50 gp",
+											"—"
+										],
+										[
+											"{@i {@item Arcane focus|PHB}}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Crystal|PHB}",
+												"10 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Orb|PHB}",
+												"20 gp",
+												"3 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Rod|PHB}",
+												"10 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Staff|PHB}",
+												"5 gp",
+												"4 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Wand|PHB}",
+												"10 gp",
+												"1 lb."
+											]
+										},
+										[
+											"{@item Backpack|PHB}",
+											"2 gp",
+											"5 lb."
+										],
+										[
+											"{@item Ball bearings (bag of 1,000)|PHB}",
+											"1 gp",
+											"2 lb."
+										],
+										[
+											"{@item Barrel|PHB}",
+											"2 gp",
+											"70 lb."
+										],
+										[
+											"{@item Basket|PHB}",
+											"4 sp",
+											"2 lb."
+										],
+										[
+											"{@item Bedroll|PHB}",
+											"1 gp",
+											"7 lb."
+										],
+										[
+											"{@item Bell|PHB}",
+											"1 gp",
+											"—"
+										],
+										[
+											"{@item Blanket|PHB}",
+											"5 sp",
+											"3 lb."
+										],
+										[
+											"{@item Block and tackle|PHB}",
+											"1 gp",
+											"5 lb."
+										],
+										[
+											"{@item Book|PHB}",
+											"25 gp",
+											"5 lb."
+										],
+										[
+											"{@item glass bottle|PHB|Bottle, glass}",
+											"2 gp",
+											"2 lb."
+										],
+										[
+											"{@item Bucket|PHB}",
+											"5 cp",
+											"2 lb."
+										],
+										[
+											"{@item Caltrops (bag of 20)|PHB}",
+											"1 gp",
+											"2 lb."
+										],
+										[
+											"{@item Candle|PHB}",
+											"1 cp",
+											"—"
+										],
+										[
+											"{@item crossbow bolt case|PHB|Case, crossbow bolt}",
+											"1 gp",
+											"1 lb."
+										],
+										[
+											"{@item map or scroll case|PHB|Case, map or scroll}",
+											"1 gp",
+											"1 lb."
+										],
+										[
+											"{@item Chain (10 feet)|PHB}",
+											"5 gp",
+											"10 lb."
+										],
+										[
+											"{@item Chalk (1 piece)|PHB}",
+											"1 cp",
+											"—"
+										],
+										[
+											"{@item Chest|PHB}",
+											"5 gp",
+											"25 lb."
+										],
+										[
+											"{@item common clothes|PHB|Clothes, common}",
+											"5 sp",
+											"3 lb."
+										],
+										[
+											"{@item costume clothes|PHB|Clothes, costume}",
+											"5 gp",
+											"4 lb."
+										],
+										[
+											"{@item fine clothes|PHB|Clothes, fine}",
+											"15 gp",
+											"6 lb."
+										],
+										[
+											"{@item traveler's clothes|PHB|Clothes, traveler's}",
+											"2 gp",
+											"4 lb."
+										],
+										[
+											"{@item Component pouch|PHB}",
+											"25 gp",
+											"2 lb."
+										],
+										[
+											"{@item Crowbar|PHB}",
+											"2 gp",
+											"5 lb."
+										],
+										[
+											"{@i {@item Druidic focus|PHB}}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Sprig of mistletoe|PHB}",
+												"1 gp",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Totem|PHB}",
+												"1 gp",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Wooden staff|PHB}",
+												"5 gp",
+												"4 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Yew wand|PHB}",
+												"10 gp",
+												"1 lb."
+											]
+										},
+										[
+											"{@item Fishing tackle|PHB}",
+											"1 gp",
+											"4 lb."
+										],
+										[
+											"{@item Flask|PHB} or {@item tankard|PHB}",
+											"2 cp",
+											"1 lb."
+										],
+										[
+											"{@item Grappling hook|PHB}",
+											"2 gp",
+											"4 lb."
+										],
+										[
+											"{@item Hammer|PHB}",
+											"1 gp",
+											"3 lb."
+										],
+										[
+											"{@item sledgehammer|PHB|Hammer, sledge}",
+											"2 gp",
+											"10 lb."
+										],
+										[
+											"{@item Healer's Kit|PHB}",
+											"5 gp",
+											"3 lb."
+										],
+										[
+											"{@i {@item Holy symbol|PHB}}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Amulet|PHB}",
+												"5 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Emblem|PHB}",
+												"5 gp",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Reliquary|PHB}",
+												"5 gp",
+												"2 lb."
+											]
+										},
+										[
+											"{@item Holy water (flask)|PHB}",
+											"25 gp",
+											"1 lb."
+										],
+										[
+											"{@item Hourglass|PHB}",
+											"25 gp",
+											"1 lb."
+										],
+										[
+											"{@item Hunting trap|PHB}",
+											"5 gp",
+											"25 lb."
+										],
+										[
+											"{@item Ink (1-ounce bottle)|PHB}",
+											"10 gp",
+											"—"
+										],
+										[
+											"{@item Ink pen|PHB}",
+											"2 cp",
+											"—"
+										],
+										[
+											"{@item Jug|PHB} or {@item pitcher|PHB}",
+											"2 cp",
+											"4 lb."
+										],
+										[
+											"{@item climber's kit|PHB|Kit, climber's}",
+											"25 gp",
+											"12 lb."
+										],
+										[
+											"{@item disguise kit|PHB|Kit, disguise}",
+											"25 gp",
+											"3 lb."
+										],
+										[
+											"{@item forgery kit|PHB|Kit, forgery}",
+											"15 gp",
+											"5 lb."
+										],
+										[
+											"{@item herbalism kit|PHB|Kit, herbalism}",
+											"5 gp",
+											"3 lb."
+										],
+										[
+											"{@item healer's kit|PHB|Kit, healer's}",
+											"5 gp",
+											"3 lb."
+										],
+										[
+											"{@item mess kit|PHB|Kit, mess}",
+											"2 sp",
+											"1 lb."
+										],
+										[
+											"{@item poisoner's kit|PHB|Kit, poisoner's}",
+											"50 gp",
+											"2 lb."
+										],
+										[
+											"{@item Ladder (10-foot)|PHB}",
+											"1 sp",
+											"25 lb."
+										],
+										[
+											"{@item Lamp|PHB}",
+											"5 sp",
+											"1 lb."
+										],
+										[
+											"{@item bullseye lantern|PHB|Lantern, bullseye}",
+											"10 gp",
+											"2 lb."
+										],
+										[
+											"{@item hooded lantern|PHB|Lantern, hooded}",
+											"5 gp",
+											"2 lb."
+										],
+										[
+											"{@item Lock|PHB}",
+											"10 gp",
+											"1 lb."
+										],
+										[
+											"{@item Magnifying glass|PHB}",
+											"100 gp",
+											"—"
+										],
+										[
+											"{@item Manacles|PHB}",
+											"2 gp",
+											"6 lb."
+										],
+										[
+											"{@item steel mirror|PHB|Mirror, steel}",
+											"5 gp",
+											"1/2 lb."
+										],
+										[
+											"{@item Oil (flask)|PHB}",
+											"1 sp",
+											"1 lb."
+										],
+										[
+											"{@item Paper (one sheet)|PHB}",
+											"2 sp",
+											"—"
+										],
+										[
+											"{@item Parchment (one sheet)|PHB}",
+											"1 sp",
+											"—"
+										],
+										[
+											"{@item Perfume (vial)|PHB}",
+											"5 gp",
+											"—"
+										],
+										[
+											"{@item miner's pick|PHB|Pick, miner's}",
+											"2 gp",
+											"10 lb."
+										],
+										[
+											"{@item Piton|PHB}",
+											"5 cp",
+											"1/4 lb."
+										],
+										[
+											"{@item basic poison (vial)|PHB|Poison, basic (vial)}",
+											"100 gp",
+											"—"
+										],
+										[
+											"{@item Pole (10-foot)|PHB}",
+											"5 cp",
+											"7 lb."
+										],
+										[
+											"{@item iron pot|PHB|Pot, iron}",
+											"2 gp",
+											"10 lb."
+										],
+										[
+											"{@item Potion of healing|DMG}",
+											"50 gp",
+											"1/2 lb."
+										],
+										[
+											"{@item Pouch|PHB}",
+											"5 sp",
+											"1 lb."
+										],
+										[
+											"{@item Quiver|PHB}",
+											"1 gp",
+											"1 lb."
+										],
+										[
+											"{@item portable ram|PHB|Ram, portable}",
+											"4 gp",
+											"35 lb."
+										],
+										[
+											"{@item Rations (1 day)|PHB}",
+											"5 sp",
+											"2 lb."
+										],
+										[
+											"{@item Robes|PHB}",
+											"1 gp",
+											"4 lb."
+										],
+										[
+											"{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}",
+											"1 gp",
+											"10 lb."
+										],
+										[
+											"{@item silk rope (50 feet)|PHB|Rope, silk (50 feet)}",
+											"10 gp",
+											"5 lb."
+										],
+										[
+											"{@item Sack|PHB}",
+											"1 cp",
+											"1/2 lb."
+										],
+										[
+											"{@item merchant's scale|PHB|Scale, merchant's}",
+											"5 gp",
+											"3 lb."
+										],
+										[
+											"{@item Sealing wax|PHB}",
+											"5 sp",
+											"—"
+										],
+										[
+											"{@item Shovel|PHB}",
+											"2 gp",
+											"5 lb."
+										],
+										[
+											"{@item Signal whistle|PHB}",
+											"5 cp",
+											"—"
+										],
+										[
+											"{@item Signet ring|PHB}",
+											"5 gp",
+											"—"
+										],
+										[
+											"{@item Soap|PHB}",
+											"2 cp",
+											"—"
+										],
+										[
+											"{@item Spellbook|PHB}",
+											"50 gp",
+											"3 lb."
+										],
+										[
+											"{@item iron spikes (10)|PHB|Spikes, iron (10)}",
+											"1 gp",
+											"5 lb."
+										],
+										[
+											"{@item Spyglass|PHB}",
+											"1,000 gp",
+											"1 lb."
+										],
+										[
+											"{@item two-person tent|PHB|Tent, two-person}",
+											"2 gp",
+											"20 lb."
+										],
+										[
+											"{@item Tinderbox|PHB}",
+											"5 sp",
+											"1 lb."
+										],
+										[
+											"{@item Torch|PHB}",
+											"1 cp",
+											"1 lb."
+										],
+										[
+											"{@item Vial|PHB}",
+											"1 gp",
+											"—"
+										],
+										[
+											"{@item Waterskin|PHB}",
+											"2 sp",
+											"5 lb. (full)"
+										],
+										[
+											"{@item Whetstone|PHB}",
+											"1 cp",
+											"1 lb."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Tools",
+							"entries":[
+								{
+									"type":"table",
+									"colLabels": [
+										"Item",
+										"Cost",
+										"Weight"
+									],
+									"colStyles": [
+										"col-8",
+										"col-2 text-right",
+										"col-2 text-center"
+									],
+									"rows": [
+										[
+											"{@i Artisan's tools}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Alchemist's supplies|phb}",
+												"50 gp",
+												"8 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Brewer's supplies|phb}",
+												"20 gp",
+												"9 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Calligrapher's supplies|phb}",
+												"10 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Carpenter's tools|phb}",
+												"8 gp",
+												"6 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Cartographer's tools|phb}",
+												"15 gp.",
+												"6 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Cobbler's tools|phb}",
+												"5 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Cook's utensils|phb}",
+												"1 gp",
+												"8 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Glassblower's tools|phb}",
+												"30 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Jeweler's tools|phb}",
+												"25 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Leatherworker's tools|phb}",
+												"5 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Mason's tools|phb}",
+												"10 gp",
+												"8 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Painter's supplies|phb}",
+												"10 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Potter's tools|phb}",
+												"10 gp",
+												"3 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Smith's tools|phb}",
+												"20 gp",
+												"8 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Tinker's tools|phb}",
+												"50 gp",
+												"10 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Weaver's tools|phb}",
+												"1 gp",
+												"5 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Woodcarver's tools|phb}",
+												"1 gp",
+												"5 lb."
+											]
+										},
+										[
+											"{@item Disguise Kit|phb}",
+											"25 gp",
+											"3 lb."
+										],
+										[
+											"{@item Forgery kit|phb}",
+											"15 gp",
+											"5 lb."
+										],
+										[
+											"{@i Gaming sets}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Dice set|phb}",
+												"1 sp",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Dragonchess set|phb}",
+												"1 gp",
+												"1/2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Playing card set|phb}",
+												"5 sp",
+												"—"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Three-Dragon Ante set|phb}",
+												"1 gp",
+												"—"
+											]
+										},
+										[
+											"{@item Herbalism kit|phb}",
+											"5 gp",
+											"3 lb."
+										],
+										[
+											"{@i Musical instruments}",
+											"",
+											""
+										],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Bagpipes|phb}",
+												"30 gp",
+												"6 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Drum|phb}",
+												"6 gp",
+												"3 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Dulcimer|phb}",
+												"25 gp",
+												"10 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Flute|phb}",
+												"2 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Lute|phb}",
+												"35 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Lyre|phb}",
+												"30 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Horn|phb}",
+												"3 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Pan flute|phb}",
+												"12 gp",
+												"2 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Shawm|phb}",
+												"2 gp",
+												"1 lb."
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"{@item Viol|phb}",
+												"30 gp",
+												"1 lb."
+											]
+										},
+										[
+											"{@item Navigator's tools|phb}",
+											"25 gp",
+											"2 lb."
+										],
+										[
+											"{@item Poisoner's kit|phb}",
+											"50 gp",
+											"2 lb."
+										],
+										[
+											"{@item Thieves' tools|phb}",
+											"25 gp",
+											"1 lb."
+										],
+										[
+											"Vehicles (land or water)",
+											"*",
+											"*"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

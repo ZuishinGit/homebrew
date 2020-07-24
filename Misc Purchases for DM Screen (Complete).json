@@ -1,0 +1,286 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"miscPurchases",
+				"abbreviation":"DMMP",
+				"full":"Miscellaneous Purchases for DM Screen Integration",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"book":[
+		{
+			"name":"Misc Purchases",
+			"id":"DMMP",
+			"source":"miscPurchases",
+			"contents":[
+				{
+					"name":"Trade goods, mounts, and poisons",
+					"headers":[
+						"Trade Goods",
+						"Mounts",
+						"Poisons"
+					]
+				}
+			]
+		}
+	],
+	"bookData":[
+		{
+			"id":"DMMP",
+			"source":"miscPurchases",
+			"data":[
+				{
+					"type":"section",
+					"name":"Trade goods, mounts, and poisons",
+					"entries":[
+						
+						{
+							"type":"section",
+							"name":"Trade Goods",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Trade Goods",
+									"colLabels": [
+										"Cost",
+										"Goods"
+									],
+									"colStyles": [
+										"col-1 text-right",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1 cp",
+											"1 lb. of wheat"
+										],
+										[
+											"2 cp",
+											"1 lb. of flour or one chicken"
+										],
+										[
+											"5 cp",
+											"1 lb. of salt"
+										],
+										[
+											"1 sp",
+											"1 lb. of iron or 1 sq. yd. of canvas"
+										],
+										[
+											"5 sp",
+											"1 lb. of copper or 1 sq. yd. of cotton cloth"
+										],
+										[
+											"1 gp",
+											"1 lb. of ginger or one goat"
+										],
+										[
+											"2 gp",
+											"1 lb. of cinnamon or pepper, or one sheep"
+										],
+										[
+											"3 gp",
+											"1 lb. of cloves or one pig"
+										],
+										[
+											"5 gp",
+											"1 lb. of silver or 1 sq. yd. of linen"
+										],
+										[
+											"10 gp",
+											"1 sq. yd. of silk or one cow"
+										],
+										[
+											"15 gp",
+											"1 lb. of saffron or one ox"
+										],
+										[
+											"50 gp",
+											"1 lb. of gold"
+										],
+										[
+											"500 gp",
+											"1 lb. of platinum"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Mounts",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Mounts and Other Animals",
+									"colLabels": [
+										"Item",
+										"Cost",
+										"Speed",
+										"Carrying Capacity"
+									],
+									"colStyles": [
+										"col-6",
+										"col-2 text-right",
+										"col-2 text-right",
+										"col-2 text-right"
+									],
+									"rows": [
+										[
+											"Camel",
+											"50 gp",
+											"50 ft.",
+											"480 lb."
+										],
+										[
+											"Donkey or mule",
+											"8 gp",
+											"40 ft.",
+											"420 lb."
+										],
+										[
+											"Elephant",
+											"200 gp",
+											"40 ft.",
+											"1,320 lb."
+										],
+										[
+											"Horse, draft",
+											"50 gp",
+											"40 ft.",
+											"540 lb."
+										],
+										[
+											"Horse, riding",
+											"75 gp",
+											"60 ft.",
+											"480 lb."
+										],
+										[
+											"Mastiff",
+											"25 gp",
+											"40 ft.",
+											"195 lb."
+										],
+										[
+											"Pony",
+											"30 gp",
+											"40 ft.",
+											"225 lb."
+										],
+										[
+											"Warhorse",
+											"400 gp",
+											"60 ft.",
+											"540 lb."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Poisons",
+							"entries":[
+								{
+									"type":"table",
+									"caption": "Poisons",
+									"colLabels": [
+										"Item",
+										"Type",
+										"Price per Dose"
+									],
+									"colStyles": [
+										"col-6",
+										"col-3",
+										"col-3 text-right"
+									],
+									"rows": [
+										[
+											"{@item Assassin's blood}",
+											"Ingested",
+											"150 gp"
+										],
+										[
+											"{@item Burnt othur fumes}",
+											"Inhaled",
+											"500 gp"
+										],
+										[
+											"{@item Carrion crawler mucus}",
+											"Contact",
+											"200 gp"
+										],
+										[
+											"{@item Drow poison}",
+											"Injury",
+											"200 gp"
+										],
+										[
+											"{@item Essence of ether}",
+											"Inhaled",
+											"300 gp"
+										],
+										[
+											"{@item Malice}",
+											"Inhaled",
+											"250 gp"
+										],
+										[
+											"{@item Midnight tears}",
+											"Ingested",
+											"1,500 gp"
+										],
+										[
+											"{@item Oil of taggit}",
+											"Contact",
+											"400 gp"
+										],
+										[
+											"{@item Pale tincture}",
+											"Ingested",
+											"250 gp"
+										],
+										[
+											"{@item Purple worm poison}",
+											"Injury",
+											"2,000 gp"
+										],
+										[
+											"{@item Serpent venom}",
+											"Injury",
+											"200 gp"
+										],
+										[
+											"{@item Torpor}",
+											"Ingested",
+											"600 gp"
+										],
+										[
+											"{@item Truth serum}",
+											"Ingested",
+											"150 gp"
+										],
+										[
+											"{@item Wyvern poison}",
+											"Injury",
+											"1,200 gp"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
