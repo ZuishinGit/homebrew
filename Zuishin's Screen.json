@@ -1,0 +1,3398 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZuishinsDMScreen",
+				"abbreviation":"ZDMS",
+				"full":"Zuishin's DM Screen: A Compilation of Tables and Helpful References",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"book":[
+		{
+			"name":"Zuishin's Screen: Urban Life",
+			"id":"ZSUL",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Urban Life"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Equipment Reference",
+			"id":"ZSER",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Equipment Reference"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Availability of Items",
+			"id":"ZSAI",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Availability of Items"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Passive Perceptions",
+			"id":"ZSPP",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Passive Perceptions"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Miscellaneous Reminders",
+			"id":"ZSMR",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Miscellaneous Reminders"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Durnan's Tables",
+			"id":"ZSDT",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Durnan's Tables"
+				}
+			]
+		},
+		{
+			"name":"Zuishin's Screen: Undermountain Encounters",
+			"id":"ZSUE",
+			"source":"ZuishinsDMScreen",
+			"contents":[
+				{
+					"name":"Undermountain Encounters"
+				}
+			]
+		}
+	],
+	"bookData":[
+		{
+			"id":"ZSUL",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Per-day living",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"Lifestyle",
+												"Price/Day"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-right"
+											],
+											"rows":[
+												[
+													"Wretched",
+													"-"
+												],
+												[
+													"Squalid",
+													"1 sp"
+												],
+												[
+													"Poor",
+													"2 sp"
+												],
+												[
+													"Modest",
+													"1 gp"
+												],
+												[
+													"Comfortable",
+													"2 gp"
+												],
+												[
+													"Wealthy",
+													"4 gp"
+												],
+												[
+													"Aristocratic",
+													"10 gp minimum"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Food, drink, and lodging",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Item",
+												"Cost"
+											],
+											"colStyles": [
+												"col-6",
+												"col-6 text-right"
+											],
+											"rows": [
+												[
+													"{@i Ale}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Ale (Gallon)|PHB|Gallon}",
+														"2 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Ale (mug)|phb|Mug}",
+														"4 cp"
+													]
+												},
+												[
+													"Banquet (per person)",
+													"10 gp"
+												],
+												[
+													"{@item loaf of bread|phb|Bread, loaf}",
+													"2 cp"
+												],
+												[
+													"{@item hunk of cheese|phb|Cheese, hunk}",
+													"1 sp"
+												],
+												[
+													"{@i Inn stay (per day)}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Squalid",
+														"7 cp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Poor",
+														"1 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Modest",
+														"5 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Comfortable",
+														"8 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Wealthy",
+														"2 gp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Aristocratic",
+														"4 gp"
+													]
+												},
+												[
+													"{@i Meals (per day)}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Squalid",
+														"3 cp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Poor",
+														"6 cp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Modest",
+														"3 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Comfortable",
+														"5 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Wealthy",
+														"8 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Aristocratic",
+														"2 gp"
+													]
+												},
+												[
+													"{@item chunk of meat|phb|Meat, chunk}",
+													"3 sp"
+												],
+												[
+													"{@i Wine}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item common wine (pitcher)|phb|Common (pitcher)}",
+														"2 sp"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item fine wine (bottle)|phb|Fine (bottle)}",
+														"10 gp"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Hiring services",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Service",
+												"Pay"
+											],
+											"colStyles": [
+												"col-6",
+												"col-6"
+											],
+											"rows": [
+												[
+													"{@i Coach cab}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Between towns",
+														"3 cp per mile"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Coach cab, Within a city",
+														"1 cp"
+													]
+												},
+												[
+													"{@i Hireling}",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Skilled",
+														"2 gp per day"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Untrained",
+														"2 sp per day"
+													]
+												},
+												[
+													"Messenger",
+													"2 cp per mile"
+												],
+												[
+													"Road or gate toll",
+													"1 cp"
+												],
+												[
+													"Ship's passage",
+													"1 sp per mile"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+			
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSER",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Weapons",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Name",
+												"Cost",
+												"Damage",
+												"Weight",
+												"Properties"
+											],
+											"colStyles": [
+												"col-4",
+												"col-1 text-center",
+												"col-2",
+												"col-1 -text-right",
+												"col-4"
+											],
+											"rows": [
+												[
+													"{@i Simple Melee Weapons}",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Club|phb}",
+														"1 sp",
+														"1d4 bludgeoning",
+														"2 lb.",
+														"Light"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Dagger|phb}",
+														"2 gp",
+														"1d4 piercing",
+														"1 lb.",
+														"Finesse, light, thrown (range 20/60)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Greatclub|phb}",
+														"2 sp",
+														"1d8 bludgeoning",
+														"10 lb.",
+														"Two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Handaxe|phb}",
+														"5 gp",
+														"1d6 slashing",
+														"2 lb.",
+														"Light, thrown (range 20/60)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Javelin|phb}",
+														"5 sp",
+														"1d6 piercing",
+														"2 lb.",
+														"Thrown (range 30/120)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Light hammer|phb}",
+														"2 gp",
+														"1d4 bludgeoning",
+														"2 lb.",
+														"Light, thrown (range 20/60)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Mace|phb}",
+														"5 gp",
+														"1d6 bludgeoning",
+														"4 lb.",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Quarterstaff|phb}",
+														"2 sp",
+														"1d6 bludgeoning",
+														"4 lb.",
+														"Versatile (1d8)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Sickle|phb}",
+														"1 gp",
+														"1d4 slashing",
+														"2 lb.",
+														"Light"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Spear|phb}",
+														"1 gp",
+														"1d6 piercing",
+														"3 lb.",
+														"Thrown (range 20/60), versatile (1d8)"
+													]
+												},
+												[
+													"{@i Simple Ranged Weapons}",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item light crossbow|phb|Crossbow, light}",
+														"25 gp",
+														"1d8 piercing",
+														"5 lb.",
+														"Ammunition (range 80/320), loading, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Dart|phb}",
+														"5 cp",
+														"1d4 piercing",
+														"1/4 lb.",
+														"Finesse, thrown (range 20/60)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Shortbow|phb}",
+														"25 gp",
+														"1d6 piercing",
+														"2 lb.",
+														"Ammunition (range 80/320), two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Sling|phb}",
+														"1 sp",
+														"1d4 bludgeoning",
+														"—",
+														"Ammunition (range 30/120)"
+													]
+												},
+												[
+													"{@i Martial Melee Weapons}",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Battleaxe|phb}",
+														"10 gp",
+														"1d8 slashing",
+														"4 lb.",
+														"Versatile (1d10)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Flail|phb}",
+														"10 gp",
+														"1d8 bludgeoning",
+														"2 lb.",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Glaive|phb}",
+														"20 gp",
+														"1d10 slashing",
+														"6 lb.",
+														"Heavy, reach, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Greataxe|phb}",
+														"30 gp",
+														"1d12 slashing",
+														"7 lb.",
+														"Heavy, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Greatsword|phb}",
+														"50 gp",
+														"2d6 slashing",
+														"6 lb.",
+														"Heavy, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Halberd|phb}",
+														"20 gp",
+														"1d10 slashing",
+														"6 lb.",
+														"Heavy, reach, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Lance|phb}",
+														"10 gp",
+														"1d12 piercing",
+														"6 lb.",
+														"Reach, special"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Longsword|phb}",
+														"15 gp",
+														"1d8 slashing",
+														"3 lb.",
+														"Versatile (1d10)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Maul|phb}",
+														"10 gp",
+														"2d6 bludgeoning",
+														"10 lb.",
+														"Heavy, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Morningstar|phb}",
+														"15 gp",
+														"1d8 piercing",
+														"4 lb.",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Pike|phb}",
+														"5 gp",
+														"1d10 piercing",
+														"18 lb.",
+														"Heavy, reach, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Rapier|phb}",
+														"25 gp",
+														"1d8 piercing",
+														"2 lb.",
+														"Finesse"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Scimitar|phb}",
+														"25 gp",
+														"1d6 slashing",
+														"3 lb.",
+														"Finesse, light"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Shortsword|phb}",
+														"10 gp",
+														"1d6 piercing",
+														"2 lb.",
+														"Finesse, light"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Trident|phb}",
+														"5 gp",
+														"1d6 piercing",
+														"4 lb.",
+														"Thrown (range 20/60), versatile (1d8)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item War pick|phb}",
+														"5 gp",
+														"1d8 piercing",
+														"2 lb.",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Warhammer|phb}",
+														"15 gp",
+														"1d8 bludgeoning",
+														"2 lb.",
+														"Versatile (1d10)"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Whip|phb}",
+														"2 gp",
+														"1d4 slashing",
+														"3 lb.",
+														"Finesse, reach"
+													]
+												},
+												[
+													"{@i Martial Ranged Weapons}",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Blowgun|phb}",
+														"10 gp",
+														"1 piercing",
+														"1 lb.",
+														"Ammunition (range 25/100), loading"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item hand crossbow|phb|Crossbow, hand}",
+														"75 gp",
+														"1d6 piercing",
+														"3 lb.",
+														"Ammunition (range 30/120), light, loading"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item heavy crossbow|phb|Crossbow, heavy}",
+														"50 gp",
+														"1d10 piercing",
+														"18 lb.",
+														"Ammunition (range 100/400), heavy, loading, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Longbow|phb}",
+														"50 gp",
+														"1d8 piercing",
+														"2 lb.",
+														"Ammunition (range 150/600), heavy, two-handed"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Net|phb}",
+														"1 gp",
+														"—",
+														"3 lb.",
+														"Special, thrown (range 5/15)"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Armor",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Armor",
+												"Cost",
+												"Armor Class (AC)",
+												"Strength",
+												"Stealth",
+												"Weight"
+											],
+											"colStyles": [
+												"col-3",
+												"col-1 text-right",
+												"col-3 text-center",
+												"col-1",
+												"col-3",
+												"col-1 text-center"
+											],
+											"rows": [
+												[
+													"{@i Light Armor}",
+													"",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item padded armor|phb|Padded}",
+														"5 gp",
+														"11 + Dex modifier",
+														"—",
+														"Disadvantage",
+														"8 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item leather armor|phb|Leather}",
+														"10 gp",
+														"11 + Dex modifier",
+														"—",
+														"—",
+														"10 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item studded leather armor|phb|Studded leather}",
+														"45 gp",
+														"12 + Dex modifier",
+														"—",
+														"—",
+														"13 lb."
+													]
+												},
+												[
+													"{@i Medium Armor}",
+													"",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item hide armor|phb|Hide}",
+														"10 gp",
+														"12 + Dex modifier (max 2)",
+														"—",
+														"—",
+														"12 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Chain shirt|phb}",
+														"50 gp",
+														"13 + Dex modifier (max 2)",
+														"—",
+														"—",
+														"20 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Scale mail|phb}",
+														"50 gp",
+														"14 + Dex modifier (max 2)",
+														"—",
+														"Disadvantage",
+														"45 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Breastplate|phb}",
+														"400 gp",
+														"14 + Dex modifier (max 2)",
+														"—",
+														"—",
+														"20 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item half plate armor|phb|Half plate}",
+														"750 gp",
+														"15 + Dex modifier (max 2)",
+														"—",
+														"Disadvantage",
+														"40 lb."
+													]
+												},
+												[
+													"{@i Heavy Armor}",
+													"",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Ring mail|phb}",
+														"30 gp",
+														"14",
+														"—",
+														"Disadvantage",
+														"40 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Chain mail|phb}",
+														"75 gp",
+														"16",
+														"Str 13",
+														"Disadvantage",
+														"55 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item splint armor|phb|Splint}",
+														"200 gp",
+														"17",
+														"Str 15",
+														"Disadvantage",
+														"60 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item plate armor|phb|Plate}",
+														"1,500 gp",
+														"18",
+														"Str 15",
+														"Disadvantage",
+														"65 lb."
+													]
+												},
+												[
+													"{@i Shield}",
+													"",
+													"",
+													"",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Shield|phb}",
+														"10 gp",
+														"+2",
+														"—",
+														"—",
+														"6 lb."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Gear",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Item",
+												"Cost",
+												"Weight"
+											],
+											"colStyles": [
+												"col-4",
+												"col-4 text-right",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													"{@item Abacus|PHB}",
+													"2 gp",
+													"2 lb."
+												],
+												[
+													"{@item Acid (vial)|PHB}",
+													"25 gp",
+													"1 lb."
+												],
+												[
+													"{@item Alchemist's fire (flask)|PHB}",
+													"50 gp",
+													"1 lb."
+												],
+												[
+													"{@i Ammunition}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Arrows (20)|PHB}",
+														"1 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Blowgun needles (50)|PHB}",
+														"1 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Crossbow bolts (20)|PHB}",
+														"1 gp",
+														"1½ lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Sling bullets (20)|PHB}",
+														"4 cp",
+														"1½ lb."
+													]
+												},
+												[
+													"{@item Antitoxin (vial)|PHB}",
+													"50 gp",
+													"—"
+												],
+												[
+													"{@i {@item Arcane focus|PHB}}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Crystal|PHB}",
+														"10 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Orb|PHB}",
+														"20 gp",
+														"3 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Rod|PHB}",
+														"10 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Staff|PHB}",
+														"5 gp",
+														"4 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Wand|PHB}",
+														"10 gp",
+														"1 lb."
+													]
+												},
+												[
+													"{@item Backpack|PHB}",
+													"2 gp",
+													"5 lb."
+												],
+												[
+													"{@item Ball bearings (bag of 1,000)|PHB}",
+													"1 gp",
+													"2 lb."
+												],
+												[
+													"{@item Barrel|PHB}",
+													"2 gp",
+													"70 lb."
+												],
+												[
+													"{@item Basket|PHB}",
+													"4 sp",
+													"2 lb."
+												],
+												[
+													"{@item Bedroll|PHB}",
+													"1 gp",
+													"7 lb."
+												],
+												[
+													"{@item Bell|PHB}",
+													"1 gp",
+													"—"
+												],
+												[
+													"{@item Blanket|PHB}",
+													"5 sp",
+													"3 lb."
+												],
+												[
+													"{@item Block and tackle|PHB}",
+													"1 gp",
+													"5 lb."
+												],
+												[
+													"{@item Book|PHB}",
+													"25 gp",
+													"5 lb."
+												],
+												[
+													"{@item glass bottle|PHB|Bottle, glass}",
+													"2 gp",
+													"2 lb."
+												],
+												[
+													"{@item Bucket|PHB}",
+													"5 cp",
+													"2 lb."
+												],
+												[
+													"{@item Caltrops (bag of 20)|PHB}",
+													"1 gp",
+													"2 lb."
+												],
+												[
+													"{@item Candle|PHB}",
+													"1 cp",
+													"—"
+												],
+												[
+													"{@item crossbow bolt case|PHB|Case, crossbow bolt}",
+													"1 gp",
+													"1 lb."
+												],
+												[
+													"{@item map or scroll case|PHB|Case, map or scroll}",
+													"1 gp",
+													"1 lb."
+												],
+												[
+													"{@item Chain (10 feet)|PHB}",
+													"5 gp",
+													"10 lb."
+												],
+												[
+													"{@item Chalk (1 piece)|PHB}",
+													"1 cp",
+													"—"
+												],
+												[
+													"{@item Chest|PHB}",
+													"5 gp",
+													"25 lb."
+												],
+												[
+													"{@item common clothes|PHB|Clothes, common}",
+													"5 sp",
+													"3 lb."
+												],
+												[
+													"{@item costume clothes|PHB|Clothes, costume}",
+													"5 gp",
+													"4 lb."
+												],
+												[
+													"{@item fine clothes|PHB|Clothes, fine}",
+													"15 gp",
+													"6 lb."
+												],
+												[
+													"{@item traveler's clothes|PHB|Clothes, traveler's}",
+													"2 gp",
+													"4 lb."
+												],
+												[
+													"{@item Component pouch|PHB}",
+													"25 gp",
+													"2 lb."
+												],
+												[
+													"{@item Crowbar|PHB}",
+													"2 gp",
+													"5 lb."
+												],
+												[
+													"{@i {@item Druidic focus|PHB}}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Sprig of mistletoe|PHB}",
+														"1 gp",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Totem|PHB}",
+														"1 gp",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Wooden staff|PHB}",
+														"5 gp",
+														"4 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Yew wand|PHB}",
+														"10 gp",
+														"1 lb."
+													]
+												},
+												[
+													"{@item Fishing tackle|PHB}",
+													"1 gp",
+													"4 lb."
+												],
+												[
+													"{@item Flask|PHB} or {@item tankard|PHB}",
+													"2 cp",
+													"1 lb."
+												],
+												[
+													"{@item Grappling hook|PHB}",
+													"2 gp",
+													"4 lb."
+												],
+												[
+													"{@item Hammer|PHB}",
+													"1 gp",
+													"3 lb."
+												],
+												[
+													"{@item sledgehammer|PHB|Hammer, sledge}",
+													"2 gp",
+													"10 lb."
+												],
+												[
+													"{@item Healer's Kit|PHB}",
+													"5 gp",
+													"3 lb."
+												],
+												[
+													"{@i {@item Holy symbol|PHB}}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Amulet|PHB}",
+														"5 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Emblem|PHB}",
+														"5 gp",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Reliquary|PHB}",
+														"5 gp",
+														"2 lb."
+													]
+												},
+												[
+													"{@item Holy water (flask)|PHB}",
+													"25 gp",
+													"1 lb."
+												],
+												[
+													"{@item Hourglass|PHB}",
+													"25 gp",
+													"1 lb."
+												],
+												[
+													"{@item Hunting trap|PHB}",
+													"5 gp",
+													"25 lb."
+												],
+												[
+													"{@item Ink (1-ounce bottle)|PHB}",
+													"10 gp",
+													"—"
+												],
+												[
+													"{@item Ink pen|PHB}",
+													"2 cp",
+													"—"
+												],
+												[
+													"{@item Jug|PHB} or {@item pitcher|PHB}",
+													"2 cp",
+													"4 lb."
+												],
+												[
+													"{@item climber's kit|PHB|Kit, climber's}",
+													"25 gp",
+													"12 lb."
+												],
+												[
+													"{@item disguise kit|PHB|Kit, disguise}",
+													"25 gp",
+													"3 lb."
+												],
+												[
+													"{@item forgery kit|PHB|Kit, forgery}",
+													"15 gp",
+													"5 lb."
+												],
+												[
+													"{@item herbalism kit|PHB|Kit, herbalism}",
+													"5 gp",
+													"3 lb."
+												],
+												[
+													"{@item healer's kit|PHB|Kit, healer's}",
+													"5 gp",
+													"3 lb."
+												],
+												[
+													"{@item mess kit|PHB|Kit, mess}",
+													"2 sp",
+													"1 lb."
+												],
+												[
+													"{@item poisoner's kit|PHB|Kit, poisoner's}",
+													"50 gp",
+													"2 lb."
+												],
+												[
+													"{@item Ladder (10-foot)|PHB}",
+													"1 sp",
+													"25 lb."
+												],
+												[
+													"{@item Lamp|PHB}",
+													"5 sp",
+													"1 lb."
+												],
+												[
+													"{@item bullseye lantern|PHB|Lantern, bullseye}",
+													"10 gp",
+													"2 lb."
+												],
+												[
+													"{@item hooded lantern|PHB|Lantern, hooded}",
+													"5 gp",
+													"2 lb."
+												],
+												[
+													"{@item Lock|PHB}",
+													"10 gp",
+													"1 lb."
+												],
+												[
+													"{@item Magnifying glass|PHB}",
+													"100 gp",
+													"—"
+												],
+												[
+													"{@item Manacles|PHB}",
+													"2 gp",
+													"6 lb."
+												],
+												[
+													"{@item steel mirror|PHB|Mirror, steel}",
+													"5 gp",
+													"1/2 lb."
+												],
+												[
+													"{@item Oil (flask)|PHB}",
+													"1 sp",
+													"1 lb."
+												],
+												[
+													"{@item Paper (one sheet)|PHB}",
+													"2 sp",
+													"—"
+												],
+												[
+													"{@item Parchment (one sheet)|PHB}",
+													"1 sp",
+													"—"
+												],
+												[
+													"{@item Perfume (vial)|PHB}",
+													"5 gp",
+													"—"
+												],
+												[
+													"{@item miner's pick|PHB|Pick, miner's}",
+													"2 gp",
+													"10 lb."
+												],
+												[
+													"{@item Piton|PHB}",
+													"5 cp",
+													"1/4 lb."
+												],
+												[
+													"{@item basic poison (vial)|PHB|Poison, basic (vial)}",
+													"100 gp",
+													"—"
+												],
+												[
+													"{@item Pole (10-foot)|PHB}",
+													"5 cp",
+													"7 lb."
+												],
+												[
+													"{@item iron pot|PHB|Pot, iron}",
+													"2 gp",
+													"10 lb."
+												],
+												[
+													"{@item Potion of healing|DMG}",
+													"50 gp",
+													"1/2 lb."
+												],
+												[
+													"{@item Pouch|PHB}",
+													"5 sp",
+													"1 lb."
+												],
+												[
+													"{@item Quiver|PHB}",
+													"1 gp",
+													"1 lb."
+												],
+												[
+													"{@item portable ram|PHB|Ram, portable}",
+													"4 gp",
+													"35 lb."
+												],
+												[
+													"{@item Rations (1 day)|PHB}",
+													"5 sp",
+													"2 lb."
+												],
+												[
+													"{@item Robes|PHB}",
+													"1 gp",
+													"4 lb."
+												],
+												[
+													"{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}",
+													"1 gp",
+													"10 lb."
+												],
+												[
+													"{@item silk rope (50 feet)|PHB|Rope, silk (50 feet)}",
+													"10 gp",
+													"5 lb."
+												],
+												[
+													"{@item Sack|PHB}",
+													"1 cp",
+													"1/2 lb."
+												],
+												[
+													"{@item merchant's scale|PHB|Scale, merchant's}",
+													"5 gp",
+													"3 lb."
+												],
+												[
+													"{@item Sealing wax|PHB}",
+													"5 sp",
+													"—"
+												],
+												[
+													"{@item Shovel|PHB}",
+													"2 gp",
+													"5 lb."
+												],
+												[
+													"{@item Signal whistle|PHB}",
+													"5 cp",
+													"—"
+												],
+												[
+													"{@item Signet ring|PHB}",
+													"5 gp",
+													"—"
+												],
+												[
+													"{@item Soap|PHB}",
+													"2 cp",
+													"—"
+												],
+												[
+													"{@item Spellbook|PHB}",
+													"50 gp",
+													"3 lb."
+												],
+												[
+													"{@item iron spikes (10)|PHB|Spikes, iron (10)}",
+													"1 gp",
+													"5 lb."
+												],
+												[
+													"{@item Spyglass|PHB}",
+													"1,000 gp",
+													"1 lb."
+												],
+												[
+													"{@item two-person tent|PHB|Tent, two-person}",
+													"2 gp",
+													"20 lb."
+												],
+												[
+													"{@item Tinderbox|PHB}",
+													"5 sp",
+													"1 lb."
+												],
+												[
+													"{@item Torch|PHB}",
+													"1 cp",
+													"1 lb."
+												],
+												[
+													"{@item Vial|PHB}",
+													"1 gp",
+													"—"
+												],
+												[
+													"{@item Waterskin|PHB}",
+													"2 sp",
+													"5 lb. (full)"
+												],
+												[
+													"{@item Whetstone|PHB}",
+													"1 cp",
+													"1 lb."
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Tools",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Item",
+												"Cost",
+												"Weight"
+											],
+											"colStyles": [
+												"col-8",
+												"col-2 text-right",
+												"col-2 text-center"
+											],
+											"rows": [
+												[
+													"{@i Artisan's tools}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Alchemist's supplies|phb}",
+														"50 gp",
+														"8 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Brewer's supplies|phb}",
+														"20 gp",
+														"9 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Calligrapher's supplies|phb}",
+														"10 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Carpenter's tools|phb}",
+														"8 gp",
+														"6 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Cartographer's tools|phb}",
+														"15 gp.",
+														"6 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Cobbler's tools|phb}",
+														"5 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Cook's utensils|phb}",
+														"1 gp",
+														"8 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Glassblower's tools|phb}",
+														"30 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Jeweler's tools|phb}",
+														"25 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Leatherworker's tools|phb}",
+														"5 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Mason's tools|phb}",
+														"10 gp",
+														"8 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Painter's supplies|phb}",
+														"10 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Potter's tools|phb}",
+														"10 gp",
+														"3 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Smith's tools|phb}",
+														"20 gp",
+														"8 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Tinker's tools|phb}",
+														"50 gp",
+														"10 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Weaver's tools|phb}",
+														"1 gp",
+														"5 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Woodcarver's tools|phb}",
+														"1 gp",
+														"5 lb."
+													]
+												},
+												[
+													"{@item Disguise Kit|phb}",
+													"25 gp",
+													"3 lb."
+												],
+												[
+													"{@item Forgery kit|phb}",
+													"15 gp",
+													"5 lb."
+												],
+												[
+													"{@i Gaming sets}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Dice set|phb}",
+														"1 sp",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Dragonchess set|phb}",
+														"1 gp",
+														"1/2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Playing card set|phb}",
+														"5 sp",
+														"—"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Three-Dragon Ante set|phb}",
+														"1 gp",
+														"—"
+													]
+												},
+												[
+													"{@item Herbalism kit|phb}",
+													"5 gp",
+													"3 lb."
+												],
+												[
+													"{@i Musical instruments}",
+													"",
+													""
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Bagpipes|phb}",
+														"30 gp",
+														"6 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Drum|phb}",
+														"6 gp",
+														"3 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Dulcimer|phb}",
+														"25 gp",
+														"10 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Flute|phb}",
+														"2 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Lute|phb}",
+														"35 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Lyre|phb}",
+														"30 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Horn|phb}",
+														"3 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Pan flute|phb}",
+														"12 gp",
+														"2 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Shawm|phb}",
+														"2 gp",
+														"1 lb."
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"{@item Viol|phb}",
+														"30 gp",
+														"1 lb."
+													]
+												},
+												[
+													"{@item Navigator's tools|phb}",
+													"25 gp",
+													"2 lb."
+												],
+												[
+													"{@item Poisoner's kit|phb}",
+													"50 gp",
+													"2 lb."
+												],
+												[
+													"{@item Thieves' tools|phb}",
+													"25 gp",
+													"1 lb."
+												],
+												[
+													"Vehicles (land or water)",
+													"*",
+													"*"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Poisons",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Item",
+												"Type",
+												"Price per Dose"
+											],
+											"colStyles": [
+												"col-6",
+												"col-3",
+												"col-3 text-right"
+											],
+											"rows": [
+												[
+													"{@item Assassin's blood}",
+													"Ingested",
+													"150 gp"
+												],
+												[
+													"{@item Burnt othur fumes}",
+													"Inhaled",
+													"500 gp"
+												],
+												[
+													"{@item Carrion crawler mucus}",
+													"Contact",
+													"200 gp"
+												],
+												[
+													"{@item Drow poison}",
+													"Injury",
+													"200 gp"
+												],
+												[
+													"{@item Essence of ether}",
+													"Inhaled",
+													"300 gp"
+												],
+												[
+													"{@item Malice}",
+													"Inhaled",
+													"250 gp"
+												],
+												[
+													"{@item Midnight tears}",
+													"Ingested",
+													"1,500 gp"
+												],
+												[
+													"{@item Oil of taggit}",
+													"Contact",
+													"400 gp"
+												],
+												[
+													"{@item Pale tincture}",
+													"Ingested",
+													"250 gp"
+												],
+												[
+													"{@item Purple worm poison}",
+													"Injury",
+													"2,000 gp"
+												],
+												[
+													"{@item Serpent venom}",
+													"Injury",
+													"200 gp"
+												],
+												[
+													"{@item Torpor}",
+													"Ingested",
+													"600 gp"
+												],
+												[
+													"{@item Truth serum}",
+													"Ingested",
+													"150 gp"
+												],
+												[
+													"{@item Wyvern poison}",
+													"Injury",
+													"1,200 gp"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSAI",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Corellon's Crown",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"Item",
+												"Cost",
+												"Availability"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-right",
+												"col-4 text-center"
+											],
+											"rows":[
+												[
+													"{@item Potion of Healing}",
+													"50 gp",
+													"{@dice 1d6}"
+												],
+												[
+													"{@item Potion of Greater Healing}",
+													"250 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Potion of Animal Friendship}",
+													"125 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Potion of Climbing}",
+													"50 gp",
+													"{@dice 1d6}"
+												],
+												[
+													"{@item Potion of Water Breathing}",
+													"250 gp",
+													"{@dice 1d4}"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Diloontier's Apothecary",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"Item",
+												"Cost",
+												"Availability"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-right",
+												"col-4 text-center"
+											],
+											"rows":[
+												[
+													"{@item Potion of Healing}",
+													"50 gp",
+													"{@dice 1d6}"
+												],
+												[
+													"{@item Potion of Greater Healing}",
+													"250 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Potion of Heroism}",
+													"450 gp",
+													"{@dice 1d2}"
+												],
+												[
+													"{@item Oil of Sharpness|DMG|Oil of Sharpness +1}",
+													"550 gp",
+													"{@dice 1d2}"
+												],
+												[
+													"{@item Potion of Poison Resistance}",
+													"250 gp",
+													"{@dice 1d4}"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Phalanter's Philtres & Components",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"Item",
+												"Cost",
+												"Availability"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-right",
+												"col-4 text-center"
+											],
+											"rows":[
+												[
+													"{@item Potion of Healing}",
+													"50 gp",
+													"{@dice 1d6}"
+												],
+												[
+													"{@item Potion of Greater Healing}",
+													"250 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Potion of Clairvoyance}",
+													"250 gp",
+													"{@dice 1d2}"
+												],
+												[
+													"{@item Potion of Growth}",
+													"125 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Potion of Invulnerability}",
+													"250 gp",
+													"{@dice 1d2}"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"The Old Monster Shop",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"Item",
+												"Cost",
+												"Availability"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-right",
+												"col-4 text-center"
+											],
+											"rows":[
+												[
+													"{@item Basic Poison (Vial)|PHB|Basic Poison}",
+													"100 gp",
+													"{@dice 1d6}"
+												],
+												[
+													"{@item Carrion Crawler Mucus}",
+													"250 gp",
+													"{@dice 1d4}"
+												],
+												[
+													"{@item Serpent Venom}",
+													"250 gp",
+													"{@dice 1d2}"
+												],
+												[
+													"{@item Wyvern Poison}",
+													"1250 gp",
+													"{@dice 1d2}"
+												],
+												[
+													"{@item Potion of Invulnerability}",
+													"250 gp",
+													"{@dice 1d2}"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSPP",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"PC",
+												"Passive Perception"
+											],
+											"colStyles":[
+												"col-4",
+												"col-4 text-center"
+											],
+											"rows":[
+												[
+													"Aldo",
+													"14"
+												],
+												[
+													"Div'imar",
+													"19"
+												],
+												[
+													"Draco",
+													"20"
+												],
+												[
+													"Grim",
+													"14"
+												],
+												[
+													"Huulam",
+													"14"
+												],
+												[
+													"Xandrus",
+													"10"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSMR",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Trap Save DCs and Attack Bonuses",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Trap Danger",
+												"Save DC",
+												"Attack Bonus"
+											],
+											"colStyles": [
+												"col-4",
+												"col-4",
+												"col-4"
+											],
+											"rows": [
+												[
+													"Setback",
+													"10-11",
+													"+3 to +5"
+												],
+												[
+													"Dangerous",
+													"12-15",
+													"+6 to +8"
+												],
+												[
+													"Deadly",
+													"16-20",
+													"+9 to +12"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Damage Severity by Level",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Character Level",
+												"Moderate",
+												"Dangerous",
+												"Deadly"
+											],
+											"colStyles": [
+												"col-3 text-center",
+												"col-3 text-center",
+												"col-3 text-center",
+												"col-3 text-center"
+											],
+											"rows": [
+												[
+													"1-4",
+													"5 ({@dice 1d10})",
+													" 11 ({@dice 2d10})",
+													" 22 ({@dice 4d10})"
+												],
+												[
+													"5-10",
+													"11 ({@dice 2d10})",
+													" 22 ({@dice 4d10})",
+													" 55 ({@dice 10d10})"
+												],
+												[
+													"11-16",
+													"22 ({@dice 4d10})",
+													" 55 ({@dice 10d10})",
+													" 99 ({@dice 18d10})"
+												],
+												[
+													"17-20",
+													"55 ({@dice 10d10})",
+													" 99 ({@dice 18d10})",
+													" 132 ({@dice 24d10})"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Spell Lethality by Level",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Character Level",
+												" Moderate",
+												" Dangerous",
+												" Deadly"
+											],
+											"colStyles": [
+												"col-3 text-center",
+												"col-3 text-center",
+												"col-3 text-center",
+												"col-3 text-center"
+											],
+											"rows": [
+												[
+													"1-4",
+													"Cantrip",
+													"1st",
+													"2nd"
+												],
+												[
+													"5-10",
+													"1st",
+													"3rd",
+													"6th"
+												],
+												[
+													"11-16",
+													"3rd",
+													"6th",
+													"9th"
+												],
+												[
+													"17-20",
+													"6th",
+													"9th",
+													"9th + 5th"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Potions of Healing",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels": [
+												"Type",
+												"Time",
+												"Cost"
+											],
+											"colStyles": [
+												"col-4",
+												"col-4",
+												"col-4 text-right"
+											],
+											"rows": [
+												[
+													"Healing",
+													"{@dice 2d4+2}",
+													"50 gp"
+												],
+												[
+													"Greater healing",
+													"{@dice 4d4+4}",
+													"250 gp"
+												],
+												[
+													"Superior healing",
+													"{@dice 8d4+8}",
+													"-"
+												],
+												[
+													"Supreme healing",
+													"{@dice 10d4+20",
+													"-"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSDT",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Business Results",
+									"entries":[
+										{
+											"type": "table",
+											"colLabels": [
+												"d100",
+												"Squalid",
+												"Poor",
+												"Modest",
+												"Comfortable",
+												"Wealthy",
+												"Aristocratic"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-2",
+												"col-2",
+												"col-2",
+												"col-2",
+												"col-2",
+												"col-2"
+											],
+											"rows": [
+												[
+													"01\u201320",
+													"Lose 3d10 × 3 gp",
+													"Lose 3d10 × 4 gp",
+													"Lose 3d10 × 5 gp",
+													"Lose 3d10 × 6 gp",
+													"Lose 3d10 × 8 gp",
+													"Lose 3d10 × 10 gp"
+												],
+												[
+													"21\u201330",
+													"Lose 2d8 × 3 gp",
+													"Lose 2d8 × 4 gp",
+													"Lose 2d8 × 5 gp",
+													"Lose 2d8 × 6 gp",
+													"Lose 2d8 × 8 gp",
+													"Lose 2d8 × 10 gp"
+												],
+												[
+													"31\u201340",
+													"Lose 1d6 × 3 gp",
+													"Lose 1d6 × 4 gp",
+													"Lose 1d6 × 5 gp",
+													"Lose 1d6 × 6 gp",
+													"Lose 1d6 × 8 gp",
+													"Lose 1d6 × 10 gp"
+												],
+												[
+													"41\u201360",
+													"No change",
+													"No change",
+													"No change",
+													"No change",
+													"No change",
+													"No change"
+												],
+												[
+													"61\u201380",
+													"Earn 1d6 gp",
+													"Earn 1d6 × 3 gp",
+													"Earn 1d6 × 5 gp",
+													"Earn 1d6 × 7 gp",
+													"Earn 1d6 × 9 gp",
+													"Earn 1d6 × 12 gp"
+												],
+												[
+													"81\u201390",
+													"Earn 2d8 gp",
+													"Earn 2d8 × 3 gp",
+													"Earn 2d8 × 5 gp",
+													"Earn 2d8 × 7 gp",
+													"Earn 2d8 × 9 gp",
+													"Earn 2d8 × 12 gp"
+												],
+												[
+													"91-110",
+													"Earn 3d10 gp",
+													"Earn 3d10 × 3 gp",
+													"Earn 3d10 × 5 gp",
+													"Earn 3d10 × 7 gp",
+													"Earn 3d10 × 9 gp",
+													"Earn 3d10 × 12 gp"
+												],
+												[
+													"111-130",
+													"Earn 5d10 gp",
+													"Earn 5d10 × 3 gp",
+													"Earn 5d10 × 5 gp",
+													"Earn 5d10 × 7 gp",
+													"Earn 5d10 × 9 gp",
+													"Earn 5d10 × 12 gp"
+												],
+												[
+													"131+",
+													"Earn 7d10 gp",
+													"Earn 7d10 × 3 gp",
+													"Earn 7d10 × 5 gp",
+													"Earn 7d10 × 7 gp",
+													"Earn 7d10 × 9 gp",
+													"Earn 7d10 × 12 gp"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Tavern Events",
+									"entries":[
+										{
+											"type": "table",
+											"colLabels": [
+												"d100",
+												"Result"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-7"
+											],
+											"rows": [
+												[
+													"01",
+													"The Sailors' Benevolent Fund holds their annual drinking contest at your tavern. Gain a +20 bonus to your next roll on the Business Results table (+30 if you paid for extra service)."
+												],
+												[
+													"02",
+													"A group of temperance preachers forms a picket outside your establishment. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"03",
+													"The council imposes a special fee on all local businesses to improve the street. Pay 1d6 x 10 gp."
+												],
+												[
+													"04",
+													"Termites are found in your building. Pay 1d10 x 10 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"05",
+													"A magistrate selects your tavern as the venue for an inquest into the death of a local celebrity, which attracts large crowds. Gain a +15 bonus to your next roll on the Business Results table."
+												],
+												[
+													"06",
+													"A wizard on horseback sprays your tavern with magic missiles in a seemingly random attack. Patrons stay away for a few days. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"07",
+													"A friendly \"toast and roast\" event turns into a tavern brawl. Pay 1d4 x 5 gp for repairs. Ignore this result if you're paying for extra security."
+												],
+												[
+													"08",
+													"A new tavern opens nearby and takes some of your patrons. Take a -10 penalty to all future rolls on the Business Results table until the rival tavern ceases trading."
+												],
+												[
+													"09",
+													"A meeting of the local Debating Society is held in your tavern, attracting much public interest. Gain a +10 bonus to your next roll on the Business Results table (+15 if you paid for extra service)."
+												],
+												[
+													"10",
+													"Local criminals start using your tavern as a hangout. They refuse to pay for their drinks and scare off other patrons. Take a -10 penalty to all future rolls on the Business Results table until the thugs are dealt with. Ignore this result if you're paying for extra security."
+												],
+												[
+													"11",
+													"Someone offers to buy your tavern for 2d4 x 400 gp."
+												],
+												[
+													"12",
+													"A fire breaks out one night after closing. Pay 1d10 x 20 gp for repairs unless you have insurance."
+												],
+												[
+													"13",
+													"A public meeting is held at your tavern to collect funds for the poor. Gain a +10 bonus to your next roll on the Business Results table (+15 if you paid for extra service)."
+												],
+												[
+													"14",
+													"An experienced tavern manager offers their services. If you accept, pay a one-off signing fee of 50 gp and gain a +10 bonus to all future rolls on the Business Results table."
+												],
+												[
+													"15",
+													"A group of sailors, recently returned from a long and profitable voyage, spend all week carousing in your tavern. Gain a +15 bonus to your next roll on the Business Results table."
+												],
+												[
+													"16",
+													"One of your ale vats bursts. Pay 1d4 x 10 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"17",
+													"A careless druid casts a cloudburst over your tavern, revealing serious leaks. Pay 2d6 x 5 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"18",
+													"The annual half-orc beauty pageant is held at your tavern. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"19",
+													"A leprechaun shows up offering to help brew your ale in return for room and board. If you accept, gain a +10 bonus to all future rolls on the Business Results table until you make a loss, at which point the leprechaun storms off in a huff."
+												],
+												[
+													"20",
+													"The local opera society chooses your tavern to host their next major production. If you accept, they pay you a 50 gp rental fee and you also gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"21",
+													"Food inspectors find evidence of poor quality produce being used in your establishment. Pay a 50 gp fine. Ignore this result if you're paying for extra service."
+												],
+												[
+													"22",
+													"A pair of wizards fight a duel in the street and your tavern is struck by a stray lightning bolt. Pay 8d8 gp for repairs."
+												],
+												[
+													"23",
+													"Two crews from rival merchant ships show up at your tavern and have a brawl. Pay 3d6 x 5 gp for repairs. Ignore this result if you're paying for extra security."
+												],
+												[
+													"24",
+													"A party of cavaliers spend several days at your tavern, celebrating a recent victory. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"25",
+													"A food fight breaks out between two rival groups of halfling adventurers. Pay 2d4 x 5 gp for repairs. Ignore this result if you're paying for extra security or extra service."
+												],
+												[
+													"26",
+													"Unseasonable bad weather keeps patrons away. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"27",
+													"A band of traveling players asks permission to perform in return for tips. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"28",
+													"The local newspaper includes a bad review of your establishment. Take a -15 penalty to your next roll on the Business Results table."
+												],
+												[
+													"29",
+													"You replace your chef with someone far more talented. Gain a +10 bonus to all future rolls on the Business Results table."
+												],
+												[
+													"30",
+													"A freak hailstorm damages your roof. Pay 2d4 x 5 gp for repairs unless you have insurance."
+												],
+												[
+													"31",
+													"A minor tremor causes some interior damage. Pay 2d6 x 5 gp for repairs unless you have insurance."
+												],
+												[
+													"32",
+													"A local noble begins frequenting your tavern with a large entourage. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"33",
+													"The local historical society holds its biannual dinner at your tavern. Gain a +5 bonus to your next roll on the Business Results table (+10 if you're paying for extra service)."
+												],
+												[
+													"34",
+													"Your new barkeep is surly-tempered and upsets several regular patrons. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"35",
+													"The closure of a local brickworks means the newly unemployed workers spend more time and money at your tavern. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"36",
+													"A stand-up comedy evening turns into a tavern brawl. Pay 2d4 x 5 gp for repairs. Ignore this result if you're paying for extra security."
+												],
+												[
+													"37",
+													"A special meeting of the Magical Cultivation Society takes place at your tavern. Gain a +10 bonus to your next roll on the Business Results table (+20 if you're paying for extra service)."
+												],
+												[
+													"38",
+													"A flash flood causes major damage to your taproom. Pay 2d6 x 5 gp for repairs unless you have insurance."
+												],
+												[
+													"39",
+													"You find a new, guild-approved provider who works at a discount. Gain +10 bonus to all future rolls on the Business Results table."
+												],
+												[
+													"40",
+													"Members of a local dragon cult start meeting at your tavern to play dice. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"41",
+													"Local criminals burst into your tavern after closing time, beat up the staff, and steal some of your profits. You lose 3d6 gp. Ignore this result if you're paying for extra security."
+												],
+												[
+													"42",
+													"A buzzkill (see appendix C) begins haunting your tavern. Until it is banished, take a -10 penalty on all future rolls on the Business Results table."
+												],
+												[
+													"43",
+													"The Esoteric Order of Necromancers holds a gala dinner at your tavern. Gain a +5 bonus to your next roll on the Business Results table (+10 if you paid for extra service)."
+												],
+												[
+													"44",
+													"Several rat swarms take up residence in your basement and run freely throughout the tavern. Until you exterminate them, take a -15 penalty on all future rolls on the Business Results table."
+												],
+												[
+													"45",
+													"A stubborn ogre begins frequenting the tavern. She doesn't pay for drinks and frightens off other patrons. Take a -5 penalty to all future rolls on the Business Results table until you resolve the problem."
+												],
+												[
+													"46",
+													"Your brewer improves your ale recipe. Gain a +5 bonus to all future rolls on the Business Results table."
+												],
+												[
+													"47",
+													"Your barkeep, your cook, and your waiter are involved in an ugly love triangle. Things come to a head one evening and a brawl erupts. Pay 2d4 x 5 gp for repairs. Ignore this result if you have extra security."
+												],
+												[
+													"48",
+													"Half of your staff are struck down with a mysterious illness. Take a -15 penalty to your next roll on the Business Results table, unless you're paying for extra service."
+												],
+												[
+													"49",
+													"A bitter ex-employee sets fire to your premises one night after closing. Pay 2d8 x 10 gp for repairs unless you have insurance."
+												],
+												[
+													"50",
+													"A feral orc eye of gruumsh begins patronizing your establishment, forcing other customers to leave due to the smell. Until you resolve the problem, take a -5 penalty to all future rolls on the Business Results table."
+												],
+												[
+													"51",
+													"A pickpocket has chosen your tavern as their favored hunting grounds and people are staying away. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"52",
+													"The annual Magnificent Moustache competition is held on your premises, to great acclaim. Gain a +20 bonus to your next roll on the Business Results table (+30 if you paid for extra service)."
+												],
+												[
+													"53",
+													"A plague of cockroaches infests your kitchen and patrons are unimpressed. Take a -10 penalty to your next roll on the Business Results table unless you're paying for preventative maintenance."
+												],
+												[
+													"54",
+													"Two paladins get into a fierce argument and fight a duel outside your tavern, drawing a great crowd. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"55",
+													"A young woman claiming to be a prophet begins preaching at your tavern and draws a crowd. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"56",
+													"Two rival candidates for a local municipal post show up at your tavern on the same evening and a brawl erupts. Pay 1d6 x 5 gp for repairs. Ignore this result if you have extra security."
+												],
+												[
+													"57",
+													"An elf merchant begins selling iced cream outside your tavern during a heat wave. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"58",
+													"Your oven cracks and needs to be replaced. Pay 20 + 1d12 gp unless you're paying for preventative maintenance."
+												],
+												[
+													"59",
+													"A group of clerics claim that your tavern is infested by an evil presence, forcing everyone to leave while they conduct an exorcism. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"60",
+													"A lynch mob shows up at your tavern accusing one of the patrons, a mage, of unspeakable crimes. A brawl erupts with the mage holding his own against the mob. Pay 2d6 x 5 gp for repairs. Ignore this result if you have extra security."
+												],
+												[
+													"61",
+													"One evening during a full moon, someone transforms into a wererat while using your privy. Three people are killed, and business is severely depressed for a time. Take a -15 penalty to your next roll on the Business Results table."
+												],
+												[
+													"62",
+													"A gnome magician begins frequenting the tavern and delights the crowd with her clever tricks. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"63",
+													"One of your ale vats explodes. Pay 40 + 3d12 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"64",
+													"A leaking pipe floods the basement with raw sewage. Pay 10 + 1d12 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"65",
+													"One evening a patron has an allergic reaction to the mutton stew and dies. Business is depressed. Take a -15 penalty to your next roll on the Business Results table."
+												],
+												[
+													"66",
+													"Your barkeep interrupts three cultists performing a sacrifice in the back room. People flock to the tavern hoping to see a repeat performance. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"67",
+													"A group of black cats inexplicably enters your tavern, circles the room seven times, and then leaves. The superstitious stay away for a time. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"68",
+													"You discover major leaks in your roof. Pay 20 + 2d12 gp for repairs unless you're paying for preventative maintenance."
+												],
+												[
+													"69",
+													"A group of thugs from the local guild breaks into your tavern at midnight and tears the place apart, accruing a repair bill of 20 + 5d10 gp. A few days later the Guildmaster admits it was a mistake, but no apology or compensation is forthcoming."
+												],
+												[
+													"70",
+													"A famous novelist begins writing her latest epic in your tavern. Her hangers-on are big drinkers. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"71",
+													"A notice begins circulating in the city, calling upon people to boycott your tavern due to your unpatriotic behavior. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"72",
+													"A large, talking toad takes up residence in an alley next to your tavern, claiming to be a beautiful princess under a curse. People flock to see this fascinating attraction. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"73",
+													"Your tavern is selected as a polling booth in the upcoming municipal election. People vote and stay to drink. Gain a +10 bonus to your next roll on the Business Results table (+15 if you paid for extra service)."
+												],
+												[
+													"74",
+													"A press gang enters your tavern and kidnaps several patrons. Business is slow for a few days afterward. Take a -15 penalty to your next roll on the Business Results table. Ignore this result if you have extra security."
+												],
+												[
+													"75",
+													"A firework display in the street goes wrong and your tavern catches fire. Pay 50 + 4d12 gp for repairs unless you have insurance."
+												],
+												[
+													"76",
+													"A local gladiator frequents your establishment. A brawl breaks out one evening when someone sits in her favorite chair. Pay 3d4 x 5 gp for repairs unless you have extra security."
+												],
+												[
+													"77",
+													"A rival tavernkeeper hires a halfling spy to frequent your tavern and make a nuisance of himself. He upsets patrons, 'accidentally' breaks things, sneakily trips up the serving staff, and so on. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"78",
+													"An infant otyugh somehow makes its way into one of your privies. Pay 10 + 1d12 gp to have it removed."
+												],
+												[
+													"79",
+													"An adventuring party shows up at your tavern, buying drinks for everyone and regaling them with tales of their exploits. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"80",
+													"A merchant quietly approaches you and offers to sell you cheap, smuggled liquor. +15 to all future business results rolls if you accept the offer. At the DM's discretion, this may cause trouble with the local guilds."
+												],
+												[
+													"81",
+													"A company of disoriented dwarf miners accidentally digs a tunnel into your tavern's basement. Pay 40 + 3d12 gp for repairs."
+												],
+												[
+													"82",
+													"Your barkeep accidentally offends a local witch, who puts a curse on your ale. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"83",
+													"Pixies begin inexplicably appearing in your tavern, flying around, playing tricks on the patrons, and causing mayhem. Take a -10 penalty to your next roll on the Business Results table."
+												],
+												[
+													"84",
+													"A new vintage of wine proves very popular with the locals. Gain a +20 bonus to your next roll on the Business Results table. "
+												],
+												[
+													"85",
+													"A powerful wizard offers 5d6 x 100 gp for your tavern. She's very insistent that you sell, and rumors about that there's something valuable buried in your basement."
+												],
+												[
+													"86",
+													"A group of barbarians, freshly arrived in the city, take a liking to your tavern. They pitch a tent in the common room and bring their animals inside, while drinking all the ale and refusing to pay. Take a -10 penalty to your next roll on the Business Results table. Ignore this result if you have extra security."
+												],
+												[
+													"87",
+													"A pie seller sets up a cart outside your tavern, attracting patrons. Gain +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"88",
+													"Heavy fog keeps patrons away. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"89",
+													"A sorcerer from a far-off land gets very drunk and accidentally unleashes wild magic in your taproom. Pay 10 + 2d12 gp for repairs."
+												],
+												[
+													"90",
+													"Two young nobles are racing chariots down the street when one of them crashes into your tavern. Pay 60 + 4d12 gp for repairs unless you have insurance."
+												],
+												[
+													"91",
+													"The wake for a popular local cleric is held in your common room. Gain a +10 bonus to your next roll on the Business Results table (+15 if you paid for extra service)."
+												],
+												[
+													"92",
+													"A coronach (see appendix C) uses your tavern as a base to learn all the lost songs of your region. Until the undead horror moves on, take a -30 penalty to all future rolls on the Business Results table."
+												],
+												[
+													"93",
+													"A foreign diplomat dies while drinking in your tavern, possibly a victim of poisoning. Authorities shut your tavern down for several days while they investigate. Take a -20 penalty to your next roll on the Business Results table."
+												],
+												[
+													"94",
+													"A talking ass enters your tavern and asks for an ale poured into a bowl. He explains he's a foreign lord who's been placed under a curse. Business surges as people come to the inn to hear his tale. Gain a +20 bonus to your next roll on the Business Results table (+30 if you paid for extra service)."
+												],
+												[
+													"95",
+													"Two rival monastic schools turn up at the same time one evening and a brawl erupts. Pay 3d6 x 5 gp for repairs. Ignore this result if you have extra security."
+												],
+												[
+													"96",
+													"A pair of bards have a musical duel, delighting the crowd and attracting patrons. Gain a +10 bonus to your next roll on the Business Results table."
+												],
+												[
+													"97",
+													"A gnome artificer visits your tavern with a remarkable clockwork automaton in tow. The machine starts behaving erratically and eventually goes berserk, damaging the common room. Pay 20 + 1d12 gp for repairs. Ignore this result if you're paying for extra security."
+												],
+												[
+													"98",
+													"Your barkeep gives a thirsty but destitute paladin a free drink one evening. The paladin blesses the ale vat by way of thanks, and the next batch of ale is the best anyone's ever tasted. Gain a +20 bonus to your next roll on the Business Results table."
+												],
+												[
+													"99",
+													"Strange runes begin appearing on the furniture and walls of the common room. Patrons are scared and stay away. Take a -5 penalty to your next roll on the Business Results table."
+												],
+												[
+													"00",
+													"A group of mimes enters your tavern and spends a few evenings entertaining the patrons. Take a -10 penalty to your next roll on the Business Results table."
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id":"ZSUE",
+			"source":"ZuishinsDMScreen",
+			"data":[
+				{
+					"type":"section",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Floors 1-2",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"d12+d8",
+												"Encounter"
+											],
+											"colStyles":[
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows":	[
+												[
+													"2",
+													"Roaming boss"
+												],
+												[
+													"3",
+													"A troupe of hobgoblins (1 {@creature hobgoblin warlord}, 2 ({@dice 1d4}) {@creature hobgoblin|MM|hobgoblins}, and a {@creature hobgoblin iron shadow|VGM})"
+												],
+												[
+													"4",
+													"A {@creature trapper|VGM} clinging to the ceiling"
+												],
+												[
+													"5",
+													"2 ({@dice 1d4}) {@creature carrion crawler|MM|carrion crawlers} stalking the party"
+												],
+												[
+													"6",
+													"A group of greedy adventurers (1 {@creature martial arts adept|VGM}, ({@dice 1d2}) {@creature veteran|MM|veterans}, and 2 ({@dice 1d6-1}) {@creature thug|MM|thugs}, all are chaotic evil)"
+												],
+												[
+													"7",
+													"3 ({@condition 1d6}) diseased {@creature giant rat|MM|giant rats} which are very crazed and contagious"
+												],
+												[
+													"8",
+													"The sole survivor of an adventuring party who is now the host to an {@creature intellect devourer} in allegiance with Xanathar"
+												],
+												[
+													"9-11",
+													"Pull one of the wandering monsters on the floor"
+												],
+												[
+													"12-14",
+													"One of Halaster's regional effects"
+												],
+												[
+													"15",
+													"4 ({@dice 1d4+2}) {@creature flumph|MM|flumphs}"
+												],
+												[
+													"16",
+													"A goblin with a wrapped up jewelled scabbard and sword which are actually 2 {@creature mimic|MM|mimics} in object form"
+												],
+												[
+													"17",
+													"A {@creature helmed horror} that attacks the characters on sight"
+												],
+												[
+													"18",
+													"A roaming {@creature black pudding}"
+												],
+												[
+													"19",
+													"A squad of 6 ({@dice 1d4+2}) {@creature goblin|MM|goblins} selling some overpriced items (roll twice on {@table magic item table A}"
+												],
+												[
+													"20",
+													"A wandering 9th level lawful good {@creature war priest|VGM|cleric}"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"entries":[
+								{
+									"type":"entries",
+									"name":"Floors 3-5",
+									"entries":[
+										{
+											"type":"table",
+											"colLabels":[
+												"d12+d8",
+												"Encounter"
+											],
+											"colStyles":[
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows":	[
+												[
+													"2",
+													"Roaming boss"
+												],
+												[
+													"3",
+													"A troupe of  hobgoblins (1 {@creature hobgoblin warlord}, 2 ({@dice 1d4}) {@creature hobgoblin|MM|hobgoblins}, and a {@creature hobgoblin iron shadow|VGM})"
+												],
+												[
+													"4",
+													"A {@creature cloaker|VGM} clinging to the ceiling"
+												],
+												[
+													"5",
+													"2 ({@dice 1d4}) {@creature carrion crawler|MM|carrion crawlers} stalking the party"
+												],
+												[
+													"6",
+													"A group of greedy adventurers (2 ({@dice 1d4}) {@creature martial arts adept|VGM|martial arts adepts}, ({@dice 1d2}) {@creature gladiator|MM|gladiators}, and 2 ({@dice 1d6-1}) {@creature thug|MM|thugs}, all are chaotic evil)"
+												],
+												[
+													"7",
+													"2 ({@dice 1d4}) {@creature assassin bug|MFF|assassin bugs"
+												],
+												[
+													"8",
+													"A {@creature doppelganger} assuming the form of a lone adventurer"
+												],
+												[
+													"9-11",
+													"Pull one of the wandering monsters on the floor"
+												],
+												[
+													"12-14",
+													"One of Halaster's regional effects"
+												],
+												[
+													"15",
+													"3 ({@dice 1d4+1}) {@creature phase spider|MM|phase spiders}"
+												],
+												[
+													"16",
+													"An {@creature oblex|mtf} disguising itself as a fellow adventurer that charms the party before trying to eat their memories"
+												],
+												[
+													"17",
+													"A {@creature living cloudkill|ERLW} blocking their path"
+												],
+												[
+													"18",
+													"A {@creature roper} posed as a stalactite"
+												],
+												[
+													"19",
+													"A squad of 6 ({@dice 1d4+2}) {@creature duergar|MM|duergar} selling some overpriced items (roll twice on {@table magic item table B}"
+												],
+												[
+													"20",
+													"A wandering {@creature unicorn} who has lost its memories"
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
