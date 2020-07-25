@@ -12986,11 +12986,42 @@
 											"name": "10g. Larder",
 											"id": "1c6",
 											"entries": [
+												{
+													"type":"insetReadaloud",
+													"name":"Goblin Bully",
+													"entries":[
+														"{@homebrew You hear a storm of whispering chains and wracking sobs drifting out from the darkness:}",
+														"{@homebrew \"Then,\" a rough voice grumbles in broken Common, \"then I's gonna snap off yer fingers, grind 'em, eat 'em, feed 'em to you. You like that? Make you... into stew.\"}",
+														"{@homebrew \"Let me go,\" sobs a young boy. \"Let me go!\"}"
+													]
+												},
 												"The sea hags shackle their food here. Old chains bolted to the walls end in five sets of rusty shackles, the keys to which are hidden inside the cauldron in {@area area 10e|1c3|x}. A character with thieves' tools can pick each lock with a successful DC 15 Dexterity check.",
 												"Two prisoners are chained here when the characters arrive: an unarmed {@creature goblin} named Lerk and a 13-year-old boy named Delvin Stormshore (CG male Illuskan human {@creature commoner} with no weapons).",
 												"The hags caught Delvin after he and a friend \"borrowed\" a rowboat and used it to explore the sea caves near Skullport. When the sea hags attacked, Delvin's friend leaped out of the boat and managed to swim away, but Delvin wasn't so lucky. He's so cold and scared that he stammers when he tries to talk.",
 												"For its own amusement, the wicked goblin has been tormenting Delvin by threatening to eat him before the hags return. Since the boy can't see in the dark, he mistakes the bullying goblin for his jailer, not another prisoner. If rescued, Delvin insists that the characters call him \"Del\" and gladly offers to carry their gear for them.",
-												"Like most goblins, Lerk is a cowardly bully. He's very hungry and begs characters for food and freedom."
+												"Like most goblins, Lerk is a cowardly bully. He's very hungry and begs characters for food and freedom.",
+												{
+													"type":"entries",
+													"name":"Freeing Delvin",
+													"entries":[
+														"{@homebrew The  sea hags  don't  take  kindly  to the theft  of  their \"cattle\"but  aren't  about  to  take  to  arms  to prevent it. If confronted, the hags merely shrug and say, \"He  was  the  river's  bounty—ours  to  collect\"  as  if  that alone excuses everything. They know that there shall be more prey to come, long after the adventurers have gone.}"
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Returning Delvin",
+													"entries":[
+													"{@homebrew If the adventurers promise to return Delvin to Skullport, he provides information, carries their gear, and will act as a guide once in the town. He provides the following:",
+														{	
+															"type":"list",
+															"items":[
+																"{@homebrew Skullport  is  ruled  by  the  Xanathar  Guild  under  the paranoid watch of Sundeth, a half-ogre that delights in violence and shows of strength.}",
+																"{@homebrew An old archmageby  the  name  of  Tasselgryn  Velldarn runs The  Poisoned  Quilland  can  teleport  individuals out of Undermountain—for a price.}",
+																"{@homebrew Pockets of resistance to the Xanathar Guild are holding out in Skullport, desperate for aid.}"
+															]
+														}
+													]
+												}
 											]
 										},
 										{
@@ -13015,7 +13046,7 @@
 													"name": "Treasure",
 													"id": "1c9",
 													"entries": [
-														"The crow's nest contains 2,000 cp inside a lidless wooden chest, 250 sp inside a tin urn, an umbrella, a set of weaver's tools, an ebony walking cane with an octopus-shaped handle made of pewter (25 gp), and a cracked spyglass (250 gp)."
+														"The crow's nest contains 2,000 cp inside a lidless wooden chest, 250 sp inside a tin urn, an umbrella, a set of weaver's tools, an ebony walking cane with an octopus-shaped handle made of pewter (25 gp), and a cracked spyglass (250 gp). {@homebrew In the pile is also a {@item candle of the deep|dmg} and a {@item hat of wizardry|dmg}, as well as {@dice 1d4+1} {@item potion of healing|dmg|potions of healing} and one {@item potion of poison}}"
 													]
 												}
 											]
@@ -13316,6 +13347,22 @@
 														"{@b Descending Tunnel}. A tunnel to the west slopes steeply downward to {@area level 4, area 1|23f|x}."
 													]
 												},
+												{
+													"type":"insetReadaloud",
+													"entries":[
+														"{@homebrew A  hoarse  voice  thunders  from  the  darkness  as  spears shriek and the gears of crossbows click:}",
+														"{@homebrew \"Halt! Come no further, strangers, lest you be met with ash  and  steel.  Identify  yourselves  before  the  Legion  of Azrok, or die as the drow did: alone and afraid.\"}",
+														"{@homebrew A platoon of armored men stands behind barricades and outcroppings, their weapons of war at the ready. Behind them,  the  cavern  narrows  into  a  steep  decline  that  sinks towards the bowels of the earth.}"
+													]
+												},
+												"{@homebrew Once the characters greet the hobgoblin captain, he continues:}",
+												{
+													"type":"insetReadaloud",
+													"entries":[
+														"{@homebrew The captain barks,}",
+														"{@homebrew \" There's nothing beyond here for you, strangers. The elves lie in wait in the tunnels yonder. Turn back,  for  my  lord  and  commander,  Warlord  Azrok,  has demanded that all visitors present themselves to his hall. You are to report to Azrok's Hold; you will be met with peace  and  lodgings.  My  men  shall  ensure  your  safe passage. Do not disappoint.\"}"
+													]
+												},
 												"House Auvryndar and the Legion of Azrok have been fighting for control of this cave for months. The faction that controls this cave controls access to level 4 of Undermountain. The goblinoids under Warlord Azrok hold it currently, and the hobgoblins' orders are to defend it against drow incursions. The captain, Kliyuse the Skull Cleaver, has further instructions to direct adventurers northward to the goblinoid settlement ({@area area 21|205|x}), denying them access to {@adventure level 4|WDMM|4} until they have met with Azrok and Lurkana. If the characters go where they are directed, Kliyuse assigns two hobgoblins to see that they reach the settlement safely and promptly."
 											]
 										},
@@ -13367,6 +13414,13 @@
 											"name": "17e. Otyugh Lair",
 											"id": "1ec",
 											"entries": [
+												{
+													"type":"insetReadaloud",
+													"entries":[
+														"{@homebrew The   cavern   grows   rank   with   decay.   Corpses   lie   in abundance:  elves,  quaggoths,  men,  and  goblinoids.  You hear a whisper on the absent wind, a whisper sung from the corpse pile: \"Save me... please.\" }"
+													]
+												},
+												"{@homebrew The {@creature otyugh} that  lairs  here  uses  its  Limited Telepathy feature  to  try  and  urge  a  character  towards  the  garbage pile where it attacks from. The otyugh has advantage on Dexterity (Stealth)  checks  to  remain  hidden  during  this time.If   the   adventurers   are   being   escorted   by   the hobgoblins,  the  otyugh  doesn't  try  to  lure  creatures towards it, but will attack if they root through its garbage pile on their own accord.}",
 												"This 10-foot-high side cavern is piled high with refuse and rotting corpses, under which hides an {@creature otyugh}. The otyugh is a friend to the goblins, hobgoblins, and bugbears of Azrok's Hold ({@area area 21|205|x}), who supply it with plenty of carrion. It won't ordinarily attack goblinoids or anyone escorted by them. It will, however, attack any creature that dares to root through its garbage pile.",
 												"The corpses in the garbage pile are the remains of drow, quaggoths, bugbears, goblins, and hobgoblins that were killed in skirmishes between the Legion of Azrok and House Auvryndar. The bodies have been stripped of all armor, weapons, and valuables, and some are missing chunks of flesh\u2014a feast for the otyugh."
 											]
@@ -13456,7 +13510,8 @@
 														"The eight red crystal eyes on the chest can be pried loose and are worth 5 gp each. Inside the chest are three shelves stacked vertically.",
 														"The top shelf holds an onyx spider figurine (25 gp), eight sticks of incense (1 gp each), and a dagger with a tiny reservoir built into its hilt that holds up to three doses of a liquid poison.",
 														"The middle shelf contains a folded spider silk robe, dyed black, with tiny golden spiders sewn into it (90 gp). Hidden in the folds of the robe is a {@item potion of healing} in a crystal vial.",
-														"On the bottom shelf rests a birchwood wand (an arcane focus) and a leather-bound spellbook that belong to Marta Moonshadow (see {@area area 5d|1a4|x}). The book contains the following spells: {@spell chromatic orb}, {@spell cone of cold}, {@spell counterspell}, {@spell detect magic}, {@spell dispel magic}, {@spell enlarge/reduce}, {@spell fireball}, {@spell fly}, {@spell greater invisibility}, {@spell ice storm}, {@spell identify}, {@spell mage armor}, {@spell magic missile}, {@spell magic weapon}, {@spell misty step}, {@spell polymorph}, {@spell sending}, {@spell shield}, and {@spell suggestion}."
+														"On the bottom shelf rests a birchwood wand (an arcane focus) and a leather-bound spellbook that belong to Marta Moonshadow (see {@area area 5d|1a4|x}). The book contains the following spells: {@spell chromatic orb}, {@spell cone of cold}, {@spell counterspell}, {@spell detect magic}, {@spell dispel magic}, {@spell enlarge/reduce}, {@spell fireball}, {@spell fly}, {@spell greater invisibility}, {@spell ice storm}, {@spell identify}, {@spell mage armor}, {@spell magic missile}, {@spell magic weapon}, {@spell misty step}, {@spell polymorph}, {@spell sending}, {@spell shield}, and {@spell suggestion}.",
+														"{@homebrew The bottom shelf also contains a diamond worth 300 gp and a pearl worth 100 gp.}"
 													]
 												}
 											]

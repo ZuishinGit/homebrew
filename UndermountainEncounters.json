@@ -1,0 +1,209 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"UndermountainEncounters",
+				"abbreviation":"UE",
+				"full":"Undermountain Encounters",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		],
+		"dateAdded": 1594679229,
+		"dateLastModified": 1594679229
+	},
+	"book":[
+		{
+			"name":"Undermountain Encounters",
+			"id":"UEnc",
+			"source":"UndermountainEncounters",
+			"contents":[
+				{
+					"name":"Random Encounter Tables",
+					"headers":[
+						"Floors 1-2",
+						"Floors 3-5"
+					]
+				}
+			]
+		}
+	],
+	"bookData":[
+		{
+			"id":"UEnc",
+			"source":"UndermountainEncounters",
+			"data":[
+				{
+					"type":"section",
+					"name":"Random Encounter Tables",
+					"entries":[
+						"Encounters for the megadungeon that is Undermountain. Each table is grouped by thematically similar elements, and the table uses the random encounter method outlined in the Dungeon Master's Guide.",
+						{
+							"type":"entries",
+							"name":"Floors 1-2",
+							"entries":[
+								{
+									"type":"table",
+									"colLabels":[
+										"d12+d8",
+										"Encounter"
+									],
+									"colStyles":[
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows":	[
+										[
+											"2",
+											"Roaming boss"
+										],
+										[
+											"3",
+											"A troupe of hobgoblins (1 {@creature hobgoblin warlord}, 2 ({@dice 1d4}) {@creature hobgoblin|MM|hobgoblins}, and a {@creature hobgoblin iron shadow|VGM})"
+										],
+										[
+											"4",
+											"A {@creature trapper|VGM} clinging to the ceiling"
+										],
+										[
+											"5",
+											"2 ({@dice 1d4}) {@creature carrion crawler|MM|carrion crawlers} stalking the party"
+										],
+										[
+											"6",
+											"A group of greedy adventurers (1 {@creature martial arts adept|VGM}, ({@dice 1d2}) {@creature veteran|MM|veterans}, and 2 ({@dice 1d6-1}) {@creature thug|MM|thugs}, all are chaotic evil)"
+										],
+										[
+											"7",
+											"3 ({@condition 1d6}) diseased {@creature giant rat|MM|giant rats} which are very crazed and contagious"
+										],
+										[
+											"8",
+											"The sole survivor of an adventuring party who is now the host to an {@creature intellect devourer} in allegiance with Xanathar"
+										],
+										[
+											"9-11",
+											"Pull one of the wandering monsters on the floor"
+										],
+										[
+											"12-14",
+											"One of Halaster's regional effects"
+										],
+										[
+											"15",
+											"4 ({@dice 1d4+2}) {@creature flumph|MM|flumphs}"
+										],
+										[
+											"16",
+											"A goblin with a wrapped up jewelled scabbard and sword which are actually 2 {@creature mimic|MM|mimics} in object form"
+										],
+										[
+											"17",
+											"A {@creature helmed horror} that attacks the characters on sight"
+										],
+										[
+											"18",
+											"A roaming {@creature black pudding}"
+										],
+										[
+											"19",
+											"A squad of 6 ({@dice 1d4+2}) {@creature goblin|MM|goblins} selling some overpriced items (roll twice on {@table magic item table A}"
+										],
+										[
+											"20",
+											"A wandering 9th level lawful good {@creature war priest|VGM|cleric}"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Floors 3-5",
+							"entries":[
+								{
+									"type":"table",
+									"colLabels":[
+										"d12+d8",
+										"Encounter"
+									],
+									"colStyles":[
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows":	[
+										[
+											"2",
+											"Roaming boss"
+										],
+										[
+											"3",
+											"A troupe of  hobgoblins (1 {@creature hobgoblin warlord}, 2 ({@dice 1d4}) {@creature hobgoblin|MM|hobgoblins}, and a {@creature hobgoblin iron shadow|VGM})"
+										],
+										[
+											"4",
+											"A {@creature cloaker|VGM} clinging to the ceiling"
+										],
+										[
+											"5",
+											"2 ({@dice 1d4}) {@creature carrion crawler|MM|carrion crawlers} stalking the party"
+										],
+										[
+											"6",
+											"A group of greedy adventurers (2 ({@dice 1d4}) {@creature martial arts adept|VGM|martial arts adepts}, ({@dice 1d2}) {@creature gladiator|MM|gladiators}, and 2 ({@dice 1d6-1}) {@creature thug|MM|thugs}, all are chaotic evil)"
+										],
+										[
+											"7",
+											"2 ({@dice 1d4}) {@creature assassin bug|MFF|assassin bugs"
+										],
+										[
+											"8",
+											"A {@creature doppelganger} assuming the form of a lone adventurer"
+										],
+										[
+											"9-11",
+											"Pull one of the wandering monsters on the floor"
+										],
+										[
+											"12-14",
+											"One of Halaster's regional effects"
+										],
+										[
+											"15",
+											"3 ({@dice 1d4+1}) {@creature phase spider|MM|phase spiders}"
+										],
+										[
+											"16",
+											"An {@creature oblex|mtf} disguising itself as a fellow adventurer that charms the party before trying to eat their memories"
+										],
+										[
+											"17",
+											"A {@creature living cloudkill|ERLW} blocking their path"
+										],
+										[
+											"18",
+											"A {@creature roper} posed as a stalactite"
+										],
+										[
+											"19",
+											"A squad of 6 ({@dice 1d4+2}) {@creature duergar|MM|duergar} selling some overpriced items (roll twice on {@table magic item table B}"
+										],
+										[
+											"20",
+											"A wandering {@creature unicorn} who has lost its memories"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
