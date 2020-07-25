@@ -1,0 +1,692 @@
+{
+	"w": 12,
+	"h": 12,
+	"ctc": false,
+	"fs": false,
+	"lk": true,
+	"ps": [
+		{
+			"x": 0,
+			"y": 5,
+			"w": 3,
+			"h": 7,
+			"t": 14,
+			"c": {
+				"b": "ZSMR",
+				"c": 0
+			}
+		},
+		{
+			"x": 3,
+			"y": 0,
+			"w": 3,
+			"h": 4,
+			"t": 14,
+			"c": {
+				"b": "ZSUL",
+				"c": 0
+			},
+			"a": [
+				{
+					"t": 14,
+					"r": "Urban Life",
+					"c": {
+						"b": "ZSUL",
+						"c": 0
+					}
+				},
+				{
+					"t": 14,
+					"r": "Equipment",
+					"c": {
+						"b": "ZSER",
+						"c": 0
+					}
+				},
+				{
+					"t": 14,
+					"r": "Availability",
+					"c": {
+						"b": "ZSAI",
+						"c": 0
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 6,
+			"y": 0,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "magic%20item%20rarity_dmg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 3,
+			"h": 5,
+			"t": 8,
+			"s": {
+				"state": {
+					"time": 8380803002,
+					"browseTime": null,
+					"isBrowseMode": false,
+					"hoursPerDay": 24,
+					"minutesPerHour": 60,
+					"secondsPerMinute": 60,
+					"hoursPerLongRest": 8,
+					"minutesPerShortRest": 60,
+					"secondsPerRound": 6,
+					"offsetYears": 0,
+					"offsetMonthStartDay": 0,
+					"days": {
+						"e9e98d63-66c1-425e-a722-c97d76bff947": {
+							"name": "Oneday",
+							"isDeleted": false,
+							"id": "e9e98d63-66c1-425e-a722-c97d76bff947",
+							"pos": 0
+						},
+						"2169220b-a473-4237-b5cf-cd94c4ad2c2a": {
+							"name": "Twoday",
+							"isDeleted": false,
+							"id": "2169220b-a473-4237-b5cf-cd94c4ad2c2a",
+							"pos": 1
+						},
+						"35e462c2-0672-4400-8289-dd2a4b7f0d70": {
+							"name": "Threeday",
+							"isDeleted": false,
+							"id": "35e462c2-0672-4400-8289-dd2a4b7f0d70",
+							"pos": 2
+						},
+						"5bd9758c-34b8-4dc9-a6be-254a0f295c18": {
+							"name": "Fourday",
+							"isDeleted": false,
+							"id": "5bd9758c-34b8-4dc9-a6be-254a0f295c18",
+							"pos": 3
+						},
+						"909ac3e2-82d1-45ba-86de-ec5b451eb6a5": {
+							"name": "Fiveday",
+							"isDeleted": false,
+							"id": "909ac3e2-82d1-45ba-86de-ec5b451eb6a5",
+							"pos": 4
+						},
+						"0b172ee4-4645-4668-8d4d-d40a73892ee1": {
+							"name": "Sixday",
+							"isDeleted": false,
+							"id": "0b172ee4-4645-4668-8d4d-d40a73892ee1",
+							"pos": 5
+						},
+						"4d98fd20-bdba-4969-acdd-1e70abfd3834": {
+							"name": "Sevenday",
+							"isDeleted": false,
+							"id": "4d98fd20-bdba-4969-acdd-1e70abfd3834",
+							"pos": 6
+						}
+					},
+					"months": {
+						"5f5e9df3-be6e-465a-b0f4-75f3469d1db1": {
+							"name": "Oneuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "5f5e9df3-be6e-465a-b0f4-75f3469d1db1",
+							"pos": 0
+						},
+						"69a228de-1617-4803-99bc-f4c48363cf4c": {
+							"name": "Twouary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "69a228de-1617-4803-99bc-f4c48363cf4c",
+							"pos": 1
+						},
+						"bd558a90-5ff7-4364-a6b2-8220894de77b": {
+							"name": "Threeuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "bd558a90-5ff7-4364-a6b2-8220894de77b",
+							"pos": 2
+						},
+						"a028471a-47f4-4266-9703-9750af957627": {
+							"name": "Fouruary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "a028471a-47f4-4266-9703-9750af957627",
+							"pos": 3
+						},
+						"dbd5dff8-6927-4e1e-b3d5-0e3256709c7e": {
+							"name": "Fiveuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "dbd5dff8-6927-4e1e-b3d5-0e3256709c7e",
+							"pos": 4
+						},
+						"6b68e880-b09a-4d20-a454-7d29bd1cc034": {
+							"name": "Sixuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "6b68e880-b09a-4d20-a454-7d29bd1cc034",
+							"pos": 5
+						},
+						"2af004f5-49db-4d15-9006-b6da0167029f": {
+							"name": "Sevenuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "2af004f5-49db-4d15-9006-b6da0167029f",
+							"pos": 6
+						},
+						"9d110eaf-8fdd-4fb3-ae3e-c03feed2de2f": {
+							"name": "Eightuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "9d110eaf-8fdd-4fb3-ae3e-c03feed2de2f",
+							"pos": 7
+						},
+						"008f3d6f-7844-4455-a0b2-77d0d48e0b41": {
+							"name": "Nineuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "008f3d6f-7844-4455-a0b2-77d0d48e0b41",
+							"pos": 8
+						},
+						"d0368e6c-7204-4598-99d3-bed9f0801530": {
+							"name": "Tenuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "d0368e6c-7204-4598-99d3-bed9f0801530",
+							"pos": 9
+						},
+						"a44b6ae1-a3de-4d4f-a76a-cb54df1b81e8": {
+							"name": "Elevenuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "a44b6ae1-a3de-4d4f-a76a-cb54df1b81e8",
+							"pos": 10
+						},
+						"db0bff48-f555-40da-a176-d03d86486cc4": {
+							"name": "Twelveuary",
+							"days": 30,
+							"isDeleted": false,
+							"id": "db0bff48-f555-40da-a176-d03d86486cc4",
+							"pos": 11
+						}
+					},
+					"events": {},
+					"encounters": {},
+					"seasons": {
+						"17f130d4-9ef3-48fc-ad19-7613b9e4bc20": {
+							"name": "Spring",
+							"startDay": 0,
+							"endDay": 89,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "17f130d4-9ef3-48fc-ad19-7613b9e4bc20"
+						},
+						"352a4e75-2eb1-46d1-8a04-a178c6af4313": {
+							"name": "Summer",
+							"startDay": 90,
+							"endDay": 179,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "352a4e75-2eb1-46d1-8a04-a178c6af4313"
+						},
+						"77a59f94-588d-471a-825b-fb52447f40ad": {
+							"name": "Fall",
+							"startDay": 180,
+							"endDay": 269,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "77a59f94-588d-471a-825b-fb52447f40ad"
+						},
+						"e6bfb3ac-3ee8-48c9-a6ee-369e69f1ee63": {
+							"name": "Winter",
+							"startDay": 270,
+							"endDay": 359,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "e6bfb3ac-3ee8-48c9-a6ee-369e69f1ee63"
+						}
+					},
+					"years": {},
+					"eras": {},
+					"moons": {
+						"e6448967-b833-4c1b-bba6-95237f5baacf": {
+							"name": "Moon 1",
+							"color": "#ffffff",
+							"phaseOffset": 0,
+							"period": 24,
+							"isDeleted": false,
+							"id": "e6448967-b833-4c1b-bba6-95237f5baacf"
+						}
+					},
+					"tab": 0,
+					"isPaused": true,
+					"isAutoPaused": false,
+					"hasCalendarLabelsColumns": true,
+					"hasCalendarLabelsRows": false,
+					"unitsWindSpeed": "mph",
+					"isClockSectionHidden": false,
+					"isCalendarSectionHidden": false,
+					"isMechanicsSectionHidden": false,
+					"isOffsetsSectionHidden": false,
+					"isDaysSectionHidden": false,
+					"isMonthsSectionHidden": false,
+					"isSeasonsSectionHidden": false,
+					"isYearsSectionHidden": false,
+					"isErasSectionHidden": false,
+					"isMoonsSectionHidden": false
+				},
+				"compClockState": {
+					"state": {},
+					"compWeatherState": {
+						"state": {
+							"temperature": "mild",
+							"precipitation": "cloudy",
+							"windDirection": -12,
+							"windSpeed": "calm"
+						}
+					}
+				},
+				"compCalendarState": {
+					"state": {}
+				},
+				"compSettingsState": {
+					"state": {}
+				}
+			},
+			"a": [
+				{
+					"t": 8,
+					"s": {
+						"state": {
+							"time": 8380803002,
+							"browseTime": null,
+							"isBrowseMode": false,
+							"hoursPerDay": 24,
+							"minutesPerHour": 60,
+							"secondsPerMinute": 60,
+							"hoursPerLongRest": 8,
+							"minutesPerShortRest": 60,
+							"secondsPerRound": 6,
+							"offsetYears": 0,
+							"offsetMonthStartDay": 0,
+							"days": {
+								"e9e98d63-66c1-425e-a722-c97d76bff947": {
+									"name": "Oneday",
+									"isDeleted": false,
+									"id": "e9e98d63-66c1-425e-a722-c97d76bff947",
+									"pos": 0
+								},
+								"2169220b-a473-4237-b5cf-cd94c4ad2c2a": {
+									"name": "Twoday",
+									"isDeleted": false,
+									"id": "2169220b-a473-4237-b5cf-cd94c4ad2c2a",
+									"pos": 1
+								},
+								"35e462c2-0672-4400-8289-dd2a4b7f0d70": {
+									"name": "Threeday",
+									"isDeleted": false,
+									"id": "35e462c2-0672-4400-8289-dd2a4b7f0d70",
+									"pos": 2
+								},
+								"5bd9758c-34b8-4dc9-a6be-254a0f295c18": {
+									"name": "Fourday",
+									"isDeleted": false,
+									"id": "5bd9758c-34b8-4dc9-a6be-254a0f295c18",
+									"pos": 3
+								},
+								"909ac3e2-82d1-45ba-86de-ec5b451eb6a5": {
+									"name": "Fiveday",
+									"isDeleted": false,
+									"id": "909ac3e2-82d1-45ba-86de-ec5b451eb6a5",
+									"pos": 4
+								},
+								"0b172ee4-4645-4668-8d4d-d40a73892ee1": {
+									"name": "Sixday",
+									"isDeleted": false,
+									"id": "0b172ee4-4645-4668-8d4d-d40a73892ee1",
+									"pos": 5
+								},
+								"4d98fd20-bdba-4969-acdd-1e70abfd3834": {
+									"name": "Sevenday",
+									"isDeleted": false,
+									"id": "4d98fd20-bdba-4969-acdd-1e70abfd3834",
+									"pos": 6
+								}
+							},
+							"months": {
+								"5f5e9df3-be6e-465a-b0f4-75f3469d1db1": {
+									"name": "Oneuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "5f5e9df3-be6e-465a-b0f4-75f3469d1db1",
+									"pos": 0
+								},
+								"69a228de-1617-4803-99bc-f4c48363cf4c": {
+									"name": "Twouary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "69a228de-1617-4803-99bc-f4c48363cf4c",
+									"pos": 1
+								},
+								"bd558a90-5ff7-4364-a6b2-8220894de77b": {
+									"name": "Threeuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "bd558a90-5ff7-4364-a6b2-8220894de77b",
+									"pos": 2
+								},
+								"a028471a-47f4-4266-9703-9750af957627": {
+									"name": "Fouruary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "a028471a-47f4-4266-9703-9750af957627",
+									"pos": 3
+								},
+								"dbd5dff8-6927-4e1e-b3d5-0e3256709c7e": {
+									"name": "Fiveuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "dbd5dff8-6927-4e1e-b3d5-0e3256709c7e",
+									"pos": 4
+								},
+								"6b68e880-b09a-4d20-a454-7d29bd1cc034": {
+									"name": "Sixuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "6b68e880-b09a-4d20-a454-7d29bd1cc034",
+									"pos": 5
+								},
+								"2af004f5-49db-4d15-9006-b6da0167029f": {
+									"name": "Sevenuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "2af004f5-49db-4d15-9006-b6da0167029f",
+									"pos": 6
+								},
+								"9d110eaf-8fdd-4fb3-ae3e-c03feed2de2f": {
+									"name": "Eightuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "9d110eaf-8fdd-4fb3-ae3e-c03feed2de2f",
+									"pos": 7
+								},
+								"008f3d6f-7844-4455-a0b2-77d0d48e0b41": {
+									"name": "Nineuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "008f3d6f-7844-4455-a0b2-77d0d48e0b41",
+									"pos": 8
+								},
+								"d0368e6c-7204-4598-99d3-bed9f0801530": {
+									"name": "Tenuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "d0368e6c-7204-4598-99d3-bed9f0801530",
+									"pos": 9
+								},
+								"a44b6ae1-a3de-4d4f-a76a-cb54df1b81e8": {
+									"name": "Elevenuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "a44b6ae1-a3de-4d4f-a76a-cb54df1b81e8",
+									"pos": 10
+								},
+								"db0bff48-f555-40da-a176-d03d86486cc4": {
+									"name": "Twelveuary",
+									"days": 30,
+									"isDeleted": false,
+									"id": "db0bff48-f555-40da-a176-d03d86486cc4",
+									"pos": 11
+								}
+							},
+							"events": {},
+							"encounters": {},
+							"seasons": {
+								"17f130d4-9ef3-48fc-ad19-7613b9e4bc20": {
+									"name": "Spring",
+									"startDay": 0,
+									"endDay": 89,
+									"sunriseHour": 6,
+									"sunsetHour": 22,
+									"isDeleted": false,
+									"id": "17f130d4-9ef3-48fc-ad19-7613b9e4bc20"
+								},
+								"352a4e75-2eb1-46d1-8a04-a178c6af4313": {
+									"name": "Summer",
+									"startDay": 90,
+									"endDay": 179,
+									"sunriseHour": 6,
+									"sunsetHour": 22,
+									"isDeleted": false,
+									"id": "352a4e75-2eb1-46d1-8a04-a178c6af4313"
+								},
+								"77a59f94-588d-471a-825b-fb52447f40ad": {
+									"name": "Fall",
+									"startDay": 180,
+									"endDay": 269,
+									"sunriseHour": 6,
+									"sunsetHour": 22,
+									"isDeleted": false,
+									"id": "77a59f94-588d-471a-825b-fb52447f40ad"
+								},
+								"e6bfb3ac-3ee8-48c9-a6ee-369e69f1ee63": {
+									"name": "Winter",
+									"startDay": 270,
+									"endDay": 359,
+									"sunriseHour": 6,
+									"sunsetHour": 22,
+									"isDeleted": false,
+									"id": "e6bfb3ac-3ee8-48c9-a6ee-369e69f1ee63"
+								}
+							},
+							"years": {},
+							"eras": {},
+							"moons": {
+								"e6448967-b833-4c1b-bba6-95237f5baacf": {
+									"name": "Moon 1",
+									"color": "#ffffff",
+									"phaseOffset": 0,
+									"period": 24,
+									"isDeleted": false,
+									"id": "e6448967-b833-4c1b-bba6-95237f5baacf"
+								}
+							},
+							"tab": 0,
+							"isPaused": true,
+							"isAutoPaused": false,
+							"hasCalendarLabelsColumns": true,
+							"hasCalendarLabelsRows": false,
+							"unitsWindSpeed": "mph",
+							"isClockSectionHidden": false,
+							"isCalendarSectionHidden": false,
+							"isMechanicsSectionHidden": false,
+							"isOffsetsSectionHidden": false,
+							"isDaysSectionHidden": false,
+							"isMonthsSectionHidden": false,
+							"isSeasonsSectionHidden": false,
+							"isYearsSectionHidden": false,
+							"isErasSectionHidden": false,
+							"isMoonsSectionHidden": false
+						},
+						"compClockState": {
+							"state": {},
+							"compWeatherState": {
+								"state": {
+									"temperature": "mild",
+									"precipitation": "cloudy",
+									"windDirection": -12,
+									"windSpeed": "calm"
+								}
+							}
+						},
+						"compCalendarState": {
+							"state": {}
+						},
+						"compSettingsState": {
+							"state": {}
+						}
+					}
+				},
+				{
+					"t": 14,
+					"r": "Encounters",
+					"c": {
+						"b": "ZSUE",
+						"c": 0
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 9,
+			"y": 0,
+			"w": 3,
+			"h": 4,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20npc%20bonds_screen"
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "Bonds",
+					"c": {
+						"p": "tables.html",
+						"s": "Screen",
+						"u": "dm%20screen%3b%20npc%20bonds_screen"
+					}
+				},
+				{
+					"t": 1,
+					"r": "Light",
+					"c": {
+						"p": "tables.html",
+						"s": "Screen",
+						"u": "dm%20screen%3b%20light_screen"
+					}
+				},
+				{
+					"t": 1,
+					"r": "Encounter",
+					"c": {
+						"p": "tables.html",
+						"s": "Screen",
+						"u": "dm%20screen%3b%20encounter%20distance_screen"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "tables.html",
+						"s": "PHB",
+						"u": "travel%20pace_phb"
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 9,
+			"y": 4,
+			"w": 3,
+			"h": 8,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "charisma%20check%3b%20conversation%20reaction_dmg"
+			}
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 1,
+			"h": 3,
+			"t": 14,
+			"c": {
+				"b": "ZSPP",
+				"c": 0
+			}
+		},
+		{
+			"x": 3,
+			"y": 7,
+			"w": 3,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "npc%20appearance_dmg"
+			}
+		},
+		{
+			"x": 6,
+			"y": 7,
+			"w": 3,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "PHB",
+				"u": "deities%20of%20the%20forgotten%20realms_phb"
+			}
+		},
+		{
+			"x": 3,
+			"y": 4,
+			"w": 3,
+			"h": 3,
+			"t": 90,
+			"c": {
+				"u": "https://www.outpan.com/app/e7d5b37405/mytextarea"
+			}
+		},
+		{
+			"x": 6,
+			"y": 3,
+			"w": 3,
+			"h": 4,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "object%20armor%20class_dmg"
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "Object AC",
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "object%20armor%20class_dmg"
+					}
+				},
+				{
+					"t": 1,
+					"r": "Object HP",
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "object%20hit%20points_dmg"
+					}
+				}
+			],
+			"b": 0
+		}
+	],
+	"ex": []
+}
