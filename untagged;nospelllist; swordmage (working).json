@@ -74,11 +74,257 @@
 	        		]
 	        	}
 	        },
+	        "classSpells":[
+	        		"acid splash",
+	        		"blade ward",
+	        	{
+	        		"name":"booming blade",
+	        		"source":"SCAG"
+	        	},
+	        		"chill touch",
+	        		"dancing lights",
+	        		"fire bolt",
+	        	{
+	        		"name":"freezing blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"frostbite",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"green-flame blade",
+	        		"source":"SCAG"
+	        	},
+	        		"light",
+	        	{
+	        		"name":"lightning lure",
+	        		"source":"SCAG"
+	        	},
+	        		"mage hand",
+	        		"mending",
+	        		"message",
+	        	{
+	        		"name":"mind blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"mountain blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"poison spray",
+	        		"prestidigitation",
+	        	{
+	        		"name":"protective blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"ray of frost",
+	        		"shocking grasp",
+	        	{
+	        		"name":"sword burst",
+	        		"source":"SCAG"
+	        	},
+	        	{
+	        		"name":"thunderclap",
+	        		"source":"XGE"
+	        	},
+	        		"true strike",
+	        	{
+	        		"name":"vampiric blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"absorb elements",
+	        		"source":"XGE"
+	        	},
+	        		"burning hands",
+	        		"chromatic orb",
+	        	{
+	        		"name":"corrosive swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"detect magic",
+	        	{
+	        		"name":"ensnaring pull",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"expeditious retreat",
+	        		"false life",
+	        		"feather fall",
+	        	{
+	        		"name":"ice knife",
+	        		"source":"XGE"
+	        	},
+	        		"identify",
+	        		"jump",
+	        		"longstrider",
+	        		"mage armor",
+	        		"magic missile",
+	        	{
+	        		"name":"predictive strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"protection from evil and good",
+	        		"shield",
+	        		"thunderwave",
+	        	{
+	        		"name":"venomous strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"zephyr strike",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"aganazzar's scorcher",
+	        		"source":"XGE"
+	        	},
+	        		"blindness/deafness",
+	        		"blur",
+	        		"continual flame",
+	        		"darkness",
+	        		"darkvision",
+	        		"enlarge/reduce",
+	        	{
+	        		"name":"electrifying swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"far strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"invisibility",
+	        	{
+	        		"name":"isolating strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"magic weapon",
+	        		"mirror image",
+	        		"misty step",
+	        		"scorching ray",
+	        		"see invisibility",
+	        	{
+	        		"name":"shadow blade",
+	        		"source":"XGE"
+	        	},
+	        		"shatter",
+	        		"silence",
+	        		"spider climb",
+	        	{
+	        		"name":"snilloc's snowball swarm",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"warding wind",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"withering strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"blade storm",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"blink",
+	        		"counterspell",
+	        	{
+	        		"name":"dimensional retaliation",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"dispel magic",
+	        		"elemental weapon",
+	        		"fireball",
+	        	{
+	        		"name":"flaming swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"fly",
+	        	{
+	        		"name":"frigid strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"gaseous form",
+	        		"haste",
+	        		"lightning bolt",
+	        		"magic circle",
+	        	{
+	        		"name":"melf's minute meteors",
+	        		"source":"XGE"
+	        	},
+	        		"protection from energy",
+	        		"slow",
+	        	{
+	        		"name":"thunder step",
+	        		"source":"XGE"
+	        	},
+	        		"vampiric touch",
+	        		"banishment",
+	        		"bleeding blade",
+	        		"dimension door",
+	        	{
+	        		"name":"dimensional vortex",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"elemental bane",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"fiery charge",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"fire shield",
+	        		"greater invisibility",
+	        		"ice storm",
+	        	{
+	        		"name":"quaking swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"stoneskin",
+	        	{
+	        		"name":"storm sphere",
+	        		"source":"XGE"
+	        	},
+	        		"wall of fire",
+	        	{
+	        		"name":"vitriolic sphere",
+	        		"source":"XGE"
+	        	},
+	        		"animate objects",
+	        		"cone of cold",
+	        	{
+	        		"name":"nightmare swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"shocking blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"far step",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"prismatic blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"steel wind strike",
+	        		"source":"XGE"
+	        	},
+	        		"telekinesis",
+	        		"teleportation circle",
+	        	{
+	        		"name":"time warp blade",
+	        		"source":"fanatic66Swordmage"
+	        	}
+	        ],
 	        "startingEquipment":{
 	        	"default":[
-	        		"(a) two martial weapons",
-	        		"(a) a scholar's pack or (b) an explorer's pack",
-	        		"(a) scale mail or (b) leather armor"
+	        		"(a) two {@filter martial weapons|items|type=martial weapon|category=basic}",
+	        		"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+	        		"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}"
 	        	],
 	        	"additionalFromBackground":true
 	        },
@@ -88,87 +334,87 @@
 	        	{
 	        		"colLabels":[
 	        			"Arcane Die",
-	        			"Cantrips"
+	        			"{@filter Cantrips Known|spells|level=0|class=Swordmage (SAHC)}"
 	        		],
 	        		"rows":[
 	        			[
-	        				"—",
+	        				"\u2014",
 	        				"2"
 	        			],
 	        			[
-	        				"1d4",
+	        				"{@dice 1d4}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d4",
+	        				"{@dice 1d4}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d4",
+	        				"{@dice 1d4}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d4",
+	        				"{@dice 1d4}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d6",
+	        				"{@dice 1d6}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d6",
+	        				"{@dice 1d6}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d6",
+	        				"{@dice 1d6}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d6",
+	        				"{@dice 1d6}",
 	        				"2"
 	        			],
 	        			[
-	        				"1d6",
+	        				"{@dice 1d6}",
 	        				"3"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"3"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"3"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"3"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d8",
+	        				"{@dice 1d8}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d10",
+	        				"{@dice 1d10}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d10",
+	        				"{@dice 1d10}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d10",
+	        				"{@dice 1d10}",
 	        				"4"
 	        			],
 	        			[
-	        				"1d10",
+	        				"{@dice 1d10}",
 	        				"4"
 	        			]
 	        		]
@@ -176,11 +422,11 @@
 	        	{
 	        		"title":"Spell Slots per Spell Level",
 	        		"colLabels":[
-	        			"1st",
-	        			"2nd",
-	        			"3rd",
-	        			"4th",
-	        			"5th"
+	        			"{@filter 1st|spells|level=1|class=Swordmage (SAHC)}",
+	        			"{@filter 2nd|spells|level=2|class=Swordmage (SAHC)}",
+	        			"{@filter 3rd|spells|level=3|class=Swordmage (SAHC)}",
+	        			"{@filter 4th|spells|level=4|class=Swordmage (SAHC)}",
+	        			"{@filter 5th|spells|level=5|class=Swordmage (SAHC)}"
 	        		],
 	        		"rows":[
 	        			[
@@ -1010,7 +1256,7 @@
 			"header":1,
 			"entries":[
 				"You attune to the elemental plane of air. Your Elemental Attunement damage type is lightning.",
-				"You learn the gust cantrip and gain archetype spells at the swordmage level listed below.",
+				"You learn the {@spell gust|xge} cantrip and gain archetype spells at the swordmage level listed below.",
 				{
 					"type":"table",
 					"caption": "Air Elementalist Spells",
@@ -1025,23 +1271,23 @@
 					"rows":[
 						[
 							"3rd",
-							"thunderous smite"
+							"{@spell thunderous smite}"
 						],
 						[
 							"5th",
-							"warding wind"
+							"{@spell warding wind|xge}"
 						],
 						[
 							"9th",
-							"lightning bolt"
+							"{@spell lightning bolt}"
 						],
 						[
 							"13th",
-							"storm sphere"
+							"{@spell storm sphere|xge}"
 						],
 						[
 							"17th",
-							"control winds"
+							"{@spell control winds|xge}"
 						]
 					]
 				}
@@ -1073,23 +1319,23 @@
 					"rows":[
 						[
 							"3rd",
-							"earth tremor"
+							"{@spell earth tremor}"
 						],
 						[
 							"5th",
-							"maximilian's earthen grasp"
+							"{@spell maximilian's earthen grasp|xge}"
 						],
 						[
 							"9th",
-							"erupting earth"
+							"{@spell erupting earth|xge}"
 						],
 						[
 							"13th",
-							"quaking swordburst (new spell)"
+							"{@spell quaking swordburst|fanatic66Swordmage|quaking swordburst (new spell)}"
 						],
 						[
 							"17th",
-							"transmute rock"
+							"{@spell transmute rock|xge}"
 						]
 					]
 				}
@@ -1121,23 +1367,23 @@
 					"rows":[
 						[
 							"3rd",
-							"searing smite"
+							"{@spell searing smite}"
 						],
 						[
 							"5th",
-							"scorching ray"
+							"{@spell scorching ray}"
 						],
 						[
 							"9th",
-							"flaming swordburst (new spell)"
+							"{@spell flaming swordburst|fanatic66Swordmage|flaming swordburst (new spell)}"
 						],
 						[
 							"13th",
-							"fiery charge (new spell)"
+							"{@spell fiery charge|fanatic66Swordmage|fiery charge (new spell)}"
 						],
 						[
 							"17th",
-							"immolation"
+							"{@spell immolation|xge}"
 						]
 					]
 				}
@@ -1169,23 +1415,23 @@
 					"rows":[
 						[
 							"3rd",
-							"armor of agathys"
+							"{@spell armor of agathys}"
 						],
 						[
 							"5th",
-							"misty step"
+							"{@spell misty step}"
 						],
 						[
 							"9th",
-							"tidal wave"
+							"{@spell tidal wave|xge}"
 						],
 						[
 							"13th",
-							"watery sphere"
+							"{@spell watery sphere|xge}"
 						],
 						[
 							"17th",
-							"maelstrom"
+							"{@spell maelstrom|xge}"
 						]
 					]
 				}
@@ -1201,7 +1447,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"Starting at 3rd level, you are an expert on the elemental planes. You can speak, read, and write Primordial. You have advantage on Intelligence (Investigation) checks to investigate elementals, as well as on Intelligence Checks to recall information about elementals and their planes of existence."
+				"Starting at 3rd level, you are an expert on the elemental planes. You can speak, read, and write {@language Primordial}. You have advantage on Intelligence (Investigation) checks to investigate elementals, as well as on Intelligence Checks to recall information about elementals and their planes of existence."
 			]
 		},
 		{
@@ -1226,7 +1472,7 @@
 					"type":"entries",
 					"name":"Earth",
 					"entries":[
-						"Your hit point maximum increases by a number equal to your swordmage level and increases by 1 again whenever you gain a level in this class. Whenever you make a Strength (athletics) check, you gain a bonus to the check equal to your Intelligence modifier (a minimum of 1)."
+						"Your hit point maximum increases by a number equal to your Swordmage level and increases by 1 again whenever you gain a level in this class. Whenever you make a Strength (Athletics) check, you gain a bonus to the check equal to your Intelligence modifier (a minimum of 1)."
 					]
 				},
 				{
@@ -1281,7 +1527,7 @@
 					"type":"entries",
 					"name":"Water",
 					"entries":[
-						"While your Aegis is active, when you hit a creature of a large or smaller size with a melee weapon attack, they must succeed on a Strength saving throw against your swordmage spell save DC or be knocked prone."
+						"While your Aegis is active, when you hit a creature of a large or smaller size with a melee weapon attack, they must succeed on a Strength saving throw against your swordmage spell save DC or be knocked {@condition prone}."
 					]
 				}
 			]
@@ -1301,7 +1547,7 @@
 					"type":"entries",
 					"name":"Air Aspect",
 					"entries":[
-						"You become a living storm. You gain a fly speed of 60 feet. As a bonus action, you can shoot a bolt of lightning at a creature within 60 feet of you. Make a spell attack roll against the creature. On a hit, the target takes 4d10 lightning damage and you can teleport to an unoccupied space adjacent to them."
+						"You become a living storm. You gain a fly speed of 60 feet. As a bonus action, you can shoot a bolt of lightning at a creature within 60 feet of you. Make a spell attack roll against the creature. On a hit, the target takes {@damage 4d10} lightning damage and you can teleport to an unoccupied space adjacent to them."
 					]
 				},
 				{
@@ -1315,14 +1561,14 @@
 					"type":"entries",
 					"name":"Fire Aspect",
 					"entries":[
-						"Your form becomes writhing flames. You gain resistance to fire damage, or immunity if you already have resistance. When you use Arcane Leap, the range is doubled and all creatures within 10 feet of your teleportation destination must a Dexterity saving throw against your spell save DC or take 4d10 fire damage. On a success, a creature takes half as much damage."
+						"Your form becomes writhing flames. You gain resistance to fire damage, or immunity if you already have resistance. When you use Arcane Leap, the range is doubled and all creatures within 10 feet of your teleportation destination must a Dexterity saving throw against your spell save DC or take {@damage 4d10} fire damage. On a success, a creature takes half as much damage."
 					]
 				},
 				{
 					"type":"entries",
 					"name":"Water Aspect",
 					"entries":[
-						"You assume a watery form that is difficult to pin down. You are constantly under the effects of the freedom of movement spell. When you take damage, you can use your reaction to reduce the damage by 4d8 and teleport 30 feet to an unoccupied space that you can see."
+						"You assume a watery form that is difficult to pin down. You are constantly under the effects of the {@spell freedom of movement} spell. When you take damage, you can use your reaction to reduce the damage by {@dice 4d8} and teleport 30 feet to an unoccupied space that you can see."
 					]
 				}
 			]
@@ -1376,23 +1622,23 @@
 					"rows":[
 						[
 							"3rd",
-							"false life"
+							"{@spell false life}"
 						],
 						[
 							"5th",
-							"hold person"
+							"{@spell hold person}"
 						],
 						[
 							"9th",
-							"vampiric touch"
+							"{@spell vampiric touch}"
 						],
 						[
 							"13th",
-							"bleeding blade (new spell)"
+							"{@spell bleeding blade|fanatic66Swordmage|bleeding blade (new spell)}"
 						],
 						[
 							"17th",
-							"hold monster"
+							"{@spell hold monster}"
 						]
 					]
 				}
@@ -1408,7 +1654,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"As a bonus action you can activate this Aegis to terrify your foes with dark magic. When you hit a creatue with a melee weapon attack, you can attempt to frighten the creature. The hit creature must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn. You can only frighten any creature in this way once per turn. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+				"As a bonus action you can activate this Aegis to terrify your foes with dark magic. When you hit a creatue with a melee weapon attack, you can attempt to frighten the creature. The hit creature must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn. You can only frighten any creature in this way once per turn. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
 			]
 		},
 		{
@@ -1434,7 +1680,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level, you can feel the flowing blood of nearby beings. As an action, you can open your awareness to detect living creatures. Until the end of your next turn, you know the location of any creature within 60 feet of you that is not behind total cover. You also know if a sensed creature is below its hit point maximum, or if the creature is diseased or poisoned. This feature does not work on undead or constructs.",
+				"At 3rd level, you can feel the flowing blood of nearby beings. As an action, you can open your awareness to detect living creatures. Until the end of your next turn, you know the location of any creature within 60 feet of you that is not behind total cover. You also know if a sensed creature is below its hit point maximum, or if the creature is diseased or {@condition poisoned}. This feature does not work on {@filter undead or constructs|bestiary|type=construct;undead}.",
 				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). When you finish a long rest, you regain all expended uses."
 			]
 		},
@@ -1448,7 +1694,7 @@
 			"level": 7,
 			"header":2,
 			"entries":[
-				"Starting at 7th level, your blood magic can temporarily control others. When you see a creature within 30 feet of you make an attack roll, skill check, or saving throw, you can use your reaction to impose disadvantage on the roll. This feature does not work on undead or constructs.",
+				"Starting at 7th level, your blood magic can temporarily control others. When you see a creature within 30 feet of you make an attack roll, skill check, or saving throw, you can use your reaction to impose disadvantage on the roll. This feature does not work on {@filter undead or constructs|bestiary|type=construct;undead}.",
 				"Once you use this feature, you can't use it again until after a short or long rest."
 			]
 		},
@@ -1476,7 +1722,7 @@
 			"level": 20,
 			"header":2,
 			"entries":[
-				"Beginning at 20th level, you unleash necromantic energy around yourself to drain life from your foes. As a bonus action or as part of your bonus action to activate your Aegis, you create a 15-foot aura around yourself that lasts for 1 minute. Any creature of your choosing that starts their turn inside your aura takes 4d8 necrotic damage. You regain hit points equal to half the damage taken.",
+				"Beginning at 20th level, you unleash necromantic energy around yourself to drain life from your foes. As a bonus action or as part of your bonus action to activate your Aegis, you create a 15-foot aura around yourself that lasts for 1 minute. Any creature of your choosing that starts their turn inside your aura takes {@damage 4d8} necrotic damage. You regain hit points equal to half the damage taken.",
 				"Once you use this feature, you can't use it again until after a long rest."
 			]
 		},
@@ -1529,23 +1775,23 @@
 					"rows":[
 						[
 							"3rd",
-							"disguise self"
+							"{@spell disguise self}"
 						],
 						[
 							"5th",
-							"mirror image"
+							"{@spell mirror image}"
 						],
 						[
 							"9th",
-							"enemies abound"
+							"{@spell enemies abound|xge}"
 						],
 						[
 							"13th",
-							"phantasmal killer"
+							"{@spell phantasmal killer}"
 						],
 						[
 							"17th",
-							"mislead"
+							"{@spell mislead}"
 						]
 					]
 				}
@@ -1561,7 +1807,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"As a bonus action you can activate this Aegis to become invisible until the end of your turn and use Arcane Leap. For the duration of this Aegis, whenever you use Arcane Leap, you can also become invisible until the end of your turn. The invisibility granted from your Aegis always ends early if you attack or cast a spell. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+				"As a bonus action you can activate this Aegis to become {@condition invisible} until the end of your turn and use Arcane Leap. For the duration of this Aegis, whenever you use Arcane Leap, you can also become invisible until the end of your turn. The invisibility granted from your Aegis always ends early if you attack or cast a spell. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
 			]
 		},
 		{
@@ -1587,7 +1833,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level, you are a master at trickery. You know the minor illusion cantrip and gain proficiency in either the Deception or Stealth skill."
+				"At 3rd level, you are a master at trickery. You know the {@spell minor illusion} cantrip and gain proficiency in either the Deception or Stealth skill."
 			]
 		},
 		{
@@ -1614,7 +1860,7 @@
 			"level": 15,
 			"header":2,
 			"entries":[
-				"Starting at 15th level, you escape from danger without anyone noticing. When you take damage, you can turn invisible and teleport up to a distance equal to your Arcane Leap to an unoccupied space that you can see. You leave behind an illusionary image of you. The image has an armor class equal to 13 plus your Intelligence modifier (minimum of 1) and is destroyed if damaged in anyway. The image and your invisibility last until the start of your next turn.",
+				"Starting at 15th level, you escape from danger without anyone noticing. When you take damage, you can turn {@condition invisible} and teleport up to a distance equal to your Arcane Leap to an unoccupied space that you can see. You leave behind an illusory image of you. The image has an armor class equal to 13 plus your Intelligence modifier (minimum of 1) and is destroyed if damaged in anyway. The image and your invisibility last until the start of your next turn.",
 				"Once you use this feature, you can't use it again until after a short or long rest."
 			]
 		},
@@ -1628,7 +1874,7 @@
 			"level": 20,
 			"header":2,
 			"entries":[
-				"At 20th level, you weave shadows together to create a near copy of yourself. You can use your action to create a shadowy duplicate of yourself as if you had cast the simulacrum spell. The duplicate follows the details listed in simulacrum, except it has shadowy versions of your equipment. The duplicate's AC is equal to 12 plus your Dexterity modifier. It has a shadowy weapon that matches the statistics of your Arcane Weapon. The duplicate cannot use Double Trouble on itself.",
+				"At 20th level, you weave shadows together to create a near copy of yourself. You can use your action to create a shadowy duplicate of yourself as if you had cast the {@spell simulacrum} spell. The duplicate follows the details listed in simulacrum, except it has shadowy versions of your equipment. The duplicate's AC is equal to 12 plus your Dexterity modifier. It has a shadowy weapon that matches the statistics of your Arcane Weapon. The duplicate cannot use Double Trouble on itself.",
 				"The shadowy duplicate fades away after 1 minute or once it falls to 0 hit points.",
 				"Once you use this feature, you can't use it again until after a long rest."
 			]
@@ -1682,23 +1928,23 @@
 					"rows":[
 						[
 							"3rd",
-							"ensnaring pull (new spell)"
+							"{@spell ensnaring pull|fanatic66Swordmage|ensnaring pull (new spell)}"
 						],
 						[
 							"5th",
-							"warding bond"
+							"{@spell warding bond}"
 						],
 						[
 							"9th",
-							"life transference"
+							"{@spell life transference|xge}"
 						],
 						[
 							"13th",
-							"dimensional vortex (new spell)"
+							"{@spell dimensional vortex|fanatic66Swordmage|dimensional vortex (new spell)}"
 						],
 						[
 							"17th",
-							"wall of force"
+							"{@spell wall of force}"
 						]
 					]
 				}
@@ -1714,7 +1960,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"As a bonus action you can activate this Aegis and choose yourself or a creature within 30 feet that you can see. The chosen creature gains the benefits of your Arcane Ward. For the duration of this Aegis, if you or another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by one roll of your Arcane Die plus half your Swordmage level (rounded down). Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+				"As a bonus action you can activate this Aegis and choose yourself or a creature within 30 feet that you can see. The chosen creature gains the benefits of your Arcane Ward. For the duration of this Aegis, if you or another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by one roll of your Arcane Die plus half your Swordmage level (rounded down). Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
 			]
 		},
 		{
@@ -1727,8 +1973,8 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level, your defensive training emphasizes sturdy protection and constant vigilance. You gain proficiency with heavy armor.",
-				"You can also mark an area under your protection. You can cast the alarm spell without expending a spell slot. You can use this feature a number of times equal to your Intelligence modifier (a minimum of 1). When you finish a long rest, you regain all expended uses."
+				"At 3rd level, your defensive training emphasizes sturdy protection and constant vigilance. You gain proficiency with {@filter items|category=basic|type=heavy armor}.",
+				"You can also mark an area under your protection. You can cast the {@spell alarm} spell without expending a spell slot. You can use this feature a number of times equal to your Intelligence modifier (a minimum of 1). When you finish a long rest, you regain all expended uses."
 			]
 		},
 		{
@@ -1781,7 +2027,7 @@
 			"header":2,
 			"entries":[
 				"When you reach 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you can emanate abjuration magic in a 30-foot aura. You and all friendly creatures in the aura have advantage on saving throws against spells and other magical effects, and gain resistance to spell damage.",
-				"Affected creatures also gain the temporary hit points from your Bulwarking Magic ability at the start of their turn. The aura ends after 1 minute or if you fall unconscious.",
+				"Affected creatures also gain the temporary hit points from your Bulwarking Magic ability at the start of their turn. The aura ends after 1 minute or if you fall {@condition unconscious}.",
 				"Once you use this feature, you can't use it again until after a long rest."
 			]
 		},
@@ -1834,23 +2080,23 @@
 					"rows":[
 						[
 							"3rd",
-							"detect evil and good"
+							"{@spell detect evil and good}"
 						],
 						[
 							"5th",
-							"detect thoughts"
+							"{@spell detect thoughts}"
 						],
 						[
 							"9th",
-							"counterspell"
+							"{@spell counterspell}"
 						],
 						[
 							"13th",
-							"banishment"
+							"{@spell banishment}"
 						],
 						[
 							"17th",
-							"scrying"
+							"{@spell scrying}"
 						]
 					]
 				}
@@ -1866,7 +2112,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"As a bonus action, you can activate this Aegis and then mark a creature within 60 feet of you that you can see. The first time each turn that you hit the marked target with a melee weapon attack, it takes an extra force damage equal to one roll of your Arcane Die. If your marked target uses a spell or magical effect against you that forces you to make a saving throw, you can use your reaction to give yourself advantage on the saving throw. As a bonus action, you can change marked target to another creature within 60 feet of you that you can see. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+				"As a bonus action, you can activate this Aegis and then mark a creature within 60 feet of you that you can see. The first time each turn that you hit the marked target with a melee weapon attack, it takes an extra force damage equal to one roll of your Arcane Die. If your marked target uses a spell or magical effect against you that forces you to make a saving throw, you can use your reaction to give yourself advantage on the saving throw. As a bonus action, you can change marked target to another creature within 60 feet of you that you can see. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
 			]
 		},
 		{
@@ -1892,7 +2138,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level, you can cast the detect magic spell without expending a spell slot.",
+				"At 3rd level, you can cast the {@spell detect magic} spell without expending a spell slot.",
 				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). When you finish a long rest, you regain all expended uses."
 			]
 		},
@@ -1920,7 +2166,7 @@
 			"level": 15,
 			"header":2,
 			"entries":[
-				"Starting at 15th level, as an action, you gain truesight up to a range of 60 feet for 10 minutes.",
+				"Starting at 15th level, as an action, you gain {@sense truesight} up to a range of 60 feet for 10 minutes.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -1987,23 +2233,23 @@
 					"rows":[
 						[
 							"3rd",
-							"magnify gravity"
+							"{@spell magnify gravity|egw}"
 						],
 						[
 							"5th",
-							"immovable object"
+							"{@spell immovable object|egw}"
 						],
 						[
 							"9th",
-							"melf's minute meteors"
+							"{@spell melf's minute meteors|xge}"
 						],
 						[
 							"13th",
-							"gravity sinkhole"
+							"{@spell gravity sinkhole|egw}"
 						],
 						[
 							"17th",
-							"destructive wave (radiant only)"
+							"{@spell destructive wave||destructive wave (radiant only)}"
 						]
 					]
 				}
@@ -2019,7 +2265,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"As a bonus action you can acti3vate this Aegis to infuse yourself with the strength and gravity of the stars. You immediately gain the benefits of your Arcane Ward. For the duration of this Aegis, when a creature within 30 feet of you that you can see moves, you can use your reaction to force the creature to make a Strength saving throw against your spell save DC. On a failure, the creature's speed drops to 0 for the rest of the turn. This stops any movement they may have been taking. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+				"As a bonus action you can activate this Aegis to infuse yourself with the strength and gravity of the stars. You immediately gain the benefits of your Arcane Ward. For the duration of this Aegis, when a creature within 30 feet of you that you can see moves, you can use your reaction to force the creature to make a Strength saving throw against your spell save DC. On a failure, the creature's speed drops to 0 for the rest of the turn. This stops any movement they may have been taking. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
 			]
 		},
 		{
@@ -2045,7 +2291,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level you manipulate your density to withstand more weight than normal. You gain proficiency with heavy armor and cartographer's tools. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+				"At 3rd level you manipulate your density to withstand more weight than normal. You gain proficiency with {@filter heavy armor|items|type=heavy armor|category=basic} and {@item cartographer's tools}. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 			]
 		},
 		{
@@ -2058,7 +2304,7 @@
 			"level": 7,
 			"header":2,
 			"entries":[
-				"Starting at 7th level, your magical powers of dunamancy let you exceed your physical limits. You gain proficiency in Strength saving throws. If you already have this proficiency, you instead gain proficiency in Dexterity saving throws. You also have advantage on Strength and Dexterity saving throws made against effects that would push you or knock you prone."
+				"Starting at 7th level, your magical powers of dunamancy let you exceed your physical limits. You gain proficiency in Strength saving throws. If you already have this proficiency, you instead gain proficiency in Dexterity saving throws. You also have advantage on Strength and Dexterity saving throws made against effects that would push you or knock you {@condition prone}."
 			]
 		},
 		{
@@ -2071,7 +2317,7 @@
 			"level": 15,
 			"header":2,
 			"entries":[
-				"At 15th level, you can teleport towards an area in a fiery explosion reminiscent of a meteor. As an action, you can teleport up to 120 feet to an unoccupied space you can see. Any creature within 20 feet of the space you teleport to must make a Strengh saving throw against your spell save DC. On a failure, a creature takes 4d6 fire damage and is knocked prone and blinded until the end of your next turn. On a success, a creature takes half as much damage and isn't knocked prone and blinded.",
+				"At 15th level, you can teleport towards an area in a fiery explosion reminiscent of a meteor. As an action, you can teleport up to 120 feet to an unoccupied space you can see. Any creature within 20 feet of the space you teleport to must make a Strengh saving throw against your spell save DC. On a failure, a creature takes {@damage 4d6} fire damage and is knocked {@condition prone} and {@condition blinded} until the end of your next turn. On a success, a creature takes half as much damage and isn't knocked prone and blinded.",
 				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -2085,9 +2331,1366 @@
 			"level": 20,
 			"header":2,
 			"entries":[
-				"Beginning at 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you create heavy gravitational pull in 30 feet aura centered on you for 1 minute. The area inside the aura is difficult terrain for everyone but you. Any creature of your choosing that starts their turn inside the aura must make a Strength saving throw. On a failure, the creature takes 4d6 bludgeoning damage and is pulled to an unoccupied space adjacent to you. On a success, the creature takes half damage and isn't pulled.",
+				"Beginning at 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you create heavy gravitational pull in 30 feet aura centered on you for 1 minute. The area inside the aura is difficult terrain for everyone but you. Any creature of your choosing that starts their turn inside the aura must make a Strength saving throw. On a failure, the creature takes {@damage 4d6} bludgeoning damage and is pulled to an unoccupied space adjacent to you. On a success, the creature takes half damage and isn't pulled.",
 				"Once you use this feature, you can't use it again until you finish a long rest"
 			]
+		}
+	],
+	"spell":[
+		 {
+			"name":"Freezing Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon becomes ice cold as you strike down your foe to cover them with frost. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and they subtract a d4 from their next attack roll.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"cold"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Mind Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "E",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon becomes empowered with deadly psychic force. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and they subtract a {@dice d4} from their next saving throw.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} psychic damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"psychic"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Mountain Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "T",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your body and blade become strengthened by the earth. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and if the creature is of a large or smaller size, you can push the creature back 5 feet.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} bludgeoning damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"bludgeoning"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Protective Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "A",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"When you strike a foe, you surround them with magic that lashes out if they attack your allies. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in abjuring energy until the start of your next turn. If the target willingly attacks a creature other than you before then, it immediately takes {@damage 1d8} force damage, and the spell ends.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} force damage to the target, and the damage the target takes for attacking another creature increases to {@dice 2d8}. Both damage rolls increase by {@dice 1d8} at 11th level and 17th level."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Vampiric Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon radiates necrotic energy as you steal lifeforce from your enemy. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and you gain temporary hit points equal to your spellcasting modifier. The temporary hit points disappear at the start of your next turn.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} necrotic damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Corrosive Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 10
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You slam your blade into the ground and burning acid bursts forth around you. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 3d4} acid damage and another {@damage 1d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.",
+				"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@damage 2d4} and the secondary damage also increases by {@damage 1d4} for each slot level above 1st."
+			],
+			"damageInflict":[
+				"acid"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Ensnaring Pull",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"You pull a distant foe through dimensional space to be struck by your blade. As an action, choose a creature within 30 feet of you and they must succeed a Charisma saving throw. If they fail, you teleport the creature to an unoccupied space adjacent to you, and you can make one melee weapon attack against it. The spell fails if there is no unoccupied space adjacent to you or if you teleport the creature to a space not on the ground or not on a floor.",
+				"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. You make one melee weapon attack against each creature you pull in."
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Predictive Strike",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "D",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You briefly glimpse into the future to see how your foe will react before they do. You have advantage on weapon attack rolls until this spell ends. If you hit, the attack deals an additional {@damage 1d6} force damage and the spell ends."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Venomous Strike",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true	
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, you coat your weapon with toxic poison, and the attack deals an extra {@damage 1d6} poison damage to the target. Additionally, the target must succeed on a Constitution saving throw or be {@condition poisoned} until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"poison"
+			],
+			"conditionInflict":[
+				"poisoned"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Electrifying Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 10
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"Empowering your blade with crackling electricity, you hold your weapon aloft as lightning strikes out at your surrounding foes. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 3d8} lightning damage and it can't take reactions until the start of its next turn. On a successful save, the creature takes half as much damage and can take reactions. The creature has disadvantage on the saving throw if they are wearing armor made of metal.",
+				"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d8} for each slot level above 2nd."
+			],
+			"damageInflict":[
+				"lightning"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Far Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You create a temporary portal next to a distant foe to strike at them with your blade. Choose a creature within 60 feet of you and you can make one melee attack against them. The attack deals an extra {@damage 2d6} force damage to the target.",
+				"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d6} and the range increases by 15 feet for each slot level above 2nd."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Isolating Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with dimensional power, and the attack deals an extra 2d6 force damage to the target. Additionally, the target must succeed on a Charisma saving throw or be teleported to an unoccupied space up to 30 feet away from you. That space must be on the ground or on a floor."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Withering Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with life draining energy, and the attack deals an extra {@damage 2d6} necrotic damage to the target. Additionally, the target must succeed on a Constitution saving throw or the target deals only half damage with weapon attacks that use Strength until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Blade Storm",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"cone",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You swing your weapon creating magical duplicates that strike at all foes. Each creature you choose within the area must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one.",
+				"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"N"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Dimensional Retaliation",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You teleport to an unoccupied space within 5 feet of the creature that attacked you. You can then make one melee weapon attack against the creature. On a hit, the attack deals an additional {@damage 3d8} force damage."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Flaming Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 20
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"Raging fire bursts from your blade to engulf your foes in an inferno. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 4d8} fire damage and is burning. On a successful save, a creature takes half the damage and isn't burning. A creature that is burning takes {@damage 2d8} fire damage at the start of its turns. A creature can end the burning by using its action to pat out the flames.",
+				"When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@damage 1d8} for each slot level above 3rd."
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Frigid Strike",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon chills with elemental frost, and the attack deals an extra {@damage 3d8} cold damage to the target. Additionally, the target must succeed on a Constitution saving throw or be restrained until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"cold"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Bleeding Blade",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon darkens with necrotic power, and the attack deals an extra {@damage 4d8} necrotic damage to the target. Additionally, the target must succeed on a Constitution saving throw or be wounded for the spell's duration. While wounded, hit points lost to this spell can be regained only through a Short or Long Rest, rather than by regeneration, magic, or any other means.",
+				"At the end of each of its turns, the target repeats the saving throw. It takes {@damage 2d8} necrotic damage on a failed save, and the spell ends on a successful one."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Dimensional Vortex",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition":"which you take when you see a creature within 60 feet of you attack you or a friendly creature"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You interrupt a creature's attack by warping space with your blade, causing your foe to appear a short distance away and unleash its attack elsewhere. The creature must succeed a Charisma saving throw or be teleported to an unoccupied space up to 60 feet away from their original location. That space must be on the ground or on a floor. The creature then makes their attack against another creature of your choosing within range. If there is no creature within range, the attack is expended."
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Fiery Charge",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 120
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You hurl your blade and it transforms into a line of roaring fire 5 feet wide that extends out from you to a creature within range. Each creature in the line excluding you and the target must make a Dexterity saving throw, taking {@damage 4d8} fire damage on a failed save, and half as much damage on a successful one. You then teleport to an unoccupied square within 5 feet of the target. The roaring flames transform back into your weapon and returns to your hand. You can then make one melee weapon attack against the target. On a hit, you deal an extra {@damage 4d8} fire damage.",
+				"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot above 4th."
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"L"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Quaking Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You slam your weapon into the ground and seismic energy erupts from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. The area inside the aura is difficult terrain to everyone except you.",
+				"When the aura appears, each creature of your choice that is within the aura's area must succeed on a Dexterity saving throw or be knocked {@condition prone}. Each creature of your choice that starts their turn in the aura must also make the same Dexterity saving throw."
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"conditionInflict":[
+				"prone"
+			],
+			"areaTags":[
+				"R"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Nightmare Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "E",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"A powerful wave of terrifying visions burst from your blade as your foes see you as their worst nightmare. Each creature you choose within the area must make a Wisdom saving throw. On a failed save, the creature takes {@damage 6d8} psychic damage and is {@condition frightened} of you for the spell's duration. On a successful save, a creature takes half the damage and isn't frightened.",
+				"At the end of each of its turns, a frightened creature repeats the saving throw and the creature is no longer frightened on a successful save."
+			],
+			"damageInflict":[
+				"psychic"
+			],
+			"conditionInflict":[
+				"frightened"
+			],
+			"savingThrow":[
+				"wisdom"
+			],
+			"areaTags":[
+				"MT",
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Prismatic Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"Your blade shimmers in multicolor light that entails destruction for your foes. Each time you hit a creature with a weapon attack before this spell ends, roll a {@dice d8} to determine which color affects it.",
+				{
+					"type":"table",
+					"colLabels":[
+						"{@dice d8}",
+						"Color",
+						"Effect"
+					],
+					"colStyles":[
+						"col-1 text-center",
+						"col-1",
+						"col-13"
+					],
+					"rows":[
+						[
+							"1",
+							"Red",
+							"The creature takes an additional {@damage 4d6} fire damage."
+						],
+						[
+							"2",
+							"Orange",
+							"The creature takes an additional {@damage 4d6} acid damage."
+						],
+						[
+							"3",
+							"Yellow",
+							"The creature takes an additional {@damage 4d6} lightning damage."
+						],
+						[
+							"4",
+							"Green",
+							"The creature takes an additional {@damage 4d6} poison damage."
+						],
+						[
+							"5",
+							"Blue",
+							"The creature takes an additional {@damage 4d6} cold damage."
+						],
+						[
+							"6",
+							"Indigo",
+							"The creature must make a Constistution saving throw or be {@condition restrained} until the end of your next turn."
+						],
+						[
+							"7",
+							"Purple",
+							"The creature must make a Constitution saving throw be {@condition blinded} until the end of your next turn."
+						],
+						[
+							"8",
+							"{@i Special}",
+							"The creature is affected by two colors. Roll twice more, rerolling any 8."
+						]
+					]
+				}
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"conditionInflict":[
+				"restrained",
+				"blinded"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Shocking Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, you energize your blade with crackling electricity, and the attack deals an extra {@damage 5d10} lightning damage. Additionally, the creature must make a Constitution saving throw or be {@condition stunned} for the spell's duration.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"lightning"
+			],
+			"conditionInflict":[
+				"stunned"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Time Warp Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "T",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You warp time around your blade to speed yourself up and catch glimpses of the immediate future. For the spell's duration, you have advantage on attack rolls, ability checks, and saving throws, but not advantage on Constitution saving throws to maintain concentration of this spell. Additionally, other creatures have disadvantage on attack rolls against you for the duration."
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
 		}
 	]
 }
