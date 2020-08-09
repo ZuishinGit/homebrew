@@ -334,88 +334,109 @@
 	        	{
 	        		"colLabels":[
 	        			"Arcane Die",
-	        			"{@filter Cantrips Known|spells|level=0|class=Swordmage (SAHC)}"
+	        			"{@filter Cantrips Known|spells|level=0|class=Swordmage (SAHC)}",
+	        			"Spells Known"
 	        		],
 	        		"rows":[
 	        			[
 	        				"\u2014",
+	        				"2",
 	        				"2"
 	        			],
 	        			[
 	        				"{@dice 1d4}",
-	        				"2"
+	        				"2",
+	        				"3"
 	        			],
 	        			[
 	        				"{@dice 1d4}",
-	        				"2"
+	        				"2",
+	        				"4"
 	        			],
 	        			[
 	        				"{@dice 1d4}",
-	        				"2"
+	        				"2",
+	        				"4"
 	        			],
 	        			[
 	        				"{@dice 1d4}",
-	        				"2"
+	        				"2",
+	        				"5"
 	        			],
 	        			[
 	        				"{@dice 1d6}",
-	        				"2"
+	        				"2",
+	        				"5"
 	        			],
 	        			[
 	        				"{@dice 1d6}",
-	        				"2"
+	        				"2",
+	        				"6"
 	        			],
 	        			[
 	        				"{@dice 1d6}",
-	        				"2"
+	        				"2",
+	        				"6"
 	        			],
 	        			[
 	        				"{@dice 1d6}",
-	        				"2"
+	        				"2",
+	        				"7"
 	        			],
 	        			[
 	        				"{@dice 1d6}",
-	        				"3"
+	        				"3",
+	        				"7"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"3"
+	        				"3",
+	        				"8"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"3"
+	        				"3",
+	        				"8"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"3"
+	        				"3",
+	        				"9"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"4"
+	        				"4",
+	        				"9"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"4"
+	        				"4",
+	        				"10"
 	        			],
 	        			[
 	        				"{@dice 1d8}",
-	        				"4"
+	        				"4",
+	        				"10"
 	        			],
 	        			[
 	        				"{@dice 1d10}",
-	        				"4"
+	        				"4",
+	        				"11"
 	        			],
 	        			[
 	        				"{@dice 1d10}",
-	        				"4"
+	        				"4",
+	        				"11"
 	        			],
 	        			[
 	        				"{@dice 1d10}",
-	        				"4"
+	        				"4",
+	        				"12"
 	        			],
 	        			[
 	        				"{@dice 1d10}",
-	        				"4"
+	        				"4",
+	        				"12"
 	        			]
 	        		]
 	        	},
@@ -1973,7 +1994,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level, your defensive training emphasizes sturdy protection and constant vigilance. You gain proficiency with {@filter items|category=basic|type=heavy armor}.",
+				"At 3rd level, your defensive training emphasizes sturdy protection and constant vigilance. You gain proficiency with {@filter heavy armor|items|category=basic|type=heavy armor}.",
 				"You can also mark an area under your protection. You can cast the {@spell alarm} spell without expending a spell slot. You can use this feature a number of times equal to your Intelligence modifier (a minimum of 1). When you finish a long rest, you regain all expended uses."
 			]
 		},
@@ -2291,7 +2312,7 @@
 			"level": 3,
 			"header":1,
 			"entries":[
-				"At 3rd level you manipulate your density to withstand more weight than normal. You gain proficiency with {@filter heavy armor|items|type=heavy armor|category=basic} and {@item cartographer's tools}. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+				"At 3rd level you manipulate your density to withstand more weight than normal. You gain proficiency with {@filter heavy armor|items|type=heavy armor|category=basic} and {@item cartographer's tools|phb}. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 			]
 		},
 		{
