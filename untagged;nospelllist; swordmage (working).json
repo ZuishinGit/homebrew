@@ -3083,7 +3083,8 @@
 			"time":[
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "reaction",
+					"condition":"which you take when you see a creature within 60 feet of you attack you or a friendly creature"
 				}
 			],
 			"range":{
