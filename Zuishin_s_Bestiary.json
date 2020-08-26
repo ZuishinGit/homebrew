@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1592947238,
-		"dateLastModified": 1592947238
+		"dateAdded": 1598457254,
+		"dateLastModified": 1598457254
 	},
 	"monster": [
 		{
@@ -1732,6 +1732,324 @@
 			],
 			"miscTags": [
 				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Duergar Assassin",
+			"shortName": "Assassin",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+6",
+				"wis": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"deception": "+4",
+				"perception": "+3",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Dwarvish",
+				"Undercommon",
+				"Thieves' cant"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The assassin deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Duergar Resilience",
+					"entries": [
+						"The assassin has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the assassin has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two melee attacks. It can replace one of those attacks with a use of Mind Mastery."
+					]
+				},
+				{
+					"name": "Mind-Poison Dagger",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 14} Intelligence saving throw, taking 24 ({@damage 7d6}) psychic damage on a failed save or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Mind-Poison Dagger (Reduced)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}1 piercing damage, and the target must make a {@dc 14} Intelligence saving throw, taking 28 ({@damage 8d6}) psychic damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Mind Mastery",
+					"entries": [
+						"The assassin targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 14} Intelligence saving throw, or the assassin causes it to use its reaction either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be {@condition charmed} are immune to this effect."
+					]
+				},
+				{
+					"name": "Invisibility {@recharge 4}",
+					"entries": [
+						"The assassin magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Reduce, or its concentration is broken (as if concentrating on a spell). Any equipment the assassin wears or carries is {@condition invisible} with it."
+					]
+				},
+				{
+					"name": "Reduce (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the assassin magically decreases in size, along with anything it is wearing or carrying. While reduced, the assassin is Tiny, reduces its weapon damage to 1, and makes melee attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity (Stealth) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action."
+					]
+				}
+			],
+			"tokenUrl": "https://noads.5e.tools/img/SanSa/Assassin.png?v=1.110.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/assassin.mp3?v=1.110.1"
+			},
+			"altArt": [
+				{
+					"name": "Vistana Assassin",
+					"source": "CoS"
+				}
+			],
+			"traitTags": [
+				"Sneak Attack",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"D",
+				"TC",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Sorcerer",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 17,
+			"save": {
+				"con": "+5",
+				"cha": "+7"
+			},
+			"skill": {
+				"deception": "+7",
+				"arcana": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The sorcerer is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The sorcerer has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|xge}",
+								"{@spell mage armor}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell ice storm}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell hold monster}",
+								"{@spell cone of cold}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell investiture of ice|xge}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Metamagic (4/Day)",
+					"entries": [
+						"When the sorcerer casts a spell, it can choose to alter the casting of the spell in one of the following ways:",
+						"\"Cause one targets of the spell to have disadvantage on their first saving throw to resist the spell\"",
+						"\"Cause the casting time of the spell to be a bonus action, rather than an action\"",
+						"\"Cause up to 3 creatures to automatically succeed the saving throw caused by the spell\""
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenUrl": "https://noads.5e.tools/img/SanSa/Evoker.png?v=1.110.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/evoker.mp3?v=1.110.1"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
 				"MW"
 			]
 		}
