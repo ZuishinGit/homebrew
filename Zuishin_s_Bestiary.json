@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1598457254,
-		"dateLastModified": 1598457254
+		"dateAdded": 1599354481,
+		"dateLastModified": 1599354481
 	},
 	"monster": [
 		{
@@ -1775,21 +1775,21 @@
 			"wis": 10,
 			"cha": 12,
 			"save": {
-				"dex": "+7",
-				"int": "+6",
-				"wis": "+3"
+				"dex": "+8",
+				"int": "+7",
+				"wis": "+4"
 			},
 			"skill": {
-				"acrobatics": "+7",
-				"deception": "+4",
-				"perception": "+3",
-				"stealth": "+10"
+				"acrobatics": "+8",
+				"deception": "+5",
+				"perception": "+4",
+				"stealth": "+12"
 			},
 			"senses": [
 				"darkvision 120 ft.",
 				"truesight 30 ft."
 			],
-			"passive": 13,
+			"passive": 14,
 			"resist": [
 				"poison"
 			],
@@ -1798,7 +1798,7 @@
 				"Undercommon",
 				"Thieves' cant"
 			],
-			"cr": "8",
+			"cr": "9",
 			"trait": [
 				{
 					"name": "Assassinate",
@@ -2051,6 +2051,531 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Duergar Master Thief",
+			"shortName": "thief",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 83,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+3",
+				"perception": "+3",
+				"sleight of hand": "+7",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Undercommon",
+				"Dwarvish",
+				"Thieves' cant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The thief deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't {@condition incapacitated} and the thief doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Duergar Resilience",
+					"entries": [
+						"The thief has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the thief has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thief makes three attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Reduce (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the duergar magically decreases in size, along with anything it is wearing or carrying. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity ({@skill Stealth}) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action."
+					]
+				},
+				{
+					"name": "Invisibility {@recharge 4}",
+					"entries": [
+						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Reduce, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenUrl": "https://noads.5e.tools/img/ZB/Master Thief.png?v=1.110.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/master-thief.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Sneak Attack",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"D",
+				"TC",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Infant Duru",
+			"shortName": "duru",
+			"source": "ZuishinsBestiary",
+			"size": "S",
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d6 + 3",
+				"average": 13
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 12,
+			"int": 12,
+			"wis": 15,
+			"cha": 15,
+			"skill": {
+				"insight": "+4",
+				"perception": "+4",
+				"religion": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"telepathy 120 ft."
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The duru's innate spellcasting ability is Charisma (spell save {@dc 12}). It can cast the following spells, requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell thaumaturgy}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The duru has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Horned Guide (1/Day)",
+					"entries": [
+						"The duru can grant a creature that touches its horn the ability to cast the {@spell augury} spell once without expending a spell slot or material components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hoof",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The duru magically turns {@condition invisible} until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the duru wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"In secret groves and shaded glens, tiny sprites with dragonfly wings flutter. For all their fey splendor, however, sprites lack warmth and compassion. They are aggressive and hardy warriors, taking severe measures to ward strangers away from their homes. Interlopers that come too close have their moral character judged, then are put to sleep or frightened off.",
+									{
+										"name": "Forest Protectors",
+										"type": "entries",
+										"entries": [
+											"Sprites build little villages in the boughs of trees and willing treants, in verdant glades brightened by moss, wild flowers, and toadstools. Wild nature thrives, and the sprites allow no trespassers. When intruders are spotted, the sprites lead them astray with ominous rustling from the bushes and distant snapping twigs. Creatures foolish enough to persist in intruding on a sprite's territory are stung with poisoned arrows and lulled into a senseless sleep. While they slumber, the sprites make good their escape, retreating to an even more secluded area of the forest."
+										]
+									},
+									{
+										"name": "Heart Seers",
+										"type": "entries",
+										"entries": [
+											"Sprites can sense whether a creature is good or evil by the sound and feeling of its beating heart. Weighing the balance of a creature's past actions, a sprite can tell whether its heart beats rapidly in love or flags in sorrow, or whether it is darkened by hate or greed. The sprite's power to perceive the heart always shows the truth, because the heart can't lie."
+										]
+									},
+									{
+										"name": "Poison Brewers",
+										"type": "entries",
+										"entries": [
+											"In their forest domains, sprites brew toxins, unguents, antidotes, and poisons, including the sleep poison with which they coat their arrows. They venture far into the woods to harvest rare flowers, mosses, and fungi, sometimes crossing dangerous territory to do so. If desperate, sprites even steal their ingredients from the gardens of hags.",
+											{
+												"name": "Good-Hearted",
+												"entries": [
+													" Because they are judges of the heart and favor good creatures, sprites oppose the will of evil fey and pledge to thwart evil archfey at every turn. If they encounter adventurers on a quest to rid their forest of an evil fey creature or goblinoid menace, they will pledge their support and even come to their aid when the adventurers least expect it.",
+													"Unlike pixies, sprites rarely indulge in frivolous merriment and fun. They are firm warriors, protectors, and judges, and their stern bent causes other fey to consider them overly dour and serious. However, fey that respect the sprites' territory find them staunch allies in times of trouble."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e5/War_mage-5e.jpg/revision/latest?cb=20190923043948"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/eIY3ReI.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"CE",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Mind Fisher",
+			"source": "ZuishinsBestiary",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 40",
+				"average": 76
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 20,
+			"int": 17,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"stealth": "+6",
+				"perception": "+7",
+				"arcana": "+9"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"vulnerable": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"languages": [
+				"Abyssal",
+				"Deep Speech",
+				"Undercommon",
+				"telepathy 100 ft."
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The brain fisher's innate spellcasting ability is Intelligence (spell save starts at {@dc 15}, subtracting 1 for every brain blister that has been destroyed). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell time stop} (1 turn)"
+						],
+						"3e": [
+							"{@spell haste} (self only)",
+							"{@spell mirror image}",
+							"{@spell slow}"
+						]
+					},
+					"will": [
+						"{@spell detect thoughts}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The brain fisher can breathe air and water."
+					]
+				},
+				{
+					"name": "Detect Sentience",
+					"entries": [
+						"The brain fisher can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The brain fisher has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Brain Blisters",
+					"entries": [
+						"The brain fisher has five brain blisters on its back that it uses to house stolen brains. Whenever the brain fisher takes 20 damage or more in a single turn, one of the brain blisters is destroyed. For every brain missing, the brain fisher suffers one point of {@condition exhaustion}.",
+						"As a bonus action, the brain fisher can draw on the vigor of the brains, regaining {@dice 1d4} hit points for every brain blister that remains intact. If the mind fisher takes psychic damage, then this bonus action can't be used until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mind Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 4}) piercing damage plus 17 ({@damage 3d10}) psychic damage, and if the target has a brain, it must succeed on a {@dc 15} Intelligence saving throw against this magic or be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+					]
+				},
+				{
+					"name": "Steal Brain",
+					"entries": [
+						"The mind fisher initiates an Intelligence contest with an {@condition incapacitated} humanoid within 5 feet of it that isn't protected by {@spell protection from evil and good}. If it wins the contest, the mind fisher magically consumes the target's brain, and a new brain blister is grown on its back. "
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) slashing damage, and the target is {@condition grappled} (escape {@dc 12})."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"fluff": {
+				"entries": [
+					"This aberrant crustacean lurks beneath shallow waters, awaiting an opportunity to drown and consume a victim's brain. It uses illusory psionics in combination with its telepathy to lure would-be heroes to their mournful end. There have been rare cases of a humanoid's brain taking over the mind fisher's body and exercising their free will over it.",
+					"The mind fisher often adopts the traits of the humanoids that had their brains consumed and placed in the brain blisters. This gives rise to some cognitive dissonance in the mind fisher, making it easily confused and particularly vulnerable to psychic damage."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.L3Ot6Y6pIJrKlI3IJgt8gQHaFu%26pid%3DApi&f=1"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Giant Crab.png?v=1.110.4",
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"stunned"
 			]
 		}
 	]
