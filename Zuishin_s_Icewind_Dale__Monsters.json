@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1609168630,
-		"dateLastModified": 1609168630
+		"dateAdded": 1609173138,
+		"dateLastModified": 1609173138
 	},
 	"monster": [
 		{
@@ -1316,217 +1316,6 @@
 			]
 		},
 		{
-			"name": "Xvart Envoy of Raxivort",
-			"shortName": "xvart",
-			"source": "ZIDM",
-			"size": "S",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"xvart"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				12,
-				{
-					"ac": 15,
-					"condition": "with {@spell mage armor}",
-					"braces": true
-				}
-			],
-			"hp": {
-				"formula": "11d8 + 11",
-				"average": 60
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 9,
-			"dex": 14,
-			"con": 12,
-			"int": 9,
-			"wis": 11,
-			"cha": 18,
-			"save": {
-				"wis": "+2",
-				"cha": "+6"
-			},
-			"skill": {
-				"arcana": "+1",
-				"deception": "+6",
-				"nature": "+1",
-				"persuasion": "+6"
-			},
-			"senses": [
-				"darkvision 30 ft."
-			],
-			"passive": 10,
-			"conditionImmune": [
-				"charmed"
-			],
-			"languages": [
-				"Abyssal",
-				"Undercommon"
-			],
-			"cr": "4",
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The xvart's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 14}), requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell jump}",
-						"{@spell levitate}",
-						"{@spell mage armor} (self only)",
-						"{@spell speak with dead}"
-					],
-					"daily": {
-						"1e": [
-							"{@spell arcane eye}",
-							"{@spell true seeing}"
-						]
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				},
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"The xvart is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell chill touch}",
-								"{@spell eldritch blast}",
-								"{@spell guidance}",
-								"{@spell mage hand}",
-								"{@spell minor illusion}",
-								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
-							]
-						},
-						"5": {
-							"spells": [
-								"{@spell armor of Agathys}",
-								"{@spell arms of Hadar}",
-								"{@spell clairvoyance}",
-								"{@spell contact other plane}",
-								"{@spell crown of madness}",
-								"{@spell detect thoughts}",
-								"{@spell dimension door}",
-								"{@spell dissonant whispers}",
-								"{@spell dominate beast}",
-								"{@spell telekinesis}",
-								"{@spell vampiric touch}"
-							],
-							"slots": 3,
-							"lower": 1
-						}
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
-			"trait": [
-				{
-					"name": "Low Cunning",
-					"entries": [
-						"The xvart can take the {@action Disengage} action as a bonus action on each of its turns."
-					]
-				},
-				{
-					"name": "Overbearing Pack",
-					"entries": [
-						"The xvart has advantage on {@skill Athletics|Strength (Athletics)} checks to {@action shove} a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
-					]
-				},
-				{
-					"name": "Raxivort's Tongue",
-					"entries": [
-						"The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
-					]
-				},
-				{
-					"name": "Whispering Aura",
-					"entries": [
-						"At the start of each of the xvart's turns, each creature of its choice within 5 feet of it must succeed on a {@dc 14} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage, provided that the xvart isn't {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Scimitar",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
-					]
-				},
-				{
-					"name": "Eldritch Blast",
-					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 60 ft., up to three targets. {@h}5 ({@damage 1d10}) force damage."
-					]
-				}
-			],
-			"fluff": {
-				"name": "Booyahg Slave of the Archfey",
-				"source": "VGM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"This goblin warlock serves a patron who can extract payment in flesh if the goblin doesn't do as promised. Often this patron is a coven of hags serving as the tribe's boss, a fiend that has made its way into the world, or an undying lord such as a lich or a vampire. (For more information on undying lord patrons, see the {@book Sword Coast Adventurer's Guide|SCAG})."
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Booyahgs",
-						"entries": [
-							"Spellcasters of any sort among the goblins are rare. Goblins typically lack the intelligence and patience needed to learn and practice wizardry, and they fare poorly even when given access to the necessary training and knowledge. Sorcerers are less prevalent among them than in many other races, and Khurgorbaeyag seems to dislike sharing his divine power with his followers. And although many goblins would readily offer anything to have the abilities of a warlock, the patrons that grant such power know a goblin is unlikely to be able to uphold its end of any bargain.",
-							"Even when a goblin is born with the ability to become a spellcaster, the knowledge and talent necessary to carry on the tradition rarely persists for more than a couple of generations. Because they have so little experience with magic, goblins make no distinction between its forms. To them all magic is \"booyahg,\" and the word is part of the name they give to any of its practitioners.",
-							"A goblin with access to booyahg becomes a member of the lashers and can often rise to the role of boss."
-						]
-					}
-				]
-			},
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"AB",
-				"U"
-			],
-			"damageTags": [
-				"O",
-				"S",
-				"Y"
-			],
-			"spellcastingTags": [
-				"CL",
-				"I"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflictSpell": [
-				"charmed",
-				"frightened",
-				"paralyzed",
-				"unconscious"
-			]
-		},
-		{
 			"name": "Xvart Illusionist",
 			"shortName": "illusionist",
 			"source": "ZIDM",
@@ -1670,8 +1459,6 @@
 				"urban"
 			],
 			"fluff": {
-				"name": "Illusionist",
-				"source": "VGM",
 				"entries": [
 					{
 						"type": "entries",
@@ -1682,7 +1469,51 @@
 									{
 										"type": "entries",
 										"entries": [
-											"Illusionists are specialist wizards who twist light, sound, shadow, and even minds to create false and quasi-real effects. They can be flamboyant and use their powers in spectacular and obvious ways, or quiet and subtle, using their magic to conceal the truth."
+											"Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.",
+											"Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.",
+											{
+												"name": "Raxivort's Betrayal",
+												"entries": [
+													" All xvarts are the degenerate offspring of an entity named Raxivort, who once served Graz'zt the Dark Prince as treasurer. Raxivort spent long centuries watching over the treasury, and in time he grew to lust after his master's riches. In one bold move, he plundered a treasure vault and fled to the Material Plane. One of the treasures he stole was the Infinity Spindle, a crystalline shard from the early days of the multiverse that could transform even a creature as low as Raxivort into a demigod.",
+													"After he ascended to godhood, Raxivort forged a realm called the Black Sewers, within Pandesmos, the topmost layer of Pandemonium. He enjoyed his divine ascension only briefly, though, before Graz'zt unleashed his vengeance. The demon prince had no need to regain the Infinity Spindle, since he already possessed power greater than what it could grant. Instead, he dispatched agents far and wide to spread news of what the spindle could do and the puny, pathetic creature that claimed its ownership. Soon enough, Raxivort was pursued by a variety of enemies, all eager to claim the Spindle as their own.",
+													"In the face of his imminent destruction, Raxivort hatched a plan. Fleeing to the Material Plane, he wandered across a variety of worlds and spawned creatures that were his exact duplicate. These are the xvarts, creatures that not only look identical to Raxivort in appearance but also foil any magic used to track him down. Spells, rituals, and other effects that could reveal Raxivort's location instead point to the nearest xvart.",
+													"Although the initial rush of enemies against him has subsided, Raxivort knows that the planar powers are patient. He remains in hiding, a wretch of a demigod who does little more than wander the planes, spawning ever more xvarts to ensure his continued safety.",
+													"When things go badly for them, they kidnap whoever's handy and sacrifice them to their craven god. Hmm. I guess they're not so different from a lot of humans, after all.",
+													"-Volo",
+													"Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.",
+													"Xvart Speakers",
+													"A xvart tribe has one speaker that serves as its leader. The speaker has the statistics of a normal xvart, except that it has an Intelligence of 13 (+1) and knows one additional language (usually Common or Goblin)."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Greedy Thugs",
+												"entries": [
+													" Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vermin Masters",
+												"entries": [
+													" Rats and bats (including giant-sized specimens) are naturally attracted to xvarts, and xvarts domesticate such beasts for food and battle. Xvarts also form alliances with wererats, although the lycanthropes are dominant in any such arrangement. This relationship traces back to Raxivort's divine nature. Even though the xvarts inherited Raxivort's greed and cowardice, they also gained his ability to form bonds with such creatures."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Xvart Warlocks",
+												"entries": [
+													" A xvart can forge a pact with Raxivort by stealing an item of such great value that the demigod himself appears before the xvart to claim it. After surrendering the item to Raxivort, the xvart asks for magical power so that it can find and deliver more great treasures into Raxivort's custody. If the demigod feels so inclined, he imbues the xvart with greater wisdom and charisma and grants it the spellcasting abilities of a warlock before returning to the howling chaos of"
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Pandemonium",
+												"entries": [
+													" Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow."
+												],
+												"type": "entries"
+											}
 										]
 									}
 								]
@@ -1691,7 +1522,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/VGM/Illusionist.png?v=1.118.0",
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Xvart.png?v=1.118.0",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/illusionist.mp3?v=1.118.0"
@@ -1720,6 +1551,7 @@
 		},
 		{
 			"name": "Flumph Soldier",
+			"shortName": "flumph",
 			"source": "ZIDM",
 			"size": "S",
 			"type": "aberration",
@@ -1881,7 +1713,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"xvart"
 				]
 			},
 			"alignment": [
@@ -1916,7 +1748,8 @@
 			},
 			"passive": 12,
 			"languages": [
-				"any two languages"
+				"Abyssal",
+				"Undercommon"
 			],
 			"cr": "1",
 			"trait": [
@@ -1972,8 +1805,6 @@
 				}
 			],
 			"fluff": {
-				"name": "Spy",
-				"source": "MM",
 				"entries": [
 					{
 						"type": "entries",
@@ -1981,14 +1812,63 @@
 							{
 								"type": "entries",
 								"entries": [
-									"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+									{
+										"type": "entries",
+										"entries": [
+											"Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.",
+											"Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.",
+											{
+												"name": "Raxivort's Betrayal",
+												"entries": [
+													" All xvarts are the degenerate offspring of an entity named Raxivort, who once served Graz'zt the Dark Prince as treasurer. Raxivort spent long centuries watching over the treasury, and in time he grew to lust after his master's riches. In one bold move, he plundered a treasure vault and fled to the Material Plane. One of the treasures he stole was the Infinity Spindle, a crystalline shard from the early days of the multiverse that could transform even a creature as low as Raxivort into a demigod.",
+													"After he ascended to godhood, Raxivort forged a realm called the Black Sewers, within Pandesmos, the topmost layer of Pandemonium. He enjoyed his divine ascension only briefly, though, before Graz'zt unleashed his vengeance. The demon prince had no need to regain the Infinity Spindle, since he already possessed power greater than what it could grant. Instead, he dispatched agents far and wide to spread news of what the spindle could do and the puny, pathetic creature that claimed its ownership. Soon enough, Raxivort was pursued by a variety of enemies, all eager to claim the Spindle as their own.",
+													"In the face of his imminent destruction, Raxivort hatched a plan. Fleeing to the Material Plane, he wandered across a variety of worlds and spawned creatures that were his exact duplicate. These are the xvarts, creatures that not only look identical to Raxivort in appearance but also foil any magic used to track him down. Spells, rituals, and other effects that could reveal Raxivort's location instead point to the nearest xvart.",
+													"Although the initial rush of enemies against him has subsided, Raxivort knows that the planar powers are patient. He remains in hiding, a wretch of a demigod who does little more than wander the planes, spawning ever more xvarts to ensure his continued safety.",
+													"When things go badly for them, they kidnap whoever's handy and sacrifice them to their craven god. Hmm. I guess they're not so different from a lot of humans, after all.",
+													"-Volo",
+													"Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.",
+													"Xvart Speakers",
+													"A xvart tribe has one speaker that serves as its leader. The speaker has the statistics of a normal xvart, except that it has an Intelligence of 13 (+1) and knows one additional language (usually Common or Goblin)."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Greedy Thugs",
+												"entries": [
+													" Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vermin Masters",
+												"entries": [
+													" Rats and bats (including giant-sized specimens) are naturally attracted to xvarts, and xvarts domesticate such beasts for food and battle. Xvarts also form alliances with wererats, although the lycanthropes are dominant in any such arrangement. This relationship traces back to Raxivort's divine nature. Even though the xvarts inherited Raxivort's greed and cowardice, they also gained his ability to form bonds with such creatures."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Xvart Warlocks",
+												"entries": [
+													" A xvart can forge a pact with Raxivort by stealing an item of such great value that the demigod himself appears before the xvart to claim it. After surrendering the item to Raxivort, the xvart asks for magical power so that it can find and deliver more great treasures into Raxivort's custody. If the demigod feels so inclined, he imbues the xvart with greater wisdom and charisma and grants it the spellcasting abilities of a warlock before returning to the howling chaos of"
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Pandemonium",
+												"entries": [
+													" Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow."
+												],
+												"type": "entries"
+											}
+										]
+									}
 								]
 							}
 						]
 					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/MM/Spy.png?v=1.118.0",
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Xvart.png?v=1.118.0",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/spy.mp3?v=1.118.0"
@@ -2006,7 +1886,8 @@
 				"Multiattack"
 			],
 			"languageTags": [
-				"X"
+				"AB",
+				"U"
 			],
 			"damageTags": [
 				"P"
@@ -2015,6 +1896,202 @@
 				"MW",
 				"RW",
 				"THW"
+			]
+		},
+		{
+			"name": "Symbiotic Slime",
+			"shortName": "slime",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+5",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this distance)"
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"languages": [
+				"telepathy 300 ft."
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The slime's spellcasting ability is Intelligence (spell save {@dc 13}). It can cast the following spells, requiring components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell hypnotic pattern}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell nondetection} (self only)"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Psychic Dissonance",
+					"entries": [
+						"If the slime takes psychic damage, it has disadvantage on attack rolls and ability checks until the end of its next turn, and is immediately polymorphed into its true form."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The slime can use its action to polymorph into an object or creature, or back into its true, amorphous form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "False Appearance (Object Form Only)",
+					"entries": [
+						"While the slime remains motionless, it is indistinguishable from an ordinary object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The slime makes one pseudopod attack and uses Eat Memories."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 5 ({@damage 2d4}) psychic damage."
+					]
+				},
+				{
+					"name": "Eat Memories",
+					"entries": [
+						"The slime targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or take 13 ({@damage 3d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+						"When a slime causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ooze Nature",
+										"entries": [
+											"A symbiotic slime doesn't require sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MTF/Oblex Spawn.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Oblex Spawn.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/oblex-spawn.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Amorphous",
+				"False Appearance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"unconscious"
 			]
 		}
 	]
