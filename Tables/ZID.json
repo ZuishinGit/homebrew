@@ -123,8 +123,8 @@
 			"name":"Mobs",
 			"source":"ZID",
 			"colLabels": [
-				"Raw Roll Needed",
-				"Attackers Needed"
+				"Raw Roll",
+				"Attackers"
 			],
 			"colStyles": [
 				"col-6 text-center",
@@ -606,7 +606,7 @@
 			]
 		},
 		{
-			"name":"Encounters",
+			"name":"Count",
 			"source":"ZID",
 			"colLabels": [
 				"d8",
@@ -642,8 +642,9 @@
 					"No random encounter"
 				]
 			]
-		}
+		},
 		{
+			"name":"Encounter",
 			"type":"table",
 			"source":"ZID",
 			"colLabels":[
@@ -651,8 +652,8 @@
 				"Encounter"
 			],
 			"colStyles":[
-				"col-4",
-				"col-4"
+				"col-2",
+				"col-10"
 			],
 			"rows":[
 				[
@@ -669,19 +670,19 @@
 				],
 				[
 					"5",
-					"4 ({@dice 1d6+1}) {@creature saber-toothed tiger||saber-toothed tigers*} (daytime only; surprise DC 14) or 7 ({@dice 2d6}) {@creature crag cat|skt|crag cats} (surprise DC 15)"
+					"4 ({@dice 1d6+1}) {@creature saber-toothed tiger||saber-toothed tigers}* (daytime only; surprise DC 14) or 7 ({@dice 2d6}) {@creature crag cat|skt|crag cats} (surprise DC 15)"
 				],
 				[
 					"6",
-					"1 {@creature cyclops||cyclops*} and its 4 ({@dice 1d6+1}) {@creature half-ogre (ogrillon)||ogrillon} children"
+					"1 {@creature cyclops||cyclops}* and its 4 ({@dice 1d6+1}) {@creature half-ogre (ogrillon)||ogrillon} children"
 				],
 				[
 					"7",
-					"4 ({@dice 1d4+2}) {@creature polar bear||polar bears*}"
+					"4 ({@dice 1d4+2}) {@creature polar bear||polar bears}*"
 				],
 				[
 					"8",
-					"2 ({@dice 1d4}) {@creature chardalyn berserker|idrotf|chardalyn berserkers*}"
+					"2 ({@dice 1d4}) {@creature chardalyn berserker|idrotf|chardalyn berserkers}*"
 				],
 				[
 					"9",
@@ -697,7 +698,7 @@
 				],
 				[
 					"12",
-					"1 {@creature tanarukk||vgm} and 9 ({@dice 2d8}) {@creature orc||orcs}"
+					"1 {@creature tanarukk|vgm} and 9 ({@dice 2d8}) {@creature orc||orcs}"
 				],
 				[
 					"13",
@@ -705,19 +706,19 @@
 				],
 				[
 					"14",
-					"4 ({@dice 1d4+2}) {@creature griffon||griffons} (nighttime only) or {@creature peryton||perytons*} (daytime only; surprise DC 13)"
+					"4 ({@dice 1d4+2}) {@creature griffon||griffons} (nighttime only) or {@creature peryton||perytons}* (daytime only; surprise DC 13)"
 				],
 				[
 					"15",
-					"3 ({@dice 1d4+1}) {@creature winter wolf||winter wolves*} and 2 ({@dice 1d4}) {@creature wolf||wolves*} (surprise DC 11)"
+					"3 ({@dice 1d4+1}) {@creature winter wolf||winter wolves}* and 2 ({@dice 1d4}) {@creature wolf||wolves}* (surprise DC 11)"
 				],
 				[
 					"16",
-					"2 ({@dice 1d4}) {@creature mammoth||mammoths*}"
+					"2 ({@dice 1d4}) {@creature mammoth||mammoths}*"
 				],
 				[
 					"17",
-					"1 {@creature frost druid|idrotf} and 2 ({@dice 1d4}) {@creature rhinoceros||awakened woolly rhinoceroses*}"
+					"1 {@creature frost druid|idrotf} and 2 ({@dice 1d4}) {@creature rhinoceros||awakened woolly rhinoceroses}*"
 				],
 				[
 					"18",
@@ -757,7 +758,7 @@
 				],
 				[
 					"27",
-					"1 {@creature oni} disguised as an ice troll carrying his glaive and 1 {@creature transmuter|vgm|transmuter*}"
+					"1 {@creature oni} disguised as an ice troll carrying his glaive and 1 {@creature transmuter|vgm|transmuter}*"
 				],
 				[
 					"28",
@@ -785,7 +786,7 @@
 				],
 				[
 					"34",
-					"1 {@creature frost giant*} riding 1 {@creature mammoth*}"
+					"1 {@creature frost giant}* riding 1 {@creature mammoth}*"
 				]	
 			]
 		},
@@ -820,6 +821,84 @@
 				[
 					"Sphere or circle",
 					"Radius ÷ 5 (round up)"
+				]
+			]
+		},
+		{
+			"name": "Object AC",
+			"source": "ZID",
+			"colLabels": [
+				"Substance",
+				"AC"
+			],
+			"colStyles": [
+				"col-10",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"Cloth, paper, rope",
+					"11"
+				],
+				[
+					"Crystal, glass, ice",
+					"13"
+				],
+				[
+					"Wood, bone",
+					"15"
+				],
+				[
+					"Stone",
+					"17"
+				],
+				[
+					"Iron, steel",
+					"19"
+				],
+				[
+					"Mithral",
+					"21"
+				],
+				[
+					"Adamantine",
+					"23"
+				]
+			]
+		},
+		{
+			"name": "Object HP",
+			"source": "ZID",
+			"colLabels": [
+				"Size",
+				"Fragile",
+				"Resilient"
+			],
+			"colStyles": [
+				"col-6",
+				"col-3 text-center",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"Tiny (bottle, lock)",
+					"2 ({@dice 1d4})",
+					"5 ({@dice 2d4})"
+				],
+				[
+					"Small (chest, lute)",
+					"3 ({@dice 1d6})",
+					"10 ({@dice 3d6})"
+				],
+				[
+					"Medium (barrel, chandelier)",
+					"4 ({@dice 1d8})",
+					"18 ({@dice 4d8})"
+				],
+				[
+					"Large (cart, 10-ft.-by-10-ft. window)",
+					"5 ({@dice 1d10})",
+					"27 ({@dice 5d10})"
 				]
 			]
 		}
