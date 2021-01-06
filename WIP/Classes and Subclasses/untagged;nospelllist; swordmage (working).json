@@ -1,0 +1,3713 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"fanatic66Swordmage",
+				"abbreviation":"SAHC",
+				"full":"Swordmage: The Arcane Half-Caster",
+				"authors":[
+					"u/fanatic66"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://drive.google.com/file/d/1v28ETX6N0Ha5mFv54qDvaxdc0wPXDYyv/view",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"class": [
+	    {
+	        "name": "Swordmage",
+	        "source": "fanatic66Swordmage",
+	        "hd":{
+	        	"number":1,
+	        	"faces":8
+	        },
+	        "proficiency":[
+	        	"con",
+	        	"int"
+	        ],
+	        "startingProficiencies":{
+	        	"armor":[
+	        		"light",
+	        		"medium",
+	        		"shields"
+	        	],
+	        	"weapons":[
+	        		"simple",
+	        		"martial"
+	        	],
+	        	"skills":[
+	        		{
+	        			"choose":{
+	        				"from":[
+	        					"acrobatics",
+	        					"arcana",
+	        					"athletics",
+	        					"history",
+	        					"insight",
+	        					"investigation"
+	        				],
+	        				"count":2
+	        			}
+	        		}
+	        	]
+	        },
+	        "multiclassing":{
+	        	"requirements":{
+	        		"int":13,
+	        		"or":[
+	        			{
+	        				"str":13,
+	        				"dex":13
+	        			}
+	        		]
+	        	},
+	        	"proficienciesGained":{
+	        		"armor":[
+	        			"light",
+	        			"medium"
+	        		],
+	        		"weapons":[
+	        			"martial",
+	        			"simple"
+	        		]
+	        	}
+	        },
+	        "classSpells":[
+	        		"acid splash",
+	        		"blade ward",
+	        	{
+	        		"name":"booming blade",
+	        		"source":"SCAG"
+	        	},
+	        		"chill touch",
+	        		"dancing lights",
+	        		"fire bolt",
+	        	{
+	        		"name":"freezing blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"frostbite",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"green-flame blade",
+	        		"source":"SCAG"
+	        	},
+	        		"light",
+	        	{
+	        		"name":"lightning lure",
+	        		"source":"SCAG"
+	        	},
+	        		"mage hand",
+	        		"mending",
+	        		"message",
+	        	{
+	        		"name":"mind blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"mountain blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"poison spray",
+	        		"prestidigitation",
+	        	{
+	        		"name":"protective blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"ray of frost",
+	        		"shocking grasp",
+	        	{
+	        		"name":"sword burst",
+	        		"source":"SCAG"
+	        	},
+	        	{
+	        		"name":"thunderclap",
+	        		"source":"XGE"
+	        	},
+	        		"true strike",
+	        	{
+	        		"name":"vampiric blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"absorb elements",
+	        		"source":"XGE"
+	        	},
+	        		"burning hands",
+	        		"chromatic orb",
+	        	{
+	        		"name":"corrosive swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"detect magic",
+	        	{
+	        		"name":"ensnaring pull",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"expeditious retreat",
+	        		"false life",
+	        		"feather fall",
+	        	{
+	        		"name":"ice knife",
+	        		"source":"XGE"
+	        	},
+	        		"identify",
+	        		"jump",
+	        		"longstrider",
+	        		"mage armor",
+	        		"magic missile",
+	        	{
+	        		"name":"predictive strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"protection from evil and good",
+	        		"shield",
+	        		"thunderwave",
+	        	{
+	        		"name":"venomous strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"zephyr strike",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"aganazzar's scorcher",
+	        		"source":"XGE"
+	        	},
+	        		"blindness/deafness",
+	        		"blur",
+	        		"continual flame",
+	        		"darkness",
+	        		"darkvision",
+	        		"enlarge/reduce",
+	        	{
+	        		"name":"electrifying swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"far strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"invisibility",
+	        	{
+	        		"name":"isolating strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"magic weapon",
+	        		"mirror image",
+	        		"misty step",
+	        		"scorching ray",
+	        		"see invisibility",
+	        	{
+	        		"name":"shadow blade",
+	        		"source":"XGE"
+	        	},
+	        		"shatter",
+	        		"silence",
+	        		"spider climb",
+	        	{
+	        		"name":"snilloc's snowball swarm",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"warding wind",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"withering strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"blade storm",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"blink",
+	        		"counterspell",
+	        	{
+	        		"name":"dimensional retaliation",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"dispel magic",
+	        		"elemental weapon",
+	        		"fireball",
+	        	{
+	        		"name":"flaming swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"fly",
+	        	{
+	        		"name":"frigid strike",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"gaseous form",
+	        		"haste",
+	        		"lightning bolt",
+	        		"magic circle",
+	        	{
+	        		"name":"melf's minute meteors",
+	        		"source":"XGE"
+	        	},
+	        		"protection from energy",
+	        		"slow",
+	        	{
+	        		"name":"thunder step",
+	        		"source":"XGE"
+	        	},
+	        		"vampiric touch",
+	        		"banishment",
+	        		"bleeding blade",
+	        		"dimension door",
+	        	{
+	        		"name":"dimensional vortex",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"elemental bane",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"fiery charge",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"fire shield",
+	        		"greater invisibility",
+	        		"ice storm",
+	        	{
+	        		"name":"quaking swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        		"stoneskin",
+	        	{
+	        		"name":"storm sphere",
+	        		"source":"XGE"
+	        	},
+	        		"wall of fire",
+	        	{
+	        		"name":"vitriolic sphere",
+	        		"source":"XGE"
+	        	},
+	        		"animate objects",
+	        		"cone of cold",
+	        	{
+	        		"name":"nightmare swordburst",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"shocking blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"far step",
+	        		"source":"XGE"
+	        	},
+	        	{
+	        		"name":"prismatic blade",
+	        		"source":"fanatic66Swordmage"
+	        	},
+	        	{
+	        		"name":"steel wind strike",
+	        		"source":"XGE"
+	        	},
+	        		"telekinesis",
+	        		"teleportation circle",
+	        	{
+	        		"name":"time warp blade",
+	        		"source":"fanatic66Swordmage"
+	        	}
+	        ],
+	        "startingEquipment":{
+	        	"default":[
+	        		"(a) two {@filter martial weapons|items|type=martial weapon|category=basic}",
+	        		"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+	        		"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}"
+	        	],
+	        	"additionalFromBackground":true
+	        },
+	        "casterprogression":"1/2",
+	        "spellcastingAbility":"int",
+	        "classTableGroups":[
+	        	{
+	        		"colLabels":[
+	        			"Arcane Die",
+	        			"{@filter Cantrips Known|spells|level=0|class=Swordmage (SAHC)}",
+	        			"Spells Known"
+	        		],
+	        		"rows":[
+	        			[
+	        				"\u2014",
+	        				"2",
+	        				"2"
+	        			],
+	        			[
+	        				"{@dice 1d4}",
+	        				"2",
+	        				"3"
+	        			],
+	        			[
+	        				"{@dice 1d4}",
+	        				"2",
+	        				"4"
+	        			],
+	        			[
+	        				"{@dice 1d4}",
+	        				"2",
+	        				"4"
+	        			],
+	        			[
+	        				"{@dice 1d4}",
+	        				"2",
+	        				"5"
+	        			],
+	        			[
+	        				"{@dice 1d6}",
+	        				"2",
+	        				"5"
+	        			],
+	        			[
+	        				"{@dice 1d6}",
+	        				"2",
+	        				"6"
+	        			],
+	        			[
+	        				"{@dice 1d6}",
+	        				"2",
+	        				"6"
+	        			],
+	        			[
+	        				"{@dice 1d6}",
+	        				"2",
+	        				"7"
+	        			],
+	        			[
+	        				"{@dice 1d6}",
+	        				"3",
+	        				"7"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"3",
+	        				"8"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"3",
+	        				"8"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"3",
+	        				"9"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"4",
+	        				"9"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"4",
+	        				"10"
+	        			],
+	        			[
+	        				"{@dice 1d8}",
+	        				"4",
+	        				"10"
+	        			],
+	        			[
+	        				"{@dice 1d10}",
+	        				"4",
+	        				"11"
+	        			],
+	        			[
+	        				"{@dice 1d10}",
+	        				"4",
+	        				"11"
+	        			],
+	        			[
+	        				"{@dice 1d10}",
+	        				"4",
+	        				"12"
+	        			],
+	        			[
+	        				"{@dice 1d10}",
+	        				"4",
+	        				"12"
+	        			]
+	        		]
+	        	},
+	        	{
+	        		"title":"Spell Slots per Spell Level",
+	        		"colLabels":[
+	        			"{@filter 1st|spells|level=1|class=Swordmage (SAHC)}",
+	        			"{@filter 2nd|spells|level=2|class=Swordmage (SAHC)}",
+	        			"{@filter 3rd|spells|level=3|class=Swordmage (SAHC)}",
+	        			"{@filter 4th|spells|level=4|class=Swordmage (SAHC)}",
+	        			"{@filter 5th|spells|level=5|class=Swordmage (SAHC)}"
+	        		],
+	        		"rows":[
+	        			[
+	        				2,
+	        				0,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				2,
+	        				0,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				3,
+	        				0,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				3,
+	        				0,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				2,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				2,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				0,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				2,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				2,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				0,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				1,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				1,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				2,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				2,
+	        				0
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				3,
+	        				1
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				3,
+	        				1
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				3,
+	        				2
+	        			],
+	        			[
+	        				4,
+	        				3,
+	        				3,
+	        				3,
+	        				2
+	        			]
+	        		]
+	        	}
+	        ],
+	        "classFeatures": [
+	            "Arcane Weapon|Swordmage|fanatic66Swordmage|1|fanatic66Swordmage",
+	            "Spellcasting|Swordmage|fanatic66Swordmage|1|fanatic66Swordmage",
+	            "Arcane Empowerment|Swordmage|fanatic66Swordmage|2|fanatic66Swordmage",
+	            "Enspell Blade|Swordmage|fanatic66Swordmage|2|fanatic66Swordmage",
+	            "Magical Armory|Swordmage|fanatic66Swordmage|3|fanatic66Swordmage",
+	            {
+	            	"classFeature":"Swordmage Archetype|Swordmage|fanatic66Swordmage|3|fanatic66Swordmage",
+	            	"gainSubclassFeature":true
+	            },
+	            "Ability Score Improvement|Swordmage|fanatic66Swordmage|4|fanatic66Swordmage",
+	            "Blade Magic|Swordmage|fanatic66Swordmage|5|fanatic66Swordmage",
+	            "Pierce Defenses|Swordmage|fanatic66Swordmage|6|fanatic66Swordmage",
+	            {
+	            	"classFeature":"Archetype Feature|Swordmage|fanatic66Swordmage|7|fanatic66Swordmage",
+	            	"gainSubclassFeature":true
+	            },
+	            "Ability Score Improvement|Swordmage|fanatic66Swordmage|8|fanatic66Swordmage",
+	            "Battle Awareness|Swordmage|fanatic66Swordmage|10|fanatic66Swordmage",
+	            "Greater Blade Magic|Swordmage|fanatic66Swordmage|11|fanatic66Swordmage",
+	            "Ability Score Improvement|Swordmage|fanatic66Swordmage|12|fanatic66Swordmage",
+	            "Spell Breaker|Swordmage|fanatic66Swordmage|14|fanatic66Swordmage",
+	            {
+	            	"classFeature":"Archetype Feature|Swordmage|fanatic66Swordmage|15|fanatic66Swordmage",
+	            	"gainSubclassFeature":true
+	            },
+	            "Ability Score Improvement|Swordmage|fanatic66Swordmage|16|fanatic66Swordmage",
+	            "Greater Battle Awareness|Swordmage|fanatic66Swordmage|18|fanatic66Swordmage",
+	            "Ability Score Improvement|Swordmage|fanatic66Swordmage|19|fanatic66Swordmage",
+	            {
+	            	"classFeature":"Archetype Feature|Swordmage|fanatic66Swordmage|20|fanatic66Swordmage",
+	            	"gainSubclassFeature":true
+	            }
+	        ],
+	        "subclassTitle":"Swordmage Archetype",
+	        "subclasses":[
+	        	{
+	        		"name":"Elementalist",
+	        		"shortName":"Elementalist",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Elementalist|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3",
+	        			"Planar Affinity|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|7",
+	        			"Greater Planar Affinity|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|15",
+	        			"Elemental Aspect|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"name":"Crimson Knight",
+	        		"shortName":"Crimson Knight",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Crimson Knight|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|3",
+	        			"Puppet|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|7",
+	        			"Blood Recall|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|15",
+	        			"Crimson Lord|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"name":"Duplicitist",
+	        		"shortName":"Duplicitist",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Duplicitist|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|3",
+	        			"Sly Mind|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|7",
+	        			"Illusive Escape|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|15",
+	        			"Double Trouble|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"name":"Guardian",
+	        		"shortName":"Guardian",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Guardian|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|3",
+	        			"Bulwarking Magic|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|7",
+	        			"Defensive Swap|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|15",
+	        			"Guardian Aura|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"name":"Inquisitor",
+	        		"shortName":"Inquisitor",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Inquisitor|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|3",
+	        			"Investigator's Insight|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|7",
+	        			"Piercing Sight|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|15",
+	        			"Antimagic Gaze|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"name":"Meteor Knight",
+	        		"shortName":"Meteor Knight",
+	        		"source":"fanatic66Swordmage",
+	        		"subclassFeatures":[
+	        			"Meteor Knight|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|3",
+	        			"Defy Gravity|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|7",
+	        			"Star Fall|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|15",
+	        			"Gravitational Pull|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|20"
+	        		],
+	        		"additionalSpells":[
+	        			{
+	        				"prepared":{
+	        					"3":[
+	        						"",
+	        						""
+	        					],
+	        					"5":[
+	        						"",
+	        						""
+	        					],
+	        					"9":[
+	        						"",
+	        						""
+	        					],
+	        					"13":[
+	        						"",
+	        						""
+	        					],
+	        					"17":[
+	        						"",
+	        						""
+	        					]
+	        				}
+	        			}
+	        		]
+	        	}
+	        ],
+	        "fluff":[
+	        	{
+	        		"name":"Swordmage",
+	        		"type":"section",
+	        		"entries":[
+	        			"The halfling thief looks around as an ogre finds its hiding spot. As the ogre slams its club down, a swordsman appears with a flash of blue light to block the club with his glowing sword. Between him and his halfling friend, they easily dispatch the suprised ogre.",
+	        			"The mighty dragon breathes fire at the intruder, but the lightly armored elf smiles unconcerned. She strides through the fire, a redish, magical barrier protecting her from the worst of the flames. The shocked dragon has little time to react to the impossibly alive elf before her blade starts cutting through the dragon's scales.",
+	        			"As the bandit's blade threatens to cut the pale warrior in half, the warrior simply twists his hand and mutters an arcane word of power. The bandit cries out in pain as his sword arm suddenly stops in place. With a chilling smile, the warrior plunges his blade into the bandit savoring the warmth of vitality gained from the bandit's blood.",
+	        			"All these magical warriors are swordmages, combatants that blend magic and martial might. Whether a swordmage relies on necromancy, elemental manipulation, abjuration, or many other types of magic. Regardless of a swordmage's magical specialization, magic is crucial to a swordmage. Unlike more mundane warriors, swordmages rely on magic to boost their defensive and offensive capabilities.",
+	        			{
+	        				"type":"entries",
+	        				"name":"Magical Warriors",
+	        				"entries":[
+	        					"Swordmages spend equal time learning magic as they do practicing their bladework creating an unique fighting style. Although all swordmages rely on defensive and offensive magic, they often specialize in certain types of magic similiarly to a wizard. Crimson Knights focus on the application of necromantic blood magic while Inquisitors specialize on abjuration and divination magic to hunt down supernatural threats. Regardless of their specialization, swordmages blend bladework and magic into a seamless style of combat that is either awe inspiring or terrifying."
+	        				]
+	        			},
+	        			{
+	        				"type":"entries",
+	        				"name":"Bonding to a Weapon",
+	        				"entries":[
+	        					"Besides magic, swordmages also bond with a particular weapon to provide a conduit for their arcane prowess. As their bonded weapon is not only their tool in combat, but also a source of magic, swordmages normally treat their weapon with the the utmost care. Choosing your bonded weapon is an important step that is often dictated by their weapon training or personal style. Although the name implies sword wielders, some swordmages choose other weapons such as axes, spears, or flails."
+	        				]
+	        			},
+	        			{
+	        				"type":"entries",
+	        				"name":"Creating a Swordmage",
+	        				"entries":[
+	        					"As you build your swordmage, carefully consider three elements of your character's background: Where were they trained, what magic interests them the most, and what weapon will they bond with? Some large cities, especially among more magical cultures such as the elves, might have institutions that train aspiring swordmages. Perhaps you were a trained soldier chosen for your intelligence to learn magic in order to help your cause win a war. Maybe you apprenticed with a swordmage mentor who taught you all they knew and you are now striking out on your own.",
+	        					"Furthermore, how does your swordmage fight? With an elegant rapier too fast to block or a large greatsword meant to intimidate your enemies? The weapon you bond with is an important choice. Was the weapon a family heirloom or perhaps passed down from the master that taught you everything you know? Or did you earn this weapon in combat and it represents your first victory?"
+	        				]
+	        			},
+	        			{
+	        				"type":"entries",
+	        				"entries":[
+	        					{
+	        						"type":"entries",
+	        						"name":"Quick Build",
+	        						"entries":[
+	        							"You can make a swordmage quickly by following these suggestions. First, your highest ability score should be Dexterity or Strength, depending on whether you want to focus on regular melee weapons or on finesse melee weapons. Your next-highest score should be Intelligence as this determines the power of your magic. Second, choose the soldier or scholar background."
+	        						]
+	        					}
+	        				]
+	        			}
+	        		]
+	        	}
+	        ]
+	    }
+	],
+	"classFeature": [
+	    {
+	        "name": "Arcane Weapon",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 1,
+	        "entries": [
+	            "At 1st level, you learn a ritual that magically binds a melee weapon to yourself. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and transform it into your Arcane Weapon. Your Arcane Weapon can be used as a spellcasting focus for your Swordmage spells.",
+	            "You can channel abjuring magic through your Arcane Weapon. When you are wielding your Arcane Weapon without also wielding a shield, then you gain a magical +1 bonus to your armor class. The bonus increases to +2 if your Arcane Weapon lacks the two-handed property and you have a free hand.",
+	            "If you attempt to bond with another weapon, you must break the bond with your current Arcane Weapon."
+	        ]
+	    },
+	    {
+	        "name": "Spellcasting",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 1,
+	        "entries": [
+	            "Starting at 1st level, you have learned a handful of spells to augment your fighting style. You learn two cantrips from the swordmage spell list. See Spells Rules in the Player’s Handbook for the general rules of spellcasting and the Spells Listing for the swordmage spell list at the end of this document.",
+	            {
+	            	"type":"entries",
+	            	"name":"Spell Slots",
+	            	"entries":[
+	            		"The Swordmage table shows how many spell slots you have to cast your swordmage spells of 1st level and higher. To cast one of these swordmage spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
+	            	]
+	            },
+	            {
+	            	"type":"entries",
+	            	"name":"Spells Known of 1st Level and Higher",
+	            	"entries":[
+	            		"You know two 1st-level spells of your choice from the swordmage spell list.",
+	            		"The Spells Known column of the Swordmage table shows when you learn more swordmage spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+	            		"Additionally, when you gain a level in this class, you can choose one of the swordmage spells you know and replace it with another spell from the swordmage spell list, which also must be of a level for which you have spell slots."
+	            	]
+	            },
+	            {
+	            	"type":"entries",
+	            	"name":"Spellcasting Ability",
+	            	"entries":[
+	            		"Intelligence is your spellcasting ability for your swordmage spells, since your magic reflects yoour arcane studies. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a swordmage spell you cast and when making an attack roll with one.",
+	            		{
+	            			"type":"abilityDc",
+	            			"name":"Spell",
+	            			"attributes":[
+	            				"int"
+	            			]
+	            		},
+	            		{
+	            			"type":"abilityAttackMod",
+	            			"name":"Spell",
+	            			"attributes":[
+	            				"int"
+	            			]
+	            		}
+	            	]
+	            },
+	            {
+	            	"type":"entries",
+	            	"name":"Spellcasting Focus",
+	            	"entries":[
+	            		"You can use your Arcane Weapon as your spellcasting focus for swordmage spells."
+	            	]
+	            }
+	        ]
+	    },
+	    {
+	        "name": "Arcane Empowerment",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 2,
+	        "entries": [
+	            "Starting at 2nd level, you channel your magic to aid yourself in battle. You know the following Arcane Empowerments:",
+	            {
+	            	"type":"entries",
+	            	"entries":[
+	            		{
+	            			"type":"entries",
+	            			"name":"Arcane Ward",
+	            			"entries":[
+	            				"As a bonus action, you gain 1d4 temporary hit points plus half your swordmage level (rounded down). This die changes as you gain swordmage levels, as shown in the Arcane Die column of the Swordmage table. The temporary hit points last for 1 minute."
+	            			]
+	            		}
+	            	]
+	            },
+	            {
+	            	"type":"entries",
+	            	"entries":[
+	            		{
+	            			"type":"entries",
+	            			"name":"Arcane Leap",
+	            			"entries":[
+	            				"As a bonus action, you teleport 15 feet to an unoccupied space that you can see. At higher levels of this class, the teleportation distance increases to 20 feet at 5th level, 25 feet at 11th level, and 30 feet at 17th level."
+	            			]
+	            		}
+	            	]
+	            }
+	        ]
+	    },
+	    {
+	        "name": "Enspell Blade",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 2,
+	        "entries": [
+	            "Beginning at 2nd level, after casting a spell of 1st level or higher, you siphon the residual energy from the spell onto your weapon. Until the end of your next turn, your next melee weapon attack that hits deals extra force damage equal to 1d6 per level of the spell slot to a maximum of 4d6."
+	        ]
+	    },
+	    {
+	        "name": "Magical Armory",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 3,
+	        "entries": [
+	            "At 3rd level, your knowledge of magical tools of war expands. You have advantage on Intelligence checks to recall information on magical weapons and armor.",
+	            "You can also bind additional equippable items to yourself in the same ritual you use to bind your Arcane Weapon. You can bind a number of additional items equal to your Intelligence modifier (minimum of one). If you attempt to bond with another item, you must break the bond with one of the other items.",
+	            "If any bound items, including your Arcane Weapon, are on the same plane of existence as you, you can summon any number of them as an action on your turn, causing the bound items to teleport to you, and instantly equipping them in the process."
+	        ]
+	    },
+	    {
+	        "name": "Swordmage Archetype",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 3,
+	        "entries": [
+	            "When you reach 3rd level, you choose a archetype that reflects your training. The details on the specific archetypes are at the end of this document.",
+	            "Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features also include archetype spells.",
+	            {
+	            	"type":"entries",
+	            	"name":"Archetype Spells",
+	            	"entries":[
+	            		"Each archetype has a list of additional spells that you automatically learn at the denoted levels. The spells counts as Swordmage spells for you, but do not count against the number of Swordmage spells you know"
+	            	]
+	            },
+	            {
+	            	"type":"entries",
+	            	"name":"Aegis",
+	            	"entries":[
+	            		"Your archetype gives you a powerful dweomer called an Aegis. Each Aegis provided by your archetype explains how to use it. You must then finish a short or long rest to use your Aegis again.",
+	            		"Some Aegis reference your Arcane Die, which is shown in the Arcane Die column of the Swordmage table. Some Aegis effects require saving throws. The DC for these saving throws is equal to your Swordmage spell save DC."
+	            	]
+	            }
+	        ]
+	    },
+	    {
+	        "name": "Ability Score Improvement",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 4,
+	        "entries": [
+	            "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+	            "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+	        ]
+	    },
+	    {
+	        "name": "Blade Magic",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 5,
+	        "entries": [
+	            "At 5th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+	        ]
+	    },
+	    {
+	        "name": "Pierce Defenses",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 6,
+	        "entries": [
+	            "At 6th level, you can empower your blade to weaken a foe's magical wards. When you hit a creature with a melee weapon attack, you can cause the creature to have disadvantage on saving throws it makes against spells you cast before the end of your next turn.",
+	            "You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest."
+	        ]
+	    },
+	    {
+	        "name": "Archetype Feature",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 7,
+	        "entries": [
+	            "You gain another feature granted to you by your chosen Swordmage Archetype."
+	        ]
+	    },
+	    {
+	        "name": "Ability Score Improvement",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 8,
+	        "entries": [
+	            "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+	            "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+	        ]
+	    },
+	    {
+	        "name": "Battle Awareness",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 10,
+	        "entries": [
+	            "When you reach 10th level, you are ready to leap into battle at a moment's notice. You gain a bonus to your initiative rolls equal to your Intelligence modifier (minimum of one).",
+	            "At the start of your first turn of each combat, before you take any actions, and if you aren't surprised, you can teleport up to your Arcane Leap range to an unoccupied space you can see."
+	        ]
+	    },
+	    {
+	        "name": "Greater Blade Magic",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 11,
+	        "entries": [
+	            "Starting at 11th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action."
+	        ]
+	    },
+	    {
+	        "name": "Ability Score Improvement",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 12,
+	        "entries": [
+	            "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+	            "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+	        ]
+	    },
+	    {
+	        "name": "Spell Breaker",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 14,
+	        "entries": [
+	            "By 14th level, you can thwart harmful magic and redirect the energy into your weapon. You can use your action to end one spell that is afflicting you if you are not incapacitated. Your next melee weapon attack that hits before the end of your next turn deals additional force damage equal to 1d6 per level of the spell you ended to a maximum of 4d6.",
+	            "You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain expended uses when you finish a long rest."
+	        ]
+	    },
+	    {
+	        "name": "Archetype Feature",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 15,
+	        "entries": [
+	            "You gain another feature granted to you by your chosen Swordmage Archetype."
+	        ]
+	    },
+	    {
+	        "name": "Ability Score Improvement",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 16,
+	        "entries": [
+	            "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+	            "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+	        ]
+	    },
+	    {
+	        "name": "Greater Battle Awareness",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 18,
+	        "entries": [
+	            "At 18th level, you can take an ally to the forefront of battle. When you teleport using Battle Awareness, the range is doubled and you can bring one willing creature of your size or smaller that is within 5 feet of you."
+	        ]
+	    },
+	    {
+	        "name": "Ability Score Improvement",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 19,
+	        "entries": [
+	            "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+	            "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+	        ]
+	    },
+	    {
+	        "name": "Archetype Feature",
+	        "source": "fanatic66Swordmage",
+	        "className": "Swordmage",
+	        "classSource": "fanatic66Swordmage",
+	        "level": 20,
+	        "entries": [
+	            "You gain another feature granted to you by your chosen Swordmage Archetype."
+	        ]
+	    }
+	],
+	"subclassFeature":[
+		{
+			"name":"Elementalist",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"Elementalists are swordmages that specialize in magic originating from the elemental planes. By binding the primal power of the planes to themselves, these swordmages become mortal embodiments of the elements. They might show minor physical manifestations of this power such as earthen skin, an ozone smell, or greenish skin.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of Elements|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Elemental Attunement|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Air Attunement|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Earth Attunement|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Fire Attunement|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Water Attunement|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Elemental Studies|Swordmage|fanatic66Swordmage|Elementalist|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Aegis of Elements",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action you can activate this Aegis to empower your blade with elemental fury. The first creature you hit on each of your turns with a melee weapon attack takes extra damage equal to one roll of your Arcane Die plus half your Swordmage level (rounded down). The damage type is determined by your Elemental Atttunement. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+			]
+		},
+		{
+			"name":"Elemental Attunement",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"Choose one of the four great elemental planes: air, earth, fire, or water. This element becomes your Elemental Attunement and this choice will reflect the features you gain from this specialization.",
+				"You can change your Elemental Attunement whenever you gain a level in this class. When you change your Elemental Attunement, you replace the Aegis and spells gained from your previous attunement to the Aegis and spells gained by your new attunement."
+			]
+		},
+		{
+			"name":"Air Attunement",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You attune to the elemental plane of air. Your Elemental Attunement damage type is lightning.",
+				"You learn the {@spell gust|xge} cantrip and gain archetype spells at the swordmage level listed below.",
+				{
+					"type":"table",
+					"caption": "Air Elementalist Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell thunderous smite}"
+						],
+						[
+							"5th",
+							"{@spell warding wind|xge}"
+						],
+						[
+							"9th",
+							"{@spell lightning bolt}"
+						],
+						[
+							"13th",
+							"{@spell storm sphere|xge}"
+						],
+						[
+							"17th",
+							"{@spell control winds|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Earth Attunement",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You attune to the elemental plane of earth. Your Elemental Attunement damage type matches the damage type of your Arcane Weapon.",
+				"You learn the mold earth cantrip and gain archetype spells at the swordmage level listed below.",
+				{
+					"type":"table",
+					"caption": "Earth Elementalist Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell earth tremor}"
+						],
+						[
+							"5th",
+							"{@spell maximilian's earthen grasp|xge}"
+						],
+						[
+							"9th",
+							"{@spell erupting earth|xge}"
+						],
+						[
+							"13th",
+							"{@spell quaking swordburst|fanatic66Swordmage|quaking swordburst (new spell)}"
+						],
+						[
+							"17th",
+							"{@spell transmute rock|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Fire Attunement",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You attune to the elemental plane of fire. Your Elemental Attunement damage type is fire.",
+				"You learn the control flames cantrip and gain archetype spells at the swordmage level listed below.",
+				{
+					"type":"table",
+					"caption": "Fire Elementalist Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell searing smite}"
+						],
+						[
+							"5th",
+							"{@spell scorching ray}"
+						],
+						[
+							"9th",
+							"{@spell flaming swordburst|fanatic66Swordmage|flaming swordburst (new spell)}"
+						],
+						[
+							"13th",
+							"{@spell fiery charge|fanatic66Swordmage|fiery charge (new spell)}"
+						],
+						[
+							"17th",
+							"{@spell immolation|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Water Attunement",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You attune to the elemental plane of water. Your Elemental Attunement damage type is cold.",
+				"You learn the shape water cantrip and gain archetype spells at the swordmage level listed below.",
+				{
+					"type":"table",
+					"caption": "Water Elementalist Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell armor of agathys}"
+						],
+						[
+							"5th",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell tidal wave|xge}"
+						],
+						[
+							"13th",
+							"{@spell watery sphere|xge}"
+						],
+						[
+							"17th",
+							"{@spell maelstrom|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Elemental Studies",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"Starting at 3rd level, you are an expert on the elemental planes. You can speak, read, and write {@language Primordial}. You have advantage on Intelligence (Investigation) checks to investigate elementals, as well as on Intelligence Checks to recall information about elementals and their planes of existence."
+			]
+		},
+		{
+			"name":"Planar Affinity",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"Starting at 7th level, you gain one of the following features. You can choose to gain the feature of the same type as your Elemental Attunement or a different one.",
+				{
+					"type":"entries",
+					"name":"Air",
+					"entries":[
+						"Your speed increases by 10 feet and you gain proficiency in Dexterity saving throws. "
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Earth",
+					"entries":[
+						"Your hit point maximum increases by a number equal to your Swordmage level and increases by 1 again whenever you gain a level in this class. Whenever you make a Strength (Athletics) check, you gain a bonus to the check equal to your Intelligence modifier (a minimum of 1)."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Fire",
+					"entries":[
+						"You gain fire resistance and can add your Intelligence modifier (a minimum of 1) to one damage roll of any spell you cast that deals fire damage. "
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Water",
+					"entries":[
+						"You gain cold resistance, a swim speed equal to your walking speed, and can breathe underwater."
+					]
+				}
+			]
+		},
+		{
+			"name":"Greater Planar Affinity",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"When you reach 15th level, your affinity to your chosen planar element grows stronger. You gain one of the following features. You can choose to gain the feature of the same type as your Elemental Attunement or a different one.",
+				{
+					"type":"entries",
+					"name":"Air",
+					"entries":[
+						"While your Aegis is active, and when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Earth",
+					"entries":[
+						"When you activate your Aegis, you gain the toughness of mountains. You gain temporary hit points equal to your Swordmage level plus your Intelligence modifier (minimum of 1)."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Fire",
+					"entries":[
+						"When you activate your Aegis, you create an aura of flames around you in a 15-foot radius that lasts for the duration of your Aegis. Any creature of your choice that starts their turn in your aura takes fire damage equal to one roll of your your Arcane Die."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Water",
+					"entries":[
+						"While your Aegis is active, when you hit a creature of a large or smaller size with a melee weapon attack, they must succeed on a Strength saving throw against your swordmage spell save DC or be knocked {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name":"Elemental Aspect",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Elementalist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"At 20th level, you can temporarily transform into an aspect of your chosen element. As a bonus action or as part of your bonus action to activate your Aegis, you can also activate your Elemental Aspect, which lasts for 1 minute or until you fall unconscious. Once you use this feature, you can't use it again until after a long rest. You gain one of the following Elemental Aspects. You can choose to gain the feature of the same type as your Elemental Attunement or a different one.",
+				{
+					"type":"entries",
+					"name":"Air Aspect",
+					"entries":[
+						"You become a living storm. You gain a fly speed of 60 feet. As a bonus action, you can shoot a bolt of lightning at a creature within 60 feet of you. Make a spell attack roll against the creature. On a hit, the target takes {@damage 4d10} lightning damage and you can teleport to an unoccupied space adjacent to them."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Earth Aspect",
+					"entries":[
+						"Your skin hardens to stone. You gain resistance to bludgeoning, piercing, and slashing damage. When you hit a creature with a melee weapon attack, they must succeed a Strength saving throw against your spell save DC or become restrained until the end of your next turn."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Fire Aspect",
+					"entries":[
+						"Your form becomes writhing flames. You gain resistance to fire damage, or immunity if you already have resistance. When you use Arcane Leap, the range is doubled and all creatures within 10 feet of your teleportation destination must a Dexterity saving throw against your spell save DC or take {@damage 4d10} fire damage. On a success, a creature takes half as much damage."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Water Aspect",
+					"entries":[
+						"You assume a watery form that is difficult to pin down. You are constantly under the effects of the {@spell freedom of movement} spell. When you take damage, you can use your reaction to reduce the damage by {@dice 4d8} and teleport 30 feet to an unoccupied space that you can see."
+					]
+				}
+			]
+		},
+		{
+			"name":"Crimson Knight",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"By becoming a Crimson Knight, you focus on necromancy, specifically the terrifying art of blood magic. Crimson Knights are often feared for their dark magic but not all these swordmages are necessarily evil. Some turn to blood magic to aid them in stopping greater evils, while other Blood Knights revel in their frightening power over others.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of Terror|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Crimson Knight Spells|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Blood Sense|Swordmage|fanatic66Swordmage|Crimson Knight|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Crimson Knight Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header": 1,
+			"entries":[
+				"You gain Crimson Knight spells at the swordmage levels listed.",
+				{
+					"type":"table",
+					"caption": "Crimson Knight Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell false life}"
+						],
+						[
+							"5th",
+							"{@spell hold person}"
+						],
+						[
+							"9th",
+							"{@spell vampiric touch}"
+						],
+						[
+							"13th",
+							"{@spell bleeding blade|fanatic66Swordmage|bleeding blade (new spell)}"
+						],
+						[
+							"17th",
+							"{@spell hold monster}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Aegis of Terror",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action you can activate this Aegis to terrify your foes with dark magic. When you hit a creatue with a melee weapon attack, you can attempt to frighten the creature. The hit creature must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn. You can only frighten any creature in this way once per turn. Your Aegis lasts for 1 minute, ending early if you fall unconscious or die."
+			]
+		},
+		{
+			"name":"Archetype Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You gain archetype spells at the swordmage level listed below."
+			]
+		},
+		{
+			"name":"Blood Sense",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"At 3rd level, you can feel the flowing blood of nearby beings. As an action, you can open your awareness to detect living creatures. Until the end of your next turn, you know the location of any creature within 60 feet of you that is not behind total cover. You also know if a sensed creature is below its hit point maximum, or if the creature is diseased or {@condition poisoned}. This feature does not work on {@filter undead or constructs|bestiary|type=construct;undead}.",
+				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). When you finish a long rest, you regain all expended uses."
+			]
+		},
+		{
+			"name":"Puppet",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"Starting at 7th level, your blood magic can temporarily control others. When you see a creature within 30 feet of you make an attack roll, skill check, or saving throw, you can use your reaction to impose disadvantage on the roll. This feature does not work on {@filter undead or constructs|bestiary|type=construct;undead}.",
+				"Once you use this feature, you can't use it again until after a short or long rest."
+			]
+		},
+		{
+			"name":"Blood Recall",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"When you reach 15th level, you can sacrifice some of your own vitality to recall magical energy. As an bonus action, you can expend a number of hit dice up to half of your maximum hit dice (rounding down). You recover spell slots with a combined level equal to the number of hit dice expended.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},
+		{
+			"name":"Crimson Lord",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Crimson Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"Beginning at 20th level, you unleash necromantic energy around yourself to drain life from your foes. As a bonus action or as part of your bonus action to activate your Aegis, you create a 15-foot aura around yourself that lasts for 1 minute. Any creature of your choosing that starts their turn inside your aura takes {@damage 4d8} necrotic damage. You regain hit points equal to half the damage taken.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},
+		{
+			"name":"Duplicitist",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"By choosing the Duplicitist archetype, you weave illusions and enchantments to become an illusive threat. Duplicitist swordmages are often deadly assassins, admirers of the fey, cunning warriors, or mischief makers.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of Deception|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Duplicitist Spells|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Cunning Trickery|Swordmage|fanatic66Swordmage|Duplicitist|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Duplicitist Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header": 1,
+			"entries":[
+				"You gain Duplicitist spells at the swordmage levels listed.",
+				{
+					"type":"table",
+					"caption": "Duplicitist Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell disguise self}"
+						],
+						[
+							"5th",
+							"{@spell mirror image}"
+						],
+						[
+							"9th",
+							"{@spell enemies abound|xge}"
+						],
+						[
+							"13th",
+							"{@spell phantasmal killer}"
+						],
+						[
+							"17th",
+							"{@spell mislead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Aegis of Deception",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action you can activate this Aegis to become {@condition invisible} until the end of your turn and use Arcane Leap. For the duration of this Aegis, whenever you use Arcane Leap, you can also become invisible until the end of your turn. The invisibility granted from your Aegis always ends early if you attack or cast a spell. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
+			]
+		},
+		{
+			"name":"Archetype Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You gain archetype spells at the swordmage level listed below."
+			]
+		},
+		{
+			"name":"Cunning Trickery",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"At 3rd level, you are a master at trickery. You know the {@spell minor illusion} cantrip and gain proficiency in either the Deception or Stealth skill."
+			]
+		},
+		{
+			"name":"Sly Mind",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"When you reach 7th level, your quick wit allows to weave elaborate lies to fool others. Whenever you make a Charisma (Deception) check, you gain a bonus to the check equal to your Intelligence modifier (a minimum of 1).",
+				"Your experience with deceptive magic causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Charisma saving throws."
+			]
+		},
+		{
+			"name":"Illusive Escape",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"Starting at 15th level, you escape from danger without anyone noticing. When you take damage, you can turn {@condition invisible} and teleport up to a distance equal to your Arcane Leap to an unoccupied space that you can see. You leave behind an illusory image of you. The image has an armor class equal to 13 plus your Intelligence modifier (minimum of 1) and is destroyed if damaged in anyway. The image and your invisibility last until the start of your next turn.",
+				"Once you use this feature, you can't use it again until after a short or long rest."
+			]
+		},
+		{
+			"name":"Double Trouble",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Duplicitist",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"At 20th level, you weave shadows together to create a near copy of yourself. You can use your action to create a shadowy duplicate of yourself as if you had cast the {@spell simulacrum} spell. The duplicate follows the details listed in simulacrum, except it has shadowy versions of your equipment. The duplicate's AC is equal to 12 plus your Dexterity modifier. It has a shadowy weapon that matches the statistics of your Arcane Weapon. The duplicate cannot use Double Trouble on itself.",
+				"The shadowy duplicate fades away after 1 minute or once it falls to 0 hit points.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},
+		{
+			"name":"Guardian",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"Swordmages choosing this archetype focus on protecting others from harm through abjuration magic. Guardians normally serve as elite guards for rulers or are wandering swordsmen defending the innocent.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of Protection|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Vigilant Defender|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Guardian Spells|Swordmage|fanatic66Swordmage|Guardian|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Guardian Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header": 1,
+			"entries":[
+				"You gain Guardian spells at the swordmage levels listed.",
+				{
+					"type":"table",
+					"caption": "Guardian Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell ensnaring pull|fanatic66Swordmage|ensnaring pull (new spell)}"
+						],
+						[
+							"5th",
+							"{@spell warding bond}"
+						],
+						[
+							"9th",
+							"{@spell life transference|xge}"
+						],
+						[
+							"13th",
+							"{@spell dimensional vortex|fanatic66Swordmage|dimensional vortex (new spell)}"
+						],
+						[
+							"17th",
+							"{@spell wall of force}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Aegis of Protection",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action you can activate this Aegis and choose yourself or a creature within 30 feet that you can see. The chosen creature gains the benefits of your Arcane Ward. For the duration of this Aegis, if you or another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by one roll of your Arcane Die plus half your Swordmage level (rounded down). Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
+			]
+		},
+		{
+			"name":"Vigilant Defender",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"At 3rd level, your defensive training emphasizes sturdy protection and constant vigilance. You gain proficiency with {@filter heavy armor|items|category=basic|type=heavy armor}.",
+				"You can also mark an area under your protection. You can cast the {@spell alarm} spell without expending a spell slot. You can use this feature a number of times equal to your Intelligence modifier (a minimum of 1). When you finish a long rest, you regain all expended uses."
+			]
+		},
+		{
+			"name":"Archetype Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You gain archetype spells at the swordmage level listed below."
+			]
+		},
+		{
+			"name":"Bulwarking Magic",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"Starting at 7th level, your magic protects allies from harm. When you target a friendly creatue with a spell of 1st level or higher or your Aegis of Protection, they gain temporary hit points equal to one roll of your Arcane Die plus your Intelligence modifier (a minimum of 1)."
+			]
+		},
+		{
+			"name":"Defensive Swap",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"At 15th level, you can quickly switch places with an ally to place them out of danger. While your Aegis of Protection is active and as part of your reaction to reduce another creature's damage, you magically swap places with the creature."
+			]
+		},
+		{
+			"name":"Guardian Aura",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Guardian",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"When you reach 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you can emanate abjuration magic in a 30-foot aura. You and all friendly creatures in the aura have advantage on saving throws against spells and other magical effects, and gain resistance to spell damage.",
+				"Affected creatures also gain the temporary hit points from your Bulwarking Magic ability at the start of their turn. The aura ends after 1 minute or if you fall {@condition unconscious}.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},
+		{
+			"name":"Inquisitor",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"By choosing the Inquisitor archetype, you utilize divination to seek out threats and abjuration magic to protect yourself from your prey. Inquisitor swordmages hunt down rogue mages, root out dark magic, and slay supernatural monsters.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of the Hunter|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Inquisitor Spells|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Eyes of the Inquisitor|Swordmage|fanatic66Swordmage|Inquisitor|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Inquisitor Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header": 1,
+			"entries":[
+				"You gain Inquisitor spells at the swordmage levels listed.",
+				{
+					"type":"table",
+					"caption": "Inquisitor Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell detect evil and good}"
+						],
+						[
+							"5th",
+							"{@spell detect thoughts}"
+						],
+						[
+							"9th",
+							"{@spell counterspell}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell scrying}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Aegis of the Hunter",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action, you can activate this Aegis and then mark a creature within 60 feet of you that you can see. The first time each turn that you hit the marked target with a melee weapon attack, it takes an extra force damage equal to one roll of your Arcane Die. If your marked target uses a spell or magical effect against you that forces you to make a saving throw, you can use your reaction to give yourself advantage on the saving throw. As a bonus action, you can change marked target to another creature within 60 feet of you that you can see. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
+			]
+		},
+		{
+			"name":"Archetype Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You gain archetype spells at the swordmage level listed below."
+			]
+		},
+		{
+			"name":"Eyes of the Inquisitor",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"At 3rd level, you can cast the {@spell detect magic} spell without expending a spell slot.",
+				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). When you finish a long rest, you regain all expended uses."
+			]
+		},
+		{
+			"name":"Investigator's Insight",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"Beginning at 7th level, you have an uncanny intuition after investigating the hidden and obscure. Whenever you make a Wisdom (Insight) check, you gain a bonus to the check equal to your Intelligence modifier (a minimum of 1).",
+				"Your experience with hostile magic causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Charisma saving throws."
+			]
+		},
+		{
+			"name":"Piercing Sight",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"Starting at 15th level, as an action, you gain {@sense truesight} up to a range of 60 feet for 10 minutes.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name":"Antimagic Gaze",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"At 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you can create an area of antimagic, as in the antimagic field spell, in a 30-foot cone for 1 minute. At the start of each of your turns, you decide which way the cone faces and whether the cone is active. The area works against your own spells, but not your magical equipment.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},
+		{
+			"name":"Meteor Knight",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"entries":[
+				"Swordmages that become Meteor Knights study the esoteric magic of dunamancy, specifically concerning the manipulation of gravity. Fascinated by celestial bodies, these swordmages channel the gravitational powers of the stars to keep foes in their orbit of destruction.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Aegis of Gravity|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Meteor Knight Spells|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Student of the Stars|Swordmage|fanatic66Swordmage|Meteor Knight|fanatic66Swordmage|3"
+				}
+			]
+		},
+		{
+			"name":"Meteor Knight Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header": 1,
+			"entries":[
+				"You gain Meteor Knight spells at the swordmage levels listed.",
+				{
+					"type":"table",
+					"caption": "Meteor Knight Spells",
+					"colLabels":[
+						"Swordmage Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell magnify gravity|egw}"
+						],
+						[
+							"5th",
+							"{@spell immovable object|egw}"
+						],
+						[
+							"9th",
+							"{@spell melf's minute meteors|xge}"
+						],
+						[
+							"13th",
+							"{@spell gravity sinkhole|egw}"
+						],
+						[
+							"17th",
+							"{@spell destructive wave||destructive wave (radiant only)}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name":"Aegis of Gravity",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"As a bonus action you can activate this Aegis to infuse yourself with the strength and gravity of the stars. You immediately gain the benefits of your Arcane Ward. For the duration of this Aegis, when a creature within 30 feet of you that you can see moves, you can use your reaction to force the creature to make a Strength saving throw against your spell save DC. On a failure, the creature's speed drops to 0 for the rest of the turn. This stops any movement they may have been taking. Your Aegis lasts for 1 minute, ending early if you fall {@condition unconscious} or die."
+			]
+		},
+		{
+			"name":"Archetype Spells",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"You gain archetype spells at the swordmage level listed below."
+			]
+		},
+		{
+			"name":"Student of the Stars",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 3,
+			"header":1,
+			"entries":[
+				"At 3rd level you manipulate your density to withstand more weight than normal. You gain proficiency with {@filter heavy armor|items|type=heavy armor|category=basic} and {@item cartographer's tools|phb}. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+			]
+		},
+		{
+			"name":"Defy Gravity",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 7,
+			"header":2,
+			"entries":[
+				"Starting at 7th level, your magical powers of dunamancy let you exceed your physical limits. You gain proficiency in Strength saving throws. If you already have this proficiency, you instead gain proficiency in Dexterity saving throws. You also have advantage on Strength and Dexterity saving throws made against effects that would push you or knock you {@condition prone}."
+			]
+		},
+		{
+			"name":"Star Fall",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 15,
+			"header":2,
+			"entries":[
+				"At 15th level, you can teleport towards an area in a fiery explosion reminiscent of a meteor. As an action, you can teleport up to 120 feet to an unoccupied space you can see. Any creature within 20 feet of the space you teleport to must make a Strengh saving throw against your spell save DC. On a failure, a creature takes {@damage 4d6} fire damage and is knocked {@condition prone} and {@condition blinded} until the end of your next turn. On a success, a creature takes half as much damage and isn't knocked prone and blinded.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name":"Gravitational Pull",
+			"source":"fanatic66Swordmage",
+			"className":"Swordmage",
+			"classSource":"fanatic66Swordmage",
+			"subclassShortName":"Meteor Knight",
+			"subclassSource":"fanatic66Swordmage",
+			"level": 20,
+			"header":2,
+			"entries":[
+				"Beginning at 20th level, as a bonus action or as part of your bonus action to activate your Aegis, you create heavy gravitational pull in 30 feet aura centered on you for 1 minute. The area inside the aura is difficult terrain for everyone but you. Any creature of your choosing that starts their turn inside the aura must make a Strength saving throw. On a failure, the creature takes {@damage 4d6} bludgeoning damage and is pulled to an unoccupied space adjacent to you. On a success, the creature takes half damage and isn't pulled.",
+				"Once you use this feature, you can't use it again until you finish a long rest"
+			]
+		}
+	],
+	"spell":[
+		 {
+			"name":"Freezing Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon becomes ice cold as you strike down your foe to cover them with frost. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and they subtract a d4 from their next attack roll.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"cold"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Mind Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "E",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon becomes empowered with deadly psychic force. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and they subtract a {@dice d4} from their next saving throw.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} psychic damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"psychic"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Mountain Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "T",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your body and blade become strengthened by the earth. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and if the creature is of a large or smaller size, you can push the creature back 5 feet.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} bludgeoning damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"bludgeoning"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Protective Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "A",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"When you strike a foe, you surround them with magic that lashes out if they attack your allies. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in abjuring energy until the start of your next turn. If the target willingly attacks a creature other than you before then, it immediately takes {@damage 1d8} force damage, and the spell ends.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} force damage to the target, and the damage the target takes for attacking another creature increases to {@dice 2d8}. Both damage rolls increase by {@dice 1d8} at 11th level and 17th level."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Vampiric Blade",
+			"source":"fanatic66Swordmage",
+			"level": 0,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 5
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"Your weapon radiates necrotic energy as you steal lifeforce from your enemy. As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and you gain temporary hit points equal to your spellcasting modifier. The temporary hit points disappear at the start of your next turn.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} necrotic damage to the target. The damage roll increase to {@dice 2d8} at 11th level and {@dice 3d8} at 17th level."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Corrosive Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 10
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You slam your blade into the ground and burning acid bursts forth around you. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 3d4} acid damage and another {@damage 1d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.",
+				"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@damage 2d4} and the secondary damage also increases by {@damage 1d4} for each slot level above 1st."
+			],
+			"damageInflict":[
+				"acid"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Ensnaring Pull",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"round",
+						"amount":1
+					}
+				}
+			],
+			"entries":[
+				"You pull a distant foe through dimensional space to be struck by your blade. As an action, choose a creature within 30 feet of you and they must succeed a Charisma saving throw. If they fail, you teleport the creature to an unoccupied space adjacent to you, and you can make one melee weapon attack against it. The spell fails if there is no unoccupied space adjacent to you or if you teleport the creature to a space not on the ground or not on a floor.",
+				"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. You make one melee weapon attack against each creature you pull in."
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+						"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Predictive Strike",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "D",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You briefly glimpse into the future to see how your foe will react before they do. You have advantage on weapon attack rolls until this spell ends. If you hit, the attack deals an additional {@damage 1d6} force damage and the spell ends."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Venomous Strike",
+			"source":"fanatic66Swordmage",
+			"level": 1,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true	
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, you coat your weapon with toxic poison, and the attack deals an extra {@damage 1d6} poison damage to the target. Additionally, the target must succeed on a Constitution saving throw or be {@condition poisoned} until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"poison"
+			],
+			"conditionInflict":[
+				"poisoned"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Electrifying Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 10
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"Empowering your blade with crackling electricity, you hold your weapon aloft as lightning strikes out at your surrounding foes. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 3d8} lightning damage and it can't take reactions until the start of its next turn. On a successful save, the creature takes half as much damage and can take reactions. The creature has disadvantage on the saving throw if they are wearing armor made of metal.",
+				"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d8} for each slot level above 2nd."
+			],
+			"damageInflict":[
+				"lightning"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Far Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You create a temporary portal next to a distant foe to strike at them with your blade. Choose a creature within 60 feet of you and you can make one melee attack against them. The attack deals an extra {@damage 2d6} force damage to the target.",
+				"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d6} and the range increases by 15 feet for each slot level above 2nd."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Isolating Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with dimensional power, and the attack deals an extra 2d6 force damage to the target. Additionally, the target must succeed on a Charisma saving throw or be teleported to an unoccupied space up to 30 feet away from you. That space must be on the ground or on a floor."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Withering Strike",
+			"source":"fanatic66Swordmage",
+			"level": 2,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with life draining energy, and the attack deals an extra {@damage 2d6} necrotic damage to the target. Additionally, the target must succeed on a Constitution saving throw or the target deals only half damage with weapon attacks that use Strength until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Blade Storm",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"cone",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You swing your weapon creating magical duplicates that strike at all foes. Each creature you choose within the area must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one.",
+				"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"N"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Dimensional Retaliation",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition":"which you take when you see a creature within 60 feet of you attack you or a friendly creature"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You teleport to an unoccupied space within 5 feet of the creature that attacked you. You can then make one melee weapon attack against the creature. On a hit, the attack deals an additional {@damage 3d8} force damage."
+			],
+			"damageInflict":[
+				"force"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Flaming Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 20
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"Raging fire bursts from your blade to engulf your foes in an inferno. Any creature within the area must make a Dexterity saving throw. On a failed save, the creature takes {@damage 4d8} fire damage and is burning. On a successful save, a creature takes half the damage and isn't burning. A creature that is burning takes {@damage 2d8} fire damage at the start of its turns. A creature can end the burning by using its action to pat out the flames.",
+				"When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@damage 1d8} for each slot level above 3rd."
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Frigid Strike",
+			"source":"fanatic66Swordmage",
+			"level": 3,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon chills with elemental frost, and the attack deals an extra {@damage 3d8} cold damage to the target. Additionally, the target must succeed on a Constitution saving throw or be restrained until the spell ends.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"cold"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Bleeding Blade",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "N",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon darkens with necrotic power, and the attack deals an extra {@damage 4d8} necrotic damage to the target. Additionally, the target must succeed on a Constitution saving throw or be wounded for the spell's duration. While wounded, hit points lost to this spell can be regained only through a Short or Long Rest, rather than by regeneration, magic, or any other means.",
+				"At the end of each of its turns, the target repeats the saving throw. It takes {@damage 2d8} necrotic damage on a failed save, and the spell ends on a successful one."
+			],
+			"damageInflict":[
+				"necrotic"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Dimensional Vortex",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "C",
+			"time":[
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition":"which you take when you see a creature within 60 feet of you attack you or a friendly creature"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 60
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You interrupt a creature's attack by warping space with your blade, causing your foe to appear a short distance away and unleash its attack elsewhere. The creature must succeed a Charisma saving throw or be teleported to an unoccupied space up to 60 feet away from their original location. That space must be on the ground or on a floor. The creature then makes their attack against another creature of your choosing within range. If there is no creature within range, the attack is expended."
+			],
+			"savingThrow":[
+				"charisma"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Fiery Charge",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount": 120
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"instant"
+				}
+			],
+			"entries":[
+				"You hurl your blade and it transforms into a line of roaring fire 5 feet wide that extends out from you to a creature within range. Each creature in the line excluding you and the target must make a Dexterity saving throw, taking {@damage 4d8} fire damage on a failed save, and half as much damage on a successful one. You then teleport to an unoccupied square within 5 feet of the target. The roaring flames transform back into your weapon and returns to your hand. You can then make one melee weapon attack against the target. On a hit, you deal an extra {@damage 4d8} fire damage.",
+				"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot above 4th."
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"areaTags":[
+				"L"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Quaking Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 4,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You slam your weapon into the ground and seismic energy erupts from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. The area inside the aura is difficult terrain to everyone except you.",
+				"When the aura appears, each creature of your choice that is within the aura's area must succeed on a Dexterity saving throw or be knocked {@condition prone}. Each creature of your choice that starts their turn in the aura must also make the same Dexterity saving throw."
+			],
+			"savingThrow":[
+				"dexterity"
+			],
+			"conditionInflict":[
+				"prone"
+			],
+			"areaTags":[
+				"R"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Nightmare Swordburst",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "E",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"radius",
+				"distance":{
+					"type":"feet",
+					"amount": 30
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"A powerful wave of terrifying visions burst from your blade as your foes see you as their worst nightmare. Each creature you choose within the area must make a Wisdom saving throw. On a failed save, the creature takes {@damage 6d8} psychic damage and is {@condition frightened} of you for the spell's duration. On a successful save, a creature takes half the damage and isn't frightened.",
+				"At the end of each of its turns, a frightened creature repeats the saving throw and the creature is no longer frightened on a successful save."
+			],
+			"damageInflict":[
+				"psychic"
+			],
+			"conditionInflict":[
+				"frightened"
+			],
+			"savingThrow":[
+				"wisdom"
+			],
+			"areaTags":[
+				"MT",
+				"S"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Prismatic Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"Your blade shimmers in multicolor light that entails destruction for your foes. Each time you hit a creature with a weapon attack before this spell ends, roll a {@dice d8} to determine which color affects it.",
+				{
+					"type":"table",
+					"colLabels":[
+						"{@dice d8}",
+						"Color",
+						"Effect"
+					],
+					"colStyles":[
+						"col-1 text-center",
+						"col-1",
+						"col-13"
+					],
+					"rows":[
+						[
+							"1",
+							"Red",
+							"The creature takes an additional {@damage 4d6} fire damage."
+						],
+						[
+							"2",
+							"Orange",
+							"The creature takes an additional {@damage 4d6} acid damage."
+						],
+						[
+							"3",
+							"Yellow",
+							"The creature takes an additional {@damage 4d6} lightning damage."
+						],
+						[
+							"4",
+							"Green",
+							"The creature takes an additional {@damage 4d6} poison damage."
+						],
+						[
+							"5",
+							"Blue",
+							"The creature takes an additional {@damage 4d6} cold damage."
+						],
+						[
+							"6",
+							"Indigo",
+							"The creature must make a Constistution saving throw or be {@condition restrained} until the end of your next turn."
+						],
+						[
+							"7",
+							"Purple",
+							"The creature must make a Constitution saving throw be {@condition blinded} until the end of your next turn."
+						],
+						[
+							"8",
+							"{@i Special}",
+							"The creature is affected by two colors. Roll twice more, rerolling any 8."
+						]
+					]
+				}
+			],
+			"damageInflict":[
+				"fire"
+			],
+			"conditionInflict":[
+				"restrained",
+				"blinded"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Shocking Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "V",
+			"time":[
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"The next time you hit a creature with a weapon attack before this spell ends, you energize your blade with crackling electricity, and the attack deals an extra {@damage 5d10} lightning damage. Additionally, the creature must make a Constitution saving throw or be {@condition stunned} for the spell's duration.",
+				"At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict":[
+				"lightning"
+			],
+			"conditionInflict":[
+				"stunned"
+			],
+			"savingThrow":[
+				"constitution"
+			],
+			"areaTags":[
+				"ST"
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		},
+		{
+			"name":"Time Warp Blade",
+			"source":"fanatic66Swordmage",
+			"level": 5,
+			"school": "T",
+			"time":[
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"self"
+				}
+			},
+			"components":{
+				"v":true,
+				"s":false,
+				"m":"a weapon"
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"minute",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"entries":[
+				"You warp time around your blade to speed yourself up and catch glimpses of the immediate future. For the spell's duration, you have advantage on attack rolls, ability checks, and saving throws, but not advantage on Constitution saving throws to maintain concentration of this spell. Additionally, other creatures have disadvantage on attack rolls against you for the duration."
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Swordmage",
+							"source":"fanatic66Swordmage"
+					}
+				]
+			}
+		}
+	]
+}
