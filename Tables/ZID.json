@@ -788,6 +788,40 @@
 					"1 {@creature frost giant*} riding 1 {@creature mammoth*}"
 				]	
 			]
+		},
+		{
+			"name":"AOEs",
+			"source":"ZID",
+			"colLabels": [
+				"Area",
+				"Number of Targets"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"Cone",
+					"Size ÷ 10 (round up)"
+				],
+				[
+					"Cube or square",
+					"Size ÷ 5 (round up)"
+				],
+				[
+					"Cylinder",
+					"Radius ÷ 5 (round up)"
+				],
+				[
+					"Line",
+					"Length ÷ 30 (round up)"
+				],
+				[
+					"Sphere or circle",
+					"Radius ÷ 5 (round up)"
+				]
+			]
 		}
 	]
 }
