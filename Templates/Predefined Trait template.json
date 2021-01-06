@@ -1,0 +1,14 @@
+Predefined Trait template
+
+	"makebrewCreatureTrait": [
+        {
+            "name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
+            "source": "SanelisSaga",
+            "entries": [
+                "As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
+            ]
+        }
+    ],
+
+
+Place before monster tag header and after meta...

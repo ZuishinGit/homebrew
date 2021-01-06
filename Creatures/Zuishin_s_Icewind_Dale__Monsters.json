@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1609185643,
-		"dateLastModified": 1609185643
+		"dateAdded": 1609891833,
+		"dateLastModified": 1609891833
 	},
 	"monster": [
 		{
@@ -487,10 +487,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"hill",
-				"mountain",
-				"underdark"
+				"arctic",
+				"mountain"
 			],
 			"fluff": {
 				"name": "Chimera",
@@ -573,7 +571,7 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 14,
 					"from": [
 						"natural armor"
 					]
@@ -588,14 +586,11 @@
 				"climb": 30
 			},
 			"str": 14,
-			"dex": 18,
+			"dex": 17,
 			"con": 12,
 			"int": 2,
 			"wis": 11,
 			"cha": 4,
-			"skill": {
-				"stealth": "+8"
-			},
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -611,13 +606,7 @@
 				{
 					"name": "Gleaming Carapace",
 					"entries": [
-						"If the spider uses at least half its movement on a turn, it gains half-cover against attackers relying on their sight, increasing its AC to 18."
-					]
-				},
-				{
-					"name": "Reflective Prism",
-					"entries": [
-						"When the spider takes radiant damage, it immediately recharges its Brilliant Ray, and can then use it as a reaction."
+						"The spider can dodge as a bonus action."
 					]
 				},
 				{
@@ -637,19 +626,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the creature must succeed a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 minute. The creature can repeat this saving throw at the end of each of their turns."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Razor Leg",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Brilliant Ray {@recharge 4}",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 60 ft., up to two targets. {@h}18 ({@damage 4d6 + 4}) radiant damage, and the target is {@condition blinded} until the end of the spider's next turn."
+						"{@atk rs} {@hit 5} to hit, range 60 ft., up to two targets. {@h}17 ({@damage 4d6 + 3}) radiant damage, and the target is {@condition blinded} until the end of the spider's next turn."
 					]
 				}
 			],
@@ -662,43 +651,10 @@
 				}
 			],
 			"environment": [
-				"desert",
-				"forest",
-				"swamp",
-				"underdark",
-				"urban"
+				"hill",
+				"mountain",
+				"underdark"
 			],
-			"fluff": {
-				"name": "Giant Spider",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims."
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Giant Spider.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://noads.5e.tools/img/MM/Giant Spider.png?v=1.117.3",
-			"soundClip": {
-				"type": "external",
-				"url": "https://noads.5e.tools/audio/bestiary/giant-spider.mp3?v=1.117.3"
-			},
 			"traitTags": [
 				"False Appearance"
 			],
@@ -718,8 +674,7 @@
 				"RCH"
 			],
 			"conditionInflict": [
-				"blinded",
-				"poisoned"
+				"blinded"
 			]
 		},
 		{
@@ -1220,102 +1175,6 @@
 			]
 		},
 		{
-			"name": "Arctic Cave Tarsier",
-			"shortName": "tarsier",
-			"source": "ZIDM",
-			"size": "S",
-			"type": "beast",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"average": 3,
-				"formula": "1d6"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 8,
-			"dex": 14,
-			"con": 11,
-			"int": 5,
-			"wis": 12,
-			"cha": 6,
-			"passive": 11,
-			"resist": [
-				"cold"
-			],
-			"cr": "0",
-			"trait": [
-				{
-					"name": "Pack Tactics",
-					"entries": [
-						"The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-					]
-				},
-				{
-					"name": "Familiar",
-					"entries": [
-						"With the DM's permission, the {@spell find familiar} spell can summon a flying monkey."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target {@h}1 ({@damage 1d4 - 1}) piercing damage."
-					]
-				}
-			],
-			"fluff": {
-				"name": "Flying Monkey",
-				"source": "ToA",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											"Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the {@spell find familiar} spell can summon a flying monkey."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/ToA/Flying Monkey.jpg"
-						}
-					}
-				]
-			},
-			"familiar": true,
-			"tokenUrl": "https://noads.5e.tools/img/ToA/Flying Monkey.png?v=1.117.4",
-			"traitTags": [
-				"Pack Tactics"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
-		{
 			"name": "Xvart Illusionist",
 			"shortName": "illusionist",
 			"source": "ZIDM",
@@ -1550,162 +1409,6 @@
 			]
 		},
 		{
-			"name": "Flumph Soldier",
-			"shortName": "flumph",
-			"source": "ZIDM",
-			"size": "S",
-			"type": "aberration",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"formula": "4d6 + 4",
-				"average": 18
-			},
-			"speed": {
-				"walk": 5,
-				"fly": 30
-			},
-			"str": 10,
-			"dex": 17,
-			"con": 12,
-			"int": 14,
-			"wis": 14,
-			"cha": 11,
-			"skill": {
-				"arcana": "+4",
-				"history": "+4",
-				"religion": "+4"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 12,
-			"vulnerable": [
-				"psychic"
-			],
-			"languages": [
-				"understands Undercommon but can't speak",
-				"telepathy 60 ft."
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Advanced Telepathy",
-					"entries": [
-						"The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy."
-					]
-				},
-				{
-					"name": "Prone Deficiency",
-					"entries": [
-						"If the flumph is knocked {@condition prone}, roll a die. On an odd result, the flumph lands upside-down and is {@condition incapacitated}. At the end of each of its turns, the flumph can make a {@dc 10} Dexterity saving throw, righting itself and ending the {@condition incapacitated} condition if it succeeds."
-					]
-				},
-				{
-					"name": "Telepathic Shroud",
-					"entries": [
-						"The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Tendrils",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}8 ({@damage 2d4 + 3}) piercing damage plus 5 ({@damage 2d4}) acid damage. At the end of each of its turns, the target must make a {@dc 12} Constitution saving throw, taking 5 ({@damage 2d4}) acid damage on a failure or ending the recurring acid damage on a success. A {@spell lesser restoration} spell cast on the target also ends the recurring acid damage."
-					]
-				},
-				{
-					"name": "Stench Spray (1/Day)",
-					"entries": [
-						"Each creature in a 15-foot cone originating from the flumph must succeed on a {@dc 12} Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for {@dice 1d4} hours. The coated creature is {@condition poisoned} as long as the stench lasts, and other creatures are {@condition poisoned} while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar."
-					]
-				}
-			],
-			"environment": [
-				"underdark"
-			],
-			"fluff": {
-				"name": "Flumph",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"The mysterious flumphs drift through the Underdark, propelled through the air by the jets whose sound gives them their name. A flumph glows faintly, reflecting its moods in its color. Soft pink means it is amused, deep blue is sadness, green expresses curiosity, and crimson is anger.",
-									{
-										"name": "Intelligent and Wise",
-										"type": "entries",
-										"entries": [
-											"Flumphs communicate telepathically. Though they resemble jellyfish, flumphs are sentient beings of great intelligence and wisdom, possessing advanced knowledge of religion, philosophy, mathematics, and countless other subjects.",
-											"Flumphs are sensitive to the emotional states of nearby creatures. If a creature's thoughts suggest goodness, a flumph seeks that creature out. When facing creatures that exude evil, a flumph flees."
-										]
-									},
-									{
-										"name": "Psionic Siphons",
-										"type": "entries",
-										"entries": [
-											"Flumphs feed by siphoning mental energy from psionic creatures, and they can be found lurking near communities of mind flayers, aboleths, githyanki, and githzerai. As passive parasites, they take only the mental energy they need, and most creatures feel no loss or discomfort from such feeding.",
-											"Consuming psionic energy reveals the thoughts and emotions of the creatures on which the flumphs feed. Since so many of those creatures are evil, flumphs are often subjected to thoughts, emotions, and hungers that sicken their pure nature. When flumphs encounter good-hearted adventurers, they eagerly share the dark secrets they have learned in the hopes of casting down their evil sources of energy, even if doing so means they must seek out new sources of nourishment."
-										]
-									},
-									{
-										"name": "Flumph Society",
-										"type": "entries",
-										"entries": [
-											"Flumphs live in complex and organized groups called cloisters, within which each flumph has a place and purpose. These harmonious groupings have no need for leaders, since all flumphs contribute in their own way"
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Flumph.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://noads.5e.tools/img/MM/Flumph.png?v=1.118.0",
-			"soundClip": {
-				"type": "external",
-				"url": "https://noads.5e.tools/audio/bestiary/flumph.mp3?v=1.118.0"
-			},
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"CS",
-				"TP",
-				"U"
-			],
-			"damageTags": [
-				"A",
-				"P"
-			],
-			"miscTags": [
-				"AOE",
-				"MW"
-			],
-			"conditionInflict": [
-				"poisoned",
-				"prone"
-			]
-		},
-		{
 			"name": "Xvart Dream Darter",
 			"shortName": "xvart",
 			"source": "ZIDM",
@@ -1899,7 +1602,7 @@
 			]
 		},
 		{
-			"name": "Symbiotic Slime",
+			"name": "Symbiotic Jelly",
 			"shortName": "slime",
 			"source": "ZIDM",
 			"size": "M",
@@ -1955,14 +1658,14 @@
 				"prone"
 			],
 			"languages": [
-				"telepathy 300 ft."
+				"telepathy 60 ft."
 			],
-			"cr": "3",
+			"cr": "4",
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
-						"The slime's spellcasting ability is Intelligence (spell save {@dc 13}). It can cast the following spells, requiring components:"
+						"The jelly's spellcasting ability is Intelligence (spell save {@dc 13}). It can cast the following spells, requiring components:"
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -1981,25 +1684,25 @@
 				{
 					"name": "Amorphous",
 					"entries": [
-						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+						"The jelly can move through a space as narrow as 1 inch wide without squeezing."
 					]
 				},
 				{
 					"name": "Psychic Dissonance",
 					"entries": [
-						"If the slime takes psychic damage, it has disadvantage on attack rolls and ability checks until the end of its next turn, and is immediately polymorphed into its true form."
+						"If the jelly takes psychic damage, it has disadvantage on attack rolls and ability checks until the end of its next turn, and is immediately polymorphed into its true form."
 					]
 				},
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"The slime can use its action to polymorph into an object or creature, or back into its true, amorphous form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"The jelly can use its action to polymorph into an object or creature, or back into its true, amorphous form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
 					]
 				},
 				{
 					"name": "False Appearance (Object Form Only)",
 					"entries": [
-						"While the slime remains motionless, it is indistinguishable from an ordinary object."
+						"While the jelly remains motionless, it is indistinguishable from an ordinary object."
 					]
 				}
 			],
@@ -2007,7 +1710,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The slime makes one pseudopod attack and uses Eat Memories."
+						"The jelly makes one pseudopod attack and uses Eat Memories."
 					]
 				},
 				{
@@ -2019,9 +1722,9 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The slime targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or take 13 ({@damage 3d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The jelly targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or take 13 ({@damage 3d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
-						"When a slime causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
+						"When a jelly causes a target to become memory drained, the jelly learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
 					]
 				}
 			],
@@ -2572,6 +2275,1082 @@
 			"spellcastingTags": [
 				"CL",
 				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "White Pudding",
+			"shortName": "pudding",
+			"source": "ZIDM",
+			"size": "L",
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 5,
+			"con": 16,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"acid",
+				"cold",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The pudding can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the pudding remains motionless, it is indistinguishable from an ordinary patch of ice or packed snow."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) cold damage plus 18 ({@damage 4d8}) acid damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"name": "Black Pudding",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A black pudding resembles a heaving mound of sticky black sludge. In dim passageways, the pudding appears to be little more than a blot of shadow.",
+									"Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone remains behind, wiped clean.",
+									{
+										"type": "entries",
+										"name": "Oozes",
+										"entries": [
+											"Oozes thrive in the dark, shunning areas of bright light and extreme temperatures. They flow through the damp underground, feeding on any creature or object that can be dissolved, slinking along the ground, dripping from walls and ceilings, spreading across the edges of underground pools, and squeezing through cracks.",
+											"The first warning an adventurer receives of an ooze's presence is often the searing pain of its acidic touch. Oozes are drawn to movement and warmth. Organic material nourishes them, and when prey is scarce they feed on grime, fungus, and offal. Veteran explorers know that an immaculately clean passageway is a likely sign that an ooze lairs nearby.",
+											{
+												"name": "Slow Death",
+												"entries": [
+													" An ooze kills its prey slowly. Some varieties, such as black puddings and gelatinous cubes, engulf creatures to prevent escape. The only upside of this torturous death is that a victim's comrades can come to the rescue before it is too late.",
+													"Since not every ooze digests every type of substance, some have coins, metal gear, bones, and other debris suspended within their quivering bodies. A slain ooze can be a rich source of treasure for its killers.",
+													"Whether this is true or not, the Faceless Lord is one of the few beings that can control oozes and imbue them with a modicum of intelligence. Most of the time, oozes have no sense of tactics or self-preservation. They are direct and predictable, attacking and eating without cunning. Under the control of Juiblex, they exhibit glimmers of sentience and malevolent intent."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Unwitting Servants",
+												"entries": [
+													" Although an ooze lacks the intelligence to ally itself with other creatures, others that understand an ooze's need to feed might lure it into a location where it can be of use to them. Clever monsters keep oozes around to defend passageways or consume refuse. Likewise, an ooze can be enticed into a pit trap, where its captors feed it often enough to prevent it from coming after them. Crafty creatures place torches and flaming braziers in strategic areas to dissuade an ooze from leaving a particular tunnel or room."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Spawn of Juiblex",
+												"entries": [
+													" According to the Demonomicon of Iggwilv and other sources, oozes are scattered fragments or offspring of the demon lord Juiblex."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Ooze Nature",
+												"entries": [
+													" An ooze doesn't require sleep."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Black Pudding.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Black Pudding.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/black-pudding.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Amorphous",
+				"False Appearance",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Durezha",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 11",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 15,
+			"skill": {
+				"deception": "+5"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Elvish",
+				"telepathy 120 ft."
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Assume Form",
+					"entries": [
+						"The durezha can assume the appearance of any Medium humanoid it has eaten. It remains in this form for {@dice 1d6} days, during which time the form gradually decays until, when the effect ends, the form sloughs from the demon's body."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The durezha has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Grasping Hair",
+					"entries": [
+						"The durezha can control the length of its hair, out to a maximum distance of 30 feet. A strand of hair that is grappling a creature can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a strand of hair deals no damage to the durezha, which can extrude a replacement strand on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+					]
+				},
+				{
+					"name": "Heartstrings",
+					"entries": [
+						"A creature that comes into contact with the durezha's hair knows the durezha's alignment and current emotional state, and the durezha knows the same of the creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The durezha makes four attacks with its hair, uses Manipulate, and Tangled Drain."
+					]
+				},
+				{
+					"name": "Hair",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 30 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws."
+					]
+				},
+				{
+					"name": "Manipulate",
+					"entries": [
+						"The durezha moves each creature {@condition grappled} by it up to 25 feet."
+					]
+				},
+				{
+					"name": "Tangled Drain",
+					"entries": [
+						"All creatures {@condition grappled} by the durezha take 9 ({@damage 2d8}) piercing damage, and humanoids have their Charisma score reduced by {@dice 1d4}. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a ghoul, unless it has been revived or its corpse has been destroyed. "
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Mindknot",
+					"entries": [
+						"When the durezha takes psychic damage, it can use its reaction to deal the same amount of psychic damage to each creature that is currently {@condition grappled} by it."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Durezha",
+										"entries": [
+											"The durezha is a female ghoul that is born of the corpse of a hag or other unseelie being. In its natural form, the durezha has extremely long hair, which seems to writhe slightly, as if animated."
+										]
+									},
+									{
+										"name": "Corrupted Beauty",
+										"type": "entries",
+										"entries": [
+											"A durezha retains a hag's love for all that is disgusting and vile, and often find themselves obsessed with the feeling of living in a rotting husk. Almost exclusively does a durezha target female humanoids, and they get greater satisfaction from a more beautiful mask."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Daughters of Doresain",
+										"entries": [
+											"Similar to its maurezhi relatives, a durezha can drain a victim's sense of self, though instead of claws it uses its hair. If this affliction is allowed to go far enough, the victim is infected with an unholy hunger for flesh that overpowers their personality and transforms them into a ghoul."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MTF/Maurezhi.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Maurezhi.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/maurezhi.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"E",
+				"TP"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Cryohydra",
+			"source": "ZIDM",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold"
+			],
+			"immune": [],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The hydra can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While the hydra sleeps, at least one of its heads is awake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hydra makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Frost Breath {@recharge 5}",
+					"entries": [
+						"Each head of the hydra exhales a stream of frost in a 20-foot line that is 10 feet wide. A creature in one or more of these lines must make a single {@dc 16} Constitution saving throw or take 9 ({@damage 2d8}) cold damage for each head the creature is affected by, taking half damage on a success."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"name": "Hydra",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The hydra is a reptilian horror with a crocodilian body and multiple heads on long, serpentine necks. Although its heads can be severed, the hydra magically regrows them in short order. A typical specimen has five heads. At the dawn of time, Tiamat, the Queen of Evil Dragons, slew a rival dragon god named Lernaea and cast her blood across the multiverse. Each drop that fell upon a world spawned a multi-headed hydra consumed by a hunger as great as the fallen god's hatred. Great champions are known to test their mettle against these fearsome creatures.",
+									{
+										"name": "Everlasting Hunger",
+										"type": "entries",
+										"entries": [
+											"A rapacious and gluttonous monster, a hydra snatches and tears apart its prey in a frenzy of feeding. When a hydra has cleared a territory of food and driven off any creatures smart enough to avoid it, it moves on to seek its meals elsewhere. A hydra's hunger is so great that if it can't feed, it might turn against itself, its heads attacking each other as the creature eats itself alive."
+										]
+									},
+									{
+										"name": "Hardy Water Dwellers",
+										"type": "entries",
+										"entries": [
+											"Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shallows, and in wetland bogs. A hydra rarely requires shelter from the elements, so it doesn't normally have a lair. Only in colder climes are hydras drawn to the protection of sheltered caverns and ruins. When a hydra sleeps, at least one of its heads remains awake and alert, making the creature difficult to catch by surprise."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Hydra.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Hydra.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/hydra.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Fangdrake",
+			"source": "ZIDM",
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 36",
+				"average": 114
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"int": "+4",
+				"wis": "+4",
+				"cha": "+1"
+			},
+			"skill": {
+				"perception": "+4",
+				"athletics": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the fangdrake moves at least 20 feet straight toward a target and then hits it with its tail on the same turn, the target takes an extra 19 ({@damage 3d12}) slashing damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The fangdrake can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 16} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fangdrake makes three attacks: one with its bite, two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}13 ({@damage 2d8 + 4}) piercing damage. The target must succeed on a {@dc 16} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d12 + 4}) slashing damage. If this attack leaves a creature at 0 hit points, and the creature is large or smaller, the creature is immediately decapitated and dies if it can't survive without that head."
+					]
+				},
+				{
+					"name": "Barbed Rush {@recharge 6}",
+					"entries": [
+						"The fangdrake moves up to its walking speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {@dc 16} Dexterity saving throw or take 35 ({@damage 7d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"name": "Wyvern",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Travelers in the wild sometimes look to the skies to see the dark-winged shape of a wyvern carrying its prey. These cousins to the great dragons hunt the same tangled forests and caverns as their kin. Their appearance sends ripples of alarm through the borderlands of civilization.",
+									"A wyvern has two scaly legs, leathery wings, and a sinewy tail topped with its most potent weapon: a poison stinger. The poison in a wyvern's stinger can kill a creature in seconds. Extremely potent, wyvern poison burns through its victim's bloodstream, disintegrating veins and arteries on its way to the heart. As deadly as wyverns can be, however, hunters and adventurers often track them to claim the venom, which is used in alchemical compounds and to coat weapons.",
+									{
+										"name": "Aerial Hunters",
+										"type": "entries",
+										"entries": [
+											"A wyvern doesn't fight on the ground unless it can't reach its prey by any other means, or if it has been fooled into a position from which aerial combat isn't an option. If forced into a confrontation on the ground, a wyvern crouches low, keeping its stinger poised above its head as it hisses and growls."
+										]
+									},
+									{
+										"name": "Aggressive and Reckless",
+										"type": "entries",
+										"entries": [
+											"A wyvern intent on its prey backs down only if it sustains serious injury, or if its prey eludes it long enough for another easier potential meal to wander along. If it corners a fleeing creature in an enclosure too small to enter, a wyvern guards where the quarry hides, lashing with its stinger whenever opportunity allows.",
+											"Although they possess more cunning than ordinary beasts, wyverns lack the intelligence of their draconic cousins. As such, creatures that maintain their composure as a wyvern hunts them from the air can often elude or trick it. Wyverns follow a direct path to their prey, with no thought given to possible ambushes."
+										]
+									},
+									{
+										"name": "Tamed Wyverns",
+										"type": "entries",
+										"entries": [
+											"A wyvern can be tamed for use as a mount, but doing so presents a difficult and deadly challenge. Raising one as a hatchling offers the best results. However, a wyvern's violent temperament has cost the life of many a would-be master."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Wyvern.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Wyvern.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/wyvern.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Scathe",
+			"shortName": "scathe",
+			"source": "ZIDM",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"scathe"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"black ice {@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 10",
+				"average": 45
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 13,
+			"int": 7,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"acrobatics": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Scathe"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Snow Camouflage",
+					"entries": [
+						"The scathe has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "Expert Skaters",
+					"entries": [
+						"When the scathe is standing on solid ice, its speed increases to 40 ft., and its movement does not provoke attacks of opportunity. It also automatically passes checks made to maintain balance on {@hazard slippery ice}, and has advantage on perception checks to notice ice related hazards."
+					]
+				},
+				{
+					"name": "Heatsense",
+					"entries": [
+						"The scathe knows the general direction of heat sources within one mile of it, such as those produced by a small flame, or even the latent body heat of a human."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Scathes typically carry equipment made from black ice, a light material that is hard to use unless you are accustomed to arctic temperatures. These bonuses are accounted for in the Scathe's statblock."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The scathe has advantage on attack rolls against any creature it has surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Black Ice Sickle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed a {@dc 11} Constitution save or be {@condition poisoned}. While {@condition poisoned} this way, the target's speed becomes 0, and it takes 9 ({@damage 2d8}) cold damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending these effects on a success."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Scathes have long curling claws on their feet that make excellent natural ice skates, this in junction with their wing-like membranes that allow them to sail on their skates using arctic winds makes scathes the most deadly creatures on ice. They lair in icy ravines or caverns and are excellent pack ambushers, preying on icefishers and other creatures that happen upon their territory.",
+									{
+										"name": "Dragon Hunters",
+										"type": "entries",
+										"entries": [
+											"Their immunity to cold damage combined with their simple ferocity makes scathes confident even when facing dragons, and they are known to come out on top when it comes to smaller dragons."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Draumcat",
+			"source": "ZIDM",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d10 + 18",
+				"average": 67
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 14,
+			"int": 14,
+			"wis": 12,
+			"cha": 3,
+			"skill": {
+				"stealth": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The draumcat has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Chameleon Pelt",
+					"entries": [
+						"The draumcat has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the draumcat moves at least 20 feet straight toward a creature and then hits it with a rake attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the draumcat can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d10 + 3}) piercing damage. If the draumcat has advantage on the attack roll, it deals an additional 18 ({@damage 4d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Rake",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d10 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shimmering Pelt {@recharge 4}",
+					"entries": [
+						"The draumcat magically attempts to illude creatures within 90 feet of it that can see it, forcing them to make a {@dc 14} Intelligence saving throw. Creatures that fail this saving throw are placed under an illusion that makes the target believe they are being gradually frozen, {@condition restrained||restraining} them. The creature must repeat the saving throw at the end of its next turn. On a failure, the creature withdraws into its own mind, falling {@condition unconscious} until freed by a {@spell dispel magic} spell or similar magic. Before a creature falls {@condition unconscious} from this illusion, it may use an action to attempt a {@dc 16} Intelligence ({@skill Investigation}) check, dispelling the illusion on a success.",
+						"This action has no effect on undead or constructs."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest)",
+					"entries": [
+						"In response to taking damage, the draumcat turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"underdark"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Pounce"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Arctic Cave Tarsier",
+			"shortName": "tarsier",
+			"source": "ZIDM",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 11,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"resist": [
+				"cold"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"With the DM's permission, the {@spell find familiar} spell can summon a flying monkey."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target {@h}1 ({@damage 1d4 - 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"name": "Flying Monkey",
+				"source": "ToA",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the {@spell find familiar} spell can summon a flying monkey."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/ToA/Flying Monkey.jpg"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://noads.5e.tools/img/ToA/Flying Monkey.png?v=1.117.4",
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
 			],
 			"miscTags": [
 				"MW"
