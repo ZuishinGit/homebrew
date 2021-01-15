@@ -17,7 +17,7 @@
 	},
 	"adventure":[
 		{
-			"name": "Tales from the Yawning Portal: The Hidden Shrine of Tamoachan",
+			"name": "The Hidden Shrine of Tamoachan: Redux",
 			"id": "THSoTR",
 			"source": "THSoTR",
 			"coverUrl": "img/covers/TftYP.png",
@@ -133,6 +133,8 @@
 	],
 	"adventureData":[
 		{
+			"id": "THSoTR",
+			"source": "THSoTR",
 			"data": [
 				{
 					"type": "section",
