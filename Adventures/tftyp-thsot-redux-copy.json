@@ -65,7 +65,7 @@
 					]
 				},
 				{
-					"name": "Lower Chambers (1 - 25)",
+					"name": "Lower Chambers",
 					"headers": [
 						"1. The Vault of Chicomoztoc",
 						"2. The Hall of Thrashing Canes",
@@ -97,7 +97,7 @@
 					]
 				},
 				{
-					"name": "First Tier (26 - 39)",
+					"name": "First Tier",
 					"headers": [
 						"26. Ramp",
 						"27. Stairs",
@@ -117,7 +117,7 @@
 					]
 				},
 				{
-					"name": "Second Tier (40 - 47)",
+					"name": "Second Tier",
 					"headers": [
 						"40. Dragon Breath",
 						"41. Free Gold",
@@ -130,7 +130,7 @@
 					]
 				},
 				{
-					"name": "Third Tier (48 - 53)",
+					"name": "Third Tier",
 					"headers": [
 						"48. Hound of the Bat",
 						"49. Sacred Chitza-Atlan",
@@ -141,7 +141,7 @@
 					]
 				},
 				{
-					"name": "Temple Grounds (54)",
+					"name": "Temple Grounds",
 					"headers": [
 						"54. Temple Ruin"
 					]
@@ -325,7 +325,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Lower Chambers (1 - 25)",
+					"name": "Lower Chambers",
 					"entries": [
 						{
 							"type": "entries",
@@ -1467,7 +1467,7 @@
 				},
 				{
 					"type": "section",
-					"name": "First Tier (26 - 39)",
+					"name": "First Tier",
 					"entries": [
 						{
 							"type": "entries",
@@ -2127,7 +2127,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Second Tier (40 - 47)",
+					"name": "Second Tier",
 					"entries": [
 						{
 							"type": "entries",
@@ -2628,7 +2628,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Third Tier (48 - 53)",
+					"name": "Third Tier",
 					"entries": [
 						{
 							"type": "entries",
@@ -2827,7 +2827,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Temple Grounds (54)",
+					"name": "Temple Grounds",
 					"id": "138",
 					"entries": [
 						{
