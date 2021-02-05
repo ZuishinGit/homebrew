@@ -1,0 +1,227 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"CTT",
+				"abbreviation":"CTT",
+				"full":"Cloistered Temple of Thassa",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"adventure":[
+		{
+			"name":"Cloistered Temple of Thassa",
+			"id":"CTT",
+			"source":"CTT",
+			"coverUrl":"https://cdn.discordapp.com/attachments/647279327477760000/807244076759908382/map_70x50.png",
+			"published":"1612524290",
+			"storyline":"Zuishin's Dungeons",
+			"level":{
+				"start": 8,
+				"end": 8
+			},
+			"contents":[
+				{
+					"name":"Preface",
+					"headers":[
+						"Synopsis",
+						"Temple Features",
+						{
+							"depth": 1,
+							"header": "Ceilings"
+						},
+						{
+							"depth": 1,
+							"header": "Doors"
+						}
+					]
+				},
+				{
+					"name":"Approaching the Island",
+					"headers":[
+					]
+				},
+				{
+					"name":"Temple of Thassa",
+					"headers":[
+						"1. Vestibule",
+						"2. Sepulchre",
+						"3. Library",
+						"4. Bath",
+						"5. Dining Hall",
+						"6. Cloister",
+						"7. Robing Chambers",
+						"8. Antechamber",
+						"9. Gorgon Guardroom",
+						"10. Bronze Iris",
+						"11. Divination Pool"
+						"12. Ritual Hall",
+						"13. Vault",
+						"14. Banquet Hall"
+					]
+				}
+			]
+		}
+	],
+	"adventureData":[
+		{
+			"id":"CTT",
+			"source":"CTT",
+			"data":[
+				{
+					"type":"section",
+					"name":"Preface",
+					"entries":[
+						"",
+						{
+							"type":"entries",
+							"name":"Synopsis",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Temple Features",
+							"entries":[
+								"",
+								{
+									"type":"entries",
+									"name":"Ceilings",
+									"entries":[
+										""
+									]
+								},
+								{
+									"type":"entries",
+									"name":"Doors",
+									"entries":[
+										""
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type":"section",
+					"name":"Approaching the Island",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"section",
+					"name":"Temple of Thassa",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"1. Vestibule",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"2. Sepulchre",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"3. Library",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"4. Bath",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"5. Dining Hall",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"6. Cloister",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"7. Robing Chambers",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"8. Antechamber",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"9. Gorgon Guardroom",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"10. Bronze Iris",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"11. Divination Pool",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"12. Ritual Hall",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"13. Vault",
+							"entries":[
+								""
+							]
+						},
+						{
+							"type":"entries",
+							"name":"14. Banquet Hall",
+							"entries":[
+								""
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
