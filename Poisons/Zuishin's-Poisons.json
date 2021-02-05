@@ -1,0 +1,641 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZPSN",
+				"abbreviation":"PSN",
+				"full":"Zuishin's Poisons",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Yaksa",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 170000,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						"White liquid or powder that smells like cherries."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						"After 4 ({@dice 1d8}) rounds, the creature becomes {@condition poisoned} for 1 minute. At the start of each of the creature's turns they must succeed on a DC 13 Constitution saving throw or take 18 ({@dice 4d8}) poison damage. After three successful saves, the poison ends."
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Thrum",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 190000,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						"Light blue liquid that smells like sour lemon."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						"After 2 ({@dice 1d4}) rounds, the creature is forced to make a DC 12 Constitution saving throw. On a failure, the creature takes 21 ({@dice 6d6}) poison damage, and is {@condition poisoned} until the end of their next turn. On a success the creature takes half damage and isn't {@condition poisoned}."
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Braylock",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						"Syrupy amber liquid that has no odor."
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						"The creature must make a DC 16 Constitution saving throw, taking 23 ({@dice 5d8}) poison damage on a failed save, and half as much on a success."
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Cuph",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Nibon",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Tubon",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Kolas",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Breek",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Jima",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Lomat",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Frin",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Ajida",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Galas",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Trif",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Silver Lotus",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Black Mead",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Devil-Ale",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Kumba",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Tylatch",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Vedya",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Mufa",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Gurch",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Praka",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"value": 1,
+			"poison": true,
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Appearance",
+					"entries":[
+						""
+					]
+				},
+				{
+					"type":"entries",
+					"name":"Effect",
+					"entries":[
+						""
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		}
+	]
+}

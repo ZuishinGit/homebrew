@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1609891833,
-		"dateLastModified": 1609891833
+		"dateAdded": 1612523747,
+		"dateLastModified": 1612523747
 	},
 	"monster": [
 		{
@@ -3354,6 +3354,1760 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Duergar Crossbowman",
+			"shortName": "duergar",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 11,
+			"int": 11,
+			"wis": 10,
+			"cha": 9,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Dwarvish",
+				"Undercommon"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Duergar Resilience",
+					"entries": [
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Enlarge (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+					]
+				},
+				{
+					"name": "Heavy crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "War pick",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage, or 10 ({@damage 2d8 + 1}) piercing damage while enlarged."
+					]
+				},
+				{
+					"name": "Invisibility (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The duergar magically turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Duergar",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The tyrannical duergar, also known as gray dwarves, dwell in fantastic cities deep in the Underdark. Using ancient dwarven knowledge and myriad slaves, they work tirelessly to expand their subterranean kingdoms.",
+									"Most duergar (including females) are bald and have ashen gray skin. They wear drab clothing designed to blend in with stone, along with simple jewelry that reflects their severe and utilitarian demeanor.",
+									{
+										"name": "Slaves to Slavers",
+										"type": "entries",
+										"entries": [
+											"The duergar were once dwarves, before their greed and endless delving beneath the earth brought them into contact with the mind flayers. Held in captivity for generations by the illithids, the dwarves eventually won their independence with the aid of the evil god Laduguer. Slavery had forever changed them, however, darkening their spirits to make the duergar as evil as the tyrants they had escaped. Despite winning their freedom, duergar are dour, pessimistic, untrusting creatures, always toiling and complaining, with no memory of what it means to be happy or proud. Their craftsmanship and accomplishments endure, yet they are bereft of warmth or artistry.",
+											"Duergar make war against their dwarven kin and all other subterranean races. They forge alliances when it is convenient, then break those alliances when they have nothing more to gain. They take and hold slaves to toil in the Underdark, regarding them as free labor and crude currency."
+										]
+									},
+									{
+										"name": "Tough as Stone",
+										"type": "entries",
+										"entries": [
+											"Like dwarves, duergar have strong constitutions. Adding to their physical stamina is an incredible mental fortitude resulting from their time as slaves of the illithids. A duergar's mind is a fortress, able to shrug off charms, illusions, and other spells."
+										]
+									},
+									{
+										"name": "Born of Darkness",
+										"type": "entries",
+										"entries": [
+											"The Underdark is saturated with strange magical power, which the duergar absorbed over generations of imprisonment. A duergar can increase its size and strength for a short time, becoming a powerful ogre-sized warrior. If it faces a foe it can't fight, or when spying on creatures approaching its territory, it can just as easily become {@condition invisible} to slip away into the darkness. Eons spent in the Underdark also sharpened their {@sense darkvision}, allowing them to see twice as far as other dwarves. This keen eyesight comes at a cost, however, as a duergar's vision is compromised by sunlight."
+										]
+									},
+									{
+										"name": "Infernal Master",
+										"type": "entries",
+										"entries": [
+											"Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in order to cultivate the evil brimming in the hearts of the gray dwarves. He offers them divine guidance and vengeance against their enemies while urging them on toward greater acts of tyranny, all the while concealing his true identity."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Duergar.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Duergar.png?v=1.119.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/duergar.mp3?v=1.119.1"
+			},
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"D",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Shadar-Kai Thug",
+			"shortName": "thug",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thug makes two attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) poison damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step (1/Day)",
+					"entries": [
+						"The thug can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Soul Monger.png?v=1.121.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Lokelani, Seer of Stars",
+			"shortName": "Lokelani",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"triton"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 32",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 16,
+			"wis": 18,
+			"cha": 11,
+			"skill": {
+				"religion": "+11",
+				"history": "+11",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Lokelani's spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell commune}",
+						"{@spell create food and water}",
+						"{@spell sacred flame}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell cure wounds}",
+							"{@spell inflict wounds}",
+							"{@spell mass healing word}"
+						],
+						"1e": [
+							"{@spell legend lore}",
+							"{@spell scrying}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The triton can breathe air and water."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The triton can take the Disengage or Hide actions as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Divine Defense",
+					"entries": [
+						"While Lokelani is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Lokelani has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lokelani makes three attacks with her coral bow."
+					]
+				},
+				{
+					"name": "Coral Bow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 80/320 ft., one target. {@h}10 ({@damage 2d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Triton Shorestalker",
+				"source": "MOT",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Some insults don't wash away with the tides. When surface dwellers threaten the safety of triton communities, impede upon Thassa's holiest depths, or steal the treasures of the deep, triton shorestalkers seek vengeance. Using speed and poison harvested from deadly sea beasts, these triton assassins slip into shallow waters and strike when least expected. Often, surface dwellers don't even realize they've been attacked by shorestalkers, chalking disappearances and deaths up to the innumerable dangers of the sea.",
+							"Clever, far-ranging people of the sea, tritons live rich lives unknown to most land-dwelling individuals. While the waves separate most tritons from land-dwellers, occasionally the inhabitants of the surface and the deep come into conflict. In such cases, tritons prove skilled at sabotaging ocean-going vessels, employing water-based magic, and otherwise whipping up the fury of the sea. Few dare insult tritons in their home environment, but those who do and survive often learn that the tritons' wrath doesn't end at the shore."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MOT/Triton Shorestalker.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807109290946854932/piscineProphet.png",
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"P"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Shadar-Kai Thug",
+			"shortName": "thug",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 11,
+			"int": 10,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thug makes two attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) poison damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step (1/Day)",
+					"entries": [
+						"The thug can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108970862477322/shadarKai17.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Shadar-Kai Veiled One",
+			"shortName": "veiled one",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"intimidation": "+1",
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the veiled one can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Mortal Blow",
+					"entries": [
+						"The veiled one deals 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks)."
+					]
+				},
+				{
+					"name": "Fell-touched Sight",
+					"entries": [
+						"Magical darkness doesn't impede the veiled one's darkvision."
+					]
+				},
+				{
+					"name": "Slayer",
+					"entries": [
+						"In the first round of a combat, the veiled one has advantage on attack rolls against any creature that hasn't taken a turn yet. If the veiled one hits a creature that round who was surprised, the hit is automatically a critical hit."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The veiled one has advantage on saving throws against being {@condition charmed}, and magic can't put the veiled one to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The veiled one makes two scimitar or dart attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}10 ({@damage 3d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Veil of Shadow (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The veiled one casts {@spell darkness} without any components. Wisdom is its spellcasting ability."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Orc Red Fang of Shargaas",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.",
+											"Orcs know better. Different groups of orcs exist within a tribe, the actions of each dictated by the deity they pay homage to. To complement the various kinds of warriors that spill forth to ravage the countryside, each tribe has members that remain deep inside the lair, seldom if ever seeing what lies outside the darkness of their den.",
+											"In addition, orcs have special relationships with two creatures that are sometimes found in their company: the aurochs, a great bull that serves as a mount for warriors that revere Bahgtru, and the tanarukk, a demon-orc crossbreed that is so depraved and destructive that even orcs seek to kill it. The aurochs is described in appendix A. The tanarukk is described below."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Orc Red Fang of Shargaas",
+										"entries": [
+											"Shargaas is the orc deity of deep darkness and sneakiness, a murderous god who hates anything that lives that isn't an orc. Orcs consider Shargaas to be a divinity suited to pariahs and weaklings, all of them unfit for true roles in tribal life. These outsiders live in the most remote, deepest parts of the tribe's domain.",
+											"The elite among Shargaas's followers are the assassins and thieves that follow the cult of the Red Fang. They perform assassinations, stealthy raids, and other covert operations on the tribe's behalf. They rely on a mix of intense training and magic granted to them by Shargaas.",
+											"Most Red Fang enclaves keep and nurture giant bats, creatures that are sacred to Shargaas. Red Fangs ride these bats into battle or on secret raids and assassination missions into enemy territory."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Orc Red Fang of Shargaas.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Orc Red Fang of Shargaas.png?v=1.121.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/orc-red-fang.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Shadar-Kai Thug",
+			"shortName": "thug",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thug makes two attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) poison damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step (1/Day)",
+					"entries": [
+						"The thug can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108920178114590/shadarKai4.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Shadar-Kai Thug",
+			"shortName": "thug",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thug makes two attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) poison damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step (1/Day)",
+					"entries": [
+						"The thug can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Soul Monger.png?v=1.121.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Shadar-Kai Thug",
+			"shortName": "thug",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thug makes two attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) poison damage on a failed save, or half as much on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step (1/Day)",
+					"entries": [
+						"The thug can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108920178114590/shadarKai4.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Shadar-Kai Veiled One",
+			"shortName": "veiled one",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"intimidation": "+1",
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the veiled one can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Mortal Blow",
+					"entries": [
+						"The veiled one deals 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks)."
+					]
+				},
+				{
+					"name": "Fell-touched Sight",
+					"entries": [
+						"Magical darkness doesn't impede the veiled one's darkvision."
+					]
+				},
+				{
+					"name": "Slayer",
+					"entries": [
+						"In the first round of a combat, the veiled one has advantage on attack rolls against any creature that hasn't taken a turn yet. If the veiled one hits a creature that round who was surprised, the hit is automatically a critical hit."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The veiled one has advantage on saving throws against being {@condition charmed}, and magic can't put the veiled one to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The veiled one makes two scimitar or dart attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}10 ({@damage 3d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Veil of Shadow (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The veiled one casts {@spell darkness} without any components. Wisdom is its spellcasting ability."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Orc Red Fang of Shargaas",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.",
+											"Orcs know better. Different groups of orcs exist within a tribe, the actions of each dictated by the deity they pay homage to. To complement the various kinds of warriors that spill forth to ravage the countryside, each tribe has members that remain deep inside the lair, seldom if ever seeing what lies outside the darkness of their den.",
+											"In addition, orcs have special relationships with two creatures that are sometimes found in their company: the aurochs, a great bull that serves as a mount for warriors that revere Bahgtru, and the tanarukk, a demon-orc crossbreed that is so depraved and destructive that even orcs seek to kill it. The aurochs is described in appendix A. The tanarukk is described below."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Orc Red Fang of Shargaas",
+										"entries": [
+											"Shargaas is the orc deity of deep darkness and sneakiness, a murderous god who hates anything that lives that isn't an orc. Orcs consider Shargaas to be a divinity suited to pariahs and weaklings, all of them unfit for true roles in tribal life. These outsiders live in the most remote, deepest parts of the tribe's domain.",
+											"The elite among Shargaas's followers are the assassins and thieves that follow the cult of the Red Fang. They perform assassinations, stealthy raids, and other covert operations on the tribe's behalf. They rely on a mix of intense training and magic granted to them by Shargaas.",
+											"Most Red Fang enclaves keep and nurture giant bats, creatures that are sacred to Shargaas. Red Fangs ride these bats into battle or on secret raids and assassination missions into enemy territory."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Orc Red Fang of Shargaas.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108911051571200/shadarKai0.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/orc-red-fang.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Shadar-Kai Mage",
+			"shortName": "mage",
+			"source": "ZIDM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 11,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"any four languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell cloud of daggers}",
+								"{@spell scorching ray}",
+								"{@spell shadow blade|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fear}",
+								"{@spell fireball}",
+								"{@spell sleet storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell fire shield}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell steel wind strike|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The mage has advantage on saving throws against being {@condition charmed}, and magic can't put the mage to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fell Step (1/Day)",
+					"entries": [
+						"The mage teleports up to 30 feet to an unoccupied space it can see and gains resistance to all damage until the start of its next turn."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Mage",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108965338054676/shadarKai15.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/mage.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
 			]
 		}
 	]
