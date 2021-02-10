@@ -40,6 +40,10 @@
 						{
 							"depth": 1,
 							"header": "Doors"
+						},
+						{
+							"depth": 1,
+							"header": "Illumination"
 						}
 					]
 				},
@@ -53,15 +57,15 @@
 					"headers":[
 						"1. Vestibule",
 						"2. Sepulchre",
-						"3. Library",
+						"3. Hallway and Library",
 						"4. Bath",
 						"5. Dining Hall",
-						"6. Cloister",
+						"6. Apprentice Dormitories",
 						"7. Robing Chambers",
 						"8. Antechamber",
 						"9. Gorgon Guardroom",
 						"10. Bronze Iris",
-						"11. Divination Pool"
+						"11. Divination Pool",
 						"12. Ritual Hall",
 						"13. Vault",
 						"14. Banquet Hall"
@@ -79,31 +83,38 @@
 					"type":"section",
 					"name":"Preface",
 					"entries":[
-						"",
+						"This dungeon involves a conflict between an elven house known as the Vol and the world at large.",
 						{
 							"type":"entries",
 							"name":"Synopsis",
 							"entries":[
-								""
+								"A temple once dedicated to Thassa, goddess of the sea, has been magically infiltrated by House Vol. House Vol is comprised of evil fell-touched elves known as Shadar-Kai, and they seek the mythic pool of Tydore, a divination pool that holds many untold truths. Should they reach the pool before the adventurers stop them, they will uncover the location of the legendary artifact that protects the people of Eraberia."
 							]
 						},
 						{
 							"type":"entries",
 							"name":"Temple Features",
 							"entries":[
-								"",
+								"The walls inside the temple are hewn from a blue-speckled white stone that slightly resembles comendite. All ceilings, made of the same material, are vaulted unless otherwise specified. The doors are semicircular, fitting into their similar archways.",
 								{
 									"type":"entries",
 									"name":"Ceilings",
 									"entries":[
-										""
+										"The hallways have 20-foot high, vaulted ceilings. Rooms have ceilings that are either domed or vaulted."
 									]
 								},
 								{
 									"type":"entries",
 									"name":"Doors",
 									"entries":[
-										""
+										"The heavy doors and their hinges are made of bronze and require a DC 20 Strength ({@skill Athletics}) check to break down. They have 19 AC, 22 ({@dice 4d10}) hit points, and have resistance to damage from non-magical attacks."
+									]
+								},
+								{
+									"type":"entries",
+									"name":"Illumination",
+									"entries":[
+										"Chambers are brightly illuminated by stilted brass braziers that have are bolted to the center or corners of chambers. Removing a brazier requires a DC 18 Strength ({@skill Athletics}) check. Hallways instead are illuminated by iron torch sconces and can be removed with a DC 12 Strength ({@skill Athletics}) check (19 AC, 10 ({@dice 3d6}) hit points)."
 									]
 								}
 							]
@@ -114,74 +125,386 @@
 					"type":"section",
 					"name":"Approaching the Island",
 					"entries":[
-						""
+						"Anyone within two miles can see the blue fire of Thassa, a blue flame carried by a stone statue on the island."
 					]
 				},
 				{
 					"type":"section",
 					"name":"Temple of Thassa",
 					"entries":[
+						"This place existed before as a temple of Thassa, but after its closing off, it has since been converted to one of Pharika. There is no animosity between the two, and it seems many of the acolytes still worship both, as such there are accents of either god that are visible throughout the temple. Though the doors are not locked, the priests have threatened Thassa's wrath in retaliation for an unannounced visit. Most people don't come to this remote island simply due to the rumours surrounding the Eye of Thassa.",
 						{
 							"type":"entries",
 							"name":"1. Vestibule",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"Descending the steep staircase brings you into a small vestibule, illuminated by a stilted brass brazier at the center of the room. The chamber itself is hewn completely from a white stone, bespeckled with occasional glints of blue. The ceiling is barrel-vaulted and rises to a height of 20 feet at the center, spanning north to south. On the other end of the room is a set of bronze double doors.",
+										"To either side of you are niches carved out of the walls, each of them containing a rectangular pedestal that is 3 feet high. Atop each pedestal is a ceremonial bowl all crafted of brass, with the exception of the one in the northwest niche, which is crafted of polished obsidian.",
+										"All of the niches have unique bas relief sculptures carved into the walls. Clockwise from the entrance are the following:",
+										{
+											"type":"list",
+											"items":[
+												"a school of fish",
+												"an angelic warrior",
+												"a scene of revelry",
+												"a set of interlocking gears",
+												"a bee buzzing around a cluster of intricately carved flowers",
+												"four vipers that twist and turn, baring their fangs"
+											]
+										},
+										"The door also has a prominent relief sculpture of a woman with a long serpentine tail. She is carrying a large amphora."
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Ceremonial Bowls",
+											"entries":[
+												"Each of the ceremonial bowls are meant to receive a specific liquid according to the table:",
+												{
+													"type":"table",
+													"colLabels":[
+														"Niche Sculpture",
+														"Liquid"
+													],
+													"intro":[
+														"A character that pours any liquid in its correct bowl receives the effect of a {@spell sanctuary} spell (DC 15) with a duration of 1 hour."
+													],
+													"rows":[
+														[
+															"Fish",
+															"Salt water"
+														],
+														[
+															"Angel",
+															"Holy water"
+														],
+														[
+															"Revelry",
+															"Wine"
+														],
+														[
+															"Gears",
+															"Oil"
+														],
+														[
+															"Bee",
+															"Honey"
+														],
+														[
+															"Viper",
+															"Poison"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Pharika's Door",
+											"entries":[
+												"A character that succeeds a DC 15 Wisdom ({@skill Perception}) check notices that the amphora in the figure's hands is removable. This heavy bronze amphora acts as an {@item alchemy jug}, and can be used to fill the ceremonial bowls."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Secret Door",
+											"entries":[
+												"The viper bas relief in the northwest corner is a secret door that opens if at least 1/2 an ounce of poison is placed in the respective ceremonial bowl. Any other liquid placed in this bowl causes 4 darts to fire from the vipers mouths. Each dart makes a ranged attack with a {@hit +8} bonus against the nearest creature. On a hit, a dart deals 2 ({@dice 1d4}) piercing damage and the creature must make a DC 15 Constitution saving throw, taking 11 ({@dice 2d10}) poison damage on a failed save, or half as much on a success.",
+												"A creature that has a passive Wisdom ({@skill Perception}) score of 15 notices a seam around the bas relief of the vipers, and a score of 20 notices the dart holes in the bas relief."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"2. Sepulchre",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"Ahead of you is a dark and dusty tomb that looks like it hasn't seen activity in decades. The walls are rough and quite contrast to the antechamber. Interspersed throughout the oddly-shaped room are life-like statues of humanoids, almost all of them have crumbled a considerable amount, giving way to strange skeletal protrusions. Where once there was a stone head now exists only a few inches of a spinal cord. You see crumbling stone arms that give way to long arm bones. One statue has a caved in chest cavity that reveals a rib cage, half embedded in the statuary. A combination of bones and rubble litter the entire floor, demanding your care to avoid falling.",
+										"Mounted vertically on the walls, level with you, are sarcophagi formed from stone. The lids face you and all have images of snake-men chiseled into them.",
+										"It looks like part of the ceiling collapsed, splitting this chamber in two. You can see between the cave-in is a narrow passage that can allow you to squeeze into the other side of this crypt."
+									]
+								},
+								"When the characters peer in the narrow passageway to the western half of the sepulchre, read:",
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"Beyond this narrow passage are more sarcophagi, though there is one that stands out. It is made entirely of bronze and is engraved with all manner of arcane symbols, depicting glyphs in combination with alembics and vials. Also unlike the others, this sarcophagus is hinged on one side, almost like a door."
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Bronze sarcophagus",
+											"entries":[
+												"If a creature touches the bronze sarcophagus, all the glyphs begin to glow with a feint misty blue, and the creature must succeed a DC 13 Charisma saving throw or be posessed by a {@creature ghost}.",
+												"If the possession fails, the ghost makes its presence known and attacks the creature, causing 3 {@creature wight||wights} to be released from nearby sarcophagi.",
+												"If the possession succeeds, the ghost waits until a creature is squeezing through the passage before attacking.",
+												"A creature that opens the sarcophagus finds that there is no corpse in it, and instead is a macabre shelf, with a multitude of human-shaped vials, with their heads as stoppers. See: treasure"
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Treasure",
+											"entries":[
+												"Inside the bronze sarcophagus are some {@item alchemist's supplies|phb}, a {@item potion of necrotic resistance}, an {@item potion of greater healing}, a {@item potion of speed}, an {@item alchemist's fire (flask)|phb}, and a pouch with {@dice 1d6+4} pinches of {@item dust of dryness}. There is also a snake-headed vial that looks designed to deliver its contents through a bite, filled with a black bubbling liquid. This vial contains 1 dose of a magical poison called Pharika's bite. A creature effected by the poison takes 9 ({@dice 2d8}) poison damage and must make a DC 13 Wisdom saving throw or be {@condition petrified} for 1 hour. This petrification is not whole and leaves parts of the creature's body exposed. A creature that fails by 5 or more succumbs to this effect indefinitely."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
-							"name":"3. Library",
+							"name":"3. Hallway and Library",
 							"entries":[
-								""
+								"In the hallway:",
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"To your left is a descending staircase, and two doors at the end of the hall. Steam is trailing from the ceiling of the southernmost door, accompanied by a slight hissing sound.",
+										"On the ground in front of you lies the bloodied body of a man donning thick white robes, his blood spills onto the wall above him, covering a bronze plaque. The plaque, in common, reads: \"No flames in the scroll room.\""
+									]
+								},
+								"A DC 10 Wisdom ({@skill Medicine}) check, or Intelligence ({@skill Investigation}) check can tell that the priest was strangled to death.",
+								"When they open the library door:",
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"This chamber is extraordinarily quiet and dark. All around you are 7-foot-high shelves carved of stone that all have little square cubbies carved into them, which contain hundreds of scrolls. It looks like it might be hard to move around in here, and it might be hard to swing a heavy weapon between the shelves.",
+										"Directly beneath you is a strange creature that is unfamiliar to you, it is a 5 foot tall humanoid with abnormally long limbs and fingers, and looks gaunt to the point of malnourishment. It wears a stained black tunic and its skin is a sickly green with strange splotches of red. His limp body lies against the base of the shelf ahead of you, and his eyes look like they've been completely burned from his skull, and there's a nasty burning stench in the room. On the ground at its feet is a large, open, face-down tome."
+									]
+								},
+								"When they reach the central chamber",
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"A large round table made of wood dominates the center here, and you see in the dark are a pale elvish man with a shaved head, and another of those lithe sickly creatures. The man has a shortsword sheathed in leather at his side and a small crossbow in his hand. The other creature appears to be unarmed. They don't notice your presence, and appear to be rummaging through the cubbies, discarding scrolls on the ground.",
+										"On the table is a stack of fine parchment, a few inkwells, and two large unremarkable books. At the center of the table is a marble bust of a hooded woman who has no mouth."
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Silence",
+											"entries":[
+												"The library has a permanent aura of {@spell silence} caused by a magic bust in the center of the room. A successful DC 15 Intelligence ({@skill Religion}) check can identify it as Hesychia, a minor deity of quiet and stillness."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Narrow shelving",
+											"entries":[
+												"Moving around between the narrow shelves imposes difficult terrain, and creatures swinging weapons with the Heavy property have disadvantage."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Treasure",
+											"entries":[
+												"Most of the items in this room are mundane writings on things of religious note, alternatively you can roll on the {@table Dungeon Dressing; Books, Scrolls, and Tomes||random writings table}. There are three magic scrolls however, and there is a {@chance 15|15 percent chance|Magic scroll find} a character pulls one at random. The scrolls contain the spells {@spell dispel evil and good}, {@spell aid}, {@spell web}."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"4. Bath",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"This appears to be some form of a bath, as you enter, a gust of steam brushes past your face and you see a very long room, illumanted by braziers that are set into these stone pillars",
+										"The walls here are mosaic and portray intricate scene of ocean waves.",
+										"At the center of the room is a large atrium that reveals a lower floor, 20 feet down, with a similar layout, though it is entirely obscured by steam that rises from a pool that you can just barely make out at the bottom.",
+										"As the steam from opening the door disappates, you see three pale figures with pointed ears clad in leather, tattooed, and pierced. Each carrying shortswords and hand crossbows. They all turn towards you with their weapons drawn."
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Steam",
+											"entries":[
+												"The steam causes the upper level to be lightly obscured, and the lower level is heavily obscured."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Hot water",
+											"entries":[
+												"At the surface of the water, hiding under ceramic bowls are three {@creature steam mephit|mm|steam mephits}, who, in the panic, began to heat up the water.",
+												"Anyone can try to dive from the upper floor to reduce fall damage by making a DC 15 {@skill Acrobatics} check.",
+												"A creature that starts its turn in the pool takes 4 ({@dice 1d8}) fire damage from the heat."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"5. Dining Hall",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"This hall has a central room that is blocked by iron pallisades. There is a lever on this side of the wall, and looking into the central room you can see a watery pit, 5 feet deep. Lying at the bottom is a silvery chain shirt that looks very finely crafted.",
+										"Beyond that, there are many long wooden tables that have dining implements, bowls, plates, and silverware. The back wall is covered with a beautiful tapestry depicting a divine battle between angelic warriors and chaotic demons."
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
-							"name":"6. Cloister",
+							"name":"6. Apprentice Dormitories",
 							"entries":[
-								""
+								"The lower ranking members of this temple live here, most of them are under 20 years old.",
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"This room has bunks lining the walls, fit for many people, each of them have narrow trunks affixed to the sides. Each alcove has 4 sets of beds. The room is illuminated by a driftglobe that sits on a pedestal in the center of the room.",
+										"The door opens with a squeak and you hear a worried voice shout out from the other end.\"Do not enter, for if you do I'll blast you away with divine magic!\""
+									]
+								},
+								"Hiding in the eastern corners are 9 apprentice acolytes who were sleeping when the Vol infiltrated. All of them are huddled up with one another in a defenseless position. The acolyte that shouted as the characters enter wields a white wooden wand that is capped with a metallic golden flower in full bloom. The wand has 3 charges, one of which can be expended to cast {@spell guiding bolt} at a +5 bonus to hit. The wand regains {@dice 1d3} charges daily at dawn.",
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Bunks and Trunks",
+											"entries":[
+												"A single alcove contains the contents of 2 {@item priest's pack|phb|priest's packs} interspersed throughout the trunks. If they search more than one alcove, then they find a fine diamond worth 300 gp."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Driftglobe",
+											"entries":[
+												"This {@item driftglobe} acts as a normal driftglobe, whose command words are {@i munum il}, {@i munum dael}, and {@i munum all}, these correspond to the light, daylight, and following functions of the driftglobe, respectively. These are celestial words that mean illuminator light, daylight, and follow."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"7. Robing Chambers",
 							"entries":[
-								""
+								{
+									"type":"entries",
+									"name":"7a. Hanging Vestments",
+									"entries":[
+										{
+											"type":"insetReadaloud",
+											"entries":[
+												"In this room are an assortment of priestly robes. Hanging from stone hooks on the northern wall are all manner of white vestments, none of which seem out of the ordinary; however, to the south are four raised alcoves that have much finer robes. Each alcove holds a set of intricate silk robes draped over wooden stands. Three out of the four bear the symbol of Thassa, but the final one has a symbol of Pharika.",
+												"Against the middle of the northern wall is a low table, on top of which is a set of {@item weaver's tools|phb}, and 3 silver flasks that bear the symbol of Pharika on them.",
+												"The stench of ash lingers here, and you see the shadows cast by braziers in the corners of the room flicker violently. The shadows on the wall create a scene of humanoid figures writhing around in seeming agony."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Treasure",
+											"entries":[
+												"There are a total of 22 {@item robes|phb} on the northern wall. The robes on the southern wall are {@item Silk robe with gold embroidery|dmg|fine silk robes} worth 250 gp each, weighing 5 pounds. ",
+												"The 3 flasks contain {@item holy water (flask)|phb|holy water}, and the set of {@item weaver's tools|phb} is mundane."
+											]
+										},
+										"When the characters open the western door, read:",
+										{
+											"type":"insetReadaloud",
+											"entries":[
+												"Beyond this door is a dark hall that turns left into a descending stone staircase, carved very roughly. As the door opens the light from your room slightly illuminates the hall and you notice the shadows seem to scurry away from the light like a sea of rats."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name":" 7b. Fell Crossing",
+									"entries":[
+										"The door to this small room is wide open, and anyone approaching notices the creatures that waiting inside.",
+										{
+											"type":"insetReadaloud",
+											"entries":[
+												"The ash smell is at its strongest now, and at the end of this corridor you can see what you can presume to be the source of it, as lying in the center of the room is a well. Instead of water, in the well is a deep black void that swirls around.",
+												"You hear some voices echoing around the room as if two people are in conversation it seems to come from the well. The voices seem distorted though and it's hard to make them out."
+											]
+										},
+										"A creature can discern what the voices are talking about without a check. A listener can tell that it is indeed a conversation between two people, one of which is complaining about the fact that they're using a well. The other one retorts that it is necessary, but reassures them that when \"your master\" finds what he needs they can leave \"this dreadful plane\". One final voice interrupts their discussion, and it speaks: \"Make way, I need passage. Kaidathul is taking far too long.\"",
+										"Immediately after, the characters see a {@creature Shadar-Kai Veiled One|ZIDM|veiled one} beginning to emerge from the well, clad in studded leather and wielding a black iron scimitar. He wears a dark silky veil that covers his face beneath the eyes and continues downward to the knees in a very long ribbon."
+									]
+								},
+								{
+									"type":"entries",
+									"name":"7c. Unfinished Robing Chambers",
+									"entries":[
+										"This dark room is roughly carved from stone, and was intended as an extension of the temple, in order to accomodate new priests; however, once they suddenly stopped accepting new acolytes, the project was quickly abandoned.",
+										{
+											"type":"insetReadaloud",
+											"entries":[
+												"This dark room seems to mirror the robing chambers above, though the stone is very rough and it almost looks unfinished. A chill runs down your spine, and you are sure this room is freezing cold. Looking around, you notice the walls here are completely covered in mold, but the smell of ash overtakes any other would-be fungus smell. On the wall opposite to the door is a pile of old dilapitated robes and toppled wooden robe-stands, though it seems one set of robes in the pile is surprisingly clean, and looks as it had never even been worn. The alcoves though seem to be empty."
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Robe pile",
+											"entries":[
+												"The robes are all infested with {@creature swarm of rot grubs|vgm|swarms of rot grubs}. A character that disturbs the pile aggravates the swarm and they attack.",
+												"The gleaming robe in the pile is actually "
+											]
+										},
+										{
+											"type":"entries",
+											"name":"Brown mold"
+										}
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"8. Antechamber",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"This semicircular room has a half-domed ceiling, which is painted to look like the night sky. There are two sculptures here, a large sphere in the northwest, and a many-handed female figure in the opposite corner. The female figure has no eyes, and instead there are eyes carved in the ten hands that surround her. The spherical stone sculpture in the northwest is painted to look like a planet, and floats slightly above the ground, rotating ever so slowly. Surrounding it are a number of smaller brass orbs about 2 inches in diameter. There are also similar orbs on the ground, some of them covered in blood, accompanied by a bloody handprint near the doorhandle.",
+										"The seam of the double-doors forms a spherical indent, as if to receive an orb.",
+										"A long, rounded, cushioned sofa lies against the curved wall to the northeast. Above the couch, carved in the stone are some celestial inscriptions that say: \"The eyes of Nyx are always watching.\""
+									]
+								}
 							]
 						},
 						{
 							"type":"entries",
 							"name":"9. Gorgon Guardroom",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"The smell of ash fills this square chamber. The walls have intricate frescoes depicting a massive bronze bull that leads an army of bronze-skinned men, armed with spears. The pillars here are formed of twisting bronze bodies that are surprisingly life-like."
+									]
+								}
 							]
 						},
 						{
