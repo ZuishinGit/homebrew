@@ -1,0 +1,518 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"not",
+				"Not"
+			],
+			[
+				"getkeystate",
+				"GetKeyState()"
+			],
+			[
+				"getkey",
+				"GetKeyState()"
+			],
+			[
+				"getke",
+				"GetKeyState()"
+			],
+			[
+				"splash",
+				"SplashTextOff"
+			],
+			[
+				"Splash",
+				"SplashTextOn"
+			],
+			[
+				"Getkeyts",
+				"GetKeyState()"
+			],
+			[
+				"GetKeystate",
+				"GetKeyState()"
+			],
+			[
+				"Getkey",
+				"GetKeyName()"
+			],
+			[
+				"Getkeystate",
+				"GetKeyState()"
+			],
+			[
+				"EM",
+				"EMagica"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"E",
+				"EncyclopediaMagica"
+			],
+			[
+				"Wheel",
+				"WheelDown"
+			],
+			[
+				"winexist",
+				"WinExist()"
+			],
+			[
+				"IfWinNotExist",
+				"IfWinNotExist\t#IfWinNotExist"
+			],
+			[
+				"winnotexist",
+				"IfWinNotExist"
+			],
+			[
+				"getkeyst",
+				"GetKeyState()"
+			],
+			[
+				"condition",
+				"conditionInflict"
+			],
+			[
+				"fanatic66",
+				"fanatic66Swordmage"
+			],
+			[
+				"fanatic",
+				"fanatic66Swordmage"
+			],
+			[
+				"fanati",
+				"fanatic66Swordmage"
+			],
+			[
+				"fana",
+				"fanatic66Swordmage"
+			],
+			[
+				"swor",
+				"fanatic66Swordmage"
+			],
+			[
+				"faa",
+				"fanaticSwordmage"
+			],
+			[
+				"swordmage",
+				"Swordmage"
+			],
+			[
+				"Eleemntal",
+				"Elementalist"
+			],
+			[
+				"fant",
+				"fanaticSwordmage"
+			],
+			[
+				"zuis",
+				"ZuishinsDMScreen"
+			],
+			[
+				"Misc",
+				"miscPurchases"
+			],
+			[
+				"WDMMC",
+				"WDMMCompanion"
+			],
+			[
+				"Col",
+				"col-4"
+			],
+			[
+				"Questionabl",
+				"QuestionableArcana"
+			],
+			[
+				"DMR",
+				"DMReminders"
+			],
+			[
+				"Undermountain",
+				"UndermountainEncounters"
+			],
+			[
+				"Tables",
+				"Tables"
+			],
+			[
+				"Halaster",
+				"HalastersChallenge"
+			],
+			[
+				"Sanelis",
+				"SanelisSaga"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: install pakcage",
+				"Package Control: Install Package"
+			],
+			[
+				"autohot",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"install advan",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Install Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 263.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/CodeEx/BlackboardRevD.xdc.txt",
+		"/D/CodeEx/textRepo.v",
+		"/C/Users/k/vivadoProj/README.txt",
+		"/C/Users/k/AppData/Local/Temp/Lab2.txt",
+		"/D/CodeEx/README.md",
+		"/D/gitrepo/ZuishinHomebrew/README.md",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/Cloistered Temple of Water.json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/tftyp-thsot-redux.json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/tftyp-thsot-redux-backup.json",
+		"/D/gitrepo/ZuishinHomebrew/Poisons/Zuishin's-Poisons.json",
+		"/C/Users/k/AppData/Local/Temp/BlackboardRevD.xdc.txt",
+		"/C/Users/k/Desktop/colorpicker.ahk",
+		"/C/Users/k/AppData/Local/Temp/readme.markdown",
+		"/C/Users/k/Downloads/hunt_for_red_october-en.srt",
+		"/C/Users/k/Downloads/hunt_for_red_october-en.txt",
+		"/D/gitrepo/ZuishinHomebrew/Templates/general template.json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/tftyp-thsot-redux-copy.json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/redux[data].json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/adventure-tftyp-thsot.json",
+		"/D/gitrepo/ZuishinHomebrew/Adventures/tftyp-thsot-redux",
+		"/C/Users/k/Desktop/script/pinImage.ahk",
+		"/C/Users/k/Desktop/script/osd.ahk",
+		"/C/Users/k/Desktop/script/ImagePut.ahk",
+		"/C/Users/k/Desktop/script/D&D Scripts/DMScriptDLLtest.ahk",
+		"/C/Users/k/Desktop/13.ahk",
+		"/C/Users/k/Desktop/pinImage.ahk",
+		"/C/Users/k/Desktop/script/script junk/pinImg",
+		"/C/Users/k/Desktop/script/script junk/pinImg.bin",
+		"/C/Users/k/Desktop/script/script junk/pinImg.jpg",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Trinkets-Table.json",
+		"/D/gitrepo/ZuishinHomebrew/dm-screen.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin's Wilderness Survival Guide.json",
+		"/D/gitrepo/ZuishinHomebrew/Books/Zuishin's Screen.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin's Screen.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin_s_Icewind_DaleLG.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin_s_Icewind_Dale__Monsters.json",
+		"/D/gitrepo/ZuishinHomebrew/Creatures/Zuishin_s_Icewind_Dale__Monsters.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin_Random.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/ZID.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/realmsurvival.json",
+		"/D/gitrepo/ZuishinHomebrew/WIP/Adventures/DotMM with Companion.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DotMM with Companion edits.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/untagged;nospelllist; swordmage (working).json",
+		"/D/gitrepo/ZuishinHomebrew/WIP/Classes and Subclasses/untagged;nospelllist; swordmage (working).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/Dungeon of the Mad Mage Companion - Bundle 1.txt",
+		"/D/gitrepo/ZuishinHomebrew/Creatures/Sanelis_Saga.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Beasts and Other/Sanelis_Saga.json",
+		"/D/gitrepo/ZuishinHomebrew/Creatures/Zuishin_s_Bestiary.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Beasts and Other/Zuishin_s_Bestiary.json",
+		"/C/Users/k/Desktop/Oppa Gangnam Style.ahk",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Predefined Trait template.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/blankbook.json",
+		"/D/gitrepo/ZuishinHomebrew/Zuishin's Screen.json",
+		"/D/gitrepo/ZuishinHomebrew/blankbook.json",
+		"/D/gitrepo/ZuishinHomebrew/Halaster_s_Challenge.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin_s_Icewind_Dale_Monsters.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Zuishin_s_Icewind_Dale.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/encyclopediamagica.json",
+		"/C/Users/k/Downloads/DND/extras/bestiary-sublist-data.json",
+		"/C/Users/k/Downloads/DND/extras/bestiary-idrotf.json",
+		"/C/Users/k/Downloads/Campaign Cartographer 2 Pro v6.12/Campaign Cartographer 2 Serial.txt",
+		"/C/Users/k/Downloads/Campaign Cartographer 2 Pro v6.12/README.TXT",
+		"/C/Users/k/Downloads/rivet-v0.1.2/rivet/manifest.json",
+		"/C/Users/k/Desktop/script/mouse2.ahk",
+		"/C/Users/k/Desktop/MouseMeasureLine.ahk",
+		"/C/Users/k/AppData/Roaming/.minecraft/options.txt",
+		"/C/Users/k/Desktop/script/test.ahk",
+		"/C/Windows/System32/gdi32.dll",
+		"/C/Users/k/Desktop/D&D Scripts/DMScript.ahk",
+		"/C/Users/k/Desktop/D&D Scripts/MusicSwitcher.ahk",
+		"/C/Users/k/Desktop/D&D Scripts/DMPic.ahk",
+		"/C/Users/k/Desktop/D&D Scripts/IDMap.ahk",
+		"/C/Users/k/Desktop/Progress-Script.ahk",
+		"/C/Users/k/Desktop/DMPic.ahk",
+		"/E/SteamLibrary/steamapps/common/Skyrim/Skyrim/SkyrimPrefs.ini",
+		"/C/Users/k/AppData/Local/ModOrganizer/Skyrim/profiles/Default/settings.ini",
+		"/E/SteamLibrary/steamapps/common/Skyrim/readme.txt",
+		"/C/Users/k/AppData/Local/Temp/Oceiros_.json",
+		"/C/Users/k/Downloads/hero_grid_config.json",
+		"/C/Program Files (x86)/Steam/userdata/150336843/570/remote/cfg/hero_grid_config.json",
+		"/C/Users/k/Downloads/MEGA-RECOVERYKEY.txt",
+		"/C/Users/k/Downloads/Analog Devices/Scopy/New Text Document.txt",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DotMM with Companion.json",
+		"/C/Users/k/Desktop/script/hcboons.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Beasts and Other/Halaster_s_Challenge.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Red Hand of Doom/Red Hand of Doom.txt",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/rhod.json",
+		"/C/Users/k/Downloads/HW1/HW1.txt",
+		"/C/Users/k/Documents/bestiary-sublist-data.json",
+		"/E/Games/Hades/x64/ReadMe.txt",
+		"/C/Users/k/Downloads/EE120-Lab-Manual-f20/EE120-Lab-Manual-f20.txt",
+		"/C/Users/k/AppData/Local/Temp/bestiary-sublist-data.json",
+		"/C/Users/k/AppData/Local/Temp/Gum_Gang_DotMM_.json",
+		"/C/Users/k/Downloads/5eTools.1.110.1/data/roll20-module/roll20-module-wdh.json",
+		"/C/Users/k/Downloads/5eTools.1.110.1/data/adventure/adventure-wdh.json",
+		"/C/Users/k/Downloads/windows/ReadMe.txt",
+		"/C/Users/k/Downloads/DND/extras/roll20tokens/gum gang/Kane.json",
+		"/C/Users/k/AppData/Local/Temp/spells-sublist-data.json",
+		"/C/Users/k/Downloads/DND/extras/swordmage v6.txt",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/classtest.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/classtest2.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/classtest3.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/eee.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/OKOSKOSKOK.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/swordmage take 2.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/swordmageBETA.json",
+		"/C/Users/k/Downloads/DND/extras/Dungeon of the Mad Mage Companion - Bundle 1.zip",
+		"/C/Users/k/AppData/Local/Temp/Rar$DIa10416.22028/swordmage v6.txt",
+		"/C/Users/k/AppData/Local/Temp/Rar$DIa440.26818/swordmage v6.txt",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Book/Weems; Mundane and Magical Makings.json",
+		"/C/Users/k/Downloads/DND/extras/Dungeon of the Mad Mage Companion - Bundle 1.txt",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Test.txt",
+		"/C/Users/k/Downloads/DND/extras/Gum_Gang_DotMM_.json",
+		"/C/Users/k/AppData/Local/Temp/Skitter_s_Epic_Beings__Tiamat.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Beasts and Other/Zuishin_s_Waterdeep.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/adventure-wdmmBETA.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DM Screen Tables/DMReminders (Complete).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DM Screen Tables/Misc Purchases for DM Screen (Complete).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DM Screen Tables/Durnan's Guide Tables (Complete).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/TablesofUndermountain.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/ZuishinsScreen.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Kalrin Koff.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/Sanelis_Saga.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/dungeonTimeBETA.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/UndermountainEncounters.json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DM Screen Tables/Equipment Tables for DM Screen (Complete).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/DM Screen Tables/Urban Life (Complete).json",
+		"/C/Users/k/Downloads/DND/extras/backups and jsons/adventure-wdmm.json"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eye of thas",
+			"southwest|northwest|southeast|northeast|~",
+			"west",
+			"west|~~",
+			"west|blablabla",
+			"north|east|west|south|blablabla",
+			"north|east|west|south|",
+			"north|east|west|south",
+			"east",
+			"north",
+			"north|east|south|west",
+			"northwest",
+			"north",
+			"(*d*)",
+			"()",
+			"eastern",
+			"northern",
+			"western",
+			"southern",
+			"eastern",
+			"northward",
+			"westward",
+			"southward",
+			"eastward",
+			"image",
+			"north",
+			"west",
+			"south",
+			"east",
+			"Olman",
+			"\"source\": \"",
+			"\"id\": \"T",
+			"\"id\": \"",
+			"\"id\"",
+			"source"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"southwest",
+			"western",
+			"southern",
+			"eastern",
+			"northern",
+			"westward",
+			"southward",
+			"eastward",
+			"northward",
+			"west",
+			"south",
+			"east",
+			"north",
+			"wall",
+			"Elvish"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 209.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ZID.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

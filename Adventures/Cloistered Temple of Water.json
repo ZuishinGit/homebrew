@@ -308,8 +308,13 @@
 											"type":"entries",
 											"name":"Narrow shelving",
 											"entries":[
-												"Moving around between the narrow shelves imposes difficult terrain, and creatures swinging weapons with the Heavy property have disadvantage."
+												"Moving around between the narrow shelves imposes difficult terrain."
 											]
+										},
+										{
+											"type":"entries",
+											"name":"Fires",
+											"A creature that starts its turn holding a fire that gives off heat (magical or non-magical) is targetted by stone hands that sprout from the shelves that attempt to absorb them into the shelves base and transport them through the stone into the hallway, landing {@condition prone} as they exit. A creature can attempt to resist this by succeeding a DC 12 Dexterity saving throw."
 										},
 										{
 											"type":"entries",
@@ -416,9 +421,9 @@
 										{
 											"type":"insetReadaloud",
 											"entries":[
-												"In this room are an assortment of priestly robes. Hanging from stone hooks on the northern wall are all manner of white vestments, none of which seem out of the ordinary; however, to the south are four raised alcoves that have much finer robes. Each alcove holds a set of intricate silk robes draped over wooden stands. Three out of the four bear the symbol of Thassa, but the final one has a symbol of Pharika.",
-												"Against the middle of the northern wall is a low table, on top of which is a set of {@item weaver's tools|phb}, and 3 silver flasks that bear the symbol of Pharika on them.",
-												"The stench of ash lingers here, and you see the shadows cast by braziers in the corners of the room flicker violently. The shadows on the wall create a scene of humanoid figures writhing around in seeming agony."
+												"In this room are an assortment of priestly robes hanging from stone hooks on the northern wall, none of which seem out of the ordinary; however, to the south are four raised alcoves that have much finer robes. Each alcove holds a set of intricate silk robes with gold embroidery draped over wooden stands.",
+												"Against the middle of the northern wall is a low table, on top of which is a set of {@item weaver's tools|phb}, and 3 silver flasks that bear the symbol of Pharika on them. Next to the table is a full-body mirror that is free standing in a brass arch portal that has little legs designed to look like claws.",
+												"The stench of ash lingers here, and the shadows cast by the robes create twisting images of humanoids writhing around almost painfully."
 											]
 										},
 										{
@@ -433,7 +438,7 @@
 										{
 											"type":"insetReadaloud",
 											"entries":[
-												"Beyond this door is a dark hall that turns left into a descending stone staircase, carved very roughly. As the door opens the light from your room slightly illuminates the hall and you notice the shadows seem to scurry away from the light like a sea of rats."
+												"Through this door is a dark hall that turns left into a descending stone staircase, carved very roughly. As the door opens the light from your room slightly illuminates the hall and you notice the shadows seem to scurry away from the light like a sea of rats."
 											]
 										}
 									]
@@ -458,11 +463,12 @@
 									"type":"entries",
 									"name":"7c. Unfinished Robing Chambers",
 									"entries":[
-										"This dark room is roughly carved from stone, and was intended as an extension of the temple, in order to accomodate new priests; however, once they suddenly stopped accepting new acolytes, the project was quickly abandoned.",
+										"The door to this room is locked."
+										"This dark room is roughly carved from stone, and was intended as an extension of the temple, in order to accomodate new priests; however, once they suddenly stopped accepting new acolytes the project was quickly abandoned.",
 										{
 											"type":"insetReadaloud",
 											"entries":[
-												"This dark room seems to mirror the robing chambers above, though the stone is very rough and it almost looks unfinished. A chill runs down your spine, and you are sure this room is freezing cold. Looking around, you notice the walls here are completely covered in mold, but the smell of ash overtakes any other would-be fungus smell. On the wall opposite to the door is a pile of old dilapitated robes and toppled wooden robe-stands, though it seems one set of robes in the pile is surprisingly clean, and looks as it had never even been worn. The alcoves though seem to be empty."
+												"This dark room seems to mirror the robing chambers above, though the stone is very rough and it almost looks unfinished. A chill runs down your spine, and you are sure that this room is freezing cold. Looking around, you notice the walls here are completely covered in mold, but the smell of ash overtakes any other would-be fungus smell. On the wall opposite to the door, in the northeast corner, is a pile of old dilapitated robes and toppled wooden robe-stands, though it seems one set of robes in the pile is surprisingly clean, and looks as though it had never even been worn. The alcoves, while empty, are heavily beset with this brown mold."
 											]
 										},
 										{
@@ -470,12 +476,15 @@
 											"name":"Robe pile",
 											"entries":[
 												"The robes are all infested with {@creature swarm of rot grubs|vgm|swarms of rot grubs}. A character that disturbs the pile aggravates the swarm and they attack.",
-												"The gleaming robe in the pile is actually "
+												"The gleaming robe in the pile is actually a robe of many fashions, functioning exactly as the {@item cloak of many fashions|xge}."
 											]
 										},
 										{
 											"type":"entries",
-											"name":"Brown mold"
+											"name":"Brown mold",
+											"entries":[
+												"This {@hazard brown mold} is mostly concentrated on the alcoves, but can reach anywhere in the northern half of the room, should it detect a heat source."
+											]
 										}
 									]
 								}
@@ -485,6 +494,7 @@
 							"type":"entries",
 							"name":"8. Antechamber",
 							"entries":[
+								"This is a simple antechamber with a simple magically sealed door. A creature that does not unlock the door before trying to open it is shot at by the floating bronze balls around the spherical sculpture."
 								{
 									"type":"insetReadaloud",
 									"entries":[
@@ -504,14 +514,23 @@
 									"entries":[
 										"The smell of ash fills this square chamber. The walls have intricate frescoes depicting a massive bronze bull that leads an army of bronze-skinned men, armed with spears. The pillars here are formed of twisting bronze bodies that are surprisingly life-like."
 									]
-								}
+								},
+								""
 							]
 						},
 						{
 							"type":"entries",
 							"name":"10. Bronze Iris",
 							"entries":[
-								""
+								{
+									"type":"insetReadaloud",
+									"entries":[
+										"Around you is a hexagonal room with a pyramidal ceiling. The lower end of the walls are painted with small wave motifs, where the walls meet the floor.",
+										"At the center of the room is a large mechanical iris made entirely of bronze. There is a very small hole on one leaf of the iris."
+									]
+								},
+								"The mechanical iris opens when 4 pints of water is poured in the hole, revealing a cylindrical hole, 30 feet deep, with bronze rungs embedded into the stone. Around the tunnel walls are a series of bronze pipes that carry the water into the walls.",
+								"After 10 minutes, the iris begins to gradually close. Completely closing after an additional 10 minutes."
 							]
 						},
 						{
