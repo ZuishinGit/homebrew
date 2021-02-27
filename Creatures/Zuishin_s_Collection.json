@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1613871691,
-		"dateLastModified": 1613871691
+		"dateAdded": 1614419672,
+		"dateLastModified": 1614419672
 	},
 	"monster": [
 		{
@@ -3393,9 +3393,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Captain Kihalel, the Shadow Dancer",
-			"shortName": "shadow dancer",
-			"isNpc": true,
+			"name": "Kihalel",
 			"source": "ZC",
 			"size": "M",
 			"type": {
@@ -3405,36 +3403,35 @@
 				]
 			},
 			"alignment": [
-				"L",
-				"E"
+				"N"
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 15,
 					"from": [
-						"{@item +1 studded leather armor}"
+						"{@item studded leather armor|phb}"
 					]
 				}
 			],
 			"hp": {
-				"formula": "22d8 + 44",
-				"average": 143
+				"average": 71,
+				"formula": "13d8 + 13"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 15,
-			"dex": 17,
-			"con": 15,
-			"int": 14,
+			"str": 12,
+			"dex": 16,
+			"con": 13,
+			"int": 11,
 			"wis": 12,
-			"cha": 14,
+			"cha": 12,
 			"save": {
-				"cha": "+6",
-				"dex": "+7"
+				"dex": "+6",
+				"cha": "+4"
 			},
 			"skill": {
-				"stealth": "+7"
+				"stealth": "+6"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -3445,31 +3442,14 @@
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhaustion",
-				"frightened"
+				"exhaustion"
 			],
 			"languages": [
 				"Common",
 				"Elvish",
 				"Thieves' cant"
 			],
-			"cr": "9",
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"The shadow dancer's spellcasting ability is Intelligence (spell save {@dc 14}). It can cast the following spells:"
-					],
-					"daily": {
-						"1e": [
-							"{@spell disguise self}",
-							"{@spell invisibility}"
-						]
-					},
-					"ability": "int",
-					"type": "spellcasting"
-				}
-			],
+			"cr": "7",
 			"trait": [
 				{
 					"name": "Fey Ancestry",
@@ -3481,60 +3461,6 @@
 					"name": "Shadow Jump",
 					"entries": [
 						"As a bonus action, the shadow dancer can teleport up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness. The shadow dancer can use this ability between the weapon attacks of another action it takes."
-					]
-				},
-				{
-					"name": "Shed Shadow (3/Day)",
-					"entries": [
-						"At the start of each of the shadow dancer's turns, it can choose to end any effects or conditions afflicting it."
-					]
-				},
-				{
-					"name": "Special Equipment",
-					"entries": [
-						"Kihalel wears {@item +1 studded leather armor}, accounted for in his AC. "
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The shadow dancer makes three spiked chain attacks."
-					]
-				},
-				{
-					"name": "Spiked Chain",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage, and the target must succeed on a {@dc 14} Dexterity saving throw or suffer one additional effect of the shadow dancer's choice:",
-						{
-							"type": "list",
-							"items": [
-								"The target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadow dancer can't grapple another target.",
-								"The target is knocked {@condition prone}.",
-								"The target takes 22 ({@damage 4d10}) necrotic damage."
-							]
-						}
-					]
-				},
-				{
-					"name": "Dance of Death {@recharge 6}",
-					"entries": [
-						"The shadow dancer moves up to its speed and can make up to three Spiked Chain attacks at any point during this movement."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Dark Escape (Recharges after a Short or Long Rest)",
-					"entries": [
-						"The shadow dancer turns {@condition invisible} and teleports up to 60 feet, remaining {@condition invisible} until the start of its next turn."
-					]
-				},
-				{
-					"name": "Shadowy Defense",
-					"entries": [
-						"The shadow dancer halves the damage that it takes from an attack that hits. The shadow dancer must be able to see the attacker."
 					]
 				}
 			],
@@ -3607,9 +3533,6 @@
 			"senseTags": [
 				"D"
 			],
-			"actionTags": [
-				"Multiattack"
-			],
 			"languageTags": [
 				"C",
 				"E",
@@ -3619,17 +3542,161 @@
 				"N",
 				"P"
 			],
-			"miscTags": [
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"grappled",
-				"prone",
-				"restrained"
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Vol Shadow Weaver",
+			"shortName": "shadow weaver",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"15 with {@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 10,
+			"int": 14,
+			"wis": 12,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The shadow weaver has advantage on saving throws against being {@condition charmed}, and magic can't put the minion to sleep."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow weaver can take the {@action Hide} action as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shadow Bolt",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}14 ({@damage 4d6}) necrotic damage, and the target is {@condition restrained} until the end of their next turn."
+					]
+				},
+				{
+					"name": "Necrotic Touch",
+					"entries": [
+						"{@atk ms} {@hit 4} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d12 + 2}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow weaver can take the {@action Hide|phb} action as a bonus action."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108978659950592/shadarKai20.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"N"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
 		}
 	]
 }
