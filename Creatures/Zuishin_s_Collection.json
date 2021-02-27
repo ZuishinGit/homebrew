@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1614419672,
-		"dateLastModified": 1614419672
+		"dateAdded": 1614425517,
+		"dateLastModified": 1614425517
 	},
 	"monster": [
 		{
@@ -3407,36 +3407,37 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 18,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item +1 studded leather armor}"
 					]
 				}
 			],
 			"hp": {
-				"average": 71,
-				"formula": "13d8 + 13"
+				"formula": "20d8 + 40",
+				"average": 130
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 12,
-			"dex": 16,
-			"con": 13,
-			"int": 11,
+			"dex": 20,
+			"con": 14,
+			"int": 14,
 			"wis": 12,
-			"cha": 12,
+			"cha": 10,
 			"save": {
-				"dex": "+6",
-				"cha": "+4"
+				"wis": "+4",
+				"cha": "+3"
 			},
 			"skill": {
-				"stealth": "+6"
+				"stealth": "+8",
+				"perception": "+4"
 			},
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 11,
+			"passive": 14,
 			"resist": [
 				"necrotic"
 			],
@@ -3449,25 +3450,40 @@
 				"Elvish",
 				"Thieves' cant"
 			],
-			"cr": "7",
+			"cr": "6",
 			"trait": [
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The shadow dancer has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"Kihalel has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
 					]
 				},
 				{
 					"name": "Shadow Jump",
 					"entries": [
-						"As a bonus action, the shadow dancer can teleport up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness. The shadow dancer can use this ability between the weapon attacks of another action it takes."
+						"As a bonus action, Kihalel can teleport up to 30 feet to an unoccupied space it can see. Both the space he teleports from and the space he teleports to must be in dim light or darkness. Kihalel can use this ability between the weapon attacks of another action it takes."
 					]
 				}
 			],
-			"environment": [
-				"forest",
-				"underdark",
-				"urban"
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kihalel makes three spiked chain attacks."
+					]
+				},
+				{
+					"name": "Spiked Chain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, plus 5 ({@damage 2d4}) necrotic damage, and the target is {@condition grappled} (escape {@dc 14}). Until the grapple ends, the target is {@condition restrained}, and Kihalel can't grapple another target."
+					]
+				},
+				{
+					"name": "Immolating Shadow {@recharge 5}",
+					"entries": [
+						"Kihalel targets one creature within 10 feet that he can see. The target must make a {@dc 14} Dexterity saving throw, taking {@damage 8d6} necrotic damage on a failed save, or half as much on a successful one. On a failed save, the target burns with necrotic fire for the next minute or until Kihalel loses concentration. A burning target must repeat the saving throw at the end of each of its turns or take {@damage 4d6} necrotic damage, extinguishing the flames on a success."
+					]
+				}
 			],
 			"fluff": {
 				"name": "Shadow Dancer",
@@ -3522,7 +3538,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/MTF/Shadow Dancer.png?v=1.122.8",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108914025201694/shadarKai1.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/shadow-dancer.mp3?v=1.122.8"
@@ -3533,6 +3549,9 @@
 			"senseTags": [
 				"D"
 			],
+			"actionTags": [
+				"Multiattack"
+			],
 			"languageTags": [
 				"C",
 				"E",
@@ -3541,6 +3560,14 @@
 			"damageTags": [
 				"N",
 				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
