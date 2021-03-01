@@ -1,0 +1,79 @@
+{
+	"name": "Genasi (Air); Revised",
+	"source": "ZC",
+	"size": "M",
+	"speed": 30,
+	"ability": [
+		{
+			"con": 2,
+			"dex": 1
+		}
+	],
+	"heightAndWeight": {
+		"baseHeight": 56,
+		"heightMod": "2d10",
+		"baseWeight": 110,
+		"weightMod": "2d4"
+	},
+	"languageProficiencies": [
+		{
+			"common": true,
+			"primordial": true
+		}
+	],
+	"soundClip": {
+		"type": "internal",
+		"path": "races/genasi.mp3"
+	},
+	"entries": [
+		{
+			"name": "Age",
+			"type": "entries",
+			"entries": [
+				"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+			]
+		},
+		{
+			"name": "Alignment",
+			"type": "entries",
+			"entries": [
+				"Independent and self-reliant, genasi tend toward a neutral alignment."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Size",
+			"entries": [
+				"Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+			]
+		},
+		{
+			"name": "Languages",
+			"entries": [
+				"You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Unending Breath",
+			"entries": [
+				"You can hold your breath indefinitely while you're not {@condition incapacitated}, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Whirling Step",
+			"entries":[
+				"You have a flying speed equal to your walking speed. This flight works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+			],
+			"type": "entries"
+		},
+		{
+			"name": "Mingle with the Wind",
+			"entries": [
+				"You know the {@spell gust|xge} cantrip, which uses your Constitution as your spellcasting ability."
+			],
+			"type": "entries"
+		}
+	]
+}
