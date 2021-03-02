@@ -1,0 +1,150 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZRF",
+				"abbreviation":"ZRF",
+				"full":"Zuishin's Revised Feats",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"feat": [
+		{
+			"name": "Durable (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"Hardy and resilient, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you roll a Hit Die to regain hit points, the minimum number {@homebrew you can roll|you regain from the roll} equals twice your Constitution modifier (minimum of 2). {@homebrew The minimum can't exceed the hit die of your class.}"
+					]
+				},
+				"{@note For example, a wizard with a Constitution modifier of +2 can treat a roll that is lower than 4 as if they rolled a 4 on the die, and then add their modifier to regain a total of 6 hit points. If the wizard instead had a Constitution modifier of +5, then they would have a minimum of 6 on the die roll, because the minimum can't exceed the wizard's {@dice d6} hit die.}"
+			]
+		},
+		{
+			"name": "Shield Master (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a {@item shield|phb}:",
+				{
+					"type": "list",
+					"items": [
+						"If you take the {@action Attack} action on your turn, you can use a bonus action to try to {@action shove} a creature within 5 feet of you with your shield.",
+						"If you aren't {@condition incapacitated}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect {@homebrew |that targets only you}.",
+						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+						"{@homebrew In combat, you can don or doff a shield as the free object interaction on your turn.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Charger (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature, {@homebrew and you gain resistance to all damage except psychic damage until the end of your turn}.",
+				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed)."
+			]
+		},
+		{
+			"name": "Dual Wielder (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"You master fighting with two weapons, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+						"{@homebrew On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one while wielding another melee weapon in your other hand, you can immediately make an additional melee attack against a creature within reach.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dungeon Delver (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"{@homebrew You are adept at fighting in tight spaces}, and are more alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+						"You have advantage on saving throws made to avoid or resist traps.",
+						"You have resistance to the damage dealt by traps.",
+						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score.",
+						"{@homebrew Squeezing into a smaller space doesn't impose disadvantage on your attack rolls and Dexterity saving throws, nor do attack rolls against you have advantage while squeezing.}",
+						"{@homebrew You can move through a hostile creature's space as if it were nonhostile.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Savage Attacker (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"Your unbridled aggression grants you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@homebrew As a bonus action, you can move up to half your speed toward a hostile creature you can see.}",
+						"{@homebrew When you miss a melee weapon attack, you can expend a hit die and add the number rolled to the attack roll. Once you use this ability, you can't use it again until you finish a short or long rest.| Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon Master (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have practiced extensively with a variety of weapons, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@homebrew simple and martial weapons.|four weapons of your choice. Each one must be a simple or a martial weapon.}",
+						"{@homebrew You gain an additional attunement slot that can be used only on magical weapons.}",
+						"{@homebrew If you can see a creature, you know if it has immunity, resistance, or vulnerability to bludgeoning, piercing, or slashing damage.}"
+
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Leader (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
+			]
+		}
+	]
+}
