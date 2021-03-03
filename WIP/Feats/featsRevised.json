@@ -55,7 +55,7 @@
 			"name": "Charger (Revised)",
 			"source": "ZRF",
 			"entries": [
-				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature, {@homebrew and you gain resistance to all damage except psychic damage until the end of your turn}.",
+				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature, {@homebrew and you gain resistance to all damage except psychic damage until the end of that turn}.",
 				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed)."
 			]
 		},
@@ -79,7 +79,7 @@
 			"name": "Dungeon Delver (Revised)",
 			"source": "ZRF",
 			"entries": [
-				"{@homebrew You are adept at fighting in tight spaces}, and are more alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
+				"You are adept at fighting in tight spaces, and are more alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -101,8 +101,8 @@
 				{
 					"type": "list",
 					"items": [
-						"{@homebrew As a bonus action, you can move up to half your speed toward a hostile creature you can see.}",
-						"{@homebrew When you miss a melee weapon attack, you can expend a hit die and add the number rolled to the attack roll. Once you use this ability, you can't use it again until you finish a short or long rest.| Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.}"
+						"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.",
+						"{@homebrew When you miss a melee weapon attack, you can expend a hit die and add the number rolled to the attack roll, potentially turning the miss into a hit. Once you use this ability, you can't use it again until you finish a short or long rest.}"
 					]
 				}
 			]
@@ -137,6 +137,15 @@
 		{
 			"name": "Inspiring Leader (Revised)",
 			"source": "ZRF",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"cha": 1
@@ -144,6 +153,137 @@
 			],
 			"entries": [
 				"You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
+			]
+		},
+		{
+			"name": "Magic Initiate (Revised)",
+			"source": "ZRF",
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Bard",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Bard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Cleric",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Druid"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Sorcerer",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Sorcerer"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Warlock",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Warlock"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "int",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Wizard"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Choose a class: {@filter bard|spells|level=0;1|class=bard}, {@filter cleric|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, or {@filter wizard|spells|level=0;1|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
+				"In addition, choose one 1st-level spell from that same list. {@homebrew You can cast this spell without expending a spell slot. |You learn that spell and can cast it at its lowest level.} Once you cast it, you must finish a long rest before you can cast it again using this feat. {@homebrew You can also cast this spell using spell slots you have of the appropriate level.}",
+				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, or {@filter warlock|spells|level=0;1|class=warlock}; Wisdom for {@filter cleric|spells|level=0;1|class=cleric} or {@filter druid|spells|level=0;1|class=druid}; or Intelligence for {@filter wizard|spells|level=0;1|class=wizard}."
 			]
 		}
 	]
