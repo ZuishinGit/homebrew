@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1614425517,
-		"dateLastModified": 1614425517
+		"dateAdded": 1616275778,
+		"dateLastModified": 1616275778
 	},
 	"monster": [
 		{
@@ -3724,6 +3724,603 @@
 			"conditionInflictSpell": [
 				"frightened"
 			]
+		},
+		{
+			"name": "Basilisk Prince",
+			"shortName": "basilisk",
+			"isNpc": true,
+			"source": "ZC",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 21,
+			"int": 7,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+6",
+				"cha": "+8",
+				"int": "+3"
+			},
+			"skill": {
+				"perception": "+11",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The basilisk can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the basilisk fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mythic Weakness",
+					"entries": [
+						"A basilisk may be afflicted by one of the following weaknesses:",
+						{
+							"type": "list",
+							"items": [
+								"The crowing of a rooster will always {@spell confusion|phb|confuse} a basilisk. At the end of the basilisk's turns, it can make a Wisdom saving throw ({@dc 16}) to end the confusion.",
+								"The scent of wine will cause the basilisk to fall {@condition unconscious}. This slumber is nonmagical and can last up to 24 hours if it remains undisturbed. In any case, upon waking, the basilisk is immune to the scent of wine for 24 hours.",
+								"A basilisk fears others of its kind. Upon seeing its own reflection, or a suitable replication of such, the basilisk is {@condition frightened} until it is out of sight."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The basilisk can use its Frightful Presence. It can then constrict and make a bite attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d10 + 6}) piercing damage plus 15 ({@damage 6d4}) acid damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the creature is {@condition restrained}, and the basilisk can't constrict another target."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the basilisk's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The basilisk exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 55 ({@damage 22d4}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The basilisk makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The basilisk makes a tail attack."
+					]
+				},
+				{
+					"name": "Flail (Costs 2 Actions)",
+					"entries": [
+						"The basilisk violently flails its body. Each creature within 10 feet of the basilisk must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The basilisk can then move up to its speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Black Dragon",
+				"source": "MM"
+			},
+			"environment": [
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"Wee!"
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/basiliskPrince00.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"conditionInflictLegendary": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchmeister",
+			"shortName": "witchmeister",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 15,
+			"cha": 20,
+			"save": {
+				"cha": "+9",
+				"con": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"persuasion": "+13"
+			},
+			"passive": 12,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"any four languages"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The witchmeister is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit +9} to hit with spell attacks). The witchmeister knows the following sorcerer spells:"
+					],
+					"footerEntries": [
+						"*The witchmeister can render these spells imperceptible using metamagic."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}*",
+								"{@spell shield}*"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Maximilian's earthen grasp|XGE}",
+								"{@spell see invisibility}",
+								"{@spell Tasha's mind whip|TCE}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell enemies abound|XGE}*",
+								"{@spell fear}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell fire shield}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell telekinesis}*"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}*"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}*"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unnatural Thought",
+					"entries": [
+						"The witchmeister has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Stronger Spellcasting",
+					"entries": [
+						"The witchmeister's damaging spells deal an additional 5 damage."
+					]
+				},
+				{
+					"name": "Metamagic (1/Turn; {@recharge 3})",
+					"entries": [
+						"When the witchmeister casts a spell, it can choose to affect it in one of the following ways:",
+						{
+							"type": "list",
+							"items": [
+								"The spell's range is doubled, provided it normally has a range of at least 5 feet",
+								"The spell's casting time changes to 1 bonus action, provided it normally takes 1 action.",
+								"The spell can be cast without somatic or verbal components.",
+								"The spell's damage type can be changed to acid, cold, fire, lightning, poison, or thunder, provided it normally deals damage of those types."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Archmage",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+									"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Archmage.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Archmage.png?v=1.125.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/archmage.mp3?v=1.125.0"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sruli Flower",
+			"shortName": "flower",
+			"source": "ZC",
+			"size": "H",
+			"type": "plant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "24d12 + 72",
+				"average": 228
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 7,
+			"wis": 15,
+			"cha": 3,
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 12,
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Corpses",
+					"entries": [
+						"When first encountered, a flower contains the corpses of {@dice 2d6 + 3} humanoids. A corpse flower can hold the remains of up to 15 dead humanoids. These remains have total cover against attacks and other effects outside the flower. If the flower dies, the corpses within it can be pulled free.",
+						"While it has at least one humanoid corpse in its body, the corpse flower can use a bonus action to do one of the following:",
+						{
+							"type": "list",
+							"items": [
+								"The corpse flower digests one humanoid corpse in its body and instantly regains 11 ({@dice 2d10}) hit points. Nothing of the digested body remains. Any equipment on the corpse is expelled from the corpse flower in its space.",
+								"The corpse flower animates one dead humanoid in its body, turning it into a zombie. The zombie appears in an unoccupied space within 5 feet of the corpse flower and acts immediately after it in the initiative order. The zombie acts as an ally of the corpse flower but isn't under its control, and the flower's stench clings to it (see the Stench of Death trait)."
+							]
+						}
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The flower can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Stench of Death",
+					"entries": [
+						"Each creature that starts its turn within 10 feet of the flower or one of its zombies must make a {@dc 15} Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is {@condition incapacitated} until the end of the turn. Creatures that are immune to poison damage or the {@condition poisoned} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all flowers for 24 hours."
+					]
+				},
+				{
+					"name": "Grasping Tendrils",
+					"entries": [
+						"The flower can have up to two tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the flower, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The flower has four heads. While it has more than one head, the flower has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the flower takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the flower dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The flower regains 10 hit points for each head regrown in this way."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The flower makes as many bite attacks as it has heads, and can either engulf or use a tendril and reel."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 30 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the flower can't use the same tendril on another target."
+					]
+				},
+				{
+					"name": "Reel",
+					"entries": [
+						"The flower pulls each creature {@condition grappled} by it up to 15 feet straight towards it."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The flower engulfs a Large or smaller creature within 5 feet of it that is {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 15} Constitution saving throw at the start of each of the flower's turns or take 20 ({@damage 3d10 + 4}) bludgeoning damage. If the flower moves, the engulfed target moves with it. The flower can have only one creature engulfed at a time. A creature that dies while engulfed is immediately harvested as if targetted by the harvest the dead action."
+					]
+				},
+				{
+					"name": "Harvest the Dead",
+					"entries": [
+						"The flower grabs one unsecured dead humanoid within 10 feet of it and stuffs the corpse into itself, along with any equipment the corpse is wearing or carrying. The remains can be used with the Corpses trait."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"name": "Corpse Flower",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Corpse-flower seedlings are quite useful for various purposes. Simply kill and bury a necromancer, and you should have a good crop in about a week."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Corpse Flower",
+										"entries": [
+											"A corpse flower can sprout atop the grave of an evil necromancer or the remains of powerful undead. Unless it is uprooted and burned while it is still a seedling, the corpse flower grows to enormous size over several weeks, then tears itself free of the earth and begins scavenging humanoid corpses from battlefields and graveyards. Using its fibrous tentacles, it stuffs the remains into its body and feeds on carrion to repair itself. The plant has a malevolent bent and despises the living."
+										]
+									},
+									{
+										"name": "Horrible Odor",
+										"type": "entries",
+										"entries": [
+											"With or without humanoid corpses nested in its body, a corpse flower exudes a stench of decay that can overwhelm the senses of nearby creatures, causing them to become nauseated. The stench, which serves as a defense mechanism, fades {@dice 2d4} days after the corpse flower dies."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Corpse Flower.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Corpse Flower.png?v=1.125.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/corpse-flower.mp3?v=1.125.1"
+			},
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"incapacitated",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
