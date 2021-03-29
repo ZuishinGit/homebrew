@@ -14,8 +14,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1616275778,
-		"dateLastModified": 1616275778
+		"dateAdded": 1617029992,
+		"dateLastModified": 1617029992
 	},
 	"monster": [
 		{
@@ -4321,6 +4321,290 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Bloodbloater Swarm",
+			"shortName": "swarm",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "ooze",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 5,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 7,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. ({@condition blind} beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The swarm can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blood Drain",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target. {@h} 3 ({@dice 1d4 + 1}) bloodbloaters latch onto the target. At the start of each of the target's turns, the target loses 4 ({@damage 1d8}) hit points per bloodbloater attached to it. If a bloodbloater is attached to a target that is concentrating on a spell when they start their turn, the target must succeed a {@dc 15} Constitution saving throw or break concentration on the spell."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Swarm of Bats",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Swarm of Bats.jpg"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "inset",
+										"name": "The Nature of Swarms",
+										"entries": [
+											"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Swarm of Bats.png?v=1.125.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-bats.mp3?v=1.125.1"
+			},
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sharkmera",
+			"source": "ZC",
+			"size": "H",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "13d12 + 65",
+				"average": 149
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 50
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 21,
+			"int": 7,
+			"wis": 18,
+			"cha": 6,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The sharkmera deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The sharkmera can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+					]
+				},
+				{
+					"name": "Swimmingly",
+					"entries": [
+						"If the sharkmera is in contact with water, it regains 10 hit points at the start of its turn."
+					]
+				},
+				{
+					"name": "Two Heads",
+					"entries": [
+						"The sharkmera has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The sharkmera has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the sharkmera fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sharkmera makes up to two tendril attacks then can bite or use its hammer-head, but not both."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hammer-Head {@recharge 6}",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}24 ({@damage 3d12 + 5}) bludgeoning damage, and the target must succeed a {@dc 16} Constitution saving throw or fall {@condition unconscious} for 1 minute. The target may repeat the saving throw at the end of each of its turns or whenever it takes damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tendril",
+					"entries": [
+						"The sharkmera makes a tendril attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The sharkmera moves up to its speed."
+					]
+				},
+				{
+					"name": "Discharge (Costs 2 Actions)",
+					"entries": [
+						"The sharkmera discharges lightning from its tendrils. Each creature within 15 feet of the sharkmera must succeed on a {@dc 16} Dexterity saving throw or take 11 ({@damage 2d10}) lightning damage and be {@condition paralyzed} until the start of their next turn."
+					]
+				}
+			],
+			"tokenUrl": "https://noads.5e.tools/img/MM/Giant%20Shark.png?v=1.125.1",
+			"traitTags": [
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"unconscious"
+			]
 		}
 	]
 }
