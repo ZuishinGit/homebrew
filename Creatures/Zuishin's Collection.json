@@ -1,0 +1,4610 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ZC",
+				"abbreviation": "ZC",
+				"full": "Zuishin's Collection",
+				"authors": [
+					"Zuishin"
+				],
+				"convertedBy": "Zuishin",
+				"version": "1.0",
+				"url": "https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1617491625,
+		"dateLastModified": 1617491625
+	},
+	"monster": [
+		{
+			"name": "Giant Vulture Bee Queen",
+			"shortName": "bee",
+			"source": "ZC",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "14d10 + 28",
+				"average": 105
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 14,
+			"dex": 21,
+			"con": 14,
+			"int": 5,
+			"wis": 14,
+			"cha": 3,
+			"save": {
+				"wis": "+5",
+				"con": "+5"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The bee can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the bee fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rotting Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 13 ({@damage 2d12}) necrotic damage, and the target must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} until the start of the bee's next turn. While {@condition poisoned} in this way, a creature has vulnerability to all bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"name": "Bilic Discharge {@recharge 5}",
+					"entries": [
+						"The bee projects a stream of rotten flesh and meat from its mouth in a line 15 feet long and 5 feet wide. Each creature in the line must succeed on a {@dc 15} Dexterity saving throw or be covered in this bile for 1 minute, or until a creature (including the target) uses their action to scrape it off of the affected target. At the start of each of its turns, a creature covered in the bile must succeed on a {@dc 15} Constitution saving throw or spend its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Pheromonal Fervor",
+					"entries": [
+						"The bee picks up to three allied swarms within 60 feet that can see it. The chosen creatures can each use their reactions to make a single melee attack."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Flight",
+					"entries": [
+						"The bee flies up to half its flying speed."
+					]
+				},
+				{
+					"name": "Attack (Costs 2 Actions)",
+					"entries": [
+						"The bee makes a melee attack."
+					]
+				},
+				{
+					"name": "Wing Blitz (Costs 2 Actions)",
+					"entries": [
+						"The bee buzzes its wings. Each creature within 10 feet of the bee must succeed  on a {@dc 15} Constitution saving throw or take 8 ({@damage 1d6 + 5}) thunder damage. Also on a failure, a creature can't take reactions this turn. The bee can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Giant Vulture Bee Queen",
+				"source": "ZC"
+			},
+			"environment": [
+				"forest",
+				"grassland",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"Lair Actions:",
+					"The bee calls forth 3 ({@dice 1d6}) {@creature swarm of wasps||swarms}, appearing in locations of the bee's choice within 60 feet.",
+					"The bee causes the effects of the {@spell insect plague} ({@dc 15}), which lasts for 1 round.",
+					"The bee causes the effects of the {@spell shadow of moil|xge}, which lasts for 1 round, and takes the form of a thick blanket of bees that deal piercing damage.",
+					"Regional Effects:",
+					"Intense buzzing or grinding noises fill the region. With the exception of truly cacophonous sounds, creatures can only hear speech and noises that originate within 10 feet of them.",
+					"The region is choked with viscous honey, which acts as difficult terrain.",
+					"The air becomes filled with the stench of rotting flesh, and buzzing flies grow thick within the region, even when there is no carrion to be found."
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Giant Wasp.png?v=1.117.2",
+			"traitTags": [
+				"Legendary Resistances",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Undead Weave Serpent",
+			"source": "ZC",
+			"size": "H",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d12 + 54",
+				"average": 171
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 16,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"save": {
+				"con": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"understands all languages it spoke in life but can't speak"
+			],
+			"cr": {
+				"cr": "8",
+				"lair": "9"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The serpent's innate spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell chill touch} (5th level)",
+						"{@spell true strike}"
+					],
+					"daily": {
+						"3": [
+							"{@spell dispel magic}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the devourer bone serpent fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The devourer bone serpent's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Chill Touch",
+					"entries": [
+						"{@atk rs} {@hit 6} to hit, range 120ft., one target. {@h}9 ({@damage 2d8}) necrotic damage, and the target can't regain hit points until the start of the serpent's next turn."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Skeletal Rush {@recharge 5}",
+					"entries": [
+						"The serpent moves up to its walking speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {@dc 16} Dexterity saving throw or take 24 ({@damage 3d12 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Piercing Bones",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage, plus 18 ({@damage 4d8}) necrotic damage. Also on a hit, if the attack has advantage, the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained}, and takes the necrotic damage of this attack at the start of each of its turns. Additionally, the target is shrouded in a veil of anti-magic, as if it were in an {@spell antimagic field} targetting only the creature. While a creature is {@condition grappled} this way, the serpent can't target another creature with this action."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Hallowed Trail {@recharge 6}",
+					"entries": [
+						"Until the start of the serpent's next turn, it leaves a trail of {@hazard desecrated ground} in every space it passes through. Additionally, when a creature that isn't undead enters the area for the first time on a turn or starts its turn there, it must succeed on a {@dc 16} Constitution saving throw or have its Strength score by {@dice 1d4}. A creature dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Reflection",
+					"entries": [
+						"If the serpent makes a successful saving throw against a spell, or a spell attack misses it, the serpent can choose another creature (including the spellcaster) it can see within 30 feet of it. The spell targets the chosen creature instead of the serpent. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The serpent casts a cantrip."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The serpent moves up to half its speed."
+					]
+				},
+				{
+					"name": "Bite (Costs 2 Actions)",
+					"entries": [
+						"The serpent makes a bite attack."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Undead Weave Serpent",
+				"source": "ZC"
+			},
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MM/Bone Naga.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Bone Naga (Guardian).png?v=1.117.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/bone-naga.mp3?v=1.117.3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Crystal Spider",
+			"source": "ZC",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 12",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 17,
+			"con": 12,
+			"int": 2,
+			"wis": 11,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"radiant"
+			],
+			"vulnerable": [
+				"thunder"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Gleaming Carapace",
+					"entries": [
+						"The spider can dodge as a bonus action."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the crystal spider remains motionless, it is indistinguishable from a normal crystalline formation, such as a gemstone deposit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spider makes three attacks: one with its bite, and two with its razor leg."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Razor Leg",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Brilliant Ray {@recharge 4}",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 60 ft., up to two targets. {@h}17 ({@damage 4d6 + 3}) radiant damage, and the target is {@condition blinded} until the end of the spider's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Reflective Prism",
+					"entries": [
+						"When the spider takes radiant damage, it immediately recharges and uses its Brilliant Ray."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain",
+				"underdark"
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Gnoll Fang of Yeenoghu (Legendary)",
+			"shortName": "gnoll",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 13,
+			"save": {
+				"con": "+4",
+				"wis": "+2",
+				"cha": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Abyssal",
+				"Gnoll"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If the gnoll fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gnoll makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The gnoll makes a bite attack."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"The gnoll moves up to its speed."
+					]
+				},
+				{
+					"name": "Savage (Costs 2 Actions)",
+					"entries": [
+						"The gnoll makes a claw attack against each creature within 5 feet of it."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"fluff": {
+				"name": "Gnoll Fang of Yeenoghu",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Gnolls celebrate their victories by performing demonic rituals and making blood offerings to Yeenoghu.",
+									"Sometimes the demon lord rewards his worshipers by allowing one of them to be possessed by a demonic spirit. Marked as Yeenoghu's favorite, the lucky recipient becomes a fang of Yeenoghu, the chosen of the Gnoll Lord. In much the same way Yeenoghu created the first gnolls, a hyena that feasts on a fang's slain foe undergoes a horrible transformation, becoming a full-grown adult gnoll. Depending on the number of hyenas in a region, a fang of Yeenoghu can lead to a startling increase in the gnoll population. Finding and killing the fang is the only way to keep that population in check.",
+									{
+										"type": "entries",
+										"name": "Gnolls",
+										"entries": [
+											"Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.",
+											{
+												"name": "Demonic Origin",
+												"entries": [
+													" The origin of the gnolls traces back to a time when the demon lord Yeenoghu found his way to the Material Plane and ran amok. Packs of ordinary hyenas followed in his wake, scavenging the demon lord's kills. Those hyenas were transformed into the first gnolls, parading after Yeenoghu until he was banished back to the Abyss. The gnolls then scattered across the face of the world, a dire reminder of demonic power.",
+													"Gnolls rarely build permanent structures or craft anything of lasting value. They don't make weapons or armor, but scavenge such items from the corpses of their fallen victims, stringing ears, teeth, scalps, and other trophies from their foes onto their patchwork armor."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Nomadic Destroyers",
+												"entries": [
+													" Gnolls are dangerous because they strike at random. They emerge from the wilderness, plunder and slaughter, then move elsewhere. They attack like a plague of locusts, pillaging settlements and leaving little behind but razed buildings, gnawed corpses, and befouled land. Gnolls choose easy targets for their raids. Armored warriors holed up in a fortified castle will survive a rampaging gnoll horde unscathed, even as the towns, villages, and farms that surround the castle are ablaze, their people slaughtered and devoured."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Thirst for Blood",
+												"entries": [
+													" No goodness or compassion resides in the heart of a gnoll. Like a demon, it lacks anything resembling a conscience, and can't be taught or coerced to put aside its destructive tendencies. The gnolls' frenzied bloodlust makes them an enemy to all, and when they lack a common foe, they fight among themselves. Even the most savage orcs avoid allying with gnolls."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Gnoll Fang of Yeenoghu.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Gnoll Fang of Yeenoghu.png?v=1.117.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/gnoll-fang-of-yeenoghu.mp3?v=1.117.3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Gnoll Stalker",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 7",
+				"average": 38
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Gnoll"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gnoll makes two melee attacks with its spear or two ranged attacks with its longbow."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage when used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn. Additionally, the target must make a {@dc 13} Constitution saving throw versus poison, taking 7 ({@damage 3d4}) poison damage on a failure, or half as much on a success."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"fluff": {
+				"name": "Gnoll Hunter",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Hunters are the stealthiest gnolls in a war band, and they put their talents to use on the battlefield in a number of ways. In the vanguard of a war band, hunters creep around, picking off isolated opposition while clearing the way for the rest of the force to run roughshod over the enemy's territory.",
+											"Hunters are particularly skilled with the longbow, and they fire arrows with viciously barbed heads. Even when a hunter doesn't kill its target with its first shot, the arrow strike brings so much pain that the victim is hobbled in its attempt to run away. When a hunter on the prowl finds prey and isn't concerned about remaining stealthy, it sounds a horn crafted from bone that produces a keening wail similar to a banshee's yell."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Gnoll Hunter.png?v=1.117.4",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/gnoll-hunter.mp3?v=1.117.4"
+			},
+			"traitTags": [
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Xvart Illusionist",
+			"shortName": "illusionist",
+			"source": "ZC",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "8d6 + 8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 13,
+			"int": 16,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"int": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Abyssal",
+				"Undercommon"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The illusionist has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*Illusion spell of 1st level or higher"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell color spray}*",
+								"{@spell disguise self}*",
+								"{@spell find familiar}",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell invisibility}*",
+								"{@spell mirror image}*",
+								"{@spell phantasmal force}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell major image}*"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell phantasmal killer}*"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)",
+					"entries": [
+						"As a bonus action, the illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect ends if the illusionist takes damage, it is {@condition incapacitated}, or its speed becomes 0."
+					]
+				},
+				{
+					"name": "Low Cunning",
+					"entries": [
+						"The xvart can take the Disengage action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Overbearing Pack",
+					"entries": [
+						"The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Raxivort's Tongue",
+					"entries": [
+						"The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with two hands."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.",
+											"Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.",
+											{
+												"name": "Raxivort's Betrayal",
+												"entries": [
+													" All xvarts are the degenerate offspring of an entity named Raxivort, who once served Graz'zt the Dark Prince as treasurer. Raxivort spent long centuries watching over the treasury, and in time he grew to lust after his master's riches. In one bold move, he plundered a treasure vault and fled to the Material Plane. One of the treasures he stole was the Infinity Spindle, a crystalline shard from the early days of the multiverse that could transform even a creature as low as Raxivort into a demigod.",
+													"After he ascended to godhood, Raxivort forged a realm called the Black Sewers, within Pandesmos, the topmost layer of Pandemonium. He enjoyed his divine ascension only briefly, though, before Graz'zt unleashed his vengeance. The demon prince had no need to regain the Infinity Spindle, since he already possessed power greater than what it could grant. Instead, he dispatched agents far and wide to spread news of what the spindle could do and the puny, pathetic creature that claimed its ownership. Soon enough, Raxivort was pursued by a variety of enemies, all eager to claim the Spindle as their own.",
+													"In the face of his imminent destruction, Raxivort hatched a plan. Fleeing to the Material Plane, he wandered across a variety of worlds and spawned creatures that were his exact duplicate. These are the xvarts, creatures that not only look identical to Raxivort in appearance but also foil any magic used to track him down. Spells, rituals, and other effects that could reveal Raxivort's location instead point to the nearest xvart.",
+													"Although the initial rush of enemies against him has subsided, Raxivort knows that the planar powers are patient. He remains in hiding, a wretch of a demigod who does little more than wander the planes, spawning ever more xvarts to ensure his continued safety.",
+													"When things go badly for them, they kidnap whoever's handy and sacrifice them to their craven god. Hmm. I guess they're not so different from a lot of humans, after all.",
+													"-Volo",
+													"Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.",
+													"Xvart Speakers",
+													"A xvart tribe has one speaker that serves as its leader. The speaker has the statistics of a normal xvart, except that it has an Intelligence of 13 (+1) and knows one additional language (usually Common or Goblin)."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Greedy Thugs",
+												"entries": [
+													" Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vermin Masters",
+												"entries": [
+													" Rats and bats (including giant-sized specimens) are naturally attracted to xvarts, and xvarts domesticate such beasts for food and battle. Xvarts also form alliances with wererats, although the lycanthropes are dominant in any such arrangement. This relationship traces back to Raxivort's divine nature. Even though the xvarts inherited Raxivort's greed and cowardice, they also gained his ability to form bonds with such creatures."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Xvart Warlocks",
+												"entries": [
+													" A xvart can forge a pact with Raxivort by stealing an item of such great value that the demigod himself appears before the xvart to claim it. After surrendering the item to Raxivort, the xvart asks for magical power so that it can find and deliver more great treasures into Raxivort's custody. If the demigod feels so inclined, he imbues the xvart with greater wisdom and charisma and grants it the spellcasting abilities of a warlock before returning to the howling chaos of"
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Pandemonium",
+												"entries": [
+													" Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Xvart.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/illusionist.mp3?v=1.118.0"
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"U"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"frightened",
+				"invisible"
+			]
+		},
+		{
+			"name": "Xvart Dream Darter",
+			"shortName": "xvart",
+			"source": "ZC",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d6",
+				"average": 24
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"sleight of hand": "+4",
+				"stealth": "+6",
+				"insight": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"Abyssal",
+				"Undercommon"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the xvart can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The xvart deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the xvart that isn't {@condition incapacitated} and the xvart doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Overbearing Pack",
+					"entries": [
+						"The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Raxivort's Tongue",
+					"entries": [
+						"The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The xvart makes two melee attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Dream Venom Dart {@recharge 3}",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target is forced to make a {@dc 13} Wisdom saving throw. On a failure, the xvart is {@condition invisible} to the creature until the start of the xvart's next turn."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.",
+											"Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.",
+											{
+												"name": "Raxivort's Betrayal",
+												"entries": [
+													" All xvarts are the degenerate offspring of an entity named Raxivort, who once served Graz'zt the Dark Prince as treasurer. Raxivort spent long centuries watching over the treasury, and in time he grew to lust after his master's riches. In one bold move, he plundered a treasure vault and fled to the Material Plane. One of the treasures he stole was the Infinity Spindle, a crystalline shard from the early days of the multiverse that could transform even a creature as low as Raxivort into a demigod.",
+													"After he ascended to godhood, Raxivort forged a realm called the Black Sewers, within Pandesmos, the topmost layer of Pandemonium. He enjoyed his divine ascension only briefly, though, before Graz'zt unleashed his vengeance. The demon prince had no need to regain the Infinity Spindle, since he already possessed power greater than what it could grant. Instead, he dispatched agents far and wide to spread news of what the spindle could do and the puny, pathetic creature that claimed its ownership. Soon enough, Raxivort was pursued by a variety of enemies, all eager to claim the Spindle as their own.",
+													"In the face of his imminent destruction, Raxivort hatched a plan. Fleeing to the Material Plane, he wandered across a variety of worlds and spawned creatures that were his exact duplicate. These are the xvarts, creatures that not only look identical to Raxivort in appearance but also foil any magic used to track him down. Spells, rituals, and other effects that could reveal Raxivort's location instead point to the nearest xvart.",
+													"Although the initial rush of enemies against him has subsided, Raxivort knows that the planar powers are patient. He remains in hiding, a wretch of a demigod who does little more than wander the planes, spawning ever more xvarts to ensure his continued safety.",
+													"When things go badly for them, they kidnap whoever's handy and sacrifice them to their craven god. Hmm. I guess they're not so different from a lot of humans, after all.",
+													"-Volo",
+													"Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.",
+													"Xvart Speakers",
+													"A xvart tribe has one speaker that serves as its leader. The speaker has the statistics of a normal xvart, except that it has an Intelligence of 13 (+1) and knows one additional language (usually Common or Goblin)."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Greedy Thugs",
+												"entries": [
+													" Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vermin Masters",
+												"entries": [
+													" Rats and bats (including giant-sized specimens) are naturally attracted to xvarts, and xvarts domesticate such beasts for food and battle. Xvarts also form alliances with wererats, although the lycanthropes are dominant in any such arrangement. This relationship traces back to Raxivort's divine nature. Even though the xvarts inherited Raxivort's greed and cowardice, they also gained his ability to form bonds with such creatures."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Xvart Warlocks",
+												"entries": [
+													" A xvart can forge a pact with Raxivort by stealing an item of such great value that the demigod himself appears before the xvart to claim it. After surrendering the item to Raxivort, the xvart asks for magical power so that it can find and deliver more great treasures into Raxivort's custody. If the demigod feels so inclined, he imbues the xvart with greater wisdom and charisma and grants it the spellcasting abilities of a warlock before returning to the howling chaos of"
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Pandemonium",
+												"entries": [
+													" Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Xvart.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/spy.mp3?v=1.118.0"
+			},
+			"altArt": [
+				{
+					"name": "Vistana Spy",
+					"source": "CoS"
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Symbiotic Jelly",
+			"shortName": "slime",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"cha": "+2",
+				"int": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this distance)"
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The jelly's spellcasting ability is Intelligence (spell save {@dc 13}). It can cast the following spells, requiring components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell hypnotic pattern}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell nondetection} (self only)"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The jelly can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Psychic Dissonance",
+					"entries": [
+						"If the jelly takes psychic damage, it has disadvantage on attack rolls and ability checks until the end of its next turn, and is immediately polymorphed into its true form."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The jelly can use its action to polymorph into an object or creature, or back into its true, amorphous form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "False Appearance (Object Form Only)",
+					"entries": [
+						"While the jelly remains motionless, it is indistinguishable from an ordinary object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jelly makes one pseudopod attack and uses Eat Memories."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 5 ({@damage 2d4}) psychic damage."
+					]
+				},
+				{
+					"name": "Eat Memories",
+					"entries": [
+						"The jelly targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or take 13 ({@damage 3d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+						"When a jelly causes a target to become memory drained, the jelly learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ooze Nature",
+										"entries": [
+											"A symbiotic slime doesn't require sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MTF/Oblex Spawn.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Oblex Spawn.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/oblex-spawn.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Amorphous",
+				"False Appearance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"unconscious"
+			]
+		},
+		{
+			"name": "Mindwitness (Legendary)",
+			"shortName": "mindwitness",
+			"source": "ZC",
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d10 + 20"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 20,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 15,
+			"wis": 15,
+			"cha": 10,
+			"save": {
+				"int": "+5",
+				"wis": "+5",
+				"con": "+5"
+			},
+			"skill": {
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"conditionImmune": [
+				"prone"
+			],
+			"languages": [
+				"Deep Speech",
+				"Undercommon",
+				"telepathy 600 ft."
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Telepathic Hub",
+					"entries": [
+						"When the mindwitness receives a telepathic message, it can telepathically share that message with up to seven other creatures within 600 feet of it that it can see."
+					]
+				},
+				{
+					"name": "Antimagic Cloak (3/Day)",
+					"entries": [
+						"At the end of the mindwitness' turn, it can expend one use of this trait to end any magical effect afflicting it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mindwitness makes two attacks: one with its tentacles and one with its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}16 ({@damage 4d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}20 ({@damage 4d8 + 2}) psychic damage. if the target is Large or smaller, it is {@condition grappled} (escape {@dc 14}) and must succeed on a {@dc 14} Intelligence saving throw or be {@condition stunned} until this grapple ends."
+					]
+				},
+				{
+					"name": "Eye Rays",
+					"entries": [
+						"The mindwitness shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1. Aversion Ray.",
+									"style": "italic",
+									"entry": "The targeted creature must make a {@dc 14} Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								},
+								{
+									"type": "item",
+									"name": "2. Fear Ray.",
+									"style": "italic",
+									"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								},
+								{
+									"type": "item",
+									"name": "3. Psychic Ray.",
+									"style": "italic",
+									"entry": "The target must succeed on a {@dc 14} Intelligence saving throw or take 27 ({@damage 6d8}) psychic damage."
+								},
+								{
+									"type": "item",
+									"name": "4. Slowing Ray.",
+									"style": "italic",
+									"entry": "The targeted creature must make a {@dc 14} Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								},
+								{
+									"type": "item",
+									"name": "5. Stunning Ray.",
+									"style": "italic",
+									"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success."
+								},
+								{
+									"type": "item",
+									"name": "6. Telekinetic Ray.",
+									"style": "italic",
+									"entries": [
+										"If the target is a creature, it must make a {@dc 14} Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitated}.",
+										"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Enslave (3/Day)",
+					"entries": [
+						"The mindwitness targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Wisdom saving throw or be magically {@condition charmed} by the mindwitness until the mindwitness dies or until it is on a different plane of existence from the target. The {@condition charmed} target is under the mindwitness' control and can't take reactions, and the mindwitness and the target can communicate telepathically with each other over any distance.",
+						"Whenever the {@condition charmed} target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the mindwitness."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Eye Ray",
+					"entries": [
+						"The mindwitness uses one random eye ray."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Beholder",
+				"source": "MM"
+			},
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Mindwitness",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"If the beholder can be stunned and brought safely to the brine pool of the elder brain, it can be converted through ceremorphosis into a mindwitness. The process of ceremorphosis transforms four of the beholder's eyestalks into tentacles similar to those of a mind flayer, and alters some of the beholder's eye rays.",
+											"Less intelligent than beholders and less liable to endanger the colony, mindwitnesses are psionically imprinted with devotion to the elder brain and submission to illithid commands, making them almost as obedient as intellect devourers.",
+											{
+												"name": "Telepathic Hub",
+												"entries": [
+													" The primary function of a mindwitness is to improve telepathic communication in a mind flayer colony. A creature in telepathic communication with a mindwitness can converse telepathically through it to as many as seven other creatures the mindwitness can see, allowing the rapid spread of commands and other information."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Solitary Seekers",
+												"entries": [
+													" If separated from its illithid masters, a mindwitness seeks out other telepathic creatures to tell it what to do. Mindwitnesses have been known to ally with flumphs and telepathic planar beings such as demons, shifting their worldview and changing their alignment to match that of their new masters."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Mindwitness.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Mindwitness.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/mindwitness.mp3?v=1.118.0"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"restrained",
+				"stunned"
+			]
+		},
+		{
+			"name": "Xvart Chosen of Raximvort",
+			"source": "ZC",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"condition": "(15 with {@spell mage armor})"
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 10",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 8,
+			"wis": 11,
+			"cha": 18,
+			"skill": {
+				"stealth": "+4",
+				"deception": "+6",
+				"persuasion": "+6"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Abyssal",
+				"Undercommon"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The xvart's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 14}), requiring no material components:"
+					],
+					"will": [
+						"{@spell silent image}",
+						"{@spell mage armor} (self only)"
+					],
+					"daily": {
+						"1": [
+							"{@spell mental prison|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The xvart is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell create bonfire|XGE}",
+								"{@spell eldritch blast}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell Evard's black tentacles}",
+								"{@spell hex}",
+								"{@spell shadow of moil|XGE}",
+								"{@spell spirit shroud|TCE}",
+								"{@spell summon beast|TCE}",
+								"{@spell synaptic static|XGE}",
+								"{@spell telekinesis}"
+							],
+							"slots": 3,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Low Cunning",
+					"entries": [
+						"The xvart can take the Disengage action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Overbearing Pack",
+					"entries": [
+						"The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Raxivort's Tongue",
+					"entries": [
+						"The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
+					]
+				},
+				{
+					"name": "Eldritch Mind",
+					"entries": [
+						"The xvart has advantage on Constitution saving throws made to maintain concentration on a spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 120 ft., one to three targets. {@h}9 ({@damage 1d10 + 4}) force damage."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"underdark"
+			],
+			"fluff": {
+				"name": "Xvart",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.",
+											"Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.",
+											{
+												"name": "Raxivort's Betrayal",
+												"entries": [
+													" All xvarts are the degenerate offspring of an entity named Raxivort, who once served Graz'zt the Dark Prince as treasurer. Raxivort spent long centuries watching over the treasury, and in time he grew to lust after his master's riches. In one bold move, he plundered a treasure vault and fled to the Material Plane. One of the treasures he stole was the Infinity Spindle, a crystalline shard from the early days of the multiverse that could transform even a creature as low as Raxivort into a demigod.",
+													"After he ascended to godhood, Raxivort forged a realm called the Black Sewers, within Pandesmos, the topmost layer of Pandemonium. He enjoyed his divine ascension only briefly, though, before Graz'zt unleashed his vengeance. The demon prince had no need to regain the Infinity Spindle, since he already possessed power greater than what it could grant. Instead, he dispatched agents far and wide to spread news of what the spindle could do and the puny, pathetic creature that claimed its ownership. Soon enough, Raxivort was pursued by a variety of enemies, all eager to claim the Spindle as their own.",
+													"In the face of his imminent destruction, Raxivort hatched a plan. Fleeing to the Material Plane, he wandered across a variety of worlds and spawned creatures that were his exact duplicate. These are the xvarts, creatures that not only look identical to Raxivort in appearance but also foil any magic used to track him down. Spells, rituals, and other effects that could reveal Raxivort's location instead point to the nearest xvart.",
+													"Although the initial rush of enemies against him has subsided, Raxivort knows that the planar powers are patient. He remains in hiding, a wretch of a demigod who does little more than wander the planes, spawning ever more xvarts to ensure his continued safety.",
+													"When things go badly for them, they kidnap whoever's handy and sacrifice them to their craven god. Hmm. I guess they're not so different from a lot of humans, after all.",
+													"-Volo",
+													"Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.",
+													"Xvart Speakers",
+													"A xvart tribe has one speaker that serves as its leader. The speaker has the statistics of a normal xvart, except that it has an Intelligence of 13 (+1) and knows one additional language (usually Common or Goblin)."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Greedy Thugs",
+												"entries": [
+													" Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vermin Masters",
+												"entries": [
+													" Rats and bats (including giant-sized specimens) are naturally attracted to xvarts, and xvarts domesticate such beasts for food and battle. Xvarts also form alliances with wererats, although the lycanthropes are dominant in any such arrangement. This relationship traces back to Raxivort's divine nature. Even though the xvarts inherited Raxivort's greed and cowardice, they also gained his ability to form bonds with such creatures."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Xvart Warlocks",
+												"entries": [
+													" A xvart can forge a pact with Raxivort by stealing an item of such great value that the demigod himself appears before the xvart to claim it. After surrendering the item to Raxivort, the xvart asks for magical power so that it can find and deliver more great treasures into Raxivort's custody. If the demigod feels so inclined, he imbues the xvart with greater wisdom and charisma and grants it the spellcasting abilities of a warlock before returning to the howling chaos of"
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Pandemonium",
+												"entries": [
+													" Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Xvart.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VGM/Xvart.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/xvart.mp3?v=1.118.0"
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"U"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "White Pudding",
+			"shortName": "pudding",
+			"source": "ZC",
+			"size": "L",
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 5,
+			"con": 16,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"acid",
+				"cold",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The pudding can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the pudding remains motionless, it is indistinguishable from an ordinary patch of ice or packed snow."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) cold damage plus 18 ({@damage 4d8}) acid damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"name": "Black Pudding",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A black pudding resembles a heaving mound of sticky black sludge. In dim passageways, the pudding appears to be little more than a blot of shadow.",
+									"Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone remains behind, wiped clean.",
+									{
+										"type": "entries",
+										"name": "Oozes",
+										"entries": [
+											"Oozes thrive in the dark, shunning areas of bright light and extreme temperatures. They flow through the damp underground, feeding on any creature or object that can be dissolved, slinking along the ground, dripping from walls and ceilings, spreading across the edges of underground pools, and squeezing through cracks.",
+											"The first warning an adventurer receives of an ooze's presence is often the searing pain of its acidic touch. Oozes are drawn to movement and warmth. Organic material nourishes them, and when prey is scarce they feed on grime, fungus, and offal. Veteran explorers know that an immaculately clean passageway is a likely sign that an ooze lairs nearby.",
+											{
+												"name": "Slow Death",
+												"entries": [
+													" An ooze kills its prey slowly. Some varieties, such as black puddings and gelatinous cubes, engulf creatures to prevent escape. The only upside of this torturous death is that a victim's comrades can come to the rescue before it is too late.",
+													"Since not every ooze digests every type of substance, some have coins, metal gear, bones, and other debris suspended within their quivering bodies. A slain ooze can be a rich source of treasure for its killers.",
+													"Whether this is true or not, the Faceless Lord is one of the few beings that can control oozes and imbue them with a modicum of intelligence. Most of the time, oozes have no sense of tactics or self-preservation. They are direct and predictable, attacking and eating without cunning. Under the control of Juiblex, they exhibit glimmers of sentience and malevolent intent."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Unwitting Servants",
+												"entries": [
+													" Although an ooze lacks the intelligence to ally itself with other creatures, others that understand an ooze's need to feed might lure it into a location where it can be of use to them. Clever monsters keep oozes around to defend passageways or consume refuse. Likewise, an ooze can be enticed into a pit trap, where its captors feed it often enough to prevent it from coming after them. Crafty creatures place torches and flaming braziers in strategic areas to dissuade an ooze from leaving a particular tunnel or room."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Spawn of Juiblex",
+												"entries": [
+													" According to the Demonomicon of Iggwilv and other sources, oozes are scattered fragments or offspring of the demon lord Juiblex."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Ooze Nature",
+												"entries": [
+													" An ooze doesn't require sleep."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Black Pudding.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Black Pudding.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/black-pudding.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Amorphous",
+				"False Appearance",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Durezha",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 11",
+				"average": 60
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 15,
+			"skill": {
+				"deception": "+5"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Elvish",
+				"telepathy 120 ft."
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Assume Form",
+					"entries": [
+						"The durezha can assume the appearance of any Medium humanoid it has eaten. It remains in this form for {@dice 1d6} days, during which time the form gradually decays until, when the effect ends, the form sloughs from the demon's body."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The durezha has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Grasping Hair",
+					"entries": [
+						"The durezha can control the length of its hair, out to a maximum distance of 30 feet. A strand of hair that is grappling a creature can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a strand of hair deals no damage to the durezha, which can extrude a replacement strand on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+					]
+				},
+				{
+					"name": "Heartstrings",
+					"entries": [
+						"A creature that comes into contact with the durezha's hair knows the durezha's alignment and current emotional state, and the durezha knows the same of the creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The durezha makes four attacks with its hair, uses Manipulate, and Tangled Drain."
+					]
+				},
+				{
+					"name": "Hair",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 30 ft., one creature. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws."
+					]
+				},
+				{
+					"name": "Manipulate",
+					"entries": [
+						"The durezha moves each creature {@condition grappled} by it up to 25 feet."
+					]
+				},
+				{
+					"name": "Tangled Drain",
+					"entries": [
+						"All creatures {@condition grappled} by the durezha take 9 ({@damage 2d8}) piercing damage, and humanoids have their Charisma score reduced by {@dice 1d4}. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a ghoul, unless it has been revived or its corpse has been destroyed. "
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Mindknot",
+					"entries": [
+						"When the durezha takes psychic damage, it can use its reaction to deal the same amount of psychic damage to each creature that is currently {@condition grappled} by it."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Durezha",
+										"entries": [
+											"The durezha is a female ghoul that is born of the corpse of a hag or other unseelie being. In its natural form, the durezha has extremely long hair, which seems to writhe slightly, as if animated."
+										]
+									},
+									{
+										"name": "Corrupted Beauty",
+										"type": "entries",
+										"entries": [
+											"A durezha retains a hag's love for all that is disgusting and vile, and often find themselves obsessed with the feeling of living in a rotting husk. Almost exclusively does a durezha target female humanoids, and they get greater satisfaction from a more beautiful mask."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Daughters of Doresain",
+										"entries": [
+											"Similar to its maurezhi relatives, a durezha can drain a victim's sense of self, though instead of claws it uses its hair. If this affliction is allowed to go far enough, the victim is infected with an unholy hunger for flesh that overpowers their personality and transforms them into a ghoul."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/MTF/Maurezhi.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Maurezhi.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/maurezhi.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"E",
+				"TP"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Cryohydra",
+			"source": "ZC",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 2,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold"
+			],
+			"immune": [],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The hydra can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While the hydra sleeps, at least one of its heads is awake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hydra makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Frost Breath {@recharge 5}",
+					"entries": [
+						"Each head of the hydra exhales a stream of frost in a 20-foot line that is 10 feet wide. A creature in one or more of these lines must make a single {@dc 16} Constitution saving throw or take 9 ({@damage 2d8}) cold damage for each head the creature is affected by, taking half damage on a success."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"name": "Hydra",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The hydra is a reptilian horror with a crocodilian body and multiple heads on long, serpentine necks. Although its heads can be severed, the hydra magically regrows them in short order. A typical specimen has five heads. At the dawn of time, Tiamat, the Queen of Evil Dragons, slew a rival dragon god named Lernaea and cast her blood across the multiverse. Each drop that fell upon a world spawned a multi-headed hydra consumed by a hunger as great as the fallen god's hatred. Great champions are known to test their mettle against these fearsome creatures.",
+									{
+										"name": "Everlasting Hunger",
+										"type": "entries",
+										"entries": [
+											"A rapacious and gluttonous monster, a hydra snatches and tears apart its prey in a frenzy of feeding. When a hydra has cleared a territory of food and driven off any creatures smart enough to avoid it, it moves on to seek its meals elsewhere. A hydra's hunger is so great that if it can't feed, it might turn against itself, its heads attacking each other as the creature eats itself alive."
+										]
+									},
+									{
+										"name": "Hardy Water Dwellers",
+										"type": "entries",
+										"entries": [
+											"Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shallows, and in wetland bogs. A hydra rarely requires shelter from the elements, so it doesn't normally have a lair. Only in colder climes are hydras drawn to the protection of sheltered caverns and ruins. When a hydra sleeps, at least one of its heads remains awake and alert, making the creature difficult to catch by surprise."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Hydra.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Hydra.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/hydra.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Fangdrake",
+			"source": "ZC",
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 36",
+				"average": 114
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"int": "+4",
+				"wis": "+4",
+				"cha": "+1"
+			},
+			"skill": {
+				"perception": "+4",
+				"athletics": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the fangdrake moves at least 20 feet straight toward a target and then hits it with its tail on the same turn, the target takes an extra 19 ({@damage 3d12}) slashing damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The fangdrake can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 16} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fangdrake makes three attacks: one with its bite, two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one creature. {@h}13 ({@damage 2d8 + 4}) piercing damage. The target must succeed on a {@dc 16} Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d12 + 4}) slashing damage. If this attack leaves a creature at 0 hit points, and the creature is large or smaller, the creature is immediately decapitated and dies if it can't survive without that head."
+					]
+				},
+				{
+					"name": "Barbed Rush {@recharge 6}",
+					"entries": [
+						"The fangdrake moves up to its walking speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {@dc 16} Dexterity saving throw or take 35 ({@damage 7d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"name": "Wyvern",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Travelers in the wild sometimes look to the skies to see the dark-winged shape of a wyvern carrying its prey. These cousins to the great dragons hunt the same tangled forests and caverns as their kin. Their appearance sends ripples of alarm through the borderlands of civilization.",
+									"A wyvern has two scaly legs, leathery wings, and a sinewy tail topped with its most potent weapon: a poison stinger. The poison in a wyvern's stinger can kill a creature in seconds. Extremely potent, wyvern poison burns through its victim's bloodstream, disintegrating veins and arteries on its way to the heart. As deadly as wyverns can be, however, hunters and adventurers often track them to claim the venom, which is used in alchemical compounds and to coat weapons.",
+									{
+										"name": "Aerial Hunters",
+										"type": "entries",
+										"entries": [
+											"A wyvern doesn't fight on the ground unless it can't reach its prey by any other means, or if it has been fooled into a position from which aerial combat isn't an option. If forced into a confrontation on the ground, a wyvern crouches low, keeping its stinger poised above its head as it hisses and growls."
+										]
+									},
+									{
+										"name": "Aggressive and Reckless",
+										"type": "entries",
+										"entries": [
+											"A wyvern intent on its prey backs down only if it sustains serious injury, or if its prey eludes it long enough for another easier potential meal to wander along. If it corners a fleeing creature in an enclosure too small to enter, a wyvern guards where the quarry hides, lashing with its stinger whenever opportunity allows.",
+											"Although they possess more cunning than ordinary beasts, wyverns lack the intelligence of their draconic cousins. As such, creatures that maintain their composure as a wyvern hunts them from the air can often elude or trick it. Wyverns follow a direct path to their prey, with no thought given to possible ambushes."
+										]
+									},
+									{
+										"name": "Tamed Wyverns",
+										"type": "entries",
+										"entries": [
+											"A wyvern can be tamed for use as a mount, but doing so presents a difficult and deadly challenge. Raising one as a hatchling offers the best results. However, a wyvern's violent temperament has cost the life of many a would-be master."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Wyvern.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Wyvern.png?v=1.118.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/wyvern.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Scathe",
+			"shortName": "scathe",
+			"source": "ZC",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"scathe"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"black ice {@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 10",
+				"average": 45
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 13,
+			"int": 7,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"acrobatics": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Scathe"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Snow Camouflage",
+					"entries": [
+						"The scathe has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "Expert Skaters",
+					"entries": [
+						"When the scathe is standing on solid ice, its speed increases to 40 ft., and its movement does not provoke attacks of opportunity. It also automatically passes checks made to maintain balance on {@hazard slippery ice}, and has advantage on perception checks to notice ice related hazards."
+					]
+				},
+				{
+					"name": "Heatsense",
+					"entries": [
+						"The scathe knows the general direction of heat sources within one mile of it, such as those produced by a small flame, or even the latent body heat of a human."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Scathes typically carry equipment made from black ice, a light material that is hard to use unless you are accustomed to arctic temperatures. These bonuses are accounted for in the Scathe's statblock."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The scathe has advantage on attack rolls against any creature it has surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Black Ice Sickle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed a {@dc 11} Constitution save or be {@condition poisoned}. While {@condition poisoned} this way, the target's speed becomes 0, and it takes 9 ({@damage 2d8}) cold damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending these effects on a success."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Scathes have long curling claws on their feet that make excellent natural ice skates, this in junction with their wing-like membranes that allow them to sail on their skates using arctic winds makes scathes the most deadly creatures on ice. They lair in icy ravines or caverns and are excellent pack ambushers, preying on icefishers and other creatures that happen upon their territory.",
+									{
+										"name": "Dragon Hunters",
+										"type": "entries",
+										"entries": [
+											"Their immunity to cold damage combined with their simple ferocity makes scathes confident even when facing dragons, and they are known to come out on top when it comes to smaller dragons."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Vol Minion",
+			"shortName": "minion",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"special": "1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 11,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' cant"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The minion has advantage on saving throws against being {@condition charmed}, and magic can't put the minion to sleep."
+					]
+				},
+				{
+					"name": "Minion Perseverance",
+					"entries": [
+						"If the minion is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The minion makes two melee weapon attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 10} Constitution saving throw. On a failure, the target takes 6 ({@damage 1d12}) poison damage and becomes {@condition poisoned} for 1 minute. On a success the creature takes half damage and isn't {@condition poisoned}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Soul Monger",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Soul Monger.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Soul Monger.png?v=1.121.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/soul-monger.mp3?v=1.121.2"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TC"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Lion Experiment",
+			"source": "ZC",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 45",
+				"average": 127
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 17,
+			"int": 5,
+			"wis": 17,
+			"cha": 10,
+			"skill": {
+				"investigation": "+3",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Dimensional Lock",
+					"entries": [
+						"Other creatures can't teleport to or from a space within 60 feet of the lion. Any attempt to do so is wasted."
+					]
+				},
+				{
+					"name": "Uncanny Senses",
+					"entries": [
+						"The lion can't be surprised while it isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The lion regains 10 hit points at the start of its turn. If the lion takes acid or fire damage, this trait doesn't function at the start of the lion's next turn. The lion dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lion makes two attacks: one with its tail or its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}25 ({@damage 6d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, range 30 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 30 feet toward the lion, and is {@condition restrained} until the grapple ends. The lion can grapple one target at a time with its tail."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Canoloths are fundamentally lazy creatures. Given no reason to attack, they rarely rise to the bait."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Canoloth",
+										"entries": [
+											"Canoloths prefer to enter into contracts to guard valuable treasures and important locations. They always do exactly as asked—never any more, never any less.",
+											"With senses sharp enough to pinpoint the locations of nearby invisible creatures, canoloths respond unfailingly to any threat to their charges. Furthermore, they emit a magical distortion field that prevents creatures close to them from teleporting.",
+											"Canoloths confront intruders with swift and terrible force, projecting long, spiny tongues to grab their foes and drag them close. What happens next depends on the contract. Unless instructed to kill, a canoloth merely holds onto its prisoner, but if given the order to do so, it tears its prey limb from limb."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Yugoloths",
+										"entries": [
+											"Mercenaries that ply their trade throughout the Lower Planes and in other realms, yugoloths have a reputation for effectiveness that is matched only by their desire for ever more wealth. Although yugoloths aren't especially loyal and typically try to exploit every potential loophole in a contract, they undertake any task for which they are hired, no matter how despicable. Yugoloths come in a wide variety of forms, including those described in the {@filter Monster Manual|bestiary|source=mm|tag=yugoloth} and the six creatures presented {@filter here|bestiary|source=mtf|tag=yugoloth}."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Lion.png?v=1.122.4",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/canoloth.mp3?v=1.122.4"
+			},
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Chaena, Emissary of Pharika",
+			"source": "ZC",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d10 + 44",
+				"average": 165
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 14,
+			"int": 19,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dex": "+8",
+				"con": "+6",
+				"wis": "+7",
+				"cha": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The naga is a 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell sleep}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell lightning bolt}",
+								"{@spell water breathing}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell dimension door}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell flesh to stone}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell wish} spell can prevent this trait from functioning."
+					]
+				},
+				{
+					"name": "Three Heads",
+					"entries": [
+						"The spirit naga has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Reactive Heads",
+					"entries": [
+						"The spirit naga gets two additional reactions which can be used only for opportunity attacks with its peripheral bite."
+					]
+				},
+				{
+					"name": "Molt (3/Day)",
+					"entries": [
+						"At the start of each of the spirit naga's turns, it can choose to end any effects or conditions afflicting it."
+					]
+				},
+				{
+					"name": "Nyx Step",
+					"entries": [
+						"The spirit naga can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The chaena, emissary of pharika's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 31 ({@damage 7d8}) poison damage on a failed save, or half as much on a success."
+					]
+				},
+				{
+					"name": "Spit Poison",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 15/30 ft., one target. {@h}The target must make a {@dc 15} Constitution saving throw, taking 31 ({@damage 7d8}) poison damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Peripheral Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Peripheral Bite",
+					"entries": [
+						"The spirit naga makes a peripheral bite attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The spirit naga moves up to its speed without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 Actions)",
+					"entries": [
+						"The spirit naga casts a spell from its list of prepared spells, using a spell slot as normal."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Spirit Naga",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Spirit nagas live in gloom and spitefulness, constantly plotting vengeance against creatures that have wronged them-or that they believe have wronged them. Lairing in dismal caverns and ruins, they devote their time to developing new spells and enslaving the mortals with which they surround themselves. A spirit naga likes to charm its foes, drawing them close so that it can sink its poisonous fangs into their flesh.",
+									{
+										"type": "entries",
+										"name": "Nagas",
+										"entries": [
+											"Nagas are intelligent serpents that inhabit the ruins of the past, amassing arcane treasures and knowledge.",
+											"The first nagas were created as immortal guardians by a humanoid race long lost to history. When this race died out, the nagas deemed themselves the rightful inheritors of their masters' treasures and magical lore. Industrious and driven, nagas occasionally venture out from their lairs to track down magic items or rare spellbooks.",
+											"Nagas never feel the ravages of time or succumb to sickness. Even if it is struck down, a naga's immortal spirit reforms in a new body in a matter of days, ready to continue its eternal work.",
+											{
+												"name": "Benevolent Dictators and Brutal Tyrants",
+												"entries": [
+													" A naga rules its domain with absolute authority. Whether it rules with compassion or by terrorizing its subjects, the naga believes itself the master of all other creatures that inhabit its domain."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Rivalry",
+												"entries": [
+													" Nagas have a long-standing enmity with the yuan-ti, with each race seeing itself as the epitome of serpentine evolution. Though cooperation between them is rare, nagas and yuan-ti sometimes set aside their differences to work toward common objectives. However, yuan-ti always chafe under a naga's authority."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Immortal Nature",
+												"entries": [
+													" A naga doesn't require air, food, drink, or sleep."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Spirit Naga.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Spirit Naga.png?v=1.122.6",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/spirit-naga.mp3?v=1.122.6"
+			},
+			"traitTags": [
+				"Magic Weapons",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kihalel",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 40",
+				"average": 130
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 14,
+			"int": 14,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"wis": "+4",
+				"cha": "+3"
+			},
+			"skill": {
+				"stealth": "+8",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' cant"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Kihalel has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Shadow Jump",
+					"entries": [
+						"As a bonus action, Kihalel can teleport up to 30 feet to an unoccupied space it can see. Both the space he teleports from and the space he teleports to must be in dim light or darkness. Kihalel can use this ability between the weapon attacks of another action it takes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kihalel makes three spiked chain attacks."
+					]
+				},
+				{
+					"name": "Spiked Chain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, plus 5 ({@damage 2d4}) necrotic damage, and the target is {@condition grappled} (escape {@dc 14}). Until the grapple ends, the target is {@condition restrained}, and Kihalel can't grapple another target."
+					]
+				},
+				{
+					"name": "Immolating Shadow {@recharge 5}",
+					"entries": [
+						"Kihalel targets one creature within 10 feet that he can see. The target must make a {@dc 14} Dexterity saving throw, taking {@damage 8d6} necrotic damage on a failed save, or half as much on a successful one. On a failed save, the target burns with necrotic fire for the next minute or until Kihalel loses concentration. A burning target must repeat the saving throw at the end of each of its turns or take {@damage 4d6} necrotic damage, extinguishing the flames on a success."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Shadow Dancer",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Shadow Dancer",
+										"entries": [
+											"Those who have fought shadow dancers describe the experience as similar to fighting a living darkness. Every dim alcove and darkened nook is a place from where the lithe and acrobatic shadow dancers can emerge to ambush their prey. Using this tactic, they attack their enemies from all angles with a flurry of entangling chains that hold fast and corrupt the flesh. When their quarry is helpless, others move in to help dispatch the prey. Then they loot the corpse for trinkets, anything colorful and lively to gaze at after they return to the gloom of the Shadowfell."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Shadow Dancer.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108914025201694/shadarKai1.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/shadow-dancer.mp3?v=1.122.8"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TC"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Vol Shadow Weaver",
+			"shortName": "shadow weaver",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"15 with {@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 10,
+			"int": 14,
+			"wis": 12,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The shadow weaver has advantage on saving throws against being {@condition charmed}, and magic can't put the minion to sleep."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow weaver can take the {@action Hide} action as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shadow Bolt",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}14 ({@damage 4d6}) necrotic damage, and the target is {@condition restrained} until the end of their next turn."
+					]
+				},
+				{
+					"name": "Necrotic Touch",
+					"entries": [
+						"{@atk ms} {@hit 4} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d12 + 2}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the shadow weaver can take the {@action Hide|phb} action as a bonus action."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul Monger",
+										"entries": [
+											"Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadar-kai",
+										"entries": [
+											"In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally."
+										]
+									},
+									{
+										"name": "Soul Custodians",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can."
+										]
+									},
+									{
+										"name": "Blighted Elves",
+										"type": "entries",
+										"entries": [
+											"Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108978659950592/shadarKai20.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"N"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Basilisk Prince",
+			"shortName": "basilisk",
+			"isNpc": true,
+			"source": "ZC",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 21,
+			"int": 7,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+6",
+				"cha": "+8",
+				"int": "+3"
+			},
+			"skill": {
+				"perception": "+11",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The basilisk can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the basilisk fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mythic Weakness",
+					"entries": [
+						"A basilisk may be afflicted by one of the following weaknesses:",
+						{
+							"type": "list",
+							"items": [
+								"The crowing of a rooster will always {@spell confusion|phb|confuse} a basilisk. At the end of the basilisk's turns, it can make a Wisdom saving throw ({@dc 16}) to end the confusion.",
+								"The scent of wine will cause the basilisk to fall {@condition unconscious}. This slumber is nonmagical and can last up to 24 hours if it remains undisturbed. In any case, upon waking, the basilisk is immune to the scent of wine for 24 hours.",
+								"A basilisk fears others of its kind. Upon seeing its own reflection, or a suitable replication of such, the basilisk is {@condition frightened} until it is out of sight."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The basilisk can use its Frightful Presence. It can then constrict and make a bite attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d10 + 6}) piercing damage plus 15 ({@damage 6d4}) acid damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the creature is {@condition restrained}, and the basilisk can't constrict another target."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the basilisk's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The basilisk exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 55 ({@damage 22d4}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The basilisk makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The basilisk makes a tail attack."
+					]
+				},
+				{
+					"name": "Flail (Costs 2 Actions)",
+					"entries": [
+						"The basilisk violently flails its body. Each creature within 10 feet of the basilisk must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The basilisk can then move up to its speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Black Dragon",
+				"source": "MM"
+			},
+			"environment": [
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"Wee!"
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/basiliskPrince00.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"conditionInflictLegendary": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchmeister",
+			"shortName": "witchmeister",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 15,
+			"cha": 20,
+			"save": {
+				"cha": "+9",
+				"con": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"persuasion": "+13"
+			},
+			"passive": 12,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"any four languages"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The witchmeister is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit +9} to hit with spell attacks). The witchmeister knows the following sorcerer spells:"
+					],
+					"footerEntries": [
+						"*The witchmeister can render these spells imperceptible using metamagic."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}*",
+								"{@spell shield}*"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Maximilian's earthen grasp|XGE}",
+								"{@spell see invisibility}",
+								"{@spell Tasha's mind whip|TCE}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell enemies abound|XGE}*",
+								"{@spell fear}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell fire shield}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell telekinesis}*"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}*"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}*"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unnatural Thought",
+					"entries": [
+						"The witchmeister has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Stronger Spellcasting",
+					"entries": [
+						"The witchmeister's damaging spells deal an additional 5 damage."
+					]
+				},
+				{
+					"name": "Metamagic (1/Turn; {@recharge 3})",
+					"entries": [
+						"When the witchmeister casts a spell, it can choose to affect it in one of the following ways:",
+						{
+							"type": "list",
+							"items": [
+								"The spell's range is doubled, provided it normally has a range of at least 5 feet",
+								"The spell's casting time changes to 1 bonus action, provided it normally takes 1 action.",
+								"The spell can be cast without somatic or verbal components.",
+								"The spell's damage type can be changed to acid, cold, fire, lightning, poison, or thunder, provided it normally deals damage of those types."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Archmage",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+									"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Archmage.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Archmage.png?v=1.125.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/archmage.mp3?v=1.125.0"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sruli Flower",
+			"shortName": "flower",
+			"source": "ZC",
+			"size": "H",
+			"type": "plant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "24d12 + 72",
+				"average": 228
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 7,
+			"wis": 15,
+			"cha": 3,
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 12,
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Corpses",
+					"entries": [
+						"When first encountered, a flower contains the corpses of {@dice 2d6 + 3} humanoids. A corpse flower can hold the remains of up to 15 dead humanoids. These remains have total cover against attacks and other effects outside the flower. If the flower dies, the corpses within it can be pulled free.",
+						"While it has at least one humanoid corpse in its body, the corpse flower can use a bonus action to do one of the following:",
+						{
+							"type": "list",
+							"items": [
+								"The corpse flower digests one humanoid corpse in its body and instantly regains 11 ({@dice 2d10}) hit points. Nothing of the digested body remains. Any equipment on the corpse is expelled from the corpse flower in its space.",
+								"The corpse flower animates one dead humanoid in its body, turning it into a zombie. The zombie appears in an unoccupied space within 5 feet of the corpse flower and acts immediately after it in the initiative order. The zombie acts as an ally of the corpse flower but isn't under its control, and the flower's stench clings to it (see the Stench of Death trait)."
+							]
+						}
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The flower can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Stench of Death",
+					"entries": [
+						"Each creature that starts its turn within 10 feet of the flower or one of its zombies must make a {@dc 15} Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is {@condition incapacitated} until the end of the turn. Creatures that are immune to poison damage or the {@condition poisoned} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all flowers for 24 hours."
+					]
+				},
+				{
+					"name": "Grasping Tendrils",
+					"entries": [
+						"The flower can have up to two tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the flower, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+					]
+				},
+				{
+					"name": "Multiple Heads",
+					"entries": [
+						"The flower has four heads. While it has more than one head, the flower has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+						"Whenever the flower takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the flower dies.",
+						"At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The flower regains 10 hit points for each head regrown in this way."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The flower makes as many bite attacks as it has heads, and can either engulf or use a tendril and reel."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 30 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the flower can't use the same tendril on another target."
+					]
+				},
+				{
+					"name": "Reel",
+					"entries": [
+						"The flower pulls each creature {@condition grappled} by it up to 15 feet straight towards it."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The flower engulfs a Large or smaller creature within 5 feet of it that is {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 15} Constitution saving throw at the start of each of the flower's turns or take 20 ({@damage 3d10 + 4}) bludgeoning damage. If the flower moves, the engulfed target moves with it. The flower can have only one creature engulfed at a time. A creature that dies while engulfed is immediately harvested as if targetted by the harvest the dead action."
+					]
+				},
+				{
+					"name": "Harvest the Dead",
+					"entries": [
+						"The flower grabs one unsecured dead humanoid within 10 feet of it and stuffs the corpse into itself, along with any equipment the corpse is wearing or carrying. The remains can be used with the Corpses trait."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"name": "Corpse Flower",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Corpse-flower seedlings are quite useful for various purposes. Simply kill and bury a necromancer, and you should have a good crop in about a week."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Corpse Flower",
+										"entries": [
+											"A corpse flower can sprout atop the grave of an evil necromancer or the remains of powerful undead. Unless it is uprooted and burned while it is still a seedling, the corpse flower grows to enormous size over several weeks, then tears itself free of the earth and begins scavenging humanoid corpses from battlefields and graveyards. Using its fibrous tentacles, it stuffs the remains into its body and feeds on carrion to repair itself. The plant has a malevolent bent and despises the living."
+										]
+									},
+									{
+										"name": "Horrible Odor",
+										"type": "entries",
+										"entries": [
+											"With or without humanoid corpses nested in its body, a corpse flower exudes a stench of decay that can overwhelm the senses of nearby creatures, causing them to become nauseated. The stench, which serves as a defense mechanism, fades {@dice 2d4} days after the corpse flower dies."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Corpse Flower.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Corpse Flower.png?v=1.125.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/corpse-flower.mp3?v=1.125.1"
+			},
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"incapacitated",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bloodbloater Swarm",
+			"shortName": "swarm",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "ooze",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 5,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 7,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. ({@condition blind} beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The swarm can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blood Drain",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target. {@h} 3 ({@dice 1d4 + 1}) bloodbloaters latch onto the target. At the start of each of the target's turns, the target loses 4 ({@damage 1d8}) hit points per bloodbloater attached to it. If a bloodbloater is attached to a target that is concentrating on a spell when they start their turn, the target must succeed a {@dc 15} Constitution saving throw or break concentration on the spell."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Swarm of Bats",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Swarm of Bats.jpg"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "inset",
+										"name": "The Nature of Swarms",
+										"entries": [
+											"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Swarm of Bats.png?v=1.125.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-bats.mp3?v=1.125.1"
+			},
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sharkmera",
+			"source": "ZC",
+			"size": "H",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "13d12 + 65",
+				"average": 149
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 50
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 21,
+			"int": 7,
+			"wis": 18,
+			"cha": 6,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The sharkmera deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The sharkmera can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+					]
+				},
+				{
+					"name": "Swimmingly",
+					"entries": [
+						"If the sharkmera is in contact with water, it regains 10 hit points at the start of its turn, unless it has taken fire damage before its turn."
+					]
+				},
+				{
+					"name": "Two Heads",
+					"entries": [
+						"The sharkmera has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The sharkmera has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the sharkmera fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sharkmera makes up to two tendril attacks then can bite or use its hammer-head, but not both."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hammer-Head {@recharge 6}",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}24 ({@damage 3d12 + 5}) bludgeoning damage, and the target must succeed a {@dc 16} Constitution saving throw or fall {@condition unconscious} for 1 minute. The target may repeat the saving throw at the end of each of its turns or whenever it takes damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tendril",
+					"entries": [
+						"The sharkmera makes a tendril attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The sharkmera moves up to its speed."
+					]
+				},
+				{
+					"name": "Discharge (Costs 2 Actions)",
+					"entries": [
+						"The sharkmera discharges lightning from its tendrils. Each creature within 15 feet of the sharkmera must succeed on a {@dc 16} Dexterity saving throw or take 11 ({@damage 2d10}) lightning damage and be {@condition paralyzed} until the start of their next turn."
+					]
+				}
+			],
+			"tokenUrl": "https://noads.5e.tools/img/MM/Giant%20Shark.png?v=1.125.1",
+			"traitTags": [
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"unconscious"
+			]
+		}
+	]
+}
