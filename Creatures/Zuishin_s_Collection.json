@@ -1,4 +1,5 @@
 {
+	"siteVersion": "1.126.0",
 	"_meta": {
 		"sources": [
 			{
@@ -14,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1617029992,
-		"dateLastModified": 1617029992
+		"dateAdded": 1618254365,
+		"dateLastModified": 1618254365
 	},
 	"monster": [
 		{
@@ -4511,7 +4512,7 @@
 				{
 					"name": "Swimmingly",
 					"entries": [
-						"If the sharkmera is in contact with water, it regains 10 hit points at the start of its turn."
+						"If the sharkmera is in contact with water, it regains 10 hit points at the start of its turn, unless it has taken fire damage before its turn."
 					]
 				},
 				{
@@ -4605,6 +4606,203 @@
 				"paralyzed",
 				"unconscious"
 			]
+		},
+		{
+			"name": "Ghul Shaman",
+			"shortName": "shaman",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item scale mail|phb|scarab mail}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 18,
+			"cha": 10,
+			"save": {
+				"wis": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"perception": "+7",
+				"insight": "+7",
+				"medicine": "+7"
+			},
+			"passive": 17,
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Druidic"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The shaman is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell create bonfire|XGE}",
+								"{@spell gust (revised)|ZRS}",
+								"{@spell primal savagery|XGE}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell entangle}",
+								"{@spell faerie fire}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell flaming sphere}",
+								"{@spell heat metal}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell create food and water}",
+								"{@spell dispel magic}",
+								"{@spell sleet storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Land's Stride",
+					"entries": [
+						"The shaman ignores nonmagical difficult terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit ({@hit 4} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with shillelagh or if wielded with two hands."
+					]
+				},
+				{
+					"name": "Primal Savagery (Cantrip)",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d10}) acid damage."
+					]
+				},
+				{
+					"name": "Produce Flame (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, unlimited range, one target. {@h}9 ({@damage 2d8}) fire damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Absorb Elements (1st-Level Spell)",
+					"entries": [
+						"The shaman gains resistance to a damage type until the start of its next turn, choosing from acid, cold, fire, lightning, or thunder damage. Additionally, the first time it hits with a melee attack on its next turn the target takes an extra 3 ({@damage 1d6}) damage of the triggering type."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/ghulShaman.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/druid.mp3?v=1.126.0"
+			},
+			"altArt": [
+				{
+					"name": "Demonic Druid",
+					"source": "MTF",
+					"page": 29
+				}
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"DU"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"F"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
