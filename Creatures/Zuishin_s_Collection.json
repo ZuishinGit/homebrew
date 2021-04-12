@@ -15,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1618254365,
-		"dateLastModified": 1618254365
+		"dateAdded": 1618259116,
+		"dateLastModified": 1618259116
 	},
 	"monster": [
 		{
@@ -4803,6 +4803,125 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Ghul Bandit",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"armor scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bandit makes two sling attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 30/120 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Bandit",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+									"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Diabolical%20Bandit.png?v=1.126.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/bandit.mp3?v=1.126.0"
+			},
+			"altArt": [
+				{
+					"name": "Diabolical Bandit",
+					"source": "MTF",
+					"page": 18
+				},
+				{
+					"name": "Vistana Bandit",
+					"source": "CoS"
+				},
+				{
+					"name": "Uttolot Elf Bandit",
+					"source": "EGW"
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasFluff": true
 		}
 	]
 }
