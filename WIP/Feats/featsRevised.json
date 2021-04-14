@@ -285,6 +285,269 @@
 				"In addition, choose one 1st-level spell from that same list. {@homebrew You can cast this spell without expending a spell slot. |You learn that spell and can cast it at its lowest level.} Once you cast it, you must finish a long rest before you can cast it again using this feat. {@homebrew You can also cast this spell using spell slots you have of the appropriate level.}",
 				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, or {@filter warlock|spells|level=0;1|class=warlock}; Wisdom for {@filter cleric|spells|level=0;1|class=cleric} or {@filter druid|spells|level=0;1|class=druid}; or Intelligence for {@filter wizard|spells|level=0;1|class=wizard}."
 			]
+		},
+		{
+			"name": "Grappler (Revised)",
+			"source": "ZRF",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends.",
+						"{@homebrew When making an opportunity attack, you can attempt to grapple or shove the creature instead of making a melee attack.}",
+						"{@homebrew Your speed is no longer halved when moving a {@condition grappled} target.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Actor (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"Skilled at mimicry and dramatics, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Charisma score by 1, to a maximum of 20.",
+						"You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks when trying to pass yourself off as a different person.",
+						"You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check allows a listener to determine that the effect is faked.",
+						"{@homebrew Creatures that are {@condition charmed} by you have disadvantage on saving throws made to remove the effect.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Athlete (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have undergone extensive physical training to gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength or Dexterity by 1, to a maximum of 20.",
+						"When you are {@condition prone}, standing up uses only 5 feet of your movement.",
+						"Climbing doesn't cost you extra movement.",
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+						"{@homebrew You have advantage on ability checks and saving throws made to escape a grapple}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive Duelist (Revised; Tentative)",
+			"source": "ZRF",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+				"When a creature misses a melee attack against you while you are {@action dodge|phb|dodging}, you can use a reaction to attempt to {@action disarm} the attacker."
+			]
+		},
+		{
+			"name": "Mage Slayer (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+						"When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+						"You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+						"{@homebrew You have advantage on ability checks made to recall arcane lore, such as the location of a magic item, names of powerful wizards, or the weakness of a particular monstrosity.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Adept (Revised)",
+			"source": "ZRF",
+			"entries": [
+				"You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). {@homebrew Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these maneuvers.}",
+						"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skulker (Revised)",
+			"source": "ZRF",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are expert at slinking through shadows. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can try to hide when you are lightly obscured from the creature from which you are hiding.",
+						"When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.",
+						"Dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks relying on sight.",
+						"{@homebrew Other creatures have a -5 penalty to their passive {@skill Perception} skill when it comes to noticing you.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Sniper (Revised)",
+			"source": "ZRF",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Bard|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Cleric|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Druid|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Sorcerer|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Warlock|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "int",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Wizard|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+						"{@homebrew When you cast a spell that forces a saving throw from a single creature, you can choose to cast it as a ranged spell attack. When this ranged spell attack hits, the creature is effected by the spell as if you had cast it on them and they automatically fail the initial saving throw made to resist. The spell must have a range of at least 5 feet, which is doubled from this feat. Once used, this ability can't be used again until you finish a long rest. {@note Spells such as {@spell finger of death}, {@spell banishment}, {@spell earthbind|xge} are examples of valid spells. Spells such as {@spell fireball}, {@spell eyebite}, {@spell bane} are examples of invalid spells.}}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Tavern Brawler (Revised)",
+			"source": "ZRF",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength or Constitution by 1, to a maximum of 20.",
+						"You are proficient with improvised weapons.",
+						"Your unarmed strike uses a {@damage d4} for damage.",
+						"When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to {@action grapple} {@homebrew or {@action shove}} the target.",
+						"{@homebrew Whenever you successfully grapple or become grappled by a creature that is hostile to you, you can gain a number of temporary hit points equal to half your level, rounded up + your Constitution modifier. These temporary hit points go away when the grapple ends. You can't gain temporary hit points from the same target more than once per day.}"
+					]
+				}
+			]
 		}
 	]
 }
