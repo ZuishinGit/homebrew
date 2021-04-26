@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.126.0",
+	"siteVersion": "1.127.2",
 	"_meta": {
 		"sources": [
 			{
@@ -15,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1618259116,
-		"dateLastModified": 1618259116
+		"dateAdded": 1619471332,
+		"dateLastModified": 1619471332
 	},
 	"monster": [
 		{
@@ -3914,8 +3914,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Witchmeister",
-			"shortName": "witchmeister",
+			"name": "Archwitch",
 			"source": "ZC",
 			"size": "M",
 			"type": {
@@ -3936,8 +3935,8 @@
 				}
 			],
 			"hp": {
-				"average": 99,
-				"formula": "18d8 + 18"
+				"formula": "19d8 + 19",
+				"average": 104
 			},
 			"speed": {
 				"walk": 30
@@ -3954,7 +3953,7 @@
 			},
 			"skill": {
 				"arcana": "+11",
-				"persuasion": "+13"
+				"deception": "+9"
 			},
 			"passive": 12,
 			"resist": [
@@ -3968,15 +3967,23 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The witchmeister is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit +9} to hit with spell attacks). The witchmeister knows the following sorcerer spells:"
+						"The witch is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit +9} to hit with spell attacks). The witch knows the following sorcerer spells:"
 					],
 					"footerEntries": [
-						"*The witchmeister can render these spells imperceptible using metamagic."
+						"*The witch can render these spells imperceptible using metamagic."
 					],
 					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}*",
+								"{@spell fire bolt}*",
+								"{@spell mage hand}*"
+							]
+						},
 						"1": {
 							"spells": [
 								"{@spell chaos bolt|XGE}*",
+								"{@spell mage armor}",
 								"{@spell shield}*"
 							],
 							"slots": 4
@@ -4041,21 +4048,21 @@
 			],
 			"trait": [
 				{
-					"name": "Unnatural Thought",
+					"name": "Arcane Thought",
 					"entries": [
-						"The witchmeister has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The witch has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
 					]
 				},
 				{
-					"name": "Stronger Spellcasting",
+					"name": "Enhanced Spellcasting",
 					"entries": [
-						"The witchmeister's damaging spells deal an additional 5 damage."
+						"The witch's damaging spells deal an additional 5 damage."
 					]
 				},
 				{
 					"name": "Metamagic (1/Turn; {@recharge 3})",
 					"entries": [
-						"When the witchmeister casts a spell, it can choose to affect it in one of the following ways:",
+						"When the witch casts a spell, it can choose to affect it in one of the following ways:",
 						{
 							"type": "list",
 							"items": [
@@ -4922,6 +4929,464 @@
 				"RW"
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Oma, Mother Ghul",
+			"shortName": "Oma",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZC",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Platinum Alahyi Brand"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d12 + 60",
+				"average": 138
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 20,
+			"int": 9,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"int": "+3",
+				"cha": "+2",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+11",
+				"stealth": "+4",
+				"insight": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Oma's innate spellcasting ability is Wisdom (spell save {@dc 14}). As long as Oma is not {@condition blinded}, she can cast the following spells without components:"
+					],
+					"will": [
+						"{@spell dispel magic}"
+					],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If the Oma fails a saving throw, she can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Oma attacks twice with her greatclub or makes one greatclub attack and uses Evil Eye once."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Evil Eye",
+					"entries": [
+						"Oma magically forces a creature she can see within 60 feet of her to make a {@dc 17} Charisma saving throw. The creature takes 27 ({@damage 6d8}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Curse of the Evil Eye {@recharge 6}",
+					"entries": [
+						"With a stare, Oma uses Evil Eye, but on a failed save, the creature is also cursed with magical deformities. While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity.",
+						"The transformed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on a success."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Promise of Wealth (Recharge after a Short or Long Rest)",
+					"entries": [
+						"Oma chooses one creature she can see. Up to five allies of her choice become convinced that the target carries great wealth. Until the end of Oma's next turn, those allies gain advantage on all attack rolls against the target."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Greatclub",
+					"entries": [
+						"Oma makes a greatclub attack."
+					]
+				},
+				{
+					"name": "Evil Eye (Costs 2 Actions)",
+					"entries": [
+						"Oma uses her Evil Eye."
+					]
+				},
+				{
+					"name": "Unraveling Eye (Costs 3 Actions)",
+					"entries": [
+						"Oma casts {@spell dispel magic|phb}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Fomorian",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The most hideous and wicked of all giantkind are the godless fomorians, whose deformed bodies reflect their vile demeanors. Some have facial features randomly distributed around their misshapen, warty heads. Others have limbs of grossly different sizes and shapes, or emit terrible howls each time they draw breath through misshapen mouths. Their wretched appearance rarely evokes sympathy, however, for the fomorians brought their doom upon themselves with the evil that rules their hearts and minds.",
+									{
+										"name": "Fey Curse",
+										"type": "entries",
+										"entries": [
+											"The elves remember when the fomorians were among the most handsome of races, possessed of brilliant minds and unrivaled magical ability. That physical perfection did not extend to their hearts, however, as a lust for magic and power consumed them. The fomorians sought to conquer the Feywild and enslave its inhabitants, claiming those creatures' magic for themselves. When the fey united to defend their realm, the fomorians fought them and were subjected to a terrible curse.",
+											"One by one, the giants fell as their bodies were warped to reflect the evil in their hearts. Stripped of their grace and magical power, the wretched horrors fled from the light, delving deep beneath the world to nurse their hatred. Cursing their fate, they have ever after plotted vengeance against the fey that wronged them."
+										]
+									},
+									{
+										"name": "Giants of the Underdark",
+										"type": "entries",
+										"entries": [
+											"The fomorians dwell in eerily beautiful caverns in the Underdark, rarely venturing to the surface. Their lairs feature abundant access to water, fish, and mushroom forests, as well as to the creatures whose slave labor keeps the fomorians fed. When those slaves can no longer toil, they are slain and devoured. Wickedness and depravity are the cornerstones of fomorian society, in which the strongest and cruelest giants rule. Fomorians mark their territories with the corpses of their enemies, painting their cavern walls with blood or stitching together limbs and body parts to make mockeries of the creatures they have killed.",
+											{
+												"name": "Ruined Flesh, Evil Minds",
+												"entries": [
+													" The deformities visited on the fomorians prevent them from hurling rocks like their giant kin, or wearing anything more than scraps of cloth. However, the grotesque positioning of their eyes, noses, and ears gives fomorians keen perceptive abilities, making it hard to surprise or ambush them. The greed and evil of the fomorians lies at the heart of their degeneration and fall, and continues to plague them. Fomorians make alliances with other creatures when it suits them, but they are disloyal by nature and betray their allies on a whim."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"name": "Curse of the Evil Eye",
+										"type": "entries",
+										"entries": [
+											"Fomorians can pass their curse onto others using a power called the evil eye-a last vestige of the giants' once-remarkable spellcasting ability. A creature cursed by a fomorian's evil eye is magically twisted and deformed, gaining a glimpse into the pain and malice that has consumed this evil race."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Fomorian.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Fomorian.png?v=1.126.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/fomorian.mp3?v=1.126.0"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Shashuk'Kan, Serpent Witch",
+			"shortName": "witch",
+			"isNpc": true,
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d8 + 19",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 15,
+			"cha": 20,
+			"save": {
+				"cha": "+9",
+				"con": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"deception": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Primordial",
+				"Slaad",
+				"Yuan-ti"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Shashuk'Kan is an 18th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 17}, {@hit +9} to hit with spell attacks). Shashuk'Kan knows the following sorcerer spells:"
+					],
+					"footerEntries": [
+						"*The witch can render these spells imperceptible using metamagic."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}*",
+								"{@spell mage hand}*",
+								"{@spell poison spray (revised)|ZRS}*"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}*",
+								"{@spell shield}*"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Maximilian's earthen grasp|XGE}",
+								"{@spell see invisibility}",
+								"{@spell Tasha's mind whip|TCE}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell enemies abound|XGE}*",
+								"{@spell fear}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}*",
+								"{@spell fire shield}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell telekinesis}*"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell prismatic spray}*"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}*"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Enhanced Spellcasting",
+					"entries": [
+						"Shashuk'Kan's damaging spells deal an additional 5 damage."
+					]
+				},
+				{
+					"name": "Metamagic {@recharge 3}",
+					"entries": [
+						"When Shashuk'Kan casts a spell, he can choose to alter it in one of the following ways:",
+						{
+							"type": "list",
+							"items": [
+								"The spell's range is doubled, provided it normally has a range of at least 5 feet",
+								"The spell's casting time changes to 1 bonus action, provided it normally takes 1 action.",
+								"The spell can be cast without somatic or verbal components.",
+								"The spell's damage type can be changed to acid, cold, fire, lightning, poison, or thunder, provided it normally deals damage of those types."
+							]
+						}
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witch has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Archmage",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+									"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Archmage.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Archmage.png?v=1.125.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/archmage.mp3?v=1.125.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"OTH",
+				"P"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
