@@ -15,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1622491268,
-		"dateLastModified": 1622491268
+		"dateAdded": 1622498201,
+		"dateLastModified": 1622498201
 	},
 	"monster": [
 		{
@@ -5454,6 +5454,7 @@
 					]
 				}
 			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
 			"traitTags": [
 				"Pack Tactics"
 			],
@@ -5609,8 +5610,6 @@
 				}
 			],
 			"fluff": {
-				"name": "Druid",
-				"source": "MM",
 				"entries": [
 					{
 						"type": "entries",
@@ -5623,22 +5622,9 @@
 							}
 						]
 					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Druid.jpg"
-						}
-					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/MM/Druid.png?v=1.130.1",
-			"soundClip": {
-				"type": "external",
-				"url": "https://noads.5e.tools/audio/bestiary/druid.mp3?v=1.130.1"
-			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
 			"languageTags": [
 				"AU",
 				"C",
@@ -5780,6 +5766,7 @@
 					]
 				}
 			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
 			"traitTags": [
 				"Magic Resistance"
 			],
