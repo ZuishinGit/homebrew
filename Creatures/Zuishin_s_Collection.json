@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.127.3",
+	"siteVersion": "1.130.1",
 	"_meta": {
 		"sources": [
 			{
@@ -15,8 +15,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1619916536,
-		"dateLastModified": 1619916536
+		"dateAdded": 1622491268,
+		"dateLastModified": 1622491268
 	},
 	"monster": [
 		{
@@ -5382,6 +5382,433 @@
 				"MW",
 				"RW",
 				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "G.K. Thug",
+			"shortName": "thug",
+			"group": "gale kings",
+			"source": "ZC",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item splint armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"special": "1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 14,
+			"int": 9,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"athletics": "+6"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Auran"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the thug is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "G.K. Shaman",
+			"shortName": "shaman",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 20,
+			"cha": 11,
+			"save": {
+				"con": "+8",
+				"wis": "+9"
+			},
+			"skill": {
+				"insight": "+9",
+				"acrobatics": "+7"
+			},
+			"passive": 15,
+			"languages": [
+				"Druidic",
+				"Common",
+				"Auran"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The shaman is a 15th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell create bonfire|XGE}",
+								"{@spell gust|XGE}",
+								"{@spell primal savagery|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell earthbind|XGE}",
+								"{@spell heat metal}",
+								"{@spell hold person}",
+								"{@spell silence}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell create food and water}",
+								"{@spell protection from energy}",
+								"{@spell sleet storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell fire shield}",
+								"{@spell hallucinatory terrain}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell insect plague}",
+								"{@spell transmute rock|XGE}",
+								"{@spell wall of stone}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell wall of thorns}",
+								"{@spell wind walk}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell whirlwind|XGE}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Primal Savagery (Cantrip)",
+					"entries": [
+						"{@atk ms} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d10}) acid damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Druid",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Druid.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Druid.png?v=1.130.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/druid.mp3?v=1.130.1"
+			},
+			"languageTags": [
+				"AU",
+				"C",
+				"DU"
+			],
+			"damageTags": [
+				"A"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "G.K. Psion",
+			"shortName": "psion",
+			"source": "ZC",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 19,
+			"wis": 17,
+			"cha": 17,
+			"save": {
+				"int": "+7",
+				"wis": "+6",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"deception": "+6",
+				"insight": "+6",
+				"perception": "+6",
+				"persuasion": "+6",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Auran",
+				"telepathy 120 ft."
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The psion is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save {@dc 15}; {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell guidance}",
+						"{@spell mage hand}",
+						"{@spell mind sliver|TCE}",
+						"{@spell true strike}"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell command}",
+								"{@spell comprehend languages}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell phantasmal force}",
+								"{@spell see invisibility}",
+								"{@spell Tasha's mind whip|TCE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell fear}",
+								"{@spell intellect fortress|TCE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell stone shape}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell scrying}",
+								"{@spell telekinesis}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The mind flayer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The psion magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AU",
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"prone",
+				"restrained"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
