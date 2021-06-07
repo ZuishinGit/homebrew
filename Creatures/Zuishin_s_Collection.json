@@ -17,8 +17,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1623076395,
-		"dateLastModified": 1623076395
+		"dateAdded": 1623076779,
+		"dateLastModified": 1623076779
 	},
 	"monster": [
 		{
@@ -6711,6 +6711,166 @@
 			"miscTags": [
 				"AOE",
 				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Necrichor",
+			"source": "ZC",
+			"page": 238,
+			"size": "M",
+			"type": "undead",
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 17,
+			"int": 17,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"con": "+6",
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+9"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"any three languages",
+				"telepathy 120 ft."
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If the necrichor fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"Unless its lifeless remains are splashed with holy water or placed in a vessel under the effects of the hallow spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The necrichor can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The necrichor doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The necrichor makes two attacks."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) necrotic damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} until the start of the necrichor's next turn."
+					]
+				},
+				{
+					"name": "Necrotic Bolt",
+					"entries": [
+						"{@atk rs} {@hit 6} to hit, range 120 ft., one creature. {@h}12 ({@damage 2d8 + 3}) necrotic damage, and the target can't regain hit points until the start of the necrichor's next turn."
+					]
+				},
+				{
+					"name": "Blood Puppeteering {@recharge}",
+					"entries": [
+						"The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a {@dc 14} Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time.",
+						"The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Necrichor",
+				"source": "VRGR",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A necrichor is a being of living blood, formed from the ichor of evil gods or the sludge in the crypts of failed liches. Despite the loss of a solid physical form, these foul creatures retain their terrible intellects and aspire to megalomaniacal goals—the first of which involves regaining a body. To do this, they seek servants to exact their will, coercing even the most stubborn potential minions by turning their own blood against them.",
+							"Necrichors prove exceptionally difficult to destroy, since they leave a trace of their essence within the veins of every creature they've controlled and can regenerate themselves from those creatures' blood. Unable to extinguish their horrific unlife, virtuous faiths and vigilant organizations (like the Order of the Guardians detailed in chapter 3) seal these viscous horrors in magically warded prisons. As ages pass, though, the knowledge of what these prisons contain and where some lie have been lost. And every imprisoned necrichor understands that its captivity might be lengthy, but time is of little consequence to the ageless."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VRGR/Necrichor.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VRGR/Necrichor.png?v=1.130.3",
+			"traitTags": [
+				"Legendary Resistances",
+				"Rejuvenation",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
