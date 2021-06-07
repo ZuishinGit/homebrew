@@ -1,0 +1,227 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZPSN",
+				"abbreviation":"PSN",
+				"full":"Zuishin's Poisons",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":"Zuishin",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		],
+		"dateAdded": 1623029391,
+		"dateLastModified": 1623029391
+	},
+	"item": [
+		{
+			"name": "Miregas",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned}, and must repeat the saving throw at the start of each of its turns. The {@condition poisoned} creature is confused, as if by the {@spell confusion} spell. After three successful saves, the poison ends."
+			],
+			"poisonTypes": [
+				"inhaled"
+			]
+		},
+		{
+			"name": "Minstrel's Bane",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 18 Constitution saving throw. On a failed save, it takes 6 ({@dice 1d12}) poison damage and is {@condition poisoned} for 24 hours. The {@condition poisoned} creature can't speak or understand any of its known languages aside from telepathy. On a successful save, the creature takes half damage and isn't {@condition poisoned}."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Blightful Unction",
+			"source": "ZPSN",
+			"type": "G",
+			"tier": "major",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is vulnerable to bludgeoning, piercing, and slashing damage. The creature can repeat the saving throw whenever they take bludgeoning, piercing, or slashing damage, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"contact"
+			]
+		},
+		{
+			"name": "Cat's Kiss",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 1 minute. The {@condition poisoned} creature can't breathe, and is at risk of suffocating. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"inhaled"
+			]
+		},
+		{
+			"name": "Huelith's Burden",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 17 Constitution saving throw or become {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, a creature's speed is {@condition restrained}, and they fall {@condition prone} at the start of each of their turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"name": "Want of Spirit",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 24 hours. The {@condition poisoned} creature becomes paranoid of allies, and {@condition frightened} of hostile creatures."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Damning Vigil",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned}. While {@condition poisoned} in this way, the creature can't sleep by natural means. The {@condition poisoned} creature must repeat the saving throw every 24 hours, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Nervosity",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 16 Constitution saving throw. On a failed save, it takes 13 ({@dice 2d12}) poison damage and becomes {@condition poisoned}. On a successful save, the creature takes half damage and isn't {@condition poisoned}. The {@condition poisoned} creature is automatically surprised at the start of any combat encounter, and attacks of opportunity against them have advantage. The creature can repeat the saving throw at the end of a long rest, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"name": "Gluttony",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 13 Constitution saving throw or become {@condition poisoned} for {@dice 2d6} days. While {@condition poisoned} in this way, a creature gains no nutritional value from food, and will eventually regurgitate their meal. The creature can repeat the saving throw whenever they finish a long rest."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"name": "Muddling Toxin",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 18 Constitution saving throw or become {@condition poisoned} for 1 minute. Whenever the {@condition poisoned} creature makes a saving throw, it must roll a {@dice d6} and subtract the number rolled from the saving throw's result. The creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"name": "Maddening Sting",
+			"source": "ZPSN",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 14 Constitution saving throw or become {@condition poisoned} for 1 minute. On each of its turns, the {@condition poisoned} creature uses its action to make a single melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		}
+	],
+	"table":[
+		{
+			"name":"Poisons II",
+			"source":"ZPSN",
+			"type":"table",
+			"colLabels": [
+				"Item",
+				"Type"
+			],
+			"colStyles": [
+				"col-6",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"{@item Blightful Unction|ZPSN}",
+					"Contact"
+				],
+				[
+					"{@item Cat's Breath|ZPSN}",
+					"Inhaled"
+				],
+				[
+					"{@item Damning Vigil|ZPSN}",
+					"Ingested"
+				],
+				[
+					"{@item Gluttony|ZPSN}",
+					"Ingested"
+				],
+				[
+					"{@item Huelith's Burden|ZPSN}",
+					"Injury"
+				],
+				[
+					"{@item Maddening Sting|ZPSN}",
+					"Injury"
+				],
+				[
+					"{@item Minstrel's Bane|ZPSN}",
+					"Ingested"
+				],
+				[
+					"{@item Miregas|ZPSN}",
+					"Inhaled"
+				],
+				[
+					"{@item Muddling Toxin|ZPSN}",
+					"Injury"
+				],
+				[
+					"{@item Nervosity|ZPSN}",
+					"Injury"
+				],
+				[
+					"{@item Want of Spirit|ZPSN}",
+					"Ingested"
+				]
+			]
+		}
+	]
+}
