@@ -9,14 +9,16 @@
 				"authors": [
 					"Zuishin"
 				],
-				"convertedBy": "Zuishin",
+				"convertedBy": [
+					"Zuishin"
+				],
 				"version": "1.0",
 				"url": "https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1622932927,
-		"dateLastModified": 1622932927
+		"dateAdded": 1623076395,
+		"dateLastModified": 1623076395
 	},
 	"monster": [
 		{
@@ -6347,6 +6349,367 @@
 				"P"
 			],
 			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Soul-sworn Abjurer",
+			"source": "ZC",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "19d8",
+				"average": 85
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 18,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+8",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The abjurer has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell dancing lights}",
+								"{@spell mending}",
+								"{@spell message}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell alarm}*",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}*"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell arcane lock}*",
+								"{@spell invisibility}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}*",
+								"{@spell dispel magic}*",
+								"{@spell fireball}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}*",
+								"{@spell stoneskin}*"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell flesh to stone}",
+								"{@spell globe of invulnerability}*"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell symbol}*",
+								"{@spell teleport}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Abjuration spell of 1st level or higher"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Arcane Ward",
+					"entries": [
+						"The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The abjurer copy can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Divination Senses",
+					"entries": [
+						"The abjurer can see 60 feet into the Ethereal Plane when it is on the Material Plane and vice versa."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The abjurer doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Foretelling touch",
+					"entries": [
+						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) psychic damage, and the target must roll a {@dice d4} and subtract the number rolled from the next attack roll or saving throw it makes before the start of the abjurer's next turn."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Abjurer",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Abjurers are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/VRGR/Gallows%20Speaker.png?v=1.130.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/abjurer.mp3?v=1.130.3"
+			},
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Earth Necromental Myrmidon",
+			"shortName": "myrmidon",
+			"source": "ZC",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 1,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"con": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"understands all languages it spoke in life but can't speak"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Necrotic Aura",
+					"entries": [
+						"At the start of each of the myrmidon's turns, each creature within 30 feet of it takes 7 ({@damage 2d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the myrmidon to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the myrmidon drops to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sweeping Maul {@recharge 5}",
+					"entries": [
+						"The myrmidon makes a maul attack against everyone within range."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Earth Elemental Myrmidon",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Earth Elemental Myrmidon",
+										"entries": [
+											"Elemental myrmidons are elementals conjured and bound by magic into ritually created suits of plate armor. In this form, they possess no recollection of their former existence as free elementals. They exist only to follow the commands of their creators."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Earth Elemental Myrmidon.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Earth Elemental Myrmidon.png?v=1.130.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/earth-elemental-myrmidon.mp3?v=1.130.3"
+			},
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"AOE",
 				"MW"
 			],
 			"hasFluff": true,

@@ -170,12 +170,12 @@
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or be {@condition poisoned}, and must repeat the saving throw at the start of each of its turns. On each successive failed save, if the creature is concentrating on a spell it drops concentration. After three successful saves, the poison ends."
+				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or be {@condition poisoned}, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the creature breaks concentration. After three successful saves, the poison ends."
 			],
 			"poisonTypes": [
 				"contact"
 			]
-		},
+		}
 	],
 	"table":[
 		{

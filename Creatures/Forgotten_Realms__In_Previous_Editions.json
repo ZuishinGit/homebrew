@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "ForgottenRealmsInPreviousEditions",
+				"json": "FRPE",
 				"abbreviation": "FRPE",
 				"full": "Forgotten Realms: In Previous Editions",
 				"url": "",
@@ -22,7 +22,7 @@
 			"name": "Priest of Auril (Chillbringer)",
 			"shortName": "Chillbringer",
 			"isNamedCreature": true,
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -174,7 +174,7 @@
 		{
 			"name": "Priest of Azuth (Golemmaster)",
 			"shortName": "Golemmaster",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -327,7 +327,7 @@
 		{
 			"name": "Priest of Azuth (Magefriend)",
 			"shortName": "Magefriend",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -461,7 +461,7 @@
 		{
 			"name": "Priest of Beshaba (Wormluck)",
 			"shortName": "Wormluck",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -607,7 +607,7 @@
 		{
 			"name": "Priest of Chauntea (Cultivator)",
 			"shortName": "Cultivator",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -745,7 +745,7 @@
 		{
 			"name": "Priest of Chauntea (Lifewarden)",
 			"shortName": "Lifewarden",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -882,7 +882,7 @@
 		{
 			"name": "Priest of Cyric (Purifier)",
 			"shortName": "Purifier",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1022,7 +1022,7 @@
 		{
 			"name": "Priest of Cyric (Sword)",
 			"shortName": "Sword",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1162,7 +1162,7 @@
 		{
 			"name": "Priest of Deneir (Wordsmith)",
 			"shortName": "Wordsmith",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1295,7 +1295,7 @@
 		{
 			"name": "Priest of Eldath (Stillwater)",
 			"shortName": "Stillwater",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1432,7 +1432,7 @@
 		{
 			"name": "Priest of Gond (Holy Builder)",
 			"shortName": "Holy builder",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1576,7 +1576,7 @@
 		{
 			"name": "Priest of Helm (Bulwark)",
 			"shortName": "Bulwark",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1722,7 +1722,7 @@
 		{
 			"name": "Priest of Helm (Quester)",
 			"shortName": "Quester",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1859,7 +1859,7 @@
 		},
 		{
 			"name": "Priest of Hoar (Nemesis)",
-			"source": "ForgottenRealmsInPreviousEditions",
+			"source": "FRPE",
 			"page": 348,
 			"size": "M",
 			"type": {
