@@ -3,12 +3,14 @@
 		"sources":[
 			{
 				"json":"ZPSN",
-				"abbreviation":"PSN",
+				"abbreviation":"ZPSN",
 				"full":"Zuishin's Poisons",
 				"authors":[
 					"Zuishin"
 				],
-				"convertedBy":"Zuishin",
+				"convertedBy": [
+					"Zuishin"
+				],
 				"version":"1.0",
 				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"targetSchema":"1.0.0"
@@ -19,8 +21,8 @@
 	},
 	"item": [
 		{
-			"name": "Miregas",
 			"source": "ZPSN",
+			"name": "Miregas",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -32,8 +34,8 @@
 			]
 		},
 		{
-			"name": "Minstrel's Bane",
 			"source": "ZPSN",
+			"name": "Minstrel's Bane",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -45,8 +47,8 @@
 			]
 		},
 		{
-			"name": "Blightful Unction",
 			"source": "ZPSN",
+			"name": "Blightful Unction",
 			"type": "G",
 			"tier": "major",
 			"rarity": "none",
@@ -59,8 +61,8 @@
 			]
 		},
 		{
-			"name": "Cat's Kiss",
 			"source": "ZPSN",
+			"name": "Cat's Kiss",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -72,8 +74,8 @@
 			]
 		},
 		{
-			"name": "Huelith's Burden",
 			"source": "ZPSN",
+			"name": "Huelith's Burden",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -85,21 +87,21 @@
 			]
 		},
 		{
-			"name": "Want of Spirit",
 			"source": "ZPSN",
+			"name": "Want of Spirit",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 24 hours. The {@condition poisoned} creature becomes paranoid of allies, and {@condition frightened} of hostile creatures."
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature regards all other creatures as hostile. Additionally, the first time the {@condition poisoned} creature is damaged by another creature, it must succeed a Wisdom saving throw or be {@condition frightened} for 1 minute. The DC equals 10 or half the damage it takes, whichever number is higher. As an action, the creature can make a DC 13 Wisdom check to steel its resolve and end the {@condition frightened} condition on itself."
 			],
 			"poisonTypes": [
 				"ingested"
 			]
 		},
 		{
-			"name": "Damning Vigil",
 			"source": "ZPSN",
+			"name": "Damning Vigil",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -111,8 +113,8 @@
 			]
 		},
 		{
-			"name": "Nervosity",
 			"source": "ZPSN",
+			"name": "Nervosity",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -124,8 +126,8 @@
 			]
 		},
 		{
-			"name": "Gluttony",
 			"source": "ZPSN",
+			"name": "Gluttony",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -137,8 +139,8 @@
 			]
 		},
 		{
-			"name": "Muddling Toxin",
 			"source": "ZPSN",
+			"name": "Muddling Toxin",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -150,8 +152,8 @@
 			]
 		},
 		{
-			"name": "Maddening Sting",
 			"source": "ZPSN",
+			"name": "Maddening Sting",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
@@ -167,7 +169,6 @@
 		{
 			"name":"Poisons II",
 			"source":"ZPSN",
-			"type":"table",
 			"colLabels": [
 				"Item",
 				"Type"
@@ -182,7 +183,7 @@
 					"Contact"
 				],
 				[
-					"{@item Cat's Breath|ZPSN}",
+					"{@item Cat's Kiss|ZPSN}",
 					"Inhaled"
 				],
 				[
