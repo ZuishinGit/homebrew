@@ -8,7 +8,8 @@
 				"authors":[
 					"Zuishin"
 				],
-				"convertedBy":"Zuishin",
+				"convertedBy": [
+				],
 				"version":"1.0",
 				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"targetSchema":"1.0.0"
