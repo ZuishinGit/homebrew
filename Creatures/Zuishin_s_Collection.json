@@ -3,9 +3,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "ZC",
-				"abbreviation": "ZC",
-				"full": "Zuishin's Collection",
+				"json": "ZCC",
+				"abbreviation": "ZCC",
+				"full": "Zuishin's Creature Collection",
 				"color": "ddc07b",
 				"authors": [
 					"Zuishin"
@@ -24,7 +24,7 @@
 		{
 			"name": "Giant Vulture Bee Queen",
 			"shortName": "bee",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -123,7 +123,7 @@
 			],
 			"legendaryGroup": {
 				"name": "Giant Vulture Bee Queen",
-				"source": "ZC"
+				"source": "ZCC"
 			},
 			"environment": [
 				"forest",
@@ -165,7 +165,7 @@
 		},
 		{
 			"name": "Undead Weave Serpent",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "undead",
 			"alignment": [
@@ -323,7 +323,7 @@
 			],
 			"legendaryGroup": {
 				"name": "Undead Weave Serpent",
-				"source": "ZC"
+				"source": "ZCC"
 			},
 			"environment": [
 				"underdark"
@@ -374,7 +374,7 @@
 		},
 		{
 			"name": "Crystal Spider",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -492,7 +492,7 @@
 			"name": "Chyzka",
 			"shortName": "gnoll",
 			"isNpc": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "fiend",
@@ -680,7 +680,7 @@
 		},
 		{
 			"name": "Gnoll Stalker",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -819,7 +819,7 @@
 		{
 			"name": "Xvart Illusionist",
 			"shortName": "illusionist",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -1053,7 +1053,7 @@
 		{
 			"name": "Xvart Dream Darter",
 			"shortName": "xvart",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -1246,7 +1246,7 @@
 		{
 			"name": "Symbiotic Jelly",
 			"shortName": "slime",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "ooze",
@@ -1443,7 +1443,7 @@
 			"name": "Gioxog",
 			"shortName": "mindwitness",
 			"isNpc": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "aberration",
 			"alignment": [
@@ -1684,7 +1684,7 @@
 		},
 		{
 			"name": "Xvart Chosen of Raximvort",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -1926,7 +1926,7 @@
 		{
 			"name": "White Pudding",
 			"shortName": "pudding",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "ooze",
 			"alignment": [
@@ -2101,7 +2101,7 @@
 		},
 		{
 			"name": "Durezha",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "fiend",
@@ -2313,7 +2313,7 @@
 		},
 		{
 			"name": "Cryohydra",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -2470,7 +2470,7 @@
 		},
 		{
 			"name": "Fangdrake",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "dragon",
 			"alignment": [
@@ -2640,7 +2640,7 @@
 		{
 			"name": "Scathe",
 			"shortName": "scathe",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -2782,7 +2782,7 @@
 		{
 			"name": "Vol Thug",
 			"shortName": "minion",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -2948,7 +2948,7 @@
 		},
 		{
 			"name": "Lion Experiment",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -3111,7 +3111,7 @@
 		{
 			"name": "Chaena, Emissary of Pharika",
 			"isNpc": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -3389,7 +3389,7 @@
 		},
 		{
 			"name": "Kihalel",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -3570,7 +3570,7 @@
 		{
 			"name": "Vol Shadow Weaver",
 			"shortName": "shadow weaver",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -3724,7 +3724,7 @@
 			"name": "Basilisk Prince",
 			"shortName": "basilisk",
 			"isNpc": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -3909,7 +3909,7 @@
 		},
 		{
 			"name": "Archwitch",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -4129,7 +4129,7 @@
 		{
 			"name": "Sruli Flower",
 			"shortName": "flower",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "plant",
 			"alignment": [
@@ -4327,7 +4327,7 @@
 		{
 			"name": "Bloodbloater Swarm",
 			"shortName": "swarm",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "ooze",
@@ -4458,7 +4458,7 @@
 		},
 		{
 			"name": "Sharkmera",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "aberration",
 			"alignment": [
@@ -4611,7 +4611,7 @@
 		{
 			"name": "Ghul Shaman",
 			"shortName": "shaman",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -4807,7 +4807,7 @@
 		},
 		{
 			"name": "Ghul Bandit",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -4929,7 +4929,7 @@
 			"shortName": "Oma",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -5145,7 +5145,7 @@
 			"name": "Shashuk'Kan, Serpent Witch",
 			"shortName": "witch",
 			"isNpc": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -5384,7 +5384,7 @@
 			"name": "Gale King Thug",
 			"shortName": "thug",
 			"group": "gale kings",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -5474,7 +5474,7 @@
 		{
 			"name": "Gale King Desert Druid",
 			"shortName": "shaman",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -5641,7 +5641,7 @@
 		{
 			"name": "Gale King Psion",
 			"shortName": "psion",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": "humanoid",
 			"alignment": [
@@ -5802,7 +5802,7 @@
 		{
 			"name": "Thri-Kreen Psion",
 			"shortName": "thri-kreen",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -5946,7 +5946,7 @@
 		{
 			"name": "Yuan-ti Archer",
 			"shortName": "yuan-ti",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -6147,7 +6147,7 @@
 		{
 			"name": "Yuan-ti Warrior",
 			"shortName": "yuan-ti",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -6348,7 +6348,7 @@
 		},
 		{
 			"name": "Soul-sworn Abjurer",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "undead",
@@ -6601,7 +6601,7 @@
 		{
 			"name": "Earth Necromental Myrmidon",
 			"shortName": "myrmidon",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": "undead",
 			"alignment": [
@@ -6750,7 +6750,7 @@
 			"name": "Yan-C-Bin",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "H",
 			"type": "elemental",
 			"alignment": [
@@ -7053,7 +7053,7 @@
 			"shortName": "Chaena",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "L",
 			"type": "undead",
 			"alignment": [
@@ -7362,7 +7362,7 @@
 		},
 		{
 			"name": "Geodyte",
-			"source": "ZC",
+			"source": "ZCC",
 			"size": "M",
 			"type": "elemental",
 			"alignment": [
