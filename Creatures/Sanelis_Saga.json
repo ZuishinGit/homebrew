@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SanelisSaga",
-				"abbreviation": "SanSa",
+				"json": "SASA",
+				"abbreviation": "SASA",
 				"full": "Sanelis Saga",
 				"url": "https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"authors": [
@@ -19,7 +19,7 @@
 	"makebrewCreatureTrait": [
         {
             "name": "Spirit of the Ani (Recharges after a Short or Long Rest)",
-            "source": "SanelisSaga",
+            "source": "SASA",
             "entries": [
                 "As a bonus action, the creature can give itself advantage on all weapon attack rolls, and gains resistance to bludgeoning piercing and slashing damage from non magical attacks. These effects last until the end of the creature's next turn."
             ]
@@ -29,7 +29,7 @@
 		{
 			"name": "Ani Warrior",
 			"shortName": "Warrior",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -137,7 +137,7 @@
 		{
 			"name": "Ani Veteran",
 			"shortName": "veteran",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -245,7 +245,7 @@
 		},
 		{
 			"name": "Ani Knight",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -369,7 +369,7 @@
 		{
 			"name": "Ani Cavalryman",
 			"shortName": "Cavalryman",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -486,7 +486,7 @@
 		},
 		{
 			"name": "Bogling",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -585,7 +585,7 @@
 		},
 		{
 			"name": "Swamp Hound",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -669,7 +669,7 @@
 		},
 		{
 			"name": "Swamp Troll",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "L",
 			"type": "giant",
 			"alignment": [
@@ -821,7 +821,7 @@
 		},
 		{
 			"name": "Bog Walker",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -918,7 +918,7 @@
 		},
 		{
 			"name": "Bog Yeti",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -1052,7 +1052,7 @@
 		},
 		{
 			"name": "Abominable Bog Yeti",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -1193,7 +1193,7 @@
 		},
 		{
 			"name": "Ani Warlord",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1348,7 +1348,7 @@
 		},
 		{
 			"name": "Swaashai Goblin",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "S",
 			"type": {
 				"type": "humanoid",
@@ -1461,7 +1461,7 @@
 		{
 			"name": "Swaashai Ghoul",
 			"shortName": "Ghoul",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": "undead",
 			"alignment": [
@@ -1577,7 +1577,7 @@
 		},
 		{
 			"name": "Ani Warpriest",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1752,7 +1752,7 @@
 		{
 			"name": "Fen Hydra",
 			"shortName": "Hydra",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -1866,7 +1866,7 @@
 		},
 		{
 			"name": "Swamp Stomper",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "H",
 			"type": "beast",
 			"alignment": [
@@ -1990,7 +1990,7 @@
 		},
 		{
 			"name": "Bogbear",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -2096,7 +2096,7 @@
 		},
 		{
 			"name": "Giant Heron",
-			"source": "SanelisSaga",
+			"source": "SASA",
 			"size": "G",
 			"type": "monstrosity",
 			"alignment": [
