@@ -1,0 +1,3259 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZRC",
+				"abbreviation":"ZRC",
+				"full":"Zuishin's Revised Collection",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy": [
+				],
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Genasi (Air); Revised",
+			"source": "ZRC",
+			"size": "M",
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"primordial": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/genasi.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Independent and self-reliant, genasi tend toward a neutral alignment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Unending Breath",
+					"entries": [
+						"You can hold your breath indefinitely while you're not {@condition incapacitated}, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Whirling Step",
+					"entries":[
+						"You have a flying speed equal to your walking speed. This flight works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mingle with the Wind",
+					"entries": [
+						"You know the {@spell gust|xge} cantrip, which uses your Constitution as your spellcasting ability."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Durable (Revised)",
+			"source": "ZRC",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"Hardy and resilient, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you roll a Hit Die to regain hit points, the minimum number {@homebrew you can roll|you regain from the roll} equals twice your Constitution modifier (minimum of 2). {@homebrew The minimum can't exceed the hit die of your class.}"
+					]
+				},
+				"{@note For example, a wizard with a Constitution modifier of +2 can treat a roll that is lower than 4 as if they rolled a 4 on the die, and then add their modifier to regain a total of 6 hit points. If the wizard instead had a Constitution modifier of +5, then they would have a minimum of 6 on the die roll, because the minimum can't exceed the wizard's {@dice d6} hit die.}"
+			]
+		},
+		{
+			"name": "Shield Master (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a {@item shield|phb}:",
+				{
+					"type": "list",
+					"items": [
+						"If you take the {@action Attack} action on your turn, you can use a bonus action to try to {@action shove} a creature within 5 feet of you with your shield.",
+						"If you aren't {@condition incapacitated}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect {@homebrew |that targets only you}.",
+						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+						"{@homebrew In combat, you can don or doff a shield as the free object interaction on your turn.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Charger (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature, {@homebrew and you gain resistance to all damage except psychic damage until the end of that turn}.",
+				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
+				"{@homebrew Whenever a hostile creature makes an attack of opportunity against you, your next attack made within that turn gains a +5 bonus to its damage. A single attack can benefit from this bonus no more than two times, to a total of +10 damage.}"
+			]
+		},
+		{
+			"name": "Dual Wielder (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"You master fighting with two weapons, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+						"{@homebrew One time on your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one while wielding another melee weapon in your other hand, you can immediately make an additional melee attack against a creature within reach.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dungeon Delver (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"You are adept at fighting in tight spaces, and are more alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+						"You have advantage on saving throws made to avoid or resist traps.",
+						"You have resistance to the damage dealt by traps.",
+						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score.",
+						"{@homebrew Squeezing into a smaller space doesn't impose disadvantage on your attack rolls and Dexterity saving throws, nor do attack rolls against you have advantage while squeezing.}",
+						"{@homebrew You can move through a hostile creature's space as if it were nonhostile.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Savage Attacker (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"Your unbridled aggression grants you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.",
+						"{@homebrew When you miss a melee weapon attack, you can expend a hit die and add the number rolled to the attack roll, potentially turning the miss into a hit. Once you use this ability, you can't use it again until you finish a short or long rest.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon Master (Revised)",
+			"source": "ZRC",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have practiced extensively with a variety of weapons, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@homebrew simple and martial weapons.|four weapons of your choice. Each one must be a simple or a martial weapon.}",
+						"{@homebrew You gain an additional attunement slot that can be used only with magical weapons.}",
+						"{@homebrew If you can see a creature, you know if it has immunity, resistance, or vulnerability to bludgeoning, piercing, or slashing damage.}"
+
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Leader (Revised)",
+			"source": "ZRC",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
+			]
+		},
+		{
+			"name": "Magic Initiate (Revised)",
+			"source": "ZRC",
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Bard",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Bard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Cleric",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Druid"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Sorcerer",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Sorcerer"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Warlock",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Warlock"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "int",
+					"innate": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							],
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Wizard"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Choose a class: {@filter bard|spells|level=0;1|class=bard}, {@filter cleric|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, or {@filter wizard|spells|level=0;1|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
+				"In addition, choose one 1st-level spell from that same list. {@homebrew You can cast this spell without expending a spell slot. |You learn that spell and can cast it at its lowest level.} Once you cast it, you must finish a long rest before you can cast it again using this feat. {@homebrew You can also cast this spell using spell slots you have of the appropriate level.}",
+				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, or {@filter warlock|spells|level=0;1|class=warlock}; Wisdom for {@filter cleric|spells|level=0;1|class=cleric} or {@filter druid|spells|level=0;1|class=druid}; or Intelligence for {@filter wizard|spells|level=0;1|class=wizard}."
+			]
+		},
+		{
+			"name": "Grappler (Revised)",
+			"source": "ZRC",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends.",
+						"{@homebrew When making an opportunity attack, you can attempt to grapple or shove the creature instead of making a melee attack.}",
+						"{@homebrew Your speed is no longer halved when moving a {@condition grappled} target.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Actor (Revised)",
+			"source": "ZRC",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"Skilled at mimicry and dramatics, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks when trying to pass yourself off as a different person.",
+						"You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check allows a listener to determine that the effect is faked.",
+						"{@homebrew Creatures that are {@condition charmed} by you have disadvantage on saving throws made to remove the effect.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Athlete (Revised)",
+			"source": "ZRC",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have undergone extensive physical training to gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you are {@condition prone}, standing up uses only 5 feet of your movement.",
+						"Climbing doesn't cost you extra movement.",
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+						"{@homebrew You have advantage on ability checks and saving throws made to escape a grapple}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive Duelist (Revised; Tentative)",
+			"source": "ZRC",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+				"When a creature misses a melee attack against you while you are {@action dodge|phb|dodging}, you can use a reaction to attempt to {@action disarm} the attacker."
+			]
+		},
+		{
+			"name": "Mage Slayer (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+						"When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+						"You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+						"{@homebrew You have advantage on ability checks made to recall arcane lore, such as the location of a magic item, names of powerful wizards, or the weakness of a particular monstrosity.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Adept (Revised)",
+			"source": "ZRC",
+			"entries": [
+				"You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). {@homebrew Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these maneuvers.}",
+						"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skulker (Revised)",
+			"source": "ZRC",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are expert at slinking through shadows. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can try to hide when you are lightly obscured from the creature from which you are hiding.",
+						"When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.",
+						"Dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks relying on sight.",
+						"{@homebrew Other creatures have a -5 penalty to their passive {@skill Perception} skill when it comes to noticing you.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Sniper (Revised)",
+			"source": "ZRC",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Bard|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Cleric|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Druid|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Sorcerer|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Warlock|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
+					"ability": "int",
+					"innate": {
+						"1": [
+							{
+								"choose": "level=0|class=Wizard|spell attack=m;r;o",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+						"{@homebrew When you cast a spell that forces a saving throw from a single creature, you can choose to cast it as a ranged spell attack. When this ranged spell attack hits, the creature is effected by the spell as if you had cast it on them and they automatically fail the initial saving throw made to resist. The spell must have a range of at least 5 feet, which is doubled from this feat. Once used, this ability can't be used again until you finish a long rest. {@note Spells such as {@spell finger of death}, {@spell banishment}, {@spell earthbind|xge} are examples of valid spells. Spells such as {@spell fireball}, {@spell eyebite}, {@spell bane} are examples of invalid spells.}}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Tavern Brawler (Revised)",
+			"source": "ZRC",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are proficient with improvised weapons.",
+						"Your unarmed strike uses a {@damage d4} for damage.",
+						"When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to {@action grapple} {@homebrew or {@action shove}} the target.",
+						"{@homebrew Whenever you successfully grapple or become grappled by a creature that is hostile to you, you can gain a number of temporary hit points equal to half your level, rounded up + your Constitution modifier. These temporary hit points go away when the grapple ends. You can't gain temporary hit points from the same target more than once per day.}"
+					]
+				}
+			]
+		}
+	],
+	"spell":[
+		{
+			"name": "True Strike (Revised)",
+			"source": "ZRC",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. {@homebrew The next attack roll you make against the target before the end of your next turn receives a +5 bonus to the roll.|On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.}",
+				"{@homebrew This bonus increases by 1 when you reach 5th level (+6), 11th level (+7), and 17th level (+8).}"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Dancing Lights (Revised)",
+			"source": "ZRC",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of phosphorus or wychwood, or a glowworm"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds {@homebrew  bright light in a 5-foot radius and dim light for an additional 5 feet.|dim light in a 10-foot radius.}",
+				"As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. {@homebrew |A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.}"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Drow)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Drow Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Gust (Revised)",
+			"source": "ZRC",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You seize the air and compel it to create one of the following effects at a point you can see within range:",
+				{
+					"type": "list",
+					"items": [
+						"One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.",
+						"You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+						"You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze."
+					]
+				},
+				"{@homebrew This spell's pushing power increases by 5 feet when you reach 5th level (10 or 15 feet), 11th level (15 or 20 feet), and 17th level (20 or 25 feet).}"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Storm)",
+					"source": "TCE",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Poison Spray (Revised)",
+			"source": "ZRC",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take {@damage 1d12} poison damage.",
+				"This spell's damage increases by {@dice 1d12} when you reach 5th level ({@damage 2d12}), 11th level ({@damage 3d12}), and 17th level ({@damage 4d12})."
+			],
+			"scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d12",
+					"5": "2d12",
+					"11": "3d12",
+					"17": "4d12"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Yuan-ti Pureblood",
+					"source": "VGM"
+				}
+			]
+		},
+		{
+			"name": "Thunderclap (Revised)",
+			"source": "ZRC",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take {@damage 1d8} thunder damage.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "thunder damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Color Spray (Revised)",
+			"source": "ZRC",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of powder or sand that is colored red, yellow, and blue"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 5
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A dazzling array of flashing, colored light springs from your hand. Roll {@dice 6d10}; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures and creatures that can't see).",
+				"Starting with the creature that has the lowest current hit points, each creature affected by this spell is {@condition blinded} until the end of your next turn, {@homebrew or for an additional {@dice 1d4} rounds if you choose to concentrate}. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, roll an additional {@scaledice 6d10|1-9|2d10} for each slot level above 1st."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Identify (Revised)",
+			"source": "ZRC",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pearl worth at least 100 gp and an owl feather",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.",
+				"If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
+			],
+			"entriesHigherLevel": [
+				"{@homebrew When you cast this spell using a spell slot of 2nd level or higher, you can identify an additional object for each slot level above 1st.}"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Making)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Jump (Revised)",
+			"source": "ZRC",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a grasshopper's hind leg"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature. The creature's {@book jump distance|phb|8|Jumping} is tripled until the spell ends, {@homebrew they takes only half damage when falling from any height, and can not land {@condition prone} as a result of taking fall damage.}"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "UAArtificer"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Seeker (UA)",
+							"source": "UATheFaithful"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Gith (Githyanki)",
+					"source": "UAEladrinAndGith",
+					"baseName": "Gith",
+					"baseSource": "UAEladrinAndGith"
+				},
+				{
+					"name": "Gith (Githyanki)",
+					"source": "MTF",
+					"baseName": "Gith",
+					"baseSource": "MTF"
+				},
+				{
+					"name": "Human (Mark of Passage)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"eldritchInvocations": [
+				{
+					"name": "Otherworldly Leap",
+					"source": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Crown of Madness (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the target is {@condition charmed} in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.",
+				"{@homebrew At the start of each of the {@condition charmed} target's turns, it must move as much as its movement allows towards a creature that you mentally choose, and use its action to make a melee attack against that creature.|The {@condition charmed} target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.} The target can act normally on its turn if you choose no creature or if none are within its reach.",
+				"On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends."
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oathbreaker",
+							"source": "DMG"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Baalzebul)",
+					"source": "UAFiendishOptions",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Baalzebul)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Rakdos Cultist",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Dust Devil (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of dust"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
+				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@homebrew {@damage 1d10} bludgeoning damage|{@damage 1d8} bludgeoning damage} and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
+				"As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d10|2-9|1d10} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Locate Object (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a forked twig"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within {@homebrew 1 mile|1,000 feet} of you. If the object is in motion, you know the direction of its movement.",
+				"The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.",
+				"This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Seeker (UA)",
+							"source": "UATheFaithful"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Archivist",
+							"source": "UAArtificerRevisited"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Orc (Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Half-Orc",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Human (Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Melf's Acid Arrow (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "powdered rhubarb leaf and an adder's stomach"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target {@homebrew is {@condition poisoned}}, taking {@damage 4d4} acid damage immediately and {@damage 2d4} acid damage at the end of its next turn, {@homebrew ending the {@condition poisoned} condition}. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.",
+				"{@note RAW this spell is just straight up worse than an upcast Chromatic Orb.}"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by {@scaledamage 4d4;2d4|2-9|1d4} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Swamp"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mind Spike (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@damage 3d8} psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible}, it gains no benefit from that condition against you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ray of Enfeeblement (Revised; probably too strong)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a pinch of black opal dust worth 100 gp, which the spell consumes",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. {@homebrew If it successfully saves against this spell three times, the spell ends. If it fails its save three times, the creature is cursed with two permanent levels of exhaustion.|On a success, the spell ends.}",
+				"{@homebrew The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.}"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave (UA)",
+							"source": "UAClericDivineDomains"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ambition (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption (UA)",
+							"source": "UAATrioOfSubclasses"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Spores (UA)",
+							"source": "UAThreeSubclasses"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Drawmij's Instant Summons (Revised)",
+			"source": "ZRC",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a sapphire worth 1,000 gp",
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.",
+				"At any time thereafter, you can use your action to speak the item's name{@homebrew |and crush the sapphire}. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.",
+				"If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.",
+				"{@spell Dispel magic} or a similar effect successfully applied to the sapphire ends this spell's effect."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mordenkainen's Sword (Revised)",
+			"source": "ZRC",
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
+					"cost": 25000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a sword-shaped plane of force that hovers within range. It lasts for the duration.",
+				"When the sword appears, you make a melee spell attack against a target of your choice within {@homebrew 10 feet|5 feet} of the sword. On a hit, the target takes {@damage 3d10} force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to {@homebrew 60|20} feet to a spot you can see and repeat this attack {@homebrew up to two times} against a creature within reach."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Whirlwind (Revised)",
+			"source": "ZRC",
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a piece of straw"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
+				"A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@damage 10d6} bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become {@condition restrained} in the whirlwind until the spell ends. When a creature starts its turn {@condition restrained} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained} creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.",
+				"A {@condition restrained} creature can use an action to {@homebrew repeat the Dexterity saving throw|make a Strength or Dexterity check against your spell save DC}. If successful, the creature is no longer {@condition restrained} by the whirlwind and is hurled {@dice 3d6 × 10} feet away from it in a random direction."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity",
+				"strength"
+			],
+			"abilityCheck": [
+				"strength",
+				"dexterity"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Weird (Revised; I didn't really check the math)",
+			"source": "ZRC",
+			"level": 7,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the spell ends for that creature."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Beast Bond (Revised)",
+			"source": "ZRC",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of fur wrapped in a cloth"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You establish a telepathic link with one beast you touch that is friendly to you or {@condition charmed} by you. The spell fails if the beast's Intelligence score is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within {@homebrew 30 feet|5 feet} of you that you can see."
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Detect Poison and Disease (Revised)",
+			"source": "ZRC",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a yew leaf"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
+				"{@homebrew You gain an intuitive understanding of the effects of any poisons or diseases detected in this way, including any potential damage or saving throw DCs.}",
+				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Detection)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Find Traps (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell alarm} spell, a {@spell glyph of warding}, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+				"This spell merely reveals that a trap is present. You {@homebrew |don't} learn the location of each trap, {@homebrew and|but} you learn the general nature of the danger posed by a trap you sense."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul (UA)",
+							"source": "UA2020SubclassesPt2"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Detection)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Flame Blade (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "leaf of sumac"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.",
+				"You can use your {@homebrew bonus action|action} to make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.",
+				"The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d6|2,4,6,8|1d6} for every two slot levels above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Mephistopheles)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Grasping Vine (Revised)",
+			"source": "ZRC",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.",
+				"Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Storm of Vengeance (Revised?)",
+			"source": "ZRC",
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "sight"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes {@damage 2d6} thunder damage and becomes {@condition deafened} for 5 minutes.",
+				"Each round you maintain concentration on this spell, the storm produces {@homebrew additional|different} effects on your turn.",
+				{
+					"type": "entries",
+					"name": "Round 2",
+					"entries": [
+						"Acidic rain falls from the cloud. Each creature and object under the cloud takes {@damage 1d6} acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Round 3",
+					"entries": [
+						"You call six bolts of lightning from the cloud to strike six creatures or objects of your choice beneath the cloud. A given creature or object can't be struck by more than one bolt. A struck creature must make a Dexterity saving throw. The creature takes {@damage 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Round 4",
+					"entries": [
+						"Hailstones rain down from the cloud. Each creature under the cloud takes {@damage 2d6} bludgeoning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Round 5–10",
+					"entries": [
+						"Gusts and freezing rain assail the area under the cloud. The area becomes difficult terrain and is heavily obscured. Each creature there takes {@damage 1d6} cold damage. Ranged weapon attacks in the area are impossible. The wind and rain count as a severe distraction for the purposes of maintaining concentration on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical."
+					]
+				},
+				"{@note Jeremy Crawford is a certified idiot.}"
+			],
+			"damageInflict": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution",
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Branding Smite (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@homebrew Your next attack roll is can not be affected by disadvantage, and} the next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra {@damage 2d6} radiant damage to the target, which becomes visible if it's {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by {@scaledamage 2d6|2-9|1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Hexblade (UA)",
+							"source": "UAWarlockAndWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Hexblade",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Stone (UA)",
+							"source": "UASorcerer"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Battle Smith",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Battle Smith",
+							"source": "TCE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Cleric",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Zariel)",
+					"source": "UAFiendishOptions",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Zariel)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Aura of Life (Revised)",
+			"source": "ZRC",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+			],
+			"damageResist": [
+				"necrotic"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undying",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Solidarity (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Twilight (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undead (UA)",
+							"source": "UA2020SubclassesPt4"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Twilight",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire",
+							"source": "TCE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Cleric",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Halfling (Mark of Healing)",
+					"source": "ERLW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Human (Mark of Handling)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Beacon of Hope (Revised)",
+			"source": "ZRC",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Devotion",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Solidarity (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Unity (UA)",
+							"source": "UA2020SubclassesPt2"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Love (UA)",
+							"source": "UA2020SubclassesPt2"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Peace",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Handling)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Flame Strike",
+			"source": "ZRC",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "pinch of sulfur"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes {@damage 4d6} fire damage and {@damage 4d6} radiant damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by {@scaledamage 4d6|5-9|1d6} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "War",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Devotion",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial (UA)",
+							"source": "UARevisedClassOptions"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undying Light (UA)",
+							"source": "UALightDarkUnderdark"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited",
+							"subSubclass": "Efreeti"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Glory",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire",
+							"source": "TCE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Paladin",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				}
+			]
+		}
+	]
+}
