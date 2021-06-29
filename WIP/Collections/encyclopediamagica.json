@@ -2,13 +2,15 @@
 	"_meta":{
 		"sources":[
 			{
-				"json":"EMagica",
-				"abbreviation":"EM",
+				"json":"EM5E",
+				"abbreviation":"EM5E",
 				"full":"Encyclopedia Magica for 5e",
 				"authors":[
 					"Zuishin"
 				],
-				"convertedBy":"Zuishin",
+				"convertedBy":[
+					"Zuishin"
+				],
 				"version":"1.0",
 				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"targetSchema":"1.0.0"
@@ -18,7 +20,7 @@
 	"table":[
 		{
 			"name":"Random Artifact Powers: Abjuration",
-			"source":"EMagica",
+			"source":"EM5E",
 			"caption": "Abjuring Effects of Artifacts",
 			"colLabels":[
 				"d20",
@@ -114,7 +116,7 @@
 		{
 			"name":"Random Artifact Powers: Cataclysm",
 			"caption":"Cataclysmic Effects of Artifacts",
-			"source":"EMagica",
+			"source":"EM5E",
 			"colLabels":[
 				"d20",
 				"Effect"
@@ -205,15 +207,62 @@
 					"Create permanent wolf spirits to guard the area of effect, which are hostile to all creatures except beasts, plants, and constructs"
 				]
 			]
+		},
+		{
+			"name":"Random Enhancements",
+			"caption":"Magic items and their enhancements",
+			"source":"EM5E",
+			"colLabels":[
+				"d100",
+				"Enhancement Type"
+			],
+			"colStyles":[
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows":[
+				[
+					"1-10",
+					"{@item anything item|EM5E|anything}"
+				],
+				[
+					"11-20",
+					"{@item aquatic equipment|EM5E|aquatic}"
+				],
+				[
+					"21-30",
+					"{@item cloaked wizardry|EM5E|cloaked}"
+				],
+				[
+					"31-40",
+					"{@item lightweight equipment|EM5E|lightweight}"
+				],
+				[
+					"41-50",
+					"{@item miniature equipment|EM5E|miniature}"
+				],
+				[
+					"51-60",
+					"{@item polymorphed equipment|EM5E|polymorphed}"
+				],
+				[
+					"61-70",
+					"{@item psionic dampener|EM5E|dampening}"
+				],
+				[
+					"71-80",
+					"{@item quirk|EM5E|quirky}"
+				]
+			]
 		}
 	],
 	"item": [
 	    {
 	        "name": "Anything Item",
-	        "source": "EMagica",
-	        "type": "",
+	        "source": "EM5E",
+	        "type": "GV",
 	        "tier": "Major",
-	        "rarity": "varies",
+	        "rarity": "common",
 	        "wondrous":"true",
 	        "entries": [
 	            "This magic item may take the form of any item of equal rarity. As an action, the user may command the item to transform into one of three randomly chosen items, which are decided upon this item's creation. If using the transformed item would normally destroy the item or consume it somehow, the Anything Item is also destroyed."
@@ -221,9 +270,9 @@
 	    },
 	    {
 	        "name": "Aquatic Equipment",
-	        "source": "EMagica",
-	        "type": "",
-	        "rarity": "varies",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "common",
 	        "tier": "major",
 	        "wondrous": false,
 	        "entries": [
@@ -232,9 +281,9 @@
 	    },
 	    {
 	        "name": "Cloaked Wizardry",
-	        "source": "EMagica",
-	        "type": "",
-	        "rarity": "varies",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "common",
 	        "tier": "major",
 	        "wondrous": true,
 	        "entries": [
@@ -243,9 +292,9 @@
 	    },
 	    {
 	        "name": "Lightweight Equipment",
-	        "source": "EMagica",
-	        "type": "",
-	        "rarity": "varies",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":false,
 	        "entries": [
@@ -254,8 +303,8 @@
 	    },
 	    {
 	        "name": "Miniature Equipment",
-	        "source": "EMagica",
-	        "type": "",
+	        "source": "EM5E",
+	        "type": "GV",
 	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":false,
@@ -265,9 +314,9 @@
 	    },
 	    {
 	        "name": "Polymorphed Equipment",
-	        "source": "EMagica",
-	        "type": "",
-	        "rarity": "varies",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":false,
 	        "entries": [
@@ -276,29 +325,159 @@
 	    },
 	    {
 	        "name": "Psionic Dampener",
-	        "source": "EMagica",
-	        "type": "",
-	        "rarity": "varies",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "uncommon",
 	        "tier": "major",
 	        "wondrous":true,
 	        "entries": [
-	        	"Psionic dampeners are pieces of equipment or clothing that, when worn by a creature that can use psionics (i.e. {@creature mind flayer}), serves to reduce the spell save DC of psionically casted spells by 5. If a creature wearing a dampener decides to cast a spell psionically, they suffer a magical shock, taking 3 ({@dice 1d6}) points of lightning damage per the level of the spell that was cast. They can be removed as normal, thus these usually come in the form of manacles or other binding equipment."
+	        	"Psionic dampeners are pieces of equipment or clothing that, when worn by a creature that uses psionics (i.e. {@creature mind flayer}), serves to reduce the spell save DC of psionically casted spells by 5. If a creature wearing a dampener decides to cast one of their psionic spells, they suffer a magical shock, taking 3 ({@dice 1d6}) points of lightning damage per the level of the spell that was cast. They can be removed as normal, thus these usually come in the form of manacles or other binding equipment."
 	        ]
 	    },
 	    {
 	        "name": "Weightless Equipment",
-	        "source": "EMagica",
-	        "type": "",
+	        "source": "EM5E",
+	        "type": "GV",
 	        "rarity": "varies",
 	        "tier": "minor",
 	        "wondrous":false,
+	        "weightMult": 0,
 	        "entries": [
-	        	"These items have negligible weight, and can be carried without any encumberance"
+	        	"These items have negligible weight, and can be carried without any encumberance, or can even magically lighten your burden."
+	        ]
+	    },
+	    {
+	        "name": "Quirky Equipment",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "varies",
+	        "tier": "minor",
+	        "wondrous":false,
+	        "weightMult": 0,
+	        "entries": [
+	        	"These items come with {@dice 1d4-1} randomly determined quirks, according to the following table (ignoring duplicate rolls):",
+	        	{
+	        		"type": "table",
+	        		"colStyles": [
+	        			"col-2 text-center",
+	        			"col-10"
+	        		],
+	        		"colLabels": [
+	        			"d100",
+	        			"Quirk"
+	        		],
+	        		"rows": [
+	        			[
+	        				"1-03",
+	        				"It takes {@dice 1d3} rounds to fetch the item from a container such as a backpack or sack."
+	        			],
+	        			[
+	        				"4-07",
+	        				"The item appears decrepit, but its function remains unimpaired."
+	        			],
+	        			[
+	        				"08-11",
+	        				"The item lies dormant for {@dice 1d4} days after becoming attuned, during which it can't be used and it confers none of its magical properties."
+	        			],
+	        			[
+	        				"12-16",
+	        				"The item audibly buzzes when it is used, alerting everyone (that is not {@condition deafened}) within 60 feet of its presence."
+	        			],
+	        			[
+	        				"17-20",
+	        				"The item is outlined in any combination of blue, green, or violet light (DM's choice), shedding dim light in a 10-foot radius."
+	        			],
+	        			[
+	        				"21-24",
+	        				"The item is immune to nonmagical damage."
+	        			],
+	        			[
+	        				"25-29",
+	        				"The item can't be used and it confers none of its magical properties while the user wears any kind of head gear or adornment."
+	        			],
+	        			[
+	        				"30-32",
+	        				"The item can't be used and it confers none of its magical properties while underground."
+	        			],
+	        			[
+	        				"33",
+	        				"The item can't be used and it confers none of its magical properties while above ground."
+	        			],
+	        			[
+	        				"34-36",
+	        				"The item can't be used and it confers none of its magical properties while it is night."
+	        			],
+	        			[
+	        				"37-38",
+	        				"The item can't be used and it confers none of its magical properties while it is day."
+	        			],
+	        			[
+	        				"39-43",
+	        				"The item can't be harmed by blows dealt by a creature with a Strength score of 19 or below."
+	        			],
+	        			[
+	        				"44-48",
+	        				"The item has {@dice 2d20} charges, which may or may not be recharged (DM's choice)."
+	        			],
+	        			[
+	        				"49-51",
+	        				"The item functions {@chance 30|70 percent of the time|Item's function}, failing otherwise."
+	        			],
+	        			[
+	        				"52-55",
+	        				"The item is magically buoyant and {@spell levitate|phb|levitates} upward at a rate of 5 feet per round unless held or tied down."
+	        			],
+	        			[
+	        				"56-60",
+	        				"The item is immune to lightning damage, and is nonconductive."
+	        			],
+	        			[
+	        				"61-64",
+	        				"The item can only be used twice per day. An attempt to use it a third time results in the item losing its magical properties for 48 hours."
+	        			],
+	        			[
+	        				"65-69",
+	        				"The item causes its owner to become extremely possessive of it. If 14 days pass while the item is still on your person, you gain the following flaw: \"Anyone who even mentions my item covets it, and I will never let them have it.\" The flaw can only be removed by a {@spell remove curse} or greater."
+	        			],
+	        			[
+	        				"70-72",
+	        				"The item is more powerful than normal, raising any associated DC by 1, and increasing its range of effectiveness by half of its current range."
+	        			],
+	        			[
+	        				"73-78",
+	        				"The item is less powerful than normal, lowering any associated DC by 1, and decreasing its range of effectiveness by half of its current range."
+	        			],
+	        			[
+	        				"79-83",
+	        				"The item curses its owner with a -1 penalty to all saving throws until the item has a {@spell remove curse} cast upon it."
+	        			],
+	        			[
+	        				"84-86",
+	        				"The item can't be used and it confers none of its magical properties while submerged in water, unless it is designed to work underwater. In that case, it only functions underwater."
+	        			],
+	        			[
+	        				"87-90",
+	        				"The item belongs to an extraplanar creature or other powerful being who has imprinted a relevant symbol of theirs upon the item. After {@dice 1d4} weeks, the being becomes aware of the item's location and current user."
+	        			],
+	        			[
+	        				"91-95",
+	        				"The item can not be used more than once per minute."
+	        			],
+	        			[
+	        				"96-98",
+	        				"The item can only be destroyed as if it were an artifact."
+	        			],
+	        			[
+	        				"99-00",
+	        				"The item is sentient (roll on the tables in the {@book Creating Sentient Magic Items|DMG|7|creating sentient magic items} section of the Dungeon Master's Guide)."
+	        			]
+	        		]
+	        	}
 	        ]
 	    },
 	    {
 	        "name": "Abacus of Calculation",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "common",
 	        "tier": "minor",
@@ -309,7 +488,7 @@
 	    },
 	    {
 	        "name": "Accelerator",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "legendary",
 	        "tier": "major",
@@ -320,7 +499,7 @@
 	    },
 	    {
 	        "name": "Acorn of Wo Mai",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "artifact",
 	        "tier": "major",
@@ -368,7 +547,7 @@
 	    },
 	    {
 	        "name": "",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "",
 	        "tier": "",
@@ -379,7 +558,7 @@
 	    },
 	    {
 	        "name": "",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "",
 	        "tier": "",
@@ -390,7 +569,7 @@
 	    },
 	    {
 	        "name": "",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "",
 	        "tier": "",
@@ -401,7 +580,7 @@
 	    },
 	    {
 	        "name": "",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "",
 	        "tier": "",
@@ -412,7 +591,7 @@
 	    },
 	    {
 	        "name": "",
-	        "source": "EMagica",
+	        "source": "EM5E",
 	        "type": "",
 	        "rarity": "",
 	        "tier": "",
