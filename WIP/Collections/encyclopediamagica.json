@@ -251,7 +251,15 @@
 				],
 				[
 					"71-80",
-					"{@item quirk|EM5E|quirky}"
+					"{@item quirky equipment|EM5E|quirky}"
+				],
+				[
+					"81-90",
+					"{@item racial enhancement equipment|EM5E|racial enhancing}"
+				],
+				[
+					"91-100",
+					"{@item weightless equipment|EM5E|weightless}"
 				]
 			]
 		}
@@ -261,7 +269,7 @@
 	        "name": "Anything Item",
 	        "source": "EM5E",
 	        "type": "GV",
-	        "tier": "Major",
+	        "tier": "minor",
 	        "rarity": "common",
 	        "wondrous":"true",
 	        "entries": [
@@ -272,7 +280,7 @@
 	        "name": "Aquatic Equipment",
 	        "source": "EM5E",
 	        "type": "GV",
-	        "rarity": "common",
+	        "rarity": "uncommon",
 	        "tier": "major",
 	        "wondrous": false,
 	        "entries": [
@@ -284,7 +292,7 @@
 	        "source": "EM5E",
 	        "type": "GV",
 	        "rarity": "common",
-	        "tier": "major",
+	        "tier": "minor",
 	        "wondrous": true,
 	        "entries": [
 	        	"The item is magical but appears as a nomagical object to spells and effects that would detect its magical aura."
@@ -338,7 +346,7 @@
 	        "name": "Weightless Equipment",
 	        "source": "EM5E",
 	        "type": "GV",
-	        "rarity": "varies",
+	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":false,
 	        "weightMult": 0,
@@ -476,9 +484,20 @@
 	        ]
 	    },
 	    {
+	        "name": "Racial Enhancing Equipment",
+	        "source": "EM5E",
+	        "type": "GV",
+	        "rarity": "varies",
+	        "tier": "minor",
+	        "wondrous":false,
+	        "weightMult": 0,
+	        "entries": [
+	        	"This equipment is only usable and only confers its benefits to a creature of a certain race. The DM can choose the race or can roll on the {@spell reincarnate} table."
+	        ]
+	    },
+	    {
 	        "name": "Abacus of Calculation",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":true,
@@ -489,20 +508,29 @@
 	    {
 	        "name": "Accelerator",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "legendary",
 	        "tier": "major",
 	        "wondrous":true,
 	        "entries": [
-	        	"This rapid-fire weapon is comparable to a ballista, which is intended for use on a spelljamming craft. The magic of this device is derived from the helm, and is rendered nonmagical when either the helm of the spelljammer, or the accelerator itself are not installed. This turret-like device looks like a gigantic sextant. The main arm is a 4-foot-long, 6-inch-diameter hollow tube with a hand-sized cup at one end. The arm can be swiveled and elevated allowing for accurate firing. To fire the accelerator, an item can be placed in the cup-end of the arm, upon which it is magically seized and accelerated through the arm's length, and shot out the far end. It can be fired twice with one action. When fired this way, a creature makes a ranged weapon attack with a +10 to hit bonus, a range of 1,200/4,400 ft., dealing 22 ({@dice 4d10}) bludgeoning damage on a hit."
+	        	"This rapid-fire weapon is comparable to a ballista, which is intended for use on a spelljamming craft. The magic of this device is derived from the helm, and is rendered nonmagical when either the helm of the spelljammer, or the accelerator itself are not installed. This turret-like device looks like a gigantic sextant. The main arm is a 4-foot-long, 6-inch-diameter hollow tube with a hand-sized cup at one end. The arm can be swiveled and elevated allowing for accurate firing.",
+	        	"To fire the accelerator, any small item can be placed in the cup-end of the arm, upon which it is magically seized and accelerated through the arm's length, and shot out the far end. It can be fired twice with one action and scores a critical hit on a roll of 19 or 20.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Accelerator Shot",
+	        		"entries":[
+	        			"{@i Ranged Weapon Attack:} {@hit +10} to hit, range 6,000/18,000 ft., one target. {@i Hit:} 22 ({@dice 4d10}) bludgeoning damage."
+	        		]
+	        	}
 	        ]
 	    },
 	    {
 	        "name": "Acorn of Wo Mai",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "artifact",
 	        "tier": "major",
+	        "sentient": true,
+	        "reqAttune": true,
+	        "curse": true,
 	        "wondrous":true,
 	        "entries": [
 	        	"The acorn of Wo Mai is a large lead vessel, dud gray in color. It is made in the likeness of a large acorn, 3 feet in height. Two golden bands inscribed with arcane characters encircle it from bottom to top, where they meet under a large seal of a dragon coiled around a sword. Although it looks heavy, the acorn weighs only 50 pounds. It occasionally makes faint thumping noises, and is warm to the touch.",
@@ -546,12 +574,284 @@
 	        ]
 	    },
 	    {
+	        "name": "Air Spores",
+	        "source": "EM5E",
+	        "poison":true,
+	        "rarity": "uncommon",
+	        "tier": "Minor",
+	        "wondrous":true,
+	        "entries": [
+	        	"Once inhaled, the air spores inhabit your lungs, and you find it difficult to breathe normally.",
+	        	"While these spores inhabit your lungs, you can't run out of oxygen in any environment; however, you have disadvantage on any Constitution saving throws.",
+	        	"The spores will die after {@dice 2d4} days.",
+	        	{
+	        		"type":"inset",
+	        		"name":"Variant: Chandrasakar's Air Spores",
+	        		"entries":[
+	        			"This variant of Air Spores is transmittable to a willing creature or one that is {@condition incapacitated}."
+	        		]
+	        	}
+	        ],
+	        "poisontypes":[
+	        	"inhaled"
+	        ]
+	    },
+	    {
+	        "name": "Al-Azid's Ghostly Palace",
+	        "source": "EM5E",
+	        "rarity": "Legendary",
+	        "tier": "Major",
+	        "cursed":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This item comes in the form of an ornate key. You can use an action to turn it as if you were unlocking a door, causing a huge palace of fine white marble and slender minarets to be called into existence. The palace is only visible at night. During the day, it is invisible from the outside.",
+	        	"The chambers are attended to by unseen servants, keeping it hospitable and taking care of any upkeep.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"This key is cursed, and becoming attuned to it extends the curse to you. Every day at dusk, there is a {@chance 30} that a hostile {@creature invisible stalker} is summoned within 30 feet of you and attacks."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Abyss",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":"by an evil creature",
+	        "reqAttuneTags":[
+	        	{
+	        		"alignment":[
+	        			"E"
+	        		]
+	        	}	
+	        ],
+	        "wondrous":true,
+	        "entries": [
+	        	"This adamantine amulet hangs from a long silver chain. Twice per day, you may spend 10 minutes in concentration (as if concentrating on a spell), immediately after which casting the {@spell summon lesser demons|XGE}. When cast from this amulet, the spell requires no concentration and instead lasts {@dice 3d6} hours. Throughout this duration, the summoned creatures obey any commands from you and can be dismissed by you as an action.",
+	        	"Once every 30 days, the {@spell contact other plane} spell can be cast, mentally contacting a powerful fiend from the abyss."
+	        ],
+	        "attachedSpells":[
+	        	"summon lesser demons",
+	        	"contact other plane"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Amiability",
+	        "source": "EM5E",
+	        "rarity": "Very Rare",
+	        "tier": "Major",
+	        "reqAttune":true,
+	        "cursed":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"You gain a +3 bonus to AC and saving throws while wearing this amulet.",
+	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers."
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"This item is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed, you are unwilling to part with the amulet. As part of this curse, you become incredibly kind to the point of being unable to wilfully hurt another creature of any type. You refuse to take treasure that belongs to someone else, and if you are confronted by a hostile creature you try to resolve any conflicts with gifts in the hopes of a peaceful outcome."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Arachnid Control",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "wondrous":true,
+	        "reqAttune":true,
+	        "entries": [
+	        	"Arachnids of any type can magically understand you and your instructions.",
+	        	"As a bonus action, you can attempt to control a single arachnid. They must succeed a DC 15 Wisdom saving throw or become {@condition charmed} by you for 24 hours, during which they must obey any commands even if it puts them in harms way. Arachnids of Intelligence score 3 or below automatically fail this saving throw. You must wait until dawn of the next day before using this ability again.",
+	        	"Valid arachnids include {@creature giant spider|mm|giant spiders}, {@creature swarm of spiders}, {@creature giant scorpion}, {@creature choldrith|vgm}, {@creature drider}, as well as creatures that magically assume the form of an arachnid."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Beast",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "type":"GV",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Cairn Hills",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"You make saving throws against any effect that would drain your ability score or change your age at advantage."
+	        ]
+	    },
+	    {
+	        "name": "Cartographer's Amulet",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "wondrous":true,
+	        "entries": [
+	        	"Once every three days, as an action, you may utter the command word to activate this amulet, causing it to display an illusory map depending on whether you are outdoors or indoors for 6 seconds.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Outdoors",
+	        		"entries":[
+	        			"The amulet displays the surrounding area within 10 miles of the amulet and indicates true north. It shows only the most obvious features of the landscape such as hills, cave mouths, buildings."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Indoors",
+	        		"entries":[
+	        			"The amulet displays the area within 60 feet, showing passages, stairways, doors, and other normal features such as fountains, furnishings, and loose treasure. The map does not reveal secrets, traps, or other creatures."
+	        		]
+	        	},
+	        	"While activated, the user who invoked the map can name up to four objects with which they are familiar. If any of the items exist in the map's area, their location is revealed."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Caterpillar Control",
+	        "source": "EM5E",
+	        "rarity": "common",
+	        "tier": "minor",
+	        "wondrous":true,
+	        "entries": [
+	        	"You can control caterpillars at will as if you had cast the {@spell dominate monster} spell on them. You can control up to {@dice 4d6} caterpillars in this way at the same time."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Charm Resistance",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this amulet you have advantage on saving throws made to resist effects that would {@condition charmed||charm} you."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Charming",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this amulet, your Charisma score increases by 2, to a maximum of 20.",
+	        	"When a creature sees the amulet, they must succeed a DC 15 Wisdom saving throw or become {@condition charmed} by the you for 1 hour or until you or your companions do anything harmful to it. A creature can only be subjected to this ability once every 24 hours."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Cheetah Speed",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this amulet, your speed increases by 10 feet. In addition you can use an action to cause your walking speed to become 50 feet, unless your walking speed is higher. This lasts for 1 minute, during which you can {@action dash} as a bonus action. Once used, this ability can't be used again until you finish a long rest.",
+	        	"While wearing armor of any kind, this amulet confers no benefits to you and its properties can't be used."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Dragon Warding",
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"A creature that touches the amulet gains an intuitive understanding of its properties, as if they had cast the {@spell identify} spell.",
+	        	"While wearing this amulet, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
+	        	"Additionally, while wearing this amulet, you have advantage on saving throws against any spell that targets only you (not in an area of effect). If you roll a 20 for the save and the spell is 5th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Dramatic Death",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this amulet, as a reaction when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You immediately turn {@condition invisible} and an illusion of yourself dying takes your place. The illusion does not hold up to physical inspection, but eludes all visual inspection unless by way of magic.",
+	        	{
+	        		"type":"inset",
+	        		"entries":[
+	        			"Typically, these amulets are made to protect only against a single type of attack or damage type. Example limitations would be cold damage, weapon attacks that aren't silvered, or an undead creature's attacks."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Draskilion's Amulet of Life",
+	        "source": "EM5E",
+	        "rarity": "Artifact",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "cursed":true,
+	        "entries": [
+	        	"The first creature to touch this amulet after its construction becomes immediately attuned to it.",
+	        	"If you die while wearing this amulet, your soul enters it. While your soul is in the amulet, you have darkvision out to 120 feet and are aware of your environment.",
+	        	"As an action, the soul housed in the amulet can attempt to dominate a wearer. The wearer must succeed a DC 20 Charisma saving throw. On a failure, the soul immediately initiate a contested Intelligence check with the wearer. If the soul is successful, it dominates the wearer, transferring the wearer's soul into the amulet and inhabiting the wearer's body. The wearer then adopts the dominating soul's mental statistics (Intelligence, Wisdom, Charisma, and alignment), but retains all other ability scores and statistics, including class levels and spells. If instead the wearer wins the contest, they gain 1 level of exhaustion from mental fatigue, but remain unaware of the soul's attempt to dominate them.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"A creature attempting to remove the amulet must use an action to do so, and must make a DC 25 Wisdom saving throw. On a failure, the creature is unwilling to remove the amulet. On a success, the creature removes the amulet from their person. If a {@spell remove curse} spell or greater magic is cast upon the amulet, the wearer can remove the amulet using an object interaction."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Emotions",
+	        "source": "EM5E",
+	        "rarity": "common",
+	        "tier": "minor",
+	        "wondrous":true,
+	        "cursed":true,
+	        "entries": [
+	        	"While wearing this amulet, your appearance is altered to greatly exaggerate your emotional state.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"A creature who puts this amulet on can't willingly remove it."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Extension",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This amulet has 10 charges. When you cast a spell that has a duration of 1 minute or longer while wearing it, you can expend an amount of charges equal to the spell's level to double the duration, up to 24 hours. It regains 1d8+2 charges at dawn."
+	        ]
+	    },
+	    {
 	        "name": "",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "",
-	        "tier": "",
-	        "wondrous":false,
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
@@ -559,10 +859,10 @@
 	    {
 	        "name": "",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "",
-	        "tier": "",
-	        "wondrous":false,
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
@@ -570,10 +870,10 @@
 	    {
 	        "name": "",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "",
-	        "tier": "",
-	        "wondrous":false,
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
@@ -581,10 +881,10 @@
 	    {
 	        "name": "",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "",
-	        "tier": "",
-	        "wondrous":false,
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
@@ -592,15 +892,25 @@
 	    {
 	        "name": "",
 	        "source": "EM5E",
-	        "type": "",
 	        "rarity": "",
-	        "tier": "",
-	        "wondrous":false,
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
-	    
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    }
 	],
 	/*"book":[
 		{
