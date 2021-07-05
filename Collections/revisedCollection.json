@@ -598,7 +598,7 @@
 						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
 						"Your ranged spell attacks ignore half cover and three-quarters cover.",
 						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
-						"{@homebrew When you cast a spell that forces a saving throw from a single creature, you can choose to cast it as a ranged spell attack. When this ranged spell attack hits, the creature is effected by the spell as if you had cast it on them and they automatically fail the initial saving throw made to resist. The spell must have a range of at least 5 feet, which is doubled from this feat. Once used, this ability can't be used again until you finish a long rest. {@note Spells such as {@spell finger of death}, {@spell banishment}, {@spell earthbind|xge} are examples of valid spells. Spells such as {@spell fireball}, {@spell eyebite}, {@spell bane} are examples of invalid spells.}}"
+						"{@homebrew When you cast a spell that forces a saving throw from a single creature, you can choose to cast it as a ranged spell attack. When this ranged spell attack hits, the creature is affected by the spell as if you had cast it on them and they automatically fail the initial saving throw made to resist. The spell must have a range of at least 5 feet, which is doubled from this feat. Once used, this ability can't be used again until you finish a long rest. {@note Spells such as {@spell finger of death}, {@spell banishment}, {@spell earthbind|xge} are examples of valid spells. Spells such as {@spell fireball}, {@spell eyebite}, {@spell bane} are examples of invalid spells.}}"
 					]
 				}
 			]
@@ -2417,7 +2417,7 @@
 			],
 			"entries": [
 				"You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.",
-				"You can use your {@homebrew bonus action|action} to make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.",
+				"{@homebrew As a bonus action on your turn, and as part of casting the spell, you can|You can use your action to} make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.",
 				"The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
 			],
 			"entriesHigherLevel": [
