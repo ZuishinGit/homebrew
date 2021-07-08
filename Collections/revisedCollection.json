@@ -19,7 +19,7 @@
 	},
 	"race": [
 		{
-			"name": "Genasi (Air); Revised",
+			"name": "Genasi (Air; Revised)",
 			"source": "ZRC",
 			"size": "M",
 			"speed": 30,
@@ -77,25 +77,367 @@
 				{
 					"name": "Unending Breath",
 					"entries": [
-						"You can hold your breath indefinitely while you're not {@condition incapacitated}, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
+						"You can hold your breath indefinitely while you're not {@condition incapacitated}, {@homebrew and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons).}"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Whirling Step",
+					"name": "{@homebrew Whirling Step}",
 					"entries":[
 						"You have a flying speed equal to your walking speed. This flight works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Mingle with the Wind",
+					"name": "{@homebrew Mingle with the Wind}",
 					"entries": [
 						"You know the {@spell gust|xge} cantrip, which uses your Constitution as your spellcasting ability."
 					],
 					"type": "entries"
 				}
 			]
+		},
+		{
+			"name": "Genasi (Earth; Revised)",
+			"source": "ZRC",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"primordial": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/genasi.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Independent and self-reliant, genasi tend toward a neutral alignment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Earth Walk",
+					"entries": [
+						"You can move across difficult terrain made of earth or stone without expending extra movement."
+					],
+					"type": "entries"
+				},
+				{
+					"type":"entries",
+					"name":"{@homebrew Natural Armor}",
+					"entries":[
+						"Your skin is as hard as rock. When you aren't wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					]
+				},
+				{
+					"name": "Merge with Stone",
+					"entries": [
+						"You can cast the {@spell pass without trace} spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+					],
+					"type": "entries"
+				},
+				{
+					"type":"entries",
+					"name":"{@homebrew Tremorsense}",
+					"entries":[
+						"You are more sensitive to vibrations in the earth. You have {@sense tremorsense} with a range of 15 feet."
+					]
+				},
+				{
+					"name": "Human (Revised)",
+					"source": "ZRC",
+					"size": [
+						"M"
+					],
+					"speed": 30,
+					"heightAndWeight": {
+						"baseHeight": 56,
+						"heightMod": "2d10",
+						"baseWeight": 110,
+						"weightMod": "2d4"
+					},
+					"languageProficiencies": [
+						{
+							"common": true,
+							"anyStandard": 1
+						}
+					],
+					"soundClip": {
+						"type": "internal",
+						"path": "races/human.mp3"
+					},
+					"entries": [
+						{
+							"name": "Age",
+							"type": "entries",
+							"entries": [
+								"Humans reach adulthood in their late teens and live less than a century."
+							]
+						},
+						{
+							"name": "Alignment",
+							"type": "entries",
+							"entries": [
+								"Humans tend toward no particular alignment. The best and the worst are found among them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Size",
+							"entries": [
+								"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+							]
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+							],
+							"type": "entries"
+						}
+					],
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"ability": [
+						{
+							"str": 1,
+							"dex": 1,
+							"con": 1,
+							"int": 1,
+							"wis": 1,
+							"cha": 1
+						}
+					],
+					"srd": true
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"pass without trace"
+						]
+					},
+					"ability": "con"
+				}
+			]
+		},
+		{
+			"name": "Dragonborn (Revised)",
+			"source": "ZRC",
+			"page": 32,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 66,
+				"heightMod": "2d8",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"acid",
+							"cold",
+							"fire",
+							"lightning",
+							"poison"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/dragonborn.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Draconic Ancestry",
+					"entries": [
+						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+						{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-3 text-center",
+								"col-6"
+							],
+							"rows": [
+								[
+									"Black",
+									"Acid",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Blue",
+									"Lightning",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Brass",
+									"Fire",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Bronze",
+									"Lightning",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Copper",
+									"Acid",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Gold",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Green",
+									"Poison",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Red",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Silver",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"White",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Breath Weapon",
+					"entries": [
+						"You can use your {@homebrew bonus} action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@dice 2d6} damage on a failed save, and half as much damage on a successful one. The damage increases to {@dice 3d6} at 6th level, {@dice 4d6} at 11th level, and {@dice 5d6} at 16th level.",
+						"After you use your breath weapon, you can't use it again until you complete a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Damage Resistance",
+					"entries": [
+						"You have resistance to the damage type associated with your draconic ancestry."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries":[
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"srd": true
 		}
 	],
 	"feat": [
@@ -3042,7 +3384,7 @@
 			]
 		},
 		{
-			"name": "Flame Strike",
+			"name": "Flame Strike (Revised)",
 			"source": "ZRC",
 			"level": 4,
 			"school": "V",
@@ -3253,6 +3595,30 @@
 				{
 					"name": "Boros Legionnaire",
 					"source": "GGR"
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Prepared Spells",
+			"source": "ZRC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2nd-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the \"Spells Known of 1st Level and Higher\" portion of the Spellcasting feature}",
+				"You no longer have spells known, and instead prepare them each day.",
+				{
+					"name": "Preparing and Casting Spells",
+					"type": "entries",
+					"entries": [
+						"The Ranger table shows how many spell slots you have to cast your ranger spells. To cast one of your ranger spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of ranger spells that are available for you to cast, choosing from the {@filter ranger spell list|spells|class=Ranger}. When you do so, choose a number of ranger spells equal to your Wisdom modifier + half your ranger level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level ranger, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of ranger spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+					]
 				}
 			]
 		}

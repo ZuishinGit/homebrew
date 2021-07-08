@@ -11,6 +11,7 @@
 				"convertedBy":[
 					"Zuishin"
 				],
+				"color":"113560",
 				"version":"1.0",
 				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
 				"targetSchema":"1.0.0"
@@ -429,7 +430,7 @@
 	        			],
 	        			[
 	        				"49-51",
-	        				"The item functions {@chance 30|70 percent of the time|Item's function}, failing otherwise."
+	        				"The item functions {@chance 70|70 percent of the time|Item's function}, failing otherwise."
 	        			],
 	        			[
 	        				"52-55",
@@ -534,7 +535,7 @@
 	        "wondrous":true,
 	        "entries": [
 	        	"The acorn of Wo Mai is a large lead vessel, dud gray in color. It is made in the likeness of a large acorn, 3 feet in height. Two golden bands inscribed with arcane characters encircle it from bottom to top, where they meet under a large seal of a dragon coiled around a sword. Although it looks heavy, the acorn weighs only 50 pounds. It occasionally makes faint thumping noises, and is warm to the touch.",
-	        	"This lead vessel acts as the prison to a powerful and intelligent fiend, who would like nothing more than for someone to open the lid so it may be freed."
+	        	"This lead vessel acts as the prison to a powerful and intelligent fiend, who would like nothing more than for someone to open the lid so it may be freed.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Random Properties",
@@ -649,7 +650,7 @@
 	        "wondrous":true,
 	        "entries": [
 	        	"You gain a +3 bonus to AC and saving throws while wearing this amulet.",
-	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers."
+	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
@@ -806,7 +807,7 @@
 	        "entries": [
 	        	"The first creature to touch this amulet after its construction becomes immediately attuned to it.",
 	        	"If you die while wearing this amulet, your soul enters it. While your soul is in the amulet, you have darkvision out to 120 feet and are aware of your environment.",
-	        	"As an action, the soul housed in the amulet can attempt to dominate a wearer. The wearer must succeed a DC 20 Charisma saving throw. On a failure, the soul immediately initiate a contested Intelligence check with the wearer. If the soul is successful, it dominates the wearer, transferring the wearer's soul into the amulet and inhabiting the wearer's body. The wearer then adopts the dominating soul's mental statistics (Intelligence, Wisdom, Charisma, and alignment), but retains all other ability scores and statistics, including class levels and spells. If instead the wearer wins the contest, they gain 1 level of exhaustion from mental fatigue, but remain unaware of the soul's attempt to dominate them.",
+	        	"As an action, the soul housed in the amulet can attempt to dominate a wearer. The wearer must succeed a DC 20 Charisma saving throw. On a failure, the soul can immediately initiate a contested Intelligence check with the wearer. If the soul is successful, it dominates the wearer, transferring the wearer's soul into the amulet and inhabiting the wearer's body. The wearer then adopts the dominating soul's mental statistics (Intelligence, Wisdom, Charisma, and alignment), but retains all other ability scores and statistics, including class levels and spells. If instead the wearer wins the contest, they gain 1 level of exhaustion from mental fatigue to a maximum of 5 points of exhaustion, but remain unaware of the soul's attempt to dominate them.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
@@ -842,33 +843,55 @@
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
-	        	"This amulet has 10 charges. When you cast a spell that has a duration of 1 minute or longer while wearing it, you can expend an amount of charges equal to the spell's level to double the duration, up to 24 hours. It regains 1d8+2 charges at dawn."
+	        	"This amulet has 10 charges. When you cast a spell that has a duration of 1 minute or longer while wearing it, you can expend an amount of charges equal to the spell's level to double the duration, up to 24 hours. It regains {@dice 1d8+2} charges at dawn."
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Amulet of Finding",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+	        "entries": [
+	        	"{@i Amulets of Finding} come in pairs. Anyone wearing one of the amulets can use an action to see through the matching amulet. A creature perceiving through an amulet in this way retains their senses."
+	        ]
+	    },
+	    {
+	        "name": "Furyondy's Amulet",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+	        "entries": [
+	        	"This amulet has {@dice 1d6+1} charges, and can't be recharged.",
+	        	"You can expend one charge to cast the {@spell remove curse} spell. When cast in this way, the spell has a range of self."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Golden Collar",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
-	        	""
+	        	"You can cast the {@spell freedom of movement} spell without components twice per long rest."
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Greenstone Amulet",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "very rare",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
-	        	""
+	        	"When worn, this amulet sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+	        	"This amulet confers the benefits of a {@spell mind blank} spell upon its wearer. Additionally, the wearer can't be communicated with telepathically."
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Hands of the Healing Spirit",
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
@@ -911,190 +934,5 @@
 	        	""
 	        ]
 	    }
-	],
-	/*"book":[
-		{
-			"name":"",
-			"id":"",
-			"source":"",
-			"contents":[
-				{
-					"name":"",
-					"headers":[
-						""
-					]
-				}
-			]
-		}
-	],
-	"bookData":[
-		{
-			"id":"",
-			"source":"",
-			"data":[
-				{
-					
-				}
-			]
-		}
-	]*/
-	/*"adventure":[
-		{
-			"name":"",
-			"id":"",
-			"source":"",
-			"coverUrl":"",
-			"published":"",
-			"storyline":"",
-			"level":{
-				"start": 1,
-				"end": 20
-			},
-			"contents":[
-				{
-					"name":"",
-					"headers":[
-						"",
-						""
-					]
-				}
-			]
-		}
-	],
-	"adventureData":[
-		{
-			"id":"",
-			"source":"",
-			"data":[
-				{
-
-				}
-			]
-		}
-	]*/
-	/*"reward":[
-		{
-			"type":"boon",
-			"name":"",
-			"source":"",
-			"entries":[
-				""
-			]
-		}
-	]*/
-	/*"table":[
-		{
-			"name":"",
-			"source":"",
-			"colLabels":[
-				"",
-				""
-			],
-			"colStyles":[
-				"col-2 text-center",
-				"col-10"
-			],
-			"rows":[
-				[
-					"",
-					""
-				]
-			]
-		},
-		{
-			"name":"",
-			"caption":"",
-			"source":"",
-			"colLabels":[
-				"d20",
-				""
-			],
-			"colStyles":[
-				"col-2 text-center",
-				"col-10"
-			],
-			"rows":[
-				[
-					"1",
-					""
-				],
-				[
-					"2",
-					""
-				],
-				[
-					"3",
-					""
-				],
-				[
-					"4",
-					""
-				],
-				[
-					"5",
-					""
-				],
-				[
-					"6",
-					""
-				],
-				[
-					"7",
-					""
-				],
-				[
-					"8",
-					""
-				],
-				[
-					"9",
-					""
-				],
-				[
-					"10",
-					""
-				],
-				[
-					"11",
-					""
-				],
-				[
-					"12",
-					""
-				],
-				[
-					"13",
-					""
-				],
-				[
-					"14",
-					""
-				],
-				[
-					"15",
-					""
-				],
-				[
-					"16",
-					""
-				],
-				[
-					"17",
-					""
-				],
-				[
-					"18",
-					""
-				],
-				[
-					"19",
-					""
-				],
-				[
-					"20",
-					""
-				]
-			]
-		}
-	]*/
+	]
 }
