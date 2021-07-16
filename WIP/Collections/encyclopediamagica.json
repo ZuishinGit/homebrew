@@ -116,8 +116,8 @@
 		},
 		{
 			"name":"Random Artifact Powers: Cataclysm",
-			"caption":"Cataclysmic Effects of Artifacts",
 			"source":"EM5E",
+			"caption":"Cataclysmic Effects of Artifacts",
 			"colLabels":[
 				"d20",
 				"Effect"
@@ -256,7 +256,7 @@
 				],
 				[
 					"81-90",
-					"{@item racial enhancement equipment|EM5E|racial enhancing}"
+					"{@item racial enhancing equipment|EM5E|racial enhancing}"
 				],
 				[
 					"91-100",
@@ -602,7 +602,7 @@
 	        "source": "EM5E",
 	        "rarity": "Legendary",
 	        "tier": "Major",
-	        "cursed":true,
+	        "curse":true,
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
@@ -646,7 +646,7 @@
 	        "rarity": "Very Rare",
 	        "tier": "Major",
 	        "reqAttune":true,
-	        "cursed":true,
+	        "curse":true,
 	        "wondrous":true,
 	        "entries": [
 	        	"You gain a +3 bonus to AC and saving throws while wearing this amulet.",
@@ -745,7 +745,7 @@
 	    {
 	        "name": "Amulet of Charming",
 	        "source": "EM5E",
-	        "rarity": "very rare",
+	        "rarity": "legendary",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
@@ -803,7 +803,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-	        "cursed":true,
+	        "curse":true,
 	        "entries": [
 	        	"The first creature to touch this amulet after its construction becomes immediately attuned to it.",
 	        	"If you die while wearing this amulet, your soul enters it. While your soul is in the amulet, you have darkvision out to 120 feet and are aware of your environment.",
@@ -823,7 +823,7 @@
 	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":true,
-	        "cursed":true,
+	        "curse":true,
 	        "entries": [
 	        	"While wearing this amulet, your appearance is altered to greatly exaggerate your emotional state.",
 	        	{
@@ -875,7 +875,7 @@
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
-	        	"You can cast the {@spell freedom of movement} spell without components twice per long rest."
+	        	"You can cast the {@spell freedom of movement} spell requiring no components twice per long rest."
 	        ]
 	    },
 	    {
