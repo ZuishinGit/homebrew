@@ -718,7 +718,7 @@
 			]
 		},
 		{
-			"name": "Defensive Duelist (Revised; Tentative)",
+			"name": "Defensive Duelist (Revised)",
 			"source": "ZRC",
 			"prerequisite": [
 				{
@@ -731,7 +731,7 @@
 			],
 			"entries": [
 				"When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
-				"When a creature misses a melee attack against you while you are {@action dodge|phb|dodging}, you can use a reaction to attempt to {@action disarm} the attacker."
+				"{@homebrew When you make a melee weapon attack with a finesse weapon, you ignore an opponent's bonus to AC granted by shields.}"
 			]
 		},
 		{
