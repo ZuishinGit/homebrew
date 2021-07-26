@@ -502,6 +502,7 @@
 	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":true,
+			"weight": 2,
 	        "entries": [
 	        	"This device is a simple wooden frame, about 8 by 10 inches. Several heavy wires are strung across the frame, parallel to one another. On each wire are 10 wooden balls. When mathematical formulas involving numbers (adding, subtracting, multiplying, dividing and simple operations) are spoken near the object, the balls shift about and the answer is spoken aloud by a disembodied voice."
 	        ]
@@ -512,13 +513,14 @@
 	        "rarity": "legendary",
 	        "tier": "major",
 	        "wondrous":true,
+			"weight": 200,
 	        "entries": [
 	        	"This rapid-fire weapon is comparable to a ballista, which is intended for use on a spelljamming craft. The magic of this device is derived from the helm, and is rendered nonmagical when either the helm of the spelljammer, or the accelerator itself are not installed. This turret-like device looks like a gigantic sextant. The main arm is a 4-foot-long, 6-inch-diameter hollow tube with a hand-sized cup at one end. The arm can be swiveled and elevated allowing for accurate firing.",
 	        	"To fire the accelerator, any small item can be placed in the cup-end of the arm, upon which it is magically seized and accelerated through the arm's length, and shot out the far end. It can be fired twice with one action and scores a critical hit on a roll of 19 or 20.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Accelerator Shot",
-	        		"entries":[
+	        		"entries": [
 	        			"{@i Ranged Weapon Attack:} {@hit +10} to hit, range 6,000/18,000 ft., one target. {@i Hit:} 22 ({@dice 4d10}) bludgeoning damage."
 	        		]
 	        	}
@@ -532,13 +534,14 @@
 	        "reqAttune": true,
 	        "curse": true,
 	        "wondrous":true,
+			"weight": 40,
 	        "entries": [
 	        	"The acorn of Wo Mai is a large lead vessel, dud gray in color. It is made in the likeness of a large acorn, 3 feet in height. Two golden bands inscribed with arcane characters encircle it from bottom to top, where they meet under a large seal of a dragon coiled around a sword. Although it looks heavy, the acorn weighs only 50 pounds. It occasionally makes faint thumping noises, and is warm to the touch.",
 	        	"This lead vessel acts as the prison to a powerful and intelligent fiend, who would like nothing more than for someone to open the lid so it may be freed.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Random Properties",
-	        		"entries":[
+	        		"entries": [
 	        			"The Acorn of Wo Mai has the following properties, determined by rolling on the tables in the \"Artifacts\" section in chapter 7 of the Dungeon Master's Guide:",
 	        			{
 	        				"type":"list",
@@ -552,14 +555,14 @@
 	        	{
 	        		"type":"entries",
 	        		"name":"Polymorph",
-	        		"entries":[
+	        		"entries": [
 	        			"The Acorn of Wo Mai can be used to cast the {@spell true polymorph} spell (object into creature only) once per day, regaining its use daily at dawn."
 	        		]
 	        	},
 	        	{
 	        		"type":"entries",
 	        		"name":"Sentience",
-	        		"entries":[
+	        		"entries": [
 	        			"The Acorn of Wo Mai acts as a sentient lawful evil magic item with an Intelligence of 20, a Wisdom of 15, and a Charisma of 24. It has hearing and {@sense darkvision} out to a range of 120 feet. It can communicate telepathically with the creature that is attuned to it, as long as that creature understands at least one language.",
 	        			"If it is made evident to the fiend that its user has no intention of releasing it, the fiend attempts to take control of its owner (see \"Sentient Magic Items\" in chapter 7 of the Dungeon Master's Guide)."
 	        		]
@@ -567,7 +570,7 @@
 	        	{
 	        		"type":"entries",
 	        		"name":"Personality",
-	        		"entries":[
+	        		"entries": [
 	        			"The Acorn of Wo Mai is a cunning fiend that uses its charm and wit to try and persuade others to free it, offering some of its immense power in exchange. It often gives good advice and answers harmless questions to build trust with its user."
 	        		]
 	        	}
@@ -587,7 +590,7 @@
 	        	{
 	        		"type":"inset",
 	        		"name":"Variant: Chandrasakar's Air Spores",
-	        		"entries":[
+	        		"entries": [
 	        			"This variant of Air Spores is transmittable to a willing creature or one that is {@condition incapacitated}."
 	        		]
 	        	}
@@ -599,18 +602,19 @@
 	    {
 	        "name": "Al-Azid's Ghostly Palace",
 	        "source": "EM5E",
-	        "rarity": "Legendary",
+	        "rarity": "legendary",
 	        "tier": "Major",
 	        "curse":true,
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 0.5,
 	        "entries": [
 	        	"This item comes in the form of an ornate key. You can use an action to turn it as if you were unlocking a door, causing a huge palace of fine white marble and slender minarets to be called into existence. The palace is only visible at night. During the day, it is invisible from the outside.",
 	        	"The chambers are attended to by unseen servants, keeping it hospitable and taking care of any upkeep.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
-	        		"entries":[
+	        		"entries": [
 	        			"This key is cursed, and becoming attuned to it extends the curse to you. Every day at dusk, there is a {@chance 30} that a hostile {@creature invisible stalker} is summoned within 30 feet of you and attacks."
 	        		]
 	        	}
@@ -630,6 +634,7 @@
 	        	}	
 	        ],
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"This adamantine amulet hangs from a long silver chain. Twice per day, you may spend 10 minutes in concentration (as if concentrating on a spell), immediately after which casting the {@spell summon lesser demons|XGE}. When cast from this amulet, the spell requires no concentration and instead lasts {@dice 3d6} hours. Throughout this duration, the summoned creatures obey any commands from you and can be dismissed by you as an action.",
 	        	"Once every 30 days, the {@spell contact other plane} spell can be cast, mentally contacting a powerful fiend from the abyss."
@@ -642,17 +647,18 @@
 	    {
 	        "name": "Amulet of Amiability",
 	        "source": "EM5E",
-	        "rarity": "Very Rare",
+	        "rarity": "very rare",
 	        "reqAttune":true,
 	        "curse":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"You gain a +3 bonus to AC and saving throws while wearing this amulet.",
 	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
-	        		"entries":[
+	        		"entries": [
 	        			"This item is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed, you are unwilling to part with the amulet. As part of this curse, you become incredibly kind to the point of being unable to wilfully hurt another creature of any type. You refuse to take treasure that belongs to someone else, and if you are confronted by a hostile creature you try to resolve any conflicts with gifts in the hopes of a peaceful outcome."
 	        		]
 	        	}
@@ -665,6 +671,7 @@
 	        "tier": "major",
 	        "wondrous":true,
 	        "reqAttune":true,
+			"weight": 1,
 	        "entries": [
 	        	"Arachnids of any type can magically understand you and your instructions.",
 	        	"As a bonus action, you can attempt to control a single arachnid. They must succeed a DC 15 Wisdom saving throw or become {@condition charmed} by you for 24 hours, during which they must obey any commands even if it puts them in harms way. Arachnids of Intelligence score 3 or below automatically fail this saving throw. You must wait until dawn of the next day before using this ability again.",
@@ -672,13 +679,14 @@
 	        ]
 	    },
 	    {
-	        "name": "Amulet of the Beast",
+	        "name": "Amulet of the Beast (WIP)",
 	        "source": "EM5E",
 	        "rarity": "",
 	        "type":"GV",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	""
 	        ]
@@ -690,8 +698,9 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
-	        	"You make saving throws against any effect that would drain your ability score or change your age at advantage."
+	        	"You have advantage on any saving throws made against an effect that would drain your ability scores or change your age."
 	        ]
 	    },
 	    {
@@ -700,19 +709,20 @@
 	        "rarity": "rare",
 	        "tier": "major",
 	        "wondrous":true,
+			"weight": 3,
 	        "entries": [
 	        	"Once every three days, as an action, you may utter the command word to activate this amulet, causing it to display an illusory map depending on whether you are outdoors or indoors for 6 seconds.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Outdoors",
-	        		"entries":[
+	        		"entries": [
 	        			"The amulet displays the surrounding area within 10 miles of the amulet and indicates true north. It shows only the most obvious features of the landscape such as hills, cave mouths, buildings."
 	        		]
 	        	},
 	        	{
 	        		"type":"entries",
 	        		"name":"Indoors",
-	        		"entries":[
+	        		"entries": [
 	        			"The amulet displays the area within 60 feet, showing passages, stairways, doors, and other normal features such as fountains, furnishings, and loose treasure. The map does not reveal secrets, traps, or other creatures."
 	        		]
 	        	},
@@ -725,6 +735,7 @@
 	        "rarity": "common",
 	        "tier": "minor",
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"You can control caterpillars at will as if you had cast the {@spell dominate monster} spell on them. You can control up to {@dice 4d6} caterpillars in this way at the same time."
 	        ]
@@ -736,6 +747,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet you have advantage on saving throws made to resist effects that would {@condition charmed||charm} you."
 	        ]
@@ -747,6 +759,10 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+	        "ability": {
+	        	"cha": 2
+	        },
+			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet, your Charisma score increases by 2, to a maximum of 20.",
 	        	"When a creature sees the amulet, they must succeed a DC 15 Wisdom saving throw or become {@condition charmed} by the you for 1 hour or until you or your companions do anything harmful to it. A creature can only be subjected to this ability once every 24 hours."
@@ -755,10 +771,11 @@
 	    {
 	        "name": "Amulet of Cheetah Speed",
 	        "source": "EM5E",
-	        "rarity": "rare",
+	        "rarity": "very rare",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet, your speed increases by 10 feet. In addition you can use an action to cause your walking speed to become 50 feet, unless your walking speed is higher. This lasts for 1 minute, during which you can {@action dash} as a bonus action. Once used, this ability can't be used again until you finish a long rest.",
 	        	"While wearing armor of any kind, this amulet confers no benefits to you and its properties can't be used."
@@ -771,6 +788,8 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
+	        "bonusAc": "+2",
 	        "entries": [
 	        	"A creature that touches the amulet gains an intuitive understanding of its properties, as if they had cast the {@spell identify} spell.",
 	        	"While wearing this amulet, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
@@ -784,11 +803,12 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet, as a reaction when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You immediately turn {@condition invisible} and an illusion of yourself dying takes your place. The illusion does not hold up to physical inspection, but eludes all visual inspection unless by way of magic.",
 	        	{
 	        		"type":"inset",
-	        		"entries":[
+	        		"entries": [
 	        			"Typically, these amulets are made to protect only against a single type of attack or damage type. Example limitations would be cold damage, weapon attacks that aren't silvered, or an undead creature's attacks."
 	        		]
 	        	}
@@ -797,11 +817,12 @@
 	    {
 	        "name": "Draskilion's Amulet of Life",
 	        "source": "EM5E",
-	        "rarity": "Artifact",
+	        "rarity": "artifact",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "curse":true,
+			"weight": 1,
 	        "entries": [
 	        	"The first creature to touch this amulet after its construction becomes immediately attuned to it.",
 	        	"If you die while wearing this amulet, your soul enters it. While your soul is in the amulet, you have darkvision out to 120 feet and are aware of your environment.",
@@ -809,7 +830,7 @@
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
-	        		"entries":[
+	        		"entries": [
 	        			"A creature attempting to remove the amulet must use an action to do so, and must make a DC 25 Wisdom saving throw. On a failure, the creature is unwilling to remove the amulet. On a success, the creature removes the amulet from their person. If a {@spell remove curse} spell or greater magic is cast upon the amulet, the wearer can remove the amulet using an object interaction."
 	        		]
 	        	}
@@ -822,12 +843,13 @@
 	        "tier": "minor",
 	        "wondrous":true,
 	        "curse":true,
+			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet, your appearance is altered to greatly exaggerate your emotional state.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
-	        		"entries":[
+	        		"entries": [
 	        			"A creature who puts this amulet on can't willingly remove it."
 	        		]
 	        	}
@@ -840,6 +862,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"This amulet has 10 charges. When you cast a spell that has a duration of 1 minute or longer while wearing it, you can expend an amount of charges equal to the spell's level to double the duration, up to 24 hours. It regains {@dice 1d8+2} charges at dawn."
 	        ]
@@ -850,6 +873,7 @@
 	        "rarity": "uncommon",
 	        "tier": "major",
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"{@i Amulets of Finding} come in pairs. Anyone wearing one of the amulets can use an action to see through the matching amulet. A creature perceiving through an amulet in this way retains their senses."
 	        ]
@@ -860,9 +884,14 @@
 	        "rarity": "rare",
 	        "tier": "minor",
 	        "wondrous":true,
+			"weight": 1,
+			"charges":7,
 	        "entries": [
-	        	"This amulet has {@dice 1d6+1} charges, and can't be recharged.",
+	        	"This amulet has 7 charges, and can't be recharged.",
 	        	"You can expend one charge to cast the {@spell remove curse} spell. When cast in this way, the spell has a range of self."
+	        ],
+	        "attachedSpells":[
+	        	"remove curse"
 	        ]
 	    },
 	    {
@@ -872,8 +901,12 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"You can cast the {@spell freedom of movement} spell requiring no components twice per long rest."
+	        ],
+	        "attachedSpells":[
+	        	"freedom of movement"
 	        ]
 	    },
 	    {
@@ -883,6 +916,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	"When worn, this amulet sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
 	        	"This amulet confers the benefits of a {@spell mind blank} spell upon its wearer. Additionally, the wearer can't be communicated with telepathically."
@@ -891,10 +925,537 @@
 	    {
 	        "name": "Hands of the Healing Spirit",
 	        "source": "EM5E",
+	        "rarity": "artifact",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "ability": {
+	        	"wis": 2
+	        },
+	        "entries": [
+	        	"While wearing this amulet you gain the following benefits:",
+	        	{
+	        		"type":"list",
+	        		"items":[
+	        			"You can sense the presence of magic within 10 feet of you, as if you had cast the {@spell detect magic} spell.",
+	        			"You gain advantage on saving throws made to resist effects that would poison or disease you.",
+	        			"Your Wisdom score increases by 2, to a maximum of 22.",
+	        			"You no longer show physical signs of aging.",
+	        			"The result of any rolls made to restore hit points to you are doubled."
+	        		]
+	        	},
+	        	"Additionally you may cast the following spells from the amulet: {@spell heal}, {@spell mass cure wounds}, {@spell mass healing word}. Each of these spells can be cast once, using Wisdom as your spellcasting ability. They can't be cast again until dawn of the next day."
+	        ],
+	        "attachedSpells": [
+	        	"heal",
+	        	"mass cure wounds",
+	        	"mass healing word"
+	        ]
+	    },
+	    {
+	        "name": "Hardwater Amulet",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "curse":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While wearing this amulet, you may use an action to  touch a section of water, causing it to harden to a consistency of granite. You can harden the water in any shape that fits in a cube up to 10 feet on each side. If a creature is in the water when it transforms, it must make a DC 14 Dexterity saving throw. On a successful save, a creature is shunted safely to the nearest unoccupied space. On a failed save, a creature becomes {@condition restrained} by the hardened water. A creature may use an action to attempt to break the hardened water by succeeding on a DC 20 Strength check or by dealing damage to it. The hardened water has AC 15 and 25 hit points, and it is immune to poison and psychic damage.",
+	        	"Water hardened in this way lasts 1 minute.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"While wearing this amulet, you have disadvantage on initiative rolls."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Holy Turning",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This holy symbol is imbued with an effect that repels undead, as if it were affected by the antipathy version of the {@spell antipathy/sympathy} spell ({@dc 13}). This effect is considered equivalent to a {@classFeature turn undead|Cleric||2||cleric's turn undead} for the purposes of monsters that may have immunity or resistance to such an effect."
+	        ]
+	    },
+	    {
+	        "name": "Periapt of Filth",
+	        "source": "EM5E",
+	        "alias":[
+	        	"Kara-Turan Amulet of Health"
+	        ],
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This item appears to be a {@item periapt of health|dmg} to anyone who tries to {@spell identify} it, but it does not confer that item's properties.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"This item is cursed. While it is on your person, you have disadvantage on saving throws made to resist disease."
+	        		]
+	        	},
+	        	"{@note This item is indexed as a variant in Encyclopedia Magica under \"Amulet of Health\".}"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Hero",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"You can speak this item's command word as an action, causing an 8th-level {@class warrior sidekick|tce|warrior} to appear in an unoccupied space within 30 feet of you. This warrior obeys your commands to the best of its abilities, and remains until it dies. The warrior can not harm themself nor perform an act that would spell their doom. All damage the warrior takes is permanent and may not be healed in any way short of a {@spell wish} spell.",
+	        	"The amulet can generate three different warriors in this way, though a new one may not be generated while one is already present.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"This item is cursed. Any warriors generated by the amulet are hopelessly incapable and automatically fail any attack roll, saving throw, or ability check they attempt. The warrior also immediately falls off any mount they attempt to ride."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Hunting",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you have advantage on Wisdom ({@skill Survival}) checks made to forage. Additionally, you double your Wisdom modifier when considering the units of food foraged.",
+	        	"{@note See the {@book wilderness kit|screenwildernesskit|0|Foraging|0} for rules regarding foraging.}"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Immunity to Charm",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you automatically succeed saving throws made to resist effects that would {@condition charm} you, unless produced by a {@spell wish} spell."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Inescapable Location",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This item appears to be an {@item amulet of proof against detection and location|dmg} to anyone who tries to {@spell identify} it, but it does not confer that item's properties.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"This item is cursed. While it is on your person, you are more susceptible to divination magic. You have disadvantage on rolls made to resist or otherwise impair the effects of magic used to divine anything about your person."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Insect Repellency",
+	        "source": "EM5E",
+	        "rarity": "common",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"Tiny insects such as fleas or mosquitos can not approach the amulet or its wearer."
+	        ]
+	    },
+	    {
+	        "name": "Kaleen's Undead Stone",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":"by a cleric",
+	        "reqAttuneTags":[
+	        	{
+	        		"class":"cleric"
+	        	}	
+	        ],
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"When you use your {@classFeature channel divinity (1/rest)|cleric||2||channel divinity} class feature to turn undead, you can immediately cast the {@spell antilife shell} spell. This version of the spell only affects undead, but all other details remain the same."
+	        ],
+	        "attachedSpells": [
+	        	"antilife shell"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Lathander",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"If you start your turn while at 0 hit points, you regain {@dice 1d6} hit points. If you are an avid worshipper of a deity of the life domain such as {@deity Lathander}, then you instead are healed as if you had been affected by the {@spell heal} spell.",
+	        	"This property functions three times per day.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"If you are of an evil or neutral alignment and you put the amulet on, you suffer 10 ({@dice 3d6}) points of irreducible radiant damage at the start of each of your turns until you take the amulet off, immediately causing you to become unattuned."
+	        		]
+	        	}
+	        ],
+	        "attachedSpells": [
+	        	"heal"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Leadership",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, soldiers and men-at-arms that would be otherwise indifferent to you now regard you as a friend.",
+	        	"You have advantage on checks made to carouse with soldiers or men-at-arms.",
+	        	"If you take the amulet off for any reason, the disposition of the soldiers returns to normal."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Life Protection",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you automatically succeed on saving throws made to resist effects that would dominate you or possess you, such as those provoked by the {@spell dominate person}, or {@spell magic jar} spells.",
+	        	"If you die while wearing the amulet, your soul enters it, unless it already houses a soul. You remain in the amulet for 7 days, after which you safely depart for the afterlife. As long as your soul is in the amulet, you can telepathicalaly communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Metaspell Influence",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune": "by a sorcerer",
+	        "reqAttuneTags":[
+	        	{
+	        		"class":"sorcerer"
+	        	}
+	        ],
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"You gain the ability to use two {@classFeature metamagic|sorcerer||3} options on a single spell.",
+	        	"You can use this property twice, regaining all expended uses daily at dawn."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Neutrality",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this amulet, you appear to all divination magic to be of neutral alignment."
+	        ]
+	    },
+	    {
+	        "name": "Palm Sign",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet glows when there is an efreeti within 120 feet of it.",
+	        	"While wearing the amulet, you have resistance to fire damage.",
+	        	"You can use an action to cast the {@spell magic missile} spell at 6th level, targeting only efreeti. Any efreeti damaged by this spell must succeed a {@dc 16} Wisdom saving throw or be {@condition frightened} of you. Once used, this ability can't be used again until dawn.",
+	        	"An efreeti frightened in this way must spend its turns trying to move as far away from you as it can. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the efreeti can use the {@action Dodge} action."
+	        ],
+	        "attachedSpells": [
+	        	"magic missile"
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Papyrus Scepter",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, your Constitution score is 19. This property has no effect if your Constitution score is already 19 or higher without it.",
+	        	"While wearing this amulet, you can choose to retrograde your aging process. You no longer physically age, and instead your age is reduced by the amount of time that passes while wearing the amulet. After {@dice 1d6 + 4} years of aging in retrograde, the amulet is destroyed, and you begin to age normally.",
+	        	{
+	        		"type":"inset",
+	        		"entries": [
+	        			"Variations of this amulet are said to exist that improve other physical ability scores such as Dexterity or Strength, replacing the Constitution improvement."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Perpetual Youth",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet glows with a faint, blue light. While wearing it, you have temporary immunity to the effects of both natural and magical aging. The amulet can absorb {@dice 5d6} years of aging, after which it loses all of its magical properties and becomes non-magical."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Perpetual Youth and Inexperience",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This item appears to be an {@item amulet of perpetual youth and inexperience|EM5E} to anyone who tries to {@spell identify} it, but it does not confer that item's properties.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"This item is cursed, attuning to it extends the curse to you. Every day at dawn, the wearer must succeed a DC 17 Charisma saving throw or ."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Power",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":"by a spellcaster",
+	        "reqAttuneTags": [
+	        		{
+	        			"spellcasting": true
+	        		}
+	        	],
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet confers no benefit nor can its properties be used until you have been attuned to it for 30 consecutive days. Once a user goes through this process, they never need to again.",
+	        	"While wearing this amulet, you gain the following benefits:",
+	        	{
+	        		"type":"list",
+	        		"items":[
+	        			"You gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.",
+	        			"Spells that you cast with a range of at least 30 feet have their range increased by an additional 30 feet.",
+	        			"When you roll a 1 on a damage die for a spell that you cast, you can reroll the die and must use the new roll, even if the new roll is a 1."
+	        		]
+	        	},
+	        	"When you cast a spell of 7th level or lower while wearing this amulet, you can forgo expending a spell slot. Once you use this property, you can't use it again until the next dawn."
+	        ],
+	        "bonusSpellAttack": "+1",
+	        "bonusSpellSaveDc": "+1"
+	    },
+	    {
+	        "name": "Kalna-Kaa's Amulet of Protection",
+	        "source": "EM5E",
+	        "alias":[
+	        	"Amulet of Protection"
+	        ],
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, it provides the following benefits:",
+	        	{
+	        		"type":"list",
+	        		"items":[
+	        			"You have a +1 bonus to AC and saving throws while wearing this amulet.",
+	        			"If you are a lycanthrope, you become immune to effects from herbs and concoctions which are traditionally detrimental to lycanthropes, such as wolfsbane."
+	        		]
+	        	}
+	        ],
+	        "bonusAc":"+1",
+	        "bonusSavingThrow": "+1"
+	    },
+	    {
+	        "name": "Amulet of Protection from Alignment Change",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you are protected from magical effects, including curses, that would change your alignment. This property fails to protect from effects created by artifacts."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Protection from Good",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune": "by a creature of evil alignment",
+	        "reqAttuneTags":[
+	        	{
+	        		"alignment":[
+	        			"E"
+	        		]
+	        	}
+	        ],
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"You gain a +1 bonus to AC while wearing this amulet. Additionally, you gain a +1 bonus to attack rolls against good aligned creatures."
+	        ],
+	        "bonusAc":"+1"
+	    },
+	    {
+	        "name": "Amulet of Protection from Sleep",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you can not sleep by any means, magical or otherwise; however, this amulet does not protect you from harmful effects that come from not sleeping."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Psionic Interference (WIP)",
+	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Psionic Reflection (WIP)",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Recall",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"It takes one minute to activate this item, upon which you and every willing creature touching you teleports to a location specific to the amulet. If you are on a different plane than the designated location, the teleportation fails.",
+	        	"The destination of this teleportation is the most recent place where the item was left stationary and unworn for 30 consecutive days."
+	        ]
+	    },
+	    {
+	        "name": "Cosette's Shakti",
+	        "source": "EM5E",
+	        "alias":[
+	        	"Shakti Amulet"
+	        ],
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"When you use an action to speak this amulet's command word, it surrounds you in magical {@item plate armor|phb}, and arms you with up to two magical {@item shortsword|phb|shortswords}. When you roll a 20 with one of these shortswords, the target takes an extra 7 lightning damage.",
+	        	"If you are already donning armor or if your hands are occupied when you speak the command word, it does nothing."
+	        ]
+	    },
+	    {
+	        "name": "Shell of Protection from Sharks",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While worn, this amulet projects an imperceptible magic barrier in a 10-foot-radius around you. The barrier prevents sharks from passing or reaching through. If you attack a shark while wearing the amulet, this property is immediately disabled for 1 hour."
+	        ]
+	    },
+	    {
+	        "name": "Shield Amulet",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "recharge":"dawn",
+	        "charges":24,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet has 24 charges. When you take damage from a weapon attack while wearing the amulet, you can use a reaction to expend 1 or more charges, reducing the damage taken by an equal amount.",
+	        	"The amulet regains {@dice 2d12} expended charges daily at dawn."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Sleeplessness",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet appears to be an {@item amulet of protection from sleep|em5e} to anyone who tries to {@spell identify} it, and it confers that item's property while on your person.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries": [
+	        			"This item is cursed. Once you put it on, you can't willingly remove it until you are targeted by the {@spell remove curse} spell or similar magic."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Spinecastle",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	""
 	        ]
@@ -906,28 +1467,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-	        "entries": [
-	        	""
-	        ]
-	    },
-	    {
-	        "name": "",
-	        "source": "EM5E",
-	        "rarity": "",
-	        "tier": "major",
-	        "reqAttune":true,
-	        "wondrous":true,
-	        "entries": [
-	        	""
-	        ]
-	    },
-	    {
-	        "name": "",
-	        "source": "EM5E",
-	        "rarity": "",
-	        "tier": "major",
-	        "reqAttune":true,
-	        "wondrous":true,
+			"weight": 1,
 	        "entries": [
 	        	""
 	        ]

@@ -1,0 +1,428 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"TWHR",
+				"abbreviation":"TWHR",
+				"full":"The Woods: House Rules",
+				"color": "fb6703",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy": [
+				],
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"book": [
+		{
+			"name":"The Woods: House Rules",
+			"id":"TWHR",
+			"source":"TWHR",
+			"contents":[
+				{
+					"name":"Preface",
+					"headers":[
+						"Ability Score Generation",
+						"Character Creation Options",
+						"Gameplay Options",
+						"Rulings"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id":"TWHR",
+			"source":"TWHR",
+			"data":[
+				{
+					"type":"section",
+					"name":"Preface",
+					"entries":[
+						"This document is a compilation of all our house rules and rulings that have come up in play. If you think something should be added or changed please let me know. All my personal homebrew is allowed, clicking the following links adds each to your 5eTools:",
+						{
+							"type":"inset",
+							"name":"Very Important Homebrew",
+							"entries":[
+								{
+									"type":"list",
+									"items":[
+										"{@note Zuishin's Revised Collection [collection]} - {@loader My homebrew revisions (Essential)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/revisedCollection.json} ",
+										"{@note Zuishin's Poisons [collection]} - {@loader My homebrew poisons (DMs only)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/ZuishinsPoisons.json} ",
+										"{@note Mundane and Magical Makings [book]} - {@loader Rules we use for crafting magic items|book/Weems; Mundane and Magical Makings.json} ",
+										"{@note Sane Magic Item Prices Expanded [book]} - {@loader Magic item prices|book/Giddy; Sane Magic Item Prices Expanded.json} ",
+										"{@note Encyclopedia Magica for 5e [collection]} - {@loader My encyclopedia magica conversion (WIP)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json} "
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Ability Score Generation",
+							"entries":[
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"entries":[
+												{
+													"type":"entries",
+													"name":"Standard Array",
+													"entries":[
+														"15, 14, 13, 12, 10, 8"
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Point-buy",
+													"entries":[
+														"27 points; minimum 8; maximum 15 (this is standard point-buy)"
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Rolling",
+													"entries":[
+														"{@dice 4d6dl1}, with an optional mulligan of the entire array",
+														"{@note In the spirit of old-school D&D, I highly encourage rolling down-the-line to make your character feel more like a dynamic character and less like a static, preordained build.}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Character Creation Options",
+							"entries":[
+								"These are the options available to you for character creation: race, background, and classes. If you don't see something here, you have to check with me first.",
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"General Rules",
+											"entries":[
+												{
+													"type":"list",
+													"items":[
+														"All UA must be cleared with me beforehand (also I like to hear how your character's progress is going so feel free to clue me into any cool new abilities you get).",
+														"We have decoupled racial ASIs according to {@variantrule customizing your origin|tce|variant rules on customizing origin}. However, we do not adopt the proficiency customization offered by the same rule.",
+														"Upon creating a character, you are permitted 1 feat of your choice."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Race Options",
+											"entries":[
+												"The race options are pretty strict. If something is not included it is usually less of a balance issue and more of a setting or compatability issue.",
+												{
+													"type":"entries",
+													"name":"PHB",
+													"entries":[
+														"All PHB races are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"MTF Tieflings",
+													"entries":[
+														"The tiefling subraces and {@race elf (sea)|mtf|sea elf} are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"VGM",
+													"entries":[
+														"All VGM races are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"EEPC",
+													"entries":[
+														"All EEPC races are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"ERLW",
+													"entries":[
+														"The {@race shifter|erlw} race and its subraces are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"GGR",
+													"entries":[
+														"The {@race loxodon|ggr} and {@race minotaur|ggr} are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"VRGR",
+													"entries":[
+														"All VRGR races are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"MOT",
+													"entries":[
+														"The {@race satyr|mot} and {@race leonin|mot} are permitted."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Class Options",
+											"entries":[
+												"I'm open to most classes. Ultimately, I don't care if something is imbalanced or not. I'm more concerned with party composition and whether or not class features play nice with existing rules.",
+												{
+													"type":"entries",
+													"name":"PHB",
+													"entries":[
+														"All PHB classes are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"XGE",
+													"entries":[
+														"All XGE classes are permitted."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"TCE",
+													"entries":[
+														"All TCE subclasses are permitted. The {@class artificer|tce} class is {@u blacklisted}."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"EGW",
+													"entries":[
+														"All EGW subclasses are {@u blacklisted}. Don't bother asking."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Background Options",
+											"entries":[
+												"All backgrounds are permitted, but in general they should adhere to the following structure:",
+												{
+													"type":"list",
+													"items":[
+														"2 {@table skills|phb|skill} proficiencies, 1 {@table tools|phb|tool} proficiency, and a {@table standard languages|phb|language} proficiency.",
+														"Reasonable starting equipment.",
+														"A non-essential feature."
+													]
+												},
+												"If none of the existing background options suit you, I encourage you to create your own or ask me and we can work together on making a setting-specific one. If you do this, use an existing background's starting equipment and non-essential feature as a template, and select the proficiencies you think would best fit the background."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"name":"Feat Options",
+											"entries":[
+												"All official feats are allowed."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Gameplay Options",
+							"entries":[
+								"Here is a list of options and variant rules that we've adopted that change the way the game is run:",
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"entries":[
+												{
+													"type":"entries",
+													"name":"Additional Actions",
+													"entries":[
+														"In addition to the normal {@5etools actions|actions.html} in official sources, you can also {@action climb onto a bigger creature|dmg}, {@action shove aside|dmg}, or {@action tumble|dmg} (as an action)."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Hitting Cover",
+													"entries":[
+														"If a creature attacks a target that has cover and the AC provided by the cover makes the attack miss, then the attack hits the cover instead. Creatures providing cover can be hit, provided the attack roll is greater than said creature's AC."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Lingering Injuries",
+													"entries":[
+														"If you take a critical hit, you have the option to turn it into a normal hit and roll on the {@table lingering injuries} table. You can do this after seeing the initial damage roll. Doing this immediately awards you inspiration.",
+														"You can't do this more than once a session, or if you already are affected by a lingering injury."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Mixing Potions",
+													"entries":[
+														"If at any point you mix the contents of potions together, I'll roll on the {@table Variant: Mixing Potions; Potion Miscibility|dmg|potion miscibility} table. Mixing also includes drinking a potion while already under the effects of another potion."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Skills with Different Abilities",
+													"entries":[
+														"I will sometimes ask you to roll a skill check using a different ability score, according to the {@variantrule skills with different abilities|phb} variant rule. The most common of these is probably an Intelligence ({@skill Sleight of Hand}) check to see how your knot-tying skills fare."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Sleep Rules",
+													"entries":[
+														"I like the idea that quality sleep is a luxury. As such, I incorporate all the {@variantrule sleep|xge|sleep variant rules} from Xanathar's guide."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Falling",
+													"entries":[
+														"I incorporate {@variantrule falling|xge} rules from XGE as well as TCE's optional {@hazard falling onto a creature|tce} and {@hazard falling into water|tce} rules."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type":"section",
+							"name":"Rulings",
+							"entries":[
+								"Here is a list of in-house rulings that have come up in play, that may contradict sage advice or RAW:",
+								{
+									"type":"entries",
+									"entries":[
+										{
+											"type":"entries",
+											"entries":[
+												{
+													"type":"entries",
+													"name":"10-foot Pole",
+													"entries":[
+														"Excessively unwieldy items such as the {@item pole (10-foot)|phb|10-foot pole} cause your speed to be reduced by 10 feet (as if {@variantrule Encumbrance|phb|encumbered})."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Holding Breath",
+													"entries":[
+														"A character holding their breath must succeed a Constitution saving throw whenever they take damage, or have the wind knocked out of them. The DC equals 10 or half the damage taken, whichever is higher."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Monster Multiattacks and Grappling",
+													"entries":[
+														"A monster can replace its \"biggest\" attack in a multiattack action with a {@action shove|phb} or {@action grapple|phb}, in the same way a PC can replace one of their attacks when taking the attack action. The hope is that this will provide more interesting and engaging combat encounters."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Movement through a Nonhostile Creature's Space",
+													"entries":[
+														"By RAW moving through a nonhostile creature's space is difficult terrain; however, to facilitate smooth combat we ignore this ruling and treat movement as normal through such a space."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Moving a Grappled Creature",
+													"entries":[
+														"A creature that is grappling a target may use their own movement to reposition the {@condition grappled} target, following usual rules for movement. The target must remain in the grappler's reach the entire time."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Potions in Combat",
+													"entries":[
+														"Drinking a potion is a bonus action. Administering a potion to a willing creature is an action."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Unconscious Resting",
+													"entries":[
+														"You can initiate a short rest while unconscious and at 0 hit points."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Silenced Condition",
+													"entries":[
+														"This condition is used to cover the case that a creature might not be able to provide verbal components for the purposes of spellcasting. A creature is silenced if they are gagged, or if they run out of breath while suffocating."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Using Inspiration",
+													"entries":[
+														"A player may use their inspiration to bend the rules in their favor a bit. It is ultimately up to me, but it doesn't hurt to ask."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Prone while Hovering",
+													"entries":[
+														"Creatures that are hovering at least 5 feet off the ground (including PCs) are immune to the {@condition prone} condition."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
