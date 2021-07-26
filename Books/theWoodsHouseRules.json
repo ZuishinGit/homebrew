@@ -20,8 +20,9 @@
 	"book": [
 		{
 			"name":"The Woods: House Rules",
-			"id":"TWHR",
 			"source":"TWHR",
+			"id":"TWHR",
+			"coverUrl":"https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/woodsCover.png",
 			"contents":[
 				{
 					"name":"Preface",
@@ -56,7 +57,7 @@
 										"{@note Zuishin's Poisons [collection]} - {@loader My homebrew poisons (DMs only)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/ZuishinsPoisons.json} ",
 										"{@note Mundane and Magical Makings [book]} - {@loader Rules we use for crafting magic items|book/Weems; Mundane and Magical Makings.json} ",
 										"{@note Sane Magic Item Prices Expanded [book]} - {@loader Magic item prices|book/Giddy; Sane Magic Item Prices Expanded.json} ",
-										"{@note Encyclopedia Magica for 5e [collection]} - {@loader My encyclopedia magica conversion (WIP)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json} "
+										"{@note Encyclopedia Magica for 5e [collection]} - {@loader My encyclopedia magica (WIP)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json} "
 									]
 								}
 							]
