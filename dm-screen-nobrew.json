@@ -1,0 +1,297 @@
+{
+	"fileType": "dm-screen",
+	"siteVersion": "1.132.3",
+	"w": 10,
+	"h": 10,
+	"ctc": false,
+	"fs": false,
+	"lk": true,
+	"ps": [
+		{
+			"x": 4,
+			"y": 3,
+			"w": 2,
+			"h": 7,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "PHB",
+				"u": "food%2c%20drink%2c%20and%20lodging_phb"
+			}
+		},
+		{
+			"x": 6,
+			"y": 0,
+			"w": 2,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "random%20buildings%3b%20shop_dmg"
+			}
+		},
+		{
+			"x": 6,
+			"y": 5,
+			"w": 2,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "PHB",
+				"u": "trade%20goods_phb"
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 4,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "MOT",
+				"u": "gods%20of%20theros_mot"
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "Theros",
+					"c": {
+						"p": "tables.html",
+						"s": "MOT",
+						"u": "gods%20of%20theros_mot"
+					}
+				},
+				{
+					"t": 1,
+					"r": "Dawn War",
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "a%20sample%20pantheon%3b%20dawn%20war%20deities_dmg"
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"w": 4,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "improvising%20damage_dmg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 5,
+			"w": 2,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20encounter%20distance_screen"
+			}
+		},
+		{
+			"x": 2,
+			"y": 7,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "object%20hit%20points_dmg"
+			},
+			"a": [
+				{
+					"t": 1,
+					"r": "AC",
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "object%20armor%20class_dmg"
+					}
+				},
+				{
+					"t": 1,
+					"r": "HP",
+					"c": {
+						"p": "tables.html",
+						"s": "DMG",
+						"u": "object%20hit%20points_dmg"
+					}
+				}
+			],
+			"b": 1
+		},
+		{
+			"x": 4,
+			"y": 0,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20light_screen"
+			}
+		},
+		{
+			"x": 2,
+			"y": 5,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "improvising%20damage%3b%20damage%20severity%20and%20level_dmg"
+			}
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 7,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "dungeon%20dressing%3b%20container%20contents_dmg"
+			}
+		},
+		{
+			"x": 8,
+			"y": 7,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "dungeon%20dressing%3b%20books%2c%20scrolls%2c%20and%20tomes_dmg"
+			}
+		}
+	],
+	"ex": [
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 10,
+			"t": 99
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 3,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 2,
+				"h": "Suffocating"
+			}
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 10,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20name%20generator_screen"
+			}
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "doors%3b%20door%20type_dmg"
+			}
+		},
+		{
+			"x": 4,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "MOT",
+				"u": "omens%20of%20athreos_mot"
+			}
+		},
+		{
+			"x": 2,
+			"y": 8,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "cataclysmic%20disasters_dmg"
+			}
+		},
+		{
+			"x": 2,
+			"y": 8,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "dungeon%20creator_dmg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 4,
+			"w": 4,
+			"h": 4,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "DMG",
+				"u": "improvised%20damage_dmg"
+			}
+		},
+		{
+			"x": 8,
+			"y": 5,
+			"w": 2,
+			"h": 5,
+			"t": 99
+		},
+		{
+			"x": 8,
+			"y": 0,
+			"w": 2,
+			"h": 5,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20encounter%20distance_screen"
+			}
+		}
+	]
+}

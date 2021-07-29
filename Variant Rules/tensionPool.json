@@ -1,0 +1,42 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"AGMTP",
+				"abbreviation":"AGMTP",
+				"color":"7a6e52",
+				"full":"The Angry GM's Tension Pool",
+				"authors":[
+					"The Angry GM"
+				],
+				"convertedBy": [
+					"Zuishin"
+				],
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"variantrule": [
+		{
+			"name":"Tension Pool",
+			"source":"AGMTP",
+			"ruleType":"O",
+			"entries":[
+				"The tension pool is a collection of {@dice d6cs=1;2d6cs=1;3d6cs=1;4d6cs=1;5d6cs=1;6d6cs=1|up to 6d6} dice. Here are the actions you can take with the pool:",
+				{
+					"type":"list",
+					"items":[
+						"Add a die",
+						"Roll the pool",
+						"Add a {@dice d6cs=1|d6} and roll the pool",
+						"Roll the pool",
+						"Clear the pool"
+					]
+				},
+				"If you roll a 1 on any of the {@dice d6}, something bad happens."
+			]
+		}
+	]
+}

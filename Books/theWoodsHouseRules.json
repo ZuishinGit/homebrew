@@ -115,9 +115,51 @@
 												{
 													"type":"list",
 													"items":[
-														"All UA must be cleared with me beforehand (also I like to hear how your character's progress is going so feel free to clue me into any cool new abilities you get).",
-														"We have decoupled racial ASIs according to {@variantrule customizing your origin|tce|variant rules on customizing origin}. However, we do not adopt the proficiency customization offered by the same rule.",
-														"Upon creating a character, you are permitted 1 feat of your choice."
+														"All UA must be cleared with me beforehand (also I like to hear how your character's progress is going so feel free to clue me into {@b any} cool new abilities you get).",
+														"We have decoupled racial ASIs according to {@variantrule customizing your origin|tce|variant rules on customizing origin}. However, we generally do not adopt the proficiency customization offered by the same rule.",
+														"Upon creating a character, you are always permitted 1 feat of your choice."
+													]
+												},
+												{
+													"type":"inset",
+													"name":"OMG, did you actually die? xD",
+													"entries":[
+														"In addition to normal starting gear, you also get this:",
+														{
+															"type":"table",
+															"colLabels":[
+																"Party's Magic Level",
+																"Gear",
+																"Consumables"
+															],
+															"rows":[
+																[
+																	"Nothing",
+																	"Normal starting equipment",
+																	"A single {@spell true strike} spell scroll."
+																],
+																[
+																	"Some",
+																	"Your choice of: 1 combat item worth up to 1,000 gold, 1 noncombat item worth up to 1,500 gold.",
+																	"{@dice 1d4-2} consumables worth up to 120 gold each."
+																],
+																[
+																	"Good Amount",
+																	"Your choice of: 1 combat item worth up to 2,000 gold, 1 noncombat item worth up to 2,500 gold.",
+																	"{@dice 1d4-1} consumables worth up to 150 gold each."
+																],
+																[
+																	"Lots",
+																	"Your choice of: up to 2 combat items whose total cost does not exceed 3,500 gold, up to 2 noncombat items whose total cost does not exceed 5,000 gold.",
+																	"{@dice 1d4-1} consumables worth up to 200 gold each."
+																],
+																[
+																	"Woah",
+																	"Your choice of: Your choice of: up to 2 combat items whose total cost does not exceed 8,000 gold, up to 2 noncombat items whose total cost does not exceed 9,500 gold.",
+																	"{@dice 1d4} consumables worth up to 300 gold each."
+																]
+															]
+														}
 													]
 												}
 											]
@@ -287,6 +329,13 @@
 												},
 												{
 													"type":"entries",
+													"name":"Falling",
+													"entries":[
+														"I incorporate {@variantrule falling|xge} rules from XGE as well as TCE's optional {@hazard falling onto a creature|tce} and {@hazard falling into water|tce} rules."
+													]
+												},
+												{
+													"type":"entries",
 													"name":"Hitting Cover",
 													"entries":[
 														"If a creature attacks a target that has cover and the AC provided by the cover makes the attack miss, then the attack hits the cover instead. Creatures providing cover can be hit, provided the attack roll is greater than said creature's AC."
@@ -323,9 +372,16 @@
 												},
 												{
 													"type":"entries",
-													"name":"Falling",
+													"name":"Tension Pool",
 													"entries":[
-														"I incorporate {@variantrule falling|xge} rules from XGE as well as TCE's optional {@hazard falling onto a creature|tce} and {@hazard falling into water|tce} rules."
+														"I use a tension pool for random encounters. It is a pool of {@dice d6}s. If I roll the pool and a resulting {@dice d6} has a 1 then something bad happens to you. Typically I add more die to the pool when you guys do boring shit. This includes stuff like ritual casting, short resting, bickering ooc, traveling slowly, or just whenever I feel like."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Tools with Skills",
+													"entries":[
+														"Sometimes if you have a proficiency with a skill and you have a tool proficiency that also applies to the check, I'll allow you to gain advantage. Alternatively, the use of your tool may warrant an additional benefit from succeeding on the check. In either case, it is {@b you} who has to mention your tool use, I will never ask you to roll using your tools. (These are RAW, according to {@variantrule Tool Proficiencies|xge|Xanathar's Guide to Everything})"
 													]
 												}
 											]
@@ -350,6 +406,20 @@
 													"name":"10-foot Pole",
 													"entries":[
 														"Excessively unwieldy items such as the {@item pole (10-foot)|phb|10-foot pole} cause your speed to be reduced by 10 feet (as if {@variantrule Encumbrance|phb|encumbered})."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Anti-dogpiling Rule",
+													"entries":[
+														"Sometimes a skill check has no adverse effects for failure, in such a case it might seem appealing to let everyone attempt such a skill check which eventually will basically guarantee success on the check. To avoid this, sometimes (pretty rarely) I will limit who can attempt the check (based on background, proficiency, etc)."
+													]
+												},
+												{
+													"type":"entries",
+													"name":"Check Cooldown",
+													"entries":[
+														"Generally if a skill check tests your capabilities but it feels like you can just reattempt it upon failing, I will rule that you can't actually reattempt it until some time has passed. Depending on how arduous the task is, the cooldown can range from a short rest to the next time you level up. Examples of checks like this include a Strength ({@skill Athletics}) check to bust a door down or an Intelligence ({@skill Investigation}) check to decipher a coded book. When you fail such a check, I will tell you when you can next reattempt it, so keep note."
 													]
 												},
 												{
@@ -389,9 +459,9 @@
 												},
 												{
 													"type":"entries",
-													"name":"Unconscious Resting",
+													"name":"Prone while Hovering",
 													"entries":[
-														"You can initiate a short rest while unconscious and at 0 hit points."
+														"Creatures that are hovering at least 5 feet off the ground (including PCs) are immune to the {@condition prone} condition."
 													]
 												},
 												{
@@ -403,16 +473,16 @@
 												},
 												{
 													"type":"entries",
-													"name":"Using Inspiration",
+													"name":"Unconscious Resting",
 													"entries":[
-														"A player may use their inspiration to bend the rules in their favor a bit. It is ultimately up to me, but it doesn't hurt to ask."
+														"You can initiate a short rest while unconscious and at 0 hit points."
 													]
 												},
 												{
 													"type":"entries",
-													"name":"Prone while Hovering",
+													"name":"Using Inspiration",
 													"entries":[
-														"Creatures that are hovering at least 5 feet off the ground (including PCs) are immune to the {@condition prone} condition."
+														"A player may use their inspiration to bend the rules in their favor a bit. It is ultimately up to me, but it doesn't hurt to ask."
 													]
 												}
 											]
