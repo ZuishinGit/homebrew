@@ -53,11 +53,11 @@
 								{
 									"type":"list",
 									"items":[
-										"{@note Zuishin's Revised Collection [collection]} - {@loader My homebrew revisions (Essential)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/revisedCollection.json} ",
-										"{@note Zuishin's Poisons [collection]} - {@loader My homebrew poisons (DMs only)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/ZuishinsPoisons.json} ",
-										"{@note Mundane and Magical Makings [book]} - {@loader Rules we use for crafting magic items|book/Weems; Mundane and Magical Makings.json} ",
-										"{@note Sane Magic Item Prices Expanded [book]} - {@loader Magic item prices|book/Giddy; Sane Magic Item Prices Expanded.json} ",
-										"{@note Encyclopedia Magica for 5e [collection]} - {@loader My encyclopedia magica (WIP)|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json} "
+										"{@note My homebrew revisions (Essential)} - {@loader Zuishin's Revised Collection [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/revisedCollection.json} ",
+										"{@note My homebrew poisons (DMs only)} - {@loader Zuishin's Poisons [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/ZuishinsPoisons.json} ",
+										"{@note Rules we use for crafting magic items} - {@loader Mundane and Magical Makings [book]|book/Weems; Mundane and Magical Makings.json} ",
+										"{@note Magic item prices} - {@loader Sane Magic Item Prices Expanded [book]|book/Giddy; Sane Magic Item Prices Expanded.json} ",
+										"{@note My encyclopedia magica (WIP)} - {@loader Encyclopedia Magica for 5e [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json} "
 									]
 								}
 							]
