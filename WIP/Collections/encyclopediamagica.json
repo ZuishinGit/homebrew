@@ -1152,7 +1152,7 @@
 			"weight": 1,
 	        "entries": [
 	        	"While wearing this amulet, you automatically succeed on saving throws made to resist effects that would dominate you or possess you, such as those provoked by the {@spell dominate person}, or {@spell magic jar} spells.",
-	        	"If you die while wearing the amulet, your soul enters it, unless it already houses a soul. You remain in the amulet for 7 days, after which you safely depart for the afterlife. As long as your soul is in the amulet, you can telepathicalaly communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+	        	"If you die while wearing the amulet, your soul enters it, unless it already houses a soul. You remain in the amulet for 7 days, after which you safely depart for the afterlife. As long as your soul is in the amulet, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
 	        ]
 	    },
 	    {
@@ -1247,7 +1247,7 @@
 	        		"type":"entries",
 	        		"name":"Curse",
 	        		"entries": [
-	        			"This item is cursed, attuning to it extends the curse to you. Every day at dawn, the wearer must succeed a DC 17 Charisma saving throw or ."
+	        			"This item is cursed. Every day at dawn, the wearer must succeed a DC 17 Charisma saving throw or have their proficiency bonus reduced by 1. This reduction lasts until the creature is targeted by a {@spell remove curse} spell or similar magic, unless this amulet reduces your proficiency bonus to 0, in which case nothing short of a {@spell wish} spell can restore your proficiency bonus. This reduction can not reduce your proficiency bonus below 0."
 	        		]
 	        	}
 	        ]
@@ -1448,6 +1448,26 @@
 	        	}
 	        ]
 	    },
+	    {
+	        "name": "Phelthong's Amulet",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet has 7 charges. It regains {@dice 1d6+1} expended charges daily at dawn. If the amulet is in sunlight for more than one hour, it does not regain its charges on the following day at dawn, unless it also has 0 charges in which case it is immediately disintegrated.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Spells",
+	        		"entries":[
+	        			"While wearing the amulet, you can use an action to expend some of its charges to cast one of the following spells: {@spell dimension door} (3 charges) or {@spell fog cloud} (3rd level; 4 charges).",
+	        			"When you cast one of these spells from the amulet, any nonmagical fires within 30 feet of you are immediately extinguished."
+	        		]
+	        	}
+	        ]
+	    }
 	    {
 	        "name": "Amulet of Spinecastle",
 	        "source": "EM5E",

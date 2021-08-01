@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.131.6",
+	"siteVersion": "1.133.1",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1625345387,
-		"dateLastModified": 1625345387
+		"dateAdded": 1627711884,
+		"dateLastModified": 1627711884
 	},
 	"monster": [
 		{
@@ -5753,7 +5753,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The mind flayer has advantage on saving throws against spells and other magical effects."
+						"The psion has advantage on saving throws against spells and other magical effects."
 					]
 				}
 			],
@@ -7531,6 +7531,7 @@
 		{
 			"name": "Xenophanes, Nightmare Shepherd",
 			"shortName": "nightmare shepherd",
+			"isNpc": true,
 			"source": "ZCC",
 			"size": "L",
 			"type": "fiend",
