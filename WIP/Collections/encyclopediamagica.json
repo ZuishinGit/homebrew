@@ -1451,13 +1451,13 @@
 	    {
 	        "name": "Phelthong's Amulet",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
 			"weight": 1,
 	        "entries": [
-	        	"This amulet has 7 charges. It regains {@dice 1d6+1} expended charges daily at dawn. If the amulet is in sunlight for more than one hour, it does not regain its charges on the following day at dawn, unless it also has 0 charges in which case it is immediately disintegrated.",
+	        	"This amulet has 7 charges. It regains {@dice 1d6+1} expended charges daily at dawn. If the amulet is in sunlight for more than one hour, it does not regain any charges on the following day at dawn. If it spends one hour in sunlight while at 0 charges, the amulet disintegrates.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Spells",
@@ -1467,9 +1467,118 @@
 	        		]
 	        	}
 	        ]
-	    }
+	    },
 	    {
 	        "name": "Amulet of Spinecastle",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"As an action, you can cause the amulet to emit a magical blast in a 30-foot-radius. Any humanoid in the area that lacks the spellcasting trait must succeed a DC 12 Wisdom saving throw or become {@condition frightened} for 1 minute. While {@condition frightened}, a creature has disadvantage on saving throws against spells. A {@condition frightened} creature may repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+	        	"This amulet can be used once, regaining its use daily at dawn."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of the Spirit",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing the amulet, you are immune to effects that would possess you or transfer your soul.",
+	        	"If you die while wearing the amulet, your soul enters it, unless it already houses a soul. As long as your soul is in the amulet, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.",
+	        	"A soul can be removed from the amulet by casting the {@spell dispel evil and good} spell or the {@spell banishment} spell on the amulet."
+	        ]
+	    },
+	    {
+	        "name": "Thet of Ptah",
+	        "alias":[
+	        	"Tjt of Ptah",
+	        	"Tyet of Ptah"
+	        ],
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you are surrounded by an {@spell antimagic field} in a 10-foot-radius sphere. Your spells and magical effects are unimpeded by the sphere."
+	        ]
+	    },
+	    {
+	        "name": "Thet of Ether",
+	        "alias":[
+	        	"Tjt of Ether",
+	        	"Tyet of Ether"
+	        ],
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you can cast the {@spell etherealness} spell as an action. Once this action is used, it can't be used again until the next dawn."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Timekeeping",
+	        "source": "EM5E",
+	        "rarity": "common",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Transformation",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":"by a druid",
+	        "reqAttuneTags":[
+	        	{
+	        		"class":"druid"
+	        	}
+	        ],
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this amulet, you gain an additional use of your {@classFeature wild shape|Druid||2} feature, which you can only use to assume the form of a specific beast determined by the amulet."
+	        ]
+	    },
+	    {
+	        "name": "Two Fingers Amulet",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"As an action, you can speak the amulet's command word, causing a sturdy wooden ladder to spring forth from the amulet up to 100 feet long. The ladder can hold up to 1,000 pounds. If the ladder is destroyed, it immediately converts back into an amulet. Once used, this action can't be used again until the next dawn."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Undersea Friendship",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune": "by a water breathing creature",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing the amulet, you have advantage on Charisma checks directed towards other water breathing creatures."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Vadarin (WIP)",
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
@@ -1481,13 +1590,116 @@
 	        ]
 	    },
 	    {
+	        "name": "Vulture Amulet",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"When this amulet is placed on a dead body for one full day, the deceased can never be turned into an undead creature. Once used in this way, a week must pass before the amulet can be used again."
+	        ]
+	    },
+	    {
+	        "name": "Amulet of Weakening",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This amulet constantly emits a 30-foot-radius magical aura that is more powerful near the amulet, and gradually gets weaker further away from the amulet. While a creature (who is not attuned to the amulet) is in the aura, it takes a -1 penalty to their Strength score for every 10 feet from the aura's edge. In other words, a creature within 10 feet of the amulet has a -3 to their Strength score, while a creature 30 feet away has only a -1 penalty.",
+	        	"Attuning to this amulet takes 8 hours of meditation. At the end of every hour, a creature must succeed a DC 20 Constitution saving throw or gain one level of exhaustion."
+	        ]
+	    },
+	    {
+	        "name": "Aerial Anchor",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"This is a 3-inch-long, miniature anchor can be fitted with a mundane string or cable. As an action, you can speak the anchor's command word to cause it to secure itself, becoming magically fixed in place. The anchor stays secure until another command word is used to release it, as an action. Until it is released, the anchor doesn't move, even if it is defying gravity. The anchor and its thread can hold up to 3,000 pounds of weight. More weight causes the anchor to deactivate and fall. A creature can use an action to make a DC 25 Strength check, moving the fixed anchor up to 10 feet on a success."
+	        ]
+	    },
+	    {
+	        "name": "Fishing Anchor",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 10000,
+	        "entries": [
+	        	"While submerged in water, this anchor has a high chance of attracting monsters of the sea. When such a creature encounters the anchor, it attempts to swallow the anchor."
+	        ]
+	    },
+	    {
+	        "name": "Manchor",
+	        "alias":[
+	        	"Man Anchor"
+	        ],
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 10000,
+	        "entries": [
+	        	"As an action, you can speak this anchor's command word to cause it to animate. It has a swimming speed of 50 feet and disintegrates upon dropping to 0 hit points, but otherwise uses the {@creature animated object (large)|phb} statblock. The anchor follows instructions of the captain of a vessel."
+	        ]
+	    },
+	    {
+	        "name": "Seafaring Anchor",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 10000,
+	        "entries": [
+	        	"As an action, you can speak this anchor's command word, causing it to magically lengthen or shorten its cable either to a named length or until the anchor reaches the seafloor. The maximum length of the cable is 5,000 feet."
+	        ]
+	    },
+	    {
+	        "name": "Anchor of Weight",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This is a 3-inch-long, miniature anchor can be fitted with a mundane string or cable. As an action, you can speak the anchor's command word to cause it to secure itself, becoming magically fixed in place. The anchor stays secure until another command word is used to release it, as an action. Until it is released, the anchor doesn't move, even if it is defying gravity. The anchor and its thread can hold up to 3,000 pounds of weight. More weight causes the anchor to deactivate and fall. A creature can use an action to make a DC 25 Strength check, moving the fixed anchor up to 10 feet on a success.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"This item is cursed. There is a {@chance 50} that the anchor does not secure itself and instead gains a weight of 3,000 pounds, dragging the user down until the anchor reaches the ground at which point it immediately vanishes."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
 	        "name": "",
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 1,
+			"weight": 10000,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 10000,
 	        "entries": [
 	        	""
 	        ]
