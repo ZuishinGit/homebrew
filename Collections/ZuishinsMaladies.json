@@ -49,7 +49,7 @@
 		},
 		{
 			"source": "ZMAL",
-			"name": "Tranquilizer",
+			"name": "Simple Tranquilizer",
 			"type": "G",
 			"rarity": "none",
 			"poison": true,
