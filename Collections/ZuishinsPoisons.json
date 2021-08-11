@@ -385,43 +385,43 @@
 			],
 			"rows": [
 				[
-					"Abyssal Tonic",
+					"{@item Abyssal Tonic|zpsn}",
 					"Ingested"
 				],
 				[
-					"Apothecary's Padlock",
+					"{@item Apothecary's Padlock|zpsn}",
 					"Contact"
 				],
 				[
-					"Ferphotis Spores",
+					"{@item Ferphotis Spores|zpsn}",
 					"Inhaled"
 				],
 				[
-					"Gorgon's Clasp",
+					"{@item Gorgon's Clasp|zpsn}",
 					"Contact"
 				],
 				[
-					"Inukaolo Poison",
+					"{@item Inukaolo Poison|zpsn}",
 					"Injury"
 				],
 				[
-					"Peelimav's Medicine",
+					"{@item Peelimav's Medicine|zpsn}",
 					"Injury"
 				],
 				[
-					"Simple Tranquilizer",
+					"{@item Simple Tranquilizer|zpsn}",
 					"Injury"
 				],
 				[
-					"Taphephobia",
+					"{@item Taphephobia|zpsn}",
 					"Ingested"
 				],
 				[
-					"Tincture of the Whispered One",
+					"{@item Tincture of the Whispered One|zpsn}",
 					"Ingested"
 				],
 				[
-					"Water of Clangor",
+					"{@item Water of Clangor|zpsn}",
 					"Injury"
 				]
 			]
