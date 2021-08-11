@@ -302,7 +302,7 @@
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be {@condition poisoned} for 1 hour. After the {@condition poisoned} creature casts a spell, they must roll a {@dice 1d6}. On a result of 1-5 the creature can't cast that spell again until they finish a long rest."
+				"A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be {@condition poisoned} for 1 hour. After the {@condition poisoned} creature casts a spell, they must roll a {@dice d6}. On a result of 1-5 the creature can't cast that spell again until they finish a long rest."
 			],
 			"poisonTypes": [
 				"ingested"
