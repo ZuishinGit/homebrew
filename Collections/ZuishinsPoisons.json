@@ -275,7 +275,7 @@
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned}, the creature deals only half damage with weapon attacks that use strength. If the saving throw fails by 5 or more, the creature also takes 1 point of {@condition exhaustion|phb}. The creature must repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned}, the creature deals only half damage with weapon attacks that use strength. If the saving throw fails by 5 or more, the creature also takes 1 point of {@condition exhaustion|phb}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"poisonTypes": [
 				"injury"
