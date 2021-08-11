@@ -175,6 +175,138 @@
 			"poisonTypes": [
 				"contact"
 			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Ferphotis Spores",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 1 minute. While poisoned, the creature must roll a {@dice 1d6} at the start of each of their turns. On a result of 1, the creature spends its turn retching and heaving. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"inhaled"
+			]
+		},
+		{
+			"source": "ZMAL",
+			"name": "Water of Clangor",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw, taking 10 ({@dice 3d6}) poison damage on a failed save, or half as much damage on a successful one. Also on a failure, the creature completely loses their ability to smell for 1 hour.",
+				"Goblinoids are immune to this poison."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"source": "ZMAL",
+			"name": "Simple Tranquilizer",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or be {@condition poisoned} for 1 hour. While poisoned, the creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"source": "ZMAL",
+			"name": "Inukaolo Poison",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 13 Constitution saving throw, taking 10 ({@dice 3d6}) poison damage on a failed save, or half as much damage on a successful one. Creatures that are size small or tiny have disadvantage on the saving throw."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Abyssal Tonic",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must make a DC 12 Constitution saving throw. On a failed save, it takes 13 ({@dice 2d12}) poison damage and is {@condition poisoned} for {@dice 1d4} hours. While poisoned, the creature can't see more than 10 feet in front if it. On a successful save, the creature takes half damage and isn't poisoned."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"source": "ZMAL",
+			"name": "Taphephobia",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this obvious poison must succeed on a DC 10 Constitution saving throw or be {@condition poisoned} for 8 hours. While poisoned, the creature is {@condition unconscious} and appears dead to all outward inspection."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Apothecary's Padlock",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 24 hours. While poisoned, the creature can't add their proficiency bonus to any ability checks or attack rolls that use the creature's Dexterity score."
+			],
+			"poisonTypes": [
+				"contact"
+			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Peelimav's Medicine",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned}, the creature deals only half damage with weapon attacks that use strength. If the saving throw fails by 5 or more, the creature also takes 1 point of {@condition exhaustion|phb}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"poisonTypes": [
+				"injury"
+			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Gorgon's Clasp",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or be {@condition poisoned} for {@dice 2d4} hours. While poisoned, the creature's hand muscles contract and are unable to relax. The creature can't release their grip of any objects they are holding, and gains no benefit from short rests. The creature can repeat the saving throw at the end of each hour, ending the effect on itself on a success.",
+				"As an action, another creature may attempt a Strength check to momentarily release the grip of a {@condition poisoned} creature. The DC for this check equals the Strength score of the {@condition poisoned} creature."
+			],
+			"poisonTypes": [
+				"contact"
+			]
+		},
+		{
+			"source": "ZPSN",
+			"name": "Tincture of the Whispered One",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be {@condition poisoned} for 1 hour. After the {@condition poisoned} creature casts a spell, they must roll a {@dice 1d6}. On a result of 1-5 the creature can't cast that spell again until they finish a long rest."
+			],
+			"poisonTypes": [
+				"ingested"
+			]
 		}
 	],
 	"table":[
@@ -237,6 +369,60 @@
 				[
 					"{@item Want of Spirit|ZPSN}",
 					"Ingested"
+				]
+			]
+		},
+		{
+			"name":"Poisons III",
+			"source":"ZPSN",
+			"colLabels": [
+				"Item",
+				"Type"
+			],
+			"colStyles": [
+				"col-6",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"Abyssal Tonic",
+					"Ingested"
+				],
+				[
+					"Apothecary's Padlock",
+					"Contact"
+				],
+				[
+					"Ferphotis Spores",
+					"Inhaled"
+				],
+				[
+					"Gorgon's Clasp",
+					"Contact"
+				],
+				[
+					"Inukaolo Poison",
+					"Injury"
+				],
+				[
+					"Peelimav's Medicine",
+					"Injury"
+				],
+				[
+					"Simple Tranquilizer",
+					"Injury"
+				],
+				[
+					"Taphephobia",
+					"Ingested"
+				],
+				[
+					"Tincture of the Whispered One",
+					"Ingested"
+				],
+				[
+					"Water of Clangor",
+					"Injury"
 				]
 			]
 		}
