@@ -1675,7 +1675,302 @@
 	        		"type":"entries",
 	        		"name":"Curse",
 	        		"entries":[
-	        			"This item is cursed. There is a {@chance 50} that the anchor does not secure itself and instead gains a weight of 3,000 pounds, dragging the user down until the anchor reaches the ground at which point it immediately vanishes."
+	        			"This item is cursed. When used, there is a {@chance 50} that the anchor does not secure itself and instead gains a weight of 3,000 pounds, dragging the user down until the anchor reaches the ground at which point it immediately vanishes."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Ankh of Life (WIP)",
+	        "source": "EM5E",
+	        "rarity": "artifact",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 3,
+	        "entries": [
+	        	"This powerful symbol of divinity was lost millenia ago in the Orcgate Wars. It was the holy symbol of the manifestation of Re. It is a worn and dirty rod of birchwood, without any ornamentation, 1-foot-long, in the shape of an ankh.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Random Properties",
+	        		"entries":[
+	        			"The {@i Ankh of Life} has the following randomly determined properties:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"2 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial properties}"
+	        				]
+	        			}
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Nithian Ankh",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+			"items":[
+				"Nithian Ankh (Ixion)",
+				"Nithian Ankh (Kagyar)",
+				"Nithian Ankh (Pflarr)",
+				"Nithian Ankh (Rathanos)",
+				"Nithian Ankh (Valerias)"	
+			],
+	        "entries": []
+	    },
+	    {
+	        "name": "Nithian Ankh (Ixion)",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
+	        	"You can use your action to cast the {@spell Aganazzar's schorcher|xge} spell (DC 15). The level of the spell being cast is equal to twice your proficiency bonus, up to 9.",
+	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
+	        ]
+	    },
+	    {
+	        "name": "Nithian Ankh (Kagyar)",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
+	        	"As a bonus action you can activate the ankh. For the next 10 minutes, you gain a burrow speed equal to your walking speed and can burrow through nonmagical, unworked earth and stone. While doing so you don't disturb the material you move through.",
+	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
+	        ]
+	    },
+	    {
+	        "name": "Nithian Ankh (Pflarr)",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
+	        	"As an action, you can recover a number of expended spell slots equivalent to half of your level in any spellcasting class (rounded up).",
+	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
+	        ]
+	    },
+	    {
+	        "name": "Nithian Ankh (Rathanos)",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
+	        	"When you use your action and present the ankh, a {@creature fire elemental} is summoned as if you had cast the {@spell conjure elemental} spell.",
+	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
+	        ]
+	    },
+	    {
+	        "name": "Nithian Ankh (Valerias)",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
+	        	"As an action you can press this ankh to a nonmagical weapon. That weapon immediately bestows a +1 bonus to attack and damage rolls made with it, as if it were a {@item +1 weapon|dmg}",
+	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
+	        ]
+	    },
+	    {
+	        "name": "Ankh of Power",
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "reqAttune": "by a creature that worships a god of the sun",
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"While on your person, the ankh sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+	        	"Any dice rolled to regain hit points as a result of your spellcasting are doubled.",
+	        	"As an action, you may utter the command word to cast the {@spell sunbeam} spell (DC 15). This property can be used three times, regaining expended uses daily at dawn."
+	        ],
+	        "attachedSpells":[
+	        	"sunbeam"
+	        ]
+	    },
+	    {
+	        "name": "Equus Anklet",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"You can speak the anklet's command word as an action, causing it to magically assume the form of a beast of burden decided upon by the DM.",
+	        	"The beast of burden remains until it dies, whereupon it immediately reverts to anklet form and loses its magical properties, becoming a mundane anklet."
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Growth (WIP)",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Hobbling",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	"A creature wearing this anklet uses 3 feet of movement for each foot moved."
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Levitation",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "minor",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"You can speak the command word of this anklet as an action, causing it to steadily rise as if the {@spell levitate} spell had been cast upon it, up to a maximum height of 60 feet. If a creature is wearing it then it also rises as if affected by the spell; however, if the creature is wearing only one anklet then they are hoisted by one leg. While hoisted in this way, the creature is {@condition restrained} until they can free themself from the anklet."
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Sinking",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+	        "curse":true,
+			"weight": 1,
+	        "entries": [
+	        	"This anklet appears to be an {@item anklet of walking|em5e} to anyone who tries to {@spell identify} it, and it confers that item's properties while on your person.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"This item is cursed. When used to walk on acid or on water more than 30 feet deep, the anklet stops functioning and becomes as heavy as a 100-pound weight (per anklet). When this occurs, the anklet also {@spell dispel magic||dispels} {@spell water walk} effects caused by spells. The anklet sinks until removed."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Sure Footing",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this anklet, you ignore difficult terrain caused by harsh conditions on a seafaring ship or boat. Additionally, while on such a vessel you gain a climbing speed equal to your walking speed."
+	        ]
+	    },
+	    {
+	        "name": "Anklet of Walking",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 1,
+	        "entries": [
+	        	"While wearing this anklet, you can stand on and move across any liquid surface as if it were solid ground."
+	        ]
+	    },
+	    {
+	        "name": "Antennae of Triangulation",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 300,
+	        "entries": [
+	        	"This large, complex contraption is used in combination with the helmet of liaison. While wearing the helmet, you gain a complete mental picture of the surrounding environment within a 6-mile-radius, including fine details. This mental picture is unimpeded by normal conditions, such as total cover or darkness.",
+	        	"A creature who dons the helmet of liaison immediately becomes attuned to the antennae, until they remove it."
+	        ]
+	    },
+	    {
+	        "name": "High Anvil of the Dwarves",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 175,
+	        "entries": [
+	        	"You must be proficient with {@item smith's tools|phb} to use this anvil.",
+	        	"While using this anvil to craft metal objects, you add twice your proficiency bonus for any ability check that uses smith's tools, unless you already benefit from a feature that doubles your proficiency bonus. Additionally, any item crafted by you takes half as long to craft and is of remarkable quality."
+	        ]
+	    },
+	    {
+	        "name": "Iron Anvil of the Armies",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 500,
+	        "entries": [
+	        	"You must be proficient with {@item smith's tools|phb} to use this anvil.",
+	        	"While using this anvil to craft metal objects, you work at six times the speed. Additionally, any broken nonmagical weaponry can be repaired using an action.",
+	        	"The anvil is magically demanding, and after a day of work, you must succeed on a DC 10 Constitution saving throw or gain one point of {@condition exhaustion|phb}. The DC for this saving throw increases by 1 for every consecutive day worked."
+	        ]
+	    },
+	    {
+	        "name": "Anvil of the Lortmil Mountains",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "wondrous":true,
+			"weight": 175,
+	        "entries": [
+	        	"Only a dwarf proficient with {@item smith's tools|phb} can use this anvil.",
+	        	"While using this anvil to craft metal objects, you work half as fast; however, the crafted object has a chance to be significantly more valuable than normal. Once during the crafting process, you can attempt a DC 25 Strength ({@item smith's tools|phb}) check. On a success, the crafted item is 100 times the normal cost. There is no penalty for failure."
+	        ]
+	    },
+	    {
+	        "name": "The Apparatus",
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"{@i The Apparatus} is a huge object with immunity to lightning damage in addition to the normal poison and psychic damage."
+	        	"This massive contraption contains two adjacent glass chambers that can each house a medium-sized humanoid. The glass chambers are joined by a series of thin glass tubes, rods, wires, and plates, from which harmless lightning infrequently apparates.",
+	        	"When this magical object is struck by something that would deal lightning damage, it is instead energized by the strike. After 12 consecutive, separate instances of lightning damage within the span of 3 hours, {@i The Apparatus} activates, causing one of the following effects depending on the circumstance:",
+	        	{
+	        		"type":"entries",
+	        		"name":"Transpossession",
+	        		"entries":[
+	        			"If two creatures with an Intelligence score of 6 or higher are in the two chambers at the time of activation, their minds exchange. The mental statistics of the creatures are exchanged, though the body retains its physical statistics. A creature who has been transpossessed loses access to any class features for as long as their mind inhabits a foreign body. Immediately after this process, the participating creatures fall unconscious for {@dice 1d3} hours."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Personality Split",
+	        		"This effect requires the {@i Rod of Rastinon}, another item of legend. The rod can be placed somewhere in the contraption, which allows a creature to split their personality into two creatures, each retaining a separate facet of the original creature's personality. This entails a creature standing alone in one of the glass chambers while the other is empty. When {@i The Apparatus} activates, another creature who is physically identical to the original is produced in the empty glass chamber. Typically, one creature retains only neutral or good characteristics, and the other retains all evil characteristics."
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Personality Bind",
+	        		"entries":[
+	        			"If two creatures with an Intelligence score of 6 or higher are in the two chambers at the time of activation, and the {@i Rod of Rastinon} is in place, then the two creatures have their personalities bound to one body. The stronger body harbors the minds of the two creatures, and the weaker body becomes an empty shell that is {@condition incapacitated} until it somehow regains its mental faculties."
 	        		]
 	        	}
 	        ]
@@ -1687,7 +1982,7 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 10000,
+			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
@@ -1699,7 +1994,31 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 10000,
+			"weight": 2,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
