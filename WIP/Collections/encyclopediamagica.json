@@ -1976,13 +1976,315 @@
 	        ]
 	    },
 	    {
+	        "name": "Apparatus of Spikey Owns",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 500,
+	        "entries": [
+	        	"This item resembles an {@item Apparatus of Kwalish} except that, when activated, it becomes a 10-piece one-man-band renowned for its cacophony. Anyone within 120 feet that can hear the it must succeed a DC 12 Wisdom saving throw or do everything within their power to stop the operator, including harming those in their way.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"As soon as a creature attempts to operate the vehicle, they are immediately {@condition charmed} by it. While {@condition charmed} in this way, a creature must continue to operate the apparatus, not even stopping to eat."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Apple of Bragi",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 0.5,
+	        "entries": [
+        		"Upon consuming this magical apple, you are affected as if a {@spell greater restoration} spell had been cast on you."
+	        ]
+	    },
+	    {
+	        "name": "Apple of Chaos",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "minor",
+	        "reqAttune":true,
+	        "wondrous":true,
+			"weight": 0.5,
+	        "entries": [
+	        	"This apple can be thrown up to 60 feet accurately. Upon landing, the apple disappears and a glowing, illusory apple takes its place for 1 minute. The illusory apple sheds bright light in a 20-foot-radius and dim light for an additional 20 feet. When a creature that can see the apple starts their turn within 40 feet of it, the creature must succeed on a DC 15 Wisdom saving throw or be effected by the {@spell confusion} spell. A creature can't avert their eyes from this magical effect."
+	        ]
+	    },
+	    {
+	        "name": "Apron of Comfort",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "wondrous":true,
+	        "entries": [
+	        	"This apron never gets dirty."
+	        	"While wearing this apron, you don't suffer any ill effects from extreme heat (see chapter 5 of the Dungeon Master's Guide. Additionally, you have advantage on Constitution saving throws made to resist {@condition exhaustion} from overexertion.",
+	        ]
+	    },
+	    {
+	        "name": "Arabel's Huggable Bear",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "wondrous":true,
+	        "entries": [
+	        	"From dusk to dawn, this stuffed bear radiates a sphere of protection. Creatures within 5 feet of the bear are immune to divination magic. They can't be targeted by such magic or perceived through magical scrying sensors, and are immune to the {@spell dream} spell or other similar magics.",
+	        	"Additionally, any creature that successfully completes a long rest while within the sphere the whole time regains twice the normal amount of hit dice."
+	        ]
+	    },
+	    {
+	        "name": "Arm of Doom",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"Upon touching this arm, it immediately grafts itself to you somewhere on your body. The creature is also immediately attuned to the arm, if the creature is already attuned to their maximum number of attuned magic items, they must choose one which becomes unattuned simultaneously.",
+	        	"While the arm is grafted to you, you gain an additional action on each of your turns that can only be used to make one melee weapon attack with the claw. It uses your bonus to hit and deals 13 ({@dice 2d12}) slashing damage. The arm can attack even if you suffer from an effect that would {@condition incapacitated|phb|incapacitate} you. Also on a hit, one magic item the creature is carrying (determined randomly) that isn't an artifact has its magical properties suppressed until the end of your next turn.",
+	        	"After taking 50 lives the arm tears free, dealing 14 ({@dice 4d6}) irreducible piercing damage to you and forcing a roll on the {@table Massive Damage; System Shock|dmg|system shock table}, causing you to become unattuned to it."
+	        ]
+	    },
+	    {
+	        "name": "Silver Arm of Ergoth (WIP)",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Arm of Valor (WIP)",
+	        "source": "EM5E",
+	        "rarity": "artifact",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This lead plated, armored, arm is a five-piece set consisting of the gauntlet, vambrace, couter, rerebrace, and the pauldron. You can attune to any number of the arm's pieces as if they were a single magic item. Each section you don confers different properties to you:",
+	        	{
+	        		"type":"entries",
+	        		"name":"Gauntlet",
+	        		"entries":[
+	        			"While donned, this segment confers the following benefits to you:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"You are advantage on saving throws against spells that would {@condition charmed|phb|charm} you, {@condition paralyzed|phb|paralyze} you, or render you {@condition unconscious}.",
+	        					"You can use the gauntlet as a melee weapon that deals {@dice 1d4} bludgeoning damage and is considered an unarmed attack.",
+	        					"As an action you can use the gauntlet to perform a crushing blow, targeting a creature within reach. Make a melee attack with the gauntlet, dealing {@dice 3d6} bludgeoning damage. There is a {@chance 30} chance that any armor the creature is wearing is immediately destroyed."
+	        				]
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Vambrace",
+	        		"entries":[
+	        			"While donned, this segment confers the following benefits to you:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"When you fall, you descend 60 feet per round and take no damage from falling.",
+	        					"You can cast the {@spell jump} spell as a bonus action at will, but can target only yourself when you do so.",
+	        					"You have a +1 bonus to attack and damage rolls made with melee weapons.",
+	        					"You are hidden from divination magic and can't be targeted by such magic or perceived through magical scrying sensors.",
+	        					"You can see {@condition invisible} creatures and objects within 30 feet of you."
+	        				]
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Couter",
+	        		"entries":[
+	        			"While donned, this segment confers the following benefits to you:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"You can cast the {@spell dimension door} spell as an action at will.",
+	        					"You can breathe normally underwater.",
+	        					"You are constantly under the effects of the {@spell detect magic} spell."
+	        				]
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Rerebrace",
+	        		"entries":[
+	        			"While donned, this segment confers the following benefits to you:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"You have a +2 bonus to attack and damage rolls made with melee weapons that are not already {@item +2 Weapon|dmg|+2 or higher}, and they are considered magical for the purpose of overcoming resistances. This benefit is cumulative with the vambrace bonus.",
+	        					"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+	        				]
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Pauldron",
+	        		"entries":[
+	        			"While donned, this segment confers the following benefits to you:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"You gain a +2 bonus to AC.",
+	        					"You have advantage on saving throws against all enchantment magic.",
+	        					"As an action, you can attack one creature you can see within 60 feet of you. The pauldron emits a spectral blast and makes its attack roll with a +7 bonus. On a hit, the target takes {@dice 2d10} force damage and is pushed 5 feet away from you."
+	        				]
+	        			}
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Comfort of Sleep",
+	        "source": "EM5E",
+	        "rarity": "common",
+	        "tier": "minor",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing these arm wrappings, you sleep soundly and comfortably."
+	        ]
+	    },
+	    {
+	        "name": "Armband of Death",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "curse": true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This armband appears to be an {@item armband of healing|em5e} to anyone who tries to {@spell identify it}, and it confers that item's property while on your person.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"When a creature puts on the armband, the snakes on its insignia animate and bite the wearer at the start of each of the creature's turns. The snakes have a +7 to hit and have advantage on their attack. On a hit, the creature takes one point of piercing damage, and must make a DC 13 Constitution saving throw or drop to 0 hit points. If the creature fails by 5 or more, they immediately die. The armband can't be unlocked until it is destroyed or until a {@spell remove curse} spell is cast on it."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Armband of Healing",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "charges": 3,
+	        "recharge":"dawn",
+	        "reqAttune": "by a bard, cleric, or druid",
+	        "reqAttuneTags":[
+	        	{
+	        		"class": "bard"
+	        	},
+	        	{
+	        		"class": "cleric"
+	        	},
+	        	{
+	        		"class": "druid"
+	        	}
+	        ],
+	        "wondrous":true,
+	        "entries": [
+	        	"This armband bears an insignia of two snakes entwined about a staff.",
+	        	"The armband has 3 charges, regaining {@dice 1d3} charges daily at dawn. When you roll to restore a creature's hit points, you can expend a charge to heal the maximum amount, instead of rolling."
+	        ]
+	    },
+	    {
+	        "name": "Armband of Salutation",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "curse": true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this armband, you must spend your first round of any combat saluting the enemy, doing nothing else on your turn. There is a {@chance 50} that any hostile humanoid is so surprised that they also do not act on their turn.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"Once locked on the arm of a creature, the armband can not unlock by any means short of a {@spell remove curse} spell."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Armlet of Snake Changing",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this pair of armlets, you can use an action to {@spell polymorph} yourself into the form of any snake."
+	        ]
+	    },
+	    {
+	        "name": "Armlet of Strength",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "charges":3,
+	        "recharge":"dawn",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This armlet has 3 charges, regaining {@dice 1d3} expended charges daily at dawn. While wearing it, you can use a bonus action to expend a charge, causing your Strength score to become 20 until the end of your next turn. The armlet has no effect if your Strength is already 20 or higher."
+	        ]
+	    },
+	    {
+	        "name": "Trueheart's Warding Armband (WIP)",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "Armlet of Variable Strength",
+	        "source": "EM5E",
+	        "rarity": "uncommon",
+	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+	        "entries": [
+	        	"This armlet appears to be a {@item armlet of strength|em5e} to anyone who tries to {@spell identify} it.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"When a creature attunes to this armlet, their strength score immediately drops to 3. At the start of each of their turns their strength increases by 1 until it reaches 20, whereupon it is dropped once more to 3. This cycle continues until the creature manages to unattune to the armlet."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
 	        "name": "",
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
@@ -1994,7 +2296,6 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
@@ -2006,7 +2307,6 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
@@ -2018,7 +2318,6 @@
 	        "tier": "major",
 	        "reqAttune":true,
 	        "wondrous":true,
-			"weight": 2,
 	        "entries": [
 	        	""
 	        ]
