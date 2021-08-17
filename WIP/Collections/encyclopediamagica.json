@@ -1951,7 +1951,7 @@
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
-	        	"{@i The Apparatus} is a huge object with immunity to lightning damage in addition to the normal poison and psychic damage."
+	        	"{@i The Apparatus} is a huge object with immunity to lightning damage in addition to the normal poison and psychic damage.",
 	        	"This massive contraption contains two adjacent glass chambers that can each house a medium-sized humanoid. The glass chambers are joined by a series of thin glass tubes, rods, wires, and plates, from which harmless lightning infrequently apparates.",
 	        	"When this magical object is struck by something that would deal lightning damage, it is instead energized by the strike. After 12 consecutive, separate instances of lightning damage within the span of 3 hours, {@i The Apparatus} activates, causing one of the following effects depending on the circumstance:",
 	        	{
@@ -1964,7 +1964,9 @@
 	        	{
 	        		"type":"entries",
 	        		"name":"Personality Split",
-	        		"This effect requires the {@i Rod of Rastinon}, another item of legend. The rod can be placed somewhere in the contraption, which allows a creature to split their personality into two creatures, each retaining a separate facet of the original creature's personality. This entails a creature standing alone in one of the glass chambers while the other is empty. When {@i The Apparatus} activates, another creature who is physically identical to the original is produced in the empty glass chamber. Typically, one creature retains only neutral or good characteristics, and the other retains all evil characteristics."
+	        		"entries":[
+	        			"This effect requires the {@i Rod of Rastinon}, another item of legend. The rod can be placed somewhere in the contraption, which allows a creature to split their personality into two creatures, each retaining a separate facet of the original creature's personality. This entails a creature standing alone in one of the glass chambers while the other is empty. When {@i The Apparatus} activates, another creature who is physically identical to the original is produced in the empty glass chamber. Typically, one creature retains only neutral or good characteristics, and the other retains all evil characteristics."
+	        		]
 	        	},
 	        	{
 	        		"type":"entries",
@@ -2025,8 +2027,8 @@
 	        "tier": "major",
 	        "wondrous":true,
 	        "entries": [
-	        	"This apron never gets dirty."
-	        	"While wearing this apron, you don't suffer any ill effects from extreme heat (see chapter 5 of the Dungeon Master's Guide. Additionally, you have advantage on Constitution saving throws made to resist {@condition exhaustion} from overexertion.",
+	        	"This apron never gets dirty.",
+	        	"While wearing this apron, you don't suffer any ill effects from extreme heat (see chapter 5 of the Dungeon Master's Guide. Additionally, you have advantage on Constitution saving throws made to resist {@condition exhaustion} from overexertion."
 	        ]
 	    },
 	    {
