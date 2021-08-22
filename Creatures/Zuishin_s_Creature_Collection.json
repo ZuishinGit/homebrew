@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.133.1",
+	"siteVersion": "1.134.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1627711884,
-		"dateLastModified": 1627711884
+		"dateAdded": 1629663655,
+		"dateLastModified": 1629663655
 	},
 	"monster": [
 		{
@@ -465,6 +465,7 @@
 				"mountain",
 				"underdark"
 			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/crystalSpider0.png",
 			"traitTags": [
 				"False Appearance"
 			],
@@ -1265,7 +1266,12 @@
 				"average": 65
 			},
 			"speed": {
-				"walk": 20
+				"walk": 5,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
 			},
 			"str": 8,
 			"dex": 16,
@@ -1404,7 +1410,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/MTF/Oblex Spawn.png?v=1.118.0",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/symbioticJelly0.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/oblex-spawn.mp3?v=1.118.0"
@@ -2186,7 +2192,7 @@
 				{
 					"name": "Grasping Hair",
 					"entries": [
-						"The durezha can control the length of its hair, out to a maximum distance of 30 feet. A strand of hair that is grappling a creature can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a strand of hair deals no damage to the durezha, which can extrude a replacement strand on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+						"The durezha can control the length of its hair, out to a maximum distance of 30 feet. A strand of hair that is grappling a creature can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a strand of hair deals no damage to the durezha, which can extrude a replacement strand on its next turn. A strand can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
 					]
 				},
 				{
@@ -2609,7 +2615,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://noads.5e.tools/img/MM/Wyvern.png?v=1.118.0",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/fangdrake0.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/wyvern.mp3?v=1.118.0"
@@ -2757,6 +2763,7 @@
 					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/scathe0.png",
 			"altArt": [
 				{
 					"name": "Goblin",
@@ -3533,7 +3540,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/647279327477760000/807108914025201694/shadarKai1.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/shadarKai1.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/shadow-dancer.mp3?v=1.122.8"
@@ -4000,7 +4007,7 @@
 						},
 						"4": {
 							"spells": [
-								"{@spell dimension door}",
+								"{@spell dimension door}*",
 								"{@spell fire shield}"
 							],
 							"slots": 3
@@ -4388,6 +4395,12 @@
 					"entries": [
 						"The swarm can move through a space as narrow as 1 inch wide without squeezing."
 					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The swarm has advantage on saving throws against spells and other magical effects."
+					]
 				}
 			],
 			"action": [
@@ -4442,7 +4455,8 @@
 				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-bats.mp3?v=1.125.1"
 			},
 			"traitTags": [
-				"Amorphous"
+				"Amorphous",
+				"Magic Resistance"
 			],
 			"senseTags": [
 				"B"
@@ -4774,7 +4788,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/ghulShaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/ghulShaman.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/druid.mp3?v=1.126.0"
@@ -5350,7 +5364,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/vampire.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/shashukKan0.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/archmage.mp3?v=1.125.0"
@@ -5453,7 +5467,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/galeKing0.png",
 			"traitTags": [
 				"Pack Tactics"
 			],
@@ -5623,7 +5637,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/ghulShaman.png",
 			"languageTags": [
 				"AU",
 				"C",
@@ -5765,7 +5779,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/ZuishinHomebrew/master/Images/Tokens/Roll20%20Medium.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/galeKing0.png",
 			"traitTags": [
 				"Magic Resistance"
 			],
@@ -8694,6 +8708,1471 @@
 			],
 			"conditionInflict": [
 				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Elder Cloud Ray",
+			"shortName": "cloud ray",
+			"source": "ZCC",
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d20 + 100",
+				"average": 310
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 80,
+				"canHover": false,
+				"burrow": 80
+			},
+			"str": 28,
+			"dex": 10,
+			"con": 20,
+			"int": 3,
+			"wis": 18,
+			"cha": 9,
+			"save": {
+				"dex": "+5",
+				"con": "+10",
+				"wis": "+9",
+				"cha": "+4",
+				"int": "+1"
+			},
+			"skill": {
+				"perception": "+9",
+				"stealth": "+5"
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"passive": 19,
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The cloud ray's spellcasting ability is Wisdom (spell save {@dc 17}. It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell blur}",
+							"{@spell synaptic static|XGE}",
+							"{@spell whirlwind|XGE}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Earth Glide",
+					"entries": [
+						"The cloud ray can burrow through nonmagical, unworked earth and stone. While doing so, the cloud ray doesn't disturb the material it moves through."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cloud ray can use its scintillating glide. It then makes two attacks: one with its bite and one with its tail zip."
+					]
+				},
+				{
+					"name": "Dream Flight (1/Day)",
+					"entries": [
+						"The cloud ray magically teleports itself and any creature {@condition grappled} by it up to 90 feet to a point that it can see."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h} 22 ({@damage 3d8 + 9}) damage. If the target is a Huge or smaller creature, it must succeed on a {@dc 19} Dexterity saving throw or be swallowed by the cloud ray. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the cloud ray, and it takes 26 ({@damage 4d12}) acid damage at the start of each of the cloud ray's turns.",
+						"If the cloud ray takes 30 damage or more on a single turn from a creature inside it, the cloud ray must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the cloud ray. If the cloud ray dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}23 ({@damage 4d6 + 9}) slashing damage, and any creature within 30 feet of the target (excluding the cloud ray) must make a {@dc 19} Constitution saving throw, taking 26 ({@damage 4d12}) thunder damage, or half has much on a success. "
+					]
+				},
+				{
+					"name": "Hypnotic Drift {@recharge 6}",
+					"entries": [
+						"The cloud ray moves up to half of its flying speed, any creature within 200 feet that can see it must succeed on a {@dc 17} Wisdom saving throw or become {@condition charmed} until the end of their next turn. Additionally, a creature that is {@condition charmed} by this action is {@condition incapacitated} and has a speed of 0 until the effect ends."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"fluff": {
+				"name": "Roc",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"At first sight, a roc's silhouette looks much like any other bird of prey. As it descends, however, its unearthly size becomes terrifyingly clear. In flight, a roc's wingspan spreads two hundred feet or more. At rest, perched upon the mountain peaks that are its home, this monstrous bird rivals the oldest dragons in size.",
+									{
+										"name": "Sky Titans",
+										"type": "entries",
+										"entries": [
+											"In the ancient days when giants battled dragons for control of the world, Annam, the father of the giant gods, created the rocs so that his worshipers might challenge the dragons' dominance of the air.",
+											"When the war ended, the rocs were freed from giant domination and spread throughout the world.",
+											"Though cloud giants and storm giants sometimes tame these great birds, rocs treat even giants as potential prey. They fly great distances in search of food, soaring high above the clouds to reach their favored hunting grounds. A roc seldom hunts swift or small creatures, and it ignores towns and forests where prey can easily take cover. When it locates a large and slow-moving target such as a giant, a whale, or an elephant, a roc dives down to snatch its prey in its massive talons."
+										]
+									},
+									{
+										"name": "Remote and Alone",
+										"type": "entries",
+										"entries": [
+											"Rocs are solitary creatures that can live for centuries. They lair in nests made from trees, tents, broken ships, and the remains of caravans they carry off, placing these massive tangles in mountain clefts out of the reach of lesser creatures.",
+											"Sometimes a roc's nest contains treasures from the caravans or ships they raid, but these creatures are heedless of such baubles. More rarely, a nest holds eggs that are taller than a human, produced by the rocs' infrequent mating."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Roc.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/cloudray0.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/roc.mp3?v=1.133.2"
+			},
+			"senseTags": [
+				"T"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"S",
+				"T"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"charmed",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Abzukk, the Flesh Ripper",
+			"shortName": "Abzukk",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 88",
+				"average": 187
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"str": "+9",
+				"con": "+8",
+				"dex": "+7"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Abzukk can move up to its speed toward a hostile creature that he can see."
+					]
+				},
+				{
+					"name": "Gruumsh's Fury",
+					"entries": [
+						"Abzukk deals an extra 4 ({@damage 1d8}) damage when he hits with a weapon attack (included in the attacks)."
+					]
+				},
+				{
+					"name": "Survivor",
+					"entries": [
+						"Abzukk regains 10 hit points at the start of his turn if he has at least 1 hit point but fewer hit points than half his hit point maximum."
+					]
+				},
+				{
+					"name": "Mounted Advantage",
+					"entries": [
+						"While Abzukk is mounted, he has advantage on melee attack rolls against any unmounted creature smaller than his mount."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Abzukk makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d6 + 5} plus {@damage 1d8}) slashing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 1d6 + 5} plus {@damage 1d8}) piercing damage, or 14 ({@damage 2d8 + 5}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Battle Cry (1/Day)",
+					"entries": [
+						"Each creature of Abzukk's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of Abzukk's next turn. Abzukk can then make one attack as a bonus action."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Weapon Attack",
+					"entries": [
+						"Abzukk makes a weapon attack."
+					]
+				},
+				{
+					"name": "Command Ally",
+					"entries": [
+						"Abzukk targets one ally he can see within 30 feet of him. If the target can see and hear Abzukk, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
+					]
+				},
+				{
+					"name": "Frighten Foe (Costs 2 Actions)",
+					"entries": [
+						"Abzukk targets one enemy he can see within 30 feet of him. If the target can see and hear him, the target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} until the end of Abzukk's next turn."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"name": "Orc War Chief",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The war chief of an orc tribe is its strongest and most cunning member. The reign of a war chief lasts only as long as it commands the fear and respect of other tribe members, whose bloodlust must be regularly satisfied lest the chief appear weak. Scions of Slaughter. Gruumsh bestows special blessings upon war chiefs who prove themselves in battle time and again, imbuing them with slivers of his savagery. A war chief so blessed finds that his weapons cut deeper into his enemies, allowing him to inflict more carnage.",
+									"King Obould Many-Arrows",
+									"King Obould of the Many-Arrows tribe is a legend among the orc war chiefs of the Forgotten Realms, and he is the most famous orc chief in the history of the D&D game.",
+									"Smarter and more intuitive than most of his kind, Obould slew his chieftain to take control of his tribe. Skilled in the arts of war and renowned for his violent temper, Obould proved himself a fierce opponent in battle time and again. Over the years, he subsumed other orc tribes into his own, until he commanded a horde of thousands.",
+									"Obould leveraged his strength and influence to carve out a kingdom for himself in the Spine of the World, a mountain range overlooking numerous dwarven, human, and elven strongholds.",
+									"After years of bloody conflict with his more civilized neighbors, Obould did the unthinkable and brokered a peace treaty with his enemies. This treaty confused many of the orcs under Obould's command. It was either a clever ploy by Obould to buy time while he strengthened his army for a final, decisive sweep across the Savage Frontier, or it was a troubling sign that Obould had forsaken the ways of Gruumsh and needed to be destroyed.",
+									{
+										"type": "entries",
+										"name": "Orcs",
+										"entries": [
+											"Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.",
+											{
+												"name": "Gruumsh One-Eye",
+												"entries": [
+													" Orcs worship Gruumsh, the mightiest of the orc deities and their creator. The orcs believe that in ancient days, the gods gathered to divide the world among their followers. When Gruumsh claimed the mountains, he learned they had been taken by the dwarves. He laid claim to the forests, but those had been settled by the elves. Each place that Gruumsh wanted had already been claimed. The other gods laughed at Gruumsh, but he responded with a furious bellow. Grasping his mighty spear, he laid waste to the mountains, set the forests aflame, and carved great furrows in the fields. Such was the role of the orcs, he proclaimed, to take and destroy all that the other races would deny them. To this day, the orcs wage an endless war on humans, elves, dwarves, and other folk.",
+													"Orcs hold a particular hatred for elves. The elven god Corellon Larethian half-blinded Gruumsh with a well-placed arrow to the orc god's eye. Since then, the orcs have taken particular joy in slaughtering elves. Turning his injury into a baleful gift, Gruumsh grants divine might to any champion who willingly plucks out one of its eyes in his honor.",
+													{
+														"type": "entries",
+														"name": "Tribes like Plagues",
+														"entries": [
+															"Orcs gather in tribes that exert their dominance and satisfy their bloodlust by plundering villages, devouring or driving off roaming herds, and slaying any humanoids that stand against them. After savaging a settlement, orcs pick it clean of wealth and items usable in their own lands. They set the remains of villages and camps ablaze, then retreat whence they came, their bloodlust satisfied.",
+															"When an existing territory is depleted of food, an orc tribe divides into roving bands that scout for choice hunting grounds. When each party returns, it brings back trophies and news of targets ripe for attack, the richest of which is chosen. The tribe then sets out en masse to carve a bloody path to its new territory.",
+															"On rare occasions, a tribe's leader chooses to hold onto a particularly defensible lair for decades. The orcs of such a tribe must range far across the countryside to sate their appetites.",
+															"Strength and power are the greatest of orcish virtues, and orcs embrace all manner of mighty creatures in their tribes. Rejecting notions of racial purity, they proudly welcome ogres, trolls, half-orcs, and orogs into their ranks. As well, orcs respect and fear the size and power of evil giants, and often serve them as guards and soldiers."
+														]
+													}
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Ranging Scavengers",
+												"entries": [
+													" Their lust for slaughter demands that orcs dwell always within striking distance of new targets. As such, they seldom settle permanently, instead converting ruins, cavern complexes, and defeated foes' villages into fortified camps and strongholds. Orcs build only for defense, making no innovation or improvement to their lairs beyond mounting the severed body parts of their victims on spiked stockade walls or pikes jutting up from moats and trenches."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Leadership and Might",
+												"entries": [
+													" Orc tribes are mostly patriarchal, flaunting such vivid or grotesque titles as Many-Arrows, Screaming Eye, and Elf Ripper. Occasionally, a powerful war chief unites scattered orc tribes into a single rampaging horde, which runs roughshod over other orc tribes and humanoid settlements from a position of overwhelming strength."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Orc Crossbreeds",
+												"entries": [
+													" Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Orc.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/fleshRipperAbzukk0.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/orc-war-chief.mp3?v=1.134.0"
+			},
+			"traitTags": [
+				"Aggressive"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gale King Master",
+			"shortName": "master",
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 40",
+				"average": 130
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 19,
+			"con": 14,
+			"int": 18,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"wis": "+5"
+			},
+			"skill": {
+				"acrobatics": "+9",
+				"stealth": "+9",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The master's innate spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no components"
+					],
+					"will": [
+						"{@spell mage hand} (the hand is invisible)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell catapult|XGE} (3rd-Level)",
+							"{@spell feather fall}",
+							"{@spell see invisibility}",
+							"{@spell shield}",
+							"{@spell telekinesis}"
+						],
+						"1e": [
+							"{@spell globe of invulnerability}",
+							"{@spell plane shift}",
+							"{@spell wall of force}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Psychic Defense",
+					"entries": [
+						"While the master is wearing no armor and wielding no shield, its AC includes its Intelligence modifier."
+					]
+				},
+				{
+					"name": "Psychic Empowerment",
+					"entries": [
+						"The master deals an additional 6 ({@damage 1d12}) psychic damage with its weapon attacks (included in the attacks)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The master makes three unarmed strikes or three dart attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage plus 6 ({@damage 1d12}) psychic damage. If the target is a creature, the master can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items": [
+								"The target must succeed on a {@dc 18} Strength saving throw or drop one item it is holding (master's choice).",
+								"The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition prone}.",
+								"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of the master's next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 20/60 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage plus 6 ({@damage 1d12}) psychic damage."
+					]
+				},
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The master magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 18} Intelligence saving throw, taking 36 ({@damage 5d12 + 4}) psychic damage on a failure or half as much on a success. If the saving throw fails by 5 or more, the creature is also {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Strike",
+					"entries": [
+						"The master makes an unarmed strike."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The master magically teleports up to 30 feet to an unoccupied space that it can see."
+					]
+				},
+				{
+					"name": "Change Gravity (Costs 3 Actions)",
+					"entries": [
+						"The master casts the {@spell reverse gravity} spell. The spell has the normal effect, except that the master can orient the area in any direction and creatures and objectsd fall toward the end of the area."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Martial Arts Adept",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Martial arts adepts are disciplined monks with extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/galeKingPsion0.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/martial-arts-adept.mp3?v=1.134.0"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Zedaar, the Chanter",
+			"shortName": "Zedaar",
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "26d8 + 78"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 50
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 17,
+			"int": 22,
+			"wis": 23,
+			"cha": 18,
+			"save": {
+				"int": "+12",
+				"wis": "+12"
+			},
+			"skill": {
+				"arcana": "+12"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The abishai is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The abishai has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mind sliver|TCE}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell expeditious retreat}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell darkness}",
+								"{@spell misty step}",
+								"{@spell ray of enfeeblement (revised; probably too strong)|ZRC}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell greater invisibility}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell steel wind strike|XGE}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell mental prison|XGE}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell plane shift}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the abishai's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The abishai has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The abishai's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The abishai makes two attacks: one with its crook and one with its bite."
+					]
+				},
+				{
+					"name": "Crook",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with two hands."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage plus 14 ({@damage 4d6}) lightning damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Blue Abishai",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Blue Abishai",
+										"entries": [
+											"Seekers of forgotten lore and lost relics, blue abishais are the most cunning and learned of their kind. Their research into occult subjects gleaned from tomes and grimoires plundered from across the multiverse enables them to become accomplished spellcasters. They use their magic to devastate their mistress's enemies."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Abishai",
+										"entries": [
+											"Each abishai was once a mortal who somehow won Tiamat's favor before death and, as a reward, found its soul transformed into a hideous devil to serve at her pleasure in the Nine Hells."
+										]
+									},
+									{
+										"name": "Emissaries of Doom",
+										"type": "entries",
+										"entries": [
+											"Tiamat deploys abishais as emissaries, sending them to represent her interests in the Hells and across the multiverse. Some have simple tasks, such as delivering a message to cultists or taking charge of worshipers to carry out a sensitive mission. Others have greater responsibilities, such as leading large groups, assassinating targets, and serving in armies. In all cases, abishais are fanatically loyal to Tiamat, ready to lay down their lives if needed."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Outsiders in Hell",
+										"entries": [
+											"Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when the dark lord chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's.",
+											"There is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction."
+										]
+									},
+									{
+										"type": "quote",
+										"entries": [
+											"Tiamat is a force of Chaos bound to a place of Law. Are abishai her servants or her jailers?"
+										],
+										"by": "Mordenkainen"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Blue Abishai.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Blue Abishai.png?v=1.134.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/blue-abishai.mp3?v=1.134.0"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dune Reaper Drone",
+			"shortName": "drone",
+			"source": "ZCC",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d8 + 78",
+				"average": 195
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40
+			},
+			"str": 18,
+			"dex": 22,
+			"con": 16,
+			"int": 6,
+			"wis": 16,
+			"cha": 9,
+			"skill": {
+				"perception": "+7",
+				"acrobatics": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The drone's long jump is up to 20 feet and its high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The drone has advantage on an attack roll against a creature if at least one of the drone's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Arm Blade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Leaping Slash {@recharge 5}",
+					"entries": [
+						"The drone leaps up to 4 squares and makes two arm blade attacks."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target the drone has advantage on. {@h}11 ({@damage 1d10 + 6}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spring Away",
+					"entries": [
+						"When an enemy makes a melee attack against the drone, it can use its reaction to leap up to 4 squares to an unoccupied square. This movement does not provoke opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Dune Reaper Shriek",
+			"shortName": "shriek",
+			"source": "ZCC",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 48",
+				"average": 120
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 19,
+			"dex": 22,
+			"con": 16,
+			"int": 6,
+			"wis": 18,
+			"cha": 9,
+			"skill": {
+				"stealth": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The shriek has advantage on an attack roll against a creature if at least one of the shriek's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Forceful Silence",
+					"entries": [
+						"When the shriek takes force damage, it can't use its shrieking warp action until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Arm Blade",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Shrieking Reap {@recharge 3}",
+					"entries": [
+						"The shriek makes up to two arm blade attacks. On a hit, a creature suffers normal damage and must succeed a {@dc 18} Wisdom saving throw or be teleported up to 10 feet away from the creature's space to an unoccupied space the shriek can see. A creature that fails this saving throw is also wreathed in a harmful magic for 1 minute and must repeat the saving throw at the start of each of its turns, taking 9 ({@damage 2d8}) force damage on a failure. On a success, the effect ends."
+					]
+				},
+				{
+					"name": "Shrieking Warp",
+					"entries": [
+						"The shriek magically shifts from the Material Plane to the Ethereal Plane and remains there until the start of its next turn, appearing in an unoccupied space within 60 feet of its last location. Any creature within 10 feet of the shriek when it appears must make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) force damage and is pushed 10 feet away from the shriek. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"tokenUrl": "https://noads.5e.tools/img/DMG/Giant Fly.png?v=1.134.0",
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"O",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Anima Jelly",
+			"source": "ZCC",
+			"size": "M",
+			"type": "ooze",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 60",
+				"average": 114
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 21,
+			"int": 22,
+			"wis": 13,
+			"cha": 18,
+			"save": {
+				"int": "+10",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+10",
+				"deception": "+8",
+				"history": "+10",
+				"nature": "+10",
+				"perception": "+5",
+				"religion": "+10"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this distance)"
+			],
+			"passive": 15,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"languages": [
+				"Common plus six more"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The anima jelly can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The anima jelly can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Damage Transfer",
+					"entries": [
+						"While it has a creature {@condition grappled}, the anima jelly takes only half the damage dealt to it (rounded down), and that creature takes the other half."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jelly makes two pseudopod attacks and uses Eat Memories."
+					]
+				},
+				{
+					"name": "Eat Memories",
+					"entries": [
+						"The jelly targets one creature {@condition grappled} by it. The target must succeed on a {@dc 18} Intelligence saving throw or take 22 ({@damage 4d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+						"When a jelly causes a target to become memory drained, the jelly learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the creature is {@condition restrained}."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Elder Oblex",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Mind flayers unleash all manner of foul experiments upon the planes with little thought for the consequences. Here, though, I suspect another influence: Juiblex."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Adult and Elder Oblexes",
+										"entries": [
+											"Newly formed oblexes lack the capabilities of their older kin. They seek only to feed on memories and grow until they can impersonate their victims.",
+											"Older oblexes, called adults and elders, have eaten so many memories that they can form duplicates of the creatures they have devoured from the substance of their bodies, sending them off to lure prey into their clutches, while remaining tethered to the slime by long tendrils of goo. These duplicated creatures are indistinguishable from their victims except for a faint sulfurous smell. Oblexes use these duplicates to lure prey into danger or to infiltrate settlements so they can feed on superior victims."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Oblex",
+										"entries": [
+											"By experimenting on the slimes, jellies, and puddings that infest the depths of the Underdark, mind flayers created a special breed of ooze, the oblex—a slime capable of assaulting the minds of other creatures. Cunning hunters, these pools of jelly stalk prey, searching for the memories they so desperately crave. When oblexes feed on those thoughts, sometimes killing their victims, they can form weird copies of their prey, which help them to harvest even more victims for their dark masters."
+										]
+									},
+									{
+										"name": "Memory Eaters",
+										"type": "entries",
+										"entries": [
+											"Oblexes feed on thoughts and memories. The sharper the mind, the better the meal, so oblexes hunt obviously intelligent targets such as wizards and other spellcasters. When suitable fare comes within reach, an oblex draws its body up to engulf its victim. As it withdraws, it plunders the creature's mind, leaving its prey befuddled and confused."
+										]
+									},
+									{
+										"name": "Ooze Nature",
+										"type": "entries",
+										"entries": [
+											"An oblex doesn't require sleep."
+										]
+									},
+									{
+										"type": "quote",
+										"entries": [
+											"An oblex wants memories, but not to serve any end of its own making. Oblexes are hungry for memories and personalities because they are empty without such nourishment. In this way they serve their creators, the illithids. An oblex in the range of an elder brain's powers provides everything necessary for the mind flayers to find choice victims."
+										],
+										"by": "Mordenkainen"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Oblex.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MTF/Elder Oblex.png?v=1.134.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/elder-oblex.mp3?v=1.134.0"
+			},
+			"traitTags": [
+				"Amorphous",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained",
+				"unconscious"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dread Cactus",
+			"source": "ZCC",
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 17,
+			"int": 7,
+			"wis": 16,
+			"cha": 6,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 16,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "False Object",
+					"entries": [
+						"If the cactus is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the cactus move or act, that creature must succeed on a {@dc 15} Wisdom (Perception) check to discern that the cactus is animate."
+					]
+				},
+				{
+					"name": "Grasping Tendrils",
+					"entries": [
+						"The cactus can have up to six tendrils at a time. Each tendril can be attacked (AC 16; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the cactus, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The cactus can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cactus makes four attacks with its tendrils, uses Reel, and makes one attack with its spines."
+					]
+				},
+				{
+					"name": "Spines",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target the cactus has {@condition grappled}. {@h}22 ({@damage 4d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 50 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage and the target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the cactus can't use the same tendril on another target."
+					]
+				},
+				{
+					"name": "Reel",
+					"entries": [
+						"The cactus pulls each creature {@condition grappled} by it up to 25 feet straight toward it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spiny Rebuke",
+					"entries": [
+						"Upon taking damage, the cactus fires its spines. Each creature within 10 feet of the cactus must succeed a {@dc 16} Dexterity saving throw or take 22 ({@damage 4d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Living in caves and caverns throughout the Underdark, voracious ropers feast on whatever they can catch and seize. A roper eats any creature, from Underdark beasts to adventurers and their gear.",
+									"A roper has the appearance of a stalagmite or stalactite, which often allows it to attack with surprise. The creature can move slowly using thousands of sticky cilia beneath its base. It creeps up cave walls and along stone ceilings, finding the best position from which to attack.",
+									{
+										"name": "Underdark Hunters",
+										"type": "entries",
+										"entries": [
+											"The roper is an evolved, mature form of piercer, with which it shares its rock-like appearance and hunting tactics. A roper can hold still for long hours, shutting its single eye to look like nothing more than a mundane formation of rock. Creatures that come too close are surprised when that eye snaps open and sticky tendrils shoot out to seize them. The roper then makes horrible guttural sounds as it reels in its struggling victims, drawing them close for the fatal bite of its stony teeth.",
+											"A roper can digest anything it eats with the exception of platinum, gemstones, and magic items, which can sometimes be retrieved from the creature's gizzard after death. A roper's digestive juices are also valuable, fetching a high price from alchemists who use them as a solvent."
+										]
+									},
+									{
+										"name": "Weakening Tendrils",
+										"type": "entries",
+										"entries": [
+											"A roper has six nubs set along its body, through which it extrudes sticky tendrils that bond to whatever they touch. Each tendril sends out hair-like growths that penetrate a creature's flesh and sap its strength, so the victim can struggle only weakly as the roper reels it in. If a tendril is cut through or broken, the roper produces a new one to replace it."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/dreadCactus0.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/roper.mp3?v=1.134.0"
+			},
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
