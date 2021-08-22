@@ -504,7 +504,7 @@
 	        "wondrous":true,
 			"weight": 2,
 	        "entries": [
-	        	"This device is a simple wooden frame, about 8 by 10 inches. Several heavy wires are strung across the frame, parallel to one another. On each wire are 10 wooden balls. When mathematical formulas involving numbers (adding, subtracting, multiplying, dividing and simple operations) are spoken near the object, the balls shift about and the answer is spoken aloud by a disembodied voice."
+	        	"When mathematical formulas involving numbers (adding, subtracting, multiplying, dividing and simple operations) are spoken near this abacus, the balls shift about and the answer is spoken aloud by a disembodied voice."
 	        ]
 	    },
 	    {
@@ -532,12 +532,11 @@
 	        "rarity": "artifact",
 	        "sentient": true,
 	        "reqAttune": true,
-	        "curse": true,
 	        "wondrous":true,
 			"weight": 40,
 	        "entries": [
 	        	"The acorn of Wo Mai is a large lead vessel, dud gray in color. It is made in the likeness of a large acorn, 3 feet in height. Two golden bands inscribed with arcane characters encircle it from bottom to top, where they meet under a large seal of a dragon coiled around a sword. Although it looks heavy, the acorn weighs only 50 pounds. It occasionally makes faint thumping noises, and is warm to the touch.",
-	        	"This lead vessel acts as the prison to a powerful and intelligent fiend, who would like nothing more than for someone to open the lid so it may be freed.",
+	        	"This lead vessel acts as the prison to a powerful and intelligent evil fiend, who would like nothing more than for someone to open the lid so it may be freed.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Random Properties",
@@ -556,7 +555,14 @@
 	        		"type":"entries",
 	        		"name":"Polymorph",
 	        		"entries": [
-	        			"The Acorn of Wo Mai can be used to cast the {@spell true polymorph} spell (object into creature only) once per day, regaining its use daily at dawn."
+	        			"The Acorn of Wo Mai can be used to cast the {@spell true polymorph} spell (object into creature only) as an action once per day, regaining its use daily at dawn."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Hallowed Advisor",
+	        		"entries":[
+	        			"As an action, you can cast the {@spell contact other plane} spell, contacting the fiend bound by the acorn. With this casting of the spell, when you fail your saving throw, you are not driven insane nor do you take any damage instead you are {@condition charmed} by the fiend. Each consecutive casting of this spell before finishing a long rest raises the DC by 1."
 	        		]
 	        	},
 	        	{
@@ -1242,7 +1248,7 @@
 	        "curse":true,
 			"weight": 1,
 	        "entries": [
-	        	"This item appears to be an {@item amulet of perpetual youth and inexperience|EM5E} to anyone who tries to {@spell identify} it, but it does not confer that item's properties.",
+	        	"This item appears to be an {@item amulet of perpetual youth and experience|EM5E} to anyone who tries to {@spell identify} it, but it does not confer that item's properties.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
