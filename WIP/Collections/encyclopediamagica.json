@@ -504,7 +504,7 @@
 	        "wondrous":true,
 			"weight": 2,
 	        "entries": [
-	        	"When mathematical formulas involving numbers (adding, subtracting, multiplying, dividing and simple operations) are spoken near this abacus, the balls shift about and the answer is spoken aloud by a disembodied voice."
+	        	"When mathematical formulas involving numbers (adding, subtracting, multiplying, dividing and simple operations) are spoken near this abacus, the balls shift and the answer is spoken aloud by a magical, disembodied voice."
 	        ]
 	    },
 	    {
@@ -515,7 +515,7 @@
 	        "wondrous":true,
 			"weight": 200,
 	        "entries": [
-	        	"This rapid-fire weapon is comparable to a ballista, which is intended for use on a spelljamming craft. The magic of this device is derived from the helm, and is rendered nonmagical when either the helm of the spelljammer, or the accelerator itself are not installed. This turret-like device looks like a gigantic sextant. The main arm is a 4-foot-long, 6-inch-diameter hollow tube with a hand-sized cup at one end. The arm can be swiveled and elevated allowing for accurate firing.",
+	        	"This rapid-fire weapon is comparable to a ballista and is intended for use on a spelljamming craft. The magic of this device is derived from the helm, and is rendered nonmagical when either the helm of the spelljammer, or the accelerator itself are not installed. This turret-like device looks like a gigantic sextant. The main arm is a 4-foot-long, 6-inch-diameter hollow tube with a hand-sized cup at one end. The arm can be swiveled and elevated allowing for accurate firing.",
 	        	"To fire the accelerator, any small item can be placed in the cup-end of the arm, upon which it is magically seized and accelerated through the arm's length, and shot out the far end. It can be fired twice with one action and scores a critical hit on a roll of 19 or 20.",
 	        	{
 	        		"type":"entries",
@@ -555,14 +555,14 @@
 	        		"type":"entries",
 	        		"name":"Polymorph",
 	        		"entries": [
-	        			"The Acorn of Wo Mai can be used to cast the {@spell true polymorph} spell (object into creature only) as an action once per day, regaining its use daily at dawn."
+	        			"The {@i Acorn of Wo Mai} can be used to cast the {@spell true polymorph} spell (object into creature only) as an action once per day, regaining its use daily at dawn."
 	        		]
 	        	},
 	        	{
 	        		"type":"entries",
 	        		"name":"Hallowed Advisor",
 	        		"entries":[
-	        			"As an action, you can cast the {@spell contact other plane} spell, contacting the fiend bound by the acorn. With this casting of the spell, when you fail your saving throw, you are not driven insane nor do you take any damage instead you are {@condition charmed} by the fiend. Each consecutive casting of this spell before finishing a long rest raises the DC by 1."
+	        			"As an action, you can cast the {@spell contact other plane} spell, contacting the fiend bound by the acorn. With this casting of the spell, when you fail your saving throw, instead of being driven insane or taking damage you are {@condition charmed} by the imprisoned fiend. Each consecutive casting of this spell before finishing a long rest raises the DC by 1."
 	        		]
 	        	},
 	        	{
@@ -660,7 +660,7 @@
 			"weight": 1,
 	        "entries": [
 	        	"You gain a +3 bonus to AC and saving throws while wearing this amulet.",
-	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers.",
+	        	"As an action, you can conjure {@dice 1d6} magical chocolate chip cookies or fresh flowers at will.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
@@ -890,11 +890,12 @@
 	        "rarity": "rare",
 	        "tier": "minor",
 	        "wondrous":true,
+	        "reqAttune": true,
 			"weight": 1,
 			"charges":7,
 	        "entries": [
 	        	"This amulet has 7 charges, and can't be recharged.",
-	        	"You can expend one charge to cast the {@spell remove curse} spell. When cast in this way, the spell has a range of self."
+	        	"While wearing it, you can expend one charge to cast the {@spell remove curse} spell as an action. When cast from this amulet, the spell has a range of self."
 	        ],
 	        "attachedSpells":[
 	        	"remove curse"
@@ -909,7 +910,7 @@
 	        "wondrous":true,
 			"weight": 1,
 	        "entries": [
-	        	"You can cast the {@spell freedom of movement} spell requiring no components twice per long rest."
+	        	"While wearing this amulet, you can use it to cast the {@spell freedom of movement} spell as an action. This property can't be used again until the next dawn."
 	        ],
 	        "attachedSpells":[
 	        	"freedom of movement"
@@ -2007,7 +2008,6 @@
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "minor",
-	        "reqAttune":true,
 	        "wondrous":true,
 			"weight": 0.5,
 	        "entries": [
@@ -2019,7 +2019,6 @@
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "minor",
-	        "reqAttune":true,
 	        "wondrous":true,
 			"weight": 0.5,
 	        "entries": [
@@ -2178,7 +2177,7 @@
 	        "curse": true,
 	        "wondrous":true,
 	        "entries": [
-	        	"This armband appears to be an {@item armband of healing|em5e} to anyone who tries to {@spell identify it}, and it confers that item's property while on your person.",
+	        	"This armband appears to be an {@item armband of healing|em5e} to anyone who tries to {@spell identify} it, and it confers that item's property while on your person.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
@@ -2287,10 +2286,80 @@
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Trueheart's Warding Armband",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "artifact",
 	        "tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While wearing this bronze armband, you gain the following benefits:",
+	        	{
+	        		"type":"list",
+	        		"items":[
+	        			"You gain a +2 bonus to AC and saving throws.",
+	        			"You have immunity to damage from non-magical attacks.",
+	        			"You do not age.",
+	        			"The armband has 3 charges. You can use an action to expend a charge and cast the {@spell heal} spell on yourself. You regain all expended charges daily at dawn."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Abbathor's Armor",
+	        "source": "EM5E",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "type":"LA",
+	        "bonusAc": "+2",
+	        "weight": 10,
+	        "ac":11,
+	        "reqAttune":true,
+	        "armor": true,
+	        "wondrous":true,
+	        "entries": [
+	        	"While you're wearing this armor, you can cast the {@spell blindness/deafness} spell (save DC 15) as an action.",
+	        	"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+	        ]
+	    },
+	    {
+	        "name": "Armor of Absorption",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature while you're wearing this armor, you can use your reaction to turn the failed saving throw into a successful one. Every time you use this reaction, the armor takes a permanent and cumulative -1 penalty to the AC it offers. When the armor is reduced to an AC of 10, it disintegrates and is destroyed."
+	        ]
+	    },
+	    {
+	        "name": "Armor of Acidic Secretion",
+	        "source": "EM5E",
+	        "rarity": "rare",
+	        "curse":true,
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	"This armor appears to be some other magical armor to anyone who tries to {@spell identify} it, and it confers that item's property while on your person.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"This item is cursed. The first time you take damage while wearing it, it begins to secrete a harmful acid for {@dice 1d4} rounds. At the start of each of your turns, you take {@dice 1d12} acid damage."
+	        		]
+	        	}
+	        ]
+	    },
+	    {
+	        "name": "Arcane Armor",
+	        "source": "EM5E",
+	        "rarity": "legendary",
+	        "tier": "major",
+	        "armor":true,
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
@@ -2302,6 +2371,7 @@
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
+	        "armor":true,
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
@@ -2313,6 +2383,7 @@
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
+	        "armor":true,
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
@@ -2324,6 +2395,67 @@
 	        "source": "EM5E",
 	        "rarity": "",
 	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "armor":true,
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries": [
+	        	""
+	        ]
+	    },
+	    {
+	        "name": "",
+	        "source": "EM5E",
+	        "rarity": "",
+	        "tier": "major",
+	        "armor":true,
 	        "reqAttune":true,
 	        "wondrous":true,
 	        "entries": [
