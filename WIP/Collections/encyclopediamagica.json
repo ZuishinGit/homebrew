@@ -2306,7 +2306,7 @@
 	        ]
 	    },
 	    {
-	        "name": "Abbathor's Armor",
+	        "name": "Abbathor's Leather Armor",
 	        "source": "EM5E",
 	        "rarity": "very rare",
 	        "tier": "major",
@@ -2316,9 +2316,9 @@
 	        "ac":11,
 	        "reqAttune":true,
 	        "armor": true,
-	        "wondrous":true,
 	        "entries": [
-	        	"While you're wearing this armor, you can cast the {@spell blindness/deafness} spell (save DC 15) as an action.",
+	        	"You have a +2 bonus to AC while wearing this armor."
+	        	"While you're wearing this armor, you can cast the {@spell blindness/deafness} spell (save DC 15) as an action. Once used, this property can't be used again until the next dawn.",
 	        	"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
 	        ]
 	    },
@@ -2329,7 +2329,6 @@
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	"If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature while you're wearing this armor, you can use your reaction to turn the failed saving throw into a successful one. Every time you use this reaction, the armor takes a permanent and cumulative -1 penalty to the AC it offers. When the armor is reduced to an AC of 10, it disintegrates and is destroyed."
 	        ]
@@ -2342,122 +2341,126 @@
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	"This armor appears to be some other magical armor to anyone who tries to {@spell identify} it, and it confers that item's property while on your person.",
 	        	{
 	        		"type":"entries",
 	        		"name":"Curse",
 	        		"entries":[
-	        			"This item is cursed. The first time you take damage while wearing it, it begins to secrete a harmful acid for {@dice 1d4} rounds. At the start of each of your turns, you take {@dice 1d12} acid damage."
+	        			"This item is cursed. The first time you take damage while wearing it, it begins to secrete a harmful acid for {@dice 1d4} rounds. As long as the acid is being secreted, you take {@dice 1d12} acid damage at the start of each of your turns."
 	        		]
 	        	}
 	        ]
 	    },
 	    {
-	        "name": "Arcane Armor",
+	        "name": "Arcane Armor (WIP)",
 	        "source": "EM5E",
 	        "rarity": "legendary",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "very rare",
+	        "tier": "major",
+	        "bonusAc":"+3",
+	        "baseItem":"chain mail|phb",
+	        "ac":16,
+	        "strength": "13",
+	        "weight":55,
+	        "type":"MA",
+	        "stealth": true,
+	        "armor":true,
+	        "reqAttune":"by a spellcaster",
+	        "reqAttuneTags":[
+	        	{
+					"spellcasting": true
+	        	}
+	        ],	
+	        "entries": [
+	        	"You have a +3 bonus to AC while wearing this armor.",
+	        	"This armor has 10 charges. While wearing it, you can use an action to expend 1 or more of its charges to cast one of the following spells on yourself, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges)."
+	        	"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+	        ]
+	    },
+	    {
+	        "name": "Arvoreen's Chain Mail",
+	        "source": "EM5E",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
 	    },
 	    {
-	        "name": "",
+	        "name": "Arvoreen's Chain Mail",
 	        "source": "EM5E",
-	        "rarity": "",
+	        "rarity": "rare",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
-	        "wondrous":true,
-	        "entries": [
-	        	""
-	        ]
-	    },
-	    {
-	        "name": "",
-	        "source": "EM5E",
-	        "rarity": "",
-	        "tier": "major",
-	        "armor":true,
-	        "reqAttune":true,
-	        "wondrous":true,
 	        "entries": [
 	        	""
 	        ]
