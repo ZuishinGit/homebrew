@@ -1720,14 +1720,19 @@
 	        "reqAttune":true,
 	        "wondrous":true,
 			"weight": 2,
-			"items":[
-				"Nithian Ankh (Ixion)",
-				"Nithian Ankh (Kagyar)",
-				"Nithian Ankh (Pflarr)",
-				"Nithian Ankh (Rathanos)",
-				"Nithian Ankh (Valerias)"	
-			],
-	        "entries": []
+			"entries":[
+				"Multiple variations of this item exist, as listed below:",
+				{
+					"type":"list",
+					"items": [
+						"{@item Nithian Ankh (Ixion)|ZRC}",
+						"{@item Nithian Ankh (Kagyar)|ZRC}",
+						"{@item Nithian Ankh (Pflarr)|ZRC}",
+						"{@item Nithian Ankh (Rathanos)|ZRC}",
+						"{@item Nithian Ankh (Valerias)|ZRC}"
+					]
+				}	
+			]
 	    },
 	    {
 	        "name": "Nithian Ankh (Ixion)",
@@ -2368,7 +2373,7 @@
 	        "source": "EM5E",
 	        "rarity": "very rare",
 	        "tier": "major",
-	        "bonusAc":"+3",
+	        "bonusAc":"+2",
 	        "baseItem":"chain mail|phb",
 	        "ac":16,
 	        "strength": "13",
@@ -2383,13 +2388,13 @@
 	        	}
 	        ],	
 	        "entries": [
-	        	"You have a +3 bonus to AC while wearing this armor.",
+	        	"You have a +2 bonus to AC while wearing this armor.",
 	        	"This armor has 10 charges. While wearing it, you can use an action to expend 1 or more of its charges to cast one of the following spells on yourself, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges)."
 	        	"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
 	        ]
 	    },
 	    {
-	        "name": "Arvoreen's Chain Mail",
+	        "name": "Aslyferund's Armor (WIP)",
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "major",
@@ -2400,7 +2405,7 @@
 	        ]
 	    },
 	    {
-	        "name": "Arvoreen's Chain Mail",
+	        "name": "Armor of Blackflame (WIP)",
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "major",
@@ -2411,36 +2416,27 @@
 	        ]
 	    },
 	    {
-	        "name": "Arvoreen's Chain Mail",
+	        "name": "Armor of Blending",
 	        "source": "EM5E",
-	        "rarity": "rare",
+	        "rarity": "common",
 	        "tier": "major",
 	        "armor":true,
 	        "reqAttune":true,
 	        "entries": [
-	        	""
+	        	"While donning this armor, you can use a bonus action to magically conceal it, causing it to appear as a normal set of clothing. It remains concealed in this way until you doff the armor or use another bonus action to end the effect.",
+	        	"If a creature uses its action to examine the armor, they can determine that it is magically concealed with a successful DC 15 Intelligence {@skill Investigation} check. If a creature discerns the magical concealment for what it is, the illusory clothing becomes faint to the creature."
 	        ]
 	    },
 	    {
-	        "name": "Arvoreen's Chain Mail",
+	        "name": "Blue Armor of the Crystalmist Mountains",
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "major",
+	        "bonusAc":"+2",
 	        "armor":true,
 	        "reqAttune":true,
 	        "entries": [
-	        	""
-	        ]
-	    },
-	    {
-	        "name": "Arvoreen's Chain Mail",
-	        "source": "EM5E",
-	        "rarity": "rare",
-	        "tier": "major",
-	        "armor":true,
-	        "reqAttune":true,
-	        "entries": [
-	        	""
+	        	"While wearing this armor, you have resistance to lightning damage and have a +1 bonus to AC."
 	        ]
 	    },
 	    {
