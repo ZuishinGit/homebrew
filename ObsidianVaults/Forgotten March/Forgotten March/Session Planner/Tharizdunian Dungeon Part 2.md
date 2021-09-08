@@ -26,3 +26,10 @@ When this happens, any creatures in the pool feel a wave of extraordinary comfor
 >The statue is on a raised pedestal that has the name Zhavasu carved into it.
 
 # 3. Altar Room
+# 4. Nursery
+# 5. Arcane Chamber
+### 5a. Teleportation Circle
+### 5b. Library
+# 6. Tharizdun's Manifestation
+# 7. Sacrificial Chambers
+# 8. Shrine to Etridhi

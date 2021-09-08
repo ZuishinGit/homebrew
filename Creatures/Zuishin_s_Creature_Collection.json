@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.134.0",
+	"siteVersion": "1.135.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1629969973,
-		"dateLastModified": 1629969973
+		"dateAdded": 1631136102,
+		"dateLastModified": 1631136102
 	},
 	"monster": [
 		{
@@ -2018,72 +2018,6 @@
 			"environment": [
 				"arctic"
 			],
-			"fluff": {
-				"name": "Black Pudding",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"A black pudding resembles a heaving mound of sticky black sludge. In dim passageways, the pudding appears to be little more than a blot of shadow.",
-									"Flesh, wood, metal, and bone dissolve when the pudding ebbs over them. Stone remains behind, wiped clean.",
-									{
-										"type": "entries",
-										"name": "Oozes",
-										"entries": [
-											"Oozes thrive in the dark, shunning areas of bright light and extreme temperatures. They flow through the damp underground, feeding on any creature or object that can be dissolved, slinking along the ground, dripping from walls and ceilings, spreading across the edges of underground pools, and squeezing through cracks.",
-											"The first warning an adventurer receives of an ooze's presence is often the searing pain of its acidic touch. Oozes are drawn to movement and warmth. Organic material nourishes them, and when prey is scarce they feed on grime, fungus, and offal. Veteran explorers know that an immaculately clean passageway is a likely sign that an ooze lairs nearby.",
-											{
-												"name": "Slow Death",
-												"entries": [
-													" An ooze kills its prey slowly. Some varieties, such as black puddings and gelatinous cubes, engulf creatures to prevent escape. The only upside of this torturous death is that a victim's comrades can come to the rescue before it is too late.",
-													"Since not every ooze digests every type of substance, some have coins, metal gear, bones, and other debris suspended within their quivering bodies. A slain ooze can be a rich source of treasure for its killers.",
-													"Whether this is true or not, the Faceless Lord is one of the few beings that can control oozes and imbue them with a modicum of intelligence. Most of the time, oozes have no sense of tactics or self-preservation. They are direct and predictable, attacking and eating without cunning. Under the control of Juiblex, they exhibit glimmers of sentience and malevolent intent."
-												],
-												"type": "entries"
-											},
-											{
-												"name": "Unwitting Servants",
-												"entries": [
-													" Although an ooze lacks the intelligence to ally itself with other creatures, others that understand an ooze's need to feed might lure it into a location where it can be of use to them. Clever monsters keep oozes around to defend passageways or consume refuse. Likewise, an ooze can be enticed into a pit trap, where its captors feed it often enough to prevent it from coming after them. Crafty creatures place torches and flaming braziers in strategic areas to dissuade an ooze from leaving a particular tunnel or room."
-												],
-												"type": "entries"
-											},
-											{
-												"name": "Spawn of Juiblex",
-												"entries": [
-													" According to the Demonomicon of Iggwilv and other sources, oozes are scattered fragments or offspring of the demon lord Juiblex."
-												],
-												"type": "entries"
-											},
-											{
-												"name": "Ooze Nature",
-												"entries": [
-													" An ooze doesn't require sleep."
-												],
-												"type": "entries"
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Black Pudding.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Black Pudding.png?v=1.118.0",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/black-pudding.mp3?v=1.118.0"
@@ -4448,7 +4382,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Swarm of Bats.png?v=1.125.1",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/bloodbloaterSwarm0.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-bats.mp3?v=1.125.1"
@@ -10615,7 +10549,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Vine Blight.png?v=1.134.0",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/blightMinion0.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://noads.5e.tools/audio/bestiary/vine-blight.mp3?v=1.134.0"
@@ -10786,7 +10720,6 @@
 					}
 				]
 			},
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Thri-kreen.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5etools-mirror-1.github.io/audio/bestiary/warlock-of-the-great-old-one.mp3"
@@ -11228,7 +11161,7 @@
 				{
 					"name": "Attached",
 					"entries": [
-						"The tentacle can be no more than 100 feet from a {@creature silt horror}."
+						"The tentacle can be no more than 100 feet from a {@creature silt horror|zcc}."
 					]
 				}
 			],
@@ -11358,7 +11291,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Kraken.png",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/siltHorror0.png",
 			"traitTags": [
 				"Siege Monster"
 			],
@@ -11507,23 +11440,183 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		}
-	],
-	"legendaryGroup": [
+		},
 		{
-			"name": "Acantha",
+			"name": "Zhavasu's Helmed Horror",
 			"source": "ZCC",
-			"lairActions": [
-				"When fighting inside her grove of horrors, Acantha can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Acantha takes a lair action to cause one of the following effects:",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
 				{
-					"type": "list",
-					"items": [
-						"Acantha casts the {@spell entangle} spell. While maintaining concentration on this effect, Acantha can't take other lair actions.",
-						"Acantha summons {@dice 1d4+1} {@creature blight minion|zcc|blight minions} in unoccupied spaces that she can see within 120 feet of her.",
-						"Poisonous spores fill a 10-foot cube that Acantha can see within 120 feet of her. Any creature that enters the cloud for the first time on a turn or starts its turn there must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn. The cloud lasts for 1 minute or until it is dispersed by a strong wind."
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
 					]
 				}
-			]
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 20,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 16,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"immune": [
+				"force",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The helmed horror has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Spell Immunity",
+					"entries": [
+						"The helmed horror is immune to three spells chosen by its creator. Typical immunities include {@spell fireball}, {@spell heat metal}, and {@spell lightning bolt}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The helmed horror makes three melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 4 ({@damage 1d8}) force damage."
+					]
+				},
+				{
+					"name": "Enfeebling Strike {@recharge 6}",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage and attacks against the creature have advantage until the start of the helmed horror's next turn."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Helmed Horror",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"This construct possesses intelligence, the ability to reason and adjust its tactics, and an unswerving devotion to its maker that persists even after its maker's demise. Resembling an animated suit of empty plate armor, a helmed horror serves without ambition or emotion.",
+									{
+										"name": "Magical Purpose",
+										"type": "entries",
+										"entries": [
+											"Though it takes more magical resources to create a helmed horror than a lesser suit of animated armor, the helmed horror requires less direction and maintenance as it carries out its appointed tasks. A helmed horror follows its orders with complete loyalty, and is intelligent enough to understand the difference between an order's intent and its exact wording. Unlike many constructs, it seeks to fulfill the former rather than slavishly follow the latter."
+										]
+									},
+									{
+										"name": "Tactical Cunning",
+										"type": "entries",
+										"entries": [
+											"A helmed horror fights with the cunning of a skilled warrior, taking to the air as it attacks weaker characters and spellcasters first. However, a helmed horror lacks the insight to change its environment, fortify it, or otherwise take active measures to improve its defensive position."
+										]
+									},
+									{
+										"name": "Constructed Nature",
+										"type": "entries",
+										"entries": [
+											"A helmed horror doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Helmed Horror.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Helmed Horror.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/helmed-horror.mp3"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Spell Immunity"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"O",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
