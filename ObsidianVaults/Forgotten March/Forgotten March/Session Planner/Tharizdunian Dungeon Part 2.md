@@ -8,7 +8,7 @@ Believing they had brought an incarnation of Tharizdun into the material plane, 
 
 ![Dungeon map](https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Maps/map_71x47.png)
 
-# 1. Sapping Spa
+# 1. Pool of Returning
 > The chamber is dark and cold, but it smells sweet.
 > 
 > This floor of this long chamber is filled with a 2-feet-deep shimmering pink fluid. Lying in the this pool are 15 human bodies curled up in fetal position. You can see a door on the opposite end of the chamber.
