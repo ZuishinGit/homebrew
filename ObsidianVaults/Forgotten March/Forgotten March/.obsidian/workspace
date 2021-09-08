@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "4674c286832fea31",
+    "type": "split",
+    "children": [
+      {
+        "id": "c42110a2aa5fe235",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+            "mode": "source"
+          }
+        },
+        "group": "5cd74f4ed4e898a0"
+      },
+      {
+        "id": "d0fcbb2516c63d3e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5cd74f4ed4e898a0"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6375252bde66784",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cb984969e967600",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9834844104d43a71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad3acbc71c95cd78",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0f106de35ea611cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaf4dd5d55192686",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7566e4a79376a769",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c42110a2aa5fe235",
+  "lastOpenFiles": [
+    "Session Planner/Untitled.md",
+    "General/Dungeon Design.md",
+    "People/Azzazn.md",
+    "People/Bassam.md",
+    "General/Untitled.md",
+    "People/Zikzokrishka.md",
+    "People/Zedaar, the Chanter.md",
+    "People/Master Raisan.md",
+    "People/Drinni.md",
+    "People/Prince Hamukai.md"
+  ]
+}
