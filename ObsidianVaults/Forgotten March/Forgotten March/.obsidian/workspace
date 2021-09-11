@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+            "file": "Places/Wyrmdoom Gorge.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+            "file": "Places/Wyrmdoom Gorge.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session Planner/Tharizdunian Dungeon Part 2.md",
+                "file": "Places/Wyrmdoom Gorge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "c42110a2aa5fe235",
   "lastOpenFiles": [
-    "Session Planner/Tharizdunian Dungeon Part 2.md",
-    "Session Planner/Untitled.md",
-    "General/Dungeon Design.md",
-    "People/Azzazn.md",
-    "People/Bassam.md",
-    "General/Untitled.md",
-    "People/Zikzokrishka.md",
-    "People/Zedaar, the Chanter.md",
-    "People/Master Raisan.md",
-    "People/Drinni.md"
+    "Places/Wyrmdoom Gorge.md",
+    "Places/Oasis.md",
+    "Session Planner/Encounters/Gale King Squadron.md",
+    "Session Planner/Encounters/Dune Reaper Pack.md",
+    "Session Planner/Encounters/Hazards/Unstable Rock.md",
+    "Session Planner/Encounters/Hazards/Stirge Blitz.md",
+    "Session Planner/Encounters/Hazards/Quicksand.md",
+    "Templates/Encounters.md",
+    "Templates/Hostile.md",
+    "Templates/Friendly.md"
   ]
 }

@@ -1743,7 +1743,7 @@
 			"weight": 2,
 	        "entries": [
 	        	"While grasped, this ankh sheds bright light in a 10-foot-radius and dim light for an additional 10 feet.",
-	        	"You can use your action to cast the {@spell Aganazzar's schorcher|xge} spell (DC 15). The level of the spell being cast is equal to twice your proficiency bonus, up to 9.",
+	        	"You can use your action to cast the {@spell Aganazzar's scorcher|xge} spell (DC 15). The level of the spell being cast is equal to twice your proficiency bonus, up to 9.",
 	        	"You can use this item once, after which the item immediately loses its magical properties and becomes a mundane ankh."
 	        ]
 	    },
@@ -2315,6 +2315,7 @@
 	        "source": "EM5E",
 	        "rarity": "very rare",
 	        "tier": "major",
+	        "baseItem":"leather armor|phb",
 	        "type":"LA",
 	        "bonusAc": "+2",
 	        "weight": 10,
@@ -2322,7 +2323,7 @@
 	        "reqAttune":true,
 	        "armor": true,
 	        "entries": [
-	        	"You have a +2 bonus to AC while wearing this armor."
+	        	"You have a +2 bonus to AC while wearing this armor.",
 	        	"While you're wearing this armor, you can cast the {@spell blindness/deafness} spell (save DC 15) as an action. Once used, this property can't be used again until the next dawn.",
 	        	"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
 	        ]
@@ -2332,10 +2333,35 @@
 	        "source": "EM5E",
 	        "rarity": "rare",
 	        "tier": "major",
+	        "type":"GV",
 	        "armor":true,
 	        "reqAttune":true,
 	        "entries": [
-	        	"If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature while you're wearing this armor, you can use your reaction to turn the failed saving throw into a successful one. Every time you use this reaction, the armor takes a permanent and cumulative -1 penalty to the AC it offers. When the armor is reduced to an AC of 10, it disintegrates and is destroyed."
+	        	"If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature while you're wearing this armor, you can use your reaction to turn the failed saving throw into a successful one. Every time you use this reaction, the armor takes a permanent and cumulative -1 penalty to the AC it offers. When the armor is reduced to an AC of 10, it disintegrates and is destroyed.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Base items",
+	        		"entries":[
+	        			"This item variant can be applied to the following base items:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"{@item Breastplate|phb}",
+	        					"{@item Chain Mail|phb}",
+	        					"{@item Chain Shirt|phb}",
+	        					"{@item Half Plate Armor|phb}",
+	        					"{@item Hide Armor|phb}",
+	        					"{@item Leather Armor|phb}",
+	        					"{@item Padded Armor|phb}",
+	        					"{@item Plate Armor|phb}",
+	        					"{@item Ring Mail|phb}",
+	        					"{@item Scale Mail|phb}",
+	        					"{@item Splint Armor|phb}",
+	        					"{@item Studded Leather Armor|phb}"
+	        				]
+	        			}
+	        		]
+	        	}
 	        ]
 	    },
 	    {
@@ -2344,6 +2370,7 @@
 	        "rarity": "rare",
 	        "curse":true,
 	        "tier": "major",
+	        "type":"GV",
 	        "armor":true,
 	        "reqAttune":true,
 	        "entries": [
@@ -2353,6 +2380,30 @@
 	        		"name":"Curse",
 	        		"entries":[
 	        			"This item is cursed. The first time you take damage while wearing it, it begins to secrete a harmful acid for {@dice 1d4} rounds. As long as the acid is being secreted, you take {@dice 1d12} acid damage at the start of each of your turns."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Base items",
+	        		"entries":[
+	        			"This item variant can be applied to the following base items:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"{@item Breastplate|phb}",
+	        					"{@item Chain Mail|phb}",
+	        					"{@item Chain Shirt|phb}",
+	        					"{@item Half Plate Armor|phb}",
+	        					"{@item Hide Armor|phb}",
+	        					"{@item Leather Armor|phb}",
+	        					"{@item Padded Armor|phb}",
+	        					"{@item Plate Armor|phb}",
+	        					"{@item Ring Mail|phb}",
+	        					"{@item Scale Mail|phb}",
+	        					"{@item Splint Armor|phb}",
+	        					"{@item Studded Leather Armor|phb}"
+	        				]
+	        			}
 	        		]
 	        	}
 	        ]
@@ -2378,7 +2429,7 @@
 	        "ac":16,
 	        "strength": "13",
 	        "weight":55,
-	        "type":"MA",
+	        "type":"HA",
 	        "stealth": true,
 	        "armor":true,
 	        "reqAttune":"by a spellcaster",
@@ -2389,7 +2440,7 @@
 	        ],	
 	        "entries": [
 	        	"You have a +2 bonus to AC while wearing this armor.",
-	        	"This armor has 10 charges. While wearing it, you can use an action to expend 1 or more of its charges to cast one of the following spells on yourself, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges)."
+	        	"This armor has 10 charges. While wearing it, you can use an action to expend 1 or more of its charges to cast one of the following spells on yourself, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges).",
 	        	"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
 	        ]
 	    },
@@ -2420,11 +2471,37 @@
 	        "source": "EM5E",
 	        "rarity": "common",
 	        "tier": "major",
+	        "type":"GV",
 	        "armor":true,
-	        "reqAttune":true,
+	        "reqAttune":false,
 	        "entries": [
-	        	"While donning this armor, you can use a bonus action to magically conceal it, causing it to appear as a normal set of clothing. It remains concealed in this way until you doff the armor or use another bonus action to end the effect.",
-	        	"If a creature uses its action to examine the armor, they can determine that it is magically concealed with a successful DC 15 Intelligence {@skill Investigation} check. If a creature discerns the magical concealment for what it is, the illusory clothing becomes faint to the creature."
+	        	"While donning this armor, you can speak the command word as a bonus action, magically concealing it and causing it to appear as a normal set of clothing. It remains concealed in this way until you doff the armor or use another bonus action to end the effect.",
+	        	"If a creature uses its action to examine the armor, they can determine that it is magically concealed with a successful DC 15 Intelligence ({@skill Investigation}) check. If a creature discerns the magical concealment for what it is, the illusory clothing becomes faint to the creature.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Base items",
+	        		"entries":[
+	        			"This item variant can be applied to the following base items:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"{@item Breastplate|phb}",
+	        					"{@item Chain Mail|phb}",
+	        					"{@item Chain Shirt|phb}",
+	        					"{@item Half Plate Armor|phb}",
+	        					"{@item Hide Armor|phb}",
+	        					"{@item Leather Armor|phb}",
+	        					"{@item Padded Armor|phb}",
+	        					"{@item Plate Armor|phb}",
+	        					"{@item Ring Mail|phb}",
+	        					"{@item Scale Mail|phb}",
+	        					"{@item Splint Armor|phb}",
+	        					"{@item Studded Leather Armor|phb}"
+	        				]
+	        			}
+	        		]
+	        	}
+	        
 	        ]
 	    },
 	    {
@@ -2433,10 +2510,26 @@
 	        "rarity": "rare",
 	        "tier": "major",
 	        "bonusAc":"+2",
+	        "type": "GV",
 	        "armor":true,
 	        "reqAttune":true,
 	        "entries": [
-	        	"While wearing this armor, you have resistance to lightning damage and have a +1 bonus to AC."
+	        	"While wearing this armor, you have resistance to lightning damage and have a +1 bonus to AC.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Base items",
+	        		"entries":[
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"{@item Chain mail|phb}",
+	        					"{@item Plate|phb}",
+	        					"{@item Ring mail|phb}",
+	        					"{@item Splint|phb}"
+	        				]
+	        			}
+	        		]
+	        	}
 	        ]
 	    },
 	    {
