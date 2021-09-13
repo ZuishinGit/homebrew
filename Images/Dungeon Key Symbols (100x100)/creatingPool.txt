@@ -1,0 +1,5 @@
+#e2e2e2 all
+optional #666666 gray edge radius 22 (hard round stock)
+box blur 6
+noise all 5%
+opacity all 40%
