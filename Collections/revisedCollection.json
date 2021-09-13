@@ -3645,8 +3645,11 @@
 	    	"entries": [
 	    		"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
 	    		{
-	    			"type": "refSubclassFeature",
-	    			"subclassFeature": "Arcane Archer Lore|Fighter||Arcane Archer|XGE|3"
+	    			"type": "entries",
+	    			"name":"Arcane Archer Lore",
+	    			"entries":[
+	    				"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the {@skill Arcana} or the {@skill Nature} skill, and you choose to learn either the {@spell prestidigitation} or the {@spell druidcraft} cantrip."
+	    			]
 	    		},
 	    		{
 	    			"type": "refSubclassFeature",

@@ -1,5 +1,11 @@
 {
   "promptDelete": false,
   "attachmentFolderPath": "Session Planner",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -25,11 +25,11 @@ When this happens, any creatures in the pool feel a wave of extraordinary comfor
 
 # 2. Statues of Zhavasu
 
->In the eastern alcove of this hall is a life-size statue made of dark, greasy stone depicting a human with long, straight hair wearing a bejewelled headband. He dons thick robes and carries a staff in one hand, and a large grimoire in the other. The grimoire has a large spiral carved into the front of it. 
+>In the southern alcove of this hall is a life-size statue made of dark, greasy stone depicting a human with long, straight hair wearing a bejewelled headband. He dons thick robes and carries a staff in one hand, and a large grimoire in the other. The grimoire has a large spiral carved into the front of it. One thing you notice about the statue is it is missing ears.
 >
 >The statue is on a raised pedestal that has the words "Progenitor Zhavasu" carved into it. Also carved into the pedestal are six small faces of varying ancestry.
 
-###### Closer look at the faces:
+###### Investigating the faces:
 
 >The faces, from left to right depict the following ancestries: a dwarf, a man, an elf, a halfling, a woman, and a dragonborn. Strangely enough they are all very life-like though they are all missing their ears. You notice that they look like they can be pressed, like buttons. 
 
@@ -66,7 +66,7 @@ As long as they are on the pedestals, the armor is electrified. Anyone touching 
 
 >The air in this room is stale, but it seems clean. The floor is tiled, and you see sarcophagi set into alcoves along the wall. The sarcophagi are made of stone and have curved supports like a rocking chair's legs. You hear a feint grinding of stone on stone and realize the rearmost sarcophagus is slowly rocking side to side.
 
-###### Investigating the Sarcophagi
+###### Investigating the sarcophagi:
 
 >Engraved onto each sarcophagus is a large roman numeral, with the exception of the one in the western alcove.
 
