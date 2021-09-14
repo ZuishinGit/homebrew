@@ -3562,9 +3562,9 @@
 	        "source": "ZRC",
 	        "className": "Barbarian",
 	        "classSource": "PHB",
-	        "shortName": "Berserker (Re)",
+	        "shortName": "Berserker (Revised)",
 	        "subclassFeatures": [
-	        	"Path of the Berserker|Barbarian||Berserker (Re)|ZRC|3|ZRC",
+	        	"Path of the Berserker|Barbarian||Berserker (Revised)|ZRC|3|ZRC",
 	        	"Mindless Rage|Barbarian||Berserker||6",
 	        	"Intimidating Presence|Barbarian||Berserker||10",
 	        	"Retaliation|Barbarian||Berserker||14"	        
@@ -3572,7 +3572,7 @@
 	    },
 	    {
 	    	"name": "Arcane Archer (Revised)",
-	    	"shortName": "Arcane Archer (Re)",
+	    	"shortName": "Arcane Archer (Revised)",
 	    	"source": "ZRC",
 	    	"className": "Fighter",
 	    	"classSource": "PHB",
@@ -3593,7 +3593,7 @@
 	    		}
 	    	],
 	    	"subclassFeatures": [
-	    		"Arcane Archer (Revised)|Fighter||Arcane Archer (Re)|ZRC|3|ZRC",
+	    		"Arcane Archer (Revised)|Fighter||Arcane Archer (Revised)|ZRC|3|ZRC",
 	    		"Magic Arrow|Fighter||Arcane Archer|XGE|7",
 	    		"Curving Shot|Fighter||Arcane Archer|XGE|7",
 	    		"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|7",
@@ -3610,14 +3610,14 @@
 	        "source": "ZRC",
 	        "className": "Barbarian",
 	        "classSource": "PHB",
-	        "subclassShortName": "Berserker (Re)",
+	        "subclassShortName": "Berserker (Revised)",
 	        "subclassSource": "ZRC",
 	        "level": 3,
 	        "entries": [
 	        	"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
 	        	{
 	        		"type": "refSubclassFeature",
-	        		"subclassFeature": "Frenzy (Revised)|Barbarian||Berserker (Re)|ZRC|3|ZRC"
+	        		"subclassFeature": "Frenzy (Revised)|Barbarian||Berserker (Revised)|ZRC|3|ZRC"
 	        	}
 	        ]
 	    },
@@ -3626,7 +3626,7 @@
 	    	"source": "ZRC",
 	    	"className": "Barbarian",
 	    	"classSource": "PHB",
-	    	"subclassShortName": "Berserker (Re)",
+	    	"subclassShortName": "Berserker (Revised)",
 	    	"subclassSource": "ZRC",
 	    	"level": 3,
 	    	"header": 1,
@@ -3639,7 +3639,7 @@
 	    	"source": "ZRC",
 	    	"className": "Fighter",
 	    	"classSource": "PHB",
-	    	"subclassShortName": "Arcane Archer (Re)",
+	    	"subclassShortName": "Arcane Archer (Revised)",
 	    	"subclassSource": "ZRC",
 	    	"level": 3,
 	    	"entries": [
@@ -3653,11 +3653,11 @@
 	    		},
 	    		{
 	    			"type": "refSubclassFeature",
-	    			"subclassFeature": "Arcane Shot (Revised)|Fighter||Arcane Archer (Re)|ZRC|3|ZRC"
+	    			"subclassFeature": "Arcane Shot (Revised)|Fighter||Arcane Archer (Revised)|ZRC|3|ZRC"
 	    		},
 	    		{
 	    			"type": "refSubclassFeature",
-	    			"subclassFeature": "Arcane Shot Options (Revised)|Fighter||Arcane Archer (Re)|ZRC|3|ZRC"
+	    			"subclassFeature": "Arcane Shot Options (Revised)|Fighter||Arcane Archer (Revised)|ZRC|3|ZRC"
 	    		}
 	    	]
 	    },
@@ -3666,7 +3666,7 @@
 	    	"source": "ZRC",
 	    	"className": "Fighter",
 	    	"classSource": "PHB",
-	    	"subclassShortName": "Arcane Archer (Re)",
+	    	"subclassShortName": "Arcane Archer (Revised)",
 	    	"subclassSource": "ZRC",
 	    	"level": 3,
 	    	"header": 1,
@@ -3681,7 +3681,7 @@
 	    	"source": "ZRC",
 	    	"className": "Fighter",
 	    	"classSource": "PHB",
-	    	"subclassShortName": "Arcane Archer (Re)",
+	    	"subclassShortName": "Arcane Archer (Revised)",
 	    	"subclassSource": "ZRC",
 	    	"level": 3,
 	    	"header": 1,
