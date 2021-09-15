@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "040633cc6579494c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c2dbd7ef59dc31c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Encounters/Basidirond Grove.md",
+            "mode": "source"
+          }
+        },
+        "group": "41cc8144c520161a"
+      },
+      {
+        "id": "76a754ec689b5e66",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Encounters/Basidirond Grove.md",
+            "mode": "preview"
+          }
+        },
+        "group": "41cc8144c520161a"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a39f8b6ef970a3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f037529e65c6ec03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3b4f60fc1b47ce6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2684d3a7b10a61f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff025613c55d0f78",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c0514c75d15f6fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e260271fee35ea3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Encounters/Basidirond Grove.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f56f8ebb6d40f87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Encounters/Basidirond Grove.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0c2dbd7ef59dc31c",
+  "lastOpenFiles": [
+    "Encounters/Basidirond Grove.md",
+    "Encounters/Underworld Sentinels.md",
+    "Saprophytic Isles.md",
+    "Tartyx River.md",
+    "Templates/Encounter.md",
+    "Zuggtmoy.md",
+    "Encounters/Untitled.md",
+    "Untitled.md"
+  ]
+}

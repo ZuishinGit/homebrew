@@ -14,6 +14,8 @@ Environment: Wilderness
 
 The master dons a *Helm of Teleportation*, but nothing else. The bard's flute is worth 100 gp, and he wears a large gold bracelet (250 gp), and a silver necklace with a gemstone pendant (250 gp). In total, they have 1,500 sp and 50 pp amongst them in coinage.
 
+___
+
 ###### Accepting Raisan's Invitation
 
 If the party accepts their request for accompaniement, the Master will cast Teleport from the helmet, targeting his meditation chamber in Al-Azid's Ghostly Palace.

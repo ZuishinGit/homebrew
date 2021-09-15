@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "537f498940164d30",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Session Planner/Encounters/Hazards/Quicksand.md",
-            "mode": "source"
-          }
-        },
-        "group": "d8997b194b232efe"
-      },
-      {
         "id": "1fb5ce26cfa9775e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Encounters/Hazards/Quicksand.md",
+            "file": "Session Planner/Encounters/Gale King Squadron.md",
+            "mode": "source"
+          }
+        },
+        "group": "5e103ce2366ea78c"
+      },
+      {
+        "id": "e2eea08c1aeb09dc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Session Planner/Encounters/Gale King Squadron.md",
             "mode": "preview"
           }
         },
-        "group": "d8997b194b232efe"
+        "group": "5e103ce2366ea78c"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session Planner/Encounters/Hazards/Quicksand.md",
+                "file": "Session Planner/Encounters/Gale King Squadron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "537f498940164d30",
+  "active": "1fb5ce26cfa9775e",
   "lastOpenFiles": [
-    "Session Planner/Encounters/Hazards/Quicksand.md",
     "Session Planner/Encounters/Gale King Squadron.md",
     "Session Planner/Encounters/Dune Reaper Pack.md",
     "Session Planner/Encounters/Chathrang Herd.md",
+    "Untitled.md",
     "Templates/Encounters.md",
     "Astral Sands.md",
-    "Templates/Friendly.md",
     "Templates/Indifferent.md",
-    "Templates/Hostile.md",
-    "Session Planner/Tharizdunian Dungeon Part 2.md"
+    "Templates/Encounters 1.md",
+    "Session Planner/Encounters/Hazards/Quicksand.md",
+    "Templates/Friendly.md"
   ]
 }
