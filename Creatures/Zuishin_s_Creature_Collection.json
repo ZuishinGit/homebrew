@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.135.0",
+	"siteVersion": "1.136.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1631136930,
-		"dateLastModified": 1631136930
+		"dateAdded": 1631844807,
+		"dateLastModified": 1631844807
 	},
 	"monster": [
 		{
@@ -11808,6 +11808,176 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Basidirond",
+			"source": "ZCC",
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "23d8 + 46",
+				"average": 149
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 14,
+			"int": 6,
+			"wis": 15,
+			"cha": 10,
+			"senses": [
+				"blindsight 60 ft. ({@condition blind} beyond this distance)"
+			],
+			"passive": 12,
+			"resist": [
+				"cold"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Hallucination Spores",
+					"entries": [
+						"The basidirond releases imperceptible spores in an area within 120 feet. A non-plant creature that starts its turn in the area must succeed a {@dc 14} Intelligence saving throw or be {@spell confusion||confused} for 1 minute. A creature may repeat the saving throw at the end of each of their turns, ending the effect on itself on a success. On a successful saving throw, the creature is immune to the hallucination spores of all basidironds for 1 hour."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The basidirond makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Smother {@recharge 6}",
+					"entries": [
+						"The basidirond makes a slam attack against a medium or smaller creature. On a hit, the creature takes damage as normal and is infected by the black spores of the basidirond. A creature infected by the spores begins to suffocate and is {@condition poisoned} for the duration. At the start of each of its turns, the creature must make a {@dc 10} Constitution check. On a failure, the DC further increases by 1 and the creature continues suffocating."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Zuggtomoy's Empowerment",
+					"entries": [
+						"Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid sovereigns have all these spore effects.",
+						{
+							"type": "entries",
+							"name": "Caustic Spores (1/Day)",
+							"entries": [
+								"The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 12} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Infestation Spores (1/Day)",
+							"entries": [
+								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 12} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MTF} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Euphoria Spores (1/Day)",
+							"entries": [
+								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaustion}."
+							]
+						}
+					],
+					"variantSource": {
+						"source": "OotA",
+						"page": 228
+					}
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Myconid Sovereign",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.",
+									{
+										"name": "Circles and Melds",
+										"type": "entries",
+										"entries": [
+											"The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.",
+											"A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures."
+										]
+									},
+									{
+										"name": "Myconid Reproduction",
+										"type": "entries",
+										"entries": [
+											"Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Myconids.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/basidirond.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/myconid-sovere.mp3"
+			},
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"poisoned"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true

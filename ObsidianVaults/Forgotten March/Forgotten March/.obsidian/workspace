@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Encounters/Gale King Squadron.md",
+            "file": "Session Planner/Olivier's Haunted Mansion.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Encounters/Gale King Squadron.md",
+            "file": "Session Planner/Olivier's Haunted Mansion.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session Planner/Encounters/Gale King Squadron.md",
+                "file": "Session Planner/Olivier's Haunted Mansion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "1fb5ce26cfa9775e",
   "lastOpenFiles": [
+    "Session Planner/Olivier's Haunted Mansion.md",
+    "Session Planner/Tharizdunian Dungeon Part 2.md",
+    "Session Planner/Untitled.md",
     "Session Planner/Encounters/Gale King Squadron.md",
     "Session Planner/Encounters/Dune Reaper Pack.md",
     "Session Planner/Encounters/Chathrang Herd.md",
     "Untitled.md",
     "Templates/Encounters.md",
     "Astral Sands.md",
-    "Templates/Indifferent.md",
-    "Templates/Encounters 1.md",
-    "Session Planner/Encounters/Hazards/Quicksand.md",
-    "Templates/Friendly.md"
+    "Templates/Indifferent.md"
   ]
 }
