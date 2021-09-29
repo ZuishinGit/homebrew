@@ -7,9 +7,25 @@
         "id": "0c2dbd7ef59dc31c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Encounters/Underworld Sentinels.md",
+            "mode": "source"
+          }
+        },
+        "group": "9603d28594342c60"
+      },
+      {
+        "id": "49006b07fb2e8192",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Encounters/Underworld Sentinels.md",
+            "mode": "preview"
+          }
+        },
+        "group": "9603d28594342c60"
       }
     ],
     "direction": "vertical"
@@ -65,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Encounters/Underworld Sentinels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Encounters/Underworld Sentinels.md"
+              }
             }
           }
         ]
@@ -92,15 +111,15 @@
   },
   "active": "0c2dbd7ef59dc31c",
   "lastOpenFiles": [
-    "Dungeons/Olivier's Haunted Mansion.md",
-    "Dungeons/Olivier's Haunted Mansion 1.md",
-    "Dungeons/Traveling Tower of Kruu'Gal.md",
-    "Untitled.md",
     "Encounters/Underworld Sentinels.md",
     "Encounters/Basidirond Grove.md",
+    "Dungeons/Traveling Tower of Kruu'Gal.md",
     "Saprophytic Isles.md",
-    "Dungeons/Untitled.md",
+    "Zuggtmoy.md",
     "Tartyx River.md",
-    "Templates/Encounter.md"
+    "Dungeons/Olivier's Haunted Mansion.md",
+    "Dungeons/Olivier's Haunted Mansion 1.md",
+    "Untitled.md",
+    "Dungeons/Untitled.md"
   ]
 }

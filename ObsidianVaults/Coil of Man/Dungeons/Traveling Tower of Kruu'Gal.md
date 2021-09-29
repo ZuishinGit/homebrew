@@ -68,12 +68,8 @@ Spell Contents (Left to Right)
 
 ## 6. Bedchamber of Kruu'Gal
 
-> This dark chamber has a 
-
 ## 7. Scrying Room
 
 ## 8. Control Chamber
-
-***Treasure.*** The mage wears a *Cloak of Arachnida*.
 
 ## 9. Lookout
