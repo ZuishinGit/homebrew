@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.136.0",
+	"siteVersion": "1.137.1",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1631844807,
-		"dateLastModified": 1631844807
+		"dateAdded": 1633294527,
+		"dateLastModified": 1633294527
 	},
 	"monster": [
 		{
@@ -11813,48 +11813,102 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Basidirond",
+			"name": "Etridhi, the Rebirther",
+			"shortName": "Etridhi",
+			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "M",
-			"type": "plant",
+			"size": "H",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"titan"
+				]
+			},
 			"alignment": [
-				"L",
-				"N"
+				"C",
+				"E"
 			],
 			"ac": [
 				{
-					"ac": 14,
+					"ac": 19,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"formula": "23d8 + 46",
-				"average": 149
+				"formula": "27d12 + 162",
+				"average": 337
 			},
 			"speed": {
-				"walk": 20
+				"walk": 30
 			},
-			"str": 12,
+			"str": 24,
 			"dex": 10,
-			"con": 14,
-			"int": 6,
-			"wis": 15,
-			"cha": 10,
+			"con": 23,
+			"int": 20,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"dex": "+7",
+				"con": "+13",
+				"wis": "+10"
+			},
+			"skill": {
+				"perception": "+10"
+			},
 			"senses": [
-				"blindsight 60 ft. ({@condition blind} beyond this distance)"
+				"truesight 120 ft."
 			],
-			"passive": 12,
-			"resist": [
-				"cold"
+			"passive": 20,
+			"immune": [
+				{
+					"immune": [
+						"cold",
+						"necrotic",
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
 			],
-			"cr": "4",
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "23",
 			"trait": [
 				{
-					"name": "Hallucination Spores",
+					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"The basidirond releases imperceptible spores in an area within 120 feet. A non-plant creature that starts its turn in the area must succeed a {@dc 14} Intelligence saving throw or be {@spell confusion||confused} for 1 minute. A creature may repeat the saving throw at the end of each of their turns, ending the effect on itself on a success. On a successful saving throw, the creature is immune to the hallucination spores of all basidironds for 1 hour."
+						"If Etridhi fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Etridhi's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Etridhi regains 20 hit points at the start of its turn. If she takes radiant damage, this trait doesn't function at the start of her next turn. Etridhi dies only if she starts her turn with 0 hit points and doesn't regenerate."
 					]
 				}
 			],
@@ -11862,61 +11916,207 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The basidirond makes two slam attacks."
+						"Etridhi makes up to three attacks."
 					]
 				},
 				{
-					"name": "Slam",
+					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}29 ({@damage 4d10 + 7}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Revitalizing Opportunity",
+					"entries": [
+						"When a creature that Etridhi can see regains hit points, she gains an equal amount of hit points and can move up to half her speed and make a claw attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictLegendary": [
+				"prone",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"poisoned",
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "King Snurre",
+			"shortName": "King Snurre",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZCC",
+			"size": "G",
+			"type": "giant",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 25,
+			"dex": 9,
+			"con": 25,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"save": {
+				"dex": "+5",
+				"con": "+13",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+13",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "17",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"King Snurre wears {@i cloak of white dragon hide}, accounted for in his statistics."
 					]
 				},
 				{
-					"name": "Smother {@recharge 6}",
+					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"The basidirond makes a slam attack against a medium or smaller creature. On a hit, the creature takes damage as normal and is infected by the black spores of the basidirond. A creature infected by the spores begins to suffocate and is {@condition poisoned} for the duration. At the start of each of its turns, the creature must make a {@dc 10} Constitution check. On a failure, the DC further increases by 1 and the creature continues suffocating."
+						"If King Snurre fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"King Snurre deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Heated Body (Azer)",
+					"entries": [
+						"A creature that touches King Snurre or hits him with a melee attack while within 5 feet of it takes 14 ({@damage 4d6}) fire damage."
 					]
 				}
 			],
-			"variant": [
+			"action": [
 				{
-					"type": "variant",
-					"name": "Zuggtomoy's Empowerment",
+					"name": "Multiattack",
 					"entries": [
-						"Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid sovereigns have all these spore effects.",
-						{
-							"type": "entries",
-							"name": "Caustic Spores (1/Day)",
-							"entries": [
-								"The myconid releases spores in a 30-foot cone. Each creature inside the cone must succeed on a {@dc 12} Dexterity saving throw or take 3 ({@damage 1d6}) acid damage at the start of each of the myconid's turns. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Infestation Spores (1/Day)",
-							"entries": [
-								"The myconid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 12} Constitution saving throw. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy) and also gains a random form of indefinite madness (determined by rolling on the Madness of {@creature Zuggtmoy|MTF} table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a humanoid or a Large or smaller beast."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Euphoria Spores (1/Day)",
-							"entries": [
-								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. The save DC is 8 + the myconid's Constitution modifier + the myconid's proficiency bonus. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaustion}."
-							]
-						}
-					],
-					"variantSource": {
-						"source": "OotA",
-						"page": 228
-					}
+						"King Snurre can use his Cinder Breath if available, and then makes up to two melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}28 ({@damage 7d6 + 7}) slashing damage plus an additional 6 ({@damage 1d12}) fire damage. If this damage leaves a creature with 0 hit points, they are turned to ash."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 0 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage, and the creature is knocked {@condition prone}, and becomes {@condition restrained} until King Snurre moves. If this attack hits a creature that is already {@condition prone}, then that creature must also succeed on a {@dc 19} Constitution saving throw or have to roll on the {@table Massive Damage; System Shock|dmg|system shock} table."
+					]
+				},
+				{
+					"name": "Cinder Breath {@recharge 6}",
+					"entries": [
+						"King Snurre exhales a 90-foot cone of smouldering ash. Each creature in that area becomes covered in the ash until a creature uses its action to remove the ash. While covered in ash, a creature is {@condition blinded}, and their speed is 0. A creature covered in ash must succeed on a {@dc 19} Constitution saving throw at the end of each of their turns or gain 1 level of {@condition exhaustion}."
+					]
 				}
 			],
+			"reaction": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"When a creature moves into a space occupied by King Snurre, he can make a stomp attack at the creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Heat Wave",
+					"entries": [
+						"King Snurre emanates a wave of heat. Any creature within 30 feet of him take 14 ({@damage 4d6}) fire damage."
+					]
+				},
+				{
+					"name": "Greatsword (Costs 2 Actions)",
+					"entries": [
+						"King Snurre makes a greatsword attack."
+					]
+				},
+				{
+					"name": "Blazing Advance (Costs 2 Actions)",
+					"entries": [
+						"King Snurre moves up to half his speed in a straight line, ignoring difficult terrain. Creatures in his path must succeed a {@dc 19} Dexterity saving throw or take 21 ({@damage 6d6}) bludgeoning damage, plus an additional 14 ({@damage 4d6}) fire damage. If the saving throw fails by 5 or more, the target falls {@condition prone}."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "King Snurre",
+				"source": "ZCC"
+			},
 			"environment": [
+				"mountain",
 				"underdark"
 			],
 			"fluff": {
-				"name": "Myconid Sovereign",
+				"name": "Fire Giant",
 				"source": "MM",
 				"entries": [
 					{
@@ -11925,20 +12125,595 @@
 							{
 								"type": "entries",
 								"entries": [
-									"Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.",
+									"Master crafters and organized warriors, fire giants dwell among volcanoes, lava floes, and rocky mountains. They are ruthless militaristic brutes whose mastery of metalwork is legendary.",
 									{
-										"name": "Circles and Melds",
 										"type": "entries",
+										"name": "Fire Forged",
 										"entries": [
-											"The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.",
-											"A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures."
+											"Fire giant fortresses are built around and inside volcanoes or near magma-filled caverns. The blistering heat of their homes fuels the fire giants' forges, and causes the iron of their fortress walls to glow a comforting orange. In lands far removed from volcanic heat, fire giants mine coal to burn. Traditional smithies occupy places of honor in their demesnes, and the giants' stony fortresses constantly belch plumes of sooty smoke. In more remote outposts, fire giants burn wood to keep their forge fires lit, deforesting leagues of land in all directions.",
+											"Fire giants shun cold as much as their cousins the frost giants hate heat. They can adapt to cold environments with effort, though, keeping their hearth fires burning bright and wearing heavy woolen clothing and furs to stay warm."
 										]
 									},
 									{
-										"name": "Myconid Reproduction",
+										"type": "entries",
+										"name": "Martial Experts",
+										"entries": [
+											"From birth, a fire giant is taught to embrace a legacy of war. At the cradle, its parents chant songs of battle. As children, fire giants play at war, hurling igneous rocks at one another across the banks of magma rivers. In later years, formal martial training becomes an integral part of life in the giants' fortresses and underground realms of smoke and ash.",
+											"The fire giants' songs are odes of battles lost and won, while their dances are martial formations of pounding feet that resound like smiths' hammers throughout their smoky halls.",
+											"Just as fire giants pass down their knowledge of crafting from generation to generation, their renowned fighting prowess comes not from wild fury but from endless discipline and training. Enemies make the mistake of underestimating fire giants based on their brutish manner, learning too late that these giants live for combat and can be shrewd tacticians."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Feudal Lords",
+										"entries": [
+											"Humanoids conquered in war become serfs to the fire giants. The serfs work the farms and fields on the outskirts of fire giant halls and fortresses, raising livestock and harvesting fields whose bounty is almost entirely tithed to the fire giant kings.",
+											"Fire giant crafters work through insight and experience rather than writing or arithmetic. Though most fire giants place little worth on such frivolousness, they sometimes keep slaves at court who are versed in such skills. Serfs not destined for court or the fields (especially dwarves) are taken to the fire giants' mountainous realms to mine ore and gemstones from deep within the earth.",
+											"Fire giants low in the ordning manage the mine tunnels and the slaves that toil there, few of which survive the difficult and dangerous work for long. Though fire giants are skilled in the engineering of mine tunnels and the gathering of ore, they place less importance on the safety of their slaves than on smelting and working the bounty those slaves produce."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Skilled Artisans",
+										"entries": [
+											"Fire giants have a fearsome reputation as soldiers and conquerors, and for their ability to burn, plunder, and destroy. Yet among the giants, fire giants produce the greatest crafters and artists. They excel at smelting and smith work, as they do at the engineering of metal and stone, and the quality of their artistry shows even in their implements of destruction and their weapons of war.",
+											"Fire giants strive to build the strongest fortresses and most potent siege weapons. They experiment with alloys to create the hardest armor, then forge the swords that can pierce it. Such work requires brawn and brains in equal measure, and fire giants high in the ordning tend to be the smartest and strongest of their kind."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Giants",
+						"entries": [
+							"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+							{
+								"name": "Old as Legend",
+								"type": "entries",
+								"entries": [
+									"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+									"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Ordning",
+								"entries": [
+									"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+									"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+									"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+									"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Giant Gods",
+								"entries": [
+									"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+									"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+									"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Fire Giant.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Fire Giant.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/fire-giant.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"exhaustion",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hundred-Handed One (Legendary)",
+			"source": "ZCC",
+			"size": "H",
+			"type": "giant",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 243,
+				"formula": "18d12 + 126"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 26,
+			"dex": 15,
+			"con": 25,
+			"int": 14,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"con": "+12",
+				"wis": "+8"
+			},
+			"skill": {
+				"intimidation": "+8",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Reactive",
+					"entries": [
+						"The giant can take one reaction on every turn in a combat."
+					]
+				},
+				{
+					"name": "Vigilant",
+					"entries": [
+						"The giant can't be surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes four longsword attacks or two rock attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}21 ({@damage 3d8 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 60/240 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 21} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Attack",
+					"entries": [
+						"The giant adds 5 to its AC against one weapon attack that would hit it. To do so, the giant must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The hundred-handed one makes a melee attack."
+					]
+				},
+				{
+					"name": "Hundred-Handed Clap",
+					"entries": [
+						"The hundred-handed one causes its hands to clap in unison. Any creatures within 30 feet of it that can hear must succeed a {@dc 21} Constitution saving throw. On a failure a creature takes 10 ({@damage 3d6}) thunder damage and can't take reactions until the end of the hundred-handed one's next turn. On a success, the creature takes half damage and is otherwise unaffected."
+					]
+				},
+				{
+					"name": "Rock (Costs 2 Actions)",
+					"entries": [
+						"The hundred-handed one makes a rock attack."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Hundred-Handed One",
+				"source": "MOT",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Extra pairs of arms magically orbit the bodies of the titanic, nearly forgotten artisans known as hundred-handed ones. These giants often dwell in remote mountains and seaside cliffs, where they carve their memories into the ancient stone, covering their territories with intricate reliefs and massive statues of bygone ages. Some linger near ancient temples and palaces, ruins they once raised to the gods or archons of old."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MOT/Hundred-Handed One.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MOT/Hundred-Handed One.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S",
+				"T"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Priados, Archon of Agonas",
+			"shortName": "Priados",
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "28d8 + 112",
+				"average": 238
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 19,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 20,
+			"save": {
+				"wis": "+7",
+				"cha": "+10"
+			},
+			"passive": 12,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Priados is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following paladin spells prepared:"
+					],
+					"daily": {
+						"1": [
+							"{@spell holy weapon|XGE}"
+						],
+						"3e": [
+							"{@spell hold person} (4th-level)",
+							"{@spell misty step}",
+							"{@spell wrathful smite}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Priados wields a {@item frost brand rapier|dmg}, accounted for in his statistics."
+					]
+				},
+				{
+					"name": "Divine Smite (3/Day)",
+					"entries": [
+						"Priados causes an attack to deal an additional 18 ({@damage 4d8}) radiant damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Priados makes three attacks with his rapier or his shortbow."
+					]
+				},
+				{
+					"name": "Frost Brand Rapier",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus an additional 3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Priados exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} for 1 minute. If a {@condition frightened} target ends its turn more than 30 feet away from Priados, the target can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Blackguard",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
 										"type": "entries",
 										"entries": [
-											"Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation."
+											"Blackguards are paladins who broke their sacred oaths and now indulge their own dark ambitions. They consort with fiends and undead, and they reject all goodly things from their former lives."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/VGM/Blackguard.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/blackguard.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Enhanced Lamia",
+			"source": "ZCC",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "19d10 + 38"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 17,
+			"con": 15,
+			"int": 14,
+			"wis": 15,
+			"cha": 18,
+			"skill": {
+				"deception": "+9",
+				"insight": "+5",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The lamia's innate spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components."
+					],
+					"will": [
+						"{@spell disguise self} (any humanoid form)",
+						"{@spell major image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell dominate person}",
+							"{@spell geas}"
+						],
+						"3e": [
+							"{@spell charm person}",
+							"{@spell mirror image}",
+							"{@spell scrying}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The enhanced lamia has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Intoxicating Touch",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"fluff": {
+				"name": "Lamia",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Ruined desert cities and the tombs of forgotten monarchs make perfect lairs for the wicked lamias. These decadent monsters take what has been forgotten and make it the seat of their hedonistic rule, surrounding themselves with sycophants. Lamias rely on {@creature Jackalwere||jackalweres} to perform various tasks, sending them across the wastes to capture slaves or steal treasures from caravans, encampments, or villages, concealed by the lamia's magic as they attack.",
+									"A lamia has a beautiful humanoid upper body that merges into a powerful four-legged leonine form. Its vicious black claws speak to its predatory nature, as does its hunger for torture and humanoid flesh.",
+									{
+										"name": "Tyrants of Pleasure",
+										"type": "entries",
+										"entries": [
+											"Lamias adorn their crumbling havens with finery stolen from passing caravans, then use magic to further accentuate their lairs, masking decay with illusion. A lair's breathtaking gardens, finely decorated apartments, and numerous slaves seem at odds with its remoteness and state of ruin.",
+											"Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with {@spell geas} spells are pitted against each other in elaborate contests for the lamia's amusement."
+										]
+									},
+									{
+										"name": "Vain Predators",
+										"type": "entries",
+										"entries": [
+											"Always anxious to gain more wealth and slaves, a lamia uses a pool of water or a mirror in conjunction with a {@spell scrying} spell to view its domain. A lamia uses this power to watch over trade routes and nearby settlements, or to seek out objects and creatures it fancies.",
+											"Lamias are particularly fond of seeking out adventurers with pure hearts to seduce and corrupt to evil, savoring the destruction of their virtue. They use their magic to lure potential victims to their lairs, relying on illusion and their thralls to capture hapless foes. Lamias prize beauty and strength above all else, however. Any prisoner that falls short of their esteem becomes the main course in a horrible feast, or is set free to die while wandering the wastes.",
+											"As long as they have slaves to face their enemies, lamias fight from the fringes, beguiling foes with magic if they can. A lamia pressed into melee never stays there for long, shredding flesh with claw and dagger before springing away to safety."
+										]
+									},
+									{
+										"name": "Minions of Graz'zt",
+										"type": "entries",
+										"entries": [
+											"The demon lord Graz'zt creates lamias from his mortal servants, granting them immortality in return for monstrous power and an oath of fealty. Graz'zt sometimes tasks lamias with guarding locations important to him, but lamias in his service remain free to spread their evil as they see fit."
 										]
 									}
 								]
@@ -11951,36 +12726,64 @@
 						"type": "image",
 						"href": {
 							"type": "internal",
-							"path": "bestiary/MM/Myconids.jpg"
+							"path": "bestiary/MM/Lamia.jpg"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/basidirond.png",
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Lamia.png",
 			"soundClip": {
 				"type": "external",
-				"url": "https://5etools-mirror-1.github.io/audio/bestiary/myconid-sovere.mp3"
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/lamia.mp3"
 			},
 			"senseTags": [
-				"B"
+				"D"
 			],
 			"actionTags": [
 				"Multiattack"
 			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
 			"damageTags": [
-				"A",
-				"B",
-				"N"
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
 			],
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflict": [
-				"exhaustion",
-				"poisoned"
-			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		}
+	],
+	"legendaryGroup": [
+		{
+			"name": "Acantha",
+			"source": "ZCC",
+			"lairActions": [
+				"When fighting inside her grove of horrors, Acantha can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Acantha takes a lair action to cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Acantha casts the {@spell entangle} spell. While maintaining concentration on this effect, Acantha can't take other lair actions.",
+						"Acantha summons {@dice 1d4+1} {@creature blight minion|zcc|blight minions} in unoccupied spaces that she can see within 120 feet of her.",
+						"Poisonous spores fill a 10-foot cube that Acantha can see within 120 feet of her. Any creature that enters the cloud for the first time on a turn or starts its turn there must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn. The cloud lasts for 1 minute or until it is dispersed by a strong wind."
+					]
+				}
+			]
+		},
+		{
+			"name": "King Snurre",
+			"source": "ZCC",
+			"lairActions": [
+				"A {@creature hell hound} that King Snurre can see immediately recharge and uses their fire breath.",
+				"{@dice 1d4} 10-foot-square pools of lava begin to rise from the floor in areas that King Snurre can see, and remain there for 1 minute. A creature that starts its turn in the pool of lava must succeed a {@dc 15} Dexterity saving throw or take 22 ({@damage 4d10}) fire damage.",
+				"King Snurre casts {@spell immolation|xge} (no components required; Save {@dc 15}) on a creature he can see within 90 feet. While he maintains concentration on this effect, King Snurre can't take other lair actions."
+			]
 		}
 	]
 }

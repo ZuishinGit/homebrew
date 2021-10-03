@@ -72,4 +72,6 @@ Spell Contents (Left to Right)
 
 ## 8. Control Chamber
 
+The tower can teleport to locations within [[Agonas]], Phylias, Nerono, and Tizerus.
+
 ## 9. Lookout

@@ -587,7 +587,7 @@
 	        "source": "EM5E",
 	        "poison":true,
 	        "rarity": "uncommon",
-	        "tier": "Minor",
+	        "tier": "minor",
 	        "wondrous":true,
 	        "entries": [
 	        	"Once inhaled, the air spores inhabit your lungs, and you find it difficult to breathe normally.",
@@ -609,7 +609,7 @@
 	        "name": "Al-Azid's Ghostly Palace",
 	        "source": "EM5E",
 	        "rarity": "legendary",
-	        "tier": "Major",
+	        "tier": "major",
 	        "curse":true,
 	        "reqAttune":true,
 	        "wondrous":true,

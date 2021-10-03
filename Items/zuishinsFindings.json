@@ -1,0 +1,109 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json":"ZMF",
+				"abbreviation":"ZMF",
+				"full":"Zuishin's Magical Findings",
+				"authors":[
+					"Zuishin"
+				],
+				"convertedBy":[
+				],
+				"color":"F44F36",
+				"version":"1.0",
+				"url":"https://github.com/ZuishinGit/ZuishinHomebrew/tree/master",
+				"targetSchema":"1.0.0"
+			}
+		]
+	},
+	"item": [
+	    {
+	    	"name": "Orb of Impiety",
+	    	"source": "ZMF",
+	    	"rarity": "artifact",
+	    	"tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "curse":true,
+	        "recharge":"dawn",
+	        "charges":7,
+	        "sentient":true,
+	        "entries": [
+	        	"This lustrous, violet orb was created by the concentrated blood of nyxborn creatures. It was once wielded by the legendary {@race Leonin|mot}, Xemnon Starfeller, to defeat a champion of Heliod known as Xanthos Kondylis.",
+	        	{
+	        		"type":"entries",
+	        		"name":"Random Properties",
+	        		"entries":[
+	        			"The {@i Orb of Impiety} has the following random properties:",
+	        			{
+	        				"type":"list",
+	        				"items":[
+	        					"2 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial properties}",
+	        					"1 {@table Artifact Properties; Major Detrimental Properties|dmg|major detrimental property}"
+	        				]
+	        			}
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Spells",
+	        		"entries":[
+	        			"The orb has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell crusader's mantle} (3 charges), {@spell find the path} (4 charges), {@spell nondetection} (3 charges), {@spell silence} (2 charges), or {@spell speak with dead} (1 charge). The orb regains {@dice 1d4 + 3} expended charges daily at dawn."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Divine Proof",
+	        		"entries":[
+	        			"While the orb is on your person, you are hidden from {@filter divination|spells|school=D} magic. You can't be targeted by such magic or perceived through magical scrying sensors."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Command Nyxborn",
+	        		"entries":[
+	        			"While holding the orb, you can use an action to cast the {@spell dominate monster} spell on a nyxborn target (save DC 18). The spell fails if the target is not nyxborn. In either case, you can't use this property again until the next dawn."
+	        		]	
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Sentience",
+	        		"entries":[
+	        			"The {@i Orb of Impiety} is a sentient, lawful evil item with an Intelligence of 16, a Wisdom of 12, and a Charisma of 16 It has hearing and {@sense darkvision} out to a range of 120 feet.",
+	        			"The orb communicates telepathically with its wielder and can speak, read, and understand Celestial, Common, and Leonin."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Personality",
+	        		"entries":[
+	        			"The orb's purpose is to accomplish Starfeller's original goal to rid the world of the gods and their nyxborn emissaries. The orb is fiercely loyal to its original purpose, and will not put up with dawdling. The orb takes itself seriously, and does not make promises it can't keep."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Destroying the Orb",
+	        		"entries":[
+	        			"The orb can only be destroyed by a blow from a mythical weapon wielded by a deity (or a creature with the blessing of the deity), such as {@item Khrusor, Spear of Heliod|mot|Khrusor} or {@item Mastix, Whip of Erebos|mot|Mastix}."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
+	        		"name":"Curse",
+	        		"entries":[
+	        			"While attuned to the orb, your piety to all deities becomes 0 and you can no longer gain any piety. As far as the gods are concerned, you no longer exist."
+	        		]
+	        	}
+	        ],
+	        "attachedSpells":[
+	        	"crusader's mantle",
+	        	"find the path",
+	        	"nondetection",
+	        	"silence",
+	        	"speak with dead"
+	        ]
+	    }
+	]
+}
+

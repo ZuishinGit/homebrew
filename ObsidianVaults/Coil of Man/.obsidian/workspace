@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Encounters/Underworld Sentinels.md",
+            "file": "Matriarch's Grotto.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Encounters/Underworld Sentinels.md",
+            "file": "Matriarch's Grotto.md",
             "mode": "preview"
           }
         },
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 193
   },
   "right": {
     "id": "ff025613c55d0f78",
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encounters/Underworld Sentinels.md",
+                "file": "Matriarch's Grotto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encounters/Underworld Sentinels.md"
+                "file": "Matriarch's Grotto.md"
               }
             }
           }
@@ -111,15 +111,15 @@
   },
   "active": "0c2dbd7ef59dc31c",
   "lastOpenFiles": [
-    "Encounters/Underworld Sentinels.md",
-    "Encounters/Basidirond Grove.md",
-    "Dungeons/Traveling Tower of Kruu'Gal.md",
+    "Matriarch's Grotto.md",
+    "Agonas.md",
+    "matriarch's grotto.md",
     "Saprophytic Isles.md",
-    "Zuggtmoy.md",
-    "Tartyx River.md",
-    "Dungeons/Olivier's Haunted Mansion.md",
-    "Dungeons/Olivier's Haunted Mansion 1.md",
-    "Untitled.md",
-    "Dungeons/Untitled.md"
+    "Nerono.md",
+    "Phylias.md",
+    "Templates/Pasted image 20211002204129.png",
+    "Pasted image 20211002192537.png.md",
+    "Templates/Pasted image 20211002192537.png",
+    "Templates/Pasted image 20211002192535.png"
   ]
 }

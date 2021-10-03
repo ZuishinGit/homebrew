@@ -2942,7 +2942,7 @@
 				}
 			],
 			"entries": [
-				"{@homebrew Your next attack roll is can not be affected by disadvantage, and} the next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra {@damage 2d6} radiant damage to the target, which becomes visible if it's {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends."
+				"{@homebrew Your next attack roll can not be affected by disadvantage, and} the next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra {@damage 2d6} radiant damage to the target, which becomes visible if it's {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3035,161 +3035,6 @@
 					"source": "MTF",
 					"baseName": "Tiefling",
 					"baseSource": "PHB"
-				}
-			]
-		},
-		{
-			"name": "Aura of Life (Revised)",
-			"source": "ZRC",
-			"level": 4,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "radius",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					}
-				}
-			],
-			"entries": [
-				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
-			],
-			"damageResist": [
-				"necrotic"
-			],
-			"miscTags": [
-				"HL"
-			],
-			"areaTags": [
-				"S"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Paladin",
-						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying",
-							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Twilight (UA)",
-							"source": "UAClericDruidWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Druid",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Wildfire (UA)",
-							"source": "UAClericDruidWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undead (UA)",
-							"source": "UA2020SubclassesPt4"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Twilight",
-							"source": "TCE"
-						}
-					},
-					{
-						"class": {
-							"name": "Druid",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Wildfire",
-							"source": "TCE"
-						}
-					}
-				],
-				"fromClassListVariant": [
-					{
-						"name": "Cleric",
-						"source": "PHB",
-						"definedInSource": "UAClassFeatureVariants"
-					},
-					{
-						"name": "Cleric",
-						"source": "PHB",
-						"definedInSource": "TCE"
-					}
-				]
-			},
-			"races": [
-				{
-					"name": "Halfling (Mark of Healing)",
-					"source": "ERLW",
-					"baseName": "Halfling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Human (Mark of Handling)",
-					"source": "ERLW",
-					"baseName": "Human",
-					"baseSource": "PHB"
-				}
-			],
-			"backgrounds": [
-				{
-					"name": "Selesnya Initiate",
-					"source": "GGR"
 				}
 			]
 		},
@@ -3634,6 +3479,21 @@
 	    		"Starting when you choose this path at 3rd level, {@homebrew you can expend a hit die to} go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. {@homebrew |When your rage ends, you suffer one level of {@condition exhaustion}.}"
 	    	]
 	    },
+	    {
+	    			"name": "Intimidating Presence (Revised)",
+	    			"source": "ZRC",
+	    			"className": "Barbarian",
+	    			"classSource": "PHB",
+	    			"subclassShortName": "Berserker (Revised)",
+	    			"subclassSource": "ZRC",
+	    			"level": 10,
+	    			"header": 2,
+	    			"entries": [
+	    				"Beginning at 10th level, you can {@homebrew frighten those around you|use your action to frighten someone} with your menacing presence. {@homebrew When you enter a frenzy, you can force each creature of your choice to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.|When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.}",
+	    				"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
+	    				"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+	    			]
+	    		},
 	    {
 	    	"name": "Arcane Archer (Revised)",
 	    	"source": "ZRC",
