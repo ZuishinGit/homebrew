@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "77b3224974521f8a",
+        "id": "0c68dfe6b3a2b279",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventure Paths/Cabarin's Corrupted.md",
+            "file": "Session Planner/Encounters/Dune Reaper Pack.md",
             "mode": "source"
           }
         },
-        "group": "51543db7fe6e0c01"
+        "group": "a7c7166464ee3ba0"
       },
       {
-        "id": "479cbc00ad180f30",
+        "id": "85828890e3a53418",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventure Paths/Cabarin's Corrupted.md",
+            "file": "Session Planner/Encounters/Dune Reaper Pack.md",
             "mode": "preview"
           }
         },
-        "group": "51543db7fe6e0c01"
+        "group": "a7c7166464ee3ba0"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventure Paths/Cabarin's Corrupted.md"
+                "file": "Session Planner/Encounters/Dune Reaper Pack.md"
               }
             }
           },
@@ -93,24 +93,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 222.4999542236328
   },
-  "active": "77b3224974521f8a",
+  "active": "85828890e3a53418",
   "lastOpenFiles": [
-    "Adventure Paths/Cabarin's Corrupted.md",
+    "Session Planner/Encounters/Dune Reaper Pack.md",
+    "Session Planner/Dungeons/Tharizdunian Dungeon Part 2.md",
     "Places/Duchy of Alrinh/Shar Overview.md",
+    "Places/Duchy of Alrinh/Kinsey Overview.md",
+    "Session Planner/Dungeons/Olivier's Haunted Mansion.md",
+    "General/Dungeon Design.md",
+    "Adventure Paths/Cabarin's Corrupted.md",
     "Adventure Paths/Cara.md",
     "Visia/Framing Events.md",
-    "Visia/World-Charting.md",
-    "Adventure Paths/Untitled.md",
-    "Barithiel.md",
-    "Visia/Untitled.md",
-    "General/World-Charting.md",
-    "Places/Duchy of Alrinh/Kinsey Overview.md"
+    "Visia/World-Charting.md"
   ]
 }
