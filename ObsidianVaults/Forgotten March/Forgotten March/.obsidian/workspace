@@ -4,22 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e2eea08c1aeb09dc",
+        "id": "77b3224974521f8a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Adventure Paths/Cabarin's Corrupted.md",
+            "mode": "source"
+          }
         },
-        "group": "1eb390b235758f60"
+        "group": "51543db7fe6e0c01"
       },
       {
-        "id": "9cf8f9a3e6635f2a",
+        "id": "479cbc00ad180f30",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Adventure Paths/Cabarin's Corrupted.md",
+            "mode": "preview"
+          }
         },
-        "group": "1eb390b235758f60"
+        "group": "51543db7fe6e0c01"
       }
     ],
     "direction": "vertical"
@@ -29,7 +35,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb984969e967600",
+        "id": "bc7d13145c52a9a4",
         "type": "tabs",
         "children": [
           {
@@ -39,7 +45,21 @@
               "type": "file-explorer",
               "state": {}
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 167.0036334991455
+  },
+  "right": {
+    "id": "0f106de35ea611cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaf4dd5d55192686",
+        "type": "tabs",
+        "children": [
           {
             "id": "ad3acbc71c95cd78",
             "type": "leaf",
@@ -54,35 +74,23 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "0f106de35ea611cb",
-    "type": "split",
-    "children": [
-      {
-        "id": "eaf4dd5d55192686",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "7566e4a79376a769",
+            "id": "c71e1bb0db27bc89",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "Adventure Paths/Cabarin's Corrupted.md"
               }
+            }
+          },
+          {
+            "id": "ca78b577a8bae37b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -92,17 +100,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2eea08c1aeb09dc",
+  "active": "77b3224974521f8a",
   "lastOpenFiles": [
-    "Items/Untitled.md",
-    "Session Planner/Dungeons/Tharizdunian Dungeon Part 2.md",
-    "Places/Shar.md",
-    "Places/Oasis.md",
-    "Places/Wyrmdoom Gorge.md",
-    "Untitled.md",
-    "General/Dungeon Design.md",
-    "Places/Untitled.md",
-    "Session Planner/Dungeons/Olivier's Haunted Mansion.md",
-    "People/Azzazn.md"
+    "Adventure Paths/Cabarin's Corrupted.md",
+    "Places/Duchy of Alrinh/Shar Overview.md",
+    "Adventure Paths/Cara.md",
+    "Visia/Framing Events.md",
+    "Visia/World-Charting.md",
+    "Adventure Paths/Untitled.md",
+    "Barithiel.md",
+    "Visia/Untitled.md",
+    "General/World-Charting.md",
+    "Places/Duchy of Alrinh/Kinsey Overview.md"
   ]
 }
