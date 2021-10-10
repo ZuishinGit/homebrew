@@ -31,5 +31,12 @@ In response, Norman Mocsudom heightens security measures and notifies the party 
 >
 > "Please keep an eye out for this would-be assassin. If this is the Theocracy, then your lives may be in danger too. You are hereby dismissed."
 
-## Uncovering the Assassin
+## Discovering the Assassin
 
+There are three avenues of discovering the assassin's identity:
+- Asking people
+	- Citizens if they have seen someone suspicious
+	- Smiths in the area if they have seen a dagger
+	- Worshippers of Zehir
+- Searching Mocsudom's chambers
+- Speaking with the dead guards
