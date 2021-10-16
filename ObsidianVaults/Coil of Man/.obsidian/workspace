@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0c2dbd7ef59dc31c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Saprophytic Isles.md",
-            "mode": "source"
-          }
-        },
-        "group": "9603d28594342c60"
-      },
-      {
         "id": "49006b07fb2e8192",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Saprophytic Isles.md",
+            "file": "Session Planner/Session 1.md",
+            "mode": "source"
+          }
+        },
+        "group": "dcf5a1e7c0049062"
+      },
+      {
+        "id": "241800809de3d910",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Session Planner/Session 1.md",
             "mode": "preview"
           }
         },
-        "group": "9603d28594342c60"
+        "group": "dcf5a1e7c0049062"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Saprophytic Isles.md",
+                "file": "Session Planner/Session 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,28 +98,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Saprophytic Isles.md"
+                "file": "Session Planner/Session 1.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "0c2dbd7ef59dc31c",
+  "active": "49006b07fb2e8192",
   "lastOpenFiles": [
-    "Saprophytic Isles.md",
+    "Session Planner/Session 1.md",
     "Agonas.md",
     "Matriarch's Grotto.md",
-    "matriarch's grotto.md",
+    "Session Planner/Untitled.md",
     "Nerono.md",
     "Phylias.md",
+    "Saprophytic Isles.md",
+    "matriarch's grotto.md",
     "Templates/Pasted image 20211002204129.png",
-    "Pasted image 20211002192537.png.md",
-    "Templates/Pasted image 20211002192537.png",
-    "Templates/Pasted image 20211002192535.png"
+    "Pasted image 20211002192537.png.md"
   ]
 }

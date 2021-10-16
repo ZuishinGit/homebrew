@@ -3,7 +3,7 @@
 Hidden away in the royal ward of [[Shar Overview|Shar]] is a group known as Cabarin's Corrupted. Lead by [[Cabarin]], a nagpa who wishes to accelerate the calamity that is predicted to befall the world by the next new moon. He is aided by a Zehir assassin named [[Eveus]], and a host of nobles that [[Cabarin]] himself has schmoozed over.
 
 ## Introduction
-The adventure starts with the party's triumphant return to Shar, upon which a festival is prepared. It takes only two days to fully prepare for the festival, after which it commences on the dusk of the following day.
+The adventure starts with the party's triumphant return to Shar, upon which a festival is prepared. It takes only one day to fully prepare for the festival, after which it commences on the dusk of the following day.
 
 ### Festival of the March
 
@@ -38,5 +38,16 @@ There are three avenues of discovering the assassin's identity:
 	- Citizens if they have seen someone suspicious
 	- Smiths in the area if they have seen a dagger
 	- Worshippers of Zehir
-- Searching Mocsudom's chambers
-- Speaking with the dead guards
+
+***Asking Locals.*** Depending on the ward they ask around, the characters find out different information:
+Dock Ward:
+- 
+
+Gantry Ward:
+- A number of peasants have been seen entering and leaving an abandoned mill. 
+
+Merchant Ward:
+-
+
+Noble Ward:
+-

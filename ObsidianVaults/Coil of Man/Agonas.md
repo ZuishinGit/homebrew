@@ -1,6 +1,6 @@
 > Agonas, the last home of warriors and fallen soldiers who died without honor, as well as the souls of cowards, mercenaries, and others who lived by sword or dagger. You can feintly hear the cries of pain and triumph echo on the frigid wind.
 >
-> This bleak, rocky expanse seems endless. Over the ridges and canyons, miles away, you can see a titanic, rusting chain coming from the sky above, from which hangs a massive, cruel-looking, circular palace of dark stone. It looms over a clutter of ruinous structures, all lost to time.
+> This bleak, rocky expanse seems endless. Over the ridges and canyons, miles away, you can see a titanic, rusting chain coming from the sky above, from which hangs a massive, cruel-looking, circular palace of dark stone. It looms over a clutter of ruinous structures and earthen spires.
 > 
 > You can see, about 200 feet away, 3 hulking figures covered in scraps of dark clothing that billow in the wind. All of them are at least twice your size, and can be seen shambling towards you.
 
@@ -62,12 +62,12 @@ Num | Feature
 
 ***Theater of Despair.*** A large, white ampitheater carved from the skull of a giant.
 If the characters wish to see the play:
-> At the center of the ampitheater, it seems a drama is underway. A man donning a golden mask and wearing a gleaming  stands above a makeshift bed, sprawled upon the bed is a man who is obviously dressed like a woman, wearing a wig and a woman's dress.
+> At the center of the ampitheater, it seems a drama is underway. A man donning a golden mask stands above a makeshift bed, sprawled upon the bed is a man who is obviously dressed like a woman, wearing a wig and a woman's dress.
 >
 > The masked man says 
 > "With great sorrow, princess, I bid thee farewell. This will be the first murder of our new empire, and I will see to it that it is in the name of justice". 
 > 
-> The crossdressing man on the bed looks like he is in some kind of stupor, and tries to respond but can't get the words out of his mouth. In that moment, the masked man takes out a bejewelled dagger and rushes to plunge it into the stupefied actor. The man's blood stains the bed's white sheets and the previously silent crowd erupts into cheers and applause as the masked man does a short bow and then slowly walks out of view — behind the ampitheater walls.
+> The crossdressing man on the bed looks like he is in some kind of stupor, and tries to respond but can't get the words out of his mouth. In that moment, the masked man takes out a jewel-encrusted dagger and rushes to plunge it into the stupefied actor. The man's blood stains the bed's white sheets and the previously silent crowd erupts into cheers and applause as the masked man does a short bow and then slowly walks out of view — behind the ampitheater walls.
 
 If the characters linger, they see the clean-up crew consisting of a host of ghouls that begin to consume the corpse and remove the makeshift bed.
 

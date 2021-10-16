@@ -15,12 +15,11 @@ NPC|Race|Occupation
 [[Erik "Patch" Steiner]]|Human (Male)|Leader of the Questers Young
 [[Bell]]|Kenku (Female)|Town crier and sower of rumours
 
-
-
 ---
 
 ```mermaid
-pie title Ancestries in Shar
+pie 
+title Ancestries in Shar
  "Human" : 60
  "Halfling" : 30
  "Other" : 10

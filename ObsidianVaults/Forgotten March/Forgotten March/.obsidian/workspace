@@ -6,10 +6,11 @@
       {
         "id": "0c68dfe6b3a2b279",
         "type": "leaf",
+        "dimension": 48.29991281604184,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Encounters/Dune Reaper Pack.md",
+            "file": "General/Dungeon Design.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "85828890e3a53418",
         "type": "leaf",
+        "dimension": 51.70008718395816,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Encounters/Dune Reaper Pack.md",
+            "file": "General/Dungeon Design.md",
             "mode": "preview"
           }
         },
@@ -50,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 167.0036334991455
+    "width": 290
   },
   "right": {
     "id": "0f106de35ea611cb",
@@ -81,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session Planner/Encounters/Dune Reaper Pack.md"
+                "file": "General/Dungeon Design.md"
               }
             }
           },
@@ -98,19 +100,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.4999542236328
+    "width": 225.49990844726562
   },
   "active": "85828890e3a53418",
   "lastOpenFiles": [
-    "Session Planner/Encounters/Dune Reaper Pack.md",
-    "Session Planner/Dungeons/Tharizdunian Dungeon Part 2.md",
+    "General/Dungeon Design.md",
+    "General/Mystery Design.md",
+    "General/Untitled.md",
+    "Adventure Paths/Cabarin's Corrupted.md",
     "Places/Duchy of Alrinh/Shar Overview.md",
     "Places/Duchy of Alrinh/Kinsey Overview.md",
-    "Session Planner/Dungeons/Olivier's Haunted Mansion.md",
-    "General/Dungeon Design.md",
-    "Adventure Paths/Cabarin's Corrupted.md",
-    "Adventure Paths/Cara.md",
-    "Visia/Framing Events.md",
-    "Visia/World-Charting.md"
+    "Visia/World-Charting.md",
+    "Items/Efreeti Staff.md",
+    "Session Planner/Dungeons/Tharizdunian Dungeon Part 2.md",
+    "Templates/Indifferent.md"
   ]
 }
