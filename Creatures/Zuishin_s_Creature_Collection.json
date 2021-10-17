@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.137.1",
+	"siteVersion": "1.139.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1633294527,
-		"dateLastModified": 1633294527
+		"dateAdded": 1634503406,
+		"dateLastModified": 1634503406
 	},
 	"monster": [
 		{
@@ -12041,9 +12041,9 @@
 					]
 				},
 				{
-					"name": "Heated Body (Azer)",
+					"name": "Heated Body",
 					"entries": [
-						"A creature that touches King Snurre or hits him with a melee attack while within 5 feet of it takes 14 ({@damage 4d6}) fire damage."
+						"A creature that touches King Snurre or hits him with a melee attack while within 5 feet of him takes 14 ({@damage 4d6}) fire damage."
 					]
 				}
 			],
@@ -12051,7 +12051,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"King Snurre can use his Cinder Breath if available, and then makes up to two melee attacks."
+						"King Snurre makes up to two melee attacks."
 					]
 				},
 				{
@@ -12071,7 +12071,9 @@
 					"entries": [
 						"{@atk mw} {@hit 13} to hit, reach 0 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage, and the creature is knocked {@condition prone}, and becomes {@condition restrained} until King Snurre moves. If this attack hits a creature that is already {@condition prone}, then that creature must also succeed on a {@dc 19} Constitution saving throw or have to roll on the {@table Massive Damage; System Shock|dmg|system shock} table."
 					]
-				},
+				}
+			],
+			"bonus": [
 				{
 					"name": "Cinder Breath {@recharge 6}",
 					"entries": [
@@ -12457,7 +12459,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Priados is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following paladin spells prepared:"
+						"Priados is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following paladin spells prepared:"
 					],
 					"daily": {
 						"1": [
@@ -12470,6 +12472,29 @@
 						]
 					},
 					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Vestigial Demon",
+					"headerEntries": [
+						"Priados has a vestigial demon attached to his body that allows him to cast additional spells using his spell save DC and spellcasting ability. Priados can cast the following spells, requiring no material components:"
+					],
+					"footerEntries": [
+						"Once per turn, a creature that attacks Priados can target the vestigial demon. The attacker has disadvantage on the attack roll. On a hit, the attack does an extra 5 ({@dice 1d10}) damage to Priados. If the vestigial demon takes 10 or more damage in a single turn, this spellcasting trait is disabled until the end of Priados' next turn."
+					],
+					"will": [
+						"{@spell ray of frost}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dimension door}"
+						],
+						"3e": [
+							"{@spell blindness/deafness}",
+							"{@spell command}",
+							"{@spell dissonant whispers}"
+						]
+					},
 					"type": "spellcasting"
 				}
 			],
@@ -12491,25 +12516,53 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Priados makes three attacks with his rapier or his shortbow."
+						"Priados makes three attacks with his rapier, or he casts one spell from his Vestigial Demon trait and makes one rapier attack."
 					]
 				},
 				{
-					"name": "Frost Brand Rapier",
+					"name": "Rapier",
 					"entries": [
 						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus an additional 3 ({@damage 1d6}) cold damage."
 					]
 				},
 				{
-					"name": "Shortbow",
+					"name": "Rapier (Holy Weapon)",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, plus 3 ({@damage 1d6}) cold damage, plus an additional 9 ({@damage 2d8}) radiant damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Priados adds 5 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
 					]
 				},
 				{
-					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+					"name": "Vestigial Retribution",
 					"entries": [
-						"Priados exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} for 1 minute. If a {@condition frightened} target ends its turn more than 30 feet away from Priados, the target can repeat the saving throw, ending the effect on itself on a success."
+						"Priados uses his multiattack against a creature that attacks his vestigial demon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move and Strike",
+					"entries": [
+						"Priados moves up to half his speed without provoking attacks of opportunity and makes one rapier attack."
+					]
+				},
+				{
+					"name": "Vestigial Demon",
+					"entries": [
+						"Priados casts one cantrip granted to him by the vestigial demon."
+					]
+				},
+				{
+					"name": "Bend Light (Costs 2 Actions; Recharge 5-6)",
+					"entries": [
+						"Priados goes {@condition invisible} until the end of his next turn."
 					]
 				}
 			],
@@ -12545,7 +12598,8 @@
 				"url": "https://5etools-mirror-1.github.io/audio/bestiary/blackguard.mp3"
 			},
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Parry"
 			],
 			"languageTags": [
 				"C",
@@ -12560,12 +12614,7 @@
 				"CP"
 			],
 			"miscTags": [
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"conditionInflict": [
-				"frightened"
+				"MW"
 			],
 			"conditionInflictSpell": [
 				"blinded",
@@ -12758,32 +12807,184 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		}
-	],
-	"legendaryGroup": [
-		{
-			"name": "Acantha",
-			"source": "ZCC",
-			"lairActions": [
-				"When fighting inside her grove of horrors, Acantha can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), Acantha takes a lair action to cause one of the following effects:",
-				{
-					"type": "list",
-					"items": [
-						"Acantha casts the {@spell entangle} spell. While maintaining concentration on this effect, Acantha can't take other lair actions.",
-						"Acantha summons {@dice 1d4+1} {@creature blight minion|zcc|blight minions} in unoccupied spaces that she can see within 120 feet of her.",
-						"Poisonous spores fill a 10-foot cube that Acantha can see within 120 feet of her. Any creature that enters the cloud for the first time on a turn or starts its turn there must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn. The cloud lasts for 1 minute or until it is dispersed by a strong wind."
-					]
-				}
-			]
 		},
 		{
-			"name": "King Snurre",
+			"name": "Eveus",
+			"shortName": "assassin",
+			"isNpc": true,
 			"source": "ZCC",
-			"lairActions": [
-				"A {@creature hell hound} that King Snurre can see immediately recharge and uses their fire breath.",
-				"{@dice 1d4} 10-foot-square pools of lava begin to rise from the floor in areas that King Snurre can see, and remain there for 1 minute. A creature that starts its turn in the pool of lava must succeed a {@dc 15} Dexterity saving throw or take 22 ({@damage 4d10}) fire damage.",
-				"King Snurre casts {@spell immolation|xge} (no components required; Save {@dc 15}) on a creature he can see within 90 feet. While he maintains concentration on this effect, King Snurre can't take other lair actions."
-			]
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 19,
+			"con": 14,
+			"int": 13,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+9",
+				"int": "+6"
+			},
+			"skill": {
+				"acrobatics": "+9",
+				"deception": "+5",
+				"perception": "+5",
+				"stealth": "+14"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Halfling",
+				"Thieves' cant"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eveus can cast the following spells using Wisdom as her spellcasting ability (spell save {@dc 15}), requiring no material components:"
+					],
+					"will": [
+						"{@spell darkness}"
+					],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The assassin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the assassin's darkvision."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Eveus is attuned to a {@item eldritch claw tattoo|tce}, accounted for in her statistics."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two rapier attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Darkness (Costs 2 Actions)",
+					"entries": [
+						"Eveus casts the {@spell darkness} spell, requiring no material components."
+					]
+				},
+				{
+					"name": "Maneuver",
+					"entries": [
+						"Eveus moves up to half her speed without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"Eveus makes a rapier attack."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Assassin",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Assassin.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/assassin.mp3"
+			},
+			"traitTags": [
+				"Devil's Sight"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"H",
+				"TC"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true
 		}
 	]
 }
