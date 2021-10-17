@@ -34,3 +34,21 @@ The elevator-platforms meant for spectators will rise into one of the four vesti
 Spectating:
 
 > You peer out from one of the large arched openings that face the arena grounds just in time to witness the final moments of a battle between a large, wrinkled abomination with four stout trunks for legs, and 3 long arms that end in vicious claws. In a flourishing display, a duo of headless dwarves with warpicks flank either side of the monster and bring it to the ground before lodging their pickaxes in its face. The crowd erupts into a cheer that rattles the arena, and you can almost feel it swinging under your feet.
+
+### Finding Theriatis
+
+The players have a few options to get Theriatis' attention.
+- Asking around the pyxis (DC 17 Investigation)
+- Fighting in the arena
+- Challenging Priados
+- Using the *Orb of Impiety*
+- Spotting him with a DC 25 Perception check
+
+### Talking to Theriatis
+
+Theriatis has once made a trip to the material world, though to his dismay, he has since returned to the underworld. He had used Erebos' portal, Lathos, which he had been granted access to as part of his dealings as a Vol.
+
+Here is a summary of what he knows about escaping the underworld:
+- Lathos, Erebos' portal to the material plane
+- The Path of Phenax, which he is mostly uninformed of
+- The dreamwalker coven, a trio of eyeless oracles that live in Tizerus' mire of punishment
