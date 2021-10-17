@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "49006b07fb2e8192",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Session Planner/Session 1.md",
-            "mode": "source"
-          }
-        },
-        "group": "dcf5a1e7c0049062"
-      },
-      {
         "id": "241800809de3d910",
         "type": "leaf",
         "state": {
@@ -24,8 +12,7 @@
             "file": "Session Planner/Session 1.md",
             "mode": "preview"
           }
-        },
-        "group": "dcf5a1e7c0049062"
+        }
       }
     ],
     "direction": "vertical"
@@ -109,7 +96,7 @@
     "direction": "horizontal",
     "width": 178.4999542236328
   },
-  "active": "49006b07fb2e8192",
+  "active": "241800809de3d910",
   "lastOpenFiles": [
     "Session Planner/Session 1.md",
     "Agonas.md",
