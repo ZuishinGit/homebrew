@@ -164,7 +164,7 @@
 	    	"dmg2": "1d10",
 	    	"entries":[
 	    		"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
-	    		"When you hit a creature of flesh and blood with this weapon, the attack deals an additional {@damage 1d8} bludgeoning damage.",
+	    		"When you hit a creature of flesh and blood with this weapon, the attack deals an additional {@damage 1d8} bludgeoning damage."
 	    	]
 	    },
 	    {
@@ -203,12 +203,8 @@
 	    		}
 	    	},
 	    	"entries": [
-	    		"You gain a +1 bonus to AC and saving throws while you wear this cloak. Additionally, while the cloak has its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.",
+	    		"You gain a +1 bonus to AC and saving throws while you wear this cloak. Additionally, while the cloak has its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action."
 	    	]
-	    },
-	    {
-	    	"name":"Venomer's Dagger",
-	    	"source":"ZMF",
 	    },
 	    {
 	    	"name": "Venomer's Dagger",
