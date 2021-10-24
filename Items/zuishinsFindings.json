@@ -61,6 +61,13 @@
 	        	},
 	        	{
 	        		"type":"entries",
+	        		"name":"Nyxbane",
+	        		"entries":[
+	        			"Whenever you deal damage to a nyxborn creature, its magic resistance trait is disabled until the end of your next turn."
+	        		]
+	        	},
+	        	{
+	        		"type":"entries",
 	        		"name":"Command Nyxborn",
 	        		"entries":[
 	        			"While holding the orb, you can use an action to cast the {@spell dominate monster} spell on a nyxborn target (save DC 18). The spell fails if the target is not nyxborn. In either case, you can't use this property again until the next dawn."
@@ -103,6 +110,131 @@
 	        	"silence",
 	        	"speak with dead"
 	        ]
+	    },
+	    {
+	    	"name": "+2 Wrappings",
+	    	"source": "ZMF",
+	    	"rarity": "rare",
+	    	"tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries":[
+	        	"While wearing these linen wrappings, you have a +2 bonus to attack and damage rolls made with unarmed attacks."
+	        ]
+	    },
+	    {
+	    	"name":"Bracers of Might",
+	    	"source":"ZMF",
+	    	"rarity":"rare",
+	    	"tier":"major",
+	    	"reqAttune":true,
+	    	"wondrous":true,
+	    	"entries":[
+	    		"When you attack an object while wearing these bracers and hit, maximize your weapon damage dice against the target.",
+	    		"While wearing these bracers, you can use a bonus action to enlarge for 1 minute, gaining the effects of an {@spell enlarge/reduce} spell on yourself. You can end the effect as a bonus action.",
+	    		"Once this property is used, it can't be used again until the next dawn."
+	    	]
+	    },
+	    {
+	    	"name":"Leech Dust",
+	    	"source":"ZMF",
+	    	"rarity":"rare",
+	    	"tier":"minor",
+	    	"wondrous":true,
+	    	"entries":[
+	    		"This pouch contains a powder that resembles very fine black sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a {@dc 15} Constitution saving throw or gain 3 levels of exhaustion. The dust can not bestow more than 3 levels of exhaustion this way. The {@condition exhaustion|phb|exhausted} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The effect can also be ended by the {@spell greater restoration}, {@spell dispel magic}, or a sprinkling of {@item holy water (flask)|phb|holy water}."
+	    	]
+	    },
+	    {
+	    	"name":"Tenderizer",
+	    	"source":"ZMF",
+	    	"rarity":"very rare",
+	    	"tier":"major",
+	    	"type":"M",
+	    	"baseItem":"warhammer|phb",
+	    	"bonusWeapon":"+2",
+	    	"weight":3,
+	    	"reqAttune": true,
+	    	"weaponCategory":"martial",
+	    	"property":[
+	    		"V"
+	    	],
+	    	"dmg1": "1d8",
+	    	"dmgType": "B",
+	    	"dmg2": "1d10",
+	    	"entries":[
+	    		"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+	    		"When you hit a creature of flesh and blood with this weapon, the attack deals an additional {@damage 1d8} bludgeoning damage.",
+	    	]
+	    },
+	    {
+	    	"name": "Longsword of Speed",
+	    	"source": "ZMF",
+	    	"baseItem": "longsword|phb",
+	    	"type": "M",
+	    	"tier": "major",
+	    	"rarity": "very rare",
+	    	"reqAttune": true,
+	    	"weight": 3,
+	    	"weaponCategory": "martial",
+	    	"property": [
+	    		"V"
+	    	],
+	    	"dmg1": "1d8",
+	    	"dmgType": "S",
+	    	"dmg2": "1d10",
+	    	"bonusWeapon": "+1",
+	    	"entries": [
+	    		"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns."
+	    	]
+	    },
+	    {
+	    	"name": "Eveus' Cloak",
+	    	"source": "ZMF",
+	    	"tier": "major",
+	    	"rarity": "rare",
+	    	"reqAttune": true,
+	    	"wondrous": true,
+	    	"bonusAc": "+1",
+	    	"bonusSavingThrow": "+1",
+	    	"modifySpeed": {
+	    		"static": {
+	    			"swim": 60
+	    		}
+	    	},
+	    	"entries": [
+	    		"You gain a +1 bonus to AC and saving throws while you wear this cloak. Additionally, while the cloak has its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.",
+	    	]
+	    },
+	    {
+	    	"name":"Venomer's Dagger",
+	    	"source":"ZMF",
+	    },
+	    {
+	    	"name": "Venomer's Dagger",
+	    	"source": "ZMF",
+	    	"baseItem": "dagger|phb",
+	    	"type": "M",
+	    	"tier": "major",
+	    	"rarity": "rare",
+	    	"weight": 1,
+	    	"weaponCategory": "simple",
+	    	"property": [
+	    		"F",
+	    		"L",
+	    		"T"
+	    	],
+	    	"range": "20/60",
+	    	"dmg1": "1d4",
+	    	"dmgType": "P",
+	    	"bonusWeapon": "+1",
+	    	"entries": [
+	    		"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+	    		"While wielding the dagger, you can cast the {@spell darkness} spell as an action. Additionally, as a bonus action you may free yourself from any grapple, shackles, or other restraints by shedding your skin. You can use the dagger to shed your skin in this way once per day, regaining its use daily at dawn."
+	    	],
+	    	"attachedSpells":[
+	    		"darkness"
+	    	]
 	    }
 	]
 }
