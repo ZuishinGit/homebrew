@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "241800809de3d910",
+        "id": "2460fcb7eca1b759",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Session 1.md",
+            "file": "Agonas.md",
+            "mode": "source"
+          }
+        },
+        "group": "a6cc0449104085d7"
+      },
+      {
+        "id": "10fcf8f8801280a7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Agonas.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "a6cc0449104085d7"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session Planner/Session 1.md",
+                "file": "Agonas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session Planner/Session 1.md"
+                "file": "Agonas.md"
               }
             }
           }
@@ -96,17 +109,17 @@
     "direction": "horizontal",
     "width": 178.4999542236328
   },
-  "active": "241800809de3d910",
+  "active": "10fcf8f8801280a7",
   "lastOpenFiles": [
-    "Session Planner/Session 1.md",
     "Agonas.md",
+    "Session Planner/Session 1.md",
     "Matriarch's Grotto.md",
-    "Session Planner/Untitled.md",
     "Nerono.md",
     "Phylias.md",
     "Saprophytic Isles.md",
-    "matriarch's grotto.md",
-    "Templates/Pasted image 20211002204129.png",
-    "Pasted image 20211002192537.png.md"
+    "Encounters/Underworld Sentinels.md",
+    "Encounters/Basidirond Grove.md",
+    "Session Planner/Untitled.md",
+    "matriarch's grotto.md"
   ]
 }

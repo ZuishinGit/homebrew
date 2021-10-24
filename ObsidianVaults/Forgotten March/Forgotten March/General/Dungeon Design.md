@@ -74,3 +74,80 @@ Things to include in a dungeon:
 - Loop-around
 - Use vehicles and mechanisms that trivialize retraversal
 - Incorporate shortcuts and backdoors
+	
+### Appendix A: Sample 5-Room Dungeons
+
+###### The Railroad
+
+```mermaid
+flowchart LR
+
+ A[Entrance] --> B[Puzzle] --> C[Setback] --> D[Boss] --> E[Reward]
+```
+###### The Rooster
+
+```mermaid
+flowchart LR
+
+ A[Entrance] --> B[Setback] --> C[Puzzle]
+B --> D[Boss]
+B --> E[Reward]
+```
+###### The Cross
+
+```mermaid
+flowchart LR
+
+A[Entrance]
+B[Puzzle]
+C[Setback]
+D[Boss]
+E[Reward]
+
+A<-->B
+A<-->C
+A<-->D
+A<-->E
+```
+
+###### The Mighty Duck
+
+```mermaid
+flowchart LR
+
+A[Entrance]
+B[Puzzle]
+C[Setback]
+D[Boss]
+E[Reward]
+	
+A-->B-->E
+A-->C-->D
+```
+###### The Decision
+
+```mermaid
+flowchart LR
+
+A[Entrance]
+B[Puzzle]
+C[Setback]
+D[Boss]
+E[Reward]
+	
+A-->B-->D-->C
+D-->E
+```
+###### The Wrong Way
+
+```mermaid
+flowchart LR
+
+A[Entrance]
+B[Puzzle]
+C[Setback]
+D[Boss]
+E[Reward]
+
+C<-->A-->B-->D-->E
+```

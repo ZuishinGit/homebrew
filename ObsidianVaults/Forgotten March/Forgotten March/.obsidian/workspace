@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0c68dfe6b3a2b279",
-        "type": "leaf",
-        "dimension": 48.29991281604184,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "General/Dungeon Design.md",
-            "mode": "source"
-          }
-        },
-        "group": "a7c7166464ee3ba0"
-      },
-      {
         "id": "85828890e3a53418",
         "type": "leaf",
-        "dimension": 51.70008718395816,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "General/Dungeon Design.md",
+            "file": "Places/Duchy of Alrinh/Shar Overview.md",
             "mode": "preview"
           }
-        },
-        "group": "a7c7166464ee3ba0"
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/Dungeon Design.md"
+                "file": "Places/Duchy of Alrinh/Shar Overview.md"
               }
             }
           },
@@ -104,11 +89,11 @@
   },
   "active": "85828890e3a53418",
   "lastOpenFiles": [
+    "Places/Duchy of Alrinh/Shar Overview.md",
+    "Adventure Paths/Cabarin's Corrupted.md",
     "General/Dungeon Design.md",
     "General/Mystery Design.md",
     "General/Untitled.md",
-    "Adventure Paths/Cabarin's Corrupted.md",
-    "Places/Duchy of Alrinh/Shar Overview.md",
     "Places/Duchy of Alrinh/Kinsey Overview.md",
     "Visia/World-Charting.md",
     "Items/Efreeti Staff.md",
