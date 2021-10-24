@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "85828890e3a53418",
+        "id": "b8e7b5b7a2351786",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Places/Duchy of Alrinh/Shar Overview.md",
+            "file": "Adventure Paths/Cabarin's Corrupted.md",
+            "mode": "source"
+          }
+        },
+        "group": "a9154289c608bcab"
+      },
+      {
+        "id": "9e241fd8397e2eb2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Adventure Paths/Cabarin's Corrupted.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "a9154289c608bcab"
       }
     ],
     "direction": "vertical"
@@ -37,7 +50,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 290,
+    "collapsed": true
   },
   "right": {
     "id": "0f106de35ea611cb",
@@ -68,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Places/Duchy of Alrinh/Shar Overview.md"
+                "file": "Adventure Paths/Cabarin's Corrupted.md"
               }
             }
           },
@@ -85,16 +99,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.49990844726562
+    "width": 225.49990844726562,
+    "collapsed": true
   },
-  "active": "85828890e3a53418",
+  "active": "b8e7b5b7a2351786",
   "lastOpenFiles": [
-    "Places/Duchy of Alrinh/Shar Overview.md",
     "Adventure Paths/Cabarin's Corrupted.md",
+    "Places/Duchy of Alrinh/Shar Overview.md",
+    "Places/Duchy of Alrinh/Kinsey Overview.md",
     "General/Dungeon Design.md",
     "General/Mystery Design.md",
     "General/Untitled.md",
-    "Places/Duchy of Alrinh/Kinsey Overview.md",
     "Visia/World-Charting.md",
     "Items/Efreeti Staff.md",
     "Session Planner/Dungeons/Tharizdunian Dungeon Part 2.md",
