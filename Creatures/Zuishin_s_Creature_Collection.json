@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.139.0",
+	"siteVersion": "1.140.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1634503406,
-		"dateLastModified": 1634503406
+		"dateAdded": 1635055203,
+		"dateLastModified": 1635055203
 	},
 	"monster": [
 		{
@@ -12406,19 +12406,17 @@
 		{
 			"name": "Priados, Archon of Agonas",
 			"shortName": "Priados",
+			"isNpc": true,
 			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"human"
 				]
 			},
 			"alignment": [
 				"L",
-				"NX",
-				"C",
-				"NY",
 				"E"
 			],
 			"ac": [
@@ -12447,12 +12445,17 @@
 				"wis": "+7",
 				"cha": "+10"
 			},
-			"passive": 12,
+			"skill": {
+				"acrobatics": "+9",
+				"perception": "+7"
+			},
+			"passive": 17,
 			"resist": [
 				"fire"
 			],
 			"languages": [
-				"any one language (usually Common)"
+				"Common",
+				"Primordial"
 			],
 			"cr": "13",
 			"spellcasting": [
@@ -12510,6 +12513,12 @@
 					"entries": [
 						"Priados causes an attack to deal an additional 18 ({@damage 4d8}) radiant damage."
 					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Priados has advantage on saving throws against spells and other magical effects."
+					]
 				}
 			],
 			"action": [
@@ -12522,7 +12531,7 @@
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus an additional 3 ({@damage 1d6}) cold damage."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, plus an additional 3 ({@damage 1d6}) cold damage."
 					]
 				},
 				{
@@ -12548,6 +12557,12 @@
 			],
 			"legendary": [
 				{
+					"name": "Detect",
+					"entries": [
+						"Priados makes a Wisdom {@skill Perception} check."
+					]
+				},
+				{
 					"name": "Move and Strike",
 					"entries": [
 						"Priados moves up to half his speed without provoking attacks of opportunity and makes one rapier attack."
@@ -12571,25 +12586,10 @@
 				"urban"
 			],
 			"fluff": {
-				"name": "Blackguard",
-				"source": "VGM",
 				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											"Blackguards are paladins who broke their sacred oaths and now indulge their own dark ambitions. They consort with fiends and undead, and they reject all goodly things from their former lives."
-										]
-									}
-								]
-							}
-						]
-					}
+					"Design notes:",
+					"While Priados is concentrating on {@spell holy weapon|xge}, his offensive CR goes from 11 to 19. If the characters fail to thwart Holy Weapon, they will have a very difficult time.",
+					"If the characters' have no way to dispel it, they will have to rely on breaking concentration which has a 30% chance of breaking at the minimum DC. At an effective AC of 23, an attack with a +11 to hit has an 17.5% chance of hitting and breaking concentration, improved to 22.75% if the character has advantage."
 				]
 			},
 			"tokenUrl": "https://5etools-mirror-1.github.io/img/VGM/Blackguard.png",
@@ -12597,13 +12597,16 @@
 				"type": "external",
 				"url": "https://5etools-mirror-1.github.io/audio/bestiary/blackguard.mp3"
 			},
+			"traitTags": [
+				"Magic Resistance"
+			],
 			"actionTags": [
 				"Multiattack",
 				"Parry"
 			],
 			"languageTags": [
 				"C",
-				"X"
+				"P"
 			],
 			"damageTags": [
 				"C",
@@ -12811,99 +12814,87 @@
 		{
 			"name": "Eveus",
 			"shortName": "assassin",
-			"isNpc": true,
 			"source": "ZCC",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
+			"type": "humanoid",
 			"alignment": [
 				"C",
 				"E"
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 18,
 					"from": [
+						"{@item cloak of the manta ray}",
 						"{@item studded leather armor|phb}"
 					]
 				}
 			],
 			"hp": {
-				"average": 78,
-				"formula": "12d8 + 24"
+				"formula": "28d8 + 56",
+				"average": 182
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 11,
-			"dex": 19,
+			"str": 9,
+			"dex": 20,
 			"con": 14,
-			"int": 13,
-			"wis": 11,
-			"cha": 10,
+			"int": 12,
+			"wis": 9,
+			"cha": 20,
 			"save": {
-				"dex": "+9",
-				"int": "+6"
+				"con": "+6",
+				"wis": "+3"
 			},
 			"skill": {
-				"acrobatics": "+9",
-				"deception": "+5",
-				"perception": "+5",
-				"stealth": "+14"
+				"deception": "+9",
+				"stealth": "+13"
 			},
 			"senses": [
 				"darkvision 120 ft."
 			],
-			"passive": 15,
-			"resist": [
+			"passive": 9,
+			"immune": [
 				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
 			],
 			"languages": [
 				"Common",
-				"Halfling",
-				"Thieves' cant"
+				"Yuan-Ti"
 			],
-			"cr": "14",
+			"cr": "11",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Eveus can cast the following spells using Wisdom as her spellcasting ability (spell save {@dc 15}), requiring no material components:"
+						"Eveus is a 7th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She can cast the following spells:"
 					],
 					"will": [
-						"{@spell darkness}"
+						"{@spell darkness}",
+						"{@spell eldritch blast}"
 					],
-					"ability": "wis",
+					"spells": {
+						"4": {
+							"spells": [
+								"{@spell enemies abound|XGE}",
+								"{@spell shadow of moil|XGE}"
+							],
+							"slots": 2,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],
 			"trait": [
 				{
-					"name": "Evasion",
-					"entries": [
-						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-					]
-				},
-				{
-					"name": "Nimble Escape",
-					"entries": [
-						"The assassin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
-					]
-				},
-				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the assassin's darkvision."
-					]
-				},
-				{
-					"name": "Special Equipment",
-					"entries": [
-						"Eveus is attuned to a {@item eldritch claw tattoo|tce}, accounted for in her statistics."
+						"Magical darkness doesn't impede Eveus' darkvision."
 					]
 				}
 			],
@@ -12911,58 +12902,50 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The assassin makes two rapier attacks."
+						"Eveus uses Zehir's bite if available, and then can make up to two dagger attacks or three eldritch blast attacks."
 					]
 				},
 				{
-					"name": "Rapier",
+					"name": "Dagger",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) slashing damage, and the target must make a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Eldritch Blast",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 120 ft., one target. {@h}10 ({@damage 1d10 + 5}) force damage."
+					]
+				},
+				{
+					"name": "Zehir's Bite {@recharge 4}",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h} 8 ({@damage 1d6 + 5}) piercing damage plus 21 ({@damage 6d6}) psychic damage, and the creature must succeed on a {@dc 17} Wisdom saving throw or become {@condition charmed} until the end of their next turn. At the start of the {@condition charmed} creature's turns, it must move as much as its movement allows towards a creature chosen by Eveus, and use its action to make a melee attack against that creature."
 					]
 				}
 			],
-			"legendary": [
+			"bonus": [
 				{
-					"name": "Darkness (Costs 2 Actions)",
+					"name": "Essence of Ether (1/Day)",
 					"entries": [
-						"Eveus casts the {@spell darkness} spell, requiring no material components."
+						"Eveus lobs a vial of toxic gas in a space within 30 feet of her. When it impacts, it releases the toxic gas in a 10-foot-square area which lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. A creature that starts their turn in this area must make a {@dc 17} Constitution saving throw or become {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
 					]
 				},
 				{
-					"name": "Maneuver",
+					"name": "Nimble Escape",
 					"entries": [
-						"Eveus moves up to half her speed without provoking attacks of opportunity."
-					]
-				},
-				{
-					"name": "Rapier",
-					"entries": [
-						"Eveus makes a rapier attack."
+						"Eveus takes the {@action hide} or {@action disengage} actions."
 					]
 				}
 			],
-			"fluff": {
-				"name": "Assassin",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
-								]
-							}
-						]
-					}
-				]
-			},
-			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Assassin.png",
-			"soundClip": {
-				"type": "external",
-				"url": "https://5etools-mirror-1.github.io/audio/bestiary/assassin.mp3"
-			},
+			"reaction": [
+				{
+					"name": "Zehir's Rebuke (1/Day)",
+					"entries": [
+						"When Eveus becomes bloodied, she immediately recharges and uses Zehir's bite."
+					]
+				}
+			],
 			"traitTags": [
 				"Devil's Sight"
 			],
@@ -12973,18 +12956,244 @@
 				"Multiattack"
 			],
 			"languageTags": [
-				"C",
-				"H",
-				"TC"
+				"C"
 			],
 			"damageTags": [
 				"I",
-				"P"
+				"O",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"poisoned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Eveus",
+			"shortName": "assassin",
+			"source": "ZCC",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "31d8 + 62",
+				"average": 201
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 20,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 8,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Yuan-Ti"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eveus is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She has "
+					],
+					"will": [
+						"{@spell eldritch blast}"
+					],
+					"spells": {
+						"4": {
+							"spells": [
+								"{@spell enemies abound|XGE}",
+								"{@spell shadow of moil|XGE}"
+							],
+							"slots": 2,
+							"lower": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the assassin's darkvision."
+					]
+				},
+				{
+					"name": "Eldritch Mind",
+					"entries": [
+						"Eveus has advantage on Constitution saving throws made to maintain her concentration on a spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage, and the target must make a {@dc 19} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Devil's Sight"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"S"
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Grovetender",
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
 			],
-			"hasFluff": true
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "16d8 + 48",
+				"average": 120
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 17,
+			"int": 12,
+			"wis": 20,
+			"cha": 11,
+			"save": {
+				"con": "+6"
+			},
+			"skill": {
+				"medicine": "+8",
+				"nature": "+4",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Druidic plus any two languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The grovetender's spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can cast the following druid spells:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell confusion}",
+							"{@spell hold person}",
+							"{@spell jump}",
+							"{@spell plant growth}"
+						],
+						"1e": [
+							"{@spell cone of cold}",
+							"{@spell wall of thorns}",
+							"{@spell wrath of nature|XGE}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fey Traversal {@recharge 3}",
+					"entries": [
+						"The grovetender teleports up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Druid",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Druid.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Druid.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5etools-mirror-1.github.io/audio/bestiary/druid.mp3"
+			},
+			"languageTags": [
+				"DU",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
