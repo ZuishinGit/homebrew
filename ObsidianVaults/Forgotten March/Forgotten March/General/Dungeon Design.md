@@ -2,7 +2,7 @@
 
 Notes on designing a dungeon. 
 
-## <u> The 5-Room Layout<u> [^1]
+##  The 5-Room Layout [^1]
 
 [^1]: [5-room-dungeon](https://nerdsonearth.com/2017/12/5-room-dungeon/)
 
@@ -12,7 +12,7 @@ Notes on designing a dungeon.
 4. Boss Fight
 5. Reward/Twist
 
-## <u> The Checklist<u> [^2]
+##  The Checklist [^2]
 
 [^2]: [Dungeon checklist](https://goblinpunch.blogspot.com/2016/01/dungeon-checklist.html)
 
@@ -24,11 +24,8 @@ Things to include in a dungeon:
 - [ ] Something to interact or experiment with
 - [ ] Secrets that can be missed
 - [ ] Alternate paths or explorable options
-	- Use network theory to extrapolate paths
 
-## <u> Principles and Guidelines <u>
-
-### Applicable Doom Guidelines [^3]
+## Applicable Doom Guidelines [^3]
 
 [^3]: [John Romero's Level Design Rules](https://youtu.be/ptHurafdCoQ)
 
@@ -36,7 +33,7 @@ Things to include in a dungeon:
 - Design multiple secrets per level
 - Create landmarks or easily-recognizable features
 
-### Dan Taylor's 10 [^4]
+## Dan Taylor's 10 [^4]
 
 [^4]: [Ten Principles for Good Level Design](https://youtu.be/iNEe3KhMvXM)
 
@@ -52,7 +49,7 @@ Things to include in a dungeon:
 10. Provide mechanical grounding to reinforce character interaction
 
 
-### The Dungeon Master's Guide [^5]
+## The Dungeon Master's Guide [^5]
 
 [^5]: [DMG, Page 99](https://5etools-mirror-1.github.io/book.html#dmg,5,dungeons,0)
 
@@ -63,7 +60,7 @@ Things to include in a dungeon:
 - Add multiple entrances and exits
 - Add secret doors and rooms
 
-### Addressing the Retraversal Problem [^6]
+## Addressing the Retraversal Problem [^6]
 
 [^6]: [Backtracking and Level Design](https://youtu.be/-H97gCCJFXA)
 
@@ -74,8 +71,10 @@ Things to include in a dungeon:
 - Loop-around
 - Use vehicles and mechanisms that trivialize retraversal
 - Incorporate shortcuts and backdoors
-	
-### Appendix A: Sample 5-Room Dungeons
+
+---
+
+## Appendix A: Sample 5-Room Dungeons
 
 ###### The Railroad
 
@@ -151,3 +150,9 @@ E[Reward]
 
 C<-->A-->B-->D-->E
 ```
+	
+## Appendix B: Examples in Media
+	
+#### Twilight Princess — Hub Linearity
+Dungeons in *Twilight Princess* often follow the style of entering a hub, facing a challenge, and progressing linearly as each path successively unlocks the next. These can be reduced to the cross example of the 5-room dungeon.
+![[dungeon-maps.png]]
