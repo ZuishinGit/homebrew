@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "043d157f06103fab",
+    "type": "split",
+    "children": [
+      {
+        "id": "35c5ba60c8f850ed",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "$Attachments/Pasted image 20211102122729.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e208ba68caea972f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd3f0bbe308f736b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7173a2f58b7c17b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f25c0c8fc18cdb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c01bf59e8011b00c",
+    "type": "split",
+    "children": [
+      {
+        "id": "123a90ec3808a5cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c69b0c0d0edbec35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "$Attachments/Pasted image 20211102122729.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "35c5ba60c8f850ed",
+  "lastOpenFiles": [
+    "$Attachments/Pasted image 20211102122729.png",
+    "$Attachments/Pasted image 20211102024727.png",
+    "$Attachments/Pasted image 20211102024643.png",
+    "Nessukhom Calendar.md",
+    "Epthyro.md"
+  ]
+}

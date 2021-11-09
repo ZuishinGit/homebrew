@@ -1,15 +1,31 @@
 {
   "main": {
-    "id": "4674c286832fea31",
+    "id": "a68f3648969c03b3",
     "type": "split",
     "children": [
       {
-        "id": "9e241fd8397e2eb2",
+        "id": "a36d59aab14ebae6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Dungeons/Desert Dungeon.md",
+            "mode": "source"
+          }
+        },
+        "group": "da329c118384aae6"
+      },
+      {
+        "id": "2dca368514a8d5bd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Dungeons/Desert Dungeon.md",
+            "mode": "preview"
+          }
+        },
+        "group": "da329c118384aae6"
       }
     ],
     "direction": "vertical"
@@ -64,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dungeons/Desert Dungeon.md"
+              }
             }
           },
           {
@@ -83,17 +101,17 @@
     "width": 225.49990844726562,
     "collapsed": true
   },
-  "active": "9e241fd8397e2eb2",
+  "active": "a36d59aab14ebae6",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Dungeons/Desert Dungeon.md",
     "General/Dungeon Design.md",
+    "General/Mystery Design.md",
+    "Adventure Paths/Cabarin's Corrupted.md",
+    "Untitled.md",
     "Visia/World-Charting.md",
     "Visia/Framing Events.md",
     "Places/Duchy of Alrinh/Shar Overview.md",
     "Places/Duchy of Alrinh/Kinsey Overview.md",
-    "Adventure Paths/Cabarin's Corrupted.md",
-    "General/Mystery Design.md",
-    "General/Untitled.md",
-    "Items/Efreeti Staff.md"
+    "General/Untitled.md"
   ]
 }

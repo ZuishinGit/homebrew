@@ -83,6 +83,8 @@ Any noise made in this area attracts the attention of the creatures in areas 4 a
 #### 3. Cabarin's Quarters
 This ruinous bedchamber is occupied by the head guard of the Prynn estate. He is drafting a letter of resignation, which can be found on the dilapitated desk.
 
+***Treasure.*** The desk has 
+
 #### 4. Guard Station
 The door to this chamber is barred from the inside. The chamber has 8 bunked beds and a host of weaponry and armor, all bearing the heraldry of House Prynn.
 
@@ -132,7 +134,7 @@ This room smells heavily of garlic, onion, and other spices. Against the souther
 Several padded chairs surround a large wooden table. There is a gold-plated candelabra with 3 lit *Candles of Everburning*. The western wall has an awakened, animated, mounted bear head that greets any characters when they enter. The bear head knows of Cabarin and that the Prynn family is being used, and asks them to put an end to the nagpa.
 
 #### 6. Main Hall
-Three guards patrol this hall. They will attempt to get reinforcements from area 8.
+Three guards patrol this hall. They will attempt to get reinforcements from area 8. Several marble busts line the walls here, portraying house Prynn's forefathers.
 
 ***Treasure.*** One of the guards has a large keyring with several iron keys. This contains the keys to all doors on the ground floor.
 
@@ -140,7 +142,7 @@ Three guards patrol this hall. They will attempt to get reinforcements from area
 There are two chaise longue chairs set in front of a fireplace, with a table between them. On the table is an ornate snuff box filled with 4 doses of a earthy green paste called Patch. When consumed orally, it instills the creature with a euphoria that causes disadvantage on Wisdom saving throws for the next 2 (1d4) hours. For the duration, the creature can speak with plants and animals.
 
 #### 8. Guard House Gallery
-The vestibule here has many detailed portraits of members of House Prynn, including Eveus. It is decorated with several marble busts. The sound of people talking can be heard from area 8A.
+The vestibule here has many detailed portraits of members of House Prynn, including Eveus. The sound of people talking can be heard from area 8A.
 
 ***Treasure.*** Guards carry their personal affections, along with a coin pouch containing 28 (8d6) gold.
 
