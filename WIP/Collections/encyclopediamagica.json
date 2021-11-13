@@ -1661,7 +1661,6 @@
 	        "source": "EM5E",
 	        "rarity": "uncommon",
 	        "tier": "major",
-	        "reqAttune":true,
 	        "wondrous":true,
 			"weight": 10000,
 	        "entries": [
