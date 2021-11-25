@@ -2095,7 +2095,7 @@
 			]
 		},
 		{
-			"name": "Giant Heron",
+			"name": "Dire Heron",
 			"source": "SASA",
 			"size": "G",
 			"type": "monstrosity",
@@ -2134,13 +2134,13 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"The roc has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+						"The heron has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
 					"name": "Flyby",
 					"entries": [
-						"The giant heron doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+						"The heron doesn't provoke opportunity attacks when it flies out of an enemy's reach."
 					]
 				}
 			],

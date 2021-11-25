@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.140.0",
+	"siteVersion": "1.143.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1635105982,
-		"dateLastModified": 1635105982
+		"dateAdded": 1637795917,
+		"dateLastModified": 1637795917
 	},
 	"monster": [
 		{

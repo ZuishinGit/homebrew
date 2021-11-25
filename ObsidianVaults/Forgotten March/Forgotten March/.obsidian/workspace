@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "General/Dungeon Design.md",
+            "file": "Adventure Paths/Catechism of Bozik.md",
+            "mode": "source"
+          }
+        },
+        "group": "5f3d19990316839f"
+      },
+      {
+        "id": "bf6d6364506ffa63",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Adventure Paths/Catechism of Bozik.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "5f3d19990316839f"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/Dungeon Design.md"
+                "file": "Adventure Paths/Catechism of Bozik.md"
               }
             }
           },
@@ -90,15 +103,15 @@
   },
   "active": "2dca368514a8d5bd",
   "lastOpenFiles": [
-    "General/Dungeon Design.md",
-    "Dungeons/Desert Dungeon.md",
-    "General/Mystery Design.md",
+    "Adventure Paths/Catechism of Bozik.md",
     "Adventure Paths/Cabarin's Corrupted.md",
-    "Untitled.md",
-    "Visia/World-Charting.md",
     "Visia/Framing Events.md",
     "Places/Duchy of Alrinh/Shar Overview.md",
     "Places/Duchy of Alrinh/Kinsey Overview.md",
-    "General/Untitled.md"
+    "People/Zikzokrishka.md",
+    "People/Zedaar, the Chanter.md",
+    "People/Prince Hamukai.md",
+    "People/Mother Catalina.md",
+    "People/Master Raisan.md"
   ]
 }

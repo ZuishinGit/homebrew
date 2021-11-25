@@ -1,0 +1,117 @@
+{
+	"action": {
+	},
+	"adventure": {
+	},
+	"adventureData": {
+	},
+	"monster": {
+	},
+	"item": {
+	},
+	"optionalfeature": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"trap": {
+	},
+	"background": {
+	},
+	"itemType": {
+	},
+	"variantrule": {
+	},
+	"book": {
+	},
+	"bookData": {
+	},
+	"table": {
+	},
+	"spell": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"feat": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"legendaryGroup": {
+	},
+	"condition": {
+	},
+	"variant": {
+	},
+	"disease": {
+	},
+	"subclass": {
+	  "collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"subclassFeature": {
+	  "collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"race": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"raceFluff": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"language": {
+	},
+	"baseitem": {
+	},
+	"itemProperty": {
+	},
+	"itemGroup": {
+	},
+	"itemFluff": {
+	},
+	"deity": {
+	},
+	"$schema": {
+	},
+	"reward": {
+	},
+	"boon": {
+	},
+	"charoption": {
+	},
+	"class": {
+	},
+	"classFeature": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"psionic": {
+	},
+	"foundryClassFeature": {
+	},
+	"foundrySubclassFeature": {
+	},
+	"backgroundFluff": {
+	},
+	"object": {
+	},
+	"subrace": {
+	},
+	"monsterFluff": {
+	},
+	"hazard": {
+	},
+	"makebrewCreatureTrait": {
+	},
+	"spellFluff": {
+		"collection/Zuishin; Revised Collection.json": "collection"
+	},
+	"cult": {
+	},
+	"vehicle": {
+	},
+	"status": {
+	},
+	"bookdata": {
+	},
+	"recipe": {
+	},
+	"name": {
+	},
+	"roll20Spell": {
+	},
+	"foundrySpell": {
+	}
+}
