@@ -486,7 +486,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency with {@homebrew simple and martial weapons.|four weapons of your choice. Each one must be a simple or a martial weapon.}",
-						"{@homebrew When you hit with a simple or martial melee weapon, you can decide which damage type of the weapon, choosing either bludgeoning, piercing, or slashing damage.}",
+						"{@homebrew When you hit with a simple or martial melee weapon, you can decide the damage type of the weapon, choosing either bludgeoning, piercing, or slashing damage.}",
 						"{@homebrew If you can see a creature, you know if it has immunity, resistance, or vulnerability to bludgeoning, piercing, or slashing damage.}"
 
 					]
