@@ -8,6 +8,7 @@
 	"monster": {
 	},
 	"item": {
+		"collection/Zuishin; Zuishin's Poisons.json": "collection"
 	},
 	"optionalfeature": {
 		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
@@ -21,10 +22,15 @@
 	"variantrule": {
 	},
 	"book": {
+		"book/Zuishin; The Woods House Rules.json": "book",
+		"book/Weems; Mundane and Magical Makings.json": "book"
 	},
 	"bookData": {
+		"book/Zuishin; The Woods House Rules.json": "book",
+		"book/Weems; Mundane and Magical Makings.json": "book"
 	},
 	"table": {
+		"collection/Zuishin; Zuishin's Poisons.json": "collection"
 	},
 	"spell": {
 		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
@@ -103,8 +109,6 @@
 	"vehicle": {
 	},
 	"status": {
-	},
-	"bookdata": {
 	},
 	"recipe": {
 	},
