@@ -10,7 +10,7 @@
 	"item": {
 	},
 	"optionalfeature": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"trap": {
 	},
@@ -27,10 +27,10 @@
 	"table": {
 	},
 	"spell": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"feat": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"legendaryGroup": {
 	},
@@ -41,16 +41,16 @@
 	"disease": {
 	},
 	"subclass": {
-	  "collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"subclassFeature": {
-	  "collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"race": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"raceFluff": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"language": {
 	},
@@ -75,7 +75,7 @@
 	"class": {
 	},
 	"classFeature": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"psionic": {
 	},
@@ -96,7 +96,7 @@
 	"makebrewCreatureTrait": {
 	},
 	"spellFluff": {
-		"collection/Zuishin; Revised Collection.json": "collection"
+		"collection/Zuishin; Zuishin's Revised Collection.json": "collection"
 	},
 	"cult": {
 	},
