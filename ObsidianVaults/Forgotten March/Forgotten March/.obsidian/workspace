@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventure Paths/Catechism of Bozik.md",
+            "file": "Dungeons/Sunken Tomb of Bozik.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventure Paths/Catechism of Bozik.md",
+            "file": "Dungeons/Sunken Tomb of Bozik.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventure Paths/Catechism of Bozik.md"
+                "file": "Dungeons/Sunken Tomb of Bozik.md"
               }
             }
           },
@@ -103,6 +103,7 @@
   },
   "active": "2dca368514a8d5bd",
   "lastOpenFiles": [
+    "Dungeons/Sunken Tomb of Bozik.md",
     "Adventure Paths/Catechism of Bozik.md",
     "Adventure Paths/Cabarin's Corrupted.md",
     "Visia/Framing Events.md",
@@ -111,7 +112,6 @@
     "People/Zikzokrishka.md",
     "People/Zedaar, the Chanter.md",
     "People/Prince Hamukai.md",
-    "People/Mother Catalina.md",
-    "People/Master Raisan.md"
+    "People/Mother Catalina.md"
   ]
 }

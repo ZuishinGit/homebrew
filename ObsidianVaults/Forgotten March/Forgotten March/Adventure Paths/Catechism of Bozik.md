@@ -1,5 +1,5 @@
 # Catechism of Bozik
-***Theme.*** Fall from grace.
+***Theme.*** Fallen angels.
 ##### Dramatis Personae
 Name|Gender|Ancestry|Notes
 ---|----|---|---
@@ -29,3 +29,13 @@ A troop of Lizardfolk have decided to take on the ultimate challenge: tracking a
 ## Tracking Roondar ()
 ## Warrens of Bozik ()
 ## Escorting Roondar ()
+
+Swamp Donkey
+
+Approaching the tomb
+- Leech Hazard
+- 2x Giant Crocodile
+
+Eerie Statuary
+- 1x Dragonbone Golem
+- 2x Minotaur Skeletons
