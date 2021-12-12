@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.143.0",
+	"siteVersion": "1.142.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1637795917,
-		"dateLastModified": 1637795917
+		"dateAdded": 1638742509,
+		"dateLastModified": 1638742509
 	},
 	"monster": [
 		{
@@ -13383,6 +13383,248 @@
 				"AOE",
 				"MW",
 				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bozik Sexton",
+			"shortName": "sexton",
+			"source": "ZCC",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item +1 plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 42",
+				"average": 105
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 17,
+			"int": 16,
+			"wis": 15,
+			"cha": 21,
+			"skill": {
+				"perception": "+12",
+				"athletics": "+7",
+				"religion": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"languages": [
+				"Languages Known in Life"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the sexton fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Master of the Grave",
+					"entries": [
+						"While within 30 feet of the skull lord, any undead ally of the sexton makes saving throws with advantage, and that ally regains {@dice 1d6} hit points whenever it starts its turn there."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the sexton is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sexton makes three attacks with its scepter."
+					]
+				},
+				{
+					"name": "Bone Scepter",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Toll the Dead",
+					"entries": [
+						"The target must succeed a {@dc 18} Wisdom saving throw or take 13 ({@damage 3d8}) necrotic damage. If the target is missing any of its hit points, it instead takes 19 ({@damage 3d12}) necrotic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bone Scepter (Costs 2 Actions)",
+					"entries": [
+						"The sexton makes a bone scepter attack."
+					]
+				},
+				{
+					"name": "Toll the Dead",
+					"entries": [
+						"The sexton casts toll the dead."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The sexton moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Summon Undead (Costs 3 Actions)",
+					"entries": [
+						"Up to five {@creature skeleton||skeletons} or {@creature zombie||zombies} appear in unoccupied spaces within 30 feet of the skull lord and remain until destroyed. Undead summoned in this way roll initiative and act in the next available turn. The sexton can have up to five undead summoned by this ability at a time."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/My%20Tokens/undead3.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Animated Wax Sculpture",
+			"source": "ZCC",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 15,
+			"int": 6,
+			"wis": 8,
+			"cha": 14,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Waxy Departure",
+					"entries": [
+						"When the wax sculpture dies, it leaves behind a waxy pool in its space, which acts as difficult terrain until it is cleared or it is removed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Wax Bolt",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage, and the target's speed is reduced by 10 feet until the end of their next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Disarming Wax",
+					"entries": [
+						"When a creature misses the wax sculpture with a melee weapon attack, the weapon gets stuck in the wax sculpture. The attacker must succeed on a {@dc 11} Strength saving throw, or the weapon becomes stuck to the wax sculpture. If the weapon's wielder can't or won't let go of the weapon, the wielder is {@condition grappled} while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a {@dc 11} Strength check and succeeding."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://hosting.photobucket.com/albums/m615/Lankin85/Klubbsaga/Golem%20Wax.png"
+						}
+					}
+				]
+			},
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/skeleton.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true

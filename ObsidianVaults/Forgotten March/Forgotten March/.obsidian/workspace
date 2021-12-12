@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dungeons/Sunken Tomb of Bozik.md",
+            "file": "Dungeons/Warrens of Bozik.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dungeons/Sunken Tomb of Bozik.md",
+            "file": "Dungeons/Warrens of Bozik.md",
             "mode": "preview"
           }
         },
@@ -81,20 +81,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dungeons/Sunken Tomb of Bozik.md"
+                "file": "Dungeons/Warrens of Bozik.md"
               }
             }
           },
           {
-            "id": "ca78b577a8bae37b",
+            "id": "5f1d13d3e68695b0",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "dd5ef81a27adfbab",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -103,11 +111,11 @@
   },
   "active": "2dca368514a8d5bd",
   "lastOpenFiles": [
-    "Dungeons/Sunken Tomb of Bozik.md",
+    "Dungeons/Warrens of Bozik.md",
     "Adventure Paths/Catechism of Bozik.md",
-    "Adventure Paths/Cabarin's Corrupted.md",
     "Visia/Framing Events.md",
     "Places/Duchy of Alrinh/Shar Overview.md",
+    "Adventure Paths/Cabarin's Corrupted.md",
     "Places/Duchy of Alrinh/Kinsey Overview.md",
     "People/Zikzokrishka.md",
     "People/Zedaar, the Chanter.md",

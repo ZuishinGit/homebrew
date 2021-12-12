@@ -16,14 +16,16 @@
     --light0-soft:    #f2e5bc;
     --light1:         #ebdbb2;
     --light2:         #d5c4a1;
-    --light3:         #D0C6A9;
+    --light3:         #bdae93;
     --light4:         #a89984;
 
     --bright-red:     #fb4934;
     --bright-green:   #b8bb26;
     --bright-yellow:  #fabd2f;
+    --bright-blue:    #83a598;
     --bright-purple:  #d3869b;
     --bright-aqua:    #8ec07c;
+    --bright-orange:  #fe8019;
 
     --neutral-red:    #cc241d;
     --neutral-green:  #98971a;
@@ -40,45 +42,39 @@
     --faded-purple:   #8f3f71;
     --faded-aqua:     #427b58;
     --faded-orange:   #af3a03;
-
-    --hard-gold:      #D6A44B;
-    --deep-blue:      #28303A;
-    --bright-blue:    #4591E2;
-    --pale-black:     #323431;
-    --pale-text:      #e3e3e3;
-    --brighter-blue:  #6aa7e7;
 }
 
 .theme-dark
 {
-    --font-monospace: 'century gothic', '', monospace;
-    --font-monospace-alt: 'century gothic', '', monospace;
     --background-primary:         var(--dark0);
     --background-primary-alt:     var(--dark0);
     --background-secondary:       var(--dark0-hard);
     --background-secondary-alt:   var(--dark1);
-    --text-normal:                var(--pale-text);
+    --text-normal:                var(--light0);
     --text-faint:                 var(--light3);
-    --text-title-h1:              var(--hard-gold);
-    --text-title-h2:              var(--hard-gold);
-    --text-title-h3:              var(--hard-gold);
-    --text-title-h4:              var(--hard-gold);
-    --text-title-h5:              var(--hard-gold);
+    --text-title-h1:              var(--neutral-red);
+    --text-title-h2:              var(--neutral-orange);
+    --text-title-h3:              var(--neutral-yellow);
+    --text-title-h4:              var(--neutral-green);
+    --text-title-h5:              var(--neutral-aqua);
+    --text-title-h6:              var(--neutral-blue);
     --text-link:                  var(--bright-blue);
-    --text-a:                     var(--bright-blue);
-    --text-a-hover:               var(--brighter-blue);
+    --text-a:                     var(--bright-orange);
+    --text-a-hover:               var(--bright-blue);
     --text-mark:                  rgba(215, 153, 33, 0.4); /* neutral-yellow */
     --pre-code:                   var(--dark1);
     --text-highlight-bg:          var(--faded-aqua);
-    --interactive-accent:         var(--hard-gold);
+    --interactive-accent:         var(--bright-orange);
     --interactive-before:         var(--dark4);
     --background-modifier-border: var(--dark2);
-    --text-accent:                var(--bright-blue);
-    --interactive-accent-rgb:     var(--bright-blue);
+    --text-accent:                var(--bright-orange);
+    --interactive-accent-rgb:     var(--bright-orange);
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
-    --vim-cursor:                 var(--bright-blue);
+    --vim-cursor:                 var(--bright-orange);
     --text-selection:             rgba(168, 153, 132, 0.5); /* light4 */
+    --text-tag:                   var(--bright-aqua);
+    --task-checkbox:              var(--dark4);
 }
 
 .theme-light
@@ -94,6 +90,7 @@
     --text-title-h3:              var(--faded-yellow);
     --text-title-h4:              var(--faded-green);
     --text-title-h5:              var(--faded-aqua);
+    --text-title-h6:              var(--faded-blue);
     --text-link:                  var(--neutral-blue);
     --text-a:                     var(--neutral-orange);
     --text-a-hover:               var(--neutral-blue);
@@ -108,6 +105,26 @@
     --inline-code:                var(--neutral-blue);
     --vim-cursor:                 var(--neutral-orange);
     --text-selection:             rgba(189, 174, 147, 0.5); /* light3 */
+    --text-tag:                   var(--neutral-aqua);
+    --task-checkbox:              var(--light4);
+}
+
+:root {
+  --default-font: -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica, Arial, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji;
+
+  --editor-font: 'Hack Nerd Font', 'Source Code Pro',
+    ui-monospace, SFMono-Regular, SF Mono, Menlo,
+    Consolas, Liberation Mono, monospace;
+}
+
+.markdown-source-view {
+  font-family: var(--editor-font);
+}
+
+.markdown-preview-view {
+  font-family: var(--default-font);
 }
 
 .theme-dark code[class*="language-"],
@@ -143,7 +160,7 @@
 html,
 body
 {
-    font-size: 16px !important;
+    /* font-size: 16px !important; */
 }
 
 strong
@@ -166,9 +183,25 @@ a:hover,
     text-decoration: none !important;
 }
 
+a.tag, a.tag:hover {
+  color: var(--text-tag) !important;
+  background-color: var(--background-secondary-alt);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
 mark
 {
     background-color: var(--text-mark) !important;
+}
+
+
+.titlebar {
+  background-color: var(--background-secondary-alt);
+}
+
+.titlebar-inner {
+  color: var(--text-normal);
 }
 
 .view-actions a
@@ -230,7 +263,7 @@ thead
 .CodeMirror-foldgutter-folded,
 .is-collapsed .nav-folder-collapse-indicator
 {
-    color: var(--text-faint) !important;
+    color: var(--text-a) !important;
 }
 
 .nav-file-tag
@@ -252,24 +285,14 @@ thead
     border-top-right-radius: 0 !important;
 }
 
-img
-{
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
 .HyperMD-list-line
 {
     padding-top: 0 !important;
 }
 
-.CodeMirror-code,
-.CodeMirror-linenumber,
-.cm-formatting
+.cm-hashtag
 {
-    font-family: var(--font-monospace-alt) !important;
-    font-size: 0.9em;
+    color: var(--text-tag) !important;
 }
 
 .markdown-preview-section pre code,
@@ -334,7 +357,6 @@ img
 .markdown-preview-view
 {
     /* padding-left: 10px !important; */
-    font-family: var(--font-monospace) !important;
     padding-right: 10px !important;
 }
 
@@ -380,7 +402,7 @@ img
 .markdown-preview-section h1
 {
     font-weight: 500 !important;
-    font-size: 34px !important;
+    font-size: 2.2em !important;
     color: var(--text-title-h1) !important;
 }
 
@@ -388,7 +410,7 @@ img
 .markdown-preview-section h2
 {
     font-weight: 500 !important;
-    font-size: 26px !important;
+    font-size: 2.0em !important;
     color: var(--text-title-h2) !important;
 }
 
@@ -396,7 +418,7 @@ img
 .markdown-preview-section h3
 {
     font-weight: 500 !important;
-    font-size: 22px !important;
+    font-size: 1.8em !important;
     color: var(--text-title-h3) !important;
 }
 
@@ -404,18 +426,24 @@ img
 .markdown-preview-section h4
 {
     font-weight: 500 !important;
-    font-size: 20px !important;
+    font-size: 1.6em !important;
     color: var(--text-title-h4) !important;
 }
 
 .cm-header-5,
+.markdown-preview-section h5
+{
+    font-weight: 500 !important;
+    font-size: 1.4em !important;
+    color: var(--text-title-h5) !important;
+}
+
 .cm-header-6,
-.markdown-preview-section h5,
 .markdown-preview-section h6
 {
     font-weight: 500 !important;
-    font-size: 18px !important;
-    color: var(--text-title-h5) !important;
+    font-size: 1.2em !important;
+    color: var(--text-title-h6) !important;
 }
 
 .suggestion-item.is-selected
@@ -423,10 +451,14 @@ img
     background-color: var(--background-secondary);
 }
 
-.empty-state-container:hover
+.empty-state-action:hover
 {
-    background-color: var(--background-secondary-alt);
-    border: 5px solid var(--interactive-accent) !important;
+    color: var(--interactive-accent);
+}
+
+.empty-state-action:hover
+{
+    color: var(--interactive-accent);
 }
 
 .checkbox-container
@@ -464,14 +496,14 @@ img
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--dark4);
+    border: 1px solid var(--task-checkbox);
     appearance: none;
     -webkit-appearance: none;
 }
 
 input.task-list-item-checkbox:checked
 {
-    background-color: var(--dark4);
+    background-color: var(--task-checkbox);
     box-shadow: inset 0 0 0 2px var(--background-primary);
 }
 

@@ -42,32 +42,34 @@
     --faded-purple:   #8f3f71;
     --faded-aqua:     #427b58;
     --faded-orange:   #af3a03;
+
+    --test-highlight: #e52bdf;
 }
 
 .theme-dark
 {
-    --background-primary:         var(--dark0);
-    --background-primary-alt:     var(--dark0);
-    --background-secondary:       var(--dark0-hard);
-    --background-secondary-alt:   var(--dark1);
-    --text-normal:                var(--light0);
-    --text-faint:                 var(--light3);
+    --background-primary:         var(--dark0); /*main background of panes (excludes sidebars and titlebars)*/
+    --background-primary-alt:     var(--dark0); /*used for the selected pane title bar*/
+    --background-secondary:       var(--dark0-hard); /*used for unselected pane as well as the sidebar backgrounds and minimized sidebar*/
+    --background-secondary-alt:   var(--dark1); /*used for main app title bar as well as unminimized sidebar and sidebar buttons*/
+    --text-normal:                var(--light0); /*used for normal, non-heading text*/
+    --text-faint:                 var(--light3); /*used for pipettes and brackets in editor*/
     --text-title-h1:              var(--neutral-red);
     --text-title-h2:              var(--neutral-orange);
     --text-title-h3:              var(--neutral-yellow);
     --text-title-h4:              var(--neutral-green);
     --text-title-h5:              var(--neutral-aqua);
     --text-title-h6:              var(--neutral-blue);
-    --text-link:                  var(--bright-blue);
-    --text-a:                     var(--bright-orange);
-    --text-a-hover:               var(--bright-blue);
-    --text-mark:                  rgba(215, 153, 33, 0.4); /* neutral-yellow */
+    --text-link:                  var(--bright-blue); /*unused*/
+    --text-a:                     var(--bright-orange); /*used for all clickable links*/
+    --text-a-hover:               var(--bright-blue); /*used for hovering links and URLs in editor*/
+    --text-mark:                  var(--test-highlight); /*rgba(215, 153, 33, 0.4);*/ /* neutral-yellow */
     --pre-code:                   var(--dark1);
-    --text-highlight-bg:          var(--faded-aqua);
+    --text-highlight-bg:          var(--faded-aqua); /*unused*/
     --interactive-accent:         var(--bright-orange);
     --interactive-before:         var(--dark4);
     --background-modifier-border: var(--dark2);
-    --text-accent:                var(--bright-orange);
+    --text-accent:                var(--bright-orange); /*unused*/
     --interactive-accent-rgb:     var(--bright-orange);
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);

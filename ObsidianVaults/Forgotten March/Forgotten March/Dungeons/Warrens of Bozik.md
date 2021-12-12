@@ -1,5 +1,5 @@
 # 1. Tomb Entrance
-> As you make your way through murky waters, the trees give way to ruinous structures of stone that have sunken into the swamp. You can see the tops of crumbling stone archways and walls which are overgrown with thick vines. The surface weeds have clustered thickly around the structures and it looks like it would be difficult to move through.
+> As you wade through murky waters, the long, drooping trees give way to ruinous structures of stone that have sunken into the swamp. You can see the tops of crumbling stone archways and walls which are overgrown with thick vines. The surface weeds have clustered thickly around the structures and it looks difficult to move through.
 >
 > There is a central structure that looks mostly intact with a huge granite door at the front of the landing. It looks like there are words carved in the door.
 
@@ -19,20 +19,27 @@ but the words have since degraded.
 
 Upon close inspection it seems the letters A G E S P A S (from the words AGES PAST) can be pressed like buttons, each yielding a satisfying click. Pressed in the right order — P A S S A G E — the granite doorway begins to grind and sink into the floor, letting out a cacophony of hundreds of moaning souls, and revealing a dark, sloping descent.
 
-# 2. Hall of Dead Servitors
-The ramp ends at a circular doorway, opening into a hall. The length of the hall is flanked by two long charnel pits filled with humanoid bones. Suspended by two large caryatids is an ivory bell. Past the bell is a simple wooden door.
+***Sloping Descent.*** The hall descends for 150 feet, ending at a circular door with runes inscribed in the doorway. Employ the Sphere of Crushing Doom trap from XGE when a creature interacts with the door.
 
-***Ivory Bell.*** A creature that strikes the bell with a bone ages 3d10 years and a skeleton rises from the charnel pit to give them a *Gem of Seeing*. The first creature that touches the gem becomes automatically attuned to it, replacing one of their items (their choice) if they are at maximum attunement.
+# 2. Hall of Dead Servitors
+The ramp ends at a circular doorway, opening into a hall. The length of the hall is flanked by two long charnel pits filled with humanoid bones. Suspended by two large caryatids is an ivory bell. Past the bell is a wooden door, banded with iron.
+
+The whole chamber is in disrepair, the walls are cracked, the air is stale, and the alcoves are filled with candle-stubs and cobwebs.
+
+***Ivory Bell.*** A creature attempting to ring the bell using anything but the sexton's scepter causes the creature to be possessed (no save). The creature can attempt a DC 18 Wisdom saving throw at advantage whenever they take damage, ending the effect on themselves on a success. Living inside the bell is a friendly spider.
 
 # 3. Basking Room
-This chamber has a domed ceiling, at the center of it is a large, marble statue of an angelic figure, with a halo and two feathered wings. The eyes give off a dim glow. There are two exits from this room, to the north and south. Against the eastern wall is an illusory wall.
+This chamber has a domed ceiling, at the center of it is a large, marble statue of an angelic figure, with a halo and two feathered wings. The eyes give off a dim glow. The floor is made up of a beautiful mosaic that looks like a large, colourful arcane circle. There are two exits from this room, to the north and east. The southern pass is blocked by an illusory wall.
 
 ***Illusory Wall.*** The wall can only be perceived by magical means.
 
-***Radiant Angel.*** 
+***Radiant Angel.*** When the characters approach one of the exits, the angel asks them something in celestial.
 
 # 4. Gallery
 This chamber is a gallery, with eerily lifelike statues. Suspended from the ceiling is a skeletal dragon. In actuality it is a **dragonbone golem**. If a fight breaks out here, two minotaur skeletons animate and join in. On the southern wall, a door.
+
+Elsewhere in the room are inanimate wax sculptures depicting the five fingers of Bozik. They are: Barithiel, Abraxos, Nuriel, Sophiel, and Osmodiel.
+They are all clad in similar armor with heraldry reminiscent of the Urogan.
 
 # 5. Hall of the Judged
 This chamber opens up into a natural cavern. At the center of the cavern is a large, subterranean lake that is decorated with dozens of statues of angels. In actuality, these are petrified celestials. One of which is the messenger that brought Roondar to the tomb. Lurking in the cave are four **chuul** that have grown attracted to the magic. The chamber is also full of will-o-wisps.
@@ -60,7 +67,9 @@ There is a large stone door to the north with no perceivable handles. The face o
 ***Enchanted Frescoe.*** A creature that looks carefully at the frescoe notices that the misty tsunami seems almost to move, possibly hinting at its magical quality. If anyone attempts to force open the door by any means, the room is bombarded by a blast of magical dust. Anyone in the area must succeed a DC 20 Dexterity saving throw or be covered by this magic dust. While covered, a creature is affected as if they had a faerie fire spell cast upon them, and their proficiency bonus is reduced by 1 (until they finish a long rest) every hour that it is on them. The dust can only be removed by water or by creative means.
 
 # 7. The Bozik Ark
+The central alabaster pillar in this room is carved to look like a large ship. The ground looks like waves lapping at the sides of the pillar. There are several funerary urns decorated with angelic scenes.
 
+***Urns.*** These sealed urns contain the souls of the Divine Hand of Bozik. There are 5 in total. If they are destroyed or opened, the souls escape in a radiant explosion. Each creature in the area must succeed on a DC 18 Dexterity saving throw, taking 22 (4d10) radiant damage on a failure or half as much on a success. The first time an urn is destroyed, 3 ghosts are released in the chamber.
 
 # 8. Treasures of Bozik
 This room is a vault that contains the treasure of the Bozik lineage. The center of the room is dominated by the skull king, who clutches a scepter in one hand and a large tome in the other.
