@@ -4,28 +4,32 @@
     "type": "split",
     "children": [
       {
+        "id": "327389a412aed241",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Session Planner/Session 1.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        },
+        "group": "7dec36ce5f2ef0da"
+      },
+      {
         "id": "2dca368514a8d5bd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dungeons/Warrens of Bozik.md",
-            "mode": "source"
+            "file": "Session Planner/Session 1.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
           }
         },
-        "group": "5f3d19990316839f"
-      },
-      {
-        "id": "bf6d6364506ffa63",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Dungeons/Warrens of Bozik.md",
-            "mode": "preview"
-          }
-        },
-        "group": "5f3d19990316839f"
+        "group": "7dec36ce5f2ef0da"
       }
     ],
     "direction": "vertical"
@@ -81,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dungeons/Warrens of Bozik.md"
+                "file": "Session Planner/Session 1.md"
               }
             }
           },
@@ -109,17 +113,17 @@
     "width": 225.49990844726562,
     "collapsed": true
   },
-  "active": "2dca368514a8d5bd",
+  "active": "327389a412aed241",
   "lastOpenFiles": [
-    "Dungeons/Warrens of Bozik.md",
-    "Adventure Paths/Catechism of Bozik.md",
-    "Visia/Framing Events.md",
-    "Places/Duchy of Alrinh/Shar Overview.md",
+    "Session Planner/Session 1.md",
     "Adventure Paths/Cabarin's Corrupted.md",
-    "Places/Duchy of Alrinh/Kinsey Overview.md",
-    "People/Zikzokrishka.md",
-    "People/Zedaar, the Chanter.md",
-    "People/Prince Hamukai.md",
-    "People/Mother Catalina.md"
+    "Visia/Framing Events.md",
+    "Visia/World-Charting.md",
+    "Adventure Paths/Catechism of Bozik.md",
+    "Dungeons/Desert Dungeon.md",
+    "Dungeons/Warrens of Bozik.md",
+    "Dungeons/Tharizdunian Dungeon Part 2.md",
+    "Dungeons/Olivier's Haunted Mansion.md",
+    "General/Mystery Design.md"
   ]
 }

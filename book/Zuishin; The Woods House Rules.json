@@ -53,8 +53,8 @@
 								{
 									"type":"list",
 									"items":[
-										"{@note My homebrew revisions (Essential)} - {@loader Zuishin's Revised Collection [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/revisedCollection.json}",
-										"{@note My homebrew poisons (DMs only)} - {@loader Zuishin's Poisons [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Collections/ZuishinsPoisons.json}",
+										"{@note My homebrew revisions (Essential)} - {@loader Zuishin's Revised Collection [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/collection/Zuishin%3B%20Zuishin's%20Revised%20Collection.json}",
+										"{@note My homebrew poisons (DMs only)} - {@loader Zuishin's Poisons [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/collection/Zuishin%3B%20Zuishin's%20Poisons.json}",
 										"{@note Rules we use for crafting magic items} - {@loader Mundane and Magical Makings [book]|book/Weems; Mundane and Magical Makings.json}",
 										"{@note Magic item prices} - {@loader Sane Magic Item Prices Expanded [book]|book/Giddy; Sane Magic Item Prices Expanded.json}",
 										"{@note My encyclopedia magica (WIP)} - {@loader Encyclopedia Magica for 5e [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json}"
@@ -136,7 +136,7 @@
 																[
 																	"Nothing",
 																	"Normal starting equipment",
-																	"A single {@spell true strike} spell scroll."
+																	"-"
 																],
 																[
 																	"Some",
@@ -185,21 +185,21 @@
 													"type":"entries",
 													"name":"MTF Tieflings",
 													"entries":[
-														"The tiefling subraces and {@race elf (sea)|mtf|sea elf} are permitted."
+														"The {@filter tiefling subraces|races|source=MTF|base race=tiefling} and {@race elf (sea)|mtf|sea elf} are permitted."
 													]
 												},
 												{
 													"type":"entries",
 													"name":"VGM",
 													"entries":[
-														"All VGM races are permitted."
+														"All {@filter VGM races|races|source=VGM} are permitted."
 													]
 												},
 												{
 													"type":"entries",
 													"name":"EEPC",
 													"entries":[
-														"All EEPC races are permitted."
+														"All {@filter EEPC races|races|source=EEPC} are permitted."
 													]
 												},
 												{
@@ -220,7 +220,7 @@
 													"type":"entries",
 													"name":"VRGR",
 													"entries":[
-														"All VRGR races are permitted."
+														"All {@filter VRGR races|races|source=VRGR} are permitted."
 													]
 												},
 												{
@@ -343,10 +343,9 @@
 												},
 												{
 													"type":"entries",
-													"name":"Lingering Injuries",
+													"name":"Lingering Injuries (Tentative)",
 													"entries":[
-														"If you take a critical hit, you have the option to turn it into a normal hit and roll on the {@table lingering injuries} table. You can do this after seeing the initial damage roll. Doing this immediately awards you inspiration.",
-														"You can't do this more than once a session, or if you already are affected by a lingering injury."
+														"When you take damage from a hit, you have the option to reduce the damage to 0 and roll on the {@table lingering injuries} table. You can do this after seeing the initial damage roll. You can't do this more than once a session, or if you already are affected by a lingering injury."
 													]
 												},
 												{
@@ -354,13 +353,6 @@
 													"name":"Mixing Potions",
 													"entries":[
 														"If at any point you mix the contents of potions together, I'll roll on the {@table Variant: Mixing Potions; Potion Miscibility|dmg|potion miscibility} table. Mixing also includes drinking a potion while already under the effects of another potion."
-													]
-												},
-												{
-													"type":"entries",
-													"name":"Parley Phase",
-													"entries":[
-														"At the beginning of a round, before any creature has had a turn, you can attempt a social check (persuasion, animal handing, deception). Doing this will cost your action on your subsequent turn. The intent behind this is that negotiations should be resolved {@i before} any attacks are actually thrown. I will never ask you if you want to do this, you must interrupt me if you wish to parley."
 													]
 												},
 												{
@@ -441,13 +433,6 @@
 													"name":"Monster Multiattacks and Grappling",
 													"entries":[
 														"A monster can replace its \"biggest\" attack in a multiattack action with a {@action shove|phb} or {@action grapple|phb}, in the same way a PC can replace one of their attacks when taking the attack action. The hope is that this will provide more interesting and engaging combat encounters."
-													]
-												},
-												{
-													"type":"entries",
-													"name":"Movement through a Nonhostile Creature's Space",
-													"entries":[
-														"By RAW moving through a nonhostile creature's space is difficult terrain; however, to facilitate smooth combat we ignore this ruling and treat movement as normal through such a space."
 													]
 												},
 												{
