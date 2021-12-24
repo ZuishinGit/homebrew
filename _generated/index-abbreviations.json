@@ -1,6 +1,1 @@
-{
-	"collection/Zuishin; Zuishin's Revised Collection.json": ["ZRC"],
-	"collection/Zuishin; Zuishin's Poisons.json": ["ZPSN"],
-	"book/Zuishin; The Woods House Rules.json": ["TWHR"],
-	"book/Weems; Mundane and Magical Makings.json": ["QAMMM"]
-}
+{"book/Weems; Mundane and Magical Makings.json":["QAMMM"],"book/Zuishin's Screen.json":["ZDMS"],"book/Zuishin; The Woods House Rules.json":["TWHR"],"collection/Zuishin; Zuishin's Poisons.json":["ZPSN"],"collection/Zuishin; Zuishin's Revised Collection.json":["ZRC"],"creature/Forgotten_Realms__In_Previous_Editions.json":["FRPE"],"creature/Sanelis_Saga.json":["SASA"],"creature/Zuishin_s_Creature_Collection.json":["ZCC"],"item/zuishinsFindings.json":["ZMF"],"variantrule/tensionPool.json":["AGMTP"]}
