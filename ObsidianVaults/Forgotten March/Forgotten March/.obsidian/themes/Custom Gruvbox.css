@@ -68,8 +68,8 @@
     --text-title-h5:              var(--zui-gold); /*var(--neutral-aqua);*/
     --text-title-h6:              var(--zui-gold); /*var(--neutral-blue);*/
     --text-link:                  var(--bright-blue); /*unused*/
-    --text-a:                     var(--bright-orange); /*used for all clickable links*/
-    --text-a-hover:               var(--bright-blue); /*used for hovering links and URLs in editor*/
+    --text-a:                     var(--bright-orange); /*var(--bright-orange);*/ /*used for all clickable links*/
+    --text-a-hover:               var(--neutral-orange); /*used for hovering links and URLs in editor*/
     --text-mark:                  rgba(215, 153, 33, 0.4); /* neutral-yellow */
     --pre-code:                   var(--dark1);
     --text-highlight-bg:          var(--faded-aqua); /*unused*/

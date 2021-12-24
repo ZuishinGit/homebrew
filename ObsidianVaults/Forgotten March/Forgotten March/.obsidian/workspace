@@ -4,32 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "327389a412aed241",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Session Planner/Session 1.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        },
-        "group": "7dec36ce5f2ef0da"
-      },
-      {
         "id": "2dca368514a8d5bd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Session 1.md",
-            "mode": "preview",
+            "file": "Session Planner/Session 2.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
-        },
-        "group": "7dec36ce5f2ef0da"
+        }
       }
     ],
     "direction": "vertical"
@@ -85,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session Planner/Session 1.md"
+                "file": "Session Planner/Session 2.md"
               }
             }
           },
@@ -113,17 +98,17 @@
     "width": 225.49990844726562,
     "collapsed": true
   },
-  "active": "327389a412aed241",
+  "active": "2dca368514a8d5bd",
   "lastOpenFiles": [
+    "Session Planner/Session 2.md",
     "Session Planner/Session 1.md",
+    "Places/Duchy of Alrinh/Kinsey Overview.md",
+    "Places/Duchy of Alrinh/Shar Overview.md",
     "Adventure Paths/Cabarin's Corrupted.md",
-    "Visia/Framing Events.md",
-    "Visia/World-Charting.md",
+    "Items/Rhubeus' spellbook.md",
+    "Rhubspellbook.md",
     "Adventure Paths/Catechism of Bozik.md",
-    "Dungeons/Desert Dungeon.md",
-    "Dungeons/Warrens of Bozik.md",
-    "Dungeons/Tharizdunian Dungeon Part 2.md",
-    "Dungeons/Olivier's Haunted Mansion.md",
-    "General/Mystery Design.md"
+    "Visia/Framing Events.md",
+    "Visia/World-Charting.md"
   ]
 }

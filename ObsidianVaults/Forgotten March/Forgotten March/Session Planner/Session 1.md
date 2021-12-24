@@ -20,3 +20,41 @@
 2. The Dungeons/Vilberg's Home
 3. The Smiths
 4. The Dawnhood
+5. The Prynn Villa
+
+## Mill
+The mill is a hideout for a gang that works under the wizard Rhubeus, who is a part of Cabarin's Cabal. He pays extremely well — always in platinum — and in exchange, the thugs whack or kidnap people who get too close to Cabarin's Cabal. They are currently holding a man named Morelet, a private investigator who has been noticing people disappearing without a trace. His investigation lead him to the Mill.
+
+***Investigator Morelet.*** He may be a useful aid in this investigation were it not for the fact that his memory has just been erased by the enchanter Rhubeus. All that is left of his investigation is his codified journal. If the characters think to cast Greater Restoration on Morelet, then they would confirm that house Prynn had beat and kidnapped him.
+
+***The Journal.*** Over the course of 1 hour, a creature may attempt to decode the journal with a DC 25 Intelligence (Investigation) check. On a failure, the creature must wait 1 day before re-attempting it. The DC decreases by 5 for each failure. On a success, the creature learns that Morelet suspects the Prynn family has been kidnapping those that get too close to their secrets... guards, investigators, and family friends have been gone or... changed in some way, and it all points to the Prynn family. The journal states that Morelet suspects they harbor a dark secret, and their estate is likely to hold the answers, the last entry says that Morelet has gone to their estate to confront them.
+
+***The Thugs.*** The thugs know nothing of Prynn activities. They are paid hansomely in platinum (each have 6d6 platinum pieces on their person).
+
+***Rhubeus and his Bodyguard.*** Rhubeus has a [[Rhubeus' spellbook|spellbook]] and a sending stone that is shaped like a flat disk of obsidian. His bodyguard has a silver locket containing a few words that have been scratched out.
+
+## The Dungeons/Vilberg's House
+If the characters ask him without bringing the poison:
+> Without seeing the poison, I can't be of much use. If you bring a sample of it to me, I can tell you more.
+
+If the characters ask him, thinking to bring a sample of the poison:
+> I recognize this poison, in fact, it is my own design. Though, I was locked away before getting a chance to produce any... Someone must have gotten a hold of my notes...
+
+If the characters inquire further as to his notes, he says:
+> I can tell you where my notes are on the condition that you let me see my son. He should still be in our family home. I simply wish to speak with him. You must convince the magistrate to let me see him for but a moment.
+
+The characters can convince the magistrate or Vilberg with a DC 20 Charisma (Persuasion) check.
+
+At the house, they should discover that a regal woman with long black hair had come to collect his father's belongings, she was with a couple of guards. It seems they ransacked the house.
+
+## The Smiths/Lentamine Estate
+> A long time ago I was approached by Lord Theobald of House Lentamine, who requested I appraise a dagger quite like that one! I would have liked to keep it, but after hearing of its origins I was eager to let him walk away with it. As I recall the dagger was used in some kind of ritualistic sacrifice for that sinister god Zehir. Chilling stuff. In any case, what are you lot doing with something like that? Shouldn't it be at the Lentamine estate? I doubt they would let someone part with something from that holy collection of theirs...
+
+The characters should be lead to the estate at this point. The characters should leave the estate with the knowledge that they invited house Prynn to a gathering as a symbol of good intentions, only to find shortly thereafter one of their artifacts was missing — the Venomer's Dagger.
+## The Dawnhood/Lentamine Estate
+If the characters ask about the followers of Zehir, the Dawnhood will refer them to the Lentamine Estate, which have done extensive research into the cults of Zehir.
+
+The characters should leave the estate with the knowledge that they invited house Prynn to a gathering as a symbol of good intentions, only to find shortly thereafter one of their artifacts was missing — the Venomer's Dagger.
+
+They never reported it because they would not want to be on the bad side of the Prynn house.
+## The Prynn Villa
