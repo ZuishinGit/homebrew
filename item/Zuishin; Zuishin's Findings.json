@@ -112,6 +112,97 @@
 	        ]
 	    },
 	    {
+	    	"name": "Clavos, Blade of Purphoros",
+	    	"source": "ZMF",
+	    	"baseItem": "Shortsword|PHB",
+	    	"type": "M",
+	    	"resist": [
+	    		"fire"
+	    	],
+	    	"conditionImmune": [
+	    		"exhaustion"
+	    	],
+	    	"rarity": "artifact",
+	    	"reqAttune": true,
+	    	"weight": 2,
+	    	"weaponCategory": "martial",
+	    	"property": [
+	    		"F",
+	    		"L"
+	    	],
+	    	"dmg1": "1d6",
+	    	"dmgType": "P",
+	    	"grantsProficiency": true,
+	    	"bonusWeapon": "+3",
+	    	"weapon": true,
+	    	"entries": [
+	    		{
+	    			"type": "entries",
+	    			"name": "Blade of the Forge",
+	    			"entries": [
+	    				"This magic shortsword grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using it, the target takes an extra {@dice 1d10} fire damage."
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Defender",
+	    			"entries":[
+	    				"The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus to any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it."
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Reforged",
+	    			"entries": [
+	    				"While holding the shortsword, you have resistance to fire damage and are immune to {@condition exhaustion}."
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Random Properties",
+	    			"entries": [
+	    				"{@i Clavos} has the following random properties:",
+	    				{
+	    					"type": "list",
+	    					"items": [
+	    						"2 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial properties}"
+	    					]
+	    				}
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Spells",
+	    			"entries": [
+	    				"While the shortsword is on your person, you can use an action to cast one of the following spells (save DC 18): {@spell animate objects}, {@spell heat metal}, {@spell fabricate}, {@spell magic weapon}, {@spell mending}, {@spell shatter}. Once you use the shortsword to cast a spell, the spell can't be cast again from it until the next dusk."
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Bronze Entombment",
+	    			"entries": [
+	    				"As a bonus action, you can imbue the blade with an aspect of Purphoros' power, causing your next attack to have an additional +2 bonus to attack and damage rolls. Additionally, when a creature is damaged by this attack, they begin to turn to bronze. Their condition worsens for every subsequent attack you make. On the first hit, the affected creature has disadvantage on attack rolls as their joints begin to turn to bronze. On a second hit, the affected creature becomes {@condition restrained}. On a third hit, the creature is permanently {@condition petrified} as a bronze statue. While petrified in this way, the creature is immune to damage, and can not be restored by anything short of divine intervention.",
+	    				"This property can be invoked 3 times, after which the weapon is immediately destroyed in a fiery blaze."
+	    			]
+	    		},
+	    		{
+	    			"type": "entries",
+	    			"name": "Destroying the Shortsword",
+	    			"entries": [
+	    				"To destroy the shortsword, it must be taken to the realm of Tizerus, in the Underworld. There it must be coated in clay from the Mire of Punishment. The heat of the Shortsword hardens the clay, which fuses to it after one month. Once fully hardened, the clay-covered shortsword must be swallowed and digested by a kraken."
+	    			]
+	    		}
+	    	],
+	    	"attachedSpells": [
+	    		"animate objects",
+	    		"heat metal",
+	    		"fabricate",
+	    		"magic weapon",
+	    		"mending",
+	    		"shatter"
+	    	]
+	    },
+	    {
 	    	"name": "+2 Wrappings",
 	    	"source": "ZMF",
 	    	"rarity": "rare",
