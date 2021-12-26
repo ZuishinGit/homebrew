@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.145.2",
+	"siteVersion": "1.146.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1640380382,
-		"dateLastModified": 1640380382
+		"dateAdded": 1640550009,
+		"dateLastModified": 1640550009
 	},
 	"monster": [
 		{
@@ -13754,7 +13754,7 @@
 			]
 		},
 		{
-			"name": "Bronze Emissary",
+			"name": "Foundry Champion",
 			"source": "ZCC",
 			"size": "H",
 			"type": "construct",
@@ -13891,8 +13891,6 @@
 				}
 			],
 			"fluff": {
-				"name": "Iron Golem",
-				"source": "MM",
 				"entries": [
 					{
 						"type": "entries",
@@ -13945,18 +13943,9 @@
 							}
 						]
 					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Iron Golem.jpg"
-						}
-					}
 				]
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Iron Golem.png",
+			"tokenUrl": "https://github.com/ZuishinGit/homebrew/blob/master/_no-index/assets/My%20Tokens/foundryChampion.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/iron-golem.mp3"
