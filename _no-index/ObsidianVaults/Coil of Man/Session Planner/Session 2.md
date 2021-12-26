@@ -9,4 +9,4 @@
 > 
 > Last we left off, you guys had been ushered to the sweltering chambers of Purphoros, God of the Forge, where you learned he was crafting a weapon capable of slaying divines. Before entrusting it to you, he wished to test your capabilities as heroes by beseeching unto you a divine ordeal.
 >
-> Your vision comes back to you.
+> Your vision comes back to you. 

@@ -22,7 +22,7 @@
 			"name":"The Woods: House Rules",
 			"source":"TWHR",
 			"id":"TWHR",
-			"coverUrl":"https://raw.githubusercontent.com/ZuishinGit/homebrew/master/Images/woodsCover.png",
+			"coverUrl":"https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/woodsCover.png",
 			"contents":[
 				{
 					"name":"Preface",
