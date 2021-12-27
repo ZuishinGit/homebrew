@@ -10,3 +10,14 @@
 > Last we left off, you guys had been ushered to the sweltering chambers of Purphoros, God of the Forge, where you learned he was crafting a weapon capable of slaying divines. Before entrusting it to you, he wished to test your capabilities as heroes by beseeching unto you a divine ordeal.
 >
 > Your vision comes back to you. 
+
+## Success
+Purphoros hesitantly gives them Clavos, the shortsword, warning them of their new destiny. 
+
+## Failure
+Purphoros sorrowfully exclaims that it is not their destiny to wield his blade, though that does not mean they are not important, they have made it to Nyx after all. What they do from here is up to them.
+
+Regardless of success or failure, Purphoros grants them a host of bronze pegasi that can traverse the realms of Nyx with ease; alternatively, he offers to craft a gateway to the mortal realm.
+
+## Back to the Underworld
+The characters may find themselves back in the Saprophytic Isles, with the tower of Kruu'Gall still in its place.

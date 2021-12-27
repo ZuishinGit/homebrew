@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Session 2.md",
+            "file": "Agonas.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Session Planner/Session 2.md",
+            "file": "Agonas.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session Planner/Session 2.md",
+                "file": "Agonas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session Planner/Session 2.md"
+                "file": "Agonas.md"
               }
             }
           }
@@ -111,14 +111,15 @@
   },
   "active": "2460fcb7eca1b759",
   "lastOpenFiles": [
-    "Session Planner/Session 2.md",
-    "Session Planner/Session 1.md",
-    "Encounters/Underworld Sentinels.md",
-    "Encounters/Basidirond Grove.md",
     "Agonas.md",
-    "Matriarch's Grotto.md",
+    "Dungeons/Traveling Tower of Kruu'Gal.md",
+    "Encounters/Underworld Sentinels.md",
     "Nerono.md",
     "Phylias.md",
-    "Saprophytic Isles.md"
+    "Saprophytic Isles.md",
+    "Matriarch's Grotto.md",
+    "Session Planner/Session 2.md",
+    "Session Planner/Session 1.md",
+    "Encounters/Basidirond Grove.md"
   ]
 }

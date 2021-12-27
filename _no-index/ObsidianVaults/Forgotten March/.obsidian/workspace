@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
+            "file": "Barithiel.md",
             "mode": "source"
           }
         },
         "group": "e7c5402930affab8"
       },
       {
-        "id": "2b23662a89845bfc",
+        "id": "713375a0b0bce07c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
+            "file": "Barithiel.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
+                "file": "Barithiel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "ae44762035f51be5",
   "lastOpenFiles": [
+    "Barithiel.md",
+    "Forgotten March/Visia/Framing Events.md",
+    "Forgotten March/Visia/World-Charting.md",
+    "Forgotten March/Templates/Encounters.md",
     "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
+    "Forgotten March/Session Planner/Session 2.md",
     "Forgotten March/Places/Duchy of Alrinh/Kinsey Overview.md",
     "Forgotten March/General/Dungeon Design.md",
     "Forgotten March/General/Mystery Design.md",
-    "Forgotten March/Visia/World-Charting.md",
-    "Forgotten March/Visia/Framing Events.md",
-    "Forgotten March/Adventure Paths/Cabarin's Corrupted.md",
-    "Forgotten March/Adventure Paths/Catechism of Bozik.md",
-    "Forgotten March/People/Zikzokrishka.md",
-    "Forgotten March/People/Zedaar, the Chanter.md"
+    "Forgotten March/Adventure Paths/Cabarin's Corrupted.md"
   ]
 }
