@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Barithiel.md",
+            "file": "Forgotten March/Session Planner/Session 2.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Barithiel.md",
+            "file": "Forgotten March/Session Planner/Session 2.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Barithiel.md",
+                "file": "Forgotten March/Session Planner/Session 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "ae44762035f51be5",
   "lastOpenFiles": [
-    "Barithiel.md",
+    "Forgotten March/Session Planner/Session 2.md",
+    "Forgotten March/Session Planner/Session 1.md",
     "Forgotten March/Visia/Framing Events.md",
+    "Barithiel.md",
     "Forgotten March/Visia/World-Charting.md",
     "Forgotten March/Templates/Encounters.md",
     "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
-    "Forgotten March/Session Planner/Session 2.md",
     "Forgotten March/Places/Duchy of Alrinh/Kinsey Overview.md",
     "Forgotten March/General/Dungeon Design.md",
-    "Forgotten March/General/Mystery Design.md",
-    "Forgotten March/Adventure Paths/Cabarin's Corrupted.md"
+    "Forgotten March/General/Mystery Design.md"
   ]
 }
