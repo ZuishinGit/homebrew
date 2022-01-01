@@ -56,8 +56,7 @@
 										"{@note My homebrew revisions (Essential)} - {@loader Zuishin's Revised Collection [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/collection/Zuishin%3B%20Zuishin's%20Revised%20Collection.json}",
 										"{@note My homebrew poisons (DMs only)} - {@loader Zuishin's Poisons [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/collection/Zuishin%3B%20Zuishin's%20Poisons.json}",
 										"{@note Rules we use for crafting magic items} - {@loader Mundane and Magical Makings [book]|book/Weems; Mundane and Magical Makings.json}",
-										"{@note Magic item prices} - {@loader Sane Magic Item Prices Expanded [book]|book/Giddy; Sane Magic Item Prices Expanded.json}",
-										"{@note My encyclopedia magica (WIP)} - {@loader Encyclopedia Magica for 5e [collection]|https://raw.githubusercontent.com/ZuishinGit/homebrew/master/WIP/Collections/encyclopediamagica.json}"
+										"{@note Magic item prices} - {@loader Sane Magic Item Prices Expanded [book]|book/Giddy; Sane Magic Item Prices Expanded.json}"
 									]
 								}
 							]
@@ -432,7 +431,7 @@
 													"type":"entries",
 													"name":"Monster Multiattacks and Grappling",
 													"entries":[
-														"A monster can replace its \"biggest\" attack in a multiattack action with a {@action shove|phb} or {@action grapple|phb}, in the same way a PC can replace one of their attacks when taking the attack action. The hope is that this will provide more interesting and engaging combat encounters."
+														"A monster can replace a melee attack in a multiattack action with a {@action shove|phb} or {@action grapple|phb}, in the same way a PC can replace one of their attacks when taking the attack action. The hope is that this will provide more interesting and engaging combat encounters."
 													]
 												},
 												{
@@ -486,6 +485,51 @@
 					]
 				}
 			]
+		}
+	],
+	"variantrule": [
+		{
+			"name":"Tension Pool",
+			"source":"TWHR",
+			"ruleType":"O",
+			"entries":[
+				"The tension pool is a collection of {@dice d6cs=1;2d6cs=1;3d6cs=1;4d6cs=1;5d6cs=1;6d6cs=1|up to 6d6} dice. Here are the actions you can take with the pool:",
+				{
+					"type":"list",
+					"items":[
+						"Add a die",
+						"Roll the pool",
+						"Add a {@dice d6cs=1|d6} and roll the pool",
+						"Clear the pool"
+					]
+				},
+				"If you roll a 1 on any of the {@dice d6}, something bad happens."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Jumping",
+			"source": "TWHR",
+			"type": "table",
+			"caption": "Moving 10 feet before a jump is a running start.",
+			"colLabels": [
+				"Jump Type",
+				"Running",
+				"Standing"
+			],
+			"rows": [
+				[
+					"Long",
+					"STR",
+					"STR/2"
+				],
+				[
+					"High",
+					"3 + mod",
+					"(3 + mod)/2"
+				]
+			],
 		}
 	]
 }
