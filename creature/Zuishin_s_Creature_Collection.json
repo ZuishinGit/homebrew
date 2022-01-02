@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1641159558,
-		"dateLastModified": 1641159558
+		"dateAdded": 1641159709,
+		"dateLastModified": 1641159709
 	},
 	"monster": [
 		{
@@ -15567,13 +15567,12 @@
 		{
 			"name": "Hobgoblin Deadeye",
 			"shortName": "hobgoblin",
-			"isNpc": true,
 			"source": "ZCC",
 			"size": "M",
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"half-orc"
+					"goblinoid"
 				]
 			},
 			"alignment": [
