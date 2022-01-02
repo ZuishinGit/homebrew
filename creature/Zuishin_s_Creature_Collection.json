@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1640715626,
-		"dateLastModified": 1640715626
+		"dateAdded": 1641158707,
+		"dateLastModified": 1641158707
 	},
 	"monster": [
 		{
@@ -15350,6 +15350,382 @@
 			],
 			"conditionInflict": [
 				"poisoned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gurrock Nir",
+			"shortName": "hobgoblin",
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "19d8 + 76",
+				"average": 161
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 19,
+			"int": 16,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"int": "+7",
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the hobgoblin can deal an extra 14 ({@dice 4d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Martial Arts (1/Turn)",
+					"entries": [
+						"When a target is hit by the hobgoblin's spear, it can choose one of the following additional effects:",
+						"The target must succeed a {@dc 17}:",
+						"- Strength saving throw vs {@action disarm|dmg}.",
+						"- Dexterity saving throw vs {@condition prone}.",
+						"- Constitution saving throw vs {@condition stunned}, until end hobgoblin's next turn."
+					]
+				},
+				{
+					"name": "Tactical Defense",
+					"entries": [
+						"While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Intelligence modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hobgoblin makes four attacks with its spear."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The hobgoblin adds 4 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"fluff": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.",
+									"Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.",
+									{
+										"name": "Goblinoids",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins belong to a family of creatures called goblinoids. They are often found lording over their cousins, the smaller goblins and the ferocious bugbears."
+										]
+									},
+									{
+										"name": "Martial Might",
+										"type": "entries",
+										"entries": [
+											"A hobgoblin measures virtue by physical strength and martial prowess, caring about nothing except the opportunity to demonstrate skill and cunning in battle. Hobgoblins of high military rank attain their positions by force, then hold those positions by imposing their authority through draconian measures.",
+											"Hobgoblins train to fight with a variety of weapons, and have great skill at crafting arms, armor, siege engines, and other military devices. Organized and disciplined, they take exceptional care of their weapons, armor, and personal possessions. They favor the bold colors associated with their tribes, and trim their often-elaborate uniforms with blood-red piping and leather dyed black."
+										]
+									},
+									{
+										"name": "Military Legions",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins organize themselves into tribal bands known as legions. In their martial society, every hobgoblin has a rank, from the powerful leaders and champions, to the rank-and-file foot soldiers, to the goblins that find themselves driven into the front lines at spear point. A legion is headed by a warlord with several captains serving under its command. A hobgoblin warlord is a ruthless tyrant more interested in strategy, victory, glory, reputation, and dominion than leading troops into battle.",
+											"As loyal and disciplined as hobgoblins are in their own legion, rival legions compete constantly for reputation and status. Meetings between legions erupt in violence if troops aren't restrained, and only exceptionally powerful leaders can force legions to cooperate on the battlefield."
+										]
+									},
+									{
+										"name": "Strategic Thinkers",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins have a strong grasp of tactics and discipline, and can carry out sophisticated battle plans under the direction of a strategically minded leader. However, they hate elves and attack them first in battle over any other opponents, even if doing so would be a tactical error.",
+											"Legions often supplement their ranks with less reliable and more expendable troops, including goblins, bugbears, orcs, evil humans, ogres, and giants."
+										]
+									},
+									{
+										"name": "Beast Trainers",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins have a long history of training animals to service. Like the more civilized races, they use oxen and horses to transport goods and weaponry over long distances. They communicate with each other using trained ravens, and keep vicious wolves to guard prisoners and protect hobgoblin camps. Hobgoblin cavalry use trained worgs as steeds, in the same way that goblins ride wolves. Some tribes even keep carnivorous apes as fighting beasts."
+										]
+									},
+									{
+										"name": "Conquer and Control",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins claim lands with abundant resources, and they can be found in forests and mountains, near mines and humanoid settlements, and anywhere else that wood, metal, and potential slaves can be found. They build and conquer strongholds in strategically advantageous locations, which they then use as staging areas to expand their territory.",
+											"Hobgoblin warlords never tire of combat, but they don't take up arms lightly. Before they attack, hobgoblins conduct thorough reconnaissance to gauge the strengths and weaknesses of their foes. When assaulting a stronghold, they surround it first to cut off escape routes and supply lines, then slowly starve their enemies out.",
+											"Hobgoblins fortify their own holdings, bolstering existing defenses with innovations of their own. Whether they lair in cavern complexes, dungeons, ruins, or forests, they protect their strongholds with ditches, fences, gates, guard towers, pit traps, and crude catapults or ballistas."
+										]
+									},
+									{
+										"name": "Legion of Maglubiyet",
+										"type": "entries",
+										"entries": [
+											"Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As terrifying as this figure is, hobgoblins don't fear death, believing that when they die in battle, their spirits join the honored ranks of Maglubiyet's army on the plane of Acheron."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Hobgoblin.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin Warlord.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/hobgoblin-warlord.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hobgoblin Deadeye",
+			"shortName": "hobgoblin",
+			"isNpc": true,
+			"source": "ZCC",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-orc"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +2 leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d8 + 76",
+				"average": 161
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 20,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 15,
+			"save": {
+				"wis": "+5",
+				"cha": "+5",
+				"int": "+3"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+5",
+				"stealth": "+8",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The hobgoblin is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell protection from evil and good}",
+								"{@spell thunderous smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell dispel magic}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Martial Advantage (Hobgoblin)",
+					"entries": [
+						"Once per turn, the hobgoblin can deal an extra 14 ({@dice 4d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hobgoblin makes three attacks with its glaive or with its oversized longbow."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Oversized Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Vow of Emnity (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the hobgoblin gains advantage on attack rolls against a target creature for 1 minute or until the creature drops to 0 hit points or falls {@condition unconscious}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/MM/Hobgoblin Warlord.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin Warlord.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
