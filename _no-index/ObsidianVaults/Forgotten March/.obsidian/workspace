@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forgotten March/Session Planner/Session 2.md",
+            "file": "Forgotten March/Places/Urogan/Bulag Uul.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forgotten March/Session Planner/Session 2.md",
+            "file": "Forgotten March/Places/Urogan/Bulag Uul.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forgotten March/Session Planner/Session 2.md",
+                "file": "Forgotten March/Places/Urogan/Bulag Uul.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "ae44762035f51be5",
   "lastOpenFiles": [
+    "Forgotten March/Places/Urogan/Bulag Uul.md",
     "Forgotten March/Session Planner/Session 2.md",
-    "Untitled.md",
     "Forgotten March/Session Planner/Session 1.md",
-    "Barithiel.md",
     "Forgotten March/Visia/Framing Events.md",
-    "Forgotten March/Visia/World-Charting.md",
-    "Forgotten March/Templates/Encounters.md",
     "Forgotten March/Places/Duchy of Alrinh/Shar Overview.md",
+    "Barithiel.md",
     "Forgotten March/Places/Duchy of Alrinh/Kinsey Overview.md",
-    "Forgotten March/General/Dungeon Design.md"
+    "Untitled.md",
+    "Forgotten March/Visia/World-Charting.md",
+    "Forgotten March/Templates/Encounters.md"
   ]
 }

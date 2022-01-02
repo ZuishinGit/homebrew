@@ -22,6 +22,8 @@ The sigil sequence is accurate, and leads to a wizard's tower within a few miles
 
 ## In the Weaver's Wood
 
+##### Planned Encounter
+
 The weaver's wood is infested with ettercaps. After an hour, the characters stumble upon something interesting:
 
 > As you walk through the dark wood, your boots continually get caught on sticky webs. You can occasionally feel bugs crawling around in your clothing, and sometimes catch fleeting glimpses of massive spiders, their beady eyes reflecting the light. Eventually you stop at a section of the wood which is completely overtaken by webs. You can't even see the ground. At the center of this small clearing, 30 feet away from you, hanging from the canopy by thick strands of web, is a suspended sack which looks suspiciously humanoid.
@@ -30,13 +32,34 @@ The weaver's wood is infested with ettercaps. After an hour, the characters stum
 
 ***Webbed Pitfall.*** The area beneath the webbed humanoid is a pitfall trap covered by light webs. A creature who steps in the area immediately falls 15 feet down, and is covered in webs (the hazard). The pit trap is noticeable with a DC 18 Perception check. If it looks like someone has figured out the trap, the ettercaps attempt to ambush the party, surprising anyone with a Passive Perception lower than 16.
 
+##### Random Encounter
+> Surrounded by an outcropping of bare trees is a massive cave entrance, you can see colossal footprints the size of Bardin going to and from the mouth of the cave. A terrible stench emanates from within.
+
+... A dire troll lay within...
+
+> This dank cave is rife with a terrible stench that burns the nose and causes your eyes to water. The source of the stench can be seen at the center of the cave lying still. A huge, 15-foot-tall, gray-skinned, gangly mess of limbs — a troll. One larger and uglier than any you've ever heard of. All around it is ancient stone furnishing, now weathered and destroyed from time. Low tables, benches, and ruinous brick are scattered around the area, overtaken with various fungi. The furnishings have one notable thing about them, they are decorated with a metal that shines — almost glowing — even in this dark cave. Chunks of the metal are strewn about.
+
 ## Road to Bulag Uul
 
 > Over the course of the next few hours, you wade through webs until you notice shafts of sunlight beginning to pierce through the densely woven canopy. It seems you are approaching the edge of this copse. You continue marching until the webs are far behind you, and find yourselves in the outskirts of the forest. Looking ahead, you can see the stumps of trees dotting the area, and now can hear a soft, rhythmic thwacking sound, coming from beyond a hill up ahead.
 
-***Thwacking Sound.*** The sound is of a hobgoblin logging camp. The hobgoblins order around a dozen humanoids bound by chains, including women and children.
+***Thwacking Sound.*** The sound is coming from a hobgoblin logging camp. The hobgoblins order around a dozen humanoids bound by chains, including women and children.
+
+***Treasure.*** In the tents are 100 rations, barrels of clean water, and 4 spare sets of armor and weapons. (chain mail, shield, longsword, arrows, longbows). The warlord's tent has a large trunk containing:
+
+- Jade game board with solid gold playing pieces
+- 4,000 gold
+- A mummified goblin hand, wrapped in a sack. Anyone with it in their possession is hunted by a revenant.
+- A bone-white key, obviously magical.
 
 
 
+
+### The Logging Camp
 
 ## Bulag Uul
+> As you travel further out of the wood, the signs of civilization become more apparent, a humble village in the distance, plumes of smoke from over another hill, footpaths here and there. After what was hours, you find yourselves facing a stretch of road that cuts perpendicular to you, about 500 feet away. While under the cover of a few twisting trees, you notice an entire platoon marching westward. There are dozens of hobgoblins — upwards of a hundred — all in rank, flying war banners of gold on black. Lagging closely behind is a covered litter being carried by 10 rotting goblinoids — undead. They will eventually continue on this road headed west without noticing you.
+
+### In Sight
+> The road quickly approaches what you can now see is a colossal structure, or more appropriately many structures all smashed together in a big blocky cube. The entire place is made of assorted wood and tiles and stone, with convoluted bridges that gap narrow alleyways, and precariously constructed balconies that dangle high above a deep gorge that surrounds the structure, like a moat. Tall, misshapen trees grow from the rooftops high into the sky. The structure is easily 100 feet tall, and as big as a town. Faces hurry by open windows and balconies; the place is as busy as a beehive. You can hear an incessant creaking sound carried by the northern wind, as if the entire structure were groaning under its own weight. This is the city of Bulag Uul. Its entrance, a large wooden bridge that spans the gorge, ends at two colossal iron gates, flanked by wooden guardtowers.
+
