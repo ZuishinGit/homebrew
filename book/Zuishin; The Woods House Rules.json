@@ -419,14 +419,7 @@
 													"entries":[
 														"Generally if a skill check tests your capabilities but it feels like you can just reattempt it upon failing, I will rule that you can't actually reattempt it until some time has passed. Depending on how arduous the task is, the cooldown can range from a short rest to the next time you level up. Examples of checks like this include a Strength ({@skill Athletics}) check to bust a door down or an Intelligence ({@skill Investigation}) check to decipher a coded book. When you fail such a check, I will tell you when you can next reattempt it, so keep note."
 													]
-												},
-												{
-													"type":"entries",
-													"name":"Holding Breath",
-													"entries":[
-														"A character holding their breath must succeed a Constitution saving throw whenever they take damage, or have the wind knocked out of them. The DC equals 10 or half the damage taken, whichever is higher."
-													]
-												},
+												}
 												{
 													"type":"entries",
 													"name":"Monster Multiattacks and Grappling",
