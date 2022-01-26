@@ -1,2 +1,0 @@
-# Saprophytic Isle
-The saprophytic isle is a landmass that drifts throughout the [[Tartyx River|Tartyx]]. The isle serves as the domain of the rising titan, [[Zuggtmoy]] and her thralls. It is rife with fungal growth and the landscape is heavily decorated by mushroom trees that rise to a height of up to 100 feet. The center of the isle is occupied by a series of a dozen colossal mushroom stalks 500 feet in length, all interconnected by bridges of shelf-fungi.

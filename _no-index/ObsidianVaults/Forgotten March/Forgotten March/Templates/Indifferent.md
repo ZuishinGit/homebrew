@@ -1,1 +1,0 @@
-<span style="color:pink">indifferentCreature</span>

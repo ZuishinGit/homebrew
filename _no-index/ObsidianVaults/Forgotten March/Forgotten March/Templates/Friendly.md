@@ -1,1 +1,0 @@
-<span style="color:green">friendlyCreature</span>

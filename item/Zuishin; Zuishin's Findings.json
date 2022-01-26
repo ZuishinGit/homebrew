@@ -214,7 +214,7 @@
 	        ]
 	    },
 	    {
-	    	"name":"Bracers of Might",
+	    	"name":"Siege Bracers",
 	    	"source":"ZMF",
 	    	"rarity":"rare",
 	    	"tier":"major",
@@ -321,6 +321,22 @@
 	    	],
 	    	"attachedSpells":[
 	    		"darkness"
+	    	]
+	    },
+	    {
+	    	"name": "Mercurial Mantle",
+	    	"source": "ZMF",
+	    	"tier": "major",
+	    	"rarity": "rare",
+	    	"reqAttune": true,
+	    	"wondrous": true,
+	    	"charges": 3,
+	    	"recharge": "dawn",
+	    	"entries": [
+	    		"This mantle has 3 charges. While you wear the mantle, you can use a bonus action and expend 1 charge to cast {@spell zephyr strike|xge} from it. The mantle regains {@dice 1d3} expended charges daily at dawn."
+	    	],
+	    	"attachedSpells": [
+	    		"zephyr strike"
 	    	]
 	    }
 	]
