@@ -338,6 +338,46 @@
 	    	"attachedSpells": [
 	    		"zephyr strike"
 	    	]
+	    },
+	    {
+	    	"name": "Rod of Seven Parts",
+	    	"source": "ZMF",
+	    	"type": "RD",
+	    	"tier": "major",
+	    	"rarity": "artifact",
+	    	"weight": 5,
+	    	"entries": [
+	    		"The rod of seven parts is a staff made up of 7 segmented rods. Each rod can be attuned to individually granting their own benefits, and gain additional benefits if they are attached to another piece. Attaching a rod entails an arduous ritual, taking 1 hour and requiring a DC 25 Arcana check. On a failure, the rod segments are teleported {@dice 1d8} miles away in a direction of the DM's choice.",
+	    		"A segment of the rod will point in the general direction of the nearest adjacent rod. If the closest piece is in a different plane of existence, the rod will point to the nearest portal to that plane.",
+	    		{
+	    			"type":"entries",
+	    			"name":"Rod of Law",
+	    			"entries":[
+	    				"A creature attuned to a rod segment has their alignment changed to Lawful if they aren't already. While the creature is attuned, they can not perform actions that are perceived by them to be unjust."
+	    			]
+	    		},
+	    		"Each segment of rod grants a creature their individual benefits when attuned to, with additional benefits if attached to another segment. A spell can be cast once, regaining its use daily at dawn, unless otherwise specified:",
+	    		{
+	    			"type":"list",
+	    			"style":"list-decimal",
+	    			"items":[
+	    				"You can cast the {@spell cure wounds} spell as an action.",
+	    				"You can cast the {@spell slow} spell (DC 18) as an action. While attached: you can also cast the {@spell fly} spell as an action.",
+	    				"You can cast the {@spell haste} spell as an action. While attached: you have advantage on saving throws against spells.",
+	    				"You can cast the {@spell gust of wind} spell as an action up to 5 times, regaining all expended uses daily at dawn. While attached: you can also cast the {@spell wind walk} spell, taking 1 minute to do so.",
+	    				"You can cast the {@spell true seeing} spell as an action up to 2 times, regaining all expended uses daily at dawn. While attached: you have resistance to force damage, and you have immunity from the {@spell magic missile} spell.",
+	    				"You can cast the {@spell hold monster} spell (DC 18) as an action, which can't be used again until dawn. While attached: you no longer age, and do not need food or water to survive.",
+	    				"You can cast the {@spell heal} spell as an action, which can't be used again until dawn. While attached: you can also cast the {@spell power word heal} spell as an action."
+	    			]
+	    		},
+	    		{
+	    			"type":"entries",
+	    			"name":"Random Properties",
+	    			"entries":[
+	    				"While there are at least 3 attached segments, you gain 1 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}. With at least 6 attached segments, you gain another {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}. When all 7 segments are attached, you gain {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial property}."
+	    			]
+	    		}
+	    	]
 	    }
 	]
 }
