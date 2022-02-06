@@ -377,6 +377,18 @@
 	    				"While there are at least 3 attached segments, you gain 1 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}. With at least 6 attached segments, you gain another {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}. When all 7 segments are attached, you gain 1 {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial property}."
 	    			]
 	    		}
+	    	],
+	    	"attachedSpells": [
+	    		"cure wounds",
+	    		"slow",
+	    		"haste",
+	    		"fly",
+	    		"gust of wind",
+	    		"true seeing",
+	    		"magic missile",
+	    		"hold monster",
+	    		"heal",
+	    		"power word heal"
 	    	]
 	    }
 	]
