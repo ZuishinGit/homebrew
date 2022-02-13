@@ -214,6 +214,17 @@
 	        ]
 	    },
 	    {
+	    	"name": "Uul Amulet",
+	    	"source": "ZMF",
+	    	"rarity": "uncommon",
+	    	"tier": "major",
+	        "reqAttune":true,
+	        "wondrous":true,
+	        "entries":[
+	        	"While wearing this amulet, you have resistance to fire damage. Additionally, you can use an action to cast the {@spell fog cloud} spell at 9th level. Any nonmagical fires within the fog cloud are immediately extinguished. Once used, the amulet can't be used again until the next dawn.",
+	        ]
+	    },
+	    {
 	    	"name":"Siege Bracers",
 	    	"source":"ZMF",
 	    	"rarity":"rare",

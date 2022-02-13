@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.147.15",
+	"siteVersion": "1.149.1",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1643579634,
-		"dateLastModified": 1643579634
+		"dateAdded": 1644792919,
+		"dateLastModified": 1644792919
 	},
 	"monster": [
 		{
@@ -14061,21 +14061,9 @@
 					]
 				},
 				{
-					"name": "Divine Awareness",
-					"entries": [
-						"Barithiel knows if he hears a lie."
-					]
-				},
-				{
 					"name": "Magic Resistance",
 					"entries": [
 						"Barithiel has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Planar Exile",
-					"entries": [
-						"Barithiel can not travel to a plane other than the material plane."
 					]
 				}
 			],
@@ -14083,19 +14071,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Barithiel makes two melee attacks."
+						"Barithiel makes three melee attacks or two ranged attacks. He can replace one of these attacks with Vow of Tyranny. If he hits a creature with 3 attacks in a single turn, the creature must succeed on a {@dc 22} Constitution saving throw or receive a randomly determined {@table lingering injuries||lingering injury}."
+					]
+				},
+				{
+					"name": "Vow of Tyranny {@recharge 4}",
+					"entries": [
+						"Barithiel utters a beguiling word to a creature within 60 feet. The creature must succeed a {@dc 22} Wisdom saving throw or become {@condition charmed} by Barithiel until the end of their next turn. A creature {@condition charmed} in this way falls {@condition prone} and then ends their turn."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 22 ({@damage 5d8}) radiant damage."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 22 ({@damage 5d8}) radiant damage."
 					]
 				},
 				{
-					"name": "Rending Claws {@recharge 4}",
+					"name": "Divine Bolt",
 					"entries": [
-						"Barithiel makes three claw attacks against a creature. If they all hit, the creature must succeed a {@dc 19} Constitution saving throw or be afflicted by a {@table lingering injuries|dmg|lingering injury}."
+						"{@atk rs} {@hit 13} to hit, range 120 ft., one target. {@h}22 ({@damage 5d8}) radiant damage."
 					]
 				}
 			],
@@ -14103,7 +14097,7 @@
 				{
 					"name": "Warding Radiance",
 					"entries": [
-						"When Barithiel is attacked by a creature within 10 feet of him, he can attempt to blind the creature as a reaction. The creature must succeed a {@dc 19} Constitution saving throw or become {@condition blinded} until the end of their next turn."
+						"When Barithiel is attacked by a creature within 10 feet of him, he can attempt to blind the creature as a reaction. The creature must succeed a {@dc 22} Constitution saving throw or become {@condition blinded} until the end of their next turn."
 					]
 				}
 			],
@@ -14123,7 +14117,7 @@
 				{
 					"name": "Whirlwind of Claws (Costs 2 Actions)",
 					"entries": [
-						"Each creature within 5 feet of Barithiel must make a {@dc 19} Dexterity saving throw, taking 31 ({@damage 9d6}) slashing damage on a failed save, or half as much damage on a successful one."
+						"Each creature within 5 feet of Barithiel must make a {@dc 22} Dexterity saving throw, taking 28 ({@damage 8d6}) slashing damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -14200,7 +14194,8 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"blinded"
+				"blinded",
+				"charmed"
 			],
 			"conditionInflictSpell": [
 				"invisible"
