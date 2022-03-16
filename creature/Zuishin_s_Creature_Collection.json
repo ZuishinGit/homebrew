@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.149.1",
+	"siteVersion": "1.151.1",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1644792919,
-		"dateLastModified": 1644792919
+		"dateAdded": 1647389924,
+		"dateLastModified": 1647389924
 	},
 	"monster": [
 		{
@@ -15919,6 +15919,377 @@
 				"MW",
 				"RW",
 				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Abraxas, the Whisperer",
+			"isNpc": true,
+			"source": "ZCC",
+			"size": "G",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d20 + 70",
+				"average": 217
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 20,
+			"int": 19,
+			"wis": 18,
+			"cha": 21,
+			"save": {
+				"dex": "+9",
+				"con": "+11",
+				"wis": "+10",
+				"cha": "+11"
+			},
+			"skill": {
+				"perception": "+10",
+				"persuasion": "+17",
+				"stealth": "+15"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 300 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Undercommon"
+			],
+			"cr": {
+				"cr": "18",
+				"lair": "19"
+			},
+			"trait": [
+				{
+					"name": "Runehide (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead. Alternatively if the dragon drops to 0 hit points, it can use this trait to instead drop to 1 hit point.",
+						"While the dragon has uses of this trait remaining, it has resistance against bludgeoning, piercing, and slashing damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 11 ({@damage 2d10}) poison damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it."
+					]
+				},
+				{
+					"name": "Nightmare Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a cloud of spores in a 90-foot cone. Each creature in that area must make a {@dc 19} Wisdom saving throw. On a failed save, the creature takes 49 ({@damage 9d10}) psychic damage, and it is {@condition frightened} of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bloodied Breath",
+					"entries": [
+						"When the dragon is bloodied, it immediately recharges and uses its breath weapon."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Commanding Spores",
+					"entries": [
+						"The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a {@dc 19} Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 11 ({@damage 2d10}) psychic damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"The dragon makes one Tail attack."
+					]
+				},
+				{
+					"name": "Spore Salvo (Costs 2 Actions)",
+					"entries": [
+						"The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a {@dc 19} Constitution saving throw or take 28 ({@damage 8d6}) poison damage and become {@condition poisoned} for 1 minute. The {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Deep Dragon",
+				"source": "FTD"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Change Shape.",
+											"entries": [
+												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
+												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby,",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry.",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation.",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses.",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Tunneler.",
+											"entries": [
+												"The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Making their lairs in the depths of the Underdark, deep dragons are nightmarish cousins of chromatic dragons. The warped magical energy of their subterranean realm gives them the ability to exhale magical spores that instill fear and scar the mind.",
+							"Deep dragons' black-and-gray hide is smooth like a salamander's, and their eyes are pale. As they age, their spore breath causes fungi to bloom across their skin, especially around the head and neck. Their wings are attached to their front legs and can fold in close to the body, allowing deep dragons to easily maneuver through relatively narrow tunnels.",
+							"Deep dragons often hoard secrets, delighting in knowledge of far-off lands. Many seek out new insights and tricks that they can use against other denizens of the Underdark, preferring social manipulation and crafty dealmaking to exerting themselves in combat. Deep dragons look down on any creature that isn't useful to them, though they are willing to bargain for knowledge they lack."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "A Deep Dragon's Lair",
+								"entries": [
+									"Deep dragons make their lairs in well-hidden caves or sunless beaches in the Underdark, and these sites are often inaccessible without the ability to fly or dive underwater. They fill their lairs with secret passages and hiding places that allow them to escape or ambush visitors if the need arises. A well-cultivated lair abounds with Underdark fungi and plants, with the floor, walls, and ceiling covered in carpets of mold and moss, or featuring larger mushrooms and plants in neatly organized displays.",
+									"The challenge rating of a legendary deep dragon increases by 1 when it's encountered in its lair."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											{
+												"type": "item",
+												"name": "Deep Torpor.",
+												"entry": "The dragon casts the {@spell slow} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 16). The spell ends early if the dragon uses this lair action again or if the dragon dies."
+											},
+											{
+												"type": "item",
+												"name": "Mossy Sludge.",
+												"entry": "The dragon conjures sludge-like moss that briefly covers surfaces in the lair. The ceiling, floor, and walls of the lair become difficult terrain until initiative count 20 on the next round."
+											},
+											{
+												"type": "item",
+												"name": "Toxic Spores.",
+												"entry": "The dragon fills a 20-foot cube it can see within 120 feet of itself with toxic spores. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@damage 4d6}) poison damage and be {@condition poisoned} until the end of its next turn."
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region surrounding a legendary deep dragon's lair is altered by the dragon's magic, creating one or more of the following effects:",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											{
+												"type": "item",
+												"name": "Preservation of Knowledge.",
+												"entry": "Books, letters, and any other physical forms of writing within 6 miles of the dragon's lair become magically charged and can't be damaged by nonmagical means."
+											},
+											{
+												"type": "item",
+												"name": "Restless Sleep.",
+												"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a DC 10 Constitution saving throw or be unable to reduce its level of {@condition exhaustion}. Creatures immune to the {@condition poisoned} condition are immune to this effect."
+											},
+											{
+												"type": "item",
+												"name": "Verdant Growth.",
+												"entry": "Vegetation and fungi within 6 miles of the dragon's lair grow faster and cover a greater area than they normally would. Foraging in this area yields twice the usual amount of food."
+											}
+										]
+									},
+									"If the dragon dies, these effects fade over the course of {@dice 1d10} days."
+								]
+							}
+						]
+					}
+				]
+			},
+			"dragonCastingColor": "deep",
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/My%20Tokens/monstrosity1.png",
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"poisoned"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
