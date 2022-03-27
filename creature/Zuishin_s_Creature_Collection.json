@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.151.1",
+	"siteVersion": "1.152.1",
 	"_meta": {
 		"sources": [
 			{
@@ -16,15 +16,17 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1647389924,
-		"dateLastModified": 1647389924
+		"dateAdded": 1648368773,
+		"dateLastModified": 1648368773
 	},
 	"monster": [
 		{
 			"name": "Giant Vulture Bee Queen",
 			"shortName": "bee",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -165,7 +167,9 @@
 		{
 			"name": "Undead Weave Serpent",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -374,7 +378,9 @@
 		{
 			"name": "Crystal Spider",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -493,7 +499,9 @@
 			"shortName": "gnoll",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -681,7 +689,9 @@
 		{
 			"name": "Gnoll Stalker",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -820,7 +830,9 @@
 			"name": "Xvart Illusionist",
 			"shortName": "illusionist",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1054,7 +1066,9 @@
 			"name": "Xvart Dream Darter",
 			"shortName": "xvart",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1247,7 +1261,9 @@
 			"name": "Symbiotic Jelly",
 			"shortName": "slime",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "ooze",
 				"tags": [
@@ -1449,7 +1465,9 @@
 			"shortName": "mindwitness",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -1690,7 +1708,9 @@
 		{
 			"name": "Xvart Chosen of Raximvort",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1932,7 +1952,9 @@
 			"name": "White Pudding",
 			"shortName": "pudding",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -2041,7 +2063,9 @@
 		{
 			"name": "Durezha",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -2253,7 +2277,9 @@
 		{
 			"name": "Cryohydra",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -2410,7 +2436,9 @@
 		{
 			"name": "Fangdrake",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"U"
@@ -2580,7 +2608,9 @@
 			"name": "Scathe",
 			"shortName": "scathe",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2723,7 +2753,9 @@
 			"name": "Vol Thug",
 			"shortName": "minion",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2888,7 +2920,9 @@
 		{
 			"name": "Lion Experiment",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -3051,7 +3085,9 @@
 			"name": "Chaena, Emissary of Pharika",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -3330,7 +3366,9 @@
 			"name": "Kihalel",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3511,7 +3549,9 @@
 			"name": "Vol Shadow Weaver",
 			"shortName": "shadow weaver",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3665,7 +3705,9 @@
 			"shortName": "basilisk",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -3850,7 +3892,9 @@
 		{
 			"name": "Archwitch",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4070,7 +4114,9 @@
 			"name": "Sruli Flower",
 			"shortName": "flower",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"alignment": [
 				"C",
@@ -4268,7 +4314,9 @@
 			"name": "Bloodbloater Swarm",
 			"shortName": "swarm",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "ooze",
 				"swarmSize": "T"
@@ -4406,7 +4454,9 @@
 		{
 			"name": "Sharkmera",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"U"
@@ -4559,7 +4609,9 @@
 			"name": "Ghul Shaman",
 			"shortName": "shaman",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4755,7 +4807,9 @@
 		{
 			"name": "Ghul Bandit",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4877,7 +4931,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -5093,7 +5149,9 @@
 			"shortName": "witch",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5332,7 +5390,9 @@
 			"shortName": "thug",
 			"group": "gale kings",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5421,7 +5481,9 @@
 			"name": "Gale King Desert Druid",
 			"shortName": "shaman",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5588,7 +5650,9 @@
 			"name": "Gale King Psion",
 			"shortName": "psion",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"L",
@@ -5749,7 +5813,9 @@
 			"name": "Thri-Kreen Psion",
 			"shortName": "thri-kreen",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5893,7 +5959,9 @@
 			"name": "Yuan-ti Archer",
 			"shortName": "yuan-ti",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6093,7 +6161,9 @@
 			"name": "Yuan-ti Warrior",
 			"shortName": "yuan-ti",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6293,7 +6363,9 @@
 		{
 			"name": "Soul-sworn Abjurer",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -6546,7 +6618,9 @@
 			"name": "Earth Necromental Myrmidon",
 			"shortName": "myrmidon",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -6696,7 +6770,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -7005,7 +7081,9 @@
 		{
 			"name": "Geodyte",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -7175,7 +7253,9 @@
 			"shortName": "nightmare shepherd",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -7374,7 +7454,9 @@
 			"name": "Boneless Creep",
 			"shortName": "creep",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -7772,7 +7854,9 @@
 			"shortName": "minotaur",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -8343,7 +8427,9 @@
 			"name": "Elder Cloud Ray",
 			"shortName": "cloud ray",
 			"source": "ZCC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -8530,7 +8616,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8773,7 +8861,9 @@
 			"name": "Gale King Master",
 			"shortName": "master",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8976,7 +9066,9 @@
 			"name": "Dune Reaper Drone",
 			"shortName": "drone",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -9075,7 +9167,9 @@
 			"name": "Dune Reaper Shriek",
 			"shortName": "shriek",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -9161,7 +9255,9 @@
 		{
 			"name": "Anima Jelly",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"L",
@@ -9374,7 +9470,9 @@
 		{
 			"name": "Dread Cactus",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"N",
@@ -9534,7 +9632,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -9763,7 +9863,9 @@
 			"name": "Kobold Poisoner",
 			"shortName": "kobold",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -9923,7 +10025,9 @@
 			"name": "Kobold Wyvern Master",
 			"shortName": "kobold",
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10088,7 +10192,9 @@
 		{
 			"name": "Wyvern Sentinel",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"U"
@@ -10239,7 +10345,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N"
@@ -10430,7 +10538,9 @@
 			"name": "Blight Minion",
 			"shortName": "blight",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -10576,7 +10686,9 @@
 			"name": "Celestial Mantis",
 			"shortName": "thri-kreen",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10750,7 +10862,9 @@
 		{
 			"name": "Thri-kreen Scout",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10924,7 +11038,9 @@
 		{
 			"name": "Thri-kreen Gladiator",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11114,7 +11230,9 @@
 		{
 			"name": "Silt Horror Tentacle",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -11214,7 +11332,9 @@
 		{
 			"name": "Silt Horror",
 			"source": "ZCC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -11319,7 +11439,9 @@
 			"name": "Giant Trapdoor Spider",
 			"shortName": "spider",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -11444,7 +11566,9 @@
 		{
 			"name": "Zhavasu's Helmed Horror",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -11621,7 +11745,9 @@
 		{
 			"name": "Mummy Acolyte",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -11817,7 +11943,9 @@
 			"shortName": "Etridhi",
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -11974,7 +12102,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "giant",
 			"alignment": [
 				"L",
@@ -12248,7 +12378,9 @@
 		{
 			"name": "Hundred-Handed One (Legendary)",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"L",
@@ -12408,7 +12540,9 @@
 			"shortName": "Priados",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12628,7 +12762,9 @@
 		{
 			"name": "Enhanced Lamia",
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -12815,7 +12951,9 @@
 			"name": "Eveus",
 			"shortName": "assassin",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"C",
@@ -12980,7 +13118,9 @@
 			"name": "Eveus",
 			"shortName": "assassin",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"C",
@@ -13081,7 +13221,9 @@
 		{
 			"name": "Grovetender",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13199,7 +13341,9 @@
 			"name": "Glass Hydra",
 			"shortName": "hydra",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -13391,7 +13535,9 @@
 			"name": "Bozik Sexton",
 			"shortName": "sexton",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -13530,7 +13676,9 @@
 		{
 			"name": "Animated Wax Sculpture",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -13634,7 +13782,9 @@
 			"shortName": "Bei",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13756,7 +13906,9 @@
 		{
 			"name": "Foundry Champion",
 			"source": "ZCC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -13990,7 +14142,9 @@
 			],
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -14207,7 +14361,9 @@
 			"name": "Abraxos, the Whisperer",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -14572,7 +14728,9 @@
 			"name": "Sophiel, the Bound",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -14694,7 +14852,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "ZCC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"C",
@@ -14976,7 +15136,9 @@
 			"name": "Black Ettercap",
 			"shortName": "ettercap",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -15187,7 +15349,9 @@
 		{
 			"name": "Ettercap Berserker",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -15354,7 +15518,9 @@
 			"name": "Gurrock Nir",
 			"shortName": "hobgoblin",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15567,7 +15733,9 @@
 			"name": "Hobgoblin Deadeye",
 			"shortName": "hobgoblin",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15731,7 +15899,9 @@
 		{
 			"name": "Hobgoblin Shadow Elite",
 			"source": "ZCC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15927,7 +16097,9 @@
 			"name": "Abraxas, the Whisperer",
 			"isNpc": true,
 			"source": "ZCC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -16293,6 +16465,158 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Octavia's Simulacrum",
+			"shortName": "Octavia",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 18",
+				"average": 58
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 20,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"int": "+11",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+17",
+				"history": "+17",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Celestial",
+				"Dwarvish",
+				"Draconic"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"18th-Level Wizard; Spell-save {@dc 19}; {@hit 11} to hit with spell attacks."
+					],
+					"will": [
+						"{@spell frostbite|XGE}",
+						"{@spell magic missile}",
+						"{@spell misty step}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell fireball}",
+							"{@spell hold monster}",
+							"{@spell ice storm}"
+						],
+						"1e": [
+							"{@spell crown of stars|XGE}",
+							"{@spell mass suggestion}",
+							"{@spell sunburst}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Octavia has advantage on saving throws against being {@condition charmed}, and magic can't put Octavia to sleep."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/MaBJoV/Eo%20Ashmajiir.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MaBJoV/Eo%20Ashmajiir.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archmage.mp3"
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"D",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Archmage (Familiar)",
+					"source": "MM",
+					"_mod": {
+						"_": {
+							"mode": "addSpells",
+							"spells": {
+								"1": {
+									"spells": [
+										"{@spell find familiar} (one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit})"
+									]
+								}
+							}
+						}
+					},
+					"variant": null
+				}
+			]
 		}
 	]
 }
