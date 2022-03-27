@@ -16598,25 +16598,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"_versions": [
-				{
-					"name": "Archmage (Familiar)",
-					"source": "MM",
-					"_mod": {
-						"_": {
-							"mode": "addSpells",
-							"spells": {
-								"1": {
-									"spells": [
-										"{@spell find familiar} (one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit})"
-									]
-								}
-							}
-						}
-					},
-					"variant": null
-				}
-			]
 		}
 	]
 }
