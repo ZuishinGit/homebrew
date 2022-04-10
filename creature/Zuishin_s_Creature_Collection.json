@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.152.1",
+	"siteVersion": "1.152.4",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1648368773,
-		"dateLastModified": 1648368773
+		"dateAdded": 1649628222,
+		"dateLastModified": 1649628222
 	},
 	"monster": [
 		{
@@ -14358,373 +14358,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Abraxos, the Whisperer",
-			"isNpc": true,
-			"source": "ZCC",
-			"size": [
-				"G"
-			],
-			"type": "dragon",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"alignmentPrefix": "typically ",
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 201,
-				"formula": "13d20 + 65"
-			},
-			"speed": {
-				"walk": 40,
-				"burrow": 40,
-				"fly": 80,
-				"swim": 40
-			},
-			"str": 23,
-			"dex": 16,
-			"con": 20,
-			"int": 19,
-			"wis": 18,
-			"cha": 21,
-			"save": {
-				"dex": "+9",
-				"con": "+11",
-				"wis": "+10",
-				"cha": "+11"
-			},
-			"skill": {
-				"perception": "+10",
-				"persuasion": "+17",
-				"stealth": "+15"
-			},
-			"senses": [
-				"blindsight 60 ft.",
-				"darkvision 300 ft."
-			],
-			"passive": 20,
-			"resist": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"charmed",
-				"frightened",
-				"poisoned"
-			],
-			"languages": [
-				"Common",
-				"Draconic",
-				"Undercommon"
-			],
-			"cr": {
-				"cr": "18",
-				"lair": "19"
-			},
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If the dragon fails a saving throw, it can choose to succeed instead."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The dragon makes one Bite attack and two Claw attacks."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 11 ({@damage 2d10}) poison damage."
-					]
-				},
-				{
-					"name": "Claw",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "Change Shape",
-					"entries": [
-						"The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it."
-					]
-				},
-				{
-					"name": "Nightmare Breath {@recharge 5}",
-					"entries": [
-						"The dragon exhales a cloud of spores in a 90-foot cone. Each creature in that area must make a {@dc 19} Wisdom saving throw. On a failed save, the creature takes 49 ({@damage 9d10}) psychic damage, and it is {@condition frightened} of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Commanding Spores",
-					"entries": [
-						"The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a {@dc 19} Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 11 ({@damage 2d10}) psychic damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"entries": [
-						"The dragon makes one Tail attack."
-					]
-				},
-				{
-					"name": "Spore Salvo (Costs 2 Actions)",
-					"entries": [
-						"The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a {@dc 19} Constitution saving throw or take 28 ({@damage 8d6}) poison damage and become {@condition poisoned} for 1 minute. The {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-					]
-				}
-			],
-			"legendaryGroup": {
-				"name": "Deep Dragon",
-				"source": "FTD"
-			},
-			"variant": [
-				{
-					"type": "inset",
-					"name": "Customizing Dragons",
-					"source": "FTD",
-					"page": 33,
-					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
-						{
-							"type": "entries",
-							"name": "Languages",
-							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Skills",
-							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Spells",
-							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Other Traits and Actions",
-							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Change Shape.",
-											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Flyby,",
-											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Mimicry.",
-											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 13} Wisdom ({@skill Insight}) check."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Rejuvenation.",
-											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Special Senses.",
-											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense}."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Tunneler.",
-											"entries": [
-												"The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							"Making their lairs in the depths of the Underdark, deep dragons are nightmarish cousins of chromatic dragons. The warped magical energy of their subterranean realm gives them the ability to exhale magical spores that instill fear and scar the mind.",
-							"Deep dragons' black-and-gray hide is smooth like a salamander's, and their eyes are pale. As they age, their spore breath causes fungi to bloom across their skin, especially around the head and neck. Their wings are attached to their front legs and can fold in close to the body, allowing deep dragons to easily maneuver through relatively narrow tunnels.",
-							"Deep dragons often hoard secrets, delighting in knowledge of far-off lands. Many seek out new insights and tricks that they can use against other denizens of the Underdark, preferring social manipulation and crafty dealmaking to exerting themselves in combat. Deep dragons look down on any creature that isn't useful to them, though they are willing to bargain for knowledge they lack."
-						]
-					},
-					{
-						"type": "section",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "A Deep Dragon's Lair",
-								"entries": [
-									"Deep dragons make their lairs in well-hidden caves or sunless beaches in the Underdark, and these sites are often inaccessible without the ability to fly or dive underwater. They fill their lairs with secret passages and hiding places that allow them to escape or ambush visitors if the need arises. A well-cultivated lair abounds with Underdark fungi and plants, with the floor, walls, and ceiling covered in carpets of mold and moss, or featuring larger mushrooms and plants in neatly organized displays.",
-									"The challenge rating of a legendary deep dragon increases by 1 when it's encountered in its lair."
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Lair Actions",
-								"entries": [
-									"On initiative count 20 (losing initiative ties), the dragon can take one of the following lair actions; the dragon can't take the same lair action two rounds in a row:",
-									{
-										"type": "list",
-										"style": "list-hang-notitle",
-										"items": [
-											{
-												"type": "item",
-												"name": "Deep Torpor.",
-												"entry": "The dragon casts the {@spell slow} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 16). The spell ends early if the dragon uses this lair action again or if the dragon dies."
-											},
-											{
-												"type": "item",
-												"name": "Mossy Sludge.",
-												"entry": "The dragon conjures sludge-like moss that briefly covers surfaces in the lair. The ceiling, floor, and walls of the lair become difficult terrain until initiative count 20 on the next round."
-											},
-											{
-												"type": "item",
-												"name": "Toxic Spores.",
-												"entry": "The dragon fills a 20-foot cube it can see within 120 feet of itself with toxic spores. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@damage 4d6}) poison damage and be {@condition poisoned} until the end of its next turn."
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Regional Effects",
-								"entries": [
-									"The region surrounding a legendary deep dragon's lair is altered by the dragon's magic, creating one or more of the following effects:",
-									{
-										"type": "list",
-										"style": "list-hang-notitle",
-										"items": [
-											{
-												"type": "item",
-												"name": "Preservation of Knowledge.",
-												"entry": "Books, letters, and any other physical forms of writing within 6 miles of the dragon's lair become magically charged and can't be damaged by nonmagical means."
-											},
-											{
-												"type": "item",
-												"name": "Restless Sleep.",
-												"entry": "When a creature finishes a long rest within 6 miles of the lair, the creature must first succeed on a DC 10 Constitution saving throw or be unable to reduce its level of {@condition exhaustion}. Creatures immune to the {@condition poisoned} condition are immune to this effect."
-											},
-											{
-												"type": "item",
-												"name": "Verdant Growth.",
-												"entry": "Vegetation and fungi within 6 miles of the dragon's lair grow faster and cover a greater area than they normally would. Foraging in this area yields twice the usual amount of food."
-											}
-										]
-									},
-									"If the dragon dies, these effects fade over the course of {@dice 1d10} days."
-								]
-							}
-						]
-					}
-				]
-			},
-			"dragonCastingColor": "deep",
-			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/My%20Tokens/monstrosity1.png",
-			"traitTags": [
-				"Legendary Resistances"
-			],
-			"senseTags": [
-				"B",
-				"SD"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack",
-				"Shapechanger"
-			],
-			"languageTags": [
-				"C",
-				"DR",
-				"U"
-			],
-			"damageTags": [
-				"B",
-				"I",
-				"P",
-				"S",
-				"Y"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"frightened",
-				"poisoned",
-				"prone"
-			],
-			"conditionInflictLegendary": [
-				"poisoned"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
 			"name": "Sophiel, the Bound",
 			"isNpc": true,
 			"source": "ZCC",
@@ -14737,7 +14370,12 @@
 				"E"
 			],
 			"ac": [
-				6
+				{
+					"ac": 9,
+					"from": [
+						"{@item elven chain}"
+					]
+				}
 			],
 			"hp": {
 				"formula": "17d6 + 68",
@@ -14784,7 +14422,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Spell save {@dc 19}; {@hit +10} to hit with spell attacks."
+						"Spell save {@dc 20}; {@hit +11} to hit with spell attacks."
 					],
 					"will": [
 						"{@spell detect thoughts}"
@@ -14807,6 +14445,14 @@
 					"type": "spellcasting"
 				}
 			],
+			"trait": [
+				{
+					"name": "Prone",
+					"entries": [
+						"While on the ground, Sophiel is {@condition prone}."
+					]
+				}
+			],
 			"action": [
 				{
 					"name": "Teleport",
@@ -14819,10 +14465,11 @@
 				{
 					"name": "Macabre Marionette",
 					"entries": [
-						"When a creature attempts to damage Sophiel (or Nuriel if he can be seen by Sophiel), she can force them to make a {@dc 19} Charisma saving throw or be {@condition charmed} by her until the start of their next turn. A creature {@condition charmed} in this way is also {@condition incapacitated}."
+						"When a creature attempts to damage Sophiel (or Nuriel if he can be seen by Sophiel), she can force them to make a {@dc 20} Charisma saving throw or be {@condition charmed} by her until the start of their next turn. A creature {@condition charmed} in this way is also {@condition incapacitated}."
 					]
 				}
 			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/My%20Tokens/sophiel.png",
 			"senseTags": [
 				"SD"
 			],
@@ -14843,291 +14490,6 @@
 				"charmed",
 				"invisible",
 				"unconscious"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Nuriel, the Lost",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "ZCC",
-			"size": [
-				"L"
-			],
-			"type": "fiend",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 161,
-				"formula": "14d10 + 84"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 12,
-			"con": 22,
-			"int": 8,
-			"wis": 15,
-			"cha": 16,
-			"save": {
-				"dex": "+5",
-				"wis": "+6",
-				"cha": "+7"
-			},
-			"skill": {
-				"perception": "+6",
-				"survival": "+6"
-			},
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"passive": 16,
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened"
-			],
-			"languages": [
-				"understands all languages but can't speak"
-			],
-			"cr": "12",
-			"trait": [
-				{
-					"name": "Regeneration",
-					"entries": [
-						"Nuriel regains 20 hit points at the start of his turn. If Nuriel takes radiant damage, this trait doesn't function at the start of his next turn. Nuriel dies only if he starts his turn with 0 hit points and doesn't regenerate."
-					]
-				},
-				{
-					"name": "Unusual Nature",
-					"entries": [
-						"Nuriel doesn't require air, food, drink, or sleep."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If Nuriel fails a saving throw, he can choose to succeed instead."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Nuriel makes two attacks. He can replace one attack with Deadly Shaping if it is ready."
-					]
-				},
-				{
-					"name": "Executioner's Pick",
-					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of Nuriel's next turn."
-					]
-				},
-				{
-					"name": "Fist",
-					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "Deadly Shaping {@recharge 5}",
-					"entries": [
-						"Nuriel magically shapes a feature of his surroundings into a deadly implement. A creature Nuriel can see within 60 feet of him must make a {@dc 18} Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (Nuriel's choice):"
-					]
-				},
-				{
-					"name": "Flying Stone",
-					"entries": [
-						"The target takes 22 ({@damage 5d8}) bludgeoning damage and is {@condition incapacitated} until the start of Nuriel's next turn, and the implement vanishes."
-					]
-				},
-				{
-					"name": "Scything Shrapnel",
-					"entries": [
-						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Brother",
-					"entries": [
-						"When Sophiel is damaged by a creature, Nuriel can respond by moving up to his speed towards the creature, or taking the Multiattack action if the creature is already within reach."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Implacable Advance",
-					"entries": [
-						"Nuriel moves up to his speed, ignoring difficult terrain. Any object in his path takes 55 ({@damage 10d10}) bludgeoning damage if it isn't being worn or carried."
-					]
-				},
-				{
-					"name": "Rapid Shaping (Costs 3 Actions)",
-					"entries": [
-						"Nuriel recharges Deadly Shaping and uses it."
-					]
-				}
-			],
-			"fluff": {
-				"name": "Relentless Juggernaut",
-				"source": "VRGR",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							"Relentless juggernauts are massive brutes that thirst for carnage. Their presence twists the world around them, allowing them to create weapons with which they can slaughter prey. Sharp iron fences, crushing stalagmites and blades of glass all conveniently appear in order to aid a juggernaut's brutality. Every juggernaut considers a certain area its territory and visits destruction upon all trespassers.",
-							"Relentless killers are hateful, revenge-obsessed creatures that enter into pacts with fiends or other nefarious entities. Their bargains transform them into vicious butchers that exist only to indulge their endless bloodlust. While some who become relentless killers began life as innocents, any semblance of who they were is washed away in a tide of gore and rage. These killers' grisly work swiftly becomes the stuff of legends, striking fear into innocents across lands and over ages."
-						]
-					},
-					{
-						"type": "section",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Creating a Relentless Killer",
-								"entries": [
-									"Relentless killers come into being and undertake their terrifying sprees for a spectrum of reasons. When creating a relentless killer, consider what circumstances led to their transformation and signature methods. Roll or choose options from the Relentless Origins and Relentless Methods tables when creating your own, unique monstrous slayers.",
-									{
-										"type": "table",
-										"caption": "Relentless Origins",
-										"colLabels": [
-											"d6",
-											"Origin"
-										],
-										"colStyles": [
-											"col-2 text-center",
-											"col-10"
-										],
-										"rows": [
-											[
-												"1",
-												"It was left for dead and granted new life to seek revenge."
-											],
-											[
-												"2",
-												"It was turned into a weapon of vengeance by a family member's bargain with sinister forces."
-											],
-											[
-												"3",
-												"It was marked by a fiend before its birth, and its wicked nature emerged over time."
-											],
-											[
-												"4",
-												"A wicked place or magic relic seeped into its being, turning it into a monster."
-											],
-											[
-												"5",
-												"The killer used its body to contain an evil entity."
-											],
-											[
-												"6",
-												"The killer appears to be an ordinary person who doesn't realize it turns into a killer when enraged."
-											]
-										]
-									},
-									{
-										"type": "table",
-										"caption": "Relentless Methods",
-										"colLabels": [
-											"d8",
-											"Method"
-										],
-										"colStyles": [
-											"col-2 text-center",
-											"col-10"
-										],
-										"rows": [
-											[
-												"1",
-												"Artist. The killer turns its victims into works of art, perhaps creating grisly tableaus or using their blood in the forging of new weapons."
-											],
-											[
-												"2",
-												"Author. The killer leaves messages, poems, song lyrics, or parts of its creative masterpiece at the scenes of its crimes."
-											],
-											[
-												"3",
-												"Avatar. The killer sacrifices its victims, believing it's a manifestation of a deity or force beyond morality."
-											],
-											[
-												"4",
-												"Doctor. The killer dissects victims or harvests their organs for the sake of medical understanding."
-											],
-											[
-												"5",
-												"Mask. The killer wears a distinctive disguise, its visage becoming a symbol of its crimes."
-											],
-											[
-												"6",
-												"Penitent. The killer can't help itself from committing crimes and seeks help to thwart its own continuing violence."
-											],
-											[
-												"7",
-												"Ritualist. The killer always attacks the same type of person in the same type of place in the same way."
-											],
-											[
-												"8",
-												"Trophy Taker. The killer reliably collects something from its victims, hoarding them as trophies."
-											]
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/VRGR/Relentless Juggernaut.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://5e.tools/img/VRGR/Relentless Juggernaut.png",
-			"traitTags": [
-				"Legendary Resistances",
-				"Regeneration"
-			],
-			"senseTags": [
-				"SD"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"CS",
-				"XX"
-			],
-			"damageTags": [
-				"B",
-				"N",
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"incapacitated",
-				"prone"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -16467,134 +15829,442 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Octavia's Simulacrum",
-			"shortName": "Octavia",
+			"name": "Nuriel, the Juggernaut",
+			"shortName": "Nuriel",
 			"isNpc": true,
-			"isNamedCreature": true,
 			"source": "ZCC",
 			"size": [
-				"M"
+				"L"
 			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"elf"
-				]
-			},
-			"alignment": [
-				"L",
-				"N"
-			],
+			"type": "fiend",
 			"ac": [
-				12,
 				{
-					"ac": 15,
-					"condition": "with {@spell mage armor}",
-					"braces": true
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
 				}
 			],
 			"hp": {
-				"formula": "9d8 + 18",
-				"average": 58
+				"average": 161,
+				"formula": "14d10 + 84"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 10,
-			"dex": 14,
-			"con": 14,
-			"int": 20,
-			"wis": 16,
+			"str": 22,
+			"dex": 12,
+			"con": 22,
+			"int": 8,
+			"wis": 15,
 			"cha": 16,
 			"save": {
-				"int": "+11",
-				"wis": "+9"
+				"dex": "+5",
+				"wis": "+6",
+				"cha": "+7"
 			},
 			"skill": {
-				"arcana": "+17",
-				"history": "+17",
-				"perception": "+9"
+				"perception": "+6",
+				"survival": "+6"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"darkvision 120 ft."
 			],
-			"passive": 19,
+			"passive": 16,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
 			"languages": [
-				"Common",
-				"Elvish",
-				"Celestial",
-				"Dwarvish",
-				"Draconic"
+				"understands all languages but can't speak"
 			],
 			"cr": "12",
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"18th-Level Wizard; Spell-save {@dc 19}; {@hit 11} to hit with spell attacks."
-					],
-					"will": [
-						"{@spell frostbite|XGE}",
-						"{@spell magic missile}",
-						"{@spell misty step}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell fireball}",
-							"{@spell hold monster}",
-							"{@spell ice storm}"
-						],
-						"1e": [
-							"{@spell crown of stars|XGE}",
-							"{@spell mass suggestion}",
-							"{@spell sunburst}"
-						]
-					},
-					"type": "spellcasting"
-				}
-			],
 			"trait": [
 				{
-					"name": "Fey Ancestry",
+					"name": "Relentless Tenacity (3/Day)",
 					"entries": [
-						"Octavia has advantage on saving throws against being {@condition charmed}, and magic can't put Octavia to sleep."
+						"If Nuriel fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Nuriel regains 20 hit points at the start of his turn. If he takes radiant damage, this trait doesn't function at the start of his next turn. Nuriel dies only if he starts his turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Nuriel doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Nuriel makes two attacks. He can replace one attack with Deadly Shaping if it is ready."
+					]
+				},
+				{
+					"name": "Spiked Flail",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Deadly Shaping {@recharge 5}",
+					"entries": [
+						"Nuriel magically shapes a feature of his surroundings into a deadly implement. A creature Nuriel can see within 60 feet of him must make a {@dc 18} Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (Nuriel's choice):"
+					]
+				},
+				{
+					"name": "Flying Stone",
+					"entries": [
+						"The target takes 22 ({@damage 5d8}) bludgeoning damage and is {@condition incapacitated} until the start of the juggernaut's next turn, and the implement vanishes."
+					]
+				},
+				{
+					"name": "Scything Shrapnel",
+					"entries": [
+						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"When a creature within 5 feet of Nuriel is hit by an attack, Nuriel causes himself to be hit instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Implacable Advance",
+					"entries": [
+						"The juggernaut moves up to its speed, ignoring difficult terrain. Any object in its path takes 55 ({@damage 10d10}) bludgeoning damage if it isn't being worn or carried."
+					]
+				},
+				{
+					"name": "Rapid Shaping (Costs 3 Actions)",
+					"entries": [
+						"The juggernaut recharges Deadly Shaping and uses it."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/My%20Tokens/Nuriel.png",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Nuriel, the Juggernaut",
+			"shortName": "Nuriel",
+			"source": "ZCC",
+			"size": [
+				"L"
+			],
+			"type": "fiend",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 161,
+				"formula": "14d10 + 84"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 22,
+			"int": 8,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"dex": "+5",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+6",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"understands all languages but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Relentless Tenacity (3/Day)",
+					"entries": [
+						"If Nuriel fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Nuriel regains 20 hit points at the start of his turn. If he takes radiant damage, this trait doesn't function at the start of his next turn. Nuriel dies only if he starts his turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Nuriel doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Nuriel makes two attacks. He can replace one attack with Deadly Shaping if it is ready."
+					]
+				},
+				{
+					"name": "Spiked Flail",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Deadly Shaping {@recharge 5}",
+					"entries": [
+						"Nuriel magically shapes a feature of his surroundings into a deadly implement. A creature Nuriel can see within 60 feet of him must make a {@dc 18} Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (Nuriel's choice):"
+					]
+				},
+				{
+					"name": "Flying Stone",
+					"entries": [
+						"The target takes 22 ({@damage 5d8}) bludgeoning damage and is {@condition incapacitated} until the start of the juggernaut's next turn, and the implement vanishes."
+					]
+				},
+				{
+					"name": "Scything Shrapnel",
+					"entries": [
+						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"When a creature within 5 feet of Nuriel is hit by an attack, Nuriel causes himself to be hit instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Implacable Advance",
+					"entries": [
+						"The juggernaut moves up to its speed, ignoring difficult terrain. Any object in its path takes 55 ({@damage 10d10}) bludgeoning damage if it isn't being worn or carried."
+					]
+				},
+				{
+					"name": "Rapid Shaping (Costs 3 Actions)",
+					"entries": [
+						"The juggernaut recharges Deadly Shaping and uses it."
 					]
 				}
 			],
 			"fluff": {
+				"name": "Relentless Juggernaut",
+				"source": "VRGR",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Relentless juggernauts are massive brutes that thirst for carnage. Their presence twists the world around them, allowing them to create weapons with which they can slaughter prey. Sharp iron fences, crushing stalagmites and blades of glass all conveniently appear in order to aid a juggernaut's brutality. Every juggernaut considers a certain area its territory and visits destruction upon all trespassers.",
+							"Relentless killers are hateful, revenge-obsessed creatures that enter into pacts with fiends or other nefarious entities. Their bargains transform them into vicious butchers that exist only to indulge their endless bloodlust. While some who become relentless killers began life as innocents, any semblance of who they were is washed away in a tide of gore and rage. These killers' grisly work swiftly becomes the stuff of legends, striking fear into innocents across lands and over ages."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Creating a Relentless Killer",
+								"entries": [
+									"Relentless killers come into being and undertake their terrifying sprees for a spectrum of reasons. When creating a relentless killer, consider what circumstances led to their transformation and signature methods. Roll or choose options from the Relentless Origins and Relentless Methods tables when creating your own, unique monstrous slayers.",
+									{
+										"type": "table",
+										"caption": "Relentless Origins",
+										"colLabels": [
+											"d6",
+											"Origin"
+										],
+										"colStyles": [
+											"col-2 text-center",
+											"col-10"
+										],
+										"rows": [
+											[
+												"1",
+												"It was left for dead and granted new life to seek revenge."
+											],
+											[
+												"2",
+												"It was turned into a weapon of vengeance by a family member's bargain with sinister forces."
+											],
+											[
+												"3",
+												"It was marked by a fiend before its birth, and its wicked nature emerged over time."
+											],
+											[
+												"4",
+												"A wicked place or magic relic seeped into its being, turning it into a monster."
+											],
+											[
+												"5",
+												"The killer used its body to contain an evil entity."
+											],
+											[
+												"6",
+												"The killer appears to be an ordinary person who doesn't realize it turns into a killer when enraged."
+											]
+										]
+									},
+									{
+										"type": "table",
+										"caption": "Relentless Methods",
+										"colLabels": [
+											"d8",
+											"Method"
+										],
+										"colStyles": [
+											"col-2 text-center",
+											"col-10"
+										],
+										"rows": [
+											[
+												"1",
+												"Artist. The killer turns its victims into works of art, perhaps creating grisly tableaus or using their blood in the forging of new weapons."
+											],
+											[
+												"2",
+												"Author. The killer leaves messages, poems, song lyrics, or parts of its creative masterpiece at the scenes of its crimes."
+											],
+											[
+												"3",
+												"Avatar. The killer sacrifices its victims, believing it's a manifestation of a deity or force beyond morality."
+											],
+											[
+												"4",
+												"Doctor. The killer dissects victims or harvests their organs for the sake of medical understanding."
+											],
+											[
+												"5",
+												"Mask. The killer wears a distinctive disguise, its visage becoming a symbol of its crimes."
+											],
+											[
+												"6",
+												"Penitent. The killer can't help itself from committing crimes and seeks help to thwart its own continuing violence."
+											],
+											[
+												"7",
+												"Ritualist. The killer always attacks the same type of person in the same type of place in the same way."
+											],
+											[
+												"8",
+												"Trophy Taker. The killer reliably collects something from its victims, hoarding them as trophies."
+											]
+										]
+									}
+								]
+							}
+						]
+					}
+				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
-							"type": "external",
-							"url": "https://5e.tools/img/MaBJoV/Eo%20Ashmajiir.png"
+							"type": "internal",
+							"path": "bestiary/VRGR/Relentless Juggernaut.jpg"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://5e.tools/img/MaBJoV/Eo%20Ashmajiir.png",
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/archmage.mp3"
-			},
+			"tokenUrl": "https://5e.tools/img/VRGR/Relentless Juggernaut.png",
 			"traitTags": [
-				"Fey Ancestry"
+				"Regeneration"
 			],
 			"senseTags": [
-				"D"
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
 			],
 			"languageTags": [
-				"C",
-				"CE",
-				"D",
-				"DR",
-				"E"
+				"CS",
+				"XX"
 			],
 			"damageTags": [
-				"P"
+				"B",
+				"N",
+				"P",
+				"S"
 			],
-			"spellcastingTags": [
-				"CW"
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"prone"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
