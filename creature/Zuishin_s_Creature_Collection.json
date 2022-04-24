@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.152.4",
+	"siteVersion": "1.153.2",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1649628222,
-		"dateLastModified": 1649628222
+		"dateAdded": 1650830658,
+		"dateLastModified": 1650830658
 	},
 	"monster": [
 		{
@@ -16265,6 +16265,502 @@
 			"conditionInflict": [
 				"incapacitated",
 				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "The Bedlam Queen",
+			"shortName": "archfey",
+			"isNpc": true,
+			"source": "ZCC",
+			"size": [
+				"H"
+			],
+			"type": "fey",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "26d8 + 78"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 12,
+			"dex": 22,
+			"con": 16,
+			"int": 17,
+			"wis": 19,
+			"cha": 12,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"all"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The archfey casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell major image}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell detect thoughts}",
+							"{@spell fear}"
+						],
+						"1e": [
+							"{@spell confusion}",
+							"{@spell dominate person}",
+							"{@spell mass suggestion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Rebirth",
+					"entries": [
+						"If the archfey dies in The Furtive Sanctum, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the archfey fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archfey can use its Miring Guise. It then makes three melee attacks, or it makes two melee attacks and uses Spellcasting."
+					]
+				},
+				{
+					"name": "Incisive Limbs",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 4d4 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Prehensile Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one medium or smaller creature. {@h}9 ({@damage 2d8}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the creature is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Miring Guise",
+					"entries": [
+						"Each creature of the archfey's choice that is within 60 feet of the archfey and can see the archfey must succeed on a {@dc 17} Charisma saving throw or become slowed until the start of their next turn.",
+						"A creature can use their reaction to avert its eyes and avoid the saving throw. If the creature does so, it is {@condition blinded} towards the archfey until the start of the creature's next turn."
+					]
+				},
+				{
+					"name": "Faerie Dredge {@recharge 6}",
+					"entries": [
+						"The archfey showers the surrounding area in iridescent dust. Creatures within 30 feet of the archfey must succeed on a {@dc 18} Dexterity saving throw or be covered in the dust. The dust can be removed with an action or with a strong wind. ",
+						"A creature that starts its turn covered in the dust takes 26 ({@damage 4d12}) psychic damage. Additionally, whenever a creature covered in dust makes an attack roll or saving throw, they must roll a {@dice d6} and subtract the number rolled from the attack roll or saving throw."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The archfey magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the archfey's choice).",
+						"In a new form, the archfey retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The archfey moves up to its speed."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"The archfey makes a prehensile tail attack."
+					]
+				},
+				{
+					"name": "Abridge Destiny (Costs 2 Actions)",
+					"entries": [
+						"Any creature {@condition charmed} by the archfey or covered in dust from the archfey's Faerie Dredge must make a {@dc 18} Constitution saving throw, aging by {@dice 3d12} years on a failure, or half as much on a success."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"S",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mythling",
+			"shortName": "mythling",
+			"source": "ZCC",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 30
+			},
+			"str": 2,
+			"dex": 20,
+			"con": 8,
+			"int": 10,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"stealth": "+9"
+			},
+			"passive": 12,
+			"languages": [
+				"Sylvan"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Shared Spellcasting (Swarm Only)",
+					"headerEntries": [
+						"The mythling casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dispel magic}"
+						],
+						"1e": [
+							"{@spell confusion}",
+							"{@spell synaptic static|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Superior Invisibility",
+					"entries": [
+						"The mythling magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the mythling wears or carries is {@condition invisible} with it."
+					]
+				},
+				{
+					"name": "Chromatic Orb",
+					"entries": [
+						"{@atk rs} {@hit 7} to hit, range 90 ft., one target. {@h}13 ({@damage 3d8}) damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/assets/My%20Tokens/monstrosity9.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pixie.mp3"
+			},
+			"languageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"S"
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"conditionInflictSpell": [
+				"restrained",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "The Bedlam Crystal",
+			"shortName": "archfey",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "36d6 + 180",
+				"average": 306
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 12,
+			"con": 21,
+			"int": 24,
+			"wis": 25,
+			"cha": 28,
+			"save": {
+				"con": "+11",
+				"cha": "+15"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)",
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"vulnerable": [
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned"
+			],
+			"languages": [
+				"all",
+				"telepathy 1,000 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The archfey casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 21}):"
+					],
+					"will": [
+						"{@spell project image}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell confusion}",
+							"{@spell counterspell}",
+							"{@spell fear}",
+							"{@spell shield}"
+						],
+						"1e": [
+							"{@spell dominate person}",
+							"{@spell mass suggestion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dissonant Aura",
+					"entries": [
+						"So long as the archfey has at least 1 hit point, each creature within 10 feet of it takes 15 psychic damage at the start of each of the archfey's turns."
+					]
+				},
+				{
+					"name": "Archfey",
+					"entries": [
+						"If the archfey dies in its domain, it revives with all its hit points in {@dice 1d4} days later in a safe location in that domain."
+					]
+				},
+				{
+					"name": "Mythic Shards",
+					"entries": [
+						"The archfey has 3 shards that hover around it. A shard is a tiny object, has 15 hit points, 19 AC and shares a space with the archfey. Attacks against the shards have disadvantage.",
+						"If the archfey fails a saving throw while there are shards around it, it can consume one of the shards and instead succeed on the saving throw."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archfey makes three Arcane Blast attacks, or it makes one Arcane Blast attack and uses Spellcasting."
+					]
+				},
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"{@atk rs} {@hit 13} to hit, range 120 ft., one target. {@h}13 ({@damage 1d12 + 7}) force damage. The minimum DC for concentrating on a spell after being hit by this attack equals 21."
+					]
+				},
+				{
+					"name": "Emerald Imprisonment",
+					"entries": [
+						"The archfey fires a magical ray towards a creature within 120 feet of it. The targeted creature must make a {@dc 21} Dexterity saving throw. On a failed save, the creature begins to turn to stone and is {@condition restrained}. A creature {@condition restrained} in this way must make a {@dc 21} Constitution saving throw at the end of their next turn, becoming {@condition petrified} on a failure, and ending the effect on a success."
+					]
+				},
+				{
+					"name": "Faerie Dredge {@recharge 5}",
+					"entries": [
+						"The archfey magically conjures an iridescent dust that showers the area. Creatures within 30 feet of the archfey must succeed on a {@dc 21} Dexterity saving throw or be covered in the dust. The dust can be removed with an action or with a strong wind.",
+						"A creature that starts its turn covered in the dust takes 26 ({@damage 4d12}) psychic damage. Additionally, whenever a creature covered in dust makes an attack roll or saving throw, they must roll a {@dice d6} and subtract the number rolled from the attack roll or saving throw."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Reflection",
+					"entries": [
+						"If the archfey makes a successful saving throw against a spell, or a spell attack misses it, the archfey can choose another creature (including the spellcaster) it can see within 30 feet of it. The spell targets the chosen creature instead of the archfey. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Abridge Destiny (Costs 2 Actions)",
+					"entries": [
+						"Any creature {@condition charmed} by the archfey or covered in the dust from the archfey's Faerie Dredge must make a {@dc 21} Constitution saving throw, aging by {@dice 3d12} years on a failure, or half as much on a success."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The archfey magically teleports up to 90 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Kinetic Pulse",
+					"entries": [
+						"The archfey releases a magical pulse around it. Any creature within 20 feet of the archfey must succeed a {@dc 21} Strength saving throw or be hurled {@dice 2d4 × 10} feet away from it. If the target comes into contact with a hard surface or heavy object, the target takes {@dice 1d6} damage per 10 feet moved."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Aboleth",
+				"source": "MM"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/IDRotF/Auril (Third Form).jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/IDRotF/Auril (Third Form).png",
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"damageTagsLegendary": [
+				"Y"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"restrained"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
