@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.153.2",
+	"siteVersion": "1.154.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1650830658,
-		"dateLastModified": 1650830658
+		"dateAdded": 1651434122,
+		"dateLastModified": 1651434122
 	},
 	"monster": [
 		{
@@ -16764,6 +16764,120 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Ardeep Scout",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8",
+				"average": 31
+			},
+			"speed": 35,
+			"str": 11,
+			"dex": 18,
+			"con": 11,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+8",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The wood elf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The wood elf has advantage on saving throws against being {@condition charmed}, and magic can't put the wood elf to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Ensnaring Shot (En1)",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150 ft., one creature. 6 ({@damage 1d8 + 2}) piercing damage, and the creature must succeed a {@dc 13} Strength saving throw or be {@condition restrained} until the end of the scout's next turn."
+					]
+				},
+				{
+					"name": "Enfeebling Strike (En1)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the next time the creature is hit with an attack, the creature has vulnerability to all of that attack's damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SKT/Wood Elf.png",
+			"traitTags": [
+				"Fey Ancestry",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
 		}
 	]
 }
