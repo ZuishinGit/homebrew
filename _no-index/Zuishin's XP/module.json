@@ -12,10 +12,10 @@
   "compatibleCoreVersion": "9",
   "url": "https://github.com/ZuishinGit/homebrew/tree/master/_no-index/Zuishin's%20XP",
   "manifest": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/Zuishin's%20XP/module.json",
-  // "download": "https://github.com/schultzcole/FVTT-Simple-Experience-5e/archive/1.0.0.zip",
+  "download": "https://github.com/schultzcole/FVTT-Simple-Experience-5e/archive/1.0.0.zip",
   "license": "https://raw.githubusercontent.com/ZuishinGit/homebrew/master/_no-index/Zuishin's%20XP/LICENSE",
   "readme": "https://github.com/ZuishinGit/homebrew/blob/master/_no-index/Zuishin's%20XP/README.md",
-  // "changelog": "https://github.com/ZuishinGit/homebrew/blob/master/_no-index/Zuishin's%20XP/CHANGELOG.md"
+  "changelog": "https://github.com/ZuishinGit/homebrew/blob/master/_no-index/Zuishin's%20XP/CHANGELOG.md"
 }
 
  
