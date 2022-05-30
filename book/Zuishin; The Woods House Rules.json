@@ -401,16 +401,16 @@
 											"entries":[
 												{
 													"type":"entries",
-													"name":"10-foot Pole",
+													"name":"Anti-dogpiling Rule",
 													"entries":[
-														"Excessively unwieldy items such as the {@item pole (10-foot)|phb|10-foot pole} cause your speed to be reduced by 10 feet (as if {@variantrule Encumbrance|phb|encumbered})."
+														"Sometimes a skill check has no adverse effects for failure, in such a case it might seem appealing to let everyone attempt such a skill check which eventually will basically guarantee success on the check. To avoid this, sometimes (pretty rarely) I will limit who can attempt the check (based on background, proficiency, etc)."
 													]
 												},
 												{
 													"type":"entries",
-													"name":"Anti-dogpiling Rule",
+													"name":"Blind Shot",
 													"entries":[
-														"Sometimes a skill check has no adverse effects for failure, in such a case it might seem appealing to let everyone attempt such a skill check which eventually will basically guarantee success on the check. To avoid this, sometimes (pretty rarely) I will limit who can attempt the check (based on background, proficiency, etc)."
+														"Making an attack while you or the target are heavily obscured (or {@condition blinded}) is always at disadvantage, and can gain no benefit from advantage."
 													]
 												},
 												{
@@ -419,7 +419,7 @@
 													"entries":[
 														"Generally if a skill check tests your capabilities but it feels like you can just reattempt it upon failing, I will rule that you can't actually reattempt it until some time has passed. Depending on how arduous the task is, the cooldown can range from a short rest to the next time you level up. Examples of checks like this include a Strength ({@skill Athletics}) check to bust a door down or an Intelligence ({@skill Investigation}) check to decipher a coded book. When you fail such a check, I will tell you when you can next reattempt it, so keep note."
 													]
-												}
+												},
 												{
 													"type":"entries",
 													"name":"Monster Multiattacks and Grappling",
