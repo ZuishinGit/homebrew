@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.155.2",
+	"siteVersion": "1.161.0",
 	"_meta": {
 		"sources": [
 			{
@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1653940838,
-		"dateLastModified": 1653940838
+		"dateAdded": 1656880795,
+		"dateLastModified": 1656880795
 	},
 	"monster": [
 		{
@@ -11176,6 +11176,209 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Octavia",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "30d8 + 60",
+				"average": 195
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 22,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+11",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+16",
+				"history": "+16"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Octavia has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Octavia has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Octavia's Missile (1st-Level Spell)",
+					"entries": [
+						"Octavia fires 3 magical darts, targeting a creature within 120 feet of her, dealing  5 ({@damage 1d4 + 3}) for each dart."
+					]
+				},
+				{
+					"name": "Explosion (5th-Level Spell; 1/Day)",
+					"entries": [
+						"Octavia takes 10 irreducible damage as she causes an explosion of flame in a 20-foot-radius sphere centered on a point within 120 feet of her. Each creature in the explosion must make a {@dc 21} Dexterity saving throw, taking {@damage 66} Fire damage on a failed save or half as much on a success."
+					]
+				},
+				{
+					"name": "Sleet Storm (3rd-Level Spell; Concentration)",
+					"entries": [
+						"Octavia creates a 20-foot-tall cylinder with a 40-foot radius centered on a point within 150 feet of her. The area causes the following effects:",
+						{
+							"type": "list",
+							"items": [
+								"The area becomes difficult terrain.",
+								"The area is heavily obscured.",
+								"A creature starting their turn in the space or entering it for the first time on a turn must succeed on a {@dc 21} Dexterity saving throw or fall {@condition prone}.",
+								"If a creature starts its turn in the area and is concentrating on a spell, the creature must succeed a {@dc 21} Constitution saving throw or lose concentration."
+							]
+						}
+					]
+				},
+				{
+					"name": "Feeblemind (8th-Level Spell)",
+					"entries": [
+						"Octavia targets one creature within 150 feet of her that she can see. The creature takes 14 ({@damage 4d6}) Psychic damage and must succeed on a Intelligence saving throw or have their Intelligence and Charisma scores reduced to 1. While their scores are reduced, the creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way."
+					]
+				},
+				{
+					"name": "Fire Bolt",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 120 ft., one target. {@h}28 ({@damage 4d10 + 6}) fire damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Misty Step (2nd-Level Spell)",
+					"entries": [
+						"Octavia magically teleports up to 30 feet to an unoccupied space that she can see."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Counterspell (3rd-Level Spell)",
+					"entries": [
+						"Octavia interrupts a creature casting a spell within 60 feet of her that she can see. A spell higher than 3rd level can only be interrupted if Octavia succeeds an Intelligence check. The DC of this check equals 10 + the spell's level."
+					]
+				},
+				{
+					"name": "Shield (1st-Level Spell)",
+					"entries": [
+						"When attacked, Octavia can gain a +5 bonus to her AC until the start of her next turn."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"Octavia casts a cantrip."
+					]
+				},
+				{
+					"name": "Imbibe Potion (Costs 2 Actions)",
+					"entries": [
+						"Octavia drinks a potion from her list:",
+						{
+							"type": "list",
+							"items": [
+								"Potion of heroism: Octavia gains 10 temporary hit points for 1 hour. For the same duration, Octavia is under the effect of the {@spell bless} spell (no concentration required).",
+								"Potion of resistance: Octavia gains resistance from one damage type for 1 hour. Octavia chooses from one of these damage types: cold, fire, lightning.",
+								"Potion of superior healing: Octavia regains 45 hit points."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5etools-mirror-1.github.io/img/bestiary/MM/Archmage.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Archmage.png?v=1.158.4",
+			"traitTags": [
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"F"
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Archmage (Familiar)",
+					"source": "MM",
+					"_mod": {
+						"_": {
+							"mode": "addSpells",
+							"spells": {
+								"1": {
+									"spells": [
+										"{@spell find familiar} (one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit})"
+									]
+								}
+							}
+						}
+					},
+					"variant": null
+				}
+			]
+		},
+		{
 			"name": "Oma, Mother Ghul",
 			"shortName": "Oma",
 			"isNpc": true,
@@ -14595,6 +14798,115 @@
 			"miscTags": [
 				"AOE",
 				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Urogan Assassin",
+			"shortName": "Assassin",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "15d8 + 60",
+				"average": 127
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 20,
+			"con": 18,
+			"int": 10,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"dex": "+8",
+				"wis": "+6",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+11",
+				"stealth": "+11",
+				"perception": "+6",
+				"sleight of hand": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"cr": "7",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two attacks, only one of which can be their chain."
+					]
+				},
+				{
+					"name": "Chain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h} the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained} and the assassin can't grapple another target using this chain."
+					]
+				},
+				{
+					"name": "Scythe",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage. If this attack is made at advantage, it deals an additional 24 ({@damage 7d6}) damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 20/60 ft., one target. {@h}8 ({@damage 1d4 + 5}) piercing damage. If this attack is made at advantage, it deals an additional 24 ({@damage 7d6}) damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The assassin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Chain Poise",
+					"entries": [
+						"The assassin adds 3 to its AC against one melee weapon attack that would hit it. If this AC causes the attack to miss, the weapon is entrapped by the chain. If the weapon's wielder can't or won't let go of the weapon, the wielder is {@condition grappled} while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a {@dc 16} Strength check."
+					]
+				}
+			],
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MM/Spy.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW",
+				"THW"
 			],
 			"conditionInflict": [
 				"grappled",
