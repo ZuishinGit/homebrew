@@ -16,8 +16,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1656881285,
-		"dateLastModified": 1656881285
+		"dateAdded": 1658085416,
+		"dateLastModified": 1658085416
 	},
 	"monster": [
 		{
@@ -11395,6 +11395,185 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Orthon Grenadier",
+			"shortName": "fiend",
+			"source": "ZCC",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d10 + 105",
+				"average": 220
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 21,
+			"int": 10,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"cha": "+7",
+				"wis": "+7",
+				"dex": "+7"
+			},
+			"skill": {
+				"stealth": "+12",
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 22,
+			"resist": [
+				{
+					"resist": [
+						"cold"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The fiend has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The fiend has advantage on attack rolls against any creature it has surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fiend makes up to 3 attacks. It can replace one of these attacks with a use of its bombs."
+					]
+				},
+				{
+					"name": "Halberd",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage plus an additional 10 ({@damage 4d4}) fire damage."
+					]
+				},
+				{
+					"name": "Lob Bomb (4/Day)",
+					"entries": [
+						"The fiend lobs an alchemical bomb at a space within 120 feet of it, causing one of the following effects around the space in a 15-foot radius sphere:",
+						{
+							"type": "list",
+							"items": [
+								"Each creature in the area that can see must succeed on a {@dc 18} Wisdom saving throw or become {@condition charmed} until the end of their next turn. While {@condition charmed} in this way, a creature is also {@condition paralyzed}.",
+								"Each creature in the area must make a {@dc 18} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save or half as much on a success.",
+								"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition blinded} until the end of the creature's next turn.",
+								"The area becomes difficult terrain for 1 minute and each creature inside it must succeed on a {@dc 18} Strength saving throw or become {@condition restrained} (escape {@dc 18}). A creature that enters the area or ends its turn there must also make the saving throw.",
+								"Each creature in the area must make a {@dc 18} Intelligence saving throw, taking 13 ({@damage 2d12}) psychic damage on a failed save or half as much on a success. Also on a failure, whenever the creature makes an attack or saving throw before the end of their next turn, it must roll a {@dice d6} and subtract the number rolled from the attack roll or saving throw result.",
+								"Each creature in the area must succeed a {@dc 18} Charisma saving throw or have their soul captured, leaving behind their {@condition unconscious} body. A creature whose soul is captured can't move or use reactions, and the only action they can take is to attempt to return to their body by making a Charisma check. The DC for this check equals 10 + the creature's number of attuned items. On a failure, a creature is forced to break their attunement to one item (unless it is cursed)."
+							]
+						},
+						"The fiend can't use the same effect two rounds in a row."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Invisibility Field {@recharge 4}",
+					"entries": [
+						"The fiend becomes {@condition invisible}. Any equipment it wears or carries is also {@condition invisible} as long as the equipment is on its person. This invisibility ends immediately after it makes an attack roll or is hit by an attack roll."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Explosive Retribution",
+					"entries": [
+						"In response to dropping to 15 hit points or fewer, the fiend explodes. All other creatures within 30 feet of it must each make a {@dc 18} Dexterity saving throw, taking 13 ({@damage 3d8}) fire damage plus 13 ({@damage 3d8}) thunder damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"S",
+				"T",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"charmed",
+				"paralyzed",
+				"restrained"
+			]
+		},
+		{
 			"name": "Priados, Archon of Agonas",
 			"shortName": "Priados",
 			"isNpc": true,
@@ -14708,6 +14887,361 @@
 			"conditionInflict": [
 				"grappled",
 				"restrained"
+			]
+		},
+		{
+			"name": "Urogan Bowman",
+			"shortName": "bowman",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item half plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8",
+				"average": 31
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 10,
+			"int": 11,
+			"wis": 16,
+			"cha": 12,
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Magical Ammunition {@recharge 5}",
+					"entries": [
+						"The bowman makes a longbow attack. On a hit, the bowman can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items": [
+								"The target must succeed on a {@dc 13} Strength saving throw or be {@condition restrained} until the end of their next turn.",
+								"The target must succeed on a {@dc 13} Wisdom saving throw or be forced to use its reaction, if available, to move as far as its speed allows in a direction chosen by the bowman.",
+								"The target must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} until the end of the creature's next turn."
+							]
+						}
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Overwatch",
+					"entries": [
+						"The bowman makes a longbow attack at a creature that ended their turn beyond 30 feet of the bowman, provided the attack does not have disadvantage and the creature is not benefiting from any cover."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Urogan Elite Warrior",
+			"shortName": "warrior",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"insight": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the warrior hits with it."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warrior makes two attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The warrior adds 3 to its AC against one melee attack that would hit it. To do so, the warrior must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"traitTags": [
+				"Brute",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Drow Elite Warrior (Magic Equipment)",
+					"source": "MM",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": {
+								"name": "Special Equipment",
+								"entries": [
+									"The drow wears {@item drow +2 studded leather armor|mm|+2 studded leather armor} and carries a {@item drow +2 shortsword|mm|+2 shortsword}. These items lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer."
+								]
+							}
+						},
+						"action": {
+							"mode": "replaceArr",
+							"replace": "Shortsword",
+							"items": {
+								"name": "+2 Shortsword",
+								"entries": [
+									"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+								]
+							}
+						}
+					},
+					"ac": [
+						{
+							"ac": 20,
+							"from": [
+								"{@item drow +2 studded leather armor|mm|+2 studded leather armor}",
+								"{@item shield|phb}"
+							]
+						}
+					],
+					"variant": null
+				}
+			]
+		},
+		{
+			"name": "Urogan Mageslayer",
+			"shortName": "mageslayer",
+			"source": "ZCC",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d8 + 57",
+				"average": 142
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+5",
+				"wis": "+5",
+				"int": "+4"
+			},
+			"skill": {
+				"athletics": "+8",
+				"arcana": "+7"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 12,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The mageslayer has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Antimagic Weapons",
+					"entries": [
+						"When the mageslayer attacks a creature that is concentrating on a spell, the DC for their Constitution saving throw to maintain concentration equals 15."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mageslayer makes two attacks, only one of which can be a hooked chain attack."
+					]
+				},
+				{
+					"name": "Flail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage, plus 12 ({@damage 5d4}) psychic damage. If the result of this attack is a critical hit, and the target is a spellcasting creature, the target loses one spell slot of the highest level available up to 3rd level."
+					]
+				},
+				{
+					"name": "Hooked chain",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage, plus 12 ({@damage 5d4}) psychic damage. If the target is a Large or smaller creature, it must succeed on a Strength contest against the mageslayer or be pulled up to 20 feet toward the mageslayer."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Mage Slayer Strike",
+					"entries": [
+						"When a creature within 5 feet of the mageslayer casts a spell, the mageslayer uses its reaction to make one melee attack against it."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		},
 		{
